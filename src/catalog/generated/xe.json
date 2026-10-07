@@ -1,0 +1,4561 @@
+[
+ {
+  "id": "xe1-classification-of-flows",
+  "name": "Classification of Flows",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Classification of Flows",
+    "topics": [
+     {
+      "id": "xe1-classification-of-flows--concept-of-a-fluid",
+      "name": "Concept of a fluid",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "xe1-classification-of-flows--viscous-versus-inviscid-flows",
+      "name": "Viscous versus inviscid flows",
+      "diff": "M"
+     },
+     {
+      "id": "xe1-classification-of-flows--concept-of-viscosity",
+      "name": "Concept of viscosity",
+      "diff": "M"
+     },
+     {
+      "id": "xe1-classification-of-flows--newtonian-versus-non-newtonian-fluid",
+      "name": "Newtonian versus non-Newtonian fluid",
+      "diff": "M"
+     },
+     {
+      "id": "xe1-classification-of-flows--incompressible-versus-compressible-flows",
+      "name": "Incompressible versus compressible flows",
+      "diff": "M"
+     },
+     {
+      "id": "xe1-classification-of-flows--internal-versus-external-flows",
+      "name": "Internal versus external flows",
+      "diff": "M"
+     },
+     {
+      "id": "xe1-classification-of-flows--steady-versus-unsteady-flows",
+      "name": "Steady versus unsteady flows",
+      "diff": "M"
+     },
+     {
+      "id": "xe1-classification-of-flows--laminar-versus-turbulent-flows",
+      "name": "Laminar versus turbulent flows",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "xe1-hydrostatics",
+  "name": "Hydrostatics",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Hydrostatics",
+    "topics": [
+     {
+      "id": "xe1-hydrostatics--buoyancy-manometry-forces-on-submerged-bodies-and-their-stab",
+      "name": "Buoyancy, Manometry, Forces on submerged bodies and their stability",
+      "diff": "H",
+      "sample": true
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "xe1-kinematics-of-fluid-motion",
+  "name": "Kinematics of Fluid Motion",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Kinematics of Fluid Motion",
+    "topics": [
+     {
+      "id": "xe1-kinematics-of-fluid-motion--eulerian-and-lagrangian-descriptions-of-fluid-motion",
+      "name": "Eulerian and Lagrangian descriptions of fluid motion",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "xe1-kinematics-of-fluid-motion--concept-of-local",
+      "name": "Concept of local",
+      "diff": "E"
+     },
+     {
+      "id": "xe1-kinematics-of-fluid-motion--convective-and-material-derivatives",
+      "name": "Convective and material derivatives",
+      "diff": "M"
+     },
+     {
+      "id": "xe1-kinematics-of-fluid-motion--streamline",
+      "name": "Streamline",
+      "diff": "E"
+     },
+     {
+      "id": "xe1-kinematics-of-fluid-motion--streakline",
+      "name": "Streakline",
+      "diff": "E"
+     },
+     {
+      "id": "xe1-kinematics-of-fluid-motion--pathline",
+      "name": "Pathline",
+      "diff": "E"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "xe1-integral-analysis-for-a-contro",
+  "name": "Integral Analysis for a Control Volume",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Integral Analysis for a Control Volume",
+    "topics": [
+     {
+      "id": "xe1-integral-analysis-for-a-contro--reynolds-transport-theorem-rtt-for-conservation-of-mass-and-",
+      "name": "Reynolds Transport Theorem (RTT) for conservation of mass and linear momentum",
+      "diff": "M",
+      "sample": true
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "xe1-differential-analysis",
+  "name": "Differential Analysis",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Differential Analysis",
+    "topics": [
+     {
+      "id": "xe1-differential-analysis--differential-equations-of-mass-and-momentum-for-incompressib",
+      "name": "Differential equations of mass and momentum for incompressible flows",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "xe1-differential-analysis--euler-equation",
+      "name": "Euler equation",
+      "diff": "E"
+     },
+     {
+      "id": "xe1-differential-analysis--bernoulli-equation-and-its-application-for-venturi-meter",
+      "name": "Bernoulli equation and its application for venturi meter",
+      "diff": "M"
+     },
+     {
+      "id": "xe1-differential-analysis--pitot-static-tube",
+      "name": "Pitot-static tube",
+      "diff": "E"
+     },
+     {
+      "id": "xe1-differential-analysis--orifice-meter",
+      "name": "Orifice meter",
+      "diff": "E"
+     },
+     {
+      "id": "xe1-differential-analysis--navier-stokes-equation-and-its-exact-solutions-for-couette-f",
+      "name": "Navier-Stokes equation and its exact solutions for Couette flow and Poiseuille flow",
+      "diff": "M"
+     },
+     {
+      "id": "xe1-differential-analysis--concept-of-fluid-rotation-vorticity-stream-function-and-circ",
+      "name": "Concept of fluid rotation, Vorticity, Stream function, and Circulation",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "xe1-dimensional-analysis",
+  "name": "Dimensional Analysis",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Dimensional Analysis",
+    "topics": [
+     {
+      "id": "xe1-dimensional-analysis--concept-of-similarity-buckingham-pi-theorem-and-its-applicat",
+      "name": "Concept of similarity, Buckingham Pi theorem and its applications",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "xe1-dimensional-analysis--dimensionless-groups-and-their-physical-significance-reynold",
+      "name": "Dimensionless groups and their physical significance - Reynolds number",
+      "diff": "M"
+     },
+     {
+      "id": "xe1-dimensional-analysis--froude-number",
+      "name": "Froude number",
+      "diff": "E"
+     },
+     {
+      "id": "xe1-dimensional-analysis--mach-number",
+      "name": "Mach number",
+      "diff": "E"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "xe1-internal-flows",
+  "name": "Internal Flows",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Internal Flows",
+    "topics": [
+     {
+      "id": "xe1-internal-flows--fully-developed-pipe-flow-friction-factor",
+      "name": "Fully developed pipe flow - Friction factor",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "xe1-internal-flows--darcy-weisbach-relation-and-moodys-chart",
+      "name": "Darcy-Weisbach relation and Moody’s chart",
+      "diff": "M"
+     },
+     {
+      "id": "xe1-internal-flows--major-and-minor-losses",
+      "name": "Major and minor losses",
+      "diff": "M"
+     },
+     {
+      "id": "xe1-internal-flows--concept-of-flow-development",
+      "name": "Concept of flow development",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "xe1-potential-flows",
+  "name": "Potential Flows",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Potential Flows",
+    "topics": [
+     {
+      "id": "xe1-potential-flows--velocity-potential-function-uniform-flow-source-sink-and-vor",
+      "name": "Velocity potential function, Uniform flow, Source, Sink, and Vortex",
+      "diff": "M",
+      "sample": true
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "xe1-external-flows",
+  "name": "External Flows",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "External Flows",
+    "topics": [
+     {
+      "id": "xe1-external-flows--concept-of-prandtl-boundary-layer",
+      "name": "Concept of Prandtl boundary layer",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "xe1-external-flows--boundary-layer-thickness",
+      "name": "Boundary layer thickness",
+      "diff": "M"
+     },
+     {
+      "id": "xe1-external-flows--displacement-thickness-and-momentum-thickness",
+      "name": "Displacement thickness and momentum thickness",
+      "diff": "M"
+     },
+     {
+      "id": "xe1-external-flows--qualitative-idea-of-boundary-layer-separation",
+      "name": "Qualitative idea of boundary layer separation",
+      "diff": "M"
+     },
+     {
+      "id": "xe1-external-flows--streamlined-and-bluff-bodies",
+      "name": "Streamlined and bluff bodies",
+      "diff": "M"
+     },
+     {
+      "id": "xe1-external-flows--drag-and-lift-forces",
+      "name": "Drag and lift forces",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "xe2-classification-and-structure-o",
+  "name": "Classification and Structure of Materials",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Classification of Materials",
+    "topics": [
+     {
+      "id": "xe2-classification-and-structure-o--metals-ceramics-polymers-and-composites",
+      "name": "Metals, ceramics, polymers and composites",
+      "diff": "M",
+      "sample": true
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Fundamentals of crystallography",
+    "topics": [
+     {
+      "id": "xe2-classification-and-structure-o--definitions-of-crystal-lattice-and-motif-crystal-lattice-mot",
+      "name": "Definitions of crystal, lattice and motif: Crystal=Lattice+Motif",
+      "diff": "M"
+     },
+     {
+      "id": "xe2-classification-and-structure-o--distinction-between-atoms-and-lattice-points",
+      "name": "Distinction between atoms and lattice points",
+      "diff": "M"
+     },
+     {
+      "id": "xe2-classification-and-structure-o--symmetry-operations-translations-required-symmetry-of-crysta",
+      "name": "Symmetry operations: Translations (required symmetry of crystals/lattices)",
+      "diff": "M"
+     },
+     {
+      "id": "xe2-classification-and-structure-o--symmetry-based-definitions-of-7-crystal-systems",
+      "name": "Symmetry based definitions of 7 crystal systems",
+      "diff": "M"
+     },
+     {
+      "id": "xe2-classification-and-structure-o--unit-cells-primitive-and-non-primitive-cells",
+      "name": "Unit cells: primitive and non-primitive cells",
+      "diff": "E"
+     },
+     {
+      "id": "xe2-classification-and-structure-o--fourteen-bravais-lattices-and-their-classification-into-crys",
+      "name": "Fourteen Bravais lattices and their classification into crystal systems",
+      "diff": "E"
+     },
+     {
+      "id": "xe2-classification-and-structure-o--miller-and-miller-bravais-indices-of-crystallographic-planes",
+      "name": "Miller and Miller-Bravais indices of crystallographic planes and directions",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "C",
+    "name": "Close-packed crystal structures of elements",
+    "topics": [
+     {
+      "id": "xe2-classification-and-structure-o--cubic-close-packed-ccp",
+      "name": "Cubic close-packed (CCP)",
+      "diff": "M"
+     },
+     {
+      "id": "xe2-classification-and-structure-o--hexagonal-close-packed-hcp-and-body-centred-cubic-bcc-struct",
+      "name": "Hexagonal close -packed (HCP) and body-centred cubic (BCC) structures",
+      "diff": "M"
+     },
+     {
+      "id": "xe2-classification-and-structure-o--stacking-sequence-of-planes",
+      "name": "Stacking sequence of planes",
+      "diff": "M"
+     },
+     {
+      "id": "xe2-classification-and-structure-o--tetrahedral-and-octahedral-voids",
+      "name": "Tetrahedral and octahedral voids",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "D",
+    "name": "Crystalline and other ordered structures of carbon",
+    "topics": [
+     {
+      "id": "xe2-classification-and-structure-o--diamond-and-graphite-in-terms-of-lattice-and-motif",
+      "name": "Diamond and Graphite in terms of lattice and motif",
+      "diff": "M"
+     },
+     {
+      "id": "xe2-classification-and-structure-o--graphene-and-fullerene",
+      "name": "Graphene and fullerene",
+      "diff": "M"
+     },
+     {
+      "id": "xe2-classification-and-structure-o--carbon-nanotubes",
+      "name": "Carbon nanotubes",
+      "diff": "E"
+     }
+    ]
+   },
+   {
+    "letter": "E",
+    "name": "Crystalline structure of compounds",
+    "topics": [
+     {
+      "id": "xe2-classification-and-structure-o--nacl-cscl-zns-zinc-blend-and-wurtzite-perovskite-spinels",
+      "name": "NaCl, CsCl, ZnS (Zinc blend and Wurtzite), Perovskite, Spinels",
+      "diff": "M"
+     },
+     {
+      "id": "xe2-classification-and-structure-o--paulings-rule-for-structure-of-ionic-compounds",
+      "name": "Pauling’s rule for structure of ionic compounds",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "F",
+    "name": "Structure of amorphous materials",
+    "topics": [
+     {
+      "id": "xe2-classification-and-structure-o--crystalline-and-glassy-silica",
+      "name": "Crystalline and glassy silica",
+      "diff": "M"
+     },
+     {
+      "id": "xe2-classification-and-structure-o--fused-silica-and-soda-lime-glass",
+      "name": "Fused silica and soda-lime glass",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "G",
+    "name": "Solid solutions",
+    "topics": [
+     {
+      "id": "xe2-classification-and-structure-o--interstitial-and-substitutional",
+      "name": "Interstitial and substitutional",
+      "diff": "M"
+     },
+     {
+      "id": "xe2-classification-and-structure-o--hume-rothery-rules",
+      "name": "Hume-Rothery rules",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "H",
+    "name": "Structure of polymers",
+    "topics": [
+     {
+      "id": "xe2-classification-and-structure-o--monomers-and-polymers",
+      "name": "Monomers and polymers",
+      "diff": "M"
+     },
+     {
+      "id": "xe2-classification-and-structure-o--addition-and-condensation-polymers",
+      "name": "Addition and condensation polymers",
+      "diff": "M"
+     },
+     {
+      "id": "xe2-classification-and-structure-o--bonding-in-polymers",
+      "name": "Bonding in polymers",
+      "diff": "M"
+     },
+     {
+      "id": "xe2-classification-and-structure-o--cc-chain",
+      "name": "CC chain",
+      "diff": "E"
+     },
+     {
+      "id": "xe2-classification-and-structure-o--degree-of-polymerization",
+      "name": "Degree of polymerization",
+      "diff": "M"
+     },
+     {
+      "id": "xe2-classification-and-structure-o--chain-configuration-vs",
+      "name": "Chain configuration vs",
+      "diff": "M"
+     },
+     {
+      "id": "xe2-classification-and-structure-o--chain-conformations",
+      "name": "Chain conformations",
+      "diff": "M"
+     },
+     {
+      "id": "xe2-classification-and-structure-o--atactic-isotactic-and-syndiotactic-configurations",
+      "name": "Atactic, isotactic and syndiotactic configurations",
+      "diff": "M"
+     },
+     {
+      "id": "xe2-classification-and-structure-o--crystalline-semi-crystalline-and-amorphous-polymers",
+      "name": "Crystalline, semi -crystalline and amorphous polymers",
+      "diff": "M"
+     },
+     {
+      "id": "xe2-classification-and-structure-o--copolymers-alternating-block-and-random",
+      "name": "Copolymers: alternating, block and random",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "I",
+    "name": "Examples of common polymers",
+    "topics": [
+     {
+      "id": "xe2-classification-and-structure-o--polyethylene-pe",
+      "name": "Polyethylene (PE)",
+      "diff": "E"
+     },
+     {
+      "id": "xe2-classification-and-structure-o--polypropylene-pp",
+      "name": "Polypropylene (PP)",
+      "diff": "M"
+     },
+     {
+      "id": "xe2-classification-and-structure-o--polyvinylchloride-pvc",
+      "name": "Polyvinylchloride (PVC)",
+      "diff": "M"
+     },
+     {
+      "id": "xe2-classification-and-structure-o--polyetraflouroethylene-ptfe",
+      "name": "Polyetraflouroethylene (PTFE)",
+      "diff": "M"
+     },
+     {
+      "id": "xe2-classification-and-structure-o--polystyrene-ps",
+      "name": "Polystyrene (PS)",
+      "diff": "E"
+     },
+     {
+      "id": "xe2-classification-and-structure-o--crosslinking",
+      "name": "Crosslinking",
+      "diff": "E"
+     },
+     {
+      "id": "xe2-classification-and-structure-o--natural-and-vulcanised-rubber",
+      "name": "Natural and vulcanised rubber",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "J",
+    "name": "Zero-dimensional or point defects",
+    "topics": [
+     {
+      "id": "xe2-classification-and-structure-o--vacancies",
+      "name": "Vacancies",
+      "diff": "E"
+     },
+     {
+      "id": "xe2-classification-and-structure-o--interstitials",
+      "name": "Interstitials",
+      "diff": "E"
+     },
+     {
+      "id": "xe2-classification-and-structure-o--substitutional-atoms",
+      "name": "Substitutional atoms",
+      "diff": "M"
+     },
+     {
+      "id": "xe2-classification-and-structure-o--frenkel-and-schottky-defects",
+      "name": "Frenkel and Schottky defects",
+      "diff": "M"
+     },
+     {
+      "id": "xe2-classification-and-structure-o--equilibrium-concentration-of-point-defects",
+      "name": "Equilibrium concentration of point defects",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "K",
+    "name": "One-dimensional or line defects",
+    "topics": [
+     {
+      "id": "xe2-classification-and-structure-o--dislocations-edge-screw-and-mixed",
+      "name": "Dislocations: edge, screw and mixed",
+      "diff": "M"
+     },
+     {
+      "id": "xe2-classification-and-structure-o--burgers-vector-and-burgers-circuit",
+      "name": "Burgers vector and Burgers circuit",
+      "diff": "M"
+     },
+     {
+      "id": "xe2-classification-and-structure-o--burgers-vectors-of-stable-dislocations-in-simple-cubic",
+      "name": "Burgers vectors of stable dislocations in simple cubic",
+      "diff": "M"
+     },
+     {
+      "id": "xe2-classification-and-structure-o--body-centred-cubic-and-face-centred-cubic-lattices",
+      "name": "Body -centred cubic and face -centred cubic lattices",
+      "diff": "M"
+     },
+     {
+      "id": "xe2-classification-and-structure-o--dislocations-meeting-at-a-node",
+      "name": "Dislocations meeting at a node",
+      "diff": "M"
+     },
+     {
+      "id": "xe2-classification-and-structure-o--line-energy-of-a-dislocation",
+      "name": "Line energy of a dislocation",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "L",
+    "name": "Dislocation motion",
+    "topics": [
+     {
+      "id": "xe2-classification-and-structure-o--glide-and-climb",
+      "name": "Glide and climb",
+      "diff": "E"
+     }
+    ]
+   },
+   {
+    "letter": "M",
+    "name": "Two-dimensional or surface defects",
+    "topics": [
+     {
+      "id": "xe2-classification-and-structure-o--free-surfaces",
+      "name": "Free surfaces",
+      "diff": "E"
+     },
+     {
+      "id": "xe2-classification-and-structure-o--grain-boundaries",
+      "name": "Grain boundaries",
+      "diff": "E"
+     },
+     {
+      "id": "xe2-classification-and-structure-o--twin-boundaries",
+      "name": "Twin boundaries",
+      "diff": "E"
+     },
+     {
+      "id": "xe2-classification-and-structure-o--stacking-faults",
+      "name": "Stacking faults",
+      "diff": "E"
+     },
+     {
+      "id": "xe2-classification-and-structure-o--phase-boundary",
+      "name": "Phase boundary",
+      "diff": "E"
+     },
+     {
+      "id": "xe2-classification-and-structure-o--surface-energy-of-a-free-surface-in-terms-of-a-simple-bond-b",
+      "name": "Surface energy of a free surface in terms of a simple bond breaking model",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "xe2-thermodynamics-kinetics-and-ph",
+  "name": "Thermodynamics, Kinetics and Phase Transformations",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Thermodynamics, Kinetics and Phase Transformations",
+    "topics": [
+     {
+      "id": "xe2-thermodynamics-kinetics-and-ph--extensive-and-intensive-thermodynamic-properties",
+      "name": "Extensive and intensive thermodynamic properties",
+      "diff": "H",
+      "sample": true
+     },
+     {
+      "id": "xe2-thermodynamics-kinetics-and-ph--laws-of-thermodynamics",
+      "name": "Laws of thermodynamics",
+      "diff": "H"
+     },
+     {
+      "id": "xe2-thermodynamics-kinetics-and-ph--phase-equilibria",
+      "name": "Phase equilibria",
+      "diff": "E"
+     },
+     {
+      "id": "xe2-thermodynamics-kinetics-and-ph--phase-rule",
+      "name": "Phase rule",
+      "diff": "E"
+     },
+     {
+      "id": "xe2-thermodynamics-kinetics-and-ph--phase-diagrams-unary-pressure-temperature-diagrams",
+      "name": "Phase diagrams - unary pressure -temperature diagrams",
+      "diff": "M"
+     },
+     {
+      "id": "xe2-thermodynamics-kinetics-and-ph--binary-temperature-composition-diagrams",
+      "name": "Binary temperature -composition diagrams",
+      "diff": "M"
+     },
+     {
+      "id": "xe2-thermodynamics-kinetics-and-ph--construction-of-temperature-composition-diagrams-from-free-e",
+      "name": "Construction of temperature composition diagrams from free energies",
+      "diff": "M"
+     },
+     {
+      "id": "xe2-thermodynamics-kinetics-and-ph--common-tangent-construction-in-free-energy-composition-diagr",
+      "name": "Common tangent construction in free energy-composition diagrams",
+      "diff": "M"
+     },
+     {
+      "id": "xe2-thermodynamics-kinetics-and-ph--invariant-reactions",
+      "name": "Invariant reactions",
+      "diff": "M"
+     },
+     {
+      "id": "xe2-thermodynamics-kinetics-and-ph--reaction-kinetics",
+      "name": "Reaction kinetics",
+      "diff": "H"
+     },
+     {
+      "id": "xe2-thermodynamics-kinetics-and-ph--rate-constants",
+      "name": "Rate constants",
+      "diff": "E"
+     },
+     {
+      "id": "xe2-thermodynamics-kinetics-and-ph--order-of-reactions",
+      "name": "Order of reactions",
+      "diff": "M"
+     },
+     {
+      "id": "xe2-thermodynamics-kinetics-and-ph--arrhenius-law",
+      "name": "Arrhenius law",
+      "diff": "E"
+     },
+     {
+      "id": "xe2-thermodynamics-kinetics-and-ph--ficks-laws",
+      "name": "Fick’s laws",
+      "diff": "E"
+     },
+     {
+      "id": "xe2-thermodynamics-kinetics-and-ph--steady-state-and-non-steady-state-solutions-of-diffusion-equ",
+      "name": "Steady state and non-steady state solutions of diffusion equations",
+      "diff": "M"
+     },
+     {
+      "id": "xe2-thermodynamics-kinetics-and-ph--diffusion-distance-and-diffusion-time",
+      "name": "Diffusion distance and diffusion time",
+      "diff": "M"
+     },
+     {
+      "id": "xe2-thermodynamics-kinetics-and-ph--applications-of-solutions-of-diffusion-equations",
+      "name": "Applications of solutions of diffusion equations",
+      "diff": "M"
+     },
+     {
+      "id": "xe2-thermodynamics-kinetics-and-ph--atomistic-mechanisms-of-diffusion",
+      "name": "Atomistic mechanisms of diffusion",
+      "diff": "M"
+     },
+     {
+      "id": "xe2-thermodynamics-kinetics-and-ph--fast-diffusion-paths",
+      "name": "Fast diffusion paths",
+      "diff": "M"
+     },
+     {
+      "id": "xe2-thermodynamics-kinetics-and-ph--solidification-of-pure-metals-and-alloys",
+      "name": "Solidification of pure metals and alloys",
+      "diff": "M"
+     },
+     {
+      "id": "xe2-thermodynamics-kinetics-and-ph--homogeneous-and-heterogeneous-nucleation",
+      "name": "Homogeneous and heterogeneous nucleation",
+      "diff": "M"
+     },
+     {
+      "id": "xe2-thermodynamics-kinetics-and-ph--nucleation-rate",
+      "name": "Nucleation rate",
+      "diff": "E"
+     },
+     {
+      "id": "xe2-thermodynamics-kinetics-and-ph--growth",
+      "name": "Growth",
+      "diff": "E"
+     },
+     {
+      "id": "xe2-thermodynamics-kinetics-and-ph--partitioning-during-binary-solidification",
+      "name": "Partitioning during binary solidification",
+      "diff": "M"
+     },
+     {
+      "id": "xe2-thermodynamics-kinetics-and-ph--diffusional-solid-state-phase-transformations-precipitation-",
+      "name": "Diffusional solid -state phase transformations (precipitation and eutectoid)",
+      "diff": "H"
+     },
+     {
+      "id": "xe2-thermodynamics-kinetics-and-ph--overall-transformation-kinetics-ttt-and-cct",
+      "name": "Overall transformation kinetics (TTT and CCT)",
+      "diff": "H"
+     },
+     {
+      "id": "xe2-thermodynamics-kinetics-and-ph--martensitic-displacive-transformation",
+      "name": "Martensitic/displacive transformation",
+      "diff": "H"
+     },
+     {
+      "id": "xe2-thermodynamics-kinetics-and-ph--glass-transition",
+      "name": "Glass transition",
+      "diff": "E"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "xe2-properties-and-applications-of",
+  "name": "Properties and Applications of Materials",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Mechanical properties",
+    "topics": [
+     {
+      "id": "xe2-properties-and-applications-of--elastic-and-plastic-deformation",
+      "name": "Elastic and plastic deformation",
+      "diff": "H",
+      "sample": true
+     },
+     {
+      "id": "xe2-properties-and-applications-of--atomic-bonding-and-elasticity",
+      "name": "Atomic bonding and elasticity",
+      "diff": "M"
+     },
+     {
+      "id": "xe2-properties-and-applications-of--shear-strength-of-perfect-crystals",
+      "name": "Shear strength of perfect crystals",
+      "diff": "M"
+     },
+     {
+      "id": "xe2-properties-and-applications-of--plastic-deformation-by-slip-and-dislocation-motion",
+      "name": "Plastic deformation by slip and dislocation motion",
+      "diff": "H"
+     },
+     {
+      "id": "xe2-properties-and-applications-of--strengthening-mechanisms-strain-hardening",
+      "name": "Strengthening mechanisms: strain hardening",
+      "diff": "M"
+     },
+     {
+      "id": "xe2-properties-and-applications-of--solid-solution-hardening",
+      "name": "Solid solution hardening",
+      "diff": "M"
+     },
+     {
+      "id": "xe2-properties-and-applications-of--precipitation-hardening",
+      "name": "Precipitation hardening",
+      "diff": "M"
+     },
+     {
+      "id": "xe2-properties-and-applications-of--grain-size-refinement",
+      "name": "Grain size refinement",
+      "diff": "M"
+     },
+     {
+      "id": "xe2-properties-and-applications-of--grifith-theory-of-fracture",
+      "name": "Grifith theory of fracture",
+      "diff": "M"
+     },
+     {
+      "id": "xe2-properties-and-applications-of--fatigue-cyclic-loading-s-n-curve-crack-initiation-and-propag",
+      "name": "Fatigue: cyclic loading, S-N curve, crack initiation and propagation",
+      "diff": "H"
+     },
+     {
+      "id": "xe2-properties-and-applications-of--creep-in-crystalline-materials-stages-and-mechanisms-of-cree",
+      "name": "Creep in crystalline materials: stages and mechanisms of creep",
+      "diff": "M"
+     },
+     {
+      "id": "xe2-properties-and-applications-of--composites-particle-and-fibre-reinforced-composites",
+      "name": "Composites: particle and fibre reinforced composites",
+      "diff": "M"
+     },
+     {
+      "id": "xe2-properties-and-applications-of--elastic-modulus-rule-of-mixtures",
+      "name": "Elastic modulus (rule of mixtures)",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Electronic Properties",
+    "topics": [
+     {
+      "id": "xe2-properties-and-applications-of--drude-model-and-classical-description-of-electrical-conducti",
+      "name": "Drude model and classical description of electrical conductivity",
+      "diff": "M"
+     },
+     {
+      "id": "xe2-properties-and-applications-of--drawbacks-of-classical-theory",
+      "name": "Drawbacks of classical theory",
+      "diff": "M"
+     },
+     {
+      "id": "xe2-properties-and-applications-of--quantum-mechanical-description-including-concept-of-fermi-en",
+      "name": "Quantum mechanical description including concept of Fermi energy",
+      "diff": "H"
+     },
+     {
+      "id": "xe2-properties-and-applications-of--fermi-surface-and-density-of-states",
+      "name": "Fermi surface and density of states",
+      "diff": "M"
+     },
+     {
+      "id": "xe2-properties-and-applications-of--band-theory-to-explain-insulators",
+      "name": "Band Theory to explain insulators",
+      "diff": "M"
+     },
+     {
+      "id": "xe2-properties-and-applications-of--conductors",
+      "name": "Conductors",
+      "diff": "E"
+     },
+     {
+      "id": "xe2-properties-and-applications-of--semiconductors-via-allowed-and-forbidden-energy-bands",
+      "name": "Semiconductors via allowed and forbidden energy bands",
+      "diff": "M"
+     },
+     {
+      "id": "xe2-properties-and-applications-of--effective-mass-concept",
+      "name": "Effective mass concept",
+      "diff": "M"
+     },
+     {
+      "id": "xe2-properties-and-applications-of--intrinsic-and-extrinsic-semiconductors",
+      "name": "Intrinsic and extrinsic semiconductors",
+      "diff": "M"
+     },
+     {
+      "id": "xe2-properties-and-applications-of--temperature-dependence-of-conductivity",
+      "name": "Temperature dependence of conductivity",
+      "diff": "M"
+     },
+     {
+      "id": "xe2-properties-and-applications-of--carrier-concentration-and-mobility",
+      "name": "Carrier concentration and mobility",
+      "diff": "M"
+     },
+     {
+      "id": "xe2-properties-and-applications-of--drift-vs",
+      "name": "Drift vs",
+      "diff": "E"
+     },
+     {
+      "id": "xe2-properties-and-applications-of--diffusion-current-hall-effect-for-a-simple-metal-or-semicond",
+      "name": "Diffusion current, Hall Effect for a simple metal or semiconductor",
+      "diff": "M"
+     },
+     {
+      "id": "xe2-properties-and-applications-of--dielectric-behavior-piezo-and-ferro-electric-behavior",
+      "name": "Dielectric behavior, piezo- and ferro-electric behavior",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "C",
+    "name": "Magnetic Properties",
+    "topics": [
+     {
+      "id": "xe2-properties-and-applications-of--origin-of-magnetism-in-materials",
+      "name": "Origin of magnetism in materials",
+      "diff": "M"
+     },
+     {
+      "id": "xe2-properties-and-applications-of--types-of-magnetism-diamagnetism",
+      "name": "Types of Magnetism: Diamagnetism",
+      "diff": "E"
+     },
+     {
+      "id": "xe2-properties-and-applications-of--paramagnetism",
+      "name": "Paramagnetism",
+      "diff": "E"
+     },
+     {
+      "id": "xe2-properties-and-applications-of--ferromagnetism",
+      "name": "Ferromagnetism",
+      "diff": "E"
+     },
+     {
+      "id": "xe2-properties-and-applications-of--ferrimagnetism-and-antiferromagnetism",
+      "name": "Ferrimagnetism and Antiferromagnetism",
+      "diff": "M"
+     },
+     {
+      "id": "xe2-properties-and-applications-of--magnetic-domains-and-hysteresis",
+      "name": "Magnetic Domains & Hysteresis",
+      "diff": "M"
+     },
+     {
+      "id": "xe2-properties-and-applications-of--hard-and-soft-magnetic-materials",
+      "name": "Hard and soft magnetic materials",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "D",
+    "name": "Thermal Properties",
+    "topics": [
+     {
+      "id": "xe2-properties-and-applications-of--specific-heat",
+      "name": "Specific heat",
+      "diff": "E"
+     },
+     {
+      "id": "xe2-properties-and-applications-of--classical-dulong-petit-law",
+      "name": "Classical Dulong -Petit Law",
+      "diff": "M"
+     },
+     {
+      "id": "xe2-properties-and-applications-of--wiedemann-franz-law",
+      "name": "Wiedemann -Franz Law",
+      "diff": "M"
+     },
+     {
+      "id": "xe2-properties-and-applications-of--thermal-conductivity-of-metals-and-insulators-role-of-electr",
+      "name": "Thermal conductivity of metals and insulators (role of electrons and phonons)",
+      "diff": "M"
+     },
+     {
+      "id": "xe2-properties-and-applications-of--einstein-and-debye-model",
+      "name": "Einstein and Debye model",
+      "diff": "M"
+     },
+     {
+      "id": "xe2-properties-and-applications-of--heat-conduction",
+      "name": "Heat conduction",
+      "diff": "E"
+     },
+     {
+      "id": "xe2-properties-and-applications-of--thermal-diffusivity",
+      "name": "Thermal diffusivity",
+      "diff": "M"
+     },
+     {
+      "id": "xe2-properties-and-applications-of--thermal-expansion",
+      "name": "Thermal expansion",
+      "diff": "E"
+     },
+     {
+      "id": "xe2-properties-and-applications-of--thermoelectricity",
+      "name": "Thermoelectricity",
+      "diff": "E"
+     }
+    ]
+   },
+   {
+    "letter": "E",
+    "name": "Optical Properties",
+    "topics": [
+     {
+      "id": "xe2-properties-and-applications-of--refractive-index",
+      "name": "Refractive index",
+      "diff": "E"
+     },
+     {
+      "id": "xe2-properties-and-applications-of--absorption-and-transmission-of-electromagnetic-radiation",
+      "name": "Absorption and transmission of electromagnetic radiation",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "xe2-characterization-and-measureme",
+  "name": "Characterization and Measurements of Properties",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "X-ray diffraction",
+    "topics": [
+     {
+      "id": "xe2-characterization-and-measureme--braggs-law-structure-factor-indexing-of-cubic-diffraction-pa",
+      "name": "Bragg’s Law, structure factor, indexing of cubic diffraction patterns",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "xe2-characterization-and-measureme--spectroscopic-techniques-uv-vis-ir-and-raman",
+      "name": "Spectroscopic techniques: UV-Vis, IR and Raman",
+      "diff": "M"
+     },
+     {
+      "id": "xe2-characterization-and-measureme--band-gap-measurement",
+      "name": "Band-gap measurement",
+      "diff": "M"
+     },
+     {
+      "id": "xe2-characterization-and-measureme--microscopy-optical-scanning-and-transmission-electron-micros",
+      "name": "Microscopy (optical, scanning and transmission electron microscopy): wavelength range",
+      "diff": "M"
+     },
+     {
+      "id": "xe2-characterization-and-measureme--resolution",
+      "name": "Resolution",
+      "diff": "E"
+     },
+     {
+      "id": "xe2-characterization-and-measureme--depth-of-field",
+      "name": "Depth of field",
+      "diff": "E"
+     },
+     {
+      "id": "xe2-characterization-and-measureme--composition-analysis-using-energy-dispersive-spectroscopy",
+      "name": "Composition analysis using energy dispersive spectroscopy",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Tensile test",
+    "topics": [
+     {
+      "id": "xe2-characterization-and-measureme--engineering-and-true-stress-strain-curves",
+      "name": "Engineering and true stress-strain curves",
+      "diff": "M"
+     },
+     {
+      "id": "xe2-characterization-and-measureme--parameters",
+      "name": "Parameters",
+      "diff": "E"
+     },
+     {
+      "id": "xe2-characterization-and-measureme--such-as",
+      "name": "Such as",
+      "diff": "E"
+     },
+     {
+      "id": "xe2-characterization-and-measureme--yield-stress",
+      "name": "Yield stress",
+      "diff": "E"
+     },
+     {
+      "id": "xe2-characterization-and-measureme--ultimate-tensile-stress",
+      "name": "Ultimate tensile stress",
+      "diff": "M"
+     },
+     {
+      "id": "xe2-characterization-and-measureme--elongation",
+      "name": "Elongation",
+      "diff": "E"
+     },
+     {
+      "id": "xe2-characterization-and-measureme--area-under-the-curve",
+      "name": "Area under the curve",
+      "diff": "M"
+     },
+     {
+      "id": "xe2-characterization-and-measureme--hardness-brinell-rockwell-and-vickers",
+      "name": "Hardness: Brinell, Rockwell and Vickers",
+      "diff": "M"
+     },
+     {
+      "id": "xe2-characterization-and-measureme--electrical-conductivity-carrier-mobility-and-concentrations",
+      "name": "Electrical conductivity, carrier mobility and concentrations",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "C",
+    "name": "Thermal analysis techniques",
+    "topics": [
+     {
+      "id": "xe2-characterization-and-measureme--thermogravimetry-and-calorimetry",
+      "name": "Thermogravimetry and calorimetry",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "xe2-processing-of-materials",
+  "name": "Processing of Materials",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Heat Treatment of steels",
+    "topics": [
+     {
+      "id": "xe2-processing-of-materials--ttt-and-cct-diagram-coarse-and-fine-pearlite-martensite-and-",
+      "name": "TTT and CCT diagram: coarse and fine pearlite, martensite and bainite",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "xe2-processing-of-materials--annealing-normalizing-quenching-tempering",
+      "name": "Annealing, normalizing, quenching, tempering",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Heat treatment of aluminium alloys",
+    "topics": [
+     {
+      "id": "xe2-processing-of-materials--precipitation-hardening-solutionising-quenching-and-ageing",
+      "name": "Precipitation hardening: Solutionising, quenching and ageing",
+      "diff": "M"
+     },
+     {
+      "id": "xe2-processing-of-materials--hardness-vs",
+      "name": "Hardness vs",
+      "diff": "E"
+     },
+     {
+      "id": "xe2-processing-of-materials--aging-time-and-its-dependence-on-aging-temperature",
+      "name": "Aging time and its dependence on aging temperature",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "C",
+    "name": "Silicon processing",
+    "topics": [
+     {
+      "id": "xe2-processing-of-materials--production-of-metallurgical-and-semiconductor-grade",
+      "name": "Production of metallurgical and semiconductor grade",
+      "diff": "M"
+     },
+     {
+      "id": "xe2-processing-of-materials--zone-refining",
+      "name": "Zone refining",
+      "diff": "E"
+     },
+     {
+      "id": "xe2-processing-of-materials--single-crystal-growth",
+      "name": "Single crystal growth",
+      "diff": "M"
+     },
+     {
+      "id": "xe2-processing-of-materials--silicon-oxidation",
+      "name": "Silicon oxidation",
+      "diff": "E"
+     },
+     {
+      "id": "xe2-processing-of-materials--doping",
+      "name": "Doping",
+      "diff": "E"
+     },
+     {
+      "id": "xe2-processing-of-materials--photolithographic-process-preparation-of-powders",
+      "name": "Photolithographic process Preparation of powders",
+      "diff": "M"
+     },
+     {
+      "id": "xe2-processing-of-materials--sintering",
+      "name": "Sintering",
+      "diff": "E"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "xe2-degradation-of-materials",
+  "name": "Degradation of Materials",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Electrochemical basis of corrosion of metals",
+    "topics": [
+     {
+      "id": "xe2-degradation-of-materials--standard-electrode-potential",
+      "name": "Standard electrode potential",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "xe2-degradation-of-materials--galvanic-series",
+      "name": "Galvanic series",
+      "diff": "E"
+     },
+     {
+      "id": "xe2-degradation-of-materials--nernst-equation",
+      "name": "Nernst equation",
+      "diff": "E"
+     },
+     {
+      "id": "xe2-degradation-of-materials--polarization-and-passivation",
+      "name": "Polarization and passivation",
+      "diff": "M"
+     },
+     {
+      "id": "xe2-degradation-of-materials--forms-of-corrosion",
+      "name": "Forms of corrosion",
+      "diff": "M"
+     },
+     {
+      "id": "xe2-degradation-of-materials--corrosion-prevention",
+      "name": "Corrosion prevention",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Polymer degradation",
+    "topics": [
+     {
+      "id": "xe2-degradation-of-materials--swelling-and-dissolution",
+      "name": "Swelling and dissolution",
+      "diff": "M"
+     },
+     {
+      "id": "xe2-degradation-of-materials--bond-rupture-radiation-chemical-and-thermal-effects",
+      "name": "Bond rupture: radiation, chemical and thermal effects",
+      "diff": "M"
+     },
+     {
+      "id": "xe2-degradation-of-materials--weathering",
+      "name": "Weathering",
+      "diff": "E"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "xe3-1-mechanics-of-rigid-bodies",
+  "name": "1 Mechanics of Rigid Bodies",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "1 Mechanics of Rigid Bodies",
+    "topics": [
+     {
+      "id": "xe3-1-mechanics-of-rigid-bodies--equivalent-forces-and-moments",
+      "name": "Equivalent forces and moments",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "xe3-1-mechanics-of-rigid-bodies--equilibrium-equations",
+      "name": "Equilibrium equations",
+      "diff": "M"
+     },
+     {
+      "id": "xe3-1-mechanics-of-rigid-bodies--analysis-of-determinate-trusses-and-frames",
+      "name": "Analysis of determinate trusses and frames",
+      "diff": "M"
+     },
+     {
+      "id": "xe3-1-mechanics-of-rigid-bodies--sliding-and-sticking-friction",
+      "name": "Sliding and sticking friction",
+      "diff": "M"
+     },
+     {
+      "id": "xe3-1-mechanics-of-rigid-bodies--the-principle-of-minimum-potential-energy-and-its-relation-t",
+      "name": "The principle of minimum potential energy and its relation to stable equilibrium",
+      "diff": "M"
+     },
+     {
+      "id": "xe3-1-mechanics-of-rigid-bodies--particle-kinematics-and-dynamics",
+      "name": "Particle kinematics and dynamics",
+      "diff": "M"
+     },
+     {
+      "id": "xe3-1-mechanics-of-rigid-bodies--dynamics-of-inter-connected-and-or-constrained-rigid-bodies-",
+      "name": "Dynamics of inter-connected and/or constrained rigid bodies under planar motion",
+      "diff": "M"
+     },
+     {
+      "id": "xe3-1-mechanics-of-rigid-bodies--systems-that-conserve-energy-and-or-momentum",
+      "name": "Systems that conserve energy and/or momentum",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "xe3-2-mechanics-of-deformable-bodi",
+  "name": "2 Mechanics of Deformable Bodies",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "2 Mechanics of Deformable Bodies",
+    "topics": [
+     {
+      "id": "xe3-2-mechanics-of-deformable-bodi--definition-of-stress-and-strain",
+      "name": "Definition of stress and strain",
+      "diff": "E",
+      "sample": true
+     },
+     {
+      "id": "xe3-2-mechanics-of-deformable-bodi--transformation-of-stresses-and-strains",
+      "name": "Transformation of stresses and strains",
+      "diff": "H"
+     },
+     {
+      "id": "xe3-2-mechanics-of-deformable-bodi--principal-stresses",
+      "name": "Principal Stresses",
+      "diff": "M"
+     },
+     {
+      "id": "xe3-2-mechanics-of-deformable-bodi--mohrs-circle-for-plane-stress-and-plane-strain",
+      "name": "Mohr’s circle for plane stress and plane strain",
+      "diff": "M"
+     },
+     {
+      "id": "xe3-2-mechanics-of-deformable-bodi--elastic-constants",
+      "name": "Elastic Constants",
+      "diff": "E"
+     },
+     {
+      "id": "xe3-2-mechanics-of-deformable-bodi--generalized-hookes-law",
+      "name": "Generalized Hooke’s Law",
+      "diff": "M"
+     },
+     {
+      "id": "xe3-2-mechanics-of-deformable-bodi--thermal-stresses",
+      "name": "Thermal Stresses",
+      "diff": "E"
+     },
+     {
+      "id": "xe3-2-mechanics-of-deformable-bodi--theories-of-failure-von-mises",
+      "name": "Theories of Failure - von Mises",
+      "diff": "M"
+     },
+     {
+      "id": "xe3-2-mechanics-of-deformable-bodi--tresca-and-maximum-principal-stress-theories",
+      "name": "Tresca and maximum principal stress theories",
+      "diff": "M"
+     },
+     {
+      "id": "xe3-2-mechanics-of-deformable-bodi--axial-force-shear-force-and-bending-moment-diagrams",
+      "name": "Axial force, shear force, and bending moment diagrams",
+      "diff": "M"
+     },
+     {
+      "id": "xe3-2-mechanics-of-deformable-bodi--axial-shear-and-bending-stresses",
+      "name": "Axial, shear, and bending stresses",
+      "diff": "M"
+     },
+     {
+      "id": "xe3-2-mechanics-of-deformable-bodi--combined-stresses",
+      "name": "Combined stresses",
+      "diff": "E"
+     },
+     {
+      "id": "xe3-2-mechanics-of-deformable-bodi--deflection-for-symmetric-bending",
+      "name": "Deflection (for symmetric bending)",
+      "diff": "M"
+     },
+     {
+      "id": "xe3-2-mechanics-of-deformable-bodi--systems-with-up-to-one-degree-of-static-indeterminacy-i-e-up",
+      "name": "Systems with up to one degree of static indeterminacy (i.e., up to one support or internal force not determinable from static equilibrium alone)",
+      "diff": "H"
+     },
+     {
+      "id": "xe3-2-mechanics-of-deformable-bodi--energy-methods-castiglianos-theorems",
+      "name": "Energy methods (Castigliano’s theorems)",
+      "diff": "M"
+     },
+     {
+      "id": "xe3-2-mechanics-of-deformable-bodi--torsion-of-circular-shaft",
+      "name": "Torsion of circular shaft",
+      "diff": "M"
+     },
+     {
+      "id": "xe3-2-mechanics-of-deformable-bodi--euler-buckling",
+      "name": "Euler Buckling",
+      "diff": "E"
+     },
+     {
+      "id": "xe3-2-mechanics-of-deformable-bodi--thin-walled-pressure-vessels",
+      "name": "Thin-walled pressure vessels",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "xe3-3-vibrations",
+  "name": "3 Vibrations",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "3 Vibrations",
+    "topics": [
+     {
+      "id": "xe3-3-vibrations--free-and-forced-vibration-of-single-degree-of-freedom-system",
+      "name": "Free and forced vibration of single-degree-of-freedom systems",
+      "diff": "H",
+      "sample": true
+     },
+     {
+      "id": "xe3-3-vibrations--effect-of-damping",
+      "name": "Effect of damping",
+      "diff": "E"
+     },
+     {
+      "id": "xe3-3-vibrations--base-excitation",
+      "name": "Base excitation",
+      "diff": "E"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "xe4-basic-concepts",
+  "name": "Basic Concepts",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Basic Concepts",
+    "topics": [
+     {
+      "id": "xe4-basic-concepts--continuum-microscopic-and-macroscopic-approaches",
+      "name": "Continuum, microscopic and macroscopic approaches",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "xe4-basic-concepts--thermodynamic-systems-closed-and-open",
+      "name": "Thermodynamic systems (closed and open)",
+      "diff": "H"
+     },
+     {
+      "id": "xe4-basic-concepts--thermodynamic-properties-state-and-equilibrium",
+      "name": "Thermodynamic properties, state and equilibrium",
+      "diff": "H"
+     },
+     {
+      "id": "xe4-basic-concepts--state-postulate-for-simple-compressible-substances",
+      "name": "State postulate for simple compressible substances",
+      "diff": "M"
+     },
+     {
+      "id": "xe4-basic-concepts--paths-and-processes-on-property-diagrams",
+      "name": "Paths and processes on property diagrams",
+      "diff": "M"
+     },
+     {
+      "id": "xe4-basic-concepts--concepts-of-heat-and-work-different-modes-of-work",
+      "name": "Concepts of heat and work, different modes of work",
+      "diff": "M"
+     },
+     {
+      "id": "xe4-basic-concepts--zeroth-law-of-thermodynamics-concept-of-temperature",
+      "name": "Zeroth law of thermodynamics, concept of temperature",
+      "diff": "H"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "xe4-properties-of-pure-substances",
+  "name": "Properties of Pure Substances",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Properties of Pure Substances",
+    "topics": [
+     {
+      "id": "xe4-properties-of-pure-substances--thermodynamic-properties-of-pure-substances-in-solid",
+      "name": "Thermodynamic properties of pure substances in solid",
+      "diff": "H",
+      "sample": true
+     },
+     {
+      "id": "xe4-properties-of-pure-substances--liquid-and-vapor-phases",
+      "name": "Liquid and vapor phases",
+      "diff": "M"
+     },
+     {
+      "id": "xe4-properties-of-pure-substances--p-v-t-behaviour-of-simple-compressible-substances",
+      "name": "P -v-T behaviour of simple compressible substances",
+      "diff": "M"
+     },
+     {
+      "id": "xe4-properties-of-pure-substances--concept-of-triple-point-and-critical-point",
+      "name": "Concept of triple point and critical point",
+      "diff": "M"
+     },
+     {
+      "id": "xe4-properties-of-pure-substances--ideal-and-real-gases",
+      "name": "Ideal and real gases",
+      "diff": "M"
+     },
+     {
+      "id": "xe4-properties-of-pure-substances--ideal-gas-equation-of-state-and-van-der-waals-equation-of-st",
+      "name": "Ideal gas equation of state and van der Waals equation of state",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "xe4-first-law-of-thermodynamics",
+  "name": "First Law of Thermodynamics",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "First Law of Thermodynamics",
+    "topics": [
+     {
+      "id": "xe4-first-law-of-thermodynamics--concept-of-energy-and-various-forms-of-energy",
+      "name": "Concept of energy and various forms of energy",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "xe4-first-law-of-thermodynamics--internal-energy-enthalpy",
+      "name": "Internal energy, enthalpy",
+      "diff": "M"
+     },
+     {
+      "id": "xe4-first-law-of-thermodynamics--specific-heats",
+      "name": "Specific heats",
+      "diff": "E"
+     },
+     {
+      "id": "xe4-first-law-of-thermodynamics--first-law-applied-to-elementary-processes",
+      "name": "First law applied to elementary processes",
+      "diff": "M"
+     },
+     {
+      "id": "xe4-first-law-of-thermodynamics--closed-systems-and-control-volumes",
+      "name": "Closed systems and control volumes",
+      "diff": "M"
+     },
+     {
+      "id": "xe4-first-law-of-thermodynamics--steady-flow-energy-equation-applied-to-simple-engineering-de",
+      "name": "Steady flow energy equation applied to simple engineering devices",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "xe4-second-law-of-thermodynamics",
+  "name": "Second Law of Thermodynamics",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Second Law of Thermodynamics",
+    "topics": [
+     {
+      "id": "xe4-second-law-of-thermodynamics--limitations-of-the-first-law-of-thermodynamics",
+      "name": "Limitations of the first law of thermodynamics",
+      "diff": "H",
+      "sample": true
+     },
+     {
+      "id": "xe4-second-law-of-thermodynamics--concepts-of-heat-engines-and-heat-pumps-refrigerators",
+      "name": "Concepts of heat engines and heat pumps/refrigerators",
+      "diff": "M"
+     },
+     {
+      "id": "xe4-second-law-of-thermodynamics--thermal-efficiency",
+      "name": "Thermal efficiency",
+      "diff": "M"
+     },
+     {
+      "id": "xe4-second-law-of-thermodynamics--coefficient-of-performance",
+      "name": "Coefficient of performance",
+      "diff": "M"
+     },
+     {
+      "id": "xe4-second-law-of-thermodynamics--kelvin-planck-and-clausius-statements-and-their-equivalence",
+      "name": "Kelvin-Planck and Clausius statements and their equivalence",
+      "diff": "M"
+     },
+     {
+      "id": "xe4-second-law-of-thermodynamics--reversible-and-irreversible-processes",
+      "name": "Reversible and irreversible processes",
+      "diff": "M"
+     },
+     {
+      "id": "xe4-second-law-of-thermodynamics--carnot-cycle-and-carnot-principles-theorems",
+      "name": "Carnot cycle and Carnot principles/theorems",
+      "diff": "M"
+     },
+     {
+      "id": "xe4-second-law-of-thermodynamics--thermodynamic-temperature-scale",
+      "name": "Thermodynamic temperature scale",
+      "diff": "H"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "xe4-entropy",
+  "name": "Entropy",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Entropy",
+    "topics": [
+     {
+      "id": "xe4-entropy--clausius-inequality-and-concept-of-entropy-causes-of-irrever",
+      "name": "Clausius inequality and concept of entropy, causes of irreversibility",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "xe4-entropy--entropy-generation-the-principle-of-increase-of-entropy-t-s-",
+      "name": "Entropy generation, the principle of increase of entropy, T-s diagrams",
+      "diff": "M"
+     },
+     {
+      "id": "xe4-entropy--isentropic-process-and-isentropic-efficiency",
+      "name": "Isentropic process and isentropic efficiency",
+      "diff": "M"
+     },
+     {
+      "id": "xe4-entropy--second-law-analysis-of-system-and-control-volume",
+      "name": "Second law analysis of system and control volume",
+      "diff": "M"
+     },
+     {
+      "id": "xe4-entropy--second-law-efficiency",
+      "name": "Second law efficiency",
+      "diff": "M"
+     },
+     {
+      "id": "xe4-entropy--concept-of-third-law-of-thermodynamics",
+      "name": "Concept of third law of thermodynamics",
+      "diff": "H"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "xe4-thermodynamic-relations",
+  "name": "Thermodynamic Relations",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Thermodynamic Relations",
+    "topics": [
+     {
+      "id": "xe4-thermodynamic-relations--t-ds-relations",
+      "name": "T-ds relations",
+      "diff": "E",
+      "sample": true
+     },
+     {
+      "id": "xe4-thermodynamic-relations--helmholtz-and-gibbs-functions",
+      "name": "Helmholtz and Gibbs functions",
+      "diff": "M"
+     },
+     {
+      "id": "xe4-thermodynamic-relations--gibbs-relations",
+      "name": "Gibbs relations",
+      "diff": "E"
+     },
+     {
+      "id": "xe4-thermodynamic-relations--maxwell-relations",
+      "name": "Maxwell relations",
+      "diff": "E"
+     },
+     {
+      "id": "xe4-thermodynamic-relations--joule-thomson-coefficient-and-inversion-curve",
+      "name": "Joule-Thomson coefficient and inversion curve",
+      "diff": "M"
+     },
+     {
+      "id": "xe4-thermodynamic-relations--coefficient-of-volume-expansion",
+      "name": "Coefficient of volume expansion",
+      "diff": "M"
+     },
+     {
+      "id": "xe4-thermodynamic-relations--adiabatic-and-isothermal-compressibilities",
+      "name": "Adiabatic and isothermal compressibilities",
+      "diff": "M"
+     },
+     {
+      "id": "xe4-thermodynamic-relations--clapeyron-and-clapeyron-clausius-equations",
+      "name": "Clapeyron and Clapeyron-Clausius equations",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "xe4-thermodynamic-cycles",
+  "name": "Thermodynamic Cycles",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Thermodynamic Cycles",
+    "topics": [
+     {
+      "id": "xe4-thermodynamic-cycles--carnot-vapor-cycle-ideal-rankine-cycle",
+      "name": "Carnot vapor cycle, ideal Rankine cycle",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "xe4-thermodynamic-cycles--simple-vapor-compression-refrigeration-cycle",
+      "name": "Simple vapor-compression refrigeration cycle",
+      "diff": "M"
+     },
+     {
+      "id": "xe4-thermodynamic-cycles--air-standard-cycles-otto-diesel-and-brayton-cycles",
+      "name": "Air-standard cycles - Otto, Diesel, and Brayton cycles",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "xe4-mixtures-of-ideal-gases",
+  "name": "Mixtures of Ideal Gases",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Mixtures of Ideal Gases",
+    "topics": [
+     {
+      "id": "xe4-mixtures-of-ideal-gases--daltons-and-amagats-laws",
+      "name": "Dalton’s and Amagat’s laws",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "xe4-mixtures-of-ideal-gases--properties-of-ideal-gas-mixtures",
+      "name": "Properties of ideal gas mixtures",
+      "diff": "E"
+     },
+     {
+      "id": "xe4-mixtures-of-ideal-gases--air-water-vapor-mixtures-and-simple-thermodynamic-processes",
+      "name": "Air-water vapor mixtures and simple thermodynamic processes",
+      "diff": "H"
+     },
+     {
+      "id": "xe4-mixtures-of-ideal-gases--specific-and-relative-humidities",
+      "name": "Specific and relative humidities",
+      "diff": "M"
+     },
+     {
+      "id": "xe4-mixtures-of-ideal-gases--dew-point",
+      "name": "Dew point",
+      "diff": "E"
+     },
+     {
+      "id": "xe4-mixtures-of-ideal-gases--dry-bulb-and-wet-bulb-temperatures",
+      "name": "Dry bulb and wet bulb temperatures",
+      "diff": "M"
+     },
+     {
+      "id": "xe4-mixtures-of-ideal-gases--adiabatic-saturation-temperature",
+      "name": "Adiabatic saturation temperature",
+      "diff": "M"
+     },
+     {
+      "id": "xe4-mixtures-of-ideal-gases--simple-psychrometric-processes",
+      "name": "Simple psychrometric processes",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "xe5-polymer-chemistry",
+  "name": "Polymer Chemistry",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Polymer Chemistry",
+    "topics": [
+     {
+      "id": "xe5-polymer-chemistry--monomers",
+      "name": "Monomers",
+      "diff": "E",
+      "sample": true
+     },
+     {
+      "id": "xe5-polymer-chemistry--degree-of-polymerization",
+      "name": "Degree of polymerization",
+      "diff": "M"
+     },
+     {
+      "id": "xe5-polymer-chemistry--classification-of-polymers",
+      "name": "Classification of polymers",
+      "diff": "E"
+     },
+     {
+      "id": "xe5-polymer-chemistry--polymerization-reactions-addition-and-condensation-their-kin",
+      "name": "Polymerization reactions: addition and condensation, their kinetics",
+      "diff": "H"
+     },
+     {
+      "id": "xe5-polymer-chemistry--metallocene-polymers-and-other-newer-methods-of-polymerizati",
+      "name": "Metallocene polymers and other newer methods of polymerization",
+      "diff": "M"
+     },
+     {
+      "id": "xe5-polymer-chemistry--copolymerization",
+      "name": "Copolymerization",
+      "diff": "E"
+     },
+     {
+      "id": "xe5-polymer-chemistry--monomer-reactivity-ratios-and-its-significance",
+      "name": "Monomer reactivity ratios and its significance",
+      "diff": "M"
+     },
+     {
+      "id": "xe5-polymer-chemistry--kinetics",
+      "name": "Kinetics",
+      "diff": "H"
+     },
+     {
+      "id": "xe5-polymer-chemistry--different-copolymers",
+      "name": "Different copolymers",
+      "diff": "M"
+     },
+     {
+      "id": "xe5-polymer-chemistry--random-alternating-azeotropic-copolymerization",
+      "name": "Random, alternating, azeotropic copolymerization",
+      "diff": "M"
+     },
+     {
+      "id": "xe5-polymer-chemistry--block-and-graft-copolymers",
+      "name": "Block and graft copolymers",
+      "diff": "M"
+     },
+     {
+      "id": "xe5-polymer-chemistry--techniques-for-polymerization-bulk-solution-suspension-emuls",
+      "name": "Techniques for polymerization -bulk, solution, suspension, emulsion",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "xe5-polymer-characterization",
+  "name": "Polymer Characterization",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Polymer Characterization",
+    "topics": [
+     {
+      "id": "xe5-polymer-characterization--solubility-and-swelling",
+      "name": "Solubility and swelling",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "xe5-polymer-characterization--concept-of-molecular-weight-distribution-and-its-significanc",
+      "name": "Concept of molecular weight distribution and its significance",
+      "diff": "M"
+     },
+     {
+      "id": "xe5-polymer-characterization--concept-of-average-molecular-weight",
+      "name": "Concept of average molecular weight",
+      "diff": "M"
+     },
+     {
+      "id": "xe5-polymer-characterization--determination-of-number-average",
+      "name": "Determination of number average",
+      "diff": "M"
+     },
+     {
+      "id": "xe5-polymer-characterization--weight-average",
+      "name": "Weight average",
+      "diff": "E"
+     },
+     {
+      "id": "xe5-polymer-characterization--viscosity-average-and-z-average-molecular-weights",
+      "name": "Viscosity average and Z-average molecular weights",
+      "diff": "M"
+     },
+     {
+      "id": "xe5-polymer-characterization--g-lass-transition",
+      "name": "G lass transition",
+      "diff": "E"
+     },
+     {
+      "id": "xe5-polymer-characterization--melting-transition",
+      "name": "Melting transition",
+      "diff": "M"
+     },
+     {
+      "id": "xe5-polymer-characterization--amorphous-and-crystalline-states-of-polymers",
+      "name": "Amorphous and crystalline states of polymers",
+      "diff": "M"
+     },
+     {
+      "id": "xe5-polymer-characterization--orientation-in-polymers-and-polymer-crystallinity",
+      "name": "Orientation in polymers and polymer crystallinity",
+      "diff": "M"
+     },
+     {
+      "id": "xe5-polymer-characterization--factors-affecting-crystallinity",
+      "name": "Factors affecting crystallinity",
+      "diff": "M"
+     },
+     {
+      "id": "xe5-polymer-characterization--analysis-of-polymers-using-ir-xrd-thermal-dsc-dmta-tga",
+      "name": "Analysis of polymers using IR, XRD, thermal (DSC, DMTA, TGA)",
+      "diff": "M"
+     },
+     {
+      "id": "xe5-polymer-characterization--microscopic-optical-and-electronic-techniques",
+      "name": "Microscopic (optical and electronic) techniques",
+      "diff": "M"
+     },
+     {
+      "id": "xe5-polymer-characterization--gpc",
+      "name": "GPC",
+      "diff": "E"
+     },
+     {
+      "id": "xe5-polymer-characterization--mooney-viscosity",
+      "name": "Mooney viscosity",
+      "diff": "E"
+     },
+     {
+      "id": "xe5-polymer-characterization--morphology-and-microstructure-sem-tem-afm",
+      "name": "Morphology and microstructure (SEM,TEM, AFM)",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "xe5-synthesis-manufacturing-and-pr",
+  "name": "Synthesis, Manufacturing and Properties",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Commodity and general-purpose thermoplastics",
+    "topics": [
+     {
+      "id": "xe5-synthesis-manufacturing-and-pr--pe-pp-ps-pvc",
+      "name": "PE, PP, PS, PVC",
+      "diff": "E",
+      "sample": true
+     },
+     {
+      "id": "xe5-synthesis-manufacturing-and-pr--polyesters",
+      "name": "Polyesters",
+      "diff": "E"
+     },
+     {
+      "id": "xe5-synthesis-manufacturing-and-pr--acrylic",
+      "name": "Acrylic",
+      "diff": "E"
+     },
+     {
+      "id": "xe5-synthesis-manufacturing-and-pr--pu-polymers",
+      "name": "PU polymers",
+      "diff": "E"
+     },
+     {
+      "id": "xe5-synthesis-manufacturing-and-pr--engineering",
+      "name": "Engineering",
+      "diff": "E"
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Plastics",
+    "topics": [
+     {
+      "id": "xe5-synthesis-manufacturing-and-pr--nylon-pc-pbt-polyphenylene-oxide-abs-fluoropolymers",
+      "name": "Nylon, PC, PBT, Polyphenylene oxide, ABS, Fluoropolymers",
+      "diff": "M"
+     },
+     {
+      "id": "xe5-synthesis-manufacturing-and-pr--thermosetting-polymers-polyurethane",
+      "name": "Thermosetting polymers: Polyurethane",
+      "diff": "M"
+     },
+     {
+      "id": "xe5-synthesis-manufacturing-and-pr--epoxy",
+      "name": "Epoxy",
+      "diff": "E"
+     },
+     {
+      "id": "xe5-synthesis-manufacturing-and-pr--unsaturated-polyester",
+      "name": "Unsaturated polyester",
+      "diff": "M"
+     },
+     {
+      "id": "xe5-synthesis-manufacturing-and-pr--alkyds",
+      "name": "Alkyds",
+      "diff": "E"
+     },
+     {
+      "id": "xe5-synthesis-manufacturing-and-pr--natural-and-synthetic-rubbers-recovery-of-nr-hydrocarbon-fro",
+      "name": "Natural and synthetic rubbers: recovery of NR hydrocarbon from latex",
+      "diff": "M"
+     },
+     {
+      "id": "xe5-synthesis-manufacturing-and-pr--sbr",
+      "name": "SBR",
+      "diff": "E"
+     },
+     {
+      "id": "xe5-synthesis-manufacturing-and-pr--nitrile",
+      "name": "Nitrile",
+      "diff": "E"
+     },
+     {
+      "id": "xe5-synthesis-manufacturing-and-pr--csm",
+      "name": "CSM",
+      "diff": "E"
+     },
+     {
+      "id": "xe5-synthesis-manufacturing-and-pr--epdm",
+      "name": "EPDM",
+      "diff": "E"
+     },
+     {
+      "id": "xe5-synthesis-manufacturing-and-pr--iir",
+      "name": "IIR",
+      "diff": "E"
+     },
+     {
+      "id": "xe5-synthesis-manufacturing-and-pr--silicone",
+      "name": "Silicone",
+      "diff": "E"
+     },
+     {
+      "id": "xe5-synthesis-manufacturing-and-pr--tpe",
+      "name": "TPE",
+      "diff": "E"
+     },
+     {
+      "id": "xe5-synthesis-manufacturing-and-pr--specialty-plastics-pek",
+      "name": "Specialty plastics: PEK",
+      "diff": "H"
+     },
+     {
+      "id": "xe5-synthesis-manufacturing-and-pr--peek",
+      "name": "PEEK",
+      "diff": "E"
+     },
+     {
+      "id": "xe5-synthesis-manufacturing-and-pr--polyphenylene-sulfide",
+      "name": "Polyphenylene sulfide",
+      "diff": "M"
+     },
+     {
+      "id": "xe5-synthesis-manufacturing-and-pr--polysulfone",
+      "name": "Polysulfone",
+      "diff": "E"
+     },
+     {
+      "id": "xe5-synthesis-manufacturing-and-pr--polyethersulfone",
+      "name": "Polyethersulfone",
+      "diff": "E"
+     },
+     {
+      "id": "xe5-synthesis-manufacturing-and-pr--etc",
+      "name": "Etc",
+      "diff": "E"
+     },
+     {
+      "id": "xe5-synthesis-manufacturing-and-pr--bio-compostable-polymers-such-as-pcl",
+      "name": "Bio-compostable polymers such as PCL",
+      "diff": "M"
+     },
+     {
+      "id": "xe5-synthesis-manufacturing-and-pr--pla",
+      "name": "PLA",
+      "diff": "E"
+     },
+     {
+      "id": "xe5-synthesis-manufacturing-and-pr--pbat",
+      "name": "PBAT",
+      "diff": "E"
+     },
+     {
+      "id": "xe5-synthesis-manufacturing-and-pr--pha-phb",
+      "name": "PHA/PHB",
+      "diff": "E"
+     },
+     {
+      "id": "xe5-synthesis-manufacturing-and-pr--natural-and-biodegradable-polymers-such-as-cellulose",
+      "name": "Natural and biodegradable polymers such as cellulose",
+      "diff": "M"
+     },
+     {
+      "id": "xe5-synthesis-manufacturing-and-pr--starch",
+      "name": "Starch",
+      "diff": "E"
+     },
+     {
+      "id": "xe5-synthesis-manufacturing-and-pr--alginate",
+      "name": "Alginate",
+      "diff": "E"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "xe5-polymer-blends-and-composites",
+  "name": "Polymer Blends and Composites",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Polymer Blends and Composites",
+    "topics": [
+     {
+      "id": "xe5-polymer-blends-and-composites--polymer-blends-and-composites-their-significance",
+      "name": "Polymer blends and composites, their significance",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "xe5-polymer-blends-and-composites--choice-of-polymers-for-blending",
+      "name": "Choice of polymers for blending",
+      "diff": "M"
+     },
+     {
+      "id": "xe5-polymer-blends-and-composites--blend-miscibility-miscible-and-immiscible-blends",
+      "name": "Blend miscibility: miscible and immiscible blends",
+      "diff": "M"
+     },
+     {
+      "id": "xe5-polymer-blends-and-composites--thermodynamics",
+      "name": "Thermodynamics",
+      "diff": "H"
+     },
+     {
+      "id": "xe5-polymer-blends-and-composites--phase-morphology",
+      "name": "Phase morphology",
+      "diff": "E"
+     },
+     {
+      "id": "xe5-polymer-blends-and-composites--polymer-alloys",
+      "name": "Polymer alloys",
+      "diff": "E"
+     },
+     {
+      "id": "xe5-polymer-blends-and-composites--polymer-eutectics",
+      "name": "Polymer eutectics",
+      "diff": "E"
+     },
+     {
+      "id": "xe5-polymer-blends-and-composites--plastic-plastic-rubber-plastic-and-rubber-rubber-blends",
+      "name": "Plastic-plastic, rubber-plastic and rubber -rubber blends",
+      "diff": "H"
+     },
+     {
+      "id": "xe5-polymer-blends-and-composites--frp-particulate-long-and-short-fibre-reinforced-composites",
+      "name": "FRP, particulate, long and short fibre reinforced composites",
+      "diff": "M"
+     },
+     {
+      "id": "xe5-polymer-blends-and-composites--polymer-reinforcement-reinforcing-fibres-natural-and-synthet",
+      "name": "Polymer reinforcement, reinforcing fibres - natural and synthetic",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "xe5-additives-compounding-and-form",
+  "name": "Additives, Compounding and Formulations",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Additives, Compounding and Formulations",
+    "topics": [
+     {
+      "id": "xe5-additives-compounding-and-form--polymer-compounding-need-and-significance",
+      "name": "Polymer compounding -need and significance",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "xe5-additives-compounding-and-form--different-compounding-ingredients-for-rubber-and-plastics-cr",
+      "name": "Different compounding ingredients for rubber and plastics (crosslinkers",
+      "diff": "H"
+     },
+     {
+      "id": "xe5-additives-compounding-and-form--antioxidants",
+      "name": "Antioxidants",
+      "diff": "E"
+     },
+     {
+      "id": "xe5-additives-compounding-and-form--heat-stabilizers",
+      "name": "Heat stabilizers",
+      "diff": "E"
+     },
+     {
+      "id": "xe5-additives-compounding-and-form--uv-stabilizers",
+      "name": "UV stabilizers",
+      "diff": "E"
+     },
+     {
+      "id": "xe5-additives-compounding-and-form--lubricants",
+      "name": "Lubricants",
+      "diff": "E"
+     },
+     {
+      "id": "xe5-additives-compounding-and-form--processing-aids",
+      "name": "Processing aids",
+      "diff": "E"
+     },
+     {
+      "id": "xe5-additives-compounding-and-form--impact-modifiers",
+      "name": "Impact modifiers",
+      "diff": "E"
+     },
+     {
+      "id": "xe5-additives-compounding-and-form--flame-retardant",
+      "name": "Flame retardant",
+      "diff": "E"
+     },
+     {
+      "id": "xe5-additives-compounding-and-form--antistatic-agents",
+      "name": "Antistatic agents",
+      "diff": "E"
+     },
+     {
+      "id": "xe5-additives-compounding-and-form--pvc-stabilizers-and-plasticizers-and-their-function",
+      "name": "PVC stabilizers and plasticizers) and their function",
+      "diff": "H"
+     },
+     {
+      "id": "xe5-additives-compounding-and-form--use-of-carbon-black",
+      "name": "Use of carbon black",
+      "diff": "M"
+     },
+     {
+      "id": "xe5-additives-compounding-and-form--polymer-mixing-equipment",
+      "name": "Polymer mixing equipment",
+      "diff": "M"
+     },
+     {
+      "id": "xe5-additives-compounding-and-form--vulcanization-and-kinetics",
+      "name": "Vulcanization and kinetics",
+      "diff": "H"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "xe5-polymer-rheology",
+  "name": "Polymer Rheology",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Polymer Rheology",
+    "topics": [
+     {
+      "id": "xe5-polymer-rheology--flow-of-newtonian-and-non-newtonian-fluids",
+      "name": "Flow of Newtonian and non -Newtonian fluids",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "xe5-polymer-rheology--different-flow-equations",
+      "name": "Different flow equations",
+      "diff": "M"
+     },
+     {
+      "id": "xe5-polymer-rheology--dependence-of-shear-modulus-on-temperature",
+      "name": "Dependence of shear modulus on temperature",
+      "diff": "M"
+     },
+     {
+      "id": "xe5-polymer-rheology--molecular-segmental-deformations-at-different-zones-and-tran",
+      "name": "Molecular/segmental deformations at different zones and transitions",
+      "diff": "M"
+     },
+     {
+      "id": "xe5-polymer-rheology--measurements-of-rheological-parameters-by-capillary",
+      "name": "Measurements of rheological parameters by capillary",
+      "diff": "M"
+     },
+     {
+      "id": "xe5-polymer-rheology--parallel-plate",
+      "name": "Parallel plate",
+      "diff": "E"
+     },
+     {
+      "id": "xe5-polymer-rheology--cone-plate-rheometer",
+      "name": "Cone-plate rheometer",
+      "diff": "M"
+     },
+     {
+      "id": "xe5-polymer-rheology--viscoelasticity",
+      "name": "Viscoelasticity",
+      "diff": "E"
+     },
+     {
+      "id": "xe5-polymer-rheology--creep-and-stress-relaxation",
+      "name": "Creep and stress relaxation",
+      "diff": "M"
+     },
+     {
+      "id": "xe5-polymer-rheology--oscillatory-or-dynamic-testing",
+      "name": "Oscillatory or dynamic testing",
+      "diff": "M"
+     },
+     {
+      "id": "xe5-polymer-rheology--mechanical-models",
+      "name": "Mechanical models",
+      "diff": "E"
+     },
+     {
+      "id": "xe5-polymer-rheology--control-of-rheological-characteristics-through-compounding",
+      "name": "Control of rheological characteristics through compounding",
+      "diff": "M"
+     },
+     {
+      "id": "xe5-polymer-rheology--rubber-curing-in-parallel-plate-viscometer",
+      "name": "Rubber curing in parallel plate viscometer",
+      "diff": "M"
+     },
+     {
+      "id": "xe5-polymer-rheology--odr-and-mdr",
+      "name": "ODR and MDR",
+      "diff": "E"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "xe5-polymer-processing",
+  "name": "Polymer Processing",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Polymer Processing",
+    "topics": [
+     {
+      "id": "xe5-polymer-processing--spin-coating",
+      "name": "Spin coating",
+      "diff": "E",
+      "sample": true
+     },
+     {
+      "id": "xe5-polymer-processing--electrospinning",
+      "name": "Electrospinning",
+      "diff": "E"
+     },
+     {
+      "id": "xe5-polymer-processing--solution-and-melt-spinning",
+      "name": "Solution and melt spinning",
+      "diff": "M"
+     },
+     {
+      "id": "xe5-polymer-processing--film-casting",
+      "name": "Film casting",
+      "diff": "E"
+     },
+     {
+      "id": "xe5-polymer-processing--compression-molding",
+      "name": "Compression molding",
+      "diff": "M"
+     },
+     {
+      "id": "xe5-polymer-processing--transfer-molding",
+      "name": "Transfer molding",
+      "diff": "E"
+     },
+     {
+      "id": "xe5-polymer-processing--injection-molding",
+      "name": "Injection molding",
+      "diff": "E"
+     },
+     {
+      "id": "xe5-polymer-processing--blow-molding",
+      "name": "Blow molding",
+      "diff": "E"
+     },
+     {
+      "id": "xe5-polymer-processing--reaction-injection-molding",
+      "name": "Reaction injection molding",
+      "diff": "M"
+     },
+     {
+      "id": "xe5-polymer-processing--filament-winding",
+      "name": "Filament winding",
+      "diff": "E"
+     },
+     {
+      "id": "xe5-polymer-processing--smc",
+      "name": "SMC",
+      "diff": "E"
+     },
+     {
+      "id": "xe5-polymer-processing--bmc",
+      "name": "BMC",
+      "diff": "E"
+     },
+     {
+      "id": "xe5-polymer-processing--dmc",
+      "name": "DMC",
+      "diff": "E"
+     },
+     {
+      "id": "xe5-polymer-processing--extrusion",
+      "name": "Extrusion",
+      "diff": "E"
+     },
+     {
+      "id": "xe5-polymer-processing--pultrusion",
+      "name": "Pultrusion",
+      "diff": "E"
+     },
+     {
+      "id": "xe5-polymer-processing--calendaring",
+      "name": "Calendaring",
+      "diff": "E"
+     },
+     {
+      "id": "xe5-polymer-processing--rotational-molding",
+      "name": "Rotational molding",
+      "diff": "M"
+     },
+     {
+      "id": "xe5-polymer-processing--thermoforming",
+      "name": "Thermoforming",
+      "diff": "E"
+     },
+     {
+      "id": "xe5-polymer-processing--powder-coating",
+      "name": "Powder coating",
+      "diff": "E"
+     },
+     {
+      "id": "xe5-polymer-processing--rubber-processing-in-two-roll-mill",
+      "name": "Rubber processing in two-roll mill",
+      "diff": "M"
+     },
+     {
+      "id": "xe5-polymer-processing--internal-mixer",
+      "name": "Internal mixer",
+      "diff": "E"
+     },
+     {
+      "id": "xe5-polymer-processing--twin-screw-extruder",
+      "name": "Twin screw extruder",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "xe5-polymer-testing",
+  "name": "Polymer Testing",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Polymer Testing",
+    "topics": [
+     {
+      "id": "xe5-polymer-testing--mechanical-static-and-dynamic",
+      "name": "Mechanical-static and dynamic",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "xe5-polymer-testing--tensile",
+      "name": "Tensile",
+      "diff": "E"
+     },
+     {
+      "id": "xe5-polymer-testing--flexural",
+      "name": "Flexural",
+      "diff": "E"
+     },
+     {
+      "id": "xe5-polymer-testing--compressive",
+      "name": "Compressive",
+      "diff": "E"
+     },
+     {
+      "id": "xe5-polymer-testing--abrasion",
+      "name": "Abrasion",
+      "diff": "E"
+     },
+     {
+      "id": "xe5-polymer-testing--endurance",
+      "name": "Endurance",
+      "diff": "E"
+     },
+     {
+      "id": "xe5-polymer-testing--fatigue",
+      "name": "Fatigue",
+      "diff": "H"
+     },
+     {
+      "id": "xe5-polymer-testing--hardness",
+      "name": "Hardness",
+      "diff": "E"
+     },
+     {
+      "id": "xe5-polymer-testing--tear",
+      "name": "Tear",
+      "diff": "E"
+     },
+     {
+      "id": "xe5-polymer-testing--resilience",
+      "name": "Resilience",
+      "diff": "E"
+     },
+     {
+      "id": "xe5-polymer-testing--impact",
+      "name": "Impact",
+      "diff": "E"
+     },
+     {
+      "id": "xe5-polymer-testing--toughness",
+      "name": "Toughness",
+      "diff": "E"
+     },
+     {
+      "id": "xe5-polymer-testing--conductivity-thermal-and-electrical",
+      "name": "Conductivity-thermal and electrical",
+      "diff": "M"
+     },
+     {
+      "id": "xe5-polymer-testing--dielectric-constant",
+      "name": "Dielectric constant",
+      "diff": "M"
+     },
+     {
+      "id": "xe5-polymer-testing--dissipation-factor",
+      "name": "Dissipation factor",
+      "diff": "M"
+     },
+     {
+      "id": "xe5-polymer-testing--power-factor",
+      "name": "Power factor",
+      "diff": "E"
+     },
+     {
+      "id": "xe5-polymer-testing--electric-resistance",
+      "name": "Electric resistance",
+      "diff": "M"
+     },
+     {
+      "id": "xe5-polymer-testing--surface-resistivity",
+      "name": "Surface resistivity",
+      "diff": "M"
+     },
+     {
+      "id": "xe5-polymer-testing--volume-resistivity",
+      "name": "Volume resistivity",
+      "diff": "M"
+     },
+     {
+      "id": "xe5-polymer-testing--swelling",
+      "name": "Swelling",
+      "diff": "E"
+     },
+     {
+      "id": "xe5-polymer-testing--ageing-resistance",
+      "name": "Ageing resistance",
+      "diff": "E"
+     },
+     {
+      "id": "xe5-polymer-testing--environmental-stress-cracking-resistance",
+      "name": "Environmental stress cracking resistance",
+      "diff": "M"
+     },
+     {
+      "id": "xe5-polymer-testing--limiting-oxygen-index",
+      "name": "Limiting oxygen index",
+      "diff": "M"
+     },
+     {
+      "id": "xe5-polymer-testing--heat-deflection-temperature-vicat-softening-temperature",
+      "name": "Heat deflection temperature - Vicat softening temperature",
+      "diff": "M"
+     },
+     {
+      "id": "xe5-polymer-testing--ductile-to-brittle-transition",
+      "name": "Ductile to brittle transition",
+      "diff": "M"
+     },
+     {
+      "id": "xe5-polymer-testing--glass-transition-temperature",
+      "name": "Glass transition temperature",
+      "diff": "M"
+     },
+     {
+      "id": "xe5-polymer-testing--coefficient-of-thermal-expansion",
+      "name": "Coefficient of thermal expansion",
+      "diff": "M"
+     },
+     {
+      "id": "xe5-polymer-testing--shrinkage",
+      "name": "Shrinkage",
+      "diff": "E"
+     },
+     {
+      "id": "xe5-polymer-testing--flammability",
+      "name": "Flammability",
+      "diff": "E"
+     },
+     {
+      "id": "xe5-polymer-testing--optical-properties-refractive-index",
+      "name": "Optical Properties - Refractive Index",
+      "diff": "M"
+     },
+     {
+      "id": "xe5-polymer-testing--luminous-transmittance-and-haze",
+      "name": "Luminous Transmittance and Haze",
+      "diff": "M"
+     },
+     {
+      "id": "xe5-polymer-testing--melt-flow-index",
+      "name": "Melt flow index",
+      "diff": "E"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "xe5-polymer-recycling-waste-manage",
+  "name": "Polymer Recycling, Waste Management and Sustainability",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Polymer Recycling, Waste Management and Sustainability",
+    "topics": [
+     {
+      "id": "xe5-polymer-recycling-waste-manage--polymer-waste-and-its-impact-on-environment",
+      "name": "Polymer waste and its impact on environment",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "xe5-polymer-recycling-waste-manage--sources-identification-and-separation-techniques",
+      "name": "Sources, identification and separation techniques",
+      "diff": "M"
+     },
+     {
+      "id": "xe5-polymer-recycling-waste-manage--recycling-classification-mechanical-and-chemical-recycling",
+      "name": "Recycling classification: mechanical and chemical recycling",
+      "diff": "E"
+     },
+     {
+      "id": "xe5-polymer-recycling-waste-manage--recycling-of-thermoplastics",
+      "name": "Recycling of thermoplastics",
+      "diff": "M"
+     },
+     {
+      "id": "xe5-polymer-recycling-waste-manage--thermosets-and-rubbers",
+      "name": "Thermosets and rubbers",
+      "diff": "M"
+     },
+     {
+      "id": "xe5-polymer-recycling-waste-manage--applications-of-recycled-materials",
+      "name": "Applications of recycled materials",
+      "diff": "M"
+     },
+     {
+      "id": "xe5-polymer-recycling-waste-manage--life-cycle-assessment-of-polymer-products-case-studies-like-",
+      "name": "Life cycle assessment of polymer products (case studies like PET bottles, packaging bags)",
+      "diff": "M"
+     },
+     {
+      "id": "xe5-polymer-recycling-waste-manage--recycling",
+      "name": "Recycling",
+      "diff": "E"
+     },
+     {
+      "id": "xe5-polymer-recycling-waste-manage--segregation-and-disposal-strategies-of-biodegradable-and-bio",
+      "name": "Segregation and disposal strategies of biodegradable and bio-compostable polymers",
+      "diff": "M"
+     },
+     {
+      "id": "xe5-polymer-recycling-waste-manage--microplastics",
+      "name": "Microplastics",
+      "diff": "E"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "xe6-food-chemistry-and-nutrition",
+  "name": "Food Chemistry and Nutrition",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Overview",
+    "topics": [
+     {
+      "id": "xe6-food-chemistry-and-nutrition--food-components-characterization-and-quantification-techniqu",
+      "name": "Food Components Characterization and quantification techniques",
+      "diff": "M",
+      "sample": true
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Carbohydrates",
+    "topics": [
+     {
+      "id": "xe6-food-chemistry-and-nutrition--structure-and-functional-properties-of-mono",
+      "name": "Structure and functional properties of mono-",
+      "diff": "E"
+     },
+     {
+      "id": "xe6-food-chemistry-and-nutrition--oligo",
+      "name": "Oligo-",
+      "diff": "E"
+     },
+     {
+      "id": "xe6-food-chemistry-and-nutrition--and-poly-saccharides-including-starch",
+      "name": "& poly- saccharides including starch",
+      "diff": "M"
+     },
+     {
+      "id": "xe6-food-chemistry-and-nutrition--cellulose",
+      "name": "Cellulose",
+      "diff": "E"
+     },
+     {
+      "id": "xe6-food-chemistry-and-nutrition--pectic-substances-and-dietary-fibre",
+      "name": "Pectic substances and dietary fibre",
+      "diff": "M"
+     },
+     {
+      "id": "xe6-food-chemistry-and-nutrition--gelatinization-and-retrogradation-of-starch",
+      "name": "Gelatinization and retrogradation of starch",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "C",
+    "name": "Proteins",
+    "topics": [
+     {
+      "id": "xe6-food-chemistry-and-nutrition--classification-and-structure-of-proteins-in-food",
+      "name": "Classification and structure of proteins in food",
+      "diff": "E"
+     },
+     {
+      "id": "xe6-food-chemistry-and-nutrition--protein-denaturation",
+      "name": "Protein denaturation",
+      "diff": "M"
+     },
+     {
+      "id": "xe6-food-chemistry-and-nutrition--functional-properties-of-proteins-and-starch",
+      "name": "Functional properties of proteins and starch",
+      "diff": "E"
+     }
+    ]
+   },
+   {
+    "letter": "D",
+    "name": "Lipids",
+    "topics": [
+     {
+      "id": "xe6-food-chemistry-and-nutrition--classification-and-structure-of-lipids",
+      "name": "Classification and structure of lipids",
+      "diff": "E"
+     },
+     {
+      "id": "xe6-food-chemistry-and-nutrition--rancidity",
+      "name": "Rancidity",
+      "diff": "E"
+     },
+     {
+      "id": "xe6-food-chemistry-and-nutrition--polymerization-and-polymorphism",
+      "name": "Polymerization and polymorphism",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "E",
+    "name": "Pigments",
+    "topics": [
+     {
+      "id": "xe6-food-chemistry-and-nutrition--carotenoids-chlorophylls-anthocyanins-tannins-and-myoglobin",
+      "name": "Carotenoids, chlorophylls, anthocyanins, tannins and myoglobin",
+      "diff": "M"
+     },
+     {
+      "id": "xe6-food-chemistry-and-nutrition--curcumin-betalains",
+      "name": "Curcumin, betalains",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "F",
+    "name": "Food Flavours",
+    "topics": [
+     {
+      "id": "xe6-food-chemistry-and-nutrition--terpenes-esters-aldehydes-ketones-and-quinines",
+      "name": "Terpenes, esters, aldehydes, ketones and quinines",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "G",
+    "name": "Enzymes",
+    "topics": [
+     {
+      "id": "xe6-food-chemistry-and-nutrition--specificity",
+      "name": "Specificity",
+      "diff": "E"
+     },
+     {
+      "id": "xe6-food-chemistry-and-nutrition--simple-and-inhibition-kinetics",
+      "name": "Simple and inhibition kinetics",
+      "diff": "H"
+     },
+     {
+      "id": "xe6-food-chemistry-and-nutrition--coenzymes",
+      "name": "Coenzymes",
+      "diff": "E"
+     },
+     {
+      "id": "xe6-food-chemistry-and-nutrition--enzymatic-and-non-enzymatic-browning",
+      "name": "Enzymatic and non- enzymatic browning",
+      "diff": "M"
+     },
+     {
+      "id": "xe6-food-chemistry-and-nutrition--food-enzymology",
+      "name": "Food enzymology",
+      "diff": "E"
+     }
+    ]
+   },
+   {
+    "letter": "H",
+    "name": "Nutrition",
+    "topics": [
+     {
+      "id": "xe6-food-chemistry-and-nutrition--balanced-diet",
+      "name": "Balanced diet",
+      "diff": "E"
+     },
+     {
+      "id": "xe6-food-chemistry-and-nutrition--essential-amino-acids-and-essential-fatty-acids",
+      "name": "Essential amino acids and essential fatty acids",
+      "diff": "M"
+     },
+     {
+      "id": "xe6-food-chemistry-and-nutrition--protein-efficiency-ratio",
+      "name": "Protein efficiency ratio",
+      "diff": "M"
+     },
+     {
+      "id": "xe6-food-chemistry-and-nutrition--water-soluble-and-fat-soluble-vitamins",
+      "name": "Water soluble and fat soluble vitamins",
+      "diff": "M"
+     },
+     {
+      "id": "xe6-food-chemistry-and-nutrition--role-of-minerals-in-nutrition",
+      "name": "Role of minerals in nutrition",
+      "diff": "M"
+     },
+     {
+      "id": "xe6-food-chemistry-and-nutrition--co-factors",
+      "name": "Co -factors",
+      "diff": "E"
+     },
+     {
+      "id": "xe6-food-chemistry-and-nutrition--anti-nutrients",
+      "name": "Anti -nutrients",
+      "diff": "E"
+     },
+     {
+      "id": "xe6-food-chemistry-and-nutrition--nutraceuticals",
+      "name": "Nutraceuticals",
+      "diff": "E"
+     },
+     {
+      "id": "xe6-food-chemistry-and-nutrition--nutrient-deficiency-diseases",
+      "name": "Nutrient deficiency diseases",
+      "diff": "M"
+     },
+     {
+      "id": "xe6-food-chemistry-and-nutrition--food-supplements-concept-of-nutrigenomics",
+      "name": "Food Supplements, Concept of nutrigenomics",
+      "diff": "M"
+     },
+     {
+      "id": "xe6-food-chemistry-and-nutrition--food-adulteration-types-of-adulterants-and-their-detection",
+      "name": "Food adulteration (types of adulterants and their detection)",
+      "diff": "E"
+     }
+    ]
+   },
+   {
+    "letter": "I",
+    "name": "Chemical and Biochemical Changes",
+    "topics": [
+     {
+      "id": "xe6-food-chemistry-and-nutrition--changes-occurring-in-foods-during-different-processing",
+      "name": "Changes occurring in foods during different processing",
+      "diff": "M"
+     },
+     {
+      "id": "xe6-food-chemistry-and-nutrition--changes-occur-in-foods-and-food-biopolymers-carbohydrates-pr",
+      "name": "Changes occur in foods and food biopolymers (carbohydrates, proteins, lipids) during different processing",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "xe6-food-microbiology",
+  "name": "Food Microbiology",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Characteristics of Microorganisms",
+    "topics": [
+     {
+      "id": "xe6-food-microbiology--morphology-of-bacteria",
+      "name": "Morphology of bacteria",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "xe6-food-microbiology--yeast",
+      "name": "Yeast",
+      "diff": "E"
+     },
+     {
+      "id": "xe6-food-microbiology--mold-and-actinomycetes",
+      "name": "Mold and actinomycetes",
+      "diff": "M"
+     },
+     {
+      "id": "xe6-food-microbiology--spores-and-vegetative-cells",
+      "name": "Spores and vegetative cells",
+      "diff": "M"
+     },
+     {
+      "id": "xe6-food-microbiology--gram-staining",
+      "name": "Gram-staining",
+      "diff": "E"
+     },
+     {
+      "id": "xe6-food-microbiology--resistant-bacteria",
+      "name": "Resistant bacteria",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Microbial Growth",
+    "topics": [
+     {
+      "id": "xe6-food-microbiology--d-value",
+      "name": "D-value",
+      "diff": "E"
+     },
+     {
+      "id": "xe6-food-microbiology--z-value",
+      "name": "Z-value",
+      "diff": "E"
+     },
+     {
+      "id": "xe6-food-microbiology--f-value",
+      "name": "F-value",
+      "diff": "E"
+     },
+     {
+      "id": "xe6-food-microbiology--growth-and-death-kinetics",
+      "name": "Growth and death kinetics",
+      "diff": "H"
+     },
+     {
+      "id": "xe6-food-microbiology--serial-dilution-technique",
+      "name": "Serial dilution technique",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "C",
+    "name": "Food Spoilage",
+    "topics": [
+     {
+      "id": "xe6-food-microbiology--spoilage-microorganisms-in-different-food-products-including",
+      "name": "Spoilage microorganisms in different food products including milk",
+      "diff": "M"
+     },
+     {
+      "id": "xe6-food-microbiology--fish",
+      "name": "Fish",
+      "diff": "E"
+     },
+     {
+      "id": "xe6-food-microbiology--meat",
+      "name": "Meat",
+      "diff": "E"
+     },
+     {
+      "id": "xe6-food-microbiology--egg",
+      "name": "Egg",
+      "diff": "E"
+     },
+     {
+      "id": "xe6-food-microbiology--cereals-and-their-products",
+      "name": "Cereals and their products",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "D",
+    "name": "Toxins from Microbes",
+    "topics": [
+     {
+      "id": "xe6-food-microbiology--pathogens-and-non-pathogens-including-staphylococcus",
+      "name": "Pathogens and non -pathogens including Staphylococcus",
+      "diff": "M"
+     },
+     {
+      "id": "xe6-food-microbiology--salmonella",
+      "name": "Salmonella",
+      "diff": "E"
+     },
+     {
+      "id": "xe6-food-microbiology--shigella",
+      "name": "Shigella",
+      "diff": "E"
+     },
+     {
+      "id": "xe6-food-microbiology--escherichia",
+      "name": "Escherichia",
+      "diff": "E"
+     },
+     {
+      "id": "xe6-food-microbiology--bacillus",
+      "name": "Bacillus",
+      "diff": "E"
+     },
+     {
+      "id": "xe6-food-microbiology--clostridium",
+      "name": "Clostridium",
+      "diff": "E"
+     },
+     {
+      "id": "xe6-food-microbiology--aspergillus-genera",
+      "name": "Aspergillus genera",
+      "diff": "M"
+     },
+     {
+      "id": "xe6-food-microbiology--food-borne-diseases",
+      "name": "Food borne diseases",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "E",
+    "name": "Fermented Foods and Beverages",
+    "topics": [
+     {
+      "id": "xe6-food-microbiology--curd",
+      "name": "Curd",
+      "diff": "E"
+     },
+     {
+      "id": "xe6-food-microbiology--yoghurt",
+      "name": "Yoghurt",
+      "diff": "E"
+     },
+     {
+      "id": "xe6-food-microbiology--cheese",
+      "name": "Cheese",
+      "diff": "E"
+     },
+     {
+      "id": "xe6-food-microbiology--pickles",
+      "name": "Pickles",
+      "diff": "E"
+     },
+     {
+      "id": "xe6-food-microbiology--soya-sauce",
+      "name": "Soya-sauce",
+      "diff": "E"
+     },
+     {
+      "id": "xe6-food-microbiology--sauerkraut",
+      "name": "Sauerkraut",
+      "diff": "E"
+     },
+     {
+      "id": "xe6-food-microbiology--idli",
+      "name": "Idli",
+      "diff": "E"
+     },
+     {
+      "id": "xe6-food-microbiology--dosa",
+      "name": "Dosa",
+      "diff": "E"
+     },
+     {
+      "id": "xe6-food-microbiology--vinegar",
+      "name": "Vinegar",
+      "diff": "E"
+     },
+     {
+      "id": "xe6-food-microbiology--alcoholic-beverages",
+      "name": "Alcoholic beverages",
+      "diff": "M"
+     },
+     {
+      "id": "xe6-food-microbiology--sausage",
+      "name": "Sausage",
+      "diff": "E"
+     }
+    ]
+   },
+   {
+    "letter": "F",
+    "name": "Probiotic foods",
+    "topics": [
+     {
+      "id": "xe6-food-microbiology--probiotic-microorganisms-their-benefits-prebiotics-synbiotic",
+      "name": "Probiotic microorganisms, their benefits, prebiotics, synbiotics",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "xe6-food-products-technology",
+  "name": "Food Products Technology",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Processing Principles",
+    "topics": [
+     {
+      "id": "xe6-food-products-technology--food-components-characterization-and-quantification-techniqu",
+      "name": "Food Components Characterization and quantification techniques",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "xe6-food-products-technology--quality-analysis-of-raw-and-processed-food-products",
+      "name": "Quality analysis of raw and processed food products",
+      "diff": "M"
+     },
+     {
+      "id": "xe6-food-products-technology--thermal-processing-blanching-pasteurization-sterilization",
+      "name": "Thermal processing (blanching, pasteurization, sterilization)",
+      "diff": "M"
+     },
+     {
+      "id": "xe6-food-products-technology--chilling",
+      "name": "Chilling",
+      "diff": "E"
+     },
+     {
+      "id": "xe6-food-products-technology--freezing",
+      "name": "Freezing",
+      "diff": "E"
+     },
+     {
+      "id": "xe6-food-products-technology--dehydration",
+      "name": "Dehydration",
+      "diff": "E"
+     },
+     {
+      "id": "xe6-food-products-technology--addition-of-preservatives-and-food-additives",
+      "name": "Addition of preservatives and food additives",
+      "diff": "M"
+     },
+     {
+      "id": "xe6-food-products-technology--microwave",
+      "name": "Microwave",
+      "diff": "E"
+     },
+     {
+      "id": "xe6-food-products-technology--radiowave",
+      "name": "Radiowave",
+      "diff": "E"
+     },
+     {
+      "id": "xe6-food-products-technology--infrared-processing",
+      "name": "Infrared processing",
+      "diff": "M"
+     },
+     {
+      "id": "xe6-food-products-technology--irradiation",
+      "name": "Irradiation",
+      "diff": "E"
+     },
+     {
+      "id": "xe6-food-products-technology--fermentation",
+      "name": "Fermentation",
+      "diff": "E"
+     },
+     {
+      "id": "xe6-food-products-technology--hurdle-technology",
+      "name": "Hurdle technology",
+      "diff": "E"
+     },
+     {
+      "id": "xe6-food-products-technology--intermediate-moisture-foods",
+      "name": "Intermediate moisture foods",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Non thermal technologies",
+    "topics": [
+     {
+      "id": "xe6-food-products-technology--ultrasonication-hpp-pulse-electric-field-cold-plasma",
+      "name": "Ultrasonication, HPP, Pulse Electric Field, Cold plasma",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "C",
+    "name": "Food packaging and storage",
+    "topics": [
+     {
+      "id": "xe6-food-products-technology--packaging-materials-and-their-properties",
+      "name": "Packaging materials and their properties",
+      "diff": "M"
+     },
+     {
+      "id": "xe6-food-products-technology--aseptic-packaging-active-and-intelligent-packaging",
+      "name": "Aseptic packaging Active and Intelligent packaging",
+      "diff": "M"
+     },
+     {
+      "id": "xe6-food-products-technology--controlled-and-modified-atmosphere-storage",
+      "name": "Controlled and modified atmosphere storage",
+      "diff": "M"
+     },
+     {
+      "id": "xe6-food-products-technology--microplastics-in-food",
+      "name": "Microplastics in food",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "D",
+    "name": "Cereal processing and products",
+    "topics": [
+     {
+      "id": "xe6-food-products-technology--milling-of-rice",
+      "name": "Milling of rice",
+      "diff": "E"
+     },
+     {
+      "id": "xe6-food-products-technology--wheat",
+      "name": "Wheat",
+      "diff": "E"
+     },
+     {
+      "id": "xe6-food-products-technology--maize",
+      "name": "Maize",
+      "diff": "E"
+     },
+     {
+      "id": "xe6-food-products-technology--pulse-processing",
+      "name": "Pulse processing",
+      "diff": "E"
+     },
+     {
+      "id": "xe6-food-products-technology--parboiling-of-paddy",
+      "name": "Parboiling of paddy",
+      "diff": "M"
+     },
+     {
+      "id": "xe6-food-products-technology--bread",
+      "name": "Bread",
+      "diff": "E"
+     },
+     {
+      "id": "xe6-food-products-technology--biscuits",
+      "name": "Biscuits",
+      "diff": "E"
+     },
+     {
+      "id": "xe6-food-products-technology--extruded-products-and-ready-to-eat-breakfast-cereals",
+      "name": "Extruded products and ready to eat breakfast cereals",
+      "diff": "M"
+     },
+     {
+      "id": "xe6-food-products-technology--meat-analogue-and-plant-based-milk-alternatives",
+      "name": "Meat Analogue and Plant-based milk alternatives",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "E",
+    "name": "Oil Processing",
+    "topics": [
+     {
+      "id": "xe6-food-products-technology--expelling-solvent-extraction-refining-and-hydrogenation",
+      "name": "Expelling, solvent extraction, refining and hydrogenation",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "F",
+    "name": "Fruits and Vegetables Processing",
+    "topics": [
+     {
+      "id": "xe6-food-products-technology--extraction",
+      "name": "Extraction",
+      "diff": "E"
+     },
+     {
+      "id": "xe6-food-products-technology--clarification",
+      "name": "Clarification",
+      "diff": "E"
+     },
+     {
+      "id": "xe6-food-products-technology--concentration-and-packaging-of-fruit-juice",
+      "name": "Concentration and packaging of fruit juice",
+      "diff": "M"
+     },
+     {
+      "id": "xe6-food-products-technology--jam",
+      "name": "Jam",
+      "diff": "E"
+     },
+     {
+      "id": "xe6-food-products-technology--jelly",
+      "name": "Jelly",
+      "diff": "E"
+     },
+     {
+      "id": "xe6-food-products-technology--marmalade",
+      "name": "Marmalade",
+      "diff": "E"
+     },
+     {
+      "id": "xe6-food-products-technology--squash",
+      "name": "Squash",
+      "diff": "E"
+     },
+     {
+      "id": "xe6-food-products-technology--candies",
+      "name": "Candies",
+      "diff": "E"
+     },
+     {
+      "id": "xe6-food-products-technology--tomato-sauce",
+      "name": "Tomato sauce",
+      "diff": "E"
+     },
+     {
+      "id": "xe6-food-products-technology--ketchup",
+      "name": "Ketchup",
+      "diff": "E"
+     },
+     {
+      "id": "xe6-food-products-technology--puree",
+      "name": "Puree",
+      "diff": "E"
+     },
+     {
+      "id": "xe6-food-products-technology--potato-chips",
+      "name": "Potato chips",
+      "diff": "E"
+     },
+     {
+      "id": "xe6-food-products-technology--pickles",
+      "name": "Pickles",
+      "diff": "E"
+     }
+    ]
+   },
+   {
+    "letter": "G",
+    "name": "Plantation crops processing and products",
+    "topics": [
+     {
+      "id": "xe6-food-products-technology--tea",
+      "name": "Tea",
+      "diff": "E"
+     },
+     {
+      "id": "xe6-food-products-technology--coffee",
+      "name": "Coffee",
+      "diff": "E"
+     },
+     {
+      "id": "xe6-food-products-technology--cocoa",
+      "name": "Cocoa",
+      "diff": "E"
+     },
+     {
+      "id": "xe6-food-products-technology--spice",
+      "name": "Spice",
+      "diff": "E"
+     },
+     {
+      "id": "xe6-food-products-technology--extraction-of-essential-oils-and-oleoresins-from-spices",
+      "name": "Extraction of essential oils and oleoresins from spices",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "H",
+    "name": "Milk and Milk Products Processing",
+    "topics": [
+     {
+      "id": "xe6-food-products-technology--pasteurization-and-sterilization",
+      "name": "Pasteurization and sterilization",
+      "diff": "M"
+     },
+     {
+      "id": "xe6-food-products-technology--cream",
+      "name": "Cream",
+      "diff": "E"
+     },
+     {
+      "id": "xe6-food-products-technology--butter",
+      "name": "Butter",
+      "diff": "E"
+     },
+     {
+      "id": "xe6-food-products-technology--ghee",
+      "name": "Ghee",
+      "diff": "E"
+     },
+     {
+      "id": "xe6-food-products-technology--ice-cream",
+      "name": "Ice- cream",
+      "diff": "E"
+     },
+     {
+      "id": "xe6-food-products-technology--cheese-and-milk-powder",
+      "name": "Cheese and milk powder",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "I",
+    "name": "Processing of animal products",
+    "topics": [
+     {
+      "id": "xe6-food-products-technology--processing-of-frozen",
+      "name": "Processing of frozen",
+      "diff": "M"
+     },
+     {
+      "id": "xe6-food-products-technology--canned",
+      "name": "Canned",
+      "diff": "E"
+     },
+     {
+      "id": "xe6-food-products-technology--dried-products",
+      "name": "Dried products",
+      "diff": "E"
+     },
+     {
+      "id": "xe6-food-products-technology--ready-to-eat-products-of-fish-and-meat",
+      "name": "Ready to eat products of fish and meat",
+      "diff": "M"
+     },
+     {
+      "id": "xe6-food-products-technology--curing-smoking-poultry-processing-animal-slaughtering",
+      "name": "Curing, smoking, poultry processing, animal slaughtering",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "J",
+    "name": "Waste Utilization",
+    "topics": [
+     {
+      "id": "xe6-food-products-technology--pectin-from-fruit-wastes-uses-of-by-products-from-rice-milli",
+      "name": "Pectin from fruit wastes, uses of by-products from rice milling",
+      "diff": "M"
+     },
+     {
+      "id": "xe6-food-products-technology--edible-films-and-packaging-materials-from-waste",
+      "name": "Edible films and packaging materials from waste",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "K",
+    "name": "Food standards and Quality Maintenance",
+    "topics": [
+     {
+      "id": "xe6-food-products-technology--fpo",
+      "name": "FPO",
+      "diff": "E"
+     },
+     {
+      "id": "xe6-food-products-technology--pfa",
+      "name": "PFA",
+      "diff": "E"
+     },
+     {
+      "id": "xe6-food-products-technology--a-mark",
+      "name": "A-Mark",
+      "diff": "E"
+     },
+     {
+      "id": "xe6-food-products-technology--haccp",
+      "name": "HACCP",
+      "diff": "E"
+     },
+     {
+      "id": "xe6-food-products-technology--food-plant-sanitation-and-cleaning-in-place-cip",
+      "name": "Food plant sanitation and cleaning in place (CIP)",
+      "diff": "M"
+     },
+     {
+      "id": "xe6-food-products-technology--fssai",
+      "name": "FSSAI",
+      "diff": "E"
+     },
+     {
+      "id": "xe6-food-products-technology--bis",
+      "name": "BIS",
+      "diff": "E"
+     },
+     {
+      "id": "xe6-food-products-technology--codex-alimentarius",
+      "name": "Codex Alimentarius",
+      "diff": "M"
+     },
+     {
+      "id": "xe6-food-products-technology--iso",
+      "name": "ISO",
+      "diff": "E"
+     },
+     {
+      "id": "xe6-food-products-technology--food-safety-and-management-system-fsms",
+      "name": "Food Safety and Management System (FSMS)",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "xe6-food-engineering",
+  "name": "Food Engineering",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Overview",
+    "topics": [
+     {
+      "id": "xe6-food-engineering--mass-and-energy-balance",
+      "name": "Mass and energy balance",
+      "diff": "M",
+      "sample": true
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Momentum Transfer",
+    "topics": [
+     {
+      "id": "xe6-food-engineering--flow-rate-and-pressure-drop-relationships-for-newtonian-flui",
+      "name": "Flow rate and pressure drop relationships for Newtonian fluids flowing through pipe",
+      "diff": "M"
+     },
+     {
+      "id": "xe6-food-engineering--reynolds-number",
+      "name": "Reynolds number",
+      "diff": "E"
+     }
+    ]
+   },
+   {
+    "letter": "C",
+    "name": "Heat transfer",
+    "topics": [
+     {
+      "id": "xe6-food-engineering--heat-transfer-by-conduction-convection-radiation-heat-exchan",
+      "name": "Heat transfer by conduction, convection, radiation, heat exchangers",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "D",
+    "name": "Mass Transfer",
+    "topics": [
+     {
+      "id": "xe6-food-engineering--molecular-diffusion-and-ficks-law",
+      "name": "Molecular diffusion and Fick's law",
+      "diff": "M"
+     },
+     {
+      "id": "xe6-food-engineering--conduction-and-convective-mass-transfer",
+      "name": "Conduction and convective mass transfer",
+      "diff": "M"
+     },
+     {
+      "id": "xe6-food-engineering--permeability-through-single-and-multilayer-films",
+      "name": "Permeability through single and multilayer films",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "E",
+    "name": "Mechanical Operations",
+    "topics": [
+     {
+      "id": "xe6-food-engineering--size-reduction-of-solids",
+      "name": "Size reduction of solids",
+      "diff": "M"
+     },
+     {
+      "id": "xe6-food-engineering--high-pressure-homogenization",
+      "name": "High pressure homogenization",
+      "diff": "M"
+     },
+     {
+      "id": "xe6-food-engineering--filtration",
+      "name": "Filtration",
+      "diff": "E"
+     },
+     {
+      "id": "xe6-food-engineering--centrifugation",
+      "name": "Centrifugation",
+      "diff": "E"
+     },
+     {
+      "id": "xe6-food-engineering--settling",
+      "name": "Settling",
+      "diff": "E"
+     },
+     {
+      "id": "xe6-food-engineering--sieving",
+      "name": "Sieving",
+      "diff": "E"
+     },
+     {
+      "id": "xe6-food-engineering--mixing-and-agitation-of-liquid",
+      "name": "Mixing & agitation of liquid",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "F",
+    "name": "Thermal operations",
+    "topics": [
+     {
+      "id": "xe6-food-engineering--thermal-blanching",
+      "name": "Thermal blanching",
+      "diff": "E"
+     },
+     {
+      "id": "xe6-food-engineering--pasteurization",
+      "name": "Pasteurization",
+      "diff": "E"
+     },
+     {
+      "id": "xe6-food-engineering--sterilization",
+      "name": "Sterilization",
+      "diff": "E"
+     },
+     {
+      "id": "xe6-food-engineering--evaporation-of-liquid-foods",
+      "name": "Evaporation of liquid foods",
+      "diff": "M"
+     },
+     {
+      "id": "xe6-food-engineering--hot-air-drying-of-solids",
+      "name": "Hot air drying of solids",
+      "diff": "M"
+     },
+     {
+      "id": "xe6-food-engineering--spray-and-freeze-drying",
+      "name": "Spray and freeze-drying",
+      "diff": "M"
+     },
+     {
+      "id": "xe6-food-engineering--freezing-and-crystallization",
+      "name": "Freezing and crystallization",
+      "diff": "M"
+     },
+     {
+      "id": "xe6-food-engineering--mass-transfer-operations-psychometric",
+      "name": "Mass Transfer Operations: Psychometric",
+      "diff": "M"
+     },
+     {
+      "id": "xe6-food-engineering--humidification-and-dehumidification-operations",
+      "name": "Humidification and dehumidification operations",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "xe7-atmospheric-science",
+  "name": "Atmospheric Science",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Atmospheric Science",
+    "topics": [
+     {
+      "id": "xe7-atmospheric-science--vertical-structure-and-composition-of-the-atmosphere",
+      "name": "Vertical Structure and Composition of the Atmosphere",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "xe7-atmospheric-science--blackbody-radiation-and-radiation-balance",
+      "name": "Blackbody Radiation and Radiation Balance",
+      "diff": "M"
+     },
+     {
+      "id": "xe7-atmospheric-science--modes-of-heat-transfer-in-the-atmosphere",
+      "name": "Modes of Heat Transfer in the Atmosphere",
+      "diff": "M"
+     },
+     {
+      "id": "xe7-atmospheric-science--greenhouse-effect",
+      "name": "Greenhouse Effect",
+      "diff": "E"
+     },
+     {
+      "id": "xe7-atmospheric-science--cloud-types",
+      "name": "Cloud Types",
+      "diff": "E"
+     },
+     {
+      "id": "xe7-atmospheric-science--laws-of-thermodynamics",
+      "name": "Laws of Thermodynamics",
+      "diff": "H"
+     },
+     {
+      "id": "xe7-atmospheric-science--gas-laws",
+      "name": "Gas Laws",
+      "diff": "E"
+     },
+     {
+      "id": "xe7-atmospheric-science--hydrostatic-equation",
+      "name": "Hydrostatic Equation",
+      "diff": "M"
+     },
+     {
+      "id": "xe7-atmospheric-science--clausius-clapeyron-equation",
+      "name": "Clausius Clapeyron Equation",
+      "diff": "M"
+     },
+     {
+      "id": "xe7-atmospheric-science--adiabatic-processes-humidity-in-the-atmosphere-atmospheric-s",
+      "name": "Adiabatic Processes, Humidity in the Atmosphere, Atmospheric Stability",
+      "diff": "H"
+     },
+     {
+      "id": "xe7-atmospheric-science--global-radiation-budget-role-of-greenhouse-gases",
+      "name": "Global Radiation Budget, Role of Greenhouse Gases",
+      "diff": "M"
+     },
+     {
+      "id": "xe7-atmospheric-science--navier-stokes-and-continuity-equations",
+      "name": "Navier-Stokes and Continuity Equations",
+      "diff": "M"
+     },
+     {
+      "id": "xe7-atmospheric-science--compressible-and-incompressible-fluids",
+      "name": "Compressible and Incompressible Fluids",
+      "diff": "M"
+     },
+     {
+      "id": "xe7-atmospheric-science--pressure-gradient-centripetal-centrifugal-and-coriolis-force",
+      "name": "Pressure Gradient, Centripetal, Centrifugal and Coriolis Forces",
+      "diff": "M"
+     },
+     {
+      "id": "xe7-atmospheric-science--geostrophic-gradient-and-cyclostrophic-balances",
+      "name": "Geostrophic, Gradient and Cyclostrophic Balances",
+      "diff": "M"
+     },
+     {
+      "id": "xe7-atmospheric-science--circulations-and-vorticity-general-circulation-of-the-atmosp",
+      "name": "Circulations and Vorticity, General Circulation of the Atmosphere",
+      "diff": "M"
+     },
+     {
+      "id": "xe7-atmospheric-science--broad-features-of-indian-monsoons",
+      "name": "Broad Features of Indian Monsoons",
+      "diff": "M"
+     },
+     {
+      "id": "xe7-atmospheric-science--fundamentals-of-tropical-cyclones",
+      "name": "Fundamentals of Tropical Cyclones",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "xe7-ocean-sciences",
+  "name": "Ocean Sciences",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Ocean Sciences",
+    "topics": [
+     {
+      "id": "xe7-ocean-sciences--vertical-profiles-of-temperature-and-salinity",
+      "name": "Vertical Profiles of Temperature and Salinity",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "xe7-ocean-sciences--stability-and-double-diffusion",
+      "name": "Stability and Double Diffusion",
+      "diff": "H"
+     },
+     {
+      "id": "xe7-ocean-sciences--equation-of-state",
+      "name": "Equation of State",
+      "diff": "E"
+     },
+     {
+      "id": "xe7-ocean-sciences--equations-for-conservation-of-mass",
+      "name": "Equations for Conservation of Mass",
+      "diff": "M"
+     },
+     {
+      "id": "xe7-ocean-sciences--momentum",
+      "name": "Momentum",
+      "diff": "E"
+     },
+     {
+      "id": "xe7-ocean-sciences--heat-and-salt",
+      "name": "Heat and Salt",
+      "diff": "E"
+     },
+     {
+      "id": "xe7-ocean-sciences--inertial-currents",
+      "name": "Inertial Currents",
+      "diff": "E"
+     },
+     {
+      "id": "xe7-ocean-sciences--geostrophic-motion",
+      "name": "Geostrophic Motion",
+      "diff": "M"
+     },
+     {
+      "id": "xe7-ocean-sciences--air-sea-surface-fluxes",
+      "name": "Air -Sea Surface Fluxes",
+      "diff": "M"
+     },
+     {
+      "id": "xe7-ocean-sciences--wind-driven-circulation-ekman-and-sverdrup-transports",
+      "name": "Wind-driven Circulation, Ekman and Sverdrup Transports",
+      "diff": "M"
+     },
+     {
+      "id": "xe7-ocean-sciences--storm-surges-tides-tsunamis-and-wind-waves",
+      "name": "Storm Surges, Tides, Tsunamis and Wind Waves",
+      "diff": "M"
+     },
+     {
+      "id": "xe7-ocean-sciences--eddies-and-gyres",
+      "name": "Eddies and Gyres",
+      "diff": "E"
+     },
+     {
+      "id": "xe7-ocean-sciences--thermohaline-circulation",
+      "name": "Thermohaline Circulation",
+      "diff": "M"
+     },
+     {
+      "id": "xe7-ocean-sciences--chemical-properties-of-seawater",
+      "name": "Chemical Properties of Seawater",
+      "diff": "E"
+     },
+     {
+      "id": "xe7-ocean-sciences--major-and-minor-elements",
+      "name": "Major and Minor Elements",
+      "diff": "M"
+     },
+     {
+      "id": "xe7-ocean-sciences--ocean-acidification",
+      "name": "Ocean Acidification",
+      "diff": "M"
+     },
+     {
+      "id": "xe7-ocean-sciences--biogeochemical-cycling-of-nutrients",
+      "name": "Biogeochemical Cycling of Nutrients",
+      "diff": "M"
+     },
+     {
+      "id": "xe7-ocean-sciences--biological-pump",
+      "name": "Biological Pump",
+      "diff": "E"
+     },
+     {
+      "id": "xe7-ocean-sciences--primary-and-secondary-biological-productivity",
+      "name": "Primary and Secondary Biological Productivity",
+      "diff": "M"
+     },
+     {
+      "id": "xe7-ocean-sciences--marine-ecology",
+      "name": "Marine Ecology",
+      "diff": "E"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "xe8-energy-resources-and-conversio",
+  "name": "Energy Resources and Conversion Technologies",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Fossil energy resources",
+    "topics": [
+     {
+      "id": "xe8-energy-resources-and-conversio--r-p-ratio",
+      "name": "R/P ratio",
+      "diff": "E",
+      "sample": true
+     },
+     {
+      "id": "xe8-energy-resources-and-conversio--estimation-of-reserves",
+      "name": "Estimation of reserves",
+      "diff": "M"
+     },
+     {
+      "id": "xe8-energy-resources-and-conversio--unconventional-fossil-resources-coal-bed-methane-shale-gas-g",
+      "name": "Unconventional fossil resources (coal bed methane, shale gas, gas hydrates, frozen methane)",
+      "diff": "M"
+     },
+     {
+      "id": "xe8-energy-resources-and-conversio--peak-oil-theory",
+      "name": "Peak oil theory",
+      "diff": "E"
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Nuclear energy resources",
+    "topics": [
+     {
+      "id": "xe8-energy-resources-and-conversio--energy-mass-relation",
+      "name": "Energy-mass relation",
+      "diff": "M"
+     },
+     {
+      "id": "xe8-energy-resources-and-conversio--nuclear-reaction-conservation-laws",
+      "name": "Nuclear reaction conservation laws",
+      "diff": "M"
+     },
+     {
+      "id": "xe8-energy-resources-and-conversio--binding-energy-and-q-values",
+      "name": "Binding energy and Q - values",
+      "diff": "M"
+     },
+     {
+      "id": "xe8-energy-resources-and-conversio--radioactive-decay",
+      "name": "Radioactive decay",
+      "diff": "E"
+     },
+     {
+      "id": "xe8-energy-resources-and-conversio--fission-and-fusion",
+      "name": "Fission and fusion",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "C",
+    "name": "Solar thermal systems",
+    "topics": [
+     {
+      "id": "xe8-energy-resources-and-conversio--solar-radiation-distribution-and-measurement",
+      "name": "Solar radiation distribution and measurement",
+      "diff": "M"
+     },
+     {
+      "id": "xe8-energy-resources-and-conversio--solar-geometry",
+      "name": "Solar geometry",
+      "diff": "E"
+     },
+     {
+      "id": "xe8-energy-resources-and-conversio--optical-efficiency",
+      "name": "Optical efficiency",
+      "diff": "M"
+     },
+     {
+      "id": "xe8-energy-resources-and-conversio--thermal-efficiency",
+      "name": "Thermal efficiency",
+      "diff": "M"
+     },
+     {
+      "id": "xe8-energy-resources-and-conversio--energy-conversation-for-solar-thermal-collectors",
+      "name": "Energy conversation for solar thermal collectors",
+      "diff": "M"
+     },
+     {
+      "id": "xe8-energy-resources-and-conversio--flat-plate-collectors",
+      "name": "Flat plate collectors",
+      "diff": "M"
+     },
+     {
+      "id": "xe8-energy-resources-and-conversio--evacuated-tube-collectors",
+      "name": "Evacuated tube collectors",
+      "diff": "M"
+     },
+     {
+      "id": "xe8-energy-resources-and-conversio--solar-air-heaters",
+      "name": "Solar air heaters",
+      "diff": "E"
+     },
+     {
+      "id": "xe8-energy-resources-and-conversio--concentrating-collectors",
+      "name": "Concentrating collectors",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "D",
+    "name": "Solar photovoltaic (PV) systems",
+    "topics": [
+     {
+      "id": "xe8-energy-resources-and-conversio--i-v-characteristics",
+      "name": "I-V characteristics",
+      "diff": "M"
+     },
+     {
+      "id": "xe8-energy-resources-and-conversio--efficiency",
+      "name": "Efficiency",
+      "diff": "E"
+     },
+     {
+      "id": "xe8-energy-resources-and-conversio--fill-factor",
+      "name": "Fill factor",
+      "diff": "E"
+     },
+     {
+      "id": "xe8-energy-resources-and-conversio--series-and-parallel-connections",
+      "name": "Series and parallel connections",
+      "diff": "M"
+     },
+     {
+      "id": "xe8-energy-resources-and-conversio--sizing-of-pv-systems-load-factor-days-of-autonomy-battery-si",
+      "name": "Sizing of PV systems (load factor, days of autonomy, battery size, inverter size, PV array size)",
+      "diff": "M"
+     },
+     {
+      "id": "xe8-energy-resources-and-conversio--maximum-power-point-tracking",
+      "name": "Maximum power point tracking",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "E",
+    "name": "Biomass",
+    "topics": [
+     {
+      "id": "xe8-energy-resources-and-conversio--biomass-resources",
+      "name": "Biomass resources",
+      "diff": "E"
+     },
+     {
+      "id": "xe8-energy-resources-and-conversio--biomass-composition",
+      "name": "Biomass composition",
+      "diff": "M"
+     },
+     {
+      "id": "xe8-energy-resources-and-conversio--characterisation",
+      "name": "Characterisation",
+      "diff": "E"
+     },
+     {
+      "id": "xe8-energy-resources-and-conversio--conversion-methods-pyrolysis-gasification-steam-reforming",
+      "name": "Conversion methods (pyrolysis, gasification, steam reforming)",
+      "diff": "M"
+     },
+     {
+      "id": "xe8-energy-resources-and-conversio--biofuels",
+      "name": "Biofuels",
+      "diff": "E"
+     }
+    ]
+   },
+   {
+    "letter": "F",
+    "name": "Wind energy conversion systems",
+    "topics": [
+     {
+      "id": "xe8-energy-resources-and-conversio--wind-resource-analysis",
+      "name": "Wind resource analysis",
+      "diff": "M"
+     },
+     {
+      "id": "xe8-energy-resources-and-conversio--types-and-characteristics-of-wind-turbines",
+      "name": "Types and characteristics of wind turbines",
+      "diff": "M"
+     },
+     {
+      "id": "xe8-energy-resources-and-conversio--betz-limit",
+      "name": "Betz limit",
+      "diff": "E"
+     },
+     {
+      "id": "xe8-energy-resources-and-conversio--wind-turbine-motor-design-considerations",
+      "name": "Wind turbine motor design considerations",
+      "diff": "M"
+     },
+     {
+      "id": "xe8-energy-resources-and-conversio--blade-profile",
+      "name": "Blade profile",
+      "diff": "E"
+     },
+     {
+      "id": "xe8-energy-resources-and-conversio--wind-energy-generators",
+      "name": "Wind energy generators",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "G",
+    "name": "Hydropower",
+    "topics": [
+     {
+      "id": "xe8-energy-resources-and-conversio--hydro-resources",
+      "name": "Hydro resources",
+      "diff": "E"
+     },
+     {
+      "id": "xe8-energy-resources-and-conversio--hydro-power-plants",
+      "name": "Hydro power plants",
+      "diff": "M"
+     },
+     {
+      "id": "xe8-energy-resources-and-conversio--turbines-pelton-kaplan-francis",
+      "name": "Turbines (Pelton, Kaplan, Francis)",
+      "diff": "M"
+     },
+     {
+      "id": "xe8-energy-resources-and-conversio--small-hydro-systems",
+      "name": "Small hydro systems",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "xe8-energy-storage-economics-envir",
+  "name": "Energy Storage, Economics, Environment, and Efficiency",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Energy storage systems",
+    "topics": [
+     {
+      "id": "xe8-energy-storage-economics-envir--batteries-capacity-c-rate-state-of-charge-state-of-health-de",
+      "name": "Batteries (capacity, C-rate, state of charge, state of health, depth of discharge, energy and power densities)",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "xe8-energy-storage-economics-envir--conservation-of-energy-and-mass-for-thermal-energy-storage",
+      "name": "Conservation of energy and mass for thermal energy storage",
+      "diff": "M"
+     },
+     {
+      "id": "xe8-energy-storage-economics-envir--pumped-hydro-storage",
+      "name": "Pumped hydro storage",
+      "diff": "M"
+     },
+     {
+      "id": "xe8-energy-storage-economics-envir--compressed-air-storage",
+      "name": "Compressed air storage",
+      "diff": "M"
+     },
+     {
+      "id": "xe8-energy-storage-economics-envir--charging-discharging-and-roundtrip-efficiency",
+      "name": "Charging, discharging, and roundtrip efficiency",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Economic analysis of energy systems",
+    "topics": [
+     {
+      "id": "xe8-energy-storage-economics-envir--simple-payback-period",
+      "name": "Simple Payback Period",
+      "diff": "M"
+     },
+     {
+      "id": "xe8-energy-storage-economics-envir--time-value-of-money",
+      "name": "Time Value of Money",
+      "diff": "M"
+     },
+     {
+      "id": "xe8-energy-storage-economics-envir--discount-rate",
+      "name": "Discount rate",
+      "diff": "E"
+     },
+     {
+      "id": "xe8-energy-storage-economics-envir--present-worth-factor",
+      "name": "Present Worth Factor",
+      "diff": "M"
+     },
+     {
+      "id": "xe8-energy-storage-economics-envir--capital-recovery-factor",
+      "name": "Capital Recovery Factor",
+      "diff": "M"
+     },
+     {
+      "id": "xe8-energy-storage-economics-envir--life-cycle-costing",
+      "name": "Life Cycle Costing",
+      "diff": "M"
+     },
+     {
+      "id": "xe8-energy-storage-economics-envir--internal-rate-of-return",
+      "name": "Internal Rate of Return",
+      "diff": "M"
+     },
+     {
+      "id": "xe8-energy-storage-economics-envir--net-present-value",
+      "name": "Net Present Value",
+      "diff": "E"
+     },
+     {
+      "id": "xe8-energy-storage-economics-envir--annual-worth",
+      "name": "Annual Worth",
+      "diff": "E"
+     },
+     {
+      "id": "xe8-energy-storage-economics-envir--cost-of-saved-energy",
+      "name": "Cost of Saved Energy",
+      "diff": "M"
+     },
+     {
+      "id": "xe8-energy-storage-economics-envir--levelized-cost-of-energy",
+      "name": "Levelized Cost of Energy",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "C",
+    "name": "Environmental impacts of energy use",
+    "topics": [
+     {
+      "id": "xe8-energy-storage-economics-envir--air-pollution-sox-nox-co-particulates",
+      "name": "Air pollution (SOx, NOx, CO, particulates)",
+      "diff": "M"
+     },
+     {
+      "id": "xe8-energy-storage-economics-envir--greenhouse-gas-emissions-and-their-sources",
+      "name": "Greenhouse gas emissions and their sources",
+      "diff": "M"
+     },
+     {
+      "id": "xe8-energy-storage-economics-envir--emission-factors-and-inventories",
+      "name": "Emission factors and inventories",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "D",
+    "name": "Energy management",
+    "topics": [
+     {
+      "id": "xe8-energy-storage-economics-envir--energy-auditing-methodology-analysis-of-past-trends-plants-d",
+      "name": "Energy auditing (methodology, analysis of past trends plants data)",
+      "diff": "M"
+     },
+     {
+      "id": "xe8-energy-storage-economics-envir--electrical-systems-demand-side-management-power-factor-corre",
+      "name": "Electrical systems (demand side management, power factor correction)",
+      "diff": "M"
+     },
+     {
+      "id": "xe8-energy-storage-economics-envir--motor-efficiency-testing",
+      "name": "Motor efficiency testing",
+      "diff": "M"
+     },
+     {
+      "id": "xe8-energy-storage-economics-envir--energy-efficient-motors",
+      "name": "Energy efficient motors",
+      "diff": "M"
+     },
+     {
+      "id": "xe8-energy-storage-economics-envir--lighting-lighting-levels-efficient-options-fixtures-daylight",
+      "name": "Lighting (lighting levels, efficient options, fixtures, daylightin g, timers)",
+      "diff": "M"
+     },
+     {
+      "id": "xe8-energy-storage-economics-envir--thermal-and-mechanical-systems-insulation-compressors-pumps-",
+      "name": "Thermal and mechanical systems (insulation, compressors, pumps, boiler, heating and cooling systems)",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ }
+]

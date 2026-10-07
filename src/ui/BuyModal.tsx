@@ -1,6 +1,22 @@
-import { useEffect, useRef } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { Check, Lock, ShieldCheck, X } from 'lucide-react';
 import { EDITION, PRICE_INR, type Paper } from '../catalog';
+import { useAuth } from '../lib/auth';
+import { supabase } from '../lib/supabase';
+import { SignInModal } from './SignInModal';
+
+declare global { interface Window { Razorpay?: new (o: Record<string, unknown>) => { open: () => void; on: (e: string, f: (r: unknown) => void) => void } } }
+
+function loadCheckout(): Promise<void> {
+  if (window.Razorpay) return Promise.resolve();
+  return new Promise((ok, fail) => {
+    const s = document.createElement('script');
+    s.src = 'https://checkout.razorpay.com/v1/checkout.js';
+    s.onload = () => ok();
+    s.onerror = () => fail(new Error('Could not load Razorpay. Check your connection.'));
+    document.body.appendChild(s);
+  });
+}
 
 interface Props {
   paper: Paper;
@@ -11,6 +27,37 @@ interface Props {
 
 export function BuyModal({ paper, topicName, counts, onClose }: Props) {
   const panel = useRef<HTMLDivElement>(null);
+  const { session, refresh } = useAuth();
+  const [needSignIn, setNeedSignIn] = useState(false);
+  const [busy, setBusy] = useState(false);
+  const [msg, setMsg] = useState('');
+  const [done, setDone] = useState(false);
+
+  async function pay() {
+    if (!session) return setNeedSignIn(true);
+    setBusy(true); setMsg('');
+    try {
+      await loadCheckout();
+      const { data, error } = await supabase.functions.invoke('create-order', { body: { paper: paper.slug } });
+      if (error || !data?.orderId) throw new Error(data?.error ?? 'Could not start payment. Try again.');
+      const rzp = new window.Razorpay!({
+        key: data.keyId, order_id: data.orderId, amount: data.amount, currency: 'INR',
+        name: 'GATE A–Z', description: `${paper.code} · ${EDITION}`,
+        prefill: { email: data.email }, theme: { color: '#F5A524' },
+        modal: { ondismiss: () => setBusy(false) },
+        handler: async (r: Record<string, string>) => {
+          setMsg('Confirming your payment…');
+          const v = await supabase.functions.invoke('verify-payment', { body: r });
+          if (v.error || !v.data?.ok) { setMsg(v.data?.error ?? 'If money was deducted, your paper will unlock automatically within a few minutes.'); setBusy(false); return; }
+          await refresh(); setDone(true); setBusy(false);
+        },
+      });
+      rzp.on('payment.failed', () => { setMsg("Payment didn't go through. You can try again."); setBusy(false); });
+      rzp.open();
+    } catch (e) {
+      setMsg((e as Error).message); setBusy(false);
+    }
+  }
 
   useEffect(() => {
     const prev = document.activeElement as HTMLElement | null;
@@ -30,6 +77,8 @@ export function BuyModal({ paper, topicName, counts, onClose }: Props) {
   ];
 
   return (
+    <>
+    {needSignIn && <SignInModal reason={`Sign in to buy ${paper.code}.`} onClose={() => setNeedSignIn(false)} />}
     <div className="fixed inset-0 z-50 flex items-end justify-center bg-black/60 sm:items-center sm:p-4" onClick={onClose}>
       <div
         ref={panel}
@@ -66,13 +115,15 @@ export function BuyModal({ paper, topicName, counts, onClose }: Props) {
         </div>
         <p className="mt-1 text-xs text-mute">One account, one active login. Each branch is bought separately. No refunds or cancellations after purchase.</p>
 
-        <button type="button" className="btn-primary mt-5 h-11 w-full text-[15px]" onClick={() => alert('Payments open soon. Razorpay checkout will appear here.')}>
-          Pay ₹{PRICE_INR} with UPI
+        <button type="button" className="btn-primary mt-5 h-11 w-full text-[15px]" disabled={busy} onClick={done ? onClose : pay}>
+          {done ? `${paper.code} unlocked · Start studying` : busy ? 'Opening payment…' : `Pay ₹${PRICE_INR} with UPI`}
         </button>
+        {msg && <p role="status" className="mt-3 text-center text-sm text-sub">{msg}</p>}
         <p className="mt-3 flex items-center justify-center gap-1.5 text-xs text-mute">
           <ShieldCheck size={14} /> Secure payment by Razorpay · UPI, cards, netbanking
         </p>
       </div>
     </div>
+    </>
   );
 }

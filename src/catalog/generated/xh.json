@@ -1,0 +1,6035 @@
+[
+ {
+  "id": "xh1-microeconomics",
+  "name": "Microeconomics",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Theory of Consumer Behaviour",
+    "topics": [
+     {
+      "id": "xh1-microeconomics--cardinal-approach-and-ordinal-approach",
+      "name": "Cardinal Approach and Ordinal Approach",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "xh1-microeconomics--consumer-preferences",
+      "name": "Consumer Preferences",
+      "diff": "M"
+     },
+     {
+      "id": "xh1-microeconomics--nature-of-the-utility-function",
+      "name": "Nature of the utility function",
+      "diff": "M"
+     },
+     {
+      "id": "xh1-microeconomics--marshallian-and-hicksian-demand-functions",
+      "name": "Marshallian and Hicksian demand functions",
+      "diff": "M"
+     },
+     {
+      "id": "xh1-microeconomics--duality-theorem",
+      "name": "Duality Theorem",
+      "diff": "E"
+     },
+     {
+      "id": "xh1-microeconomics--slutsky-equation-and-comparative-statics",
+      "name": "Slutsky equation and Comparative Statics",
+      "diff": "M"
+     },
+     {
+      "id": "xh1-microeconomics--homogeneous-and-homothetic-utility-functions",
+      "name": "Homogeneous and Homothetic Utility Functions",
+      "diff": "M"
+     },
+     {
+      "id": "xh1-microeconomics--eulers-theorem",
+      "name": "Euler’s Theorem",
+      "diff": "E"
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "The Theory of Revealed Preference",
+    "topics": [
+     {
+      "id": "xh1-microeconomics--weak-axiom-of-revealed-preference-and-strong-axiom-of-reveal",
+      "name": "Weak Axiom of Revealed Preference and Strong Axiom of Revealed Preference",
+      "diff": "M"
+     },
+     {
+      "id": "xh1-microeconomics--theory-of-production-and-costs-short-run-and-long-run-analys",
+      "name": "Theory of Production and Costs: Short-run and Long -run Analysis",
+      "diff": "M"
+     },
+     {
+      "id": "xh1-microeconomics--existence",
+      "name": "Existence",
+      "diff": "E"
+     },
+     {
+      "id": "xh1-microeconomics--uniquen-ess-and-stability-of-market-equilibrium-walrasian-an",
+      "name": "Uniquen ess and Stability of Market Equilibrium: Walrasian and Marshallian Stability Analysis",
+      "diff": "H"
+     },
+     {
+      "id": "xh1-microeconomics--the-cobweb-model-decision-making-under-uncertainty-and-risk",
+      "name": "The Cobweb Model, Decision making under uncertainty and risk",
+      "diff": "M"
+     },
+     {
+      "id": "xh1-microeconomics--asymmetric",
+      "name": "Asymmetric",
+      "diff": "E"
+     }
+    ]
+   },
+   {
+    "letter": "C",
+    "name": "Information",
+    "topics": [
+     {
+      "id": "xh1-microeconomics--adverse-selection-and-moral-hazard",
+      "name": "Adverse Selection and Moral Hazard",
+      "diff": "M"
+     },
+     {
+      "id": "xh1-microeconomics--theory-of-agency-costs",
+      "name": "Theory of Agency costs",
+      "diff": "M"
+     },
+     {
+      "id": "xh1-microeconomics--the-theory-of-search-non",
+      "name": "The Theory of Search, Non -",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "D",
+    "name": "Cooperative games",
+    "topics": [
+     {
+      "id": "xh1-microeconomics--constant-sum-game",
+      "name": "Constant sum game",
+      "diff": "E"
+     },
+     {
+      "id": "xh1-microeconomics--mixed-str-ategy-and-pure-strategy",
+      "name": "Mixed Str ategy & Pure Strategy",
+      "diff": "M"
+     },
+     {
+      "id": "xh1-microeconomics--bayesian-nash-equilibrium",
+      "name": "Bayesian Nash Equilibrium",
+      "diff": "H"
+     },
+     {
+      "id": "xh1-microeconomics--spne",
+      "name": "SPNE",
+      "diff": "E"
+     },
+     {
+      "id": "xh1-microeconomics--perfect-bayesian-equilibria",
+      "name": "Perfect Bayesian Equilibria",
+      "diff": "H"
+     },
+     {
+      "id": "xh1-microeconomics--theory-of-firm-market-structures-competitive-and-non-competi",
+      "name": "Theory of Firm: Market Structures — Competitive and Non-competitive equilibria and their efficiency properties",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "E",
+    "name": "Structure -Conduct-Performance Paradigm, Factor Pricing",
+    "topics": [
+     {
+      "id": "xh1-microeconomics--ma-rginal-productivity-theory-of-distribution-in-perfectly-c",
+      "name": "Ma rginal productivity Theory of Distribution in Perfectly Competitive markets",
+      "diff": "M"
+     },
+     {
+      "id": "xh1-microeconomics--theory-of-employment-in-imperfectly-competitive-markets-mono",
+      "name": "Theory of Employment in Imperfectly Competitive Markets — Monopolistic Exploitation",
+      "diff": "M"
+     },
+     {
+      "id": "xh1-microeconomics--general-equilibrium-analysis",
+      "name": "General Equilibrium Analysis",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "F",
+    "name": "Welfare Economics",
+    "topics": [
+     {
+      "id": "xh1-microeconomics--fundamental-theorems-social-welfare-function",
+      "name": "Fundamental Theorems, Social Welfare Function",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "G",
+    "name": "Efficiency Criteria",
+    "topics": [
+     {
+      "id": "xh1-microeconomics--pareto-optimality",
+      "name": "Pareto-Optimality",
+      "diff": "E"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "xh1-macroeconomics",
+  "name": "Macroeconomics",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "National Income Accounting",
+    "topics": [
+     {
+      "id": "xh1-macroeconomics--closed-economy-concepts-and-measurement-and-open-economy-iss",
+      "name": "Closed Economy Concepts and Measurement and Open Economy Issues,",
+      "diff": "M",
+      "sample": true
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Determination of output and employment",
+    "topics": [
+     {
+      "id": "xh1-macroeconomics--classical-and-keynesian-framework",
+      "name": "Classical & Keynesian Framework",
+      "diff": "M"
+     },
+     {
+      "id": "xh1-macroeconomics--theories-of-consumption-absolute-income-hypothesis",
+      "name": "Theories of Consumption: Absolute Income Hypothesis",
+      "diff": "M"
+     },
+     {
+      "id": "xh1-macroeconomics--relative-income-hypothesis",
+      "name": "Relative Income Hypothesis",
+      "diff": "M"
+     },
+     {
+      "id": "xh1-macroeconomics--life-cycl-e-hypothesis",
+      "name": "Life Cycl e Hypothesis",
+      "diff": "M"
+     },
+     {
+      "id": "xh1-macroeconomics--permanent-income-hypothesis-and-robert-halls-random-walk-mod",
+      "name": "Permanent Income Hypothesis and Robert Hall’s Random Walk Model",
+      "diff": "M"
+     },
+     {
+      "id": "xh1-macroeconomics--investment-function-specifications-dale-jorgensons-neoclassi",
+      "name": "Investment Function Specifications - Dale Jorgenson’s Neoclassical Theory of Capital Accumulation and Tobin’s",
+      "diff": "M"
+     },
+     {
+      "id": "xh1-macroeconomics--keynesian-stabilization-policies",
+      "name": "Keynesian Stabilization Policies",
+      "diff": "M"
+     },
+     {
+      "id": "xh1-macroeconomics--autonomous-multipliers-and-investment-accelerator",
+      "name": "(Autonomous) Multipliers and Investment Accelerator",
+      "diff": "M"
+     },
+     {
+      "id": "xh1-macroeconomics--demand-and-supply-of-money",
+      "name": "Demand and Supply of Money",
+      "diff": "M"
+     },
+     {
+      "id": "xh1-macroeconomics--components-of-money-supply",
+      "name": "Components of Money Supply",
+      "diff": "M"
+     },
+     {
+      "id": "xh1-macroeconomics--liquidity-preference-and-liquidity-trap",
+      "name": "Liquidity Preference and Liquidity Trap",
+      "diff": "M"
+     },
+     {
+      "id": "xh1-macroeconomics--money-multiplier",
+      "name": "Money Multiplier",
+      "diff": "E"
+     },
+     {
+      "id": "xh1-macroeconomics--interest-rate-determination",
+      "name": "Interest Rate determination",
+      "diff": "M"
+     },
+     {
+      "id": "xh1-macroeconomics--central-banking",
+      "name": "Central Banking",
+      "diff": "E"
+     },
+     {
+      "id": "xh1-macroeconomics--objectives",
+      "name": "Objectives",
+      "diff": "E"
+     },
+     {
+      "id": "xh1-macroeconomics--instruments-direct-and-indirect-of-monetary-policy",
+      "name": "Instruments (Direct and Indirect) of Monetary Policy",
+      "diff": "M"
+     },
+     {
+      "id": "xh1-macroeconomics--prudenti-al-regulation",
+      "name": "Prudenti al Regulation",
+      "diff": "M"
+     },
+     {
+      "id": "xh1-macroeconomics--quantitative-easing-unconventional-monetary-policy",
+      "name": "Quantitative Easing (Unconventional Monetary Policy)",
+      "diff": "M"
+     },
+     {
+      "id": "xh1-macroeconomics--commercial-banking",
+      "name": "Commercial Banking",
+      "diff": "M"
+     },
+     {
+      "id": "xh1-macroeconomics--non-banking-financial-institutions",
+      "name": "Non-Banking Financial Institutions",
+      "diff": "M"
+     },
+     {
+      "id": "xh1-macroeconomics--capital-market-and-its-regulation",
+      "name": "Capital Market and its Regulation",
+      "diff": "M"
+     },
+     {
+      "id": "xh1-macroeconomics--theories-of-inflation-and-expectations-augmented-phillips-cu",
+      "name": "Theories of Inflation and Expectations Augmented Phillips Curve",
+      "diff": "M"
+     },
+     {
+      "id": "xh1-macroeconomics--real-business-cycles",
+      "name": "Real Business Cycles",
+      "diff": "M"
+     },
+     {
+      "id": "xh1-macroeconomics--adaptive-expectations-hypothesis",
+      "name": "Adaptive Expectations Hypothesis",
+      "diff": "M"
+     },
+     {
+      "id": "xh1-macroeconomics--rational-expectation-hypothesis-and-its-critique",
+      "name": "Rational Expectation Hypothesis and its critique",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "C",
+    "name": "Closed Economy IS - LM Model and Mundell Fleming Model",
+    "topics": [
+     {
+      "id": "xh1-macroeconomics--monetary-and-fiscal-policy-efficacy",
+      "name": "Monetary and Fiscal Policy Efficacy",
+      "diff": "M"
+     },
+     {
+      "id": "xh1-macroeconomics--the-impossible-trinity",
+      "name": "The Impossible Trinity",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "xh1-statistics-econometrics-and-ma",
+  "name": "Statistics, Econometrics and Mathematical Economics",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Basic Statistics",
+    "topics": [
+     {
+      "id": "xh1-statistics-econometrics-and-ma--probability-theory-concepts-of-probability",
+      "name": "Probability Theory: Concepts of probability",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "xh1-statistics-econometrics-and-ma--probability-distributions-discrete-and-continuous",
+      "name": "Probability Distributions [Discrete and Continuous]",
+      "diff": "M"
+     },
+     {
+      "id": "xh1-statistics-econometrics-and-ma--central-limit-theorem",
+      "name": "Central Limit Theorem",
+      "diff": "M"
+     },
+     {
+      "id": "xh1-statistics-econometrics-and-ma--index-numbers-and-construction-of-price-indices",
+      "name": "Index Numbers and Construction of Price Indices",
+      "diff": "M"
+     },
+     {
+      "id": "xh1-statistics-econometrics-and-ma--sampling-methods-and-sampling-distribution",
+      "name": "Sampling Methods & Sampling Distribution",
+      "diff": "M"
+     },
+     {
+      "id": "xh1-statistics-econometrics-and-ma--estimation-and-hypothesis-testing",
+      "name": "Estimation and Hypothesis Testing",
+      "diff": "M"
+     },
+     {
+      "id": "xh1-statistics-econometrics-and-ma--econometrics-simple-linear-regression-models",
+      "name": "Econometrics: Simple Linear Regression Models",
+      "diff": "M"
+     },
+     {
+      "id": "xh1-statistics-econometrics-and-ma--the-gauss-markov-theorem",
+      "name": "The Gauss Markov Theorem",
+      "diff": "M"
+     },
+     {
+      "id": "xh1-statistics-econometrics-and-ma--regression-with-multiple-variables",
+      "name": "Regression with multiple variables",
+      "diff": "M"
+     },
+     {
+      "id": "xh1-statistics-econometrics-and-ma--heteroscedasticity",
+      "name": "Heteroscedasticity",
+      "diff": "M"
+     },
+     {
+      "id": "xh1-statistics-econometrics-and-ma--multicollinearity-and-autocorrelation",
+      "name": "Multicollinearity and Autocorrelation",
+      "diff": "M"
+     },
+     {
+      "id": "xh1-statistics-econometrics-and-ma--dummy-variable-regression",
+      "name": "Dummy variable regression",
+      "diff": "M"
+     },
+     {
+      "id": "xh1-statistics-econometrics-and-ma--simultaneous-equation-models-recursive-and-non-recursive",
+      "name": "Simultaneous Equation Models - recursive and non -recursive",
+      "diff": "M"
+     },
+     {
+      "id": "xh1-statistics-econometrics-and-ma--identification-problem",
+      "name": "Identification Problem",
+      "diff": "M"
+     },
+     {
+      "id": "xh1-statistics-econometrics-and-ma--time-series-analysis-dynamic-models",
+      "name": "Time Series Analysis: Dynamic Models",
+      "diff": "M"
+     },
+     {
+      "id": "xh1-statistics-econometrics-and-ma--models-of-non-stationarity",
+      "name": "Models of Non -Stationarity",
+      "diff": "M"
+     },
+     {
+      "id": "xh1-statistics-econometrics-and-ma--spurious-regression",
+      "name": "Spurious Regression",
+      "diff": "M"
+     },
+     {
+      "id": "xh1-statistics-econometrics-and-ma--univariate-time-series-analysis-ar",
+      "name": "Univariate Time Series Analysis - AR",
+      "diff": "M"
+     },
+     {
+      "id": "xh1-statistics-econometrics-and-ma--arma",
+      "name": "ARMA",
+      "diff": "E"
+     },
+     {
+      "id": "xh1-statistics-econometrics-and-ma--multivariate-time-series-analysis-cointegration",
+      "name": "Multivariate Time Series Analysis - cointegration",
+      "diff": "M"
+     },
+     {
+      "id": "xh1-statistics-econometrics-and-ma--error-correction",
+      "name": "Error-correction",
+      "diff": "E"
+     },
+     {
+      "id": "xh1-statistics-econometrics-and-ma--causality-and-v-ar",
+      "name": "Causality and V AR",
+      "diff": "M"
+     },
+     {
+      "id": "xh1-statistics-econometrics-and-ma--mathematical-economics-differential-calculus-and-its-applica",
+      "name": "Mathematical Economics: Differential Calculus and its Applications",
+      "diff": "M"
+     },
+     {
+      "id": "xh1-statistics-econometrics-and-ma--linear-algebra-matrices",
+      "name": "Linear Algebra - Matrices",
+      "diff": "M"
+     },
+     {
+      "id": "xh1-statistics-econometrics-and-ma--applications-of-cramers-rule",
+      "name": "Applications of Cramer’s Rule",
+      "diff": "M"
+     },
+     {
+      "id": "xh1-statistics-econometrics-and-ma--static-optimization-problems-and-applications",
+      "name": "Static Optimization Problems and Applications",
+      "diff": "H"
+     },
+     {
+      "id": "xh1-statistics-econometrics-and-ma--input-output-model",
+      "name": "Input -Output Model",
+      "diff": "M"
+     },
+     {
+      "id": "xh1-statistics-econometrics-and-ma--linear-programming",
+      "name": "Linear Programming",
+      "diff": "M"
+     },
+     {
+      "id": "xh1-statistics-econometrics-and-ma--difference-equations-and-differential-equations-with-applica",
+      "name": "Difference equations and Differential equations with applications",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "xh1-international-economics",
+  "name": "International Economics",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "International Economics",
+    "topics": [
+     {
+      "id": "xh1-international-economics--theories-of-international-trade",
+      "name": "Theories of International Trade",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "xh1-international-economics--international-trade-under-imperfect-competition",
+      "name": "International Trade under Imperfect Competition",
+      "diff": "M"
+     },
+     {
+      "id": "xh1-international-economics--gains-from-trade",
+      "name": "Gains from Trade",
+      "diff": "E"
+     },
+     {
+      "id": "xh1-international-economics--terms-of-trade",
+      "name": "Terms of Trade",
+      "diff": "E"
+     },
+     {
+      "id": "xh1-international-economics--trade-multiplier",
+      "name": "Trade Multiplier",
+      "diff": "E"
+     },
+     {
+      "id": "xh1-international-economics--tariff-and-non-tariff-barriers-to-trade",
+      "name": "Tariff and Non-Tariff barriers to trade",
+      "diff": "M"
+     },
+     {
+      "id": "xh1-international-economics--dumping-and-anti-dumping-policies-gatt-wto-and-regional-trad",
+      "name": "Dumping and Anti-Dumping Policies, GATT, WTO and Regional Trade Blocks",
+      "diff": "M"
+     },
+     {
+      "id": "xh1-international-economics--trade-pol-icy-issues",
+      "name": "Trade Pol icy Issues",
+      "diff": "M"
+     },
+     {
+      "id": "xh1-international-economics--balance-of-payments-composition",
+      "name": "Balance of Payments: Composition",
+      "diff": "M"
+     },
+     {
+      "id": "xh1-international-economics--equilibrium-and-disequilibrium-and-adjustment-mechanisms",
+      "name": "Equilibrium and Disequilibrium and Adjustment Mechanisms",
+      "diff": "M"
+     },
+     {
+      "id": "xh1-international-economics--foreign-exchange-market-and-arbitrage",
+      "name": "Foreign Exchange Market and Arbitrage",
+      "diff": "M"
+     },
+     {
+      "id": "xh1-international-economics--exchange-rate-determination",
+      "name": "Exchange rate determination",
+      "diff": "M"
+     },
+     {
+      "id": "xh1-international-economics--imf-and-world-bank",
+      "name": "IMF & World Bank",
+      "diff": "E"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "xh1-public-economics",
+  "name": "Public Economics",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Market Failure and Remedial Measures",
+    "topics": [
+     {
+      "id": "xh1-public-economics--asymmetric-information",
+      "name": "Asymmetric Information",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "xh1-public-economics--public-goods",
+      "name": "Public Goods",
+      "diff": "E"
+     },
+     {
+      "id": "xh1-public-economics--externality",
+      "name": "Externality",
+      "diff": "E"
+     },
+     {
+      "id": "xh1-public-economics--regulation-of-market-collusion-and-consumers-welfare",
+      "name": "Regulation of Market - Collusion and Consumers’ Welfare",
+      "diff": "M"
+     },
+     {
+      "id": "xh1-public-economics--public-revenue-tax-and-non-tax-revenue",
+      "name": "Public Revenue: Tax & Non-Tax Revenue",
+      "diff": "M"
+     },
+     {
+      "id": "xh1-public-economics--direct-and-indirect-taxes",
+      "name": "Direct & Indirect Taxes",
+      "diff": "M"
+     },
+     {
+      "id": "xh1-public-economics--progressive-and-non-progressive-taxation",
+      "name": "Progressive and non-Progressive Taxation",
+      "diff": "M"
+     },
+     {
+      "id": "xh1-public-economics--incidence-and-effects-of-taxation",
+      "name": "Incidence and Effects of Taxation",
+      "diff": "M"
+     },
+     {
+      "id": "xh1-public-economics--public-expenditure",
+      "name": "Public expenditure",
+      "diff": "M"
+     },
+     {
+      "id": "xh1-public-economics--public-debt-and-its-management",
+      "name": "Public Debt and its management",
+      "diff": "M"
+     },
+     {
+      "id": "xh1-public-economics--public-budget-and-budget-multiplier",
+      "name": "Public Budget and Budget Multiplier",
+      "diff": "M"
+     },
+     {
+      "id": "xh1-public-economics--tax-incidence",
+      "name": "Tax Incidence",
+      "diff": "E"
+     },
+     {
+      "id": "xh1-public-economics--fiscal-policy-and-its-implications",
+      "name": "Fiscal Policy and its implications",
+      "diff": "M"
+     },
+     {
+      "id": "xh1-public-economics--environment-as-a-public-good",
+      "name": "Environment as a Public Good",
+      "diff": "M"
+     },
+     {
+      "id": "xh1-public-economics--market-failure-and-coase-theorem",
+      "name": "Market Failure and Coase Theorem",
+      "diff": "M"
+     },
+     {
+      "id": "xh1-public-economics--cost-benefit-analysis",
+      "name": "Cost-Benefit Analysis",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "xh1-development-economics",
+  "name": "Development Economics",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Theories of Economic Development",
+    "topics": [
+     {
+      "id": "xh1-development-economics--adam-smith",
+      "name": "Adam Smith",
+      "diff": "E",
+      "sample": true
+     },
+     {
+      "id": "xh1-development-economics--david-ricardo",
+      "name": "David Ricardo",
+      "diff": "E"
+     },
+     {
+      "id": "xh1-development-economics--karl-marx",
+      "name": "Karl Marx",
+      "diff": "E"
+     },
+     {
+      "id": "xh1-development-economics--j-schumpeter",
+      "name": "J. Schumpeter",
+      "diff": "E"
+     },
+     {
+      "id": "xh1-development-economics--w-rostow",
+      "name": "W. Rostow",
+      "diff": "E"
+     },
+     {
+      "id": "xh1-development-economics--balanced-and-unbalanced-growth",
+      "name": "Balanced & Unbalanced Growth",
+      "diff": "M"
+     },
+     {
+      "id": "xh1-development-economics--big-push-approach",
+      "name": "Big Push Approach",
+      "diff": "E"
+     },
+     {
+      "id": "xh1-development-economics--indicators-of-economic-development-hdi",
+      "name": "Indicators of Economic Development: HDI",
+      "diff": "M"
+     },
+     {
+      "id": "xh1-development-economics--sdgs",
+      "name": "SDGs",
+      "diff": "E"
+     },
+     {
+      "id": "xh1-development-economics--mdgs",
+      "name": "MDGs",
+      "diff": "E"
+     },
+     {
+      "id": "xh1-development-economics--poverty-and-inequalities-concepts-and-measurement-issu-es",
+      "name": "Poverty and Inequalities - Concepts and Measurement Issu es",
+      "diff": "M"
+     },
+     {
+      "id": "xh1-development-economics--social-sector-development-health",
+      "name": "Social Sector Development: Health",
+      "diff": "M"
+     },
+     {
+      "id": "xh1-development-economics--education",
+      "name": "Education",
+      "diff": "E"
+     },
+     {
+      "id": "xh1-development-economics--gender",
+      "name": "Gender",
+      "diff": "E"
+     },
+     {
+      "id": "xh1-development-economics--fertility",
+      "name": "Fertility",
+      "diff": "E"
+     },
+     {
+      "id": "xh1-development-economics--morbidity",
+      "name": "Morbidity",
+      "diff": "E"
+     },
+     {
+      "id": "xh1-development-economics--mortality",
+      "name": "Mortality",
+      "diff": "E"
+     },
+     {
+      "id": "xh1-development-economics--migration",
+      "name": "Migration",
+      "diff": "E"
+     },
+     {
+      "id": "xh1-development-economics--child-labor",
+      "name": "Child Labor",
+      "diff": "E"
+     },
+     {
+      "id": "xh1-development-economics--age-structure",
+      "name": "Age Structure",
+      "diff": "E"
+     },
+     {
+      "id": "xh1-development-economics--demographic-dividend",
+      "name": "Demographic Dividend",
+      "diff": "M"
+     },
+     {
+      "id": "xh1-development-economics--models-of",
+      "name": "Models of",
+      "diff": "E"
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Economic Growth",
+    "topics": [
+     {
+      "id": "xh1-development-economics--harrod-domar",
+      "name": "Harrod-Domar",
+      "diff": "E"
+     },
+     {
+      "id": "xh1-development-economics--solow",
+      "name": "Solow",
+      "diff": "E"
+     },
+     {
+      "id": "xh1-development-economics--ramsey",
+      "name": "Ramsey",
+      "diff": "E"
+     },
+     {
+      "id": "xh1-development-economics--technical-progress-disembodied-and-embodied",
+      "name": "Technical progress - Disembodied & Embodied",
+      "diff": "M"
+     },
+     {
+      "id": "xh1-development-economics--endogenous-growth-models",
+      "name": "Endogenous Growth Models",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "xh1-indian-economy",
+  "name": "Indian Economy",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Economic Growth in India",
+    "topics": [
+     {
+      "id": "xh1-indian-economy--pattern-and-structure",
+      "name": "Pattern and Structure",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "xh1-indian-economy--agriculture",
+      "name": "Agriculture",
+      "diff": "E"
+     },
+     {
+      "id": "xh1-indian-economy--industry-and-services-sector-pattern-and-structure-of-growth",
+      "name": "Industry & Services Sector: Pattern & Structure of Growth",
+      "diff": "M"
+     },
+     {
+      "id": "xh1-indian-economy--major-challenges",
+      "name": "Major Challenges",
+      "diff": "E"
+     },
+     {
+      "id": "xh1-indian-economy--policy-responses",
+      "name": "Policy Responses",
+      "diff": "E"
+     },
+     {
+      "id": "xh1-indian-economy--rural-and-urban-development-issues",
+      "name": "Rural & Urban Development - Issues",
+      "diff": "M"
+     },
+     {
+      "id": "xh1-indian-economy--challenges-and-policy-responses",
+      "name": "Challenges & Policy Responses",
+      "diff": "M"
+     },
+     {
+      "id": "xh1-indian-economy--flow-of-foreign-capital",
+      "name": "Flow of Foreign Capital",
+      "diff": "M"
+     },
+     {
+      "id": "xh1-indian-economy--trade-p-olicies",
+      "name": "Trade P olicies",
+      "diff": "E"
+     },
+     {
+      "id": "xh1-indian-economy--infrastructure-development-physical-and-social",
+      "name": "Infrastructure Development: Physical and Social",
+      "diff": "M"
+     },
+     {
+      "id": "xh1-indian-economy--public-private-partnerships",
+      "name": "Public - Private Partnerships",
+      "diff": "M"
+     },
+     {
+      "id": "xh1-indian-economy--reforms-in-land",
+      "name": "Reforms in Land",
+      "diff": "E"
+     },
+     {
+      "id": "xh1-indian-economy--labour-and-capital-markets",
+      "name": "Labour and Capital Markets",
+      "diff": "M"
+     },
+     {
+      "id": "xh1-indian-economy--poverty",
+      "name": "Poverty",
+      "diff": "E"
+     },
+     {
+      "id": "xh1-indian-economy--inequality-and-unemployment",
+      "name": "Inequality & Unemployment",
+      "diff": "M"
+     },
+     {
+      "id": "xh1-indian-economy--functioning-of-monetary-policy-in-india",
+      "name": "Functioning of Monetary Policy in India",
+      "diff": "M"
+     },
+     {
+      "id": "xh1-indian-economy--fiscal-policy-in-the-indian-context-structure-of-receipts-an",
+      "name": "Fiscal Policy in the Indian context: Structure of Receipts and Expenditure",
+      "diff": "M"
+     },
+     {
+      "id": "xh1-indian-economy--tax-reforms-goods-and-services-tax",
+      "name": "Tax reforms-Goods and Services Tax",
+      "diff": "M"
+     },
+     {
+      "id": "xh1-indian-economy--issues-of-growth-and-equity",
+      "name": "Issues of Growth and Equity",
+      "diff": "M"
+     },
+     {
+      "id": "xh1-indian-economy--fiscal-federalism",
+      "name": "Fiscal Federalism",
+      "diff": "E"
+     },
+     {
+      "id": "xh1-indian-economy--centre-state-financial-relations-and-finance-commissions-of-",
+      "name": "Centre-State Financial Relations and Finance Commissions of India",
+      "diff": "M"
+     },
+     {
+      "id": "xh1-indian-economy--sustainability-of-deficits-and-debt",
+      "name": "Sustainability of Deficits and Debt",
+      "diff": "M"
+     },
+     {
+      "id": "xh1-indian-economy--the-fiscal-responsibility-and-budget-ma-nagement-act-2003",
+      "name": "The Fiscal Responsibility and Budget Ma nagement Act 2003",
+      "diff": "M"
+     },
+     {
+      "id": "xh1-indian-economy--demonetization-and-aftermath",
+      "name": "Demonetization and aftermath",
+      "diff": "M"
+     },
+     {
+      "id": "xh1-indian-economy--indias-balance-of-payments",
+      "name": "India’s balance of payments",
+      "diff": "M"
+     },
+     {
+      "id": "xh1-indian-economy--composition-of-indias-trade",
+      "name": "Composition of India’s Trade",
+      "diff": "M"
+     },
+     {
+      "id": "xh1-indian-economy--competitiveness-of-indias-exports",
+      "name": "Competitiveness of India’s exports",
+      "diff": "M"
+     },
+     {
+      "id": "xh1-indian-economy--indias-exchange-rate-policy",
+      "name": "India’s exchange rate policy",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "xh2-literary-forms-genres-and-mode",
+  "name": "Literary Forms, Genres, and Modes of Expression",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Overview",
+    "topics": [
+     {
+      "id": "xh2-literary-forms-genres-and-mode--poetry",
+      "name": "Poetry",
+      "diff": "E",
+      "sample": true
+     },
+     {
+      "id": "xh2-literary-forms-genres-and-mode--drama",
+      "name": "Drama",
+      "diff": "E"
+     },
+     {
+      "id": "xh2-literary-forms-genres-and-mode--fiction-novels-short-stories-graphic-narratives",
+      "name": "Fiction (novels, short stories, graphic narratives)",
+      "diff": "M"
+     },
+     {
+      "id": "xh2-literary-forms-genres-and-mode--creative-non-fiction",
+      "name": "Creative non-fiction",
+      "diff": "M"
+     },
+     {
+      "id": "xh2-literary-forms-genres-and-mode--nonfiction-prose-from-the-medieval-period-to-the-present",
+      "name": "Nonfiction prose from the Medieval period to the present",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Literary Genres and Subgenres",
+    "topics": [
+     {
+      "id": "xh2-literary-forms-genres-and-mode--history",
+      "name": "History",
+      "diff": "E"
+     },
+     {
+      "id": "xh2-literary-forms-genres-and-mode--evolution-and-importance-of-categorisation-to-understand-dif",
+      "name": "Evolution and importance of categorisation to understand different kinds of writing",
+      "diff": "M"
+     },
+     {
+      "id": "xh2-literary-forms-genres-and-mode--aesthetic-and-rhetorical-strategies",
+      "name": "Aesthetic and rhetorical strategies",
+      "diff": "M"
+     },
+     {
+      "id": "xh2-literary-forms-genres-and-mode--including-narrative-and-poetic-techniques",
+      "name": "Including narrative and poetic techniques",
+      "diff": "M"
+     },
+     {
+      "id": "xh2-literary-forms-genres-and-mode--figures-of-speech",
+      "name": "Figures of speech",
+      "diff": "E"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "xh2-history-of-english-literature-",
+  "name": "History of English Literature and Literary Studies",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "English Literary Traditions across Time",
+    "topics": [
+     {
+      "id": "xh2-history-of-english-literature---chaucer-to-contemporary-english-literature",
+      "name": "Chaucer to Contemporary English Literature",
+      "diff": "M",
+      "sample": true
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Global Perspectives on Literary Studies",
+    "topics": [
+     {
+      "id": "xh2-history-of-english-literature---anglophone-literatures-british-american-canadian-and-other-p",
+      "name": "Anglophone literatures (British, American, Canadian and other Postcolonial literatures)",
+      "diff": "M"
+     },
+     {
+      "id": "xh2-history-of-english-literature---intersections-of-literature-with-political",
+      "name": "Intersections of literature with political",
+      "diff": "M"
+     },
+     {
+      "id": "xh2-history-of-english-literature---social",
+      "name": "Social",
+      "diff": "E"
+     },
+     {
+      "id": "xh2-history-of-english-literature---intellectual-movements",
+      "name": "Intellectual movements",
+      "diff": "M"
+     },
+     {
+      "id": "xh2-history-of-english-literature---literary-studies-in-relation-to-sociology",
+      "name": "Literary Studies in relation to Sociology",
+      "diff": "M"
+     },
+     {
+      "id": "xh2-history-of-english-literature---psychology",
+      "name": "Psychology",
+      "diff": "E"
+     },
+     {
+      "id": "xh2-history-of-english-literature---philosophy",
+      "name": "Philosophy",
+      "diff": "E"
+     },
+     {
+      "id": "xh2-history-of-english-literature---environment-and-other-allied-disciplines",
+      "name": "Environment and other allied disciplines",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "xh2-comparative-and-world-literatu",
+  "name": "Comparative and World Literatures in English Translation",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Overview",
+    "topics": [
+     {
+      "id": "xh2-comparative-and-world-literatu--literatures-in-english-translation",
+      "name": "Literatures in English translation",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "xh2-comparative-and-world-literatu--particularly-from-india-and-the-global-south",
+      "name": "Particularly from India and the Global South",
+      "diff": "M"
+     },
+     {
+      "id": "xh2-comparative-and-world-literatu--cross-cultural-exchanges-and-their-impact-on-literary-tradit",
+      "name": "Cross-cultural Exchanges and their impact on literary traditions",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Theoretical Frameworks for Comparative Literature",
+    "topics": [
+     {
+      "id": "xh2-comparative-and-world-literatu--intertextuality-adaptation-interconnectedness-and-cosmopolit",
+      "name": "Intertextuality, adaptation, interconnectedness and cosmopolitanism",
+      "diff": "M"
+     },
+     {
+      "id": "xh2-comparative-and-world-literatu--multilingualism",
+      "name": "Multilingualism",
+      "diff": "E"
+     },
+     {
+      "id": "xh2-comparative-and-world-literatu--translation-studies",
+      "name": "Translation Studies",
+      "diff": "M"
+     },
+     {
+      "id": "xh2-comparative-and-world-literatu--the-politics-of-language-in-literary-production",
+      "name": "The politics of language in literary production",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "xh2-critical-theories-and-intellec",
+  "name": "Critical Theories and Intellectual Traditions",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Overview",
+    "topics": [
+     {
+      "id": "xh2-critical-theories-and-intellec--theoretical-paradigms",
+      "name": "Theoretical Paradigms",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "xh2-critical-theories-and-intellec--socio-cultural-movements-shaping-literary-studies-structural",
+      "name": "Socio-Cultural Movements shaping Literary Studies: Structuralism",
+      "diff": "M"
+     },
+     {
+      "id": "xh2-critical-theories-and-intellec--marxism",
+      "name": "Marxism",
+      "diff": "E"
+     },
+     {
+      "id": "xh2-critical-theories-and-intellec--feminism",
+      "name": "Feminism",
+      "diff": "E"
+     },
+     {
+      "id": "xh2-critical-theories-and-intellec--existentialism",
+      "name": "Existentialism",
+      "diff": "E"
+     },
+     {
+      "id": "xh2-critical-theories-and-intellec--poststructuralism",
+      "name": "Poststructuralism",
+      "diff": "E"
+     },
+     {
+      "id": "xh2-critical-theories-and-intellec--modernism",
+      "name": "Modernism",
+      "diff": "E"
+     },
+     {
+      "id": "xh2-critical-theories-and-intellec--postmodernism",
+      "name": "Postmodernism",
+      "diff": "E"
+     },
+     {
+      "id": "xh2-critical-theories-and-intellec--new-historicism",
+      "name": "New Historicism",
+      "diff": "E"
+     },
+     {
+      "id": "xh2-critical-theories-and-intellec--postcolonialism",
+      "name": "Postcolonialism",
+      "diff": "E"
+     },
+     {
+      "id": "xh2-critical-theories-and-intellec--posthumanism",
+      "name": "Posthumanism",
+      "diff": "E"
+     },
+     {
+      "id": "xh2-critical-theories-and-intellec--etc",
+      "name": "Etc",
+      "diff": "E"
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Interdisciplinary fields",
+    "topics": [
+     {
+      "id": "xh2-critical-theories-and-intellec--cultural-studies",
+      "name": "Cultural Studies",
+      "diff": "E"
+     },
+     {
+      "id": "xh2-critical-theories-and-intellec--film-and-media-studies",
+      "name": "Film and Media studies",
+      "diff": "M"
+     },
+     {
+      "id": "xh2-critical-theories-and-intellec--memory-and-trauma-studies",
+      "name": "Memory and Trauma studies",
+      "diff": "M"
+     },
+     {
+      "id": "xh2-critical-theories-and-intellec--dalit-and-subaltern-studies",
+      "name": "Dalit and Subaltern Studies",
+      "diff": "M"
+     },
+     {
+      "id": "xh2-critical-theories-and-intellec--environmental",
+      "name": "Environmental",
+      "diff": "E"
+     },
+     {
+      "id": "xh2-critical-theories-and-intellec--medical-and-digital-humanities",
+      "name": "Medical and Digital humanities",
+      "diff": "M"
+     },
+     {
+      "id": "xh2-critical-theories-and-intellec--etc",
+      "name": "Etc",
+      "diff": "E"
+     }
+    ]
+   },
+   {
+    "letter": "C",
+    "name": "Indian Literary and Aesthetic Traditions",
+    "topics": [
+     {
+      "id": "xh2-critical-theories-and-intellec--classical-poetics-rasa-dhvani-vakrokti-alamkara-riti-aucitya",
+      "name": "Classical poetics (Rasa, Dhvani, Vakrokti, Alamkara, Riti, Aucitya) and other indigenous frameworks for literary interpretation",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "xh2-contemporary-literary-cultures",
+  "name": "Contemporary Literary Cultures and Research Methodologies",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Overview",
+    "topics": [
+     {
+      "id": "xh2-contemporary-literary-cultures--major-literary-awards-and-prizes",
+      "name": "Major literary awards and prizes",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "xh2-contemporary-literary-cultures--literary-festivals",
+      "name": "Literary festivals",
+      "diff": "M"
+     },
+     {
+      "id": "xh2-contemporary-literary-cultures--literary-associations-and-networks",
+      "name": "Literary associations and networks",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Research in literary studies",
+    "topics": [
+     {
+      "id": "xh2-contemporary-literary-cultures--archival-research",
+      "name": "Archival research",
+      "diff": "E"
+     },
+     {
+      "id": "xh2-contemporary-literary-cultures--ethnographic-methods",
+      "name": "Ethnographic methods",
+      "diff": "M"
+     },
+     {
+      "id": "xh2-contemporary-literary-cultures--textual-analysis",
+      "name": "Textual analysis",
+      "diff": "E"
+     },
+     {
+      "id": "xh2-contemporary-literary-cultures--discourse-analysis",
+      "name": "Discourse analysis",
+      "diff": "M"
+     },
+     {
+      "id": "xh2-contemporary-literary-cultures--ai-assisted-and-multimodal-approaches",
+      "name": "AI - assisted and multimodal approaches",
+      "diff": "M"
+     },
+     {
+      "id": "xh2-contemporary-literary-cultures--structuring-research-arguments",
+      "name": "Structuring research arguments",
+      "diff": "M"
+     },
+     {
+      "id": "xh2-contemporary-literary-cultures--academic-integrity",
+      "name": "Academic integrity",
+      "diff": "M"
+     },
+     {
+      "id": "xh2-contemporary-literary-cultures--plagiarism-checking",
+      "name": "Plagiarism checking",
+      "diff": "M"
+     },
+     {
+      "id": "xh2-contemporary-literary-cultures--citation-ethics",
+      "name": "Citation ethics",
+      "diff": "E"
+     },
+     {
+      "id": "xh2-contemporary-literary-cultures--engagement-with-scholarly-discourse",
+      "name": "Engagement with scholarly discourse",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "xh3-language-and-linguistics-funda",
+  "name": "Language and Linguistics (Fundamental Concepts)",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Overview",
+    "topics": [
+     {
+      "id": "xh3-language-and-linguistics-funda--this-section-covers-the-fundamental-concepts-of-what-languag",
+      "name": "This section covers the fundamental concepts of what language is and how linguists study it",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "xh3-language-and-linguistics-funda--what-is-language-understanding-language-in-its-spoken",
+      "name": "What is Language? Understanding language in its spoken",
+      "diff": "M"
+     },
+     {
+      "id": "xh3-language-and-linguistics-funda--written",
+      "name": "Written",
+      "diff": "E"
+     },
+     {
+      "id": "xh3-language-and-linguistics-funda--signed-forms",
+      "name": "Signed forms",
+      "diff": "E"
+     },
+     {
+      "id": "xh3-language-and-linguistics-funda--difference-between-description-and-prescription",
+      "name": "Difference between description and prescription",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Language and Culture",
+    "topics": [
+     {
+      "id": "xh3-language-and-linguistics-funda--exploring-the-connection-between-language-and-a-communitys-c",
+      "name": "Exploring the connection between language and a community’s cultural heritage",
+      "diff": "M"
+     },
+     {
+      "id": "xh3-language-and-linguistics-funda--social-personal-identities",
+      "name": "Social/personal identities",
+      "diff": "M"
+     },
+     {
+      "id": "xh3-language-and-linguistics-funda--linguistic-determinism-relativity",
+      "name": "Linguistic determinism/relativity",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "C",
+    "name": "The Science of Language",
+    "topics": [
+     {
+      "id": "xh3-language-and-linguistics-funda--treating-language-as-an-object-of-scientific-study",
+      "name": "Treating language as an object of scientific study",
+      "diff": "M"
+     },
+     {
+      "id": "xh3-language-and-linguistics-funda--looking-at-its-basic-units-and-unique-properties-design-feat",
+      "name": "Looking at its basic units and unique properties (design features)",
+      "diff": "E"
+     },
+     {
+      "id": "xh3-language-and-linguistics-funda--levels-of-adequacy-of-grammars",
+      "name": "Levels of adequacy of grammars",
+      "diff": "M"
+     },
+     {
+      "id": "xh3-language-and-linguistics-funda--principles-of-creativity-and-productivity",
+      "name": "Principles of creativity and productivity",
+      "diff": "M"
+     },
+     {
+      "id": "xh3-language-and-linguistics-funda--knowledge-vs",
+      "name": "Knowledge vs",
+      "diff": "E"
+     }
+    ]
+   },
+   {
+    "letter": "D",
+    "name": "Use",
+    "topics": [
+     {
+      "id": "xh3-language-and-linguistics-funda--difference-between-a-speakers-subconscious-knowledge-of-gram",
+      "name": "Difference between a speaker’s subconscious knowledge of grammar (competence) and their actual use of language in real-world situations (performance)",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "E",
+    "name": "History of Linguistics",
+    "topics": [
+     {
+      "id": "xh3-language-and-linguistics-funda--major-schools-of-thought-in-linguistics-european-american-tr",
+      "name": "Major schools of thought in linguistics (European, American traditions, as well as the Indian Grammatical Tradition)",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "xh3-levels-of-grammatical-analysis",
+  "name": "Levels of Grammatical Analysis (The primary components of grammar)",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Speech Production and Perception",
+    "topics": [
+     {
+      "id": "xh3-levels-of-grammatical-analysis--producing-sounds-using-the-vocal-tract",
+      "name": "Producing sounds using the vocal tract",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "xh3-levels-of-grammatical-analysis--articulation",
+      "name": "Articulation",
+      "diff": "E"
+     },
+     {
+      "id": "xh3-levels-of-grammatical-analysis--phonation",
+      "name": "Phonation",
+      "diff": "E"
+     },
+     {
+      "id": "xh3-levels-of-grammatical-analysis--acoustic-properties-of-sounds",
+      "name": "Acoustic properties of sounds",
+      "diff": "E"
+     },
+     {
+      "id": "xh3-levels-of-grammatical-analysis--perceptual-cues",
+      "name": "Perceptual cues",
+      "diff": "E"
+     },
+     {
+      "id": "xh3-levels-of-grammatical-analysis--auditory-system",
+      "name": "Auditory system",
+      "diff": "E"
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Sound Systems",
+    "topics": [
+     {
+      "id": "xh3-levels-of-grammatical-analysis--how-languages-organize-sounds-into-a-system",
+      "name": "How languages organize sounds into a system",
+      "diff": "M"
+     },
+     {
+      "id": "xh3-levels-of-grammatical-analysis--ipa",
+      "name": "IPA",
+      "diff": "E"
+     },
+     {
+      "id": "xh3-levels-of-grammatical-analysis--finding-the-abstract-sound-units-phonemes",
+      "name": "Finding the abstract sound units (phonemes)",
+      "diff": "E"
+     },
+     {
+      "id": "xh3-levels-of-grammatical-analysis--analyzing-their-distribution-allophones",
+      "name": "Analyzing their distribution ( allophones",
+      "diff": "M"
+     },
+     {
+      "id": "xh3-levels-of-grammatical-analysis--complementary-vs",
+      "name": "Complementary vs",
+      "diff": "E"
+     },
+     {
+      "id": "xh3-levels-of-grammatical-analysis--contrastive-distribution",
+      "name": "Contrastive distribution)",
+      "diff": "M"
+     },
+     {
+      "id": "xh3-levels-of-grammatical-analysis--tonal",
+      "name": "Tonal",
+      "diff": "E"
+     },
+     {
+      "id": "xh3-levels-of-grammatical-analysis--segmental-and-suprasegmental-phonological-processes-and-thei",
+      "name": "Segmental and suprasegmental phonological processes and their representation (including distinctive features)",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "C",
+    "name": "Modern Theories",
+    "topics": [
+     {
+      "id": "xh3-levels-of-grammatical-analysis--key-ideas-from-theories-linear-and-non-linear-approaches-lik",
+      "name": "Key ideas from theories (linear and non -linear approaches) like autosegmental phonology",
+      "diff": "M"
+     },
+     {
+      "id": "xh3-levels-of-grammatical-analysis--generative-phonology",
+      "name": "Generative phonology",
+      "diff": "M"
+     },
+     {
+      "id": "xh3-levels-of-grammatical-analysis--lexical-phonology",
+      "name": "Lexical phonology",
+      "diff": "E"
+     },
+     {
+      "id": "xh3-levels-of-grammatical-analysis--prosodic-morphology",
+      "name": "Prosodic morphology",
+      "diff": "M"
+     },
+     {
+      "id": "xh3-levels-of-grammatical-analysis--optimality-theory",
+      "name": "Optimality theory",
+      "diff": "E"
+     }
+    ]
+   },
+   {
+    "letter": "D",
+    "name": "Building Blocks",
+    "topics": [
+     {
+      "id": "xh3-levels-of-grammatical-analysis--identifying-the-smallest-units-of-meaning-morphemes-and-thei",
+      "name": "Identifying the smallest units of meaning ( morphemes) and their variations ( allomorphs)",
+      "diff": "E"
+     },
+     {
+      "id": "xh3-levels-of-grammatical-analysis--morpheme-types",
+      "name": "Morpheme types",
+      "diff": "E"
+     }
+    ]
+   },
+   {
+    "letter": "E",
+    "name": "Word Formation",
+    "topics": [
+     {
+      "id": "xh3-levels-of-grammatical-analysis--the-difference-between-grammatical-changes-to-words-inflecti",
+      "name": "The difference between grammatical changes to words ( inflection) and creating new words (derivation and other processes of lexeme building)",
+      "diff": "M"
+     },
+     {
+      "id": "xh3-levels-of-grammatical-analysis--constraints-on-word-formation",
+      "name": "Constraints on word formation",
+      "diff": "M"
+     },
+     {
+      "id": "xh3-levels-of-grammatical-analysis--lexical-and-structural-ambiguity",
+      "name": "Lexical and structural ambiguity",
+      "diff": "M"
+     },
+     {
+      "id": "xh3-levels-of-grammatical-analysis--the-morphology-phonology-interface",
+      "name": "The morphology-phonology interface",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "F",
+    "name": "The Mental Dictionary",
+    "topics": [
+     {
+      "id": "xh3-levels-of-grammatical-analysis--how-words-and-the-rules-to-create-them-are-stored-in-the-min",
+      "name": "How words and the rules to create them are stored in the mind (mental lexicon)",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "G",
+    "name": "Modern Theories",
+    "topics": [
+     {
+      "id": "xh3-levels-of-grammatical-analysis--key-ideas-from-theories-like-distributed-morphology",
+      "name": "Key ideas from theories like distributed morphology",
+      "diff": "M"
+     },
+     {
+      "id": "xh3-levels-of-grammatical-analysis--lexicalist-vs-paradigm-based-approaches",
+      "name": "Lexicalist vs paradigm based approaches",
+      "diff": "M"
+     },
+     {
+      "id": "xh3-levels-of-grammatical-analysis--construction-morphology",
+      "name": "Construction morphology",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "H",
+    "name": "Sentence Structure",
+    "topics": [
+     {
+      "id": "xh3-levels-of-grammatical-analysis--understanding-the-basic-units-of-syntax-like-words",
+      "name": "Understanding the basic units of syntax like words",
+      "diff": "E"
+     },
+     {
+      "id": "xh3-levels-of-grammatical-analysis--phrases",
+      "name": "Phrases",
+      "diff": "E"
+     },
+     {
+      "id": "xh3-levels-of-grammatical-analysis--clauses",
+      "name": "Clauses",
+      "diff": "E"
+     },
+     {
+      "id": "xh3-levels-of-grammatical-analysis--the-rules-for-combining-them-e-g-phrase-structure-rules-x-ba",
+      "name": "The rules for combining them (e.g., Phrase Structure Rules, X-bar Theory)",
+      "diff": "M"
+     },
+     {
+      "id": "xh3-levels-of-grammatical-analysis--syntactic-processes-and-representations",
+      "name": "Syntactic processes and representations",
+      "diff": "M"
+     },
+     {
+      "id": "xh3-levels-of-grammatical-analysis--diagnostics-of-structure",
+      "name": "Diagnostics of structure",
+      "diff": "M"
+     },
+     {
+      "id": "xh3-levels-of-grammatical-analysis--sub-modules-of-syntax-such-as-theta-theory",
+      "name": "Sub -modules of syntax such as theta theory",
+      "diff": "M"
+     },
+     {
+      "id": "xh3-levels-of-grammatical-analysis--case-theory",
+      "name": "Case theory",
+      "diff": "E"
+     },
+     {
+      "id": "xh3-levels-of-grammatical-analysis--binding",
+      "name": "Binding",
+      "diff": "E"
+     },
+     {
+      "id": "xh3-levels-of-grammatical-analysis--argument-structure",
+      "name": "Argument structure",
+      "diff": "M"
+     },
+     {
+      "id": "xh3-levels-of-grammatical-analysis--valency-alternations-etc",
+      "name": "Valency alternations etc",
+      "diff": "M"
+     },
+     {
+      "id": "xh3-levels-of-grammatical-analysis--syntax-morphology-and-syntax-phonology-interfaces",
+      "name": "Syntax-morphology and syntax-phonology interfaces",
+      "diff": "M"
+     },
+     {
+      "id": "xh3-levels-of-grammatical-analysis--structural-and-semantic-ambiguity",
+      "name": "Structural and semantic ambiguity",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "I",
+    "name": "Major Theories",
+    "topics": [
+     {
+      "id": "xh3-levels-of-grammatical-analysis--the-core-principles-of-key-syntactic-theories",
+      "name": "The core principles of key syntactic theories",
+      "diff": "M"
+     },
+     {
+      "id": "xh3-levels-of-grammatical-analysis--like-generative-grammar-including-the-minimalist-programme",
+      "name": "Like generative grammar (including the Minimalist Programme)",
+      "diff": "M"
+     },
+     {
+      "id": "xh3-levels-of-grammatical-analysis--lfg",
+      "name": "LFG",
+      "diff": "E"
+     },
+     {
+      "id": "xh3-levels-of-grammatical-analysis--hpsg",
+      "name": "HPSG",
+      "diff": "E"
+     }
+    ]
+   },
+   {
+    "letter": "J",
+    "name": "Universal Grammar",
+    "topics": [
+     {
+      "id": "xh3-levels-of-grammatical-analysis--the-concept-that-all-human-languages-share-an-underlying-blu",
+      "name": "The concept that all human languages share an underlying blueprint ( Universal Grammar)",
+      "diff": "M"
+     },
+     {
+      "id": "xh3-levels-of-grammatical-analysis--which-addresses-the-language-acquisition-problem",
+      "name": "Which addresses the language acquisition problem",
+      "diff": "M"
+     },
+     {
+      "id": "xh3-levels-of-grammatical-analysis--tacit-knowledge-vs",
+      "name": "Tacit knowledge vs",
+      "diff": "M"
+     },
+     {
+      "id": "xh3-levels-of-grammatical-analysis--explicit-knowledge",
+      "name": "Explicit knowledge",
+      "diff": "M"
+     },
+     {
+      "id": "xh3-levels-of-grammatical-analysis--core-grammar-vs",
+      "name": "Core grammar vs",
+      "diff": "E"
+     },
+     {
+      "id": "xh3-levels-of-grammatical-analysis--peripheral-grammar",
+      "name": "Peripheral grammar",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "K",
+    "name": "Syntactic Analysis",
+    "topics": [
+     {
+      "id": "xh3-levels-of-grammatical-analysis--analyzing-common-syntactic-phenomena-across-languages",
+      "name": "Analyzing common syntactic phenomena across languages",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "L",
+    "name": "Literal Meaning (Semantics)",
+    "topics": [
+     {
+      "id": "xh3-levels-of-grammatical-analysis--how-word-meanings-combine-to-form-sentence-meaning-compositi",
+      "name": "How word meanings combine to form sentence meaning ( compositionality)",
+      "diff": "M"
+     },
+     {
+      "id": "xh3-levels-of-grammatical-analysis--truth-conditions",
+      "name": "Truth conditions",
+      "diff": "E"
+     },
+     {
+      "id": "xh3-levels-of-grammatical-analysis--basic-logic-propositions-quantifiers",
+      "name": "Basic logic (propositions, quantifiers)",
+      "diff": "E"
+     },
+     {
+      "id": "xh3-levels-of-grammatical-analysis--lexical-semantics-e-g-synonymy-antonymy",
+      "name": "Lexical semantics (e.g., synonymy, antonymy)",
+      "diff": "M"
+     },
+     {
+      "id": "xh3-levels-of-grammatical-analysis--propositional-semantics-paraphrase-entailment-contradiction-",
+      "name": "Propositional semantics (paraphrase, entailment, contradiction etc.)",
+      "diff": "M"
+     },
+     {
+      "id": "xh3-levels-of-grammatical-analysis--syntax-semantics-and-semantics-pragmatics-interfaces",
+      "name": "Syntax-semantics and semantics-pragmatics interfaces",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "M",
+    "name": "Meaning in Context (Pragmatics)",
+    "topics": [
+     {
+      "id": "xh3-levels-of-grammatical-analysis--contextual-use-of-language-including-speech-acts",
+      "name": "Contextual use of language including speech acts",
+      "diff": "M"
+     },
+     {
+      "id": "xh3-levels-of-grammatical-analysis--implied-meanings-based-on-conversational-rules-grices-maxims",
+      "name": "Implied meanings based on conversational rules (Grice’s Maxims and implicatures)",
+      "diff": "M"
+     },
+     {
+      "id": "xh3-levels-of-grammatical-analysis--assumed-knowledge-presuppositions",
+      "name": "Assumed knowledge ( presuppositions)",
+      "diff": "M"
+     },
+     {
+      "id": "xh3-levels-of-grammatical-analysis--deictic-and-indexical-elements",
+      "name": "Deictic and indexical elements",
+      "diff": "M"
+     },
+     {
+      "id": "xh3-levels-of-grammatical-analysis--discourse-analysis",
+      "name": "Discourse analysis",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "xh3-historical-linguistics-languag",
+  "name": "Historical Linguistics (Language Change)",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Sound Changes over time",
+    "topics": [
+     {
+      "id": "xh3-historical-linguistics-languag--sound-laws-e-g-grimms-law-verners-law",
+      "name": "Sound laws (e.g., Grimm’s Law, Verner’s Law)",
+      "diff": "M",
+      "sample": true
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Grammar and Meaning Change",
+    "topics": [
+     {
+      "id": "xh3-historical-linguistics-languag--how-grammars-change-grammaticalization-and-how-word-meanings",
+      "name": "How grammars change (grammaticalization) and how word meanings shift over time",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "C",
+    "name": "Reconstruction",
+    "topics": [
+     {
+      "id": "xh3-historical-linguistics-languag--comparative-reconstruction-of-ancestral-languages",
+      "name": "Comparative reconstruction of ancestral languages",
+      "diff": "M"
+     },
+     {
+      "id": "xh3-historical-linguistics-languag--language-contact-including-borrowing",
+      "name": "Language Contact including borrowing",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "xh3-sociolinguistics-language-and-",
+  "name": "Sociolinguistics (Language and Society)",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Language Variation",
+    "topics": [
+     {
+      "id": "xh3-sociolinguistics-language-and---how-language-varies-based-on-social-factors-e-g-creating-soc",
+      "name": "How language varies based on social factors (e.g., creating sociolects or dialects)",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "xh3-sociolinguistics-language-and---language-contact-and-migration-including-dialect-geography",
+      "name": "Language contact and migration (including dialect geography)",
+      "diff": "M"
+     },
+     {
+      "id": "xh3-sociolinguistics-language-and---the-formation-of-pidgins-and-creoles",
+      "name": "The formation of pidgins and creoles",
+      "diff": "M"
+     },
+     {
+      "id": "xh3-sociolinguistics-language-and---linguistic-variables-and-their-co-variation-along-linguistic",
+      "name": "Linguistic variables and their co-variation along linguistic/social dimensions",
+      "diff": "M"
+     },
+     {
+      "id": "xh3-sociolinguistics-language-and---communicative-competence",
+      "name": "Communicative competence",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Bi- and Multilingualism",
+    "topics": [
+     {
+      "id": "xh3-sociolinguistics-language-and---the-study-of-phenomena-like-code-switching-and-code-mixing",
+      "name": "The study of phenomena like code-switching and code-mixing",
+      "diff": "M"
+     },
+     {
+      "id": "xh3-sociolinguistics-language-and---mother-tongue-and-other-tongues",
+      "name": "Mother tongue and other tongues",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "C",
+    "name": "Language and Policy",
+    "topics": [
+     {
+      "id": "xh3-sociolinguistics-language-and---the-role-of-language-in-society",
+      "name": "The role of language in society",
+      "diff": "M"
+     },
+     {
+      "id": "xh3-sociolinguistics-language-and---including-official-language-policies-especially-in-india",
+      "name": "Including official language policies (especially in India)",
+      "diff": "M"
+     },
+     {
+      "id": "xh3-sociolinguistics-language-and---language-endangerment-egids-language-loss-and-revitalization",
+      "name": "Language endangerment ( EGIDS), language loss, and revitalization",
+      "diff": "M"
+     },
+     {
+      "id": "xh3-sociolinguistics-language-and---language-maintenance-and-language-documentation",
+      "name": "Language maintenance and language documentation",
+      "diff": "M"
+     },
+     {
+      "id": "xh3-sociolinguistics-language-and---minority-and-majority-languages",
+      "name": "Minority and majority languages",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "xh3-typology-and-universals-langua",
+  "name": "Typology and Universals (Language Classification)",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Classifying Languages",
+    "topics": [
+     {
+      "id": "xh3-typology-and-universals-langua--grouping-languages-by-their-structural-type-e-g-agglutinativ",
+      "name": "Grouping languages by their structural type (e.g., agglutinative, isolating, fusional) and by their family trees (genetic classification)",
+      "diff": "E",
+      "sample": true
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Language Universals",
+    "topics": [
+     {
+      "id": "xh3-typology-and-universals-langua--identifying-features-or-patterns-that-are-common-to-all-or-m",
+      "name": "Identifying features or patterns that are common to all or most languages (e.g., Greenberg’s universals on word order)",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "C",
+    "name": "South Asian Languages",
+    "topics": [
+     {
+      "id": "xh3-typology-and-universals-langua--the-key-areal-features-of-the-major-language-families-found-",
+      "name": "The key areal features of the major language families found in South Asia ( Indo-Aryan, Dravidian, Austro-Asiatic, Tibeto-Burman etc.)",
+      "diff": "M"
+     },
+     {
+      "id": "xh3-typology-and-universals-langua--constitutional-provisions-for-languages",
+      "name": "Constitutional provisions for languages",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "xh3-methods-of-analysis-how-to-do-",
+  "name": "Methods of Analysis (How to Do Linguistics)",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Data Collection",
+    "topics": [
+     {
+      "id": "xh3-methods-of-analysis-how-to-do---methods-for-gathering-linguistic-data",
+      "name": "Methods for gathering linguistic data",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "xh3-methods-of-analysis-how-to-do---such-as-fieldwork-or-experiments",
+      "name": "Such as fieldwork or experiments",
+      "diff": "M"
+     },
+     {
+      "id": "xh3-methods-of-analysis-how-to-do---elicitation-techniques-from-speakers",
+      "name": "Elicitation techniques from speakers",
+      "diff": "M"
+     },
+     {
+      "id": "xh3-methods-of-analysis-how-to-do---sampling",
+      "name": "Sampling",
+      "diff": "E"
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Data Analysis",
+    "topics": [
+     {
+      "id": "xh3-methods-of-analysis-how-to-do---using-both-quantitative-basic-statistical-and-qualitative-me",
+      "name": "Using both quantitative (basic statistical) and qualitative methods to analyze data",
+      "diff": "E"
+     }
+    ]
+   },
+   {
+    "letter": "C",
+    "name": "Ethics",
+    "topics": [
+     {
+      "id": "xh3-methods-of-analysis-how-to-do---the-ethical-responsibilities-involved-in-working-with-langua",
+      "name": "The ethical responsibilities involved in working with languages and their speakers",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "D",
+    "name": "Corpora",
+    "topics": [
+     {
+      "id": "xh3-methods-of-analysis-how-to-do---development",
+      "name": "Development",
+      "diff": "E"
+     },
+     {
+      "id": "xh3-methods-of-analysis-how-to-do---annotation",
+      "name": "Annotation",
+      "diff": "E"
+     },
+     {
+      "id": "xh3-methods-of-analysis-how-to-do---types",
+      "name": "Types",
+      "diff": "E"
+     },
+     {
+      "id": "xh3-methods-of-analysis-how-to-do---analysis",
+      "name": "Analysis",
+      "diff": "E"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "xh3-applied-linguistics-linguistic",
+  "name": "Applied Linguistics (Linguistics in the Real World)",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Psycholinguistics",
+    "topics": [
+     {
+      "id": "xh3-applied-linguistics-linguistic--the-psychology-of-language",
+      "name": "The psychology of language",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "xh3-applied-linguistics-linguistic--acquisition-production-and-comprehension-of-speech-in-real-t",
+      "name": "Acquisition, production and comprehension of speech in real-time",
+      "diff": "M"
+     },
+     {
+      "id": "xh3-applied-linguistics-linguistic--language-and-the-brain",
+      "name": "Language and the brain",
+      "diff": "M"
+     },
+     {
+      "id": "xh3-applied-linguistics-linguistic--bi-and-multi-lingualism",
+      "name": "Bi- and multi-lingualism",
+      "diff": "M"
+     },
+     {
+      "id": "xh3-applied-linguistics-linguistic--language-and-cognition-e-g",
+      "name": "Language and cognition (e.g",
+      "diff": "M"
+     },
+     {
+      "id": "xh3-applied-linguistics-linguistic--the-relationships-between-language-mind-and-experience",
+      "name": "The relationships between language, mind, and experience)",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Computational Linguistics",
+    "topics": [
+     {
+      "id": "xh3-applied-linguistics-linguistic--basic-computational-ideas-of-modelling-and-processing",
+      "name": "Basic computational ideas of modelling and processing",
+      "diff": "E"
+     },
+     {
+      "id": "xh3-applied-linguistics-linguistic--corpora",
+      "name": "Corpora",
+      "diff": "E"
+     },
+     {
+      "id": "xh3-applied-linguistics-linguistic--parsing",
+      "name": "Parsing",
+      "diff": "E"
+     },
+     {
+      "id": "xh3-applied-linguistics-linguistic--llms",
+      "name": "LLMs",
+      "diff": "E"
+     },
+     {
+      "id": "xh3-applied-linguistics-linguistic--basic-computational-applications-for-speech-recognition",
+      "name": "Basic computational applications for speech recognition",
+      "diff": "E"
+     },
+     {
+      "id": "xh3-applied-linguistics-linguistic--morphological-analysis-or-sentiment-analysis-etc",
+      "name": "Morphological analysis or sentiment analysis etc",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "C",
+    "name": "Second Language Acquisition (SLA) and Language Teaching",
+    "topics": [
+     {
+      "id": "xh3-applied-linguistics-linguistic--principles-and-practices-of-language-teaching",
+      "name": "Principles and practices of language teaching",
+      "diff": "M"
+     },
+     {
+      "id": "xh3-applied-linguistics-linguistic--methods-and-assessment",
+      "name": "Methods and assessment",
+      "diff": "M"
+     },
+     {
+      "id": "xh3-applied-linguistics-linguistic--learning-vs-acquisition",
+      "name": "Learning vs acquisition",
+      "diff": "M"
+     },
+     {
+      "id": "xh3-applied-linguistics-linguistic--cognitive-resources",
+      "name": "Cognitive resources",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "D",
+    "name": "Clinical Linguistics",
+    "topics": [
+     {
+      "id": "xh3-applied-linguistics-linguistic--assessments-and-evidence-based-therapies",
+      "name": "Assessments and evidence -based therapies",
+      "diff": "M"
+     },
+     {
+      "id": "xh3-applied-linguistics-linguistic--language-disorders-both-developmental-and-acquired",
+      "name": "Language disorders (both developmental and acquired)",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "xh4-classical-indian-philosophy",
+  "name": "Classical Indian Philosophy",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Orthodox Systems",
+    "topics": [
+     {
+      "id": "xh4-classical-indian-philosophy--s-nkhya-puru-a",
+      "name": "Sānkhya - Puruṣa",
+      "diff": "E",
+      "sample": true
+     },
+     {
+      "id": "xh4-classical-indian-philosophy--prak-ti",
+      "name": "Prakṛti",
+      "diff": "E"
+     },
+     {
+      "id": "xh4-classical-indian-philosophy--gu-as",
+      "name": "Guṇas",
+      "diff": "E"
+     },
+     {
+      "id": "xh4-classical-indian-philosophy--satk-ryav-da",
+      "name": "Satkāryavāda",
+      "diff": "E"
+     },
+     {
+      "id": "xh4-classical-indian-philosophy--mok-a-kaivalya",
+      "name": "Mokṣa (Kaivalya)",
+      "diff": "E"
+     },
+     {
+      "id": "xh4-classical-indian-philosophy--pram-as-and-theory-of-error",
+      "name": "Pramāṇas and Theory of Error",
+      "diff": "M"
+     },
+     {
+      "id": "xh4-classical-indian-philosophy--yoga-pram-as",
+      "name": "Yoga - Pramāṇas",
+      "diff": "E"
+     },
+     {
+      "id": "xh4-classical-indian-philosophy--theory-of-error",
+      "name": "Theory of Error",
+      "diff": "E"
+     },
+     {
+      "id": "xh4-classical-indian-philosophy--i-vara",
+      "name": "Iśvara",
+      "diff": "E"
+     },
+     {
+      "id": "xh4-classical-indian-philosophy--citta",
+      "name": "Citta",
+      "diff": "E"
+     },
+     {
+      "id": "xh4-classical-indian-philosophy--kle-a",
+      "name": "Kleśa",
+      "diff": "E"
+     },
+     {
+      "id": "xh4-classical-indian-philosophy--a-nga-yoga",
+      "name": "A ṣṭānga-yoga",
+      "diff": "E"
+     },
+     {
+      "id": "xh4-classical-indian-philosophy--kaivalya-mok-a",
+      "name": "Kaivalya (Mok ṣa)",
+      "diff": "E"
+     },
+     {
+      "id": "xh4-classical-indian-philosophy--ny-ya-pram-as",
+      "name": "Nyāya - Pramāṇas",
+      "diff": "E"
+     },
+     {
+      "id": "xh4-classical-indian-philosophy--hetv-bh-sa",
+      "name": "Hetvābhāsa",
+      "diff": "E"
+     },
+     {
+      "id": "xh4-classical-indian-philosophy--asatk-ryav-da",
+      "name": "Asatkāryavāda",
+      "diff": "E"
+     },
+     {
+      "id": "xh4-classical-indian-philosophy--navya-ny-ya",
+      "name": "Navya -Nyāya",
+      "diff": "E"
+     },
+     {
+      "id": "xh4-classical-indian-philosophy--vai-e-ika-parata-pr-m-ya",
+      "name": "Vaiśeṣika - Parataḥprāmāṇya",
+      "diff": "M"
+     },
+     {
+      "id": "xh4-classical-indian-philosophy--pad-rthas-categories",
+      "name": "Padārthas (categories)",
+      "diff": "M"
+     },
+     {
+      "id": "xh4-classical-indian-philosophy--theory-of-atomism-param-uv-da",
+      "name": "Theory of Atomism (paramā ṇuvāda)",
+      "diff": "M"
+     },
+     {
+      "id": "xh4-classical-indian-philosophy--m-m-ms-dharma",
+      "name": "Mīmāmsā - Dharma",
+      "diff": "E"
+     },
+     {
+      "id": "xh4-classical-indian-philosophy--ap-rva",
+      "name": "Apūrva",
+      "diff": "E"
+     },
+     {
+      "id": "xh4-classical-indian-philosophy--mok-a",
+      "name": "Mok ṣa",
+      "diff": "E"
+     },
+     {
+      "id": "xh4-classical-indian-philosophy--pram-as-both-in-kum-rila-and-prabh-kara",
+      "name": "Pramā ṇas (both in Kumārila and Prabhākara)",
+      "diff": "M"
+     },
+     {
+      "id": "xh4-classical-indian-philosophy--anyath-khy-ti",
+      "name": "Anyathākhyāti",
+      "diff": "E"
+     },
+     {
+      "id": "xh4-classical-indian-philosophy--ved-nta-advaita-adhy-sa",
+      "name": "Vedānta - Advaita (Adhyāsa",
+      "diff": "M"
+     },
+     {
+      "id": "xh4-classical-indian-philosophy--brahman",
+      "name": "Brahman",
+      "diff": "E"
+     },
+     {
+      "id": "xh4-classical-indian-philosophy--tman",
+      "name": "Ātman",
+      "diff": "E"
+     },
+     {
+      "id": "xh4-classical-indian-philosophy--j-va",
+      "name": "Jīva",
+      "diff": "E"
+     },
+     {
+      "id": "xh4-classical-indian-philosophy--mok-a",
+      "name": "Mokṣa",
+      "diff": "E"
+     },
+     {
+      "id": "xh4-classical-indian-philosophy--vi-i-dvaita-tattva-traya-mok-a-and-refutation-of-m-y-v-da",
+      "name": "Viśiṣṭādvaita (Tattva-traya, Mokṣa, and Refutation of Māyāvāda)",
+      "diff": "M"
+     },
+     {
+      "id": "xh4-classical-indian-philosophy--dvaita",
+      "name": "Dvaita",
+      "diff": "E"
+     },
+     {
+      "id": "xh4-classical-indian-philosophy--dvait-dvaita",
+      "name": "Dvaitādvaita",
+      "diff": "E"
+     },
+     {
+      "id": "xh4-classical-indian-philosophy--uddh-dvaita",
+      "name": "Śuddhādvaita",
+      "diff": "E"
+     },
+     {
+      "id": "xh4-classical-indian-philosophy--pram-a-in-advaita-and-vi-i-dvaita",
+      "name": "Pramāṇa in Advaita and Viśiṣṭādvaita",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Heterodox Systems",
+    "topics": [
+     {
+      "id": "xh4-classical-indian-philosophy--c-rv-ka-pram-a-indian-materialism-and-hedonism",
+      "name": "Cārvāka - Pramāṇa, Indian materialism and Hedonism",
+      "diff": "M"
+     },
+     {
+      "id": "xh4-classical-indian-philosophy--jainism-pram-as",
+      "name": "Jainism - Pramāṇas",
+      "diff": "M"
+     },
+     {
+      "id": "xh4-classical-indian-philosophy--sy-dv-da",
+      "name": "Syādvāda",
+      "diff": "E"
+     },
+     {
+      "id": "xh4-classical-indian-philosophy--anek-ntav-da",
+      "name": "Anekāntavāda",
+      "diff": "E"
+     },
+     {
+      "id": "xh4-classical-indian-philosophy--pad-rtha-categories",
+      "name": "Padārtha (categories)",
+      "diff": "M"
+     },
+     {
+      "id": "xh4-classical-indian-philosophy--j-va-and-aj-va",
+      "name": "Jīva and Ajīva",
+      "diff": "E"
+     },
+     {
+      "id": "xh4-classical-indian-philosophy--mok-a",
+      "name": "Mokṣa",
+      "diff": "E"
+     },
+     {
+      "id": "xh4-classical-indian-philosophy--mah-vrata",
+      "name": "Mahāvrata",
+      "diff": "E"
+     },
+     {
+      "id": "xh4-classical-indian-philosophy--a-uvrata",
+      "name": "Aṇuvrata",
+      "diff": "E"
+     },
+     {
+      "id": "xh4-classical-indian-philosophy--buddhism-ti-pi-aka",
+      "name": "Buddhism - Ti-piṭaka",
+      "diff": "M"
+     },
+     {
+      "id": "xh4-classical-indian-philosophy--sarv-stiv-da",
+      "name": "Sarvāstivāda",
+      "diff": "E"
+     },
+     {
+      "id": "xh4-classical-indian-philosophy--sautr-ntika",
+      "name": "Sautrāntika",
+      "diff": "E"
+     },
+     {
+      "id": "xh4-classical-indian-philosophy--m-dhyamika",
+      "name": "Mādhyamika",
+      "diff": "E"
+     },
+     {
+      "id": "xh4-classical-indian-philosophy--yog-c-ra-vij-nav-da",
+      "name": "Yogācāra-Vijñānavāda",
+      "diff": "M"
+     },
+     {
+      "id": "xh4-classical-indian-philosophy--pa-ca-skandha",
+      "name": "Pañca-skandha",
+      "diff": "E"
+     },
+     {
+      "id": "xh4-classical-indian-philosophy--anityav-da",
+      "name": "Anityavāda",
+      "diff": "E"
+     },
+     {
+      "id": "xh4-classical-indian-philosophy--an-tmav-da",
+      "name": "Anātmavāda",
+      "diff": "E"
+     },
+     {
+      "id": "xh4-classical-indian-philosophy--doctrine-of-momentariness",
+      "name": "Doctrine of Momentariness",
+      "diff": "M"
+     },
+     {
+      "id": "xh4-classical-indian-philosophy--doctrine-of-dependent-origination",
+      "name": "Doctrine of Dependent Origination",
+      "diff": "M"
+     },
+     {
+      "id": "xh4-classical-indian-philosophy--pram-nas",
+      "name": "Pramānas",
+      "diff": "E"
+     },
+     {
+      "id": "xh4-classical-indian-philosophy--doctrine-of-two-truths",
+      "name": "Doctrine of Two Truths",
+      "diff": "M"
+     },
+     {
+      "id": "xh4-classical-indian-philosophy--doctrine-of-tri-k-ya",
+      "name": "Doctrine of Tri-kāya",
+      "diff": "M"
+     },
+     {
+      "id": "xh4-classical-indian-philosophy--a-p-ramit-s",
+      "name": "Ṣaḍ-pāramitās",
+      "diff": "E"
+     },
+     {
+      "id": "xh4-classical-indian-philosophy--brahmavih-ras",
+      "name": "Brahmavihāras",
+      "diff": "E"
+     },
+     {
+      "id": "xh4-classical-indian-philosophy--p-ca-la",
+      "name": "Pāñcaśīla",
+      "diff": "E"
+     },
+     {
+      "id": "xh4-classical-indian-philosophy--bodhisattva-ideal",
+      "name": "Bodhisattva Ideal",
+      "diff": "E"
+     },
+     {
+      "id": "xh4-classical-indian-philosophy--up-yakau-alya",
+      "name": "Upāyakauśalya",
+      "diff": "E"
+     },
+     {
+      "id": "xh4-classical-indian-philosophy--upani-ads",
+      "name": "Upaniṣads",
+      "diff": "E"
+     },
+     {
+      "id": "xh4-classical-indian-philosophy--bhagavadg-t",
+      "name": "Bhagavadgītā",
+      "diff": "E"
+     },
+     {
+      "id": "xh4-classical-indian-philosophy--dharma-stras-philosophy-of-the-upani-ads-pure-monism",
+      "name": "Dharmaśāstras: Philosophy of the Upaniṣads - Pure Monism",
+      "diff": "M"
+     },
+     {
+      "id": "xh4-classical-indian-philosophy--brahman-and-tman",
+      "name": "Brahman and Ātman",
+      "diff": "E"
+     },
+     {
+      "id": "xh4-classical-indian-philosophy--pa-ca-ko-a",
+      "name": "Pañca-kośa",
+      "diff": "E"
+     },
+     {
+      "id": "xh4-classical-indian-philosophy--par-vidy-and-apar-vidy",
+      "name": "Parā -vidyā and Aparā -vidyā",
+      "diff": "M"
+     },
+     {
+      "id": "xh4-classical-indian-philosophy--meaning-of-dharma",
+      "name": "Meaning of Dharma",
+      "diff": "E"
+     },
+     {
+      "id": "xh4-classical-indian-philosophy--ta",
+      "name": "Ṛta",
+      "diff": "E"
+     },
+     {
+      "id": "xh4-classical-indian-philosophy--purus-rtha",
+      "name": "Purusārtha",
+      "diff": "E"
+     },
+     {
+      "id": "xh4-classical-indian-philosophy--reyas-and-preyas",
+      "name": "Śreyas and Preyas",
+      "diff": "E"
+     },
+     {
+      "id": "xh4-classical-indian-philosophy--var-ramadharma",
+      "name": "Varṇāśramadharma",
+      "diff": "E"
+     },
+     {
+      "id": "xh4-classical-indian-philosophy--svadharma-and-s-dh-ra-a-dharma",
+      "name": "Svadharma and Sādhāra ṇa Dharma",
+      "diff": "M"
+     },
+     {
+      "id": "xh4-classical-indian-philosophy--na",
+      "name": "Ṛna",
+      "diff": "E"
+     },
+     {
+      "id": "xh4-classical-indian-philosophy--yaj-a",
+      "name": "Yajña",
+      "diff": "E"
+     },
+     {
+      "id": "xh4-classical-indian-philosophy--karma-yoga",
+      "name": "Karma-yoga",
+      "diff": "E"
+     },
+     {
+      "id": "xh4-classical-indian-philosophy--sthitapraj-a",
+      "name": "Sthitaprajña",
+      "diff": "E"
+     },
+     {
+      "id": "xh4-classical-indian-philosophy--lokasa-graha",
+      "name": "Lokasa ṃgraha",
+      "diff": "E"
+     },
+     {
+      "id": "xh4-classical-indian-philosophy--law-of-karma",
+      "name": "Law of Karma",
+      "diff": "E"
+     },
+     {
+      "id": "xh4-classical-indian-philosophy--k-mira-aivism",
+      "name": "Kāṣmira Śaivism",
+      "diff": "E"
+     },
+     {
+      "id": "xh4-classical-indian-philosophy--aivasiddh-nta",
+      "name": "Śaivasiddhānta",
+      "diff": "E"
+     },
+     {
+      "id": "xh4-classical-indian-philosophy--v-ra-aivism",
+      "name": "Vīra Śaivism",
+      "diff": "E"
+     },
+     {
+      "id": "xh4-classical-indian-philosophy--ktism-and-vai-avism-k-m-ra-aivism-praty-bhij-a-school",
+      "name": "Śāktism and Vaiṣṇavism: Kāṣmīra Śaivism - Pratyābhijña school",
+      "diff": "M"
+     },
+     {
+      "id": "xh4-classical-indian-philosophy--iva-and-akti",
+      "name": "Śiva and Śakti",
+      "diff": "E"
+     },
+     {
+      "id": "xh4-classical-indian-philosophy--conception-of-kriy-aivasiddh-nta-god-pati-and-divine-power-a",
+      "name": "Conception of Kriyā. Śaivasiddhānta - God (pati) and Divine Power (śakti)",
+      "diff": "M"
+     },
+     {
+      "id": "xh4-classical-indian-philosophy--proofs-for-gods-existence",
+      "name": "Proofs for God’s Existence",
+      "diff": "M"
+     },
+     {
+      "id": "xh4-classical-indian-philosophy--bondage-and-liberation",
+      "name": "Bondage and Liberation",
+      "diff": "M"
+     },
+     {
+      "id": "xh4-classical-indian-philosophy--philosophical-basis-of-v-ra-aivism-ktism-and-vai-avism",
+      "name": "Philosophical basis of Vīra Śaivism, Śāktism, and Vaiṣṇavism",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "xh4-contemporary-indian-philosophy",
+  "name": "Contemporary Indian Philosophy",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Swami Vivekananda",
+    "topics": [
+     {
+      "id": "xh4-contemporary-indian-philosophy--practical-vedanta",
+      "name": "Practical Vedanta",
+      "diff": "E",
+      "sample": true
+     },
+     {
+      "id": "xh4-contemporary-indian-philosophy--nature-of-religion",
+      "name": "Nature of Religion",
+      "diff": "M"
+     },
+     {
+      "id": "xh4-contemporary-indian-philosophy--destiny-of-the-soul-realisation-of-immortality",
+      "name": "Destiny of the Soul - Realisation of Immortality",
+      "diff": "M"
+     },
+     {
+      "id": "xh4-contemporary-indian-philosophy--sri",
+      "name": "Sri",
+      "diff": "E"
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Aurobindo",
+    "topics": [
+     {
+      "id": "xh4-contemporary-indian-philosophy--evolution-mind-and-supermind-integral-yoga",
+      "name": "Evolution, Mind and Supermind, Integral Yoga",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "C",
+    "name": "Iqbal",
+    "topics": [
+     {
+      "id": "xh4-contemporary-indian-philosophy--self-god-man-and-superman-intellect-and-intuition",
+      "name": "Self, God, Man and Superman, Intellect and Intuition",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "D",
+    "name": "Tagore",
+    "topics": [
+     {
+      "id": "xh4-contemporary-indian-philosophy--religion-of-man-ideas-on-education-concept-of-nationalism",
+      "name": "Religion of man, ideas on education, Concept of Nationalism",
+      "diff": "M"
+     },
+     {
+      "id": "xh4-contemporary-indian-philosophy--k-c",
+      "name": "K. C",
+      "diff": "E"
+     }
+    ]
+   },
+   {
+    "letter": "E",
+    "name": "Bhattacharyya",
+    "topics": [
+     {
+      "id": "xh4-contemporary-indian-philosophy--swaraj-in-ideas",
+      "name": "Swaraj in ideas",
+      "diff": "E"
+     },
+     {
+      "id": "xh4-contemporary-indian-philosophy--concept-of-philosophy",
+      "name": "Concept of Philosophy",
+      "diff": "M"
+     },
+     {
+      "id": "xh4-contemporary-indian-philosophy--subject-as-freedom",
+      "name": "Subject as Freedom",
+      "diff": "M"
+     },
+     {
+      "id": "xh4-contemporary-indian-philosophy--the-doctrine-of-m-y",
+      "name": "The doctrine of Māyā",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "F",
+    "name": "Radhakrishnan",
+    "topics": [
+     {
+      "id": "xh4-contemporary-indian-philosophy--intellect-and-intuition",
+      "name": "Intellect and intuition",
+      "diff": "M"
+     },
+     {
+      "id": "xh4-contemporary-indian-philosophy--the-idealist-view-of-life",
+      "name": "The Idealist view of life",
+      "diff": "M"
+     },
+     {
+      "id": "xh4-contemporary-indian-philosophy--concept-of-universal-religion",
+      "name": "Concept of Universal Religion",
+      "diff": "M"
+     },
+     {
+      "id": "xh4-contemporary-indian-philosophy--hindu-view-of-life",
+      "name": "Hindu view of life",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "G",
+    "name": "Krishnamurti",
+    "topics": [
+     {
+      "id": "xh4-contemporary-indian-philosophy--conception-of-thought",
+      "name": "Conception of thought",
+      "diff": "M"
+     },
+     {
+      "id": "xh4-contemporary-indian-philosophy--freedom-from-the-known",
+      "name": "Freedom from the known",
+      "diff": "M"
+     },
+     {
+      "id": "xh4-contemporary-indian-philosophy--analysis-of-self",
+      "name": "Analysis of self",
+      "diff": "E"
+     },
+     {
+      "id": "xh4-contemporary-indian-philosophy--choiceless-awareness",
+      "name": "Choiceless awareness",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "H",
+    "name": "Gandhi",
+    "topics": [
+     {
+      "id": "xh4-contemporary-indian-philosophy--notion-of-truth",
+      "name": "Notion of Truth",
+      "diff": "E"
+     },
+     {
+      "id": "xh4-contemporary-indian-philosophy--non-violence",
+      "name": "Non-violence",
+      "diff": "E"
+     },
+     {
+      "id": "xh4-contemporary-indian-philosophy--satyagraha",
+      "name": "Satyagraha",
+      "diff": "E"
+     },
+     {
+      "id": "xh4-contemporary-indian-philosophy--swaraj",
+      "name": "Swaraj",
+      "diff": "E"
+     },
+     {
+      "id": "xh4-contemporary-indian-philosophy--critique-of-modern-civilization-hind-swaraj",
+      "name": "Critique of modern civilization (Hind Swaraj)",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "I",
+    "name": "Ambedkar",
+    "topics": [
+     {
+      "id": "xh4-contemporary-indian-philosophy--basic-features-of-indian-constitution",
+      "name": "Basic Features of Indian Constitution",
+      "diff": "E"
+     },
+     {
+      "id": "xh4-contemporary-indian-philosophy--untouchability-democracy",
+      "name": "Untouchability, Democracy",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "J",
+    "name": "Daya Krishna",
+    "topics": [
+     {
+      "id": "xh4-contemporary-indian-philosophy--three-myths-about-indian-philosophy",
+      "name": "Three Myths about Indian Philosophy",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "xh4-classical-and-modern-western-p",
+  "name": "Classical and Modern Western Philosophy",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Metaphysics",
+    "topics": [
+     {
+      "id": "xh4-classical-and-modern-western-p--pre-socratic-philosophy-of-thales",
+      "name": "Pre-Socratic Philosophy of Thales",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "xh4-classical-and-modern-western-p--anaxagoras",
+      "name": "Anaxagoras",
+      "diff": "E"
+     },
+     {
+      "id": "xh4-classical-and-modern-western-p--anaximenies",
+      "name": "Anaximenies",
+      "diff": "E"
+     },
+     {
+      "id": "xh4-classical-and-modern-western-p--ionians",
+      "name": "Ionians",
+      "diff": "E"
+     },
+     {
+      "id": "xh4-classical-and-modern-western-p--pythagoras",
+      "name": "Pythagoras",
+      "diff": "E"
+     },
+     {
+      "id": "xh4-classical-and-modern-western-p--parmenides",
+      "name": "Parmenides",
+      "diff": "E"
+     },
+     {
+      "id": "xh4-classical-and-modern-western-p--heraclitus",
+      "name": "Heraclitus",
+      "diff": "E"
+     },
+     {
+      "id": "xh4-classical-and-modern-western-p--democritus",
+      "name": "Democritus",
+      "diff": "E"
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Plato and Aristotle",
+    "topics": [
+     {
+      "id": "xh4-classical-and-modern-western-p--the-question-of-being-ousia",
+      "name": "The question of Being (Ousia)",
+      "diff": "M"
+     },
+     {
+      "id": "xh4-classical-and-modern-western-p--being-as-idea-in-platos-phaedo",
+      "name": "Being as Idea in Plato's Phaedo",
+      "diff": "M"
+     },
+     {
+      "id": "xh4-classical-and-modern-western-p--republic-and-the-sophist",
+      "name": "Republic and the Sophist",
+      "diff": "M"
+     },
+     {
+      "id": "xh4-classical-and-modern-western-p--being-as-the-synthesis-of-matter-hyle-and-form-morphe-in-ari",
+      "name": "Being as the synthesis of Matter [hyle] and Form [morphe] in Aristotle's Metaphysics and Physics",
+      "diff": "M"
+     },
+     {
+      "id": "xh4-classical-and-modern-western-p--problem-of-evil-and-existence-of-god-in-st",
+      "name": "Problem of evil and existence of God in St",
+      "diff": "M"
+     },
+     {
+      "id": "xh4-classical-and-modern-western-p--augustine-st",
+      "name": "Augustine, St",
+      "diff": "E"
+     },
+     {
+      "id": "xh4-classical-and-modern-western-p--anselm-and-st",
+      "name": "Anselm, and St",
+      "diff": "E"
+     },
+     {
+      "id": "xh4-classical-and-modern-western-p--thomas-aquinas",
+      "name": "Thomas Aquinas",
+      "diff": "E"
+     }
+    ]
+   },
+   {
+    "letter": "C",
+    "name": "Metaphysics in Modern Philosophy",
+    "topics": [
+     {
+      "id": "xh4-classical-and-modern-western-p--substance",
+      "name": "Substance",
+      "diff": "E"
+     },
+     {
+      "id": "xh4-classical-and-modern-western-p--mind-body-dualism",
+      "name": "Mind-Body Dualism",
+      "diff": "E"
+     },
+     {
+      "id": "xh4-classical-and-modern-western-p--attribute",
+      "name": "Attribute",
+      "diff": "E"
+     },
+     {
+      "id": "xh4-classical-and-modern-western-p--parallelism",
+      "name": "Parallelism",
+      "diff": "E"
+     },
+     {
+      "id": "xh4-classical-and-modern-western-p--pre-established-harmony",
+      "name": "Pre-established harmony",
+      "diff": "M"
+     },
+     {
+      "id": "xh4-classical-and-modern-western-p--the-existence-of-god",
+      "name": "The existence of God",
+      "diff": "M"
+     },
+     {
+      "id": "xh4-classical-and-modern-western-p--problem-of-solipsism",
+      "name": "Problem of Solipsism",
+      "diff": "M"
+     },
+     {
+      "id": "xh4-classical-and-modern-western-p--self-and-personal-identity",
+      "name": "Self and Personal Identity",
+      "diff": "M"
+     },
+     {
+      "id": "xh4-classical-and-modern-western-p--rejection-of-metaphysics",
+      "name": "Rejection of Metaphysics",
+      "diff": "M"
+     },
+     {
+      "id": "xh4-classical-and-modern-western-p--phenomena-and-noumena",
+      "name": "Phenomena and Noumena",
+      "diff": "M"
+     },
+     {
+      "id": "xh4-classical-and-modern-western-p--transcendental-deduction-of-categories",
+      "name": "Transcendental Deduction of Categories",
+      "diff": "M"
+     },
+     {
+      "id": "xh4-classical-and-modern-western-p--being-and-becoming",
+      "name": "Being and Becoming",
+      "diff": "M"
+     },
+     {
+      "id": "xh4-classical-and-modern-western-p--absolute-idealism",
+      "name": "Absolute Idealism",
+      "diff": "E"
+     }
+    ]
+   },
+   {
+    "letter": "D",
+    "name": "Epistemology",
+    "topics": [
+     {
+      "id": "xh4-classical-and-modern-western-p--plato-and-aristotles-theory-of-knowledge",
+      "name": "Plato and Aristotle’s Theory of Knowledge",
+      "diff": "M"
+     },
+     {
+      "id": "xh4-classical-and-modern-western-p--doxa",
+      "name": "Doxa",
+      "diff": "E"
+     },
+     {
+      "id": "xh4-classical-and-modern-western-p--episteme",
+      "name": "Episteme",
+      "diff": "E"
+     },
+     {
+      "id": "xh4-classical-and-modern-western-p--sophia",
+      "name": "Sophia",
+      "diff": "E"
+     },
+     {
+      "id": "xh4-classical-and-modern-western-p--method-of-dialectics",
+      "name": "Method of Dialectics",
+      "diff": "M"
+     },
+     {
+      "id": "xh4-classical-and-modern-western-p--theoretical-and-practical-reason",
+      "name": "Theoretical and Practical Reason",
+      "diff": "M"
+     },
+     {
+      "id": "xh4-classical-and-modern-western-p--theory-of-causation",
+      "name": "Theory of Causation",
+      "diff": "M"
+     },
+     {
+      "id": "xh4-classical-and-modern-western-p--descartes-method-of-doubt",
+      "name": "Descartes’ Method of Doubt",
+      "diff": "M"
+     },
+     {
+      "id": "xh4-classical-and-modern-western-p--cogito-ergo-sum",
+      "name": "Cogito ergo sum",
+      "diff": "E"
+     },
+     {
+      "id": "xh4-classical-and-modern-western-p--innate-ideas-and-its-refutation",
+      "name": "Innate Ideas and its refutation",
+      "diff": "M"
+     },
+     {
+      "id": "xh4-classical-and-modern-western-p--principle-of-non-contradiction",
+      "name": "Principle of Non-contradiction",
+      "diff": "M"
+     },
+     {
+      "id": "xh4-classical-and-modern-western-p--sufficient-reason",
+      "name": "Sufficient Reason",
+      "diff": "E"
+     },
+     {
+      "id": "xh4-classical-and-modern-western-p--identity-of-indiscernibles",
+      "name": "Identity of Indiscernibles",
+      "diff": "M"
+     },
+     {
+      "id": "xh4-classical-and-modern-western-p--lockes-three-grades-of-knowledge",
+      "name": "Locke’s Three Grades of Knowledge",
+      "diff": "M"
+     },
+     {
+      "id": "xh4-classical-and-modern-western-p--berkeleys-critique-of-abstract-ideas",
+      "name": "Berkeley’s Critique of Abstract Ideas",
+      "diff": "M"
+     },
+     {
+      "id": "xh4-classical-and-modern-western-p--humes-impressions-and-ideas",
+      "name": "Hume’s Impressions and Ideas",
+      "diff": "M"
+     },
+     {
+      "id": "xh4-classical-and-modern-western-p--induction-and-causality",
+      "name": "Induction and Causality",
+      "diff": "M"
+     },
+     {
+      "id": "xh4-classical-and-modern-western-p--kants-copernican-revolution",
+      "name": "Kant’s Copernican Revolution",
+      "diff": "M"
+     },
+     {
+      "id": "xh4-classical-and-modern-western-p--forms-of-sensibility",
+      "name": "Forms of Sensibility",
+      "diff": "M"
+     },
+     {
+      "id": "xh4-classical-and-modern-western-p--possibility-of-synthetic-a-priori-judgments",
+      "name": "Possibility of Synthetic a priori Judgments",
+      "diff": "M"
+     },
+     {
+      "id": "xh4-classical-and-modern-western-p--hegels-dialectics-spirit-and-absolute-idealism",
+      "name": "Hegel’s Dialectics, Spirit, and Absolute Idealism",
+      "diff": "M"
+     },
+     {
+      "id": "xh4-classical-and-modern-western-p--the-gettier-problem-and-major-responses-to-it",
+      "name": "The Gettier Problem and major responses to it",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "E",
+    "name": "Ethics",
+    "topics": [
+     {
+      "id": "xh4-classical-and-modern-western-p--egoism",
+      "name": "Egoism",
+      "diff": "E"
+     },
+     {
+      "id": "xh4-classical-and-modern-western-p--altruism",
+      "name": "Altruism",
+      "diff": "E"
+     },
+     {
+      "id": "xh4-classical-and-modern-western-p--universalism",
+      "name": "Universalism",
+      "diff": "E"
+     },
+     {
+      "id": "xh4-classical-and-modern-western-p--subjectivism",
+      "name": "Subjectivism",
+      "diff": "E"
+     },
+     {
+      "id": "xh4-classical-and-modern-western-p--cultural-relativism",
+      "name": "Cultural Relativism",
+      "diff": "M"
+     },
+     {
+      "id": "xh4-classical-and-modern-western-p--super-naturalism",
+      "name": "Super-naturalism",
+      "diff": "E"
+     },
+     {
+      "id": "xh4-classical-and-modern-western-p--ethical-realism-and-anti-realism",
+      "name": "Ethical realism and anti-realism",
+      "diff": "M"
+     },
+     {
+      "id": "xh4-classical-and-modern-western-p--ethical-cognitivism-and-non-cognitivism",
+      "name": "Ethical Cognitivism and Non-cognitivism",
+      "diff": "M"
+     },
+     {
+      "id": "xh4-classical-and-modern-western-p--intuitionism",
+      "name": "Intuitionism",
+      "diff": "E"
+     },
+     {
+      "id": "xh4-classical-and-modern-western-p--concepts-of-good",
+      "name": "Concepts of Good",
+      "diff": "E"
+     },
+     {
+      "id": "xh4-classical-and-modern-western-p--right",
+      "name": "Right",
+      "diff": "E"
+     },
+     {
+      "id": "xh4-classical-and-modern-western-p--justice",
+      "name": "Justice",
+      "diff": "E"
+     },
+     {
+      "id": "xh4-classical-and-modern-western-p--duty",
+      "name": "Duty",
+      "diff": "E"
+     },
+     {
+      "id": "xh4-classical-and-modern-western-p--obligation",
+      "name": "Obligation",
+      "diff": "E"
+     },
+     {
+      "id": "xh4-classical-and-modern-western-p--cardinal-virtues",
+      "name": "Cardinal Virtues",
+      "diff": "E"
+     },
+     {
+      "id": "xh4-classical-and-modern-western-p--eudaemonism",
+      "name": "Eudaemonism",
+      "diff": "E"
+     },
+     {
+      "id": "xh4-classical-and-modern-western-p--kants-moral-theory",
+      "name": "Kant’s moral theory",
+      "diff": "M"
+     },
+     {
+      "id": "xh4-classical-and-modern-western-p--postulates-of-morality",
+      "name": "Postulates of Morality",
+      "diff": "M"
+     },
+     {
+      "id": "xh4-classical-and-modern-western-p--good-will",
+      "name": "Good will",
+      "diff": "E"
+     },
+     {
+      "id": "xh4-classical-and-modern-western-p--categorical-imperative",
+      "name": "Categorical Imperative",
+      "diff": "M"
+     },
+     {
+      "id": "xh4-classical-and-modern-western-p--means-and-ends",
+      "name": "Means and ends",
+      "diff": "E"
+     },
+     {
+      "id": "xh4-classical-and-modern-western-p--maxims",
+      "name": "Maxims",
+      "diff": "E"
+     }
+    ]
+   },
+   {
+    "letter": "F",
+    "name": "Utilitarianism",
+    "topics": [
+     {
+      "id": "xh4-classical-and-modern-western-p--principle-of-utility",
+      "name": "Principle of Utility",
+      "diff": "M"
+     },
+     {
+      "id": "xh4-classical-and-modern-western-p--problem-of-sanction-and-justification-of-morality",
+      "name": "Problem of Sanction and Justification of Morality",
+      "diff": "M"
+     },
+     {
+      "id": "xh4-classical-and-modern-western-p--moral-theories-of-bentham",
+      "name": "Moral theories of Bentham",
+      "diff": "M"
+     },
+     {
+      "id": "xh4-classical-and-modern-western-p--j-s-mill",
+      "name": "J. S. Mill",
+      "diff": "E"
+     },
+     {
+      "id": "xh4-classical-and-modern-western-p--care-ethics",
+      "name": "Care Ethics",
+      "diff": "E"
+     },
+     {
+      "id": "xh4-classical-and-modern-western-p--theories-of-punishment",
+      "name": "Theories of Punishment",
+      "diff": "M"
+     },
+     {
+      "id": "xh4-classical-and-modern-western-p--professional",
+      "name": "Professional",
+      "diff": "E"
+     }
+    ]
+   },
+   {
+    "letter": "G",
+    "name": "Ethics",
+    "topics": [
+     {
+      "id": "xh4-classical-and-modern-western-p--corporate-governance-and-social-responsibility",
+      "name": "Corporate Governance and Social Responsibility",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "H",
+    "name": "Environmental Ethics",
+    "topics": [
+     {
+      "id": "xh4-classical-and-modern-western-p--nature-as-means-or-end",
+      "name": "Nature as means or end",
+      "diff": "M"
+     },
+     {
+      "id": "xh4-classical-and-modern-western-p--land-ethic-aldo-leopold",
+      "name": "Land ethic (Aldo Leopold)",
+      "diff": "M"
+     },
+     {
+      "id": "xh4-classical-and-modern-western-p--deep-ecology-arne-naess",
+      "name": "Deep Ecology (Arne Naess)",
+      "diff": "M"
+     },
+     {
+      "id": "xh4-classical-and-modern-western-p--animal-rights-peter-singer",
+      "name": "Animal Rights (Peter Singer)",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "I",
+    "name": "Principles of Bioethics",
+    "topics": [
+     {
+      "id": "xh4-classical-and-modern-western-p--autonomy-beneficence-non-maleficence-and-justice",
+      "name": "Autonomy, Beneficence, Non-maleficence and Justice",
+      "diff": "M"
+     },
+     {
+      "id": "xh4-classical-and-modern-western-p--doctor-patient-relationship-euthanasia",
+      "name": "Doctor-patient relationship, Euthanasia",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "J",
+    "name": "Social and Political Philosophy",
+    "topics": [
+     {
+      "id": "xh4-classical-and-modern-western-p--platos-theory-of-justice-and-state",
+      "name": "Plato’s theory of Justice and State",
+      "diff": "M"
+     },
+     {
+      "id": "xh4-classical-and-modern-western-p--aristotles-definition-of-state-and-political-naturalism",
+      "name": "Aristotle’s definition of State and Political Naturalism",
+      "diff": "E"
+     },
+     {
+      "id": "xh4-classical-and-modern-western-p--classical-liberalism-and-social-contract-theory-hobbes-rouss",
+      "name": "Classical Liberalism and Social Contract Theory (Hobbes, Rousseau, Locke)",
+      "diff": "M"
+     },
+     {
+      "id": "xh4-classical-and-modern-western-p--marxs-dialectical-materialism-alienation-and-critique-of-cap",
+      "name": "Marx’s Dialectical Materialism, Alienation, and critique of Capitalism",
+      "diff": "M"
+     },
+     {
+      "id": "xh4-classical-and-modern-western-p--rawls-veil-of-ignorance-principles-of-justice",
+      "name": "Rawls’ Veil of Ignorance, Principles of Justice",
+      "diff": "M"
+     },
+     {
+      "id": "xh4-classical-and-modern-western-p--civic-virtue",
+      "name": "Civic virtue",
+      "diff": "E"
+     },
+     {
+      "id": "xh4-classical-and-modern-western-p--libertarianism-robert-nozick",
+      "name": "Libertarianism (Robert Nozick)",
+      "diff": "M"
+     },
+     {
+      "id": "xh4-classical-and-modern-western-p--feminist-political-theory-simone-de-beauvoir-judith-butler",
+      "name": "Feminist Political Theory (Simone de Beauvoir, Judith Butler)",
+      "diff": "M"
+     },
+     {
+      "id": "xh4-classical-and-modern-western-p--multiculturalism-charles-taylor",
+      "name": "Multiculturalism (Charles Taylor)",
+      "diff": "M"
+     },
+     {
+      "id": "xh4-classical-and-modern-western-p--capability-approach",
+      "name": "Capability Approach",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "K",
+    "name": "Logic",
+    "topics": [
+     {
+      "id": "xh4-classical-and-modern-western-p--truth-and-validity",
+      "name": "Truth and Validity",
+      "diff": "M"
+     },
+     {
+      "id": "xh4-classical-and-modern-western-p--nature-of-propositions",
+      "name": "Nature of Propositions",
+      "diff": "M"
+     },
+     {
+      "id": "xh4-classical-and-modern-western-p--categorical-syllogism",
+      "name": "Categorical Syllogism",
+      "diff": "M"
+     },
+     {
+      "id": "xh4-classical-and-modern-western-p--laws-of-thought",
+      "name": "Laws of Thought",
+      "diff": "E"
+     },
+     {
+      "id": "xh4-classical-and-modern-western-p--classification-of-propositions",
+      "name": "Classification of Propositions",
+      "diff": "E"
+     },
+     {
+      "id": "xh4-classical-and-modern-western-p--square-of-opposition",
+      "name": "Square of Opposition",
+      "diff": "M"
+     },
+     {
+      "id": "xh4-classical-and-modern-western-p--truth-functions-and-propositional-logic",
+      "name": "Truth-Functions and Propositional Logic",
+      "diff": "M"
+     },
+     {
+      "id": "xh4-classical-and-modern-western-p--quantification",
+      "name": "Quantification",
+      "diff": "E"
+     },
+     {
+      "id": "xh4-classical-and-modern-western-p--rules-of-quantification",
+      "name": "Rules of Quantification",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "L",
+    "name": "Symbolic Logic",
+    "topics": [
+     {
+      "id": "xh4-classical-and-modern-western-p--use-of-symbols",
+      "name": "Use of symbols",
+      "diff": "E"
+     },
+     {
+      "id": "xh4-classical-and-modern-western-p--truth-table-for-testing-the-validity-of-arguments",
+      "name": "Truth Table for testing the validity of arguments",
+      "diff": "M"
+     },
+     {
+      "id": "xh4-classical-and-modern-western-p--differences-between-deductive-and-inductive-logic",
+      "name": "Differences between Deductive and Inductive Logic",
+      "diff": "M"
+     },
+     {
+      "id": "xh4-classical-and-modern-western-p--causality-and-mills-method",
+      "name": "Causality and Mill’s Method",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "xh4-contemporary-western-philosoph",
+  "name": "Contemporary Western Philosophy",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Overview",
+    "topics": [
+     {
+      "id": "xh4-contemporary-western-philosoph--freges-sense-and-reference",
+      "name": "Frege’s Sense and Reference",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "xh4-contemporary-western-philosoph--logical-positivisms-verification-theory-of-meaning",
+      "name": "Logical Positivism’s Verification theory of meaning",
+      "diff": "M"
+     },
+     {
+      "id": "xh4-contemporary-western-philosoph--elimination-of-metaphysics",
+      "name": "Elimination of Metaphysics",
+      "diff": "M"
+     },
+     {
+      "id": "xh4-contemporary-western-philosoph--moores-distinction-between-sense-and-reference",
+      "name": "Moore’s Distinction between Sense and Reference",
+      "diff": "M"
+     },
+     {
+      "id": "xh4-contemporary-western-philosoph--defense-of-common-sense",
+      "name": "Defense of common-sense",
+      "diff": "M"
+     },
+     {
+      "id": "xh4-contemporary-western-philosoph--proof-of-an-external-world",
+      "name": "Proof of an External World",
+      "diff": "M"
+     },
+     {
+      "id": "xh4-contemporary-western-philosoph--russells-logical-atomism",
+      "name": "Russell’s Logical Atomism",
+      "diff": "M"
+     },
+     {
+      "id": "xh4-contemporary-western-philosoph--definite-descriptions",
+      "name": "Definite Descriptions",
+      "diff": "M"
+     },
+     {
+      "id": "xh4-contemporary-western-philosoph--refutation-of-idealism",
+      "name": "Refutation of Idealism",
+      "diff": "M"
+     },
+     {
+      "id": "xh4-contemporary-western-philosoph--wittgenstein-on-language-and-reality",
+      "name": "Wittgenstein on Language and Reality",
+      "diff": "M"
+     },
+     {
+      "id": "xh4-contemporary-western-philosoph--the-picture-theory",
+      "name": "The Picture Theory",
+      "diff": "M"
+     },
+     {
+      "id": "xh4-contemporary-western-philosoph--critique-of-private-language",
+      "name": "Critique of private language",
+      "diff": "M"
+     },
+     {
+      "id": "xh4-contemporary-western-philosoph--meaning-and-use",
+      "name": "Meaning and Use",
+      "diff": "E"
+     },
+     {
+      "id": "xh4-contemporary-western-philosoph--forms-of-life",
+      "name": "Forms of life",
+      "diff": "E"
+     },
+     {
+      "id": "xh4-contemporary-western-philosoph--gilbert-ryle-on-systematically-misleading-expressions",
+      "name": "Gilbert Ryle on Systematically Misleading Expressions",
+      "diff": "M"
+     },
+     {
+      "id": "xh4-contemporary-western-philosoph--critique-of-cartesian-dualism",
+      "name": "Critique of Cartesian dualism",
+      "diff": "M"
+     },
+     {
+      "id": "xh4-contemporary-western-philosoph--w-v-o-quines-two-dogmas-of-empiricism",
+      "name": "W.V .O. Quine’s Two Dogmas of Empiricism",
+      "diff": "M"
+     },
+     {
+      "id": "xh4-contemporary-western-philosoph--p-f-strawsons-concept-of-person",
+      "name": "P.F. Strawson’s concept of Person",
+      "diff": "M"
+     },
+     {
+      "id": "xh4-contemporary-western-philosoph--husserls-phenomenological-method",
+      "name": "Husserl’s Phenomenological Method",
+      "diff": "M"
+     },
+     {
+      "id": "xh4-contemporary-western-philosoph--philosophy-as-a-rigorous-science",
+      "name": "Philosophy as a rigorous science",
+      "diff": "M"
+     },
+     {
+      "id": "xh4-contemporary-western-philosoph--intentionality",
+      "name": "Intentionality",
+      "diff": "E"
+     },
+     {
+      "id": "xh4-contemporary-western-philosoph--phenomenological-reduction",
+      "name": "Phenomenological Reduction",
+      "diff": "M"
+     },
+     {
+      "id": "xh4-contemporary-western-philosoph--inter-subjectivity",
+      "name": "Inter-subjectivity",
+      "diff": "M"
+     },
+     {
+      "id": "xh4-contemporary-western-philosoph--heideggers-concept-of-being-dasein-being-in-the-world",
+      "name": "Heidegger’s concept of Being (Dasein), Being in the world",
+      "diff": "M"
+     },
+     {
+      "id": "xh4-contemporary-western-philosoph--sartres-types-of-being-concept-of-freedom-bad-faith",
+      "name": "Sartre’s Types of Being, Concept of Freedom, Bad-faith",
+      "diff": "E"
+     },
+     {
+      "id": "xh4-contemporary-western-philosoph--merleau-ponty-on-perception-embodied-consciousness",
+      "name": "Merleau-Ponty on Perception, Embodied Consciousness",
+      "diff": "M"
+     },
+     {
+      "id": "xh4-contemporary-western-philosoph--william-jamess-pragmatic-theories-of-meaning-and-truth",
+      "name": "William James’s Pragmatic Theories of Meaning and Truth",
+      "diff": "M"
+     },
+     {
+      "id": "xh4-contemporary-western-philosoph--varieties-of-religious-experience",
+      "name": "Varieties of Religious experience",
+      "diff": "M"
+     },
+     {
+      "id": "xh4-contemporary-western-philosoph--john-dewey-on-pragmatist-epistemology-with-focus-on-inquiry",
+      "name": "John Dewey on Pragmatist Epistemology with focus on Inquiry",
+      "diff": "M"
+     },
+     {
+      "id": "xh4-contemporary-western-philosoph--fallibilism-and-experience",
+      "name": "Fallibilism and Experience",
+      "diff": "M"
+     },
+     {
+      "id": "xh4-contemporary-western-philosoph--education",
+      "name": "Education",
+      "diff": "E"
+     },
+     {
+      "id": "xh4-contemporary-western-philosoph--nietzsche-on-the-critique-of-enlightenment",
+      "name": "Nietzsche on the Critique of Enlightenment",
+      "diff": "M"
+     },
+     {
+      "id": "xh4-contemporary-western-philosoph--will-to-power",
+      "name": "Will to Power",
+      "diff": "E"
+     },
+     {
+      "id": "xh4-contemporary-western-philosoph--genealogy-of-morals",
+      "name": "Genealogy of Morals",
+      "diff": "M"
+     },
+     {
+      "id": "xh4-contemporary-western-philosoph--idea-of-overman",
+      "name": "Idea of Overman",
+      "diff": "E"
+     },
+     {
+      "id": "xh4-contemporary-western-philosoph--richard-rortys-critique-of-representationalism",
+      "name": "Richard Rorty’s Critique of Representationalism",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Habermas",
+    "topics": [
+     {
+      "id": "xh4-contemporary-western-philosoph--communicative-rationality",
+      "name": "Communicative Rationality",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "xh5-research-methods-and-statistic",
+  "name": "Research Methods and Statistics",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Approaches to Research",
+    "topics": [
+     {
+      "id": "xh5-research-methods-and-statistic--philosophical-worldviews-and-criteria-involved-in-approach",
+      "name": "Philosophical worldviews & criteria involved in approach",
+      "diff": "M",
+      "sample": true
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Research design",
+    "topics": [
+     {
+      "id": "xh5-research-methods-and-statistic--quantitative-qualitative-and-mixed-methods",
+      "name": "Quantitative, Qualitative, and Mixed methods",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "C",
+    "name": "Designing Research",
+    "topics": [
+     {
+      "id": "xh5-research-methods-and-statistic--research-problems",
+      "name": "Research problems",
+      "diff": "E"
+     },
+     {
+      "id": "xh5-research-methods-and-statistic--purpose-statement",
+      "name": "Purpose statement",
+      "diff": "E"
+     },
+     {
+      "id": "xh5-research-methods-and-statistic--variables-and-operational-definitions",
+      "name": "Variables and Operational Definitions",
+      "diff": "M"
+     },
+     {
+      "id": "xh5-research-methods-and-statistic--hypothesis",
+      "name": "Hypothesis",
+      "diff": "E"
+     },
+     {
+      "id": "xh5-research-methods-and-statistic--sampling",
+      "name": "Sampling",
+      "diff": "E"
+     }
+    ]
+   },
+   {
+    "letter": "D",
+    "name": "Nature of Quantitative & Qualitative Research",
+    "topics": [
+     {
+      "id": "xh5-research-methods-and-statistic--interview",
+      "name": "Interview",
+      "diff": "E"
+     },
+     {
+      "id": "xh5-research-methods-and-statistic--self-completion-questionnaires-survey",
+      "name": "Self-completion questionnaires (Survey)",
+      "diff": "M"
+     },
+     {
+      "id": "xh5-research-methods-and-statistic--observation",
+      "name": "Observation",
+      "diff": "E"
+     },
+     {
+      "id": "xh5-research-methods-and-statistic--experiment",
+      "name": "Experiment",
+      "diff": "E"
+     },
+     {
+      "id": "xh5-research-methods-and-statistic--quasi-experiment",
+      "name": "Quasi-experiment",
+      "diff": "E"
+     },
+     {
+      "id": "xh5-research-methods-and-statistic--field-studies",
+      "name": "Field studies",
+      "diff": "E"
+     },
+     {
+      "id": "xh5-research-methods-and-statistic--focus-groups-discussions",
+      "name": "Focus groups discussions",
+      "diff": "M"
+     },
+     {
+      "id": "xh5-research-methods-and-statistic--narratives",
+      "name": "Narratives",
+      "diff": "E"
+     },
+     {
+      "id": "xh5-research-methods-and-statistic--case-studies",
+      "name": "Case studies",
+      "diff": "E"
+     },
+     {
+      "id": "xh5-research-methods-and-statistic--ethnography",
+      "name": "Ethnography",
+      "diff": "E"
+     },
+     {
+      "id": "xh5-research-methods-and-statistic--ethics-in-conducting-and-reporting-research",
+      "name": "Ethics in conducting and reporting research",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "E",
+    "name": "Statistics in Psychology",
+    "topics": [
+     {
+      "id": "xh5-research-methods-and-statistic--measures-of-central-tendency-and-dispersion",
+      "name": "Measures of Central Tendency and Dispersion",
+      "diff": "M"
+     },
+     {
+      "id": "xh5-research-methods-and-statistic--normal-probability-curve",
+      "name": "Normal Probability Curve",
+      "diff": "M"
+     },
+     {
+      "id": "xh5-research-methods-and-statistic--parametric-and-non-parametric-tests-effect-size-and-power-an",
+      "name": "Parametric and Non-parametric tests, Effect size and Power analysis",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "F",
+    "name": "Correlational Analysis",
+    "topics": [
+     {
+      "id": "xh5-research-methods-and-statistic--correlation-product-moment",
+      "name": "Correlation [Product Moment",
+      "diff": "M"
+     },
+     {
+      "id": "xh5-research-methods-and-statistic--rank-order",
+      "name": "Rank Order]",
+      "diff": "E"
+     },
+     {
+      "id": "xh5-research-methods-and-statistic--partial-correlation",
+      "name": "Partial correlation",
+      "diff": "M"
+     },
+     {
+      "id": "xh5-research-methods-and-statistic--multiple-correlation",
+      "name": "Multiple correlation",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "G",
+    "name": "Special Correlation Methods",
+    "topics": [
+     {
+      "id": "xh5-research-methods-and-statistic--biserial-point-biserial-tetrachoric-phi-coefficient",
+      "name": "Biserial, Point biserial, tetrachoric, phi coefficient",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "H",
+    "name": "Regression",
+    "topics": [
+     {
+      "id": "xh5-research-methods-and-statistic--simple-linear-regression-multiple-regression",
+      "name": "Simple linear regression, Multiple regression",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "I",
+    "name": "Factor analysis",
+    "topics": [
+     {
+      "id": "xh5-research-methods-and-statistic--assumptions-methods-rotation-and-interpretation",
+      "name": "Assumptions, Methods, Rotation and Interpretation",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "J",
+    "name": "Experimental Designs",
+    "topics": [
+     {
+      "id": "xh5-research-methods-and-statistic--factorial-design",
+      "name": "Factorial Design",
+      "diff": "E"
+     },
+     {
+      "id": "xh5-research-methods-and-statistic--randomized-block-designs",
+      "name": "Randomized Block Designs",
+      "diff": "M"
+     },
+     {
+      "id": "xh5-research-methods-and-statistic--repeated-measures-design",
+      "name": "Repeated Measures Design",
+      "diff": "M"
+     },
+     {
+      "id": "xh5-research-methods-and-statistic--single-subject-designs",
+      "name": "Single-subject designs",
+      "diff": "M"
+     },
+     {
+      "id": "xh5-research-methods-and-statistic--cohort-studies",
+      "name": "Cohort studies",
+      "diff": "E"
+     },
+     {
+      "id": "xh5-research-methods-and-statistic--statistics-for-experimental-design-anov-a",
+      "name": "Statistics for experimental design: ANOV A",
+      "diff": "M"
+     },
+     {
+      "id": "xh5-research-methods-and-statistic--manov-a",
+      "name": "MANOV A",
+      "diff": "E"
+     },
+     {
+      "id": "xh5-research-methods-and-statistic--ancov-a",
+      "name": "ANCOV A",
+      "diff": "E"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "xh5-psychometrics",
+  "name": "Psychometrics",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Overview",
+    "topics": [
+     {
+      "id": "xh5-psychometrics--foundations-of-psychological-measurement",
+      "name": "Foundations of Psychological measurement",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "xh5-psychometrics--basic-components-scales-and-items-construction-and-analysis-",
+      "name": "Basic components: Scales and items’ construction and analysis of items: Intelligence test items",
+      "diff": "E"
+     },
+     {
+      "id": "xh5-psychometrics--performance-tests",
+      "name": "Performance tests",
+      "diff": "E"
+     },
+     {
+      "id": "xh5-psychometrics--ability-and-aptitude-test",
+      "name": "Ability & Aptitude test",
+      "diff": "M"
+     },
+     {
+      "id": "xh5-psychometrics--personality-questionnaires",
+      "name": "Personality questionnaires",
+      "diff": "M"
+     },
+     {
+      "id": "xh5-psychometrics--method-of-test-construction",
+      "name": "Method of test construction",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Standardization of measures",
+    "topics": [
+     {
+      "id": "xh5-psychometrics--reliability-validity-norms",
+      "name": "Reliability, Validity, Norms",
+      "diff": "M"
+     },
+     {
+      "id": "xh5-psychometrics--application-of-assessment-and-measurements-in-tests",
+      "name": "Application of assessment and measurements in Tests",
+      "diff": "M"
+     },
+     {
+      "id": "xh5-psychometrics--applications-of-psychological-testing-in-various-settings-ed",
+      "name": "Applications of psychological testing in various settings -educations",
+      "diff": "M"
+     },
+     {
+      "id": "xh5-psychometrics--counselling-and-guidance",
+      "name": "Counselling and guidance",
+      "diff": "M"
+     },
+     {
+      "id": "xh5-psychometrics--clinical",
+      "name": "Clinical",
+      "diff": "E"
+     },
+     {
+      "id": "xh5-psychometrics--organizational-and-developmental",
+      "name": "Organizational and developmental",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "xh5-biological-and-evolutionary-ba",
+  "name": "Biological and Evolutionary Basis of Behaviour",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Overview",
+    "topics": [
+     {
+      "id": "xh5-biological-and-evolutionary-ba--heredity-and-behaviour",
+      "name": "Heredity and behaviour",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "xh5-biological-and-evolutionary-ba--evolution-and-natural-selection",
+      "name": "Evolution and natural selection",
+      "diff": "M"
+     },
+     {
+      "id": "xh5-biological-and-evolutionary-ba--nervous-system",
+      "name": "Nervous system",
+      "diff": "E"
+     },
+     {
+      "id": "xh5-biological-and-evolutionary-ba--structures-of-the-brain-and-their-functions",
+      "name": "Structures of the brain and their functions",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Neurons",
+    "topics": [
+     {
+      "id": "xh5-biological-and-evolutionary-ba--structure-functions-types-neural-impulse-synaptic-transmissi",
+      "name": "Structure, functions, types, neural impulse, synaptic transmission",
+      "diff": "M"
+     },
+     {
+      "id": "xh5-biological-and-evolutionary-ba--neurotransmitters",
+      "name": "Neurotransmitters",
+      "diff": "E"
+     },
+     {
+      "id": "xh5-biological-and-evolutionary-ba--hemispheric-lateralization-the-endocrine-system-types-and-fu",
+      "name": "Hemispheric lateralization, The endocrine system types and functions",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "C",
+    "name": "Biological basis of Motivation",
+    "topics": [
+     {
+      "id": "xh5-biological-and-evolutionary-ba--hunger-thirst-sleep-and-sex",
+      "name": "Hunger, Thirst, Sleep and Sex",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "D",
+    "name": "Biological basis of emotion",
+    "topics": [
+     {
+      "id": "xh5-biological-and-evolutionary-ba--the-limbic-system",
+      "name": "The Limbic system",
+      "diff": "E"
+     },
+     {
+      "id": "xh5-biological-and-evolutionary-ba--biological-basis-of-memory",
+      "name": "Biological basis of Memory",
+      "diff": "M"
+     },
+     {
+      "id": "xh5-biological-and-evolutionary-ba--hormonal-regulation-of-behaviour",
+      "name": "Hormonal regulation of behaviour",
+      "diff": "M"
+     },
+     {
+      "id": "xh5-biological-and-evolutionary-ba--methods-of-physiological",
+      "name": "Methods of Physiological",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "E",
+    "name": "Psychology",
+    "topics": [
+     {
+      "id": "xh5-biological-and-evolutionary-ba--invasive-methods-anatomical-methods",
+      "name": "Invasive methods - Anatomical methods",
+      "diff": "M"
+     },
+     {
+      "id": "xh5-biological-and-evolutionary-ba--degeneration-techniques",
+      "name": "Degeneration techniques",
+      "diff": "M"
+     },
+     {
+      "id": "xh5-biological-and-evolutionary-ba--lesion-techniques",
+      "name": "Lesion techniques",
+      "diff": "E"
+     },
+     {
+      "id": "xh5-biological-and-evolutionary-ba--chemical-methods",
+      "name": "Chemical methods",
+      "diff": "E"
+     },
+     {
+      "id": "xh5-biological-and-evolutionary-ba--microelectrode-studies",
+      "name": "Microelectrode studies",
+      "diff": "M"
+     },
+     {
+      "id": "xh5-biological-and-evolutionary-ba--non-invasive-methods-eeg",
+      "name": "Non -invasive methods - EEG",
+      "diff": "M"
+     },
+     {
+      "id": "xh5-biological-and-evolutionary-ba--scanning-methods",
+      "name": "Scanning methods",
+      "diff": "E"
+     },
+     {
+      "id": "xh5-biological-and-evolutionary-ba--muscular-and-glandular-system-genetics-and-behaviour-chromos",
+      "name": "Muscular and Glandular system: Genetics and behaviour: Chromosomal anomalies",
+      "diff": "M"
+     },
+     {
+      "id": "xh5-biological-and-evolutionary-ba--nature-nurture-controversy-twin-studies-and-adoption-studies",
+      "name": "Nature-Nurture controversy [Twin studies and adoption studies]",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "xh5-perception-learning-memory-and",
+  "name": "Perception, Learning, Memory and Forgetting",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Overview",
+    "topics": [
+     {
+      "id": "xh5-perception-learning-memory-and--sensation",
+      "name": "Sensation",
+      "diff": "E",
+      "sample": true
+     },
+     {
+      "id": "xh5-perception-learning-memory-and--sensory-thresholds-and-sensory-adaptations",
+      "name": "Sensory thresholds and sensory adaptations",
+      "diff": "M"
+     },
+     {
+      "id": "xh5-perception-learning-memory-and--vision",
+      "name": "Vision",
+      "diff": "E"
+     },
+     {
+      "id": "xh5-perception-learning-memory-and--hearing",
+      "name": "Hearing",
+      "diff": "E"
+     },
+     {
+      "id": "xh5-perception-learning-memory-and--touch-and-pain",
+      "name": "Touch and pain",
+      "diff": "E"
+     },
+     {
+      "id": "xh5-perception-learning-memory-and--smell-and-taste",
+      "name": "Smell and taste",
+      "diff": "E"
+     },
+     {
+      "id": "xh5-perception-learning-memory-and--kinesthesis-and-vestibular-sense",
+      "name": "Kinesthesis and vestibular sense",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Perception",
+    "topics": [
+     {
+      "id": "xh5-perception-learning-memory-and--role-of-attention",
+      "name": "Role of attention",
+      "diff": "E"
+     },
+     {
+      "id": "xh5-perception-learning-memory-and--organizing-principles-of-perception",
+      "name": "Organizing principles of perception",
+      "diff": "M"
+     },
+     {
+      "id": "xh5-perception-learning-memory-and--gestalt-perception",
+      "name": "Gestalt perception",
+      "diff": "M"
+     },
+     {
+      "id": "xh5-perception-learning-memory-and--depth-perception-and-illusions",
+      "name": "Depth perception and illusions",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "C",
+    "name": "Theories of learning",
+    "topics": [
+     {
+      "id": "xh5-perception-learning-memory-and--classical-conditioning",
+      "name": "Classical conditioning",
+      "diff": "M"
+     },
+     {
+      "id": "xh5-perception-learning-memory-and--operant-conditioning",
+      "name": "Operant conditioning",
+      "diff": "M"
+     },
+     {
+      "id": "xh5-perception-learning-memory-and--social-learning-theory",
+      "name": "Social learning theory",
+      "diff": "M"
+     },
+     {
+      "id": "xh5-perception-learning-memory-and--cognitive-learning",
+      "name": "Cognitive learning",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "D",
+    "name": "Memory",
+    "topics": [
+     {
+      "id": "xh5-perception-learning-memory-and--encoding",
+      "name": "Encoding",
+      "diff": "E"
+     },
+     {
+      "id": "xh5-perception-learning-memory-and--storage",
+      "name": "Storage",
+      "diff": "E"
+     },
+     {
+      "id": "xh5-perception-learning-memory-and--retrieval",
+      "name": "Retrieval",
+      "diff": "E"
+     },
+     {
+      "id": "xh5-perception-learning-memory-and--information-processing-theories-of-memory",
+      "name": "Information processing theories of memory",
+      "diff": "M"
+     },
+     {
+      "id": "xh5-perception-learning-memory-and--retrieval-in-long-term-memory",
+      "name": "Retrieval in long term memory",
+      "diff": "M"
+     },
+     {
+      "id": "xh5-perception-learning-memory-and--reconstructive-nature-of-long-term-memory",
+      "name": "Reconstructive nature of long-term memory",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "E",
+    "name": "Forgetting",
+    "topics": [
+     {
+      "id": "xh5-perception-learning-memory-and--encoding-failure-interference-theory-memory-trace-decay-theo",
+      "name": "Encoding failure, interference theory, memory trace decay theory",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "xh5-cognition",
+  "name": "Cognition",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Thinking, Intelligence and Language",
+    "topics": [
+     {
+      "id": "xh5-cognition--basic-elements-of-thought-concepts-propositions-imagery",
+      "name": "Basic elements of thought: Concepts, Propositions, Imagery",
+      "diff": "E",
+      "sample": true
+     },
+     {
+      "id": "xh5-cognition--current-paradigms-of-cognitive-psychology-information-proces",
+      "name": "Current paradigms of cognitive psychology: Information processing approach",
+      "diff": "M"
+     },
+     {
+      "id": "xh5-cognition--ecological-approach",
+      "name": "Ecological approach",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Problem solving",
+    "topics": [
+     {
+      "id": "xh5-cognition--methods-of-problem-solving",
+      "name": "Methods of problem solving",
+      "diff": "M"
+     },
+     {
+      "id": "xh5-cognition--strategies-and-ob-stacles",
+      "name": "Strategies and ob stacles",
+      "diff": "M"
+     },
+     {
+      "id": "xh5-cognition--role-of-metacognitive-processing",
+      "name": "Role of Metacognitive processing",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "C",
+    "name": "Choosing among alternatives, Intelligence",
+    "topics": [
+     {
+      "id": "xh5-cognition--theories-of-intelligence-spearman",
+      "name": "Theories of intelligence (Spearman",
+      "diff": "M"
+     },
+     {
+      "id": "xh5-cognition--thurstone",
+      "name": "Thurstone",
+      "diff": "E"
+     },
+     {
+      "id": "xh5-cognition--jensen",
+      "name": "Jensen",
+      "diff": "E"
+     },
+     {
+      "id": "xh5-cognition--cattell",
+      "name": "Cattell",
+      "diff": "E"
+     },
+     {
+      "id": "xh5-cognition--gardner",
+      "name": "Gardner",
+      "diff": "E"
+     },
+     {
+      "id": "xh5-cognition--stenberg-and-emotional-intelligence",
+      "name": "Stenberg) and Emotional Intelligence",
+      "diff": "M"
+     },
+     {
+      "id": "xh5-cognition--measuring-intelligence-individual-differe-nces-in-intelligen",
+      "name": "Measuring intelligence, Individual differe nces in Intelligence",
+      "diff": "M"
+     },
+     {
+      "id": "xh5-cognition--role-of-heredity-and-environment",
+      "name": "Role of heredity and environment",
+      "diff": "M"
+     },
+     {
+      "id": "xh5-cognition--difference-between-intelligence",
+      "name": "Difference between Intelligence",
+      "diff": "M"
+     },
+     {
+      "id": "xh5-cognition--aptitude-and-creativity",
+      "name": "Aptitude and Creativity",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "xh5-personality",
+  "name": "Personality",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Theories of personality",
+    "topics": [
+     {
+      "id": "xh5-personality--psychoanalytic",
+      "name": "Psychoanalytic",
+      "diff": "E",
+      "sample": true
+     },
+     {
+      "id": "xh5-personality--behaviourist",
+      "name": "Behaviourist",
+      "diff": "E"
+     },
+     {
+      "id": "xh5-personality--social",
+      "name": "Social",
+      "diff": "E"
+     },
+     {
+      "id": "xh5-personality--cognitive",
+      "name": "Cognitive",
+      "diff": "E"
+     },
+     {
+      "id": "xh5-personality--humanism",
+      "name": "Humanism",
+      "diff": "E"
+     },
+     {
+      "id": "xh5-personality--trait-and-type-theories",
+      "name": "Trait and Type theories",
+      "diff": "M"
+     },
+     {
+      "id": "xh5-personality--biology-of-personality",
+      "name": "Biology of personality",
+      "diff": "M"
+     },
+     {
+      "id": "xh5-personality--assessment-of-personality",
+      "name": "Assessment of personality",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "xh5-motivation-emotion-and-stress-",
+  "name": "Motivation, Emotion and Stress and Coping",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Approaches to understanding motivation",
+    "topics": [
+     {
+      "id": "xh5-motivation-emotion-and-stress---instinct",
+      "name": "Instinct",
+      "diff": "E",
+      "sample": true
+     },
+     {
+      "id": "xh5-motivation-emotion-and-stress---drive-reduction",
+      "name": "Drive-reduction",
+      "diff": "E"
+     },
+     {
+      "id": "xh5-motivation-emotion-and-stress---arousal",
+      "name": "Arousal",
+      "diff": "E"
+     },
+     {
+      "id": "xh5-motivation-emotion-and-stress---incentive",
+      "name": "Incentive",
+      "diff": "E"
+     },
+     {
+      "id": "xh5-motivation-emotion-and-stress---humanistic",
+      "name": "Humanistic",
+      "diff": "E"
+     },
+     {
+      "id": "xh5-motivation-emotion-and-stress---achievement-motivation",
+      "name": "Achievement motivation",
+      "diff": "M"
+     },
+     {
+      "id": "xh5-motivation-emotion-and-stress---intrinsic-motivation",
+      "name": "Intrinsic motivation",
+      "diff": "M"
+     },
+     {
+      "id": "xh5-motivation-emotion-and-stress---aggression",
+      "name": "Aggression",
+      "diff": "E"
+     },
+     {
+      "id": "xh5-motivation-emotion-and-stress---curiosity-and-exploration",
+      "name": "Curiosity and Exploration",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Emotions",
+    "topics": [
+     {
+      "id": "xh5-motivation-emotion-and-stress---nature-of-emotions",
+      "name": "Nature of emotions",
+      "diff": "M"
+     },
+     {
+      "id": "xh5-motivation-emotion-and-stress---theories-of-emotions",
+      "name": "Theories of emotions",
+      "diff": "M"
+     },
+     {
+      "id": "xh5-motivation-emotion-and-stress---definition-of-stress-what-are-stressors-cognitive-factors-in",
+      "name": "Definition of stress, what are stressors, cognitive factors in stress",
+      "diff": "E"
+     }
+    ]
+   },
+   {
+    "letter": "C",
+    "name": "Factors in stress reaction",
+    "topics": [
+     {
+      "id": "xh5-motivation-emotion-and-stress---general-adaptation-syndrome-effect-of-stress",
+      "name": "General adaptation syndrome, Effect of stress",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "D",
+    "name": "Coping with stress",
+    "topics": [
+     {
+      "id": "xh5-motivation-emotion-and-stress---problem-focused-coping-and-emotion-focused-coping",
+      "name": "Problem-focused coping and Emotion-focused coping",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "xh5-social-psychology",
+  "name": "Social Psychology",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Social perception",
+    "topics": [
+     {
+      "id": "xh5-social-psychology--attribution",
+      "name": "Attribution",
+      "diff": "E",
+      "sample": true
+     },
+     {
+      "id": "xh5-social-psychology--impression-formation",
+      "name": "Impression formation",
+      "diff": "M"
+     },
+     {
+      "id": "xh5-social-psychology--social-categorization",
+      "name": "Social categorization",
+      "diff": "M"
+     },
+     {
+      "id": "xh5-social-psychology--implicit-personality-theory",
+      "name": "Implicit personality theory",
+      "diff": "M"
+     },
+     {
+      "id": "xh5-social-psychology--social-influence-conformity",
+      "name": "Social influence: Conformity",
+      "diff": "M"
+     },
+     {
+      "id": "xh5-social-psychology--compliance-and-obedience",
+      "name": "Compliance and obedience",
+      "diff": "M"
+     },
+     {
+      "id": "xh5-social-psychology--attitudes",
+      "name": "Attitudes",
+      "diff": "E"
+     },
+     {
+      "id": "xh5-social-psychology--beliefs-and-values",
+      "name": "Beliefs and Values",
+      "diff": "M"
+     },
+     {
+      "id": "xh5-social-psychology--evaluating-the-social-world",
+      "name": "Evaluating the social world",
+      "diff": "M"
+     },
+     {
+      "id": "xh5-social-psychology--attitude-formation",
+      "name": "Attitude formation",
+      "diff": "M"
+     },
+     {
+      "id": "xh5-social-psychology--attitude-change-and-persuasion",
+      "name": "Attitude change and persuasion",
+      "diff": "M"
+     },
+     {
+      "id": "xh5-social-psychology--cognitive-dissonance",
+      "name": "Cognitive dissonance",
+      "diff": "M"
+     },
+     {
+      "id": "xh5-social-psychology--prejudice",
+      "name": "Prejudice",
+      "diff": "E"
+     },
+     {
+      "id": "xh5-social-psychology--discrimination",
+      "name": "Discrimination",
+      "diff": "E"
+     },
+     {
+      "id": "xh5-social-psychology--aggression",
+      "name": "Aggression",
+      "diff": "E"
+     },
+     {
+      "id": "xh5-social-psychology--power-and-prosocial-behaviour",
+      "name": "Power and prosocial behaviour",
+      "diff": "M"
+     },
+     {
+      "id": "xh5-social-psychology--belief-systems-and-value-patterns",
+      "name": "Belief systems and value patterns",
+      "diff": "M"
+     },
+     {
+      "id": "xh5-social-psychology--group-dynamics-theories-of-intergroup-relations-and-conflict",
+      "name": "Group dynamics, Theories of intergroup relations and conflicts",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "xh5-development-across-the-life-sp",
+  "name": "Development Across the Life Span",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Development Across the Life Span",
+    "topics": [
+     {
+      "id": "xh5-development-across-the-life-sp--nature-versus-nurture-in-human-development",
+      "name": "Nature versus nurture in human development",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "xh5-development-across-the-life-sp--prenatal-development-chromosomes",
+      "name": "Prenatal development: Chromosomes",
+      "diff": "M"
+     },
+     {
+      "id": "xh5-development-across-the-life-sp--genes-and-dna-physical",
+      "name": "Genes and DNA. Physical",
+      "diff": "M"
+     },
+     {
+      "id": "xh5-development-across-the-life-sp--cognitive-and-psychosocial-development-in-infancy",
+      "name": "Cognitive and psychosocial development in infancy",
+      "diff": "M"
+     },
+     {
+      "id": "xh5-development-across-the-life-sp--childhood",
+      "name": "Childhood",
+      "diff": "E"
+     },
+     {
+      "id": "xh5-development-across-the-life-sp--adolescence-and-adulthood",
+      "name": "Adolescence and adulthood",
+      "diff": "M"
+     },
+     {
+      "id": "xh5-development-across-the-life-sp--moral-development",
+      "name": "Moral development",
+      "diff": "E"
+     },
+     {
+      "id": "xh5-development-across-the-life-sp--theories-of-aging",
+      "name": "Theories of aging",
+      "diff": "E"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "xh5-clinical-psychology-and-organi",
+  "name": "Clinical Psychology and Organizational Behavior",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Overview",
+    "topics": [
+     {
+      "id": "xh5-clinical-psychology-and-organi--psychological-disorders",
+      "name": "Psychological disorders",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "xh5-clinical-psychology-and-organi--conceptions-of-mental-disorders",
+      "name": "Conceptions of mental disorders",
+      "diff": "M"
+     },
+     {
+      "id": "xh5-clinical-psychology-and-organi--assessment-and-diagnosis",
+      "name": "Assessment and diagnosis",
+      "diff": "M"
+     },
+     {
+      "id": "xh5-clinical-psychology-and-organi--dsm-and-other-tools",
+      "name": "DSM and Other tools",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Psychotherapies",
+    "topics": [
+     {
+      "id": "xh5-clinical-psychology-and-organi--psychodynamic",
+      "name": "Psychodynamic",
+      "diff": "E"
+     },
+     {
+      "id": "xh5-clinical-psychology-and-organi--phenomenological-experiential-therapy",
+      "name": "Phenomenological/Experiential therapy",
+      "diff": "M"
+     },
+     {
+      "id": "xh5-clinical-psychology-and-organi--behaviour-therapy",
+      "name": "Behaviour therapy",
+      "diff": "E"
+     },
+     {
+      "id": "xh5-clinical-psychology-and-organi--cognitive-therapy",
+      "name": "Cognitive therapy",
+      "diff": "E"
+     },
+     {
+      "id": "xh5-clinical-psychology-and-organi--rational-emotive-behavior-therapy-rebt",
+      "name": "Rational emotive behavior therapy (REBT)",
+      "diff": "M"
+     },
+     {
+      "id": "xh5-clinical-psychology-and-organi--meditation",
+      "name": "Meditation",
+      "diff": "E"
+     },
+     {
+      "id": "xh5-clinical-psychology-and-organi--biological-therapy",
+      "name": "Biological therapy",
+      "diff": "M"
+     },
+     {
+      "id": "xh5-clinical-psychology-and-organi--organizational-behavior",
+      "name": "Organizational Behavior",
+      "diff": "M"
+     },
+     {
+      "id": "xh5-clinical-psychology-and-organi--organizational-demographic-and-cultural-diversity",
+      "name": "Organizational demographic and cultural diversity",
+      "diff": "M"
+     },
+     {
+      "id": "xh5-clinical-psychology-and-organi--organizational-culture",
+      "name": "Organizational Culture",
+      "diff": "M"
+     },
+     {
+      "id": "xh5-clinical-psychology-and-organi--making-decisions-in-organization",
+      "name": "Making decisions in organization",
+      "diff": "M"
+     },
+     {
+      "id": "xh5-clinical-psychology-and-organi--power-and-politics",
+      "name": "Power and Politics",
+      "diff": "M"
+     },
+     {
+      "id": "xh5-clinical-psychology-and-organi--leadership-theories",
+      "name": "Leadership theories",
+      "diff": "M"
+     },
+     {
+      "id": "xh5-clinical-psychology-and-organi--leadership-styles-and-effectiveness",
+      "name": "Leadership styles and effectiveness",
+      "diff": "M"
+     },
+     {
+      "id": "xh5-clinical-psychology-and-organi--positive-organizational-behavior",
+      "name": "Positive organizational behavior",
+      "diff": "M"
+     },
+     {
+      "id": "xh5-clinical-psychology-and-organi--performance-management-by-reward-and-punishment",
+      "name": "Performance management by reward and punishment",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "xh5-applications-of-psychology",
+  "name": "Applications of Psychology",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Applications of Psychology",
+    "topics": [
+     {
+      "id": "xh5-applications-of-psychology--applications-of-theories-of-motivation-and-learning-in-schoo",
+      "name": "Applications of theories of Motivation and Learning in School",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "xh5-applications-of-psychology--factors-in-educational-achievement",
+      "name": "Factors in educational achievement",
+      "diff": "M"
+     },
+     {
+      "id": "xh5-applications-of-psychology--counselling-and-guidance-in-schools",
+      "name": "Counselling and Guidance in Schools",
+      "diff": "M"
+     },
+     {
+      "id": "xh5-applications-of-psychology--application-of-theories-of-motivation",
+      "name": "Application of theories of motivation",
+      "diff": "M"
+     },
+     {
+      "id": "xh5-applications-of-psychology--learning",
+      "name": "Learning",
+      "diff": "E"
+     },
+     {
+      "id": "xh5-applications-of-psychology--emotions",
+      "name": "Emotions",
+      "diff": "E"
+     },
+     {
+      "id": "xh5-applications-of-psychology--perceptions-in-group-dynamics-and-organizational-setup",
+      "name": "Perceptions in Group dynamics and Organizational setup",
+      "diff": "M"
+     },
+     {
+      "id": "xh5-applications-of-psychology--issues-of-personal-space-crowding-and-territoriality",
+      "name": "Issues of Personal space, Crowding, and Territoriality",
+      "diff": "M"
+     },
+     {
+      "id": "xh5-applications-of-psychology--intervention-for-mental-health-and-wellbeing",
+      "name": "Intervention for Mental health and Wellbeing",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "xh6-sociological-theory",
+  "name": "Sociological Theory",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Classical Sociological Traditions",
+    "topics": [
+     {
+      "id": "xh6-sociological-theory--emile-durkheim-social-solidarity",
+      "name": "Emile Durkheim (Social Solidarity",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "xh6-sociological-theory--social-facts",
+      "name": "Social Facts",
+      "diff": "E"
+     },
+     {
+      "id": "xh6-sociological-theory--religion",
+      "name": "Religion",
+      "diff": "E"
+     },
+     {
+      "id": "xh6-sociological-theory--functionalism",
+      "name": "Functionalism",
+      "diff": "E"
+     },
+     {
+      "id": "xh6-sociological-theory--suicide",
+      "name": "Suicide",
+      "diff": "E"
+     },
+     {
+      "id": "xh6-sociological-theory--anomie",
+      "name": "Anomie",
+      "diff": "E"
+     },
+     {
+      "id": "xh6-sociological-theory--division-of-labour",
+      "name": "Division of Labour",
+      "diff": "M"
+     },
+     {
+      "id": "xh6-sociological-theory--law",
+      "name": "Law",
+      "diff": "E"
+     },
+     {
+      "id": "xh6-sociological-theory--max-weber-types-of-authority-social-action-protestant-ethic-",
+      "name": "Max Weber (Types of authority, Social action, Protestant ethic and the spirit of capitalism, Bureaucracy, Ideal type, Methodology)",
+      "diff": "E"
+     },
+     {
+      "id": "xh6-sociological-theory--karl-marx-class-and-class-conflict-dialectical-and-historica",
+      "name": "Karl Marx: Class and class conflict, dialectical and historical materialism, capitalism, surplus value, alienation)",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Structural-Functionalism and Structuralism",
+    "topics": [
+     {
+      "id": "xh6-sociological-theory--bronislaw-malinowski",
+      "name": "Bronislaw Malinowski",
+      "diff": "M"
+     },
+     {
+      "id": "xh6-sociological-theory--a-r-radcliffe-brown",
+      "name": "A.R. Radcliffe - Brown",
+      "diff": "M"
+     },
+     {
+      "id": "xh6-sociological-theory--talcott-parsons-agil-systems-approach",
+      "name": "Talcott Parsons (AGIL, Systems approach)",
+      "diff": "M"
+     },
+     {
+      "id": "xh6-sociological-theory--robert-k-merton-middle-range-theory-reference-groups-latent-",
+      "name": "Robert K. Merton (Middle range theory, reference groups, latent and manifest function)",
+      "diff": "M"
+     },
+     {
+      "id": "xh6-sociological-theory--claude-levi-strauss-myths-structuralism",
+      "name": "Claude Levi Strauss (Myths, Structuralism)",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "C",
+    "name": "Hermeneutic and Interpretative Traditions",
+    "topics": [
+     {
+      "id": "xh6-sociological-theory--g-h-mead-alfred-schutz-phenomenology",
+      "name": "G.H. Mead, Alfred Schutz (Phenomenology)",
+      "diff": "M"
+     },
+     {
+      "id": "xh6-sociological-theory--harold-garfinkel-ethnomethodology",
+      "name": "Harold Garfinkel (Ethnomethodology)",
+      "diff": "M"
+     },
+     {
+      "id": "xh6-sociological-theory--erving-goffman-symbolic-interaction-dramaturgy",
+      "name": "Erving Goffman (Symbolic interaction, dramaturgy)",
+      "diff": "M"
+     },
+     {
+      "id": "xh6-sociological-theory--clifford-geertz-culture-thick-description",
+      "name": "Clifford Geertz (Culture, thick description)",
+      "diff": "M"
+     },
+     {
+      "id": "xh6-sociological-theory--recent-theoretical-developments",
+      "name": "Recent theoretical developments",
+      "diff": "M"
+     },
+     {
+      "id": "xh6-sociological-theory--post-modernism-and-post-structuralism-pierre-bourdieu",
+      "name": "Post-Modernism and Post -Structuralism: Pierre Bourdieu",
+      "diff": "M"
+     },
+     {
+      "id": "xh6-sociological-theory--michel-foucault",
+      "name": "Michel Foucault",
+      "diff": "E"
+     },
+     {
+      "id": "xh6-sociological-theory--jurgen-habermas",
+      "name": "Jurgen Habermas",
+      "diff": "E"
+     },
+     {
+      "id": "xh6-sociological-theory--anthony-giddens",
+      "name": "Anthony Giddens",
+      "diff": "E"
+     },
+     {
+      "id": "xh6-sociological-theory--frankfurt-school",
+      "name": "Frankfurt School",
+      "diff": "E"
+     }
+    ]
+   },
+   {
+    "letter": "D",
+    "name": "Conflict Theory",
+    "topics": [
+     {
+      "id": "xh6-sociological-theory--ralf-dahrendorf-lewis-coser-louis-althusser",
+      "name": "Ralf Dahrendorf, Lewis Coser, Louis Althusser",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "E",
+    "name": "Indian Thinkers",
+    "topics": [
+     {
+      "id": "xh6-sociological-theory--m-k-gandhi",
+      "name": "M.K. Gandhi",
+      "diff": "E"
+     },
+     {
+      "id": "xh6-sociological-theory--b-r-ambedkar",
+      "name": "B.R. Ambedkar",
+      "diff": "E"
+     },
+     {
+      "id": "xh6-sociological-theory--radha-kamal-mukherjee",
+      "name": "Radha Kamal Mukherjee",
+      "diff": "M"
+     },
+     {
+      "id": "xh6-sociological-theory--g-s-ghurye",
+      "name": "G. S. Ghurye",
+      "diff": "E"
+     },
+     {
+      "id": "xh6-sociological-theory--m-n-srinivas",
+      "name": "M.N. Srinivas",
+      "diff": "E"
+     },
+     {
+      "id": "xh6-sociological-theory--irawati-karve",
+      "name": "Irawati Karve",
+      "diff": "E"
+     },
+     {
+      "id": "xh6-sociological-theory--a-r-desai",
+      "name": "A. R. Desai",
+      "diff": "E"
+     },
+     {
+      "id": "xh6-sociological-theory--andre-beteille",
+      "name": "Andre Beteille",
+      "diff": "E"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "xh6-research-methodology-and-metho",
+  "name": "Research Methodology and Methods",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Conceptualizing Social Reality",
+    "topics": [
+     {
+      "id": "xh6-research-methodology-and-metho--philosophy-of-science-karl-popper-and-thomas-kuhn",
+      "name": "Philosophy of Science (Karl Popper & Thomas Kuhn)",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "xh6-research-methodology-and-metho--scientific-method-and-epistemology-in-social-science",
+      "name": "Scientific Method and Epistemology in Social Science",
+      "diff": "M"
+     },
+     {
+      "id": "xh6-research-methodology-and-metho--hermeneutic-traditions",
+      "name": "Hermeneutic Traditions",
+      "diff": "M"
+     },
+     {
+      "id": "xh6-research-methodology-and-metho--etic-and-emic-approaches",
+      "name": "Etic and Emic approaches",
+      "diff": "M"
+     },
+     {
+      "id": "xh6-research-methodology-and-metho--inductive-and-deductive-methods",
+      "name": "Inductive and Deductive methods",
+      "diff": "M"
+     },
+     {
+      "id": "xh6-research-methodology-and-metho--objectivity-and-reflexivity-in-social-science",
+      "name": "Objectivity and Reflexivity in Social Science",
+      "diff": "M"
+     },
+     {
+      "id": "xh6-research-methodology-and-metho--ethics-and-politics-of-research",
+      "name": "Ethics and Politics of research",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Research Design",
+    "topics": [
+     {
+      "id": "xh6-research-methodology-and-metho--reading-social-science-research-data-and-documents",
+      "name": "Reading Social Science Research, Data and Documents",
+      "diff": "M"
+     },
+     {
+      "id": "xh6-research-methodology-and-metho--fact-concept-and-theory",
+      "name": "Fact, Concept and Theory",
+      "diff": "M"
+     },
+     {
+      "id": "xh6-research-methodology-and-metho--hypotheses-research-questions-objectives",
+      "name": "Hypotheses, Research Questions, Objectives",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "C",
+    "name": "Quantitative and Qualitative Methods",
+    "topics": [
+     {
+      "id": "xh6-research-methodology-and-metho--ethnography",
+      "name": "Ethnography",
+      "diff": "E"
+     },
+     {
+      "id": "xh6-research-methodology-and-metho--survey-method",
+      "name": "Survey Method",
+      "diff": "E"
+     },
+     {
+      "id": "xh6-research-methodology-and-metho--historical-method",
+      "name": "Historical Method",
+      "diff": "E"
+     },
+     {
+      "id": "xh6-research-methodology-and-metho--comparative-method",
+      "name": "Comparative Method",
+      "diff": "M"
+     },
+     {
+      "id": "xh6-research-methodology-and-metho--statistical-methods",
+      "name": "Statistical Methods",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "D",
+    "name": "Research Techniques",
+    "topics": [
+     {
+      "id": "xh6-research-methodology-and-metho--sampling",
+      "name": "Sampling",
+      "diff": "E"
+     },
+     {
+      "id": "xh6-research-methodology-and-metho--questionnaire-and-schedule",
+      "name": "Questionnaire and Schedule",
+      "diff": "M"
+     },
+     {
+      "id": "xh6-research-methodology-and-metho--statistical-analysis",
+      "name": "Statistical Analysis",
+      "diff": "M"
+     },
+     {
+      "id": "xh6-research-methodology-and-metho--observation-interview-and-case-study",
+      "name": "Observation, Interview and Case study",
+      "diff": "M"
+     },
+     {
+      "id": "xh6-research-methodology-and-metho--interpretation-data-analysis-and-report-writing",
+      "name": "Interpretation, Data Analysis and Report Writing",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "xh6-sociological-concepts",
+  "name": "Sociological Concepts",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Sociological Concepts",
+    "topics": [
+     {
+      "id": "xh6-sociological-concepts--social-structure",
+      "name": "Social Structure",
+      "diff": "E",
+      "sample": true
+     },
+     {
+      "id": "xh6-sociological-concepts--culture",
+      "name": "Culture",
+      "diff": "E"
+     },
+     {
+      "id": "xh6-sociological-concepts--network",
+      "name": "Network",
+      "diff": "E"
+     },
+     {
+      "id": "xh6-sociological-concepts--status-and-role",
+      "name": "Status and Role",
+      "diff": "E"
+     },
+     {
+      "id": "xh6-sociological-concepts--identity",
+      "name": "Identity",
+      "diff": "E"
+     },
+     {
+      "id": "xh6-sociological-concepts--community",
+      "name": "Community",
+      "diff": "E"
+     },
+     {
+      "id": "xh6-sociological-concepts--socialization",
+      "name": "Socialization",
+      "diff": "E"
+     },
+     {
+      "id": "xh6-sociological-concepts--diaspora",
+      "name": "Diaspora",
+      "diff": "E"
+     },
+     {
+      "id": "xh6-sociological-concepts--values-norms-and-rules",
+      "name": "Values, Norms and Rules",
+      "diff": "M"
+     },
+     {
+      "id": "xh6-sociological-concepts--personhood-habitus-and-agency",
+      "name": "Personhood, Habitus and Agency",
+      "diff": "M"
+     },
+     {
+      "id": "xh6-sociological-concepts--bureaucracy-power-and-authority",
+      "name": "Bureaucracy, Power and Authority",
+      "diff": "M"
+     },
+     {
+      "id": "xh6-sociological-concepts--self-and-society",
+      "name": "Self and society",
+      "diff": "E"
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Social Institutions",
+    "topics": [
+     {
+      "id": "xh6-sociological-concepts--marriage-family-and-kinship",
+      "name": "Marriage, Family and Kinship",
+      "diff": "M"
+     },
+     {
+      "id": "xh6-sociological-concepts--economy",
+      "name": "Economy",
+      "diff": "E"
+     },
+     {
+      "id": "xh6-sociological-concepts--polity",
+      "name": "Polity",
+      "diff": "E"
+     },
+     {
+      "id": "xh6-sociological-concepts--religion",
+      "name": "Religion",
+      "diff": "E"
+     },
+     {
+      "id": "xh6-sociological-concepts--education",
+      "name": "Education",
+      "diff": "E"
+     },
+     {
+      "id": "xh6-sociological-concepts--law-and-customs",
+      "name": "Law and Customs",
+      "diff": "E"
+     }
+    ]
+   },
+   {
+    "letter": "C",
+    "name": "Social Stratification",
+    "topics": [
+     {
+      "id": "xh6-sociological-concepts--social-difference",
+      "name": "Social Difference",
+      "diff": "E"
+     },
+     {
+      "id": "xh6-sociological-concepts--hierarchy",
+      "name": "Hierarchy",
+      "diff": "E"
+     },
+     {
+      "id": "xh6-sociological-concepts--inequality-and-marginalization-caste-and-class",
+      "name": "Inequality and Marginalization: Caste and Class",
+      "diff": "M"
+     },
+     {
+      "id": "xh6-sociological-concepts--status-and-power",
+      "name": "Status and Power",
+      "diff": "E"
+     },
+     {
+      "id": "xh6-sociological-concepts--gender-sexuality-and-disability",
+      "name": "Gender, Sexuality and Disability",
+      "diff": "M"
+     },
+     {
+      "id": "xh6-sociological-concepts--race-tribe-and-ethnicity",
+      "name": "Race, Tribe and Ethnicity",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "D",
+    "name": "Social Change",
+    "topics": [
+     {
+      "id": "xh6-sociological-concepts--evolution-and-diffusion",
+      "name": "Evolution and Diffusion",
+      "diff": "M"
+     },
+     {
+      "id": "xh6-sociological-concepts--modernization-and-development",
+      "name": "Modernization and Development",
+      "diff": "M"
+     },
+     {
+      "id": "xh6-sociological-concepts--social-transformations-and-globalization",
+      "name": "Social Transformations and Globalization",
+      "diff": "H"
+     },
+     {
+      "id": "xh6-sociological-concepts--social-mobility-sanskritization",
+      "name": "Social Mobility -Sanskritization",
+      "diff": "M"
+     },
+     {
+      "id": "xh6-sociological-concepts--westernization",
+      "name": "Westernization",
+      "diff": "E"
+     },
+     {
+      "id": "xh6-sociological-concepts--educational-and-occupational-change",
+      "name": "Educational and Occupational change",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "xh6-agrarian-sociology-and-rural-t",
+  "name": "Agrarian Sociology and Rural Transformation",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Agrarian Sociology and Rural Transformation",
+    "topics": [
+     {
+      "id": "xh6-agrarian-sociology-and-rural-t--rural-and-peasant-society",
+      "name": "Rural and Peasant Society",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "xh6-agrarian-sociology-and-rural-t--caste-tribe-distinction-and-continuum",
+      "name": "Caste- Tribe Distinction and Continuum",
+      "diff": "M"
+     },
+     {
+      "id": "xh6-agrarian-sociology-and-rural-t--agrarian-social-structure-and-emergent-class-relations",
+      "name": "Agrarian Social Structure and Emergent Class Relations",
+      "diff": "M"
+     },
+     {
+      "id": "xh6-agrarian-sociology-and-rural-t--land-ownership-and-agrarian-relations",
+      "name": "Land Ownership and Agrarian Relations",
+      "diff": "M"
+     },
+     {
+      "id": "xh6-agrarian-sociology-and-rural-t--decline-of-agrarian-economy-de-peasantization-and-agrarian-c",
+      "name": "Decline of Agrarian Economy, De -Peasantization and Agrarian Change",
+      "diff": "M"
+     },
+     {
+      "id": "xh6-agrarian-sociology-and-rural-t--agrarian-unrest-and-peasant-movements",
+      "name": "Agrarian Unrest and Peasant Movements",
+      "diff": "M"
+     },
+     {
+      "id": "xh6-agrarian-sociology-and-rural-t--feudalism-mode-of-production-debate",
+      "name": "Feudalism, Mode of production debate",
+      "diff": "M"
+     },
+     {
+      "id": "xh6-agrarian-sociology-and-rural-t--land-reforms",
+      "name": "Land reforms",
+      "diff": "E"
+     },
+     {
+      "id": "xh6-agrarian-sociology-and-rural-t--panchayati-raj",
+      "name": "Panchayati Raj",
+      "diff": "E"
+     },
+     {
+      "id": "xh6-agrarian-sociology-and-rural-t--rural-development-programmes-and-community-development",
+      "name": "Rural development programmes and community development",
+      "diff": "M"
+     },
+     {
+      "id": "xh6-agrarian-sociology-and-rural-t--green-revolution-and-agricultural-change",
+      "name": "Green revolution and agricultural change",
+      "diff": "M"
+     },
+     {
+      "id": "xh6-agrarian-sociology-and-rural-t--peasants-and-farmers-movements",
+      "name": "Peasants and farmers movements",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "xh6-family-marriage-and-kinship-th",
+  "name": "Family, Marriage and Kinship; Theoretical Approaches",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Family, Marriage and Kinship; Theoretical Approaches",
+    "topics": [
+     {
+      "id": "xh6-family-marriage-and-kinship-th--structural-functionalist-alliance-and-cultural",
+      "name": "Structural- Functionalist, Alliance and Cultural",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "xh6-family-marriage-and-kinship-th--gender-relations-and-power-dynamics",
+      "name": "Gender Relations and Power Dynamics",
+      "diff": "M"
+     },
+     {
+      "id": "xh6-family-marriage-and-kinship-th--inheritance-succession-and-authority",
+      "name": "Inheritance, Succession and Authority",
+      "diff": "M"
+     },
+     {
+      "id": "xh6-family-marriage-and-kinship-th--gender-sexuality-and-reproduction",
+      "name": "Gender, Sexuality and Reproduction",
+      "diff": "M"
+     },
+     {
+      "id": "xh6-family-marriage-and-kinship-th--children-youth-and-elderly",
+      "name": "Children, Youth and Elderly",
+      "diff": "M"
+     },
+     {
+      "id": "xh6-family-marriage-and-kinship-th--emotions-and-family",
+      "name": "Emotions and Family",
+      "diff": "M"
+     },
+     {
+      "id": "xh6-family-marriage-and-kinship-th--emergent-forms-of-family",
+      "name": "Emergent Forms of Family",
+      "diff": "M"
+     },
+     {
+      "id": "xh6-family-marriage-and-kinship-th--changing-marriage-practices",
+      "name": "Changing Marriage Practices",
+      "diff": "M"
+     },
+     {
+      "id": "xh6-family-marriage-and-kinship-th--changing-care-and-support-systems",
+      "name": "Changing Care and Support Systems",
+      "diff": "M"
+     },
+     {
+      "id": "xh6-family-marriage-and-kinship-th--family-laws",
+      "name": "Family Laws",
+      "diff": "E"
+     },
+     {
+      "id": "xh6-family-marriage-and-kinship-th--domestic-violence-and-crime-against-women",
+      "name": "Domestic Violence and Crime against Women",
+      "diff": "M"
+     },
+     {
+      "id": "xh6-family-marriage-and-kinship-th--honour-killing",
+      "name": "Honour Killing",
+      "diff": "E"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "xh6-indian-society-sociology-of-in",
+  "name": "Indian Society/Sociology of India",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Indian Society/Sociology of India",
+    "topics": [
+     {
+      "id": "xh6-indian-society-sociology-of-in--colonial-nationalist-indological-perspectives-g-s-ghurye",
+      "name": "Colonial, Nationalist, Indological perspectives (G.S. Ghurye )",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "xh6-indian-society-sociology-of-in--structural-functional-approach-m-n-srinivas",
+      "name": "Structural-Functional approach (M.N. Srinivas)",
+      "diff": "M"
+     },
+     {
+      "id": "xh6-indian-society-sociology-of-in--dialectical-approach-a-r-desai",
+      "name": "Dialectical approach (A.R. Desai)",
+      "diff": "M"
+     },
+     {
+      "id": "xh6-indian-society-sociology-of-in--subaltern-studies-r-guha",
+      "name": "Subaltern studies (R. Guha)",
+      "diff": "M"
+     },
+     {
+      "id": "xh6-indian-society-sociology-of-in--non-brahmin-perspectives-phule-dr",
+      "name": "Non Brahmin perspectives (Phule, Dr",
+      "diff": "M"
+     },
+     {
+      "id": "xh6-indian-society-sociology-of-in--babasaheb-ambedkar",
+      "name": "Babasaheb Ambedkar)",
+      "diff": "M"
+     },
+     {
+      "id": "xh6-indian-society-sociology-of-in--feminist-perspectives-leela-dube-sharmila-rege",
+      "name": "Feminist perspectives (Leela Dube, Sharmila Rege)",
+      "diff": "M"
+     },
+     {
+      "id": "xh6-indian-society-sociology-of-in--social-institutions-family",
+      "name": "Social Institutions - Family",
+      "diff": "M"
+     },
+     {
+      "id": "xh6-indian-society-sociology-of-in--kinship",
+      "name": "Kinship",
+      "diff": "E"
+     },
+     {
+      "id": "xh6-indian-society-sociology-of-in--household",
+      "name": "Household",
+      "diff": "E"
+     },
+     {
+      "id": "xh6-indian-society-sociology-of-in--village-and-urban-settings",
+      "name": "Village and Urban Settings",
+      "diff": "M"
+     },
+     {
+      "id": "xh6-indian-society-sociology-of-in--social-stratification-caste-class-tribe-and-gender",
+      "name": "Social Stratification - Caste, Class, Tribe and Gender",
+      "diff": "M"
+     },
+     {
+      "id": "xh6-indian-society-sociology-of-in--tradition-and-modernity-m-n-srinivas-yogendra-singh-dipankar",
+      "name": "Tradition and Modernity (M.N. Srinivas, Yogendra Singh, Dipankar Gupta)",
+      "diff": "M"
+     },
+     {
+      "id": "xh6-indian-society-sociology-of-in--peasants-and-agrarian-sociology-andre-beteille-a-r-desai-d-n",
+      "name": "Peasants and agrarian sociology (Andre Beteille, A.R. Desai, D.N. Dhanagare)",
+      "diff": "M"
+     },
+     {
+      "id": "xh6-indian-society-sociology-of-in--social-movement-t-k-oommen-village-studies",
+      "name": "Social Movement (T.K. Oommen), Village studies",
+      "diff": "M"
+     },
+     {
+      "id": "xh6-indian-society-sociology-of-in--communalism-and-secularism",
+      "name": "Communalism and Secularism",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "xh6-social-movements",
+  "name": "Social Movements",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Introduction to Social Movements",
+    "topics": [
+     {
+      "id": "xh6-social-movements--nature-definitions-characteristics",
+      "name": "Nature, Definitions, Characteristics",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "xh6-social-movements--social-movement-and-social-change",
+      "name": "Social Movement and Social Change",
+      "diff": "M"
+     },
+     {
+      "id": "xh6-social-movements--types-of-social-movements-reform-rebellion-revival-revolutio",
+      "name": "Types of social movements (Reform, Rebellion, Revival, Revolution, Insurrection, Counter Movement)",
+      "diff": "E"
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Theories of Social Movements",
+    "topics": [
+     {
+      "id": "xh6-social-movements--structural-functional",
+      "name": "Structural-functional",
+      "diff": "M"
+     },
+     {
+      "id": "xh6-social-movements--marxist",
+      "name": "Marxist",
+      "diff": "E"
+     },
+     {
+      "id": "xh6-social-movements--resource-mobilization-theory",
+      "name": "Resource Mobilization Theory",
+      "diff": "M"
+     },
+     {
+      "id": "xh6-social-movements--new-social-movements",
+      "name": "New Social Movements",
+      "diff": "M"
+     },
+     {
+      "id": "xh6-social-movements--social-movement-in-india-with-specific-reference-to-social-b",
+      "name": "Social Movement in India with Specific Reference to Social Basis",
+      "diff": "M"
+     },
+     {
+      "id": "xh6-social-movements--leadership",
+      "name": "Leadership",
+      "diff": "E"
+     },
+     {
+      "id": "xh6-social-movements--ideology-and-actions-peasant-movement",
+      "name": "Ideology and Actions: Peasant movement",
+      "diff": "M"
+     },
+     {
+      "id": "xh6-social-movements--labour-movement",
+      "name": "Labour movement",
+      "diff": "E"
+     },
+     {
+      "id": "xh6-social-movements--dalit-movement",
+      "name": "Dalit movement",
+      "diff": "E"
+     },
+     {
+      "id": "xh6-social-movements--womens-movement-environmental-movement",
+      "name": "Women’s movement, Environmental movement",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "C",
+    "name": "Social Movements, Civil Society and Globalization",
+    "topics": [
+     {
+      "id": "xh6-social-movements--social-movement-and-its-relationship-with-state-and-civil-so",
+      "name": "Social movement and its relationship with state and civil society",
+      "diff": "M"
+     },
+     {
+      "id": "xh6-social-movements--social-movements-and-impact-of-globalization-debates",
+      "name": "Social movements and impact of globalization: Debates",
+      "diff": "M"
+     },
+     {
+      "id": "xh6-social-movements--issues-of-citizenship",
+      "name": "Issues of citizenship",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "xh6-sociology-of-development",
+  "name": "Sociology of Development",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Perspectives on the Study of Development",
+    "topics": [
+     {
+      "id": "xh6-sociology-of-development--definitions-and-indices",
+      "name": "Definitions and Indices",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "xh6-sociology-of-development--liberal-modernization-theory",
+      "name": "Liberal (Modernization theory)",
+      "diff": "M"
+     },
+     {
+      "id": "xh6-sociology-of-development--marxist",
+      "name": "Marxist",
+      "diff": "E"
+     },
+     {
+      "id": "xh6-sociology-of-development--neo-marxist-perspectives-dependency-theory-world-systems",
+      "name": "Neo-Marxist Perspectives (Dependency theory, World Systems)",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "The Micro-Politics of Development",
+    "topics": [
+     {
+      "id": "xh6-sociology-of-development--transforming-communities-maps-and-models",
+      "name": "Transforming Communities: Maps and Models",
+      "diff": "H"
+     },
+     {
+      "id": "xh6-sociology-of-development--knowledge-and-power-in-development",
+      "name": "Knowledge and Power in Development",
+      "diff": "M"
+     },
+     {
+      "id": "xh6-sociology-of-development--re-inventing-development-subaltern-movements",
+      "name": "Re-inventing Development: Subaltern Movements",
+      "diff": "M"
+     },
+     {
+      "id": "xh6-sociology-of-development--post-colonial-development",
+      "name": "Post - colonial development",
+      "diff": "M"
+     },
+     {
+      "id": "xh6-sociology-of-development--decentralization-and-devolution",
+      "name": "Decentralization and devolution",
+      "diff": "M"
+     },
+     {
+      "id": "xh6-sociology-of-development--participatory-approaches",
+      "name": "Participatory approaches",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "C",
+    "name": "Development and its critique",
+    "topics": [
+     {
+      "id": "xh6-sociology-of-development--post-development-perspectives-escobar",
+      "name": "Post-development perspectives (Escobar)",
+      "diff": "M"
+     },
+     {
+      "id": "xh6-sociology-of-development--alternative-development-paradigms",
+      "name": "Alternative development paradigms",
+      "diff": "M"
+     },
+     {
+      "id": "xh6-sociology-of-development--feminist-critique",
+      "name": "Feminist critique",
+      "diff": "E"
+     },
+     {
+      "id": "xh6-sociology-of-development--human-development-development-induced-dispossession",
+      "name": "Human development, development induced dispossession",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ }
+]

@@ -25,7 +25,7 @@ export const PAPERS: Paper[] = [
   p('NM', 'Naval Architecture & Marine Engineering', 'Engineering', 'live'),
   p('PE', 'Petroleum Engineering', 'Engineering', 'live'),
   p('TF', 'Textile Engineering & Fibre Science', 'Engineering'),
-  p('XE', 'Engineering Sciences', 'Engineering', 'soon', 'Maths + any two sections'),
+  p('XE', 'Engineering Sciences', 'Engineering', 'live', 'Maths + any two sections'),
   p('AR', 'Architecture & Planning', 'Other', 'live'),
   p('CY', 'Chemistry', 'Science', 'live'),
   p('EY', 'Ecology & Evolution', 'Science', 'live'),
@@ -33,8 +33,8 @@ export const PAPERS: Paper[] = [
   p('MA', 'Mathematics', 'Science', 'live'),
   p('PH', 'Physics', 'Science', 'live'),
   p('ST', 'Statistics', 'Science', 'live'),
-  p('XL', 'Life Sciences', 'Science', 'soon', 'Chemistry + any two sections'),
-  p('XH', 'Humanities & Social Sciences', 'Other', 'soon', 'Reasoning + one section'),
+  p('XL', 'Life Sciences', 'Science', 'live', 'Chemistry + any two sections'),
+  p('XH', 'Humanities & Social Sciences', 'Other', 'live', 'Reasoning + one section'),
 ];
 
 export const PRICE_INR = 310;

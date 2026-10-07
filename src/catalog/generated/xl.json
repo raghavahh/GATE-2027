@@ -1,0 +1,3535 @@
+[
+ {
+  "id": "xl1-1-structure-and-function-of-bi",
+  "name": "1 Structure and Function of Biomolecules",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "1 Structure and Function of Biomolecules",
+    "topics": [
+     {
+      "id": "xl1-1-structure-and-function-of-bi--organization-of-life",
+      "name": "Organization of life",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "xl1-1-structure-and-function-of-bi--importance-of-water",
+      "name": "Importance of water",
+      "diff": "M"
+     },
+     {
+      "id": "xl1-1-structure-and-function-of-bi--structure-and-function-of-biomolecules-carbohydrates",
+      "name": "Structure and function of biomolecules: Carbohydrates",
+      "diff": "M"
+     },
+     {
+      "id": "xl1-1-structure-and-function-of-bi--lipids",
+      "name": "Lipids",
+      "diff": "E"
+     },
+     {
+      "id": "xl1-1-structure-and-function-of-bi--proteins",
+      "name": "Proteins",
+      "diff": "E"
+     },
+     {
+      "id": "xl1-1-structure-and-function-of-bi--nucleic-acids",
+      "name": "Nucleic acids",
+      "diff": "E"
+     },
+     {
+      "id": "xl1-1-structure-and-function-of-bi--protein-structure-folding-misfolding-and-function",
+      "name": "Protein structure, folding/misfolding, and function",
+      "diff": "M"
+     },
+     {
+      "id": "xl1-1-structure-and-function-of-bi--myoglobin",
+      "name": "Myoglobin",
+      "diff": "E"
+     },
+     {
+      "id": "xl1-1-structure-and-function-of-bi--hemoglobin",
+      "name": "Hemoglobin",
+      "diff": "E"
+     },
+     {
+      "id": "xl1-1-structure-and-function-of-bi--lysozyme",
+      "name": "Lysozyme",
+      "diff": "E"
+     },
+     {
+      "id": "xl1-1-structure-and-function-of-bi--ribonuclease-a",
+      "name": "Ribonuclease A",
+      "diff": "E"
+     },
+     {
+      "id": "xl1-1-structure-and-function-of-bi--carboxypeptidase",
+      "name": "Carboxypeptidase",
+      "diff": "E"
+     },
+     {
+      "id": "xl1-1-structure-and-function-of-bi--chymotrypsin",
+      "name": "Chymotrypsin",
+      "diff": "E"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "xl1-2-enzymes-and-general-principl",
+  "name": "2 Enzymes and General Principles of Metabolism",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Enzymes",
+    "topics": [
+     {
+      "id": "xl1-2-enzymes-and-general-principl--catalysis",
+      "name": "Catalysis",
+      "diff": "E",
+      "sample": true
+     },
+     {
+      "id": "xl1-2-enzymes-and-general-principl--specificity",
+      "name": "Specificity",
+      "diff": "E"
+     },
+     {
+      "id": "xl1-2-enzymes-and-general-principl--regulation",
+      "name": "Regulation",
+      "diff": "E"
+     },
+     {
+      "id": "xl1-2-enzymes-and-general-principl--kinetics-up-to-two-substrates",
+      "name": "Kinetics (up to two substrates)",
+      "diff": "H"
+     },
+     {
+      "id": "xl1-2-enzymes-and-general-principl--enzyme-inhibitors",
+      "name": "Enzyme inhibitors",
+      "diff": "E"
+     },
+     {
+      "id": "xl1-2-enzymes-and-general-principl--regulatory-enzymes",
+      "name": "Regulatory Enzymes",
+      "diff": "M"
+     },
+     {
+      "id": "xl1-2-enzymes-and-general-principl--vitamins-and-coenzymes",
+      "name": "Vitamins and coenzymes",
+      "diff": "M"
+     },
+     {
+      "id": "xl1-2-enzymes-and-general-principl--general-principles-of-metabolism-hormonal-regulation-of-meta",
+      "name": "General principles of metabolism, hormonal regulation of metabolism",
+      "diff": "M"
+     },
+     {
+      "id": "xl1-2-enzymes-and-general-principl--generation-and-utilization-of-atp",
+      "name": "Generation and utilization of ATP",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "xl1-3-metabolic-pathways-and-assoc",
+  "name": "3 Metabolic Pathways and Associated Disorders",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "3 Metabolic Pathways and Associated Disorders",
+    "topics": [
+     {
+      "id": "xl1-3-metabolic-pathways-and-assoc--glycolysis",
+      "name": "Glycolysis",
+      "diff": "E",
+      "sample": true
+     },
+     {
+      "id": "xl1-3-metabolic-pathways-and-assoc--tca-cycle",
+      "name": "TCA cycle",
+      "diff": "E"
+     },
+     {
+      "id": "xl1-3-metabolic-pathways-and-assoc--pentose-phosphate-pathway",
+      "name": "Pentose phosphate pathway",
+      "diff": "M"
+     },
+     {
+      "id": "xl1-3-metabolic-pathways-and-assoc--oxidative-phosphorylation",
+      "name": "Oxidative phosphorylation",
+      "diff": "M"
+     },
+     {
+      "id": "xl1-3-metabolic-pathways-and-assoc--gluconeogenesis",
+      "name": "Gluconeogenesis",
+      "diff": "E"
+     },
+     {
+      "id": "xl1-3-metabolic-pathways-and-assoc--fatty-acid-metabolism",
+      "name": "Fatty acid metabolism",
+      "diff": "M"
+     },
+     {
+      "id": "xl1-3-metabolic-pathways-and-assoc--metabolism-of-nitrogen-containing-compounds-nitrogen-fixatio",
+      "name": "Metabolism of nitrogen-containing compounds: nitrogen fixation",
+      "diff": "M"
+     },
+     {
+      "id": "xl1-3-metabolic-pathways-and-assoc--amino-acids",
+      "name": "Amino acids",
+      "diff": "E"
+     },
+     {
+      "id": "xl1-3-metabolic-pathways-and-assoc--nucleotides",
+      "name": "Nucleotides",
+      "diff": "E"
+     },
+     {
+      "id": "xl1-3-metabolic-pathways-and-assoc--photosynthesis-photophosphorylation-calvin-cycle",
+      "name": "Photosynthesis, photophosphorylation, Calvin cycle",
+      "diff": "M"
+     },
+     {
+      "id": "xl1-3-metabolic-pathways-and-assoc--metabolic-disorders-sugars-amino-acids-and-lipids",
+      "name": "Metabolic disorders (Sugars, amino acids, and lipids)",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "xl1-4-analytical-techniques",
+  "name": "4 Analytical Techniques",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "4 Analytical Techniques",
+    "topics": [
+     {
+      "id": "xl1-4-analytical-techniques--buffering-against-ph-changes-in-biological-systems",
+      "name": "Buffering against pH changes in biological systems",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "xl1-4-analytical-techniques--the-henderson-hasselbalch-equation",
+      "name": "The Henderson -Hasselbalch equation",
+      "diff": "M"
+     },
+     {
+      "id": "xl1-4-analytical-techniques--ion-exchange",
+      "name": "Ion exchange",
+      "diff": "E"
+     },
+     {
+      "id": "xl1-4-analytical-techniques--size-exclusion-and-affinity-chromatography",
+      "name": "Size exclusion and affinity chromatography",
+      "diff": "M"
+     },
+     {
+      "id": "xl1-4-analytical-techniques--thin-layer-and-paper-chromatography",
+      "name": "Thin layer and paper chromatography",
+      "diff": "M"
+     },
+     {
+      "id": "xl1-4-analytical-techniques--centrifugation",
+      "name": "Centrifugation",
+      "diff": "E"
+     },
+     {
+      "id": "xl1-4-analytical-techniques--characterization-of-biomolecules-by-electrophoresis",
+      "name": "Characterization of biomolecules by electrophoresis",
+      "diff": "M"
+     },
+     {
+      "id": "xl1-4-analytical-techniques--analytical-methods-to-study-dna-protein-and-protein-protein-",
+      "name": "Analytical methods to study DNA -protein and protein -protein interactions",
+      "diff": "M"
+     },
+     {
+      "id": "xl1-4-analytical-techniques--lambert-beer-law-uv-visible-and-fluorescence-spectroscopy",
+      "name": "Lambert-Beer law, UV-visible, and fluorescence spectroscopy",
+      "diff": "M"
+     },
+     {
+      "id": "xl1-4-analytical-techniques--next-generation-dna-sequencing-pcr-and-site-directed-mutagen",
+      "name": "Next -generation DNA sequencing, PCR, and site-directed mutagenesis",
+      "diff": "M"
+     },
+     {
+      "id": "xl1-4-analytical-techniques--antibody-antigen-interaction",
+      "name": "Antibody -antigen interaction",
+      "diff": "M"
+     },
+     {
+      "id": "xl1-4-analytical-techniques--immunological-techniques-immunodiffusion",
+      "name": "Immunological techniques: immunodiffusion",
+      "diff": "M"
+     },
+     {
+      "id": "xl1-4-analytical-techniques--immune-electrophoresis",
+      "name": "Immune-electrophoresis",
+      "diff": "M"
+     },
+     {
+      "id": "xl1-4-analytical-techniques--ria-and-elisa",
+      "name": "RIA and ELISA",
+      "diff": "E"
+     },
+     {
+      "id": "xl1-4-analytical-techniques--flow-cytometry",
+      "name": "Flow cytometry",
+      "diff": "E"
+     },
+     {
+      "id": "xl1-4-analytical-techniques--monoclonal-antibodies-and-their-applications",
+      "name": "Monoclonal antibodies and their applications",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "xl1-5-cell-structure-and-function",
+  "name": "5 Cell Structure and Function",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "5 Cell Structure and Function",
+    "topics": [
+     {
+      "id": "xl1-5-cell-structure-and-function--cell-structure-and-organelles",
+      "name": "Cell structure and organelles",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "xl1-5-cell-structure-and-function--biological-membranes",
+      "name": "Biological membranes",
+      "diff": "M"
+     },
+     {
+      "id": "xl1-5-cell-structure-and-function--transport-across-membranes",
+      "name": "Transport across membranes",
+      "diff": "M"
+     },
+     {
+      "id": "xl1-5-cell-structure-and-function--membrane-assembly-protein-targeting-and-degradation",
+      "name": "Membrane assembly, Protein targeting and degradation",
+      "diff": "M"
+     },
+     {
+      "id": "xl1-5-cell-structure-and-function--biosignalling",
+      "name": "Biosignalling",
+      "diff": "E"
+     },
+     {
+      "id": "xl1-5-cell-structure-and-function--receptor-ligand-interaction",
+      "name": "Receptor -ligand interaction",
+      "diff": "M"
+     },
+     {
+      "id": "xl1-5-cell-structure-and-function--two-component-system-hormones-and-neurotransmitters",
+      "name": "Two -component system, hormones and neurotransmitters",
+      "diff": "M"
+     },
+     {
+      "id": "xl1-5-cell-structure-and-function--toxins-and-ion-channels",
+      "name": "Toxins and ion channels",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "xl1-6-gene-expression-and-its-regu",
+  "name": "6 Gene Expression and Its Regulation, and DNA Repair",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "6 Gene Expression and Its Regulation, and DNA Repair",
+    "topics": [
+     {
+      "id": "xl1-6-gene-expression-and-its-regu--dna-replication-transcription-and-translation",
+      "name": "DNA replication, transcription, and translation",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "xl1-6-gene-expression-and-its-regu--dna-damage-and-repair",
+      "name": "DNA damage and repair",
+      "diff": "M"
+     },
+     {
+      "id": "xl1-6-gene-expression-and-its-regu--nuclease-accessibility-methods",
+      "name": "Nuclease accessibility methods",
+      "diff": "M"
+     },
+     {
+      "id": "xl1-6-gene-expression-and-its-regu--biochemical-regulation-of-gene-expression",
+      "name": "Biochemical regulation of gene expression",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "xl2-plant-systematics",
+  "name": "Plant Systematics",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Plant Systematics",
+    "topics": [
+     {
+      "id": "xl2-plant-systematics--botanical-nomenclature",
+      "name": "Botanical nomenclature",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "xl2-plant-systematics--history-of-plant-taxonomy",
+      "name": "History of plant taxonomy",
+      "diff": "M"
+     },
+     {
+      "id": "xl2-plant-systematics--diversity-and-classification-of-plants",
+      "name": "Diversity and classification of plants",
+      "diff": "E"
+     },
+     {
+      "id": "xl2-plant-systematics--apg-system-of-plant-classification",
+      "name": "APG system of plant classification",
+      "diff": "E"
+     },
+     {
+      "id": "xl2-plant-systematics--major-families-such-as-apiaceae",
+      "name": "Major families such as Apiaceae",
+      "diff": "M"
+     },
+     {
+      "id": "xl2-plant-systematics--apocynaceae",
+      "name": "Apocynaceae",
+      "diff": "E"
+     },
+     {
+      "id": "xl2-plant-systematics--asteraceae",
+      "name": "Asteraceae",
+      "diff": "E"
+     },
+     {
+      "id": "xl2-plant-systematics--lamiaceae",
+      "name": "Lamiaceae",
+      "diff": "E"
+     },
+     {
+      "id": "xl2-plant-systematics--myrtaceae",
+      "name": "Myrtaceae",
+      "diff": "E"
+     },
+     {
+      "id": "xl2-plant-systematics--solanaceae",
+      "name": "Solanaceae",
+      "diff": "E"
+     },
+     {
+      "id": "xl2-plant-systematics--verbenaceae",
+      "name": "Verbenaceae",
+      "diff": "E"
+     },
+     {
+      "id": "xl2-plant-systematics--poaceae-and-orchidaceae",
+      "name": "Poaceae and Orchidaceae",
+      "diff": "M"
+     },
+     {
+      "id": "xl2-plant-systematics--phylogenetics-and-cladistics",
+      "name": "Phylogenetics and cladistics",
+      "diff": "M"
+     },
+     {
+      "id": "xl2-plant-systematics--molecular-taxonomy-and-dna-barcoding",
+      "name": "Molecular taxonomy and DNA barcoding",
+      "diff": "M"
+     },
+     {
+      "id": "xl2-plant-systematics--centers-for-plant-taxonomy-and-herbaria-in-india",
+      "name": "Centers for plant taxonomy and herbaria in India",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "xl2-plant-anatomy",
+  "name": "Plant Anatomy",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Plant Anatomy",
+    "topics": [
+     {
+      "id": "xl2-plant-anatomy--anatomy-of-root",
+      "name": "Anatomy of root",
+      "diff": "E",
+      "sample": true
+     },
+     {
+      "id": "xl2-plant-anatomy--stem-and-leaves",
+      "name": "Stem and leaves",
+      "diff": "E"
+     },
+     {
+      "id": "xl2-plant-anatomy--floral-organs",
+      "name": "Floral organs",
+      "diff": "E"
+     },
+     {
+      "id": "xl2-plant-anatomy--embryo-and-young-seedlings",
+      "name": "Embryo and young seedlings",
+      "diff": "M"
+     },
+     {
+      "id": "xl2-plant-anatomy--primary-and-secondary-meristems",
+      "name": "Primary and secondary meristems",
+      "diff": "M"
+     },
+     {
+      "id": "xl2-plant-anatomy--stellar-organization",
+      "name": "Stellar organization",
+      "diff": "M"
+     },
+     {
+      "id": "xl2-plant-anatomy--vascular-system-and-their-ontogeny",
+      "name": "Vascular system and their ontogeny",
+      "diff": "M"
+     },
+     {
+      "id": "xl2-plant-anatomy--xylem-and-phloem-structure",
+      "name": "Xylem and phloem structure",
+      "diff": "M"
+     },
+     {
+      "id": "xl2-plant-anatomy--secondary-growth-in-plants-and-wood-anatomy",
+      "name": "Secondary growth in plants and wood anatomy",
+      "diff": "M"
+     },
+     {
+      "id": "xl2-plant-anatomy--plant-cell-structure-and-differences-from-animal-cells",
+      "name": "Plant cell structure and differences from animal cells",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "xl2-plant-development-cell-and-tis",
+  "name": "Plant development; Cell and Tissue Morphogenesis",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Plant development; Cell and Tissue Morphogenesis",
+    "topics": [
+     {
+      "id": "xl2-plant-development-cell-and-tis--life-cycle-of-an-angiosperm",
+      "name": "Life cycle of an angiosperm",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "xl2-plant-development-cell-and-tis--development-of-male-and-female-gametophyte",
+      "name": "Development of male and female gametophyte",
+      "diff": "M"
+     },
+     {
+      "id": "xl2-plant-development-cell-and-tis--cell-fate-determination-and-tissue-patterning",
+      "name": "Cell fate determination and tissue patterning",
+      "diff": "M"
+     },
+     {
+      "id": "xl2-plant-development-cell-and-tis--spacing-mechanisms-in-trichomes-and-stomata",
+      "name": "Spacing mechanisms in trichomes and stomata",
+      "diff": "M"
+     },
+     {
+      "id": "xl2-plant-development-cell-and-tis--embryogenesis",
+      "name": "Embryogenesis",
+      "diff": "E"
+     },
+     {
+      "id": "xl2-plant-development-cell-and-tis--organization-and-function-of-shoot-and-root-apical-meristems",
+      "name": "Organization and function of shoot and root apical meristems",
+      "diff": "M"
+     },
+     {
+      "id": "xl2-plant-development-cell-and-tis--transition-to-flowering-photoperiodism-and-vernalization",
+      "name": "Transition to flowering: photoperiodism and vernalization",
+      "diff": "M"
+     },
+     {
+      "id": "xl2-plant-development-cell-and-tis--abc-model-of-floral-organ-patterning",
+      "name": "ABC model of floral organ patterning",
+      "diff": "M"
+     },
+     {
+      "id": "xl2-plant-development-cell-and-tis--pollen-germination",
+      "name": "Pollen germination",
+      "diff": "M"
+     },
+     {
+      "id": "xl2-plant-development-cell-and-tis--double-fertilization",
+      "name": "Double fertilization",
+      "diff": "M"
+     },
+     {
+      "id": "xl2-plant-development-cell-and-tis--seed-development",
+      "name": "Seed development",
+      "diff": "E"
+     },
+     {
+      "id": "xl2-plant-development-cell-and-tis--xylem-and-phloem-cell-differentiation-photomorphogenesis",
+      "name": "Xylem and phloem cell differentiation, photomorphogenesis",
+      "diff": "M"
+     },
+     {
+      "id": "xl2-plant-development-cell-and-tis--phytochrome-cryptochrome-phototropin",
+      "name": "Phytochrome, cryptochrome, phototropin",
+      "diff": "M"
+     },
+     {
+      "id": "xl2-plant-development-cell-and-tis--role-of-auxin",
+      "name": "Role of auxin",
+      "diff": "E"
+     },
+     {
+      "id": "xl2-plant-development-cell-and-tis--cytokinin",
+      "name": "Cytokinin",
+      "diff": "E"
+     },
+     {
+      "id": "xl2-plant-development-cell-and-tis--gibberellins",
+      "name": "Gibberellins",
+      "diff": "E"
+     },
+     {
+      "id": "xl2-plant-development-cell-and-tis--brassinosteroids-on-plant-development",
+      "name": "Brassinosteroids on plant development",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "xl2-plant-physiology-and-biochemis",
+  "name": "Plant Physiology and Biochemistry",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Plant Physiology and Biochemistry",
+    "topics": [
+     {
+      "id": "xl2-plant-physiology-and-biochemis--plant-water-relations",
+      "name": "Plant water relations",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "xl2-plant-physiology-and-biochemis--mechanisms-of-uptake-and-transport-of-water",
+      "name": "Mechanisms of uptake and transport of water",
+      "diff": "M"
+     },
+     {
+      "id": "xl2-plant-physiology-and-biochemis--ions",
+      "name": "Ions",
+      "diff": "E"
+     },
+     {
+      "id": "xl2-plant-physiology-and-biochemis--solutes-from-soil-to-plants",
+      "name": "Solutes from soil to plants",
+      "diff": "M"
+     },
+     {
+      "id": "xl2-plant-physiology-and-biochemis--apoplastic-and-symplastic-transport-mechanisms",
+      "name": "Apoplastic and symplastic transport mechanisms",
+      "diff": "M"
+     },
+     {
+      "id": "xl2-plant-physiology-and-biochemis--mechanism-of-stomatal-movements-nitrogen-metabolism-photosyn",
+      "name": "Mechanism of stomatal movements, nitrogen metabolism, photosynthesis",
+      "diff": "M"
+     },
+     {
+      "id": "xl2-plant-physiology-and-biochemis--c4-and-cam-cycles",
+      "name": "C4 and CAM cycles",
+      "diff": "E"
+     },
+     {
+      "id": "xl2-plant-physiology-and-biochemis--photorespiration",
+      "name": "Photorespiration",
+      "diff": "E"
+     },
+     {
+      "id": "xl2-plant-physiology-and-biochemis--respiration-glycolysis",
+      "name": "Respiration: glycolysis",
+      "diff": "M"
+     },
+     {
+      "id": "xl2-plant-physiology-and-biochemis--tca-cycle-and-electron-transport-chain",
+      "name": "TCA cycle and electron transport chain",
+      "diff": "M"
+     },
+     {
+      "id": "xl2-plant-physiology-and-biochemis--plant-responses-and-mechanisms-of-abiotic-stresses-including",
+      "name": "Plant responses and mechanisms of abiotic stresses including drought",
+      "diff": "M"
+     },
+     {
+      "id": "xl2-plant-physiology-and-biochemis--salinity",
+      "name": "Salinity",
+      "diff": "E"
+     },
+     {
+      "id": "xl2-plant-physiology-and-biochemis--freezing-and-heat-stress",
+      "name": "Freezing and heat stress",
+      "diff": "M"
+     },
+     {
+      "id": "xl2-plant-physiology-and-biochemis--metal-toxicity",
+      "name": "Metal toxicity",
+      "diff": "E"
+     },
+     {
+      "id": "xl2-plant-physiology-and-biochemis--role-of-abscisic-acid-in-abiotic-stresses",
+      "name": "Role of abscisic acid in abiotic stresses",
+      "diff": "M"
+     },
+     {
+      "id": "xl2-plant-physiology-and-biochemis--structure-and-function-of-biomolecules-proteins-carbohydrate",
+      "name": "Structure and function of biomolecules (proteins, carbohydrates, lipids, nucleic acid)",
+      "diff": "M"
+     },
+     {
+      "id": "xl2-plant-physiology-and-biochemis--enzyme-kinetics",
+      "name": "Enzyme kinetics",
+      "diff": "H"
+     },
+     {
+      "id": "xl2-plant-physiology-and-biochemis--structure-and-biosynthesis-of-major-plant-secondary-metaboli",
+      "name": "Structure and biosynthesis of major plant secondary metabolites (alkaloids, terpenes, phenylpropanoids, flavonoids)",
+      "diff": "M"
+     },
+     {
+      "id": "xl2-plant-physiology-and-biochemis--biosynthesis",
+      "name": "Biosynthesis",
+      "diff": "E"
+     },
+     {
+      "id": "xl2-plant-physiology-and-biochemis--mechanism-of-action-and-physiological-effects-of-auxin",
+      "name": "Mechanism of action and physiological effects of auxin",
+      "diff": "M"
+     },
+     {
+      "id": "xl2-plant-physiology-and-biochemis--cytokinin",
+      "name": "Cytokinin",
+      "diff": "E"
+     },
+     {
+      "id": "xl2-plant-physiology-and-biochemis--gibberellic-acids",
+      "name": "Gibberellic acids",
+      "diff": "E"
+     },
+     {
+      "id": "xl2-plant-physiology-and-biochemis--brassinosteroid",
+      "name": "Brassinosteroid",
+      "diff": "E"
+     },
+     {
+      "id": "xl2-plant-physiology-and-biochemis--ethylene",
+      "name": "Ethylene",
+      "diff": "E"
+     },
+     {
+      "id": "xl2-plant-physiology-and-biochemis--strigolactone",
+      "name": "Strigolactone",
+      "diff": "E"
+     },
+     {
+      "id": "xl2-plant-physiology-and-biochemis--abscisic-acid",
+      "name": "Abscisic acid",
+      "diff": "E"
+     },
+     {
+      "id": "xl2-plant-physiology-and-biochemis--salicylic-and-jasmonic-acid",
+      "name": "Salicylic and jasmonic acid",
+      "diff": "M"
+     },
+     {
+      "id": "xl2-plant-physiology-and-biochemis--plant-peptide-hormones",
+      "name": "Plant peptide hormones",
+      "diff": "M"
+     },
+     {
+      "id": "xl2-plant-physiology-and-biochemis--concept-of-hormone-receptor-repressor",
+      "name": "Concept of hormone-receptor-repressor",
+      "diff": "M"
+     },
+     {
+      "id": "xl2-plant-physiology-and-biochemis--senescence-and-programmed-cell-death",
+      "name": "Senescence and programmed cell death",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "xl2-genetics-and-genomics",
+  "name": "Genetics and Genomics",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Genetics and Genomics",
+    "topics": [
+     {
+      "id": "xl2-genetics-and-genomics--cell-cycle-and-cell-division",
+      "name": "Cell cycle and cell division",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "xl2-genetics-and-genomics--principles-of-mendelian-inheritance",
+      "name": "Principles of Mendelian inheritance",
+      "diff": "M"
+     },
+     {
+      "id": "xl2-genetics-and-genomics--linkage",
+      "name": "Linkage",
+      "diff": "E"
+     },
+     {
+      "id": "xl2-genetics-and-genomics--recombination",
+      "name": "Recombination",
+      "diff": "E"
+     },
+     {
+      "id": "xl2-genetics-and-genomics--genetic-mapping",
+      "name": "Genetic mapping",
+      "diff": "E"
+     },
+     {
+      "id": "xl2-genetics-and-genomics--extra-chromosomal-inheritance",
+      "name": "Extra chromosomal inheritance",
+      "diff": "M"
+     },
+     {
+      "id": "xl2-genetics-and-genomics--introduction-to-epigenetics",
+      "name": "Introduction to epigenetics",
+      "diff": "E"
+     },
+     {
+      "id": "xl2-genetics-and-genomics--gene-silencing-transgene-silencing",
+      "name": "Gene silencing- transgene silencing",
+      "diff": "M"
+     },
+     {
+      "id": "xl2-genetics-and-genomics--post-transcriptional-gene-silencing",
+      "name": "Post transcriptional gene silencing",
+      "diff": "M"
+     },
+     {
+      "id": "xl2-genetics-and-genomics--mirna-and-sirna",
+      "name": "MiRNA and siRNA",
+      "diff": "E"
+     },
+     {
+      "id": "xl2-genetics-and-genomics--evolution-and-organization-of-eukaryotic-genome-structure",
+      "name": "Evolution and organization of eukaryotic genome structure",
+      "diff": "M"
+     },
+     {
+      "id": "xl2-genetics-and-genomics--gene-expression",
+      "name": "Gene expression",
+      "diff": "E"
+     },
+     {
+      "id": "xl2-genetics-and-genomics--gene-mutation-and-repair",
+      "name": "Gene mutation and repair",
+      "diff": "M"
+     },
+     {
+      "id": "xl2-genetics-and-genomics--chromosomal-aberrations-numerical-euploidy-and-aneuploidy-an",
+      "name": "Chromosomal aberrations (numerical: euploidy and aneuploidy and structural: deletion, duplication, inversion, translocation)",
+      "diff": "M"
+     },
+     {
+      "id": "xl2-genetics-and-genomics--transposons",
+      "name": "Transposons",
+      "diff": "E"
+     },
+     {
+      "id": "xl2-genetics-and-genomics--model-organisms-for-functional-genetics-a-nd-gen-omics",
+      "name": "Model organisms for functional genetics a nd gen omics",
+      "diff": "M"
+     },
+     {
+      "id": "xl2-genetics-and-genomics--introduction-to-transcriptomics-proteomics-and-metabolomics",
+      "name": "Introduction to transcriptomics, proteomics and metabolomics",
+      "diff": "E"
+     },
+     {
+      "id": "xl2-genetics-and-genomics--large-data-analysis-bioinformatics-statistical-analysis",
+      "name": "Large data analysis, bioinformatics, statistical analysis",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "xl2-plant-breeding-genetic-modific",
+  "name": "Plant Breeding, Genetic Modification, Genome Editing",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Plant Breeding, Genetic Modification, Genome Editing",
+    "topics": [
+     {
+      "id": "xl2-plant-breeding-genetic-modific--principles-methods-selection-hybridization-heterosis",
+      "name": "Principles, methods - selection, hybridization, heterosis",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "xl2-plant-breeding-genetic-modific--male-sterility",
+      "name": "Male sterility",
+      "diff": "E"
+     },
+     {
+      "id": "xl2-plant-breeding-genetic-modific--genetic-maps-and-molecular-markers",
+      "name": "Genetic maps and molecular markers",
+      "diff": "M"
+     },
+     {
+      "id": "xl2-plant-breeding-genetic-modific--embryo-rescue",
+      "name": "Embryo rescue",
+      "diff": "E"
+     },
+     {
+      "id": "xl2-plant-breeding-genetic-modific--haploid-and-doubled-haploids",
+      "name": "Haploid and doubled haploids",
+      "diff": "M"
+     },
+     {
+      "id": "xl2-plant-breeding-genetic-modific--plant-tissue-culture-micropropagation",
+      "name": "Plant tissue culture: micropropagation",
+      "diff": "M"
+     },
+     {
+      "id": "xl2-plant-breeding-genetic-modific--embryo-culture-and-in-vitro-regeneration",
+      "name": "Embryo culture and in vitro regeneration",
+      "diff": "M"
+     },
+     {
+      "id": "xl2-plant-breeding-genetic-modific--somatic-embryogenesis",
+      "name": "Somatic embryogenesis",
+      "diff": "M"
+     },
+     {
+      "id": "xl2-plant-breeding-genetic-modific--artificial-seed",
+      "name": "Artificial seed",
+      "diff": "E"
+     },
+     {
+      "id": "xl2-plant-breeding-genetic-modific--cryopreservation",
+      "name": "Cryopreservation",
+      "diff": "E"
+     },
+     {
+      "id": "xl2-plant-breeding-genetic-modific--somaclonal-variation",
+      "name": "Somaclonal variation",
+      "diff": "M"
+     },
+     {
+      "id": "xl2-plant-breeding-genetic-modific--somatic-cell-hybridization",
+      "name": "Somatic cell hybridization",
+      "diff": "M"
+     },
+     {
+      "id": "xl2-plant-breeding-genetic-modific--marker-assisted-selection",
+      "name": "Marker -assisted selection",
+      "diff": "M"
+     },
+     {
+      "id": "xl2-plant-breeding-genetic-modific--gene-transfer-methods-viz",
+      "name": "Gene transfer methods viz",
+      "diff": "M"
+     },
+     {
+      "id": "xl2-plant-breeding-genetic-modific--direct-and-vector-mediated-generation-of-transgenic-plants",
+      "name": "Direct and vector -mediated, generation of transgenic plants",
+      "diff": "M"
+     },
+     {
+      "id": "xl2-plant-breeding-genetic-modific--introduction-to-gen-ome-editing-crispr-cas9",
+      "name": "Introduction to gen ome editing: CRISPR/Cas9",
+      "diff": "E"
+     },
+     {
+      "id": "xl2-plant-breeding-genetic-modific--cre-lox-system-to-generate-chimeras",
+      "name": "Cre -Lox system to generate chimeras",
+      "diff": "M"
+     },
+     {
+      "id": "xl2-plant-breeding-genetic-modific--plastid-transformation",
+      "name": "Plastid transformation",
+      "diff": "H"
+     },
+     {
+      "id": "xl2-plant-breeding-genetic-modific--chemical-mutagenesis",
+      "name": "Chemical mutagenesis",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "xl2-economic-and-applied-botany",
+  "name": "Economic and Applied Botany",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Economic and Applied Botany",
+    "topics": [
+     {
+      "id": "xl2-economic-and-applied-botany--a-general-account-of-economically-and-medicinally-important-",
+      "name": "A general account of economically and medicinally important plants - cereals",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "xl2-economic-and-applied-botany--pulses",
+      "name": "Pulses",
+      "diff": "E"
+     },
+     {
+      "id": "xl2-economic-and-applied-botany--plants-yielding-fibers",
+      "name": "Plants yielding fibers",
+      "diff": "M"
+     },
+     {
+      "id": "xl2-economic-and-applied-botany--timber",
+      "name": "Timber",
+      "diff": "E"
+     },
+     {
+      "id": "xl2-economic-and-applied-botany--sugar",
+      "name": "Sugar",
+      "diff": "E"
+     },
+     {
+      "id": "xl2-economic-and-applied-botany--beverages",
+      "name": "Beverages",
+      "diff": "E"
+     },
+     {
+      "id": "xl2-economic-and-applied-botany--oils",
+      "name": "Oils",
+      "diff": "E"
+     },
+     {
+      "id": "xl2-economic-and-applied-botany--rubber",
+      "name": "Rubber",
+      "diff": "E"
+     },
+     {
+      "id": "xl2-economic-and-applied-botany--pigments",
+      "name": "Pigments",
+      "diff": "E"
+     },
+     {
+      "id": "xl2-economic-and-applied-botany--dyes",
+      "name": "Dyes",
+      "diff": "E"
+     },
+     {
+      "id": "xl2-economic-and-applied-botany--gums",
+      "name": "Gums",
+      "diff": "E"
+     },
+     {
+      "id": "xl2-economic-and-applied-botany--drugs-and-narcotics",
+      "name": "Drugs and narcotics",
+      "diff": "M"
+     },
+     {
+      "id": "xl2-economic-and-applied-botany--economic-importance-of-algae-fungi-lichen-and-bacteria",
+      "name": "Economic importance of algae, fungi, lichen and bacteria",
+      "diff": "M"
+     },
+     {
+      "id": "xl2-economic-and-applied-botany--major-indian-cash-crops",
+      "name": "Major Indian cash crops",
+      "diff": "M"
+     },
+     {
+      "id": "xl2-economic-and-applied-botany--effect-of-industrialization-on-agricultural-botany-such-as-p",
+      "name": "Effect of industrialization on agricultural botany such as plastic on fiber economy",
+      "diff": "H"
+     },
+     {
+      "id": "xl2-economic-and-applied-botany--genetically-modified-crops-and-its-regulation-eg",
+      "name": "Genetically modified crops and its regulation eg",
+      "diff": "M"
+     },
+     {
+      "id": "xl2-economic-and-applied-botany--bt-cotton-bt-brinjal-golden-rice-etc",
+      "name": "Bt cotton, Bt brinjal, golden rice etc",
+      "diff": "M"
+     },
+     {
+      "id": "xl2-economic-and-applied-botany--chemical-biology-of-phytochemicals",
+      "name": "Chemical biology of phytochemicals",
+      "diff": "M"
+     },
+     {
+      "id": "xl2-economic-and-applied-botany--postharvest-processing-of-tea-and-essential-oil-bearing-plan",
+      "name": "Postharvest processing of tea and essential oil-bearing plants",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "xl2-plant-pathology",
+  "name": "Plant Pathology",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Plant Pathology",
+    "topics": [
+     {
+      "id": "xl2-plant-pathology--nature-and-classification-of-plant-diseases",
+      "name": "Nature and classification of plant diseases",
+      "diff": "E",
+      "sample": true
+     },
+     {
+      "id": "xl2-plant-pathology--diseases-of-important-crops-caused-by-fungi",
+      "name": "Diseases of important crops caused by fungi",
+      "diff": "M"
+     },
+     {
+      "id": "xl2-plant-pathology--bacteria",
+      "name": "Bacteria",
+      "diff": "E"
+     },
+     {
+      "id": "xl2-plant-pathology--nematodes-and-viruses",
+      "name": "Nematodes and viruses",
+      "diff": "M"
+     },
+     {
+      "id": "xl2-plant-pathology--their-control-measures-chemical-and-biological-mechanism-s-o",
+      "name": "Their control measures (chemical and biological) mechanism(s) of pathogenesis",
+      "diff": "M"
+     },
+     {
+      "id": "xl2-plant-pathology--resistance-basal",
+      "name": "Resistance: basal",
+      "diff": "E"
+     },
+     {
+      "id": "xl2-plant-pathology--systemic",
+      "name": "Systemic",
+      "diff": "E"
+     },
+     {
+      "id": "xl2-plant-pathology--induced-systemic-resistance",
+      "name": "Induced systemic resistance",
+      "diff": "M"
+     },
+     {
+      "id": "xl2-plant-pathology--gene-for-gene-concept",
+      "name": "Gene for gene concept",
+      "diff": "M"
+     },
+     {
+      "id": "xl2-plant-pathology--molecular-detection-of-pathogens",
+      "name": "Molecular detection of pathogens",
+      "diff": "M"
+     },
+     {
+      "id": "xl2-plant-pathology--plant-microbe-interactions-symbionts-and-mycorrhiza",
+      "name": "Plant-microbe interactions: symbionts and mycorrhiza",
+      "diff": "M"
+     },
+     {
+      "id": "xl2-plant-pathology--pathogens-and-pests",
+      "name": "Pathogens and pests",
+      "diff": "M"
+     },
+     {
+      "id": "xl2-plant-pathology--signaling-pathways-in-plant-defence-response",
+      "name": "Signaling pathways in plant defence response",
+      "diff": "M"
+     },
+     {
+      "id": "xl2-plant-pathology--salicylic-acid-sa-and-jasmonic-acid-ja-in-plant-pathogen-and",
+      "name": "Salicylic acid (SA) and jasmonic acid (JA) in plant -pathogen and plant-herbivore interaction",
+      "diff": "M"
+     },
+     {
+      "id": "xl2-plant-pathology--necrosis",
+      "name": "Necrosis",
+      "diff": "E"
+     },
+     {
+      "id": "xl2-plant-pathology--calcium-signalling-in-plants",
+      "name": "Calcium signalling in plants",
+      "diff": "M"
+     },
+     {
+      "id": "xl2-plant-pathology--host-parasitic-plant-interaction-such-as-cuscuta",
+      "name": "Host-parasitic plant interaction (such as Cuscuta)",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "xl2-ecology-and-environment",
+  "name": "Ecology and Environment",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Ecology and Environment",
+    "topics": [
+     {
+      "id": "xl2-ecology-and-environment--ecosystems-types",
+      "name": "Ecosystems - types",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "xl2-ecology-and-environment--dynamics",
+      "name": "Dynamics",
+      "diff": "E"
+     },
+     {
+      "id": "xl2-ecology-and-environment--degradation",
+      "name": "Degradation",
+      "diff": "E"
+     },
+     {
+      "id": "xl2-ecology-and-environment--biogeochemical-cycles",
+      "name": "Biogeochemical cycles",
+      "diff": "M"
+     },
+     {
+      "id": "xl2-ecology-and-environment--ecological-succession",
+      "name": "Ecological succession",
+      "diff": "M"
+     },
+     {
+      "id": "xl2-ecology-and-environment--food-webs-and-energy-flow-through-ecosystem",
+      "name": "Food webs and energy flow through ecosystem",
+      "diff": "M"
+     },
+     {
+      "id": "xl2-ecology-and-environment--vegetation-types-of-the-world",
+      "name": "Vegetation types of the world",
+      "diff": "E"
+     },
+     {
+      "id": "xl2-ecology-and-environment--indian-vegetation-types-and-biogeographical-zones",
+      "name": "Indian vegetation types and biogeographical zones",
+      "diff": "M"
+     },
+     {
+      "id": "xl2-ecology-and-environment--climate-and-flora-endemism",
+      "name": "Climate and flora endemism",
+      "diff": "M"
+     },
+     {
+      "id": "xl2-ecology-and-environment--pollution-and-global-climate-change",
+      "name": "Pollution and global climate change",
+      "diff": "M"
+     },
+     {
+      "id": "xl2-ecology-and-environment--speciation-and-extinction",
+      "name": "Speciation and extinction",
+      "diff": "M"
+     },
+     {
+      "id": "xl2-ecology-and-environment--biodiversity-and-conservation-strategies",
+      "name": "Biodiversity and conservation strategies",
+      "diff": "M"
+     },
+     {
+      "id": "xl2-ecology-and-environment--ecological-hotspots",
+      "name": "Ecological hotspots",
+      "diff": "M"
+     },
+     {
+      "id": "xl2-ecology-and-environment--afforestation",
+      "name": "Afforestation",
+      "diff": "E"
+     },
+     {
+      "id": "xl2-ecology-and-environment--habitat-restoration",
+      "name": "Habitat restoration",
+      "diff": "M"
+     },
+     {
+      "id": "xl2-ecology-and-environment--plant-interactions-with-other-organisms",
+      "name": "Plant interactions with other organisms",
+      "diff": "M"
+     },
+     {
+      "id": "xl2-ecology-and-environment--epiphytes-parasites-and-endophytes",
+      "name": "Epiphytes, parasites and endophytes",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "xl3-historical-perspective",
+  "name": "Historical Perspective",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Historical Perspective",
+    "topics": [
+     {
+      "id": "xl3-historical-perspective--discovery-of-microbial-world",
+      "name": "Discovery of microbial world",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "xl3-historical-perspective--landmark-discoveries-relevant-to-the-field-of-microbiology",
+      "name": "Landmark discoveries relevant to the field of microbiology",
+      "diff": "M"
+     },
+     {
+      "id": "xl3-historical-perspective--controversy-over-spontaneous-generation",
+      "name": "Controversy over spontaneous generation",
+      "diff": "M"
+     },
+     {
+      "id": "xl3-historical-perspective--role-of-microorganisms-in-transformation-of-organic-matter-a",
+      "name": "Role of microorganisms in transformation of organic matter and in the causation of diseases",
+      "diff": "H"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "xl3-methods-in-microbiology",
+  "name": "Methods in Microbiology",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Methods in Microbiology",
+    "topics": [
+     {
+      "id": "xl3-methods-in-microbiology--pure-culture-techniques",
+      "name": "Pure culture techniques",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "xl3-methods-in-microbiology--disinfection-and-sterilization-principles",
+      "name": "Disinfection and Sterilization: principles",
+      "diff": "M"
+     },
+     {
+      "id": "xl3-methods-in-microbiology--methods-and-assessment-of-efficacy",
+      "name": "Methods and assessment of efficacy",
+      "diff": "M"
+     },
+     {
+      "id": "xl3-methods-in-microbiology--principles-of-microbial-nutrition",
+      "name": "Principles of microbial nutrition",
+      "diff": "M"
+     },
+     {
+      "id": "xl3-methods-in-microbiology--enrichment-culture-techniques-for-isolation-of-microorganism",
+      "name": "Enrichment culture techniques for isolation of microorganisms",
+      "diff": "M"
+     },
+     {
+      "id": "xl3-methods-in-microbiology--antigen-and-antibody-detection-methods-for-microbial-diagnos",
+      "name": "Antigen and antibody detection methods for microbial diagnosis",
+      "diff": "M"
+     },
+     {
+      "id": "xl3-methods-in-microbiology--light-phase-contrast-fluorescence-and-electron-microscopy",
+      "name": "Light-, phase contrast-, fluorescence- and electron-microscopy",
+      "diff": "M"
+     },
+     {
+      "id": "xl3-methods-in-microbiology--pcr-real-time-pcr-for-quantitation-of-microbes",
+      "name": "PCR, Real-time PCR for quantitation of microbes",
+      "diff": "M"
+     },
+     {
+      "id": "xl3-methods-in-microbiology--crispr-cas",
+      "name": "CRISPR-Cas",
+      "diff": "E"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "xl3-microbial-taxonomy-and-diversi",
+  "name": "Microbial Taxonomy and Diversity",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Microbial Taxonomy and Diversity",
+    "topics": [
+     {
+      "id": "xl3-microbial-taxonomy-and-diversi--bacteria-archea-and-their-broad-classification",
+      "name": "Bacteria, Archea and their broad classification",
+      "diff": "E",
+      "sample": true
+     },
+     {
+      "id": "xl3-microbial-taxonomy-and-diversi--eukaryotic-microbes-yeasts-molds-and-protozoa",
+      "name": "Eukaryotic microbes: Yeasts, molds and protozoa",
+      "diff": "M"
+     },
+     {
+      "id": "xl3-microbial-taxonomy-and-diversi--viruses-and-their-classification",
+      "name": "Viruses and their classification",
+      "diff": "E"
+     },
+     {
+      "id": "xl3-microbial-taxonomy-and-diversi--molecular-approaches-to-microbial-taxonomy-and-phylogeny",
+      "name": "Molecular approaches to microbial taxonomy and phylogeny",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "xl3-prokaryotic-cells-structure-an",
+  "name": "Prokaryotic Cells: Structure and Function",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Prokaryotic Cells: Structure and Function",
+    "topics": [
+     {
+      "id": "xl3-prokaryotic-cells-structure-an--cell-walls-cell-membranes-and-their-biosynthesis",
+      "name": "Cell walls, cell membranes and their biosynthesis",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "xl3-prokaryotic-cells-structure-an--mechanisms-of-solute-transport-across-membranes",
+      "name": "Mechanisms of solute transport across membranes",
+      "diff": "M"
+     },
+     {
+      "id": "xl3-prokaryotic-cells-structure-an--flagella-and-pili",
+      "name": "Flagella and Pili",
+      "diff": "E"
+     },
+     {
+      "id": "xl3-prokaryotic-cells-structure-an--capsules",
+      "name": "Capsules",
+      "diff": "E"
+     },
+     {
+      "id": "xl3-prokaryotic-cells-structure-an--cell-inclusions-like-endospores-and-gas-vesicles",
+      "name": "Cell inclusions like endospores and gas vesicles",
+      "diff": "M"
+     },
+     {
+      "id": "xl3-prokaryotic-cells-structure-an--bacterial-locomotion-including-positive-and-negative-chemota",
+      "name": "Bacterial locomotion, including positive and negative chemotaxis",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "xl3-microbial-growth",
+  "name": "Microbial Growth",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Microbial Growth",
+    "topics": [
+     {
+      "id": "xl3-microbial-growth--definition-of-growth",
+      "name": "Definition of growth",
+      "diff": "E",
+      "sample": true
+     },
+     {
+      "id": "xl3-microbial-growth--growth-curve",
+      "name": "Growth curve",
+      "diff": "E"
+     },
+     {
+      "id": "xl3-microbial-growth--mathematical-expression-of-exponential-growth-phase",
+      "name": "Mathematical expression of exponential growth phase",
+      "diff": "M"
+     },
+     {
+      "id": "xl3-microbial-growth--measurement-of-growth-and-growth-yields",
+      "name": "Measurement of growth and growth yields",
+      "diff": "M"
+     },
+     {
+      "id": "xl3-microbial-growth--synchronous-growth",
+      "name": "Synchronous growth",
+      "diff": "M"
+     },
+     {
+      "id": "xl3-microbial-growth--continuous-culture",
+      "name": "Continuous culture",
+      "diff": "M"
+     },
+     {
+      "id": "xl3-microbial-growth--effect-of-environmental-factors-on-growth",
+      "name": "Effect of environmental factors on growth",
+      "diff": "M"
+     },
+     {
+      "id": "xl3-microbial-growth--sporulation",
+      "name": "Sporulation",
+      "diff": "E"
+     },
+     {
+      "id": "xl3-microbial-growth--quorum-sensing",
+      "name": "Quorum sensing",
+      "diff": "E"
+     },
+     {
+      "id": "xl3-microbial-growth--bacterial-biofilm-and-biofouling",
+      "name": "Bacterial biofilm and biofouling",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "xl3-microbial-metabolism",
+  "name": "Microbial Metabolism",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Energetics",
+    "topics": [
+     {
+      "id": "xl3-microbial-metabolism--redox-reactions-and-electron-carriers",
+      "name": "Redox reactions and electron carriers",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "xl3-microbial-metabolism--electron-transport-and-oxidative-phosphorylation",
+      "name": "Electron transport and oxidative phosphorylation",
+      "diff": "M"
+     },
+     {
+      "id": "xl3-microbial-metabolism--an-overview-of-metabolism",
+      "name": "An overview of metabolism",
+      "diff": "E"
+     },
+     {
+      "id": "xl3-microbial-metabolism--glycolysis",
+      "name": "Glycolysis",
+      "diff": "E"
+     },
+     {
+      "id": "xl3-microbial-metabolism--pentose-phosphate-pathway",
+      "name": "Pentose -phosphate pathway",
+      "diff": "M"
+     },
+     {
+      "id": "xl3-microbial-metabolism--entner-doudoroff-pathway",
+      "name": "Entner -Doudoroff pathway",
+      "diff": "M"
+     },
+     {
+      "id": "xl3-microbial-metabolism--glyoxalate-pathway",
+      "name": "Glyoxalate pathway",
+      "diff": "M"
+     },
+     {
+      "id": "xl3-microbial-metabolism--the-citric-acid-cycle",
+      "name": "The citric acid cycle",
+      "diff": "M"
+     },
+     {
+      "id": "xl3-microbial-metabolism--fermentation",
+      "name": "Fermentation",
+      "diff": "E"
+     },
+     {
+      "id": "xl3-microbial-metabolism--aerobi-c-and-anaerobic-respiration",
+      "name": "Aerobi c and anaerobic respiration",
+      "diff": "M"
+     },
+     {
+      "id": "xl3-microbial-metabolism--chemolithotrophy",
+      "name": "Chemolithotrophy",
+      "diff": "E"
+     },
+     {
+      "id": "xl3-microbial-metabolism--photosynthesis",
+      "name": "Photosynthesis",
+      "diff": "E"
+     },
+     {
+      "id": "xl3-microbial-metabolism--calvin-cycle",
+      "name": "Calvin cycle",
+      "diff": "E"
+     },
+     {
+      "id": "xl3-microbial-metabolism--biosynthetic-pathway-for-fatty-acids-synthesis",
+      "name": "Biosynthetic pathway for fatty acids synthesis",
+      "diff": "M"
+     },
+     {
+      "id": "xl3-microbial-metabolism--common-regulatory-mechanisms-in-synthesis-of-amino-acids",
+      "name": "Common regulatory mechanisms in synthesis of amino acids",
+      "diff": "M"
+     },
+     {
+      "id": "xl3-microbial-metabolism--regulation-of-major-metabolic-pathways",
+      "name": "Regulation of major metabolic pathways",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "xl3-microbial-diseases-and-host-pa",
+  "name": "Microbial Diseases and Host Pathogen Interaction",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Microbial Diseases and Host Pathogen Interaction",
+    "topics": [
+     {
+      "id": "xl3-microbial-diseases-and-host-pa--normal-microbiota",
+      "name": "Normal microbiota",
+      "diff": "E",
+      "sample": true
+     },
+     {
+      "id": "xl3-microbial-diseases-and-host-pa--classification-of-infectious-diseases",
+      "name": "Classification of infectious diseases",
+      "diff": "E"
+     },
+     {
+      "id": "xl3-microbial-diseases-and-host-pa--reservoirs-of-infection",
+      "name": "Reservoirs of infection",
+      "diff": "M"
+     },
+     {
+      "id": "xl3-microbial-diseases-and-host-pa--nosocomial-infection",
+      "name": "Nosocomial infection",
+      "diff": "M"
+     },
+     {
+      "id": "xl3-microbial-diseases-and-host-pa--opportunistic-infections",
+      "name": "Opportunistic infections",
+      "diff": "M"
+     },
+     {
+      "id": "xl3-microbial-diseases-and-host-pa--emerging-infectious-diseases",
+      "name": "Emerging infectious diseases",
+      "diff": "M"
+     },
+     {
+      "id": "xl3-microbial-diseases-and-host-pa--mechanism-of-microbial-pathogenicity",
+      "name": "Mechanism of microbial pathogenicity",
+      "diff": "M"
+     },
+     {
+      "id": "xl3-microbial-diseases-and-host-pa--nonspecific-defense-of-host",
+      "name": "Nonspecific defense of host",
+      "diff": "M"
+     },
+     {
+      "id": "xl3-microbial-diseases-and-host-pa--antigens-and-antibodies",
+      "name": "Antigens and antibodies",
+      "diff": "M"
+     },
+     {
+      "id": "xl3-microbial-diseases-and-host-pa--humoral-and-cell-mediated-immunity",
+      "name": "Humoral and cell mediated immunity",
+      "diff": "M"
+     },
+     {
+      "id": "xl3-microbial-diseases-and-host-pa--vaccines",
+      "name": "Vaccines",
+      "diff": "E"
+     },
+     {
+      "id": "xl3-microbial-diseases-and-host-pa--passive-immunization",
+      "name": "Passive immunization",
+      "diff": "M"
+     },
+     {
+      "id": "xl3-microbial-diseases-and-host-pa--immune-deficiency",
+      "name": "Immune deficiency",
+      "diff": "E"
+     },
+     {
+      "id": "xl3-microbial-diseases-and-host-pa--human-diseases-caused-by-viruses-bacteria-and-pathogenic-fun",
+      "name": "Human diseases caused by viruses, bacteria, and pathogenic fungi",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "xl3-control-of-micro-organisms-che",
+  "name": "Control of Micro-organisms: Chemotherapy/Antibiotics",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Control of Micro-organisms: Chemotherapy/Antibiotics",
+    "topics": [
+     {
+      "id": "xl3-control-of-micro-organisms-che--general-characteristics-of-antimicrobial-drugs",
+      "name": "General characteristics of antimicrobial drugs",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "xl3-control-of-micro-organisms-che--antibiotics-classification",
+      "name": "Antibiotics: Classification",
+      "diff": "E"
+     },
+     {
+      "id": "xl3-control-of-micro-organisms-che--molecular-mechanism-of-mode-of-action-and-resistance",
+      "name": "Molecular mechanism of mode of action and resistance",
+      "diff": "M"
+     },
+     {
+      "id": "xl3-control-of-micro-organisms-che--antifungal-and-antiviral-drugs",
+      "name": "Antifungal and antiviral drugs",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "xl3-microbial-genetics",
+  "name": "Microbial Genetics",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Microbial Genetics",
+    "topics": [
+     {
+      "id": "xl3-microbial-genetics--types-of-mutation",
+      "name": "Types of mutation",
+      "diff": "E",
+      "sample": true
+     },
+     {
+      "id": "xl3-microbial-genetics--uv-and-chemical-mutagens",
+      "name": "UV and chemical mutagens",
+      "diff": "M"
+     },
+     {
+      "id": "xl3-microbial-genetics--selection-of-mutants",
+      "name": "Selection of mutants",
+      "diff": "M"
+     },
+     {
+      "id": "xl3-microbial-genetics--ames-test-for-mutagenesis",
+      "name": "Ames test for mutagenesis",
+      "diff": "M"
+     },
+     {
+      "id": "xl3-microbial-genetics--bacterial-genetic-system-transformation",
+      "name": "Bacterial genetic system: transformation",
+      "diff": "H"
+     },
+     {
+      "id": "xl3-microbial-genetics--conjugation",
+      "name": "Conjugation",
+      "diff": "E"
+     },
+     {
+      "id": "xl3-microbial-genetics--transduction",
+      "name": "Transduction",
+      "diff": "E"
+     },
+     {
+      "id": "xl3-microbial-genetics--recombination",
+      "name": "Recombination",
+      "diff": "E"
+     },
+     {
+      "id": "xl3-microbial-genetics--plasmids",
+      "name": "Plasmids",
+      "diff": "E"
+     },
+     {
+      "id": "xl3-microbial-genetics--transposons",
+      "name": "Transposons",
+      "diff": "E"
+     },
+     {
+      "id": "xl3-microbial-genetics--dna-repair",
+      "name": "DNA repair",
+      "diff": "E"
+     },
+     {
+      "id": "xl3-microbial-genetics--regulation-of-gene-expression-repression-a-nd-induction",
+      "name": "Regulation of gene expression: repression a nd induction",
+      "diff": "M"
+     },
+     {
+      "id": "xl3-microbial-genetics--operon-model",
+      "name": "Operon model",
+      "diff": "E"
+     },
+     {
+      "id": "xl3-microbial-genetics--bacterial-genome-with-special-reference-to-e-coli",
+      "name": "Bacterial genome with special reference to E.coli",
+      "diff": "M"
+     },
+     {
+      "id": "xl3-microbial-genetics--phage-and-its-life-cycle",
+      "name": "Phage λ and its life cycle",
+      "diff": "M"
+     },
+     {
+      "id": "xl3-microbial-genetics--rna",
+      "name": "RNA",
+      "diff": "E"
+     },
+     {
+      "id": "xl3-microbial-genetics--mutation-in-virus-genomes-virus-recombination-and-reassortme",
+      "name": "Mutation in virus genomes, virus recombination and reassortment",
+      "diff": "M"
+     },
+     {
+      "id": "xl3-microbial-genetics--basic-concept-of-microbial-genomics",
+      "name": "Basic concept of microbial genomics",
+      "diff": "E"
+     },
+     {
+      "id": "xl3-microbial-genetics--cell-cycle-and-cell-division-in-lower-eukaryotes",
+      "name": "Cell cycle and cell division in lower eukaryotes",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "xl3-microbial-ecology",
+  "name": "Microbial Ecology",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Microbial Ecology",
+    "topics": [
+     {
+      "id": "xl3-microbial-ecology--microbial-interactions",
+      "name": "Microbial interactions",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "xl3-microbial-ecology--carbon-sulphur-and-nitrogen-cycles",
+      "name": "Carbon, sulphur and nitrogen cycles",
+      "diff": "M"
+     },
+     {
+      "id": "xl3-microbial-ecology--soil-microorganisms-associated-with-vascular-plants",
+      "name": "Soil microorganisms associated with vascular plants",
+      "diff": "M"
+     },
+     {
+      "id": "xl3-microbial-ecology--bioremediation",
+      "name": "Bioremediation",
+      "diff": "E"
+     },
+     {
+      "id": "xl3-microbial-ecology--uncultivable-microorganisms",
+      "name": "Uncultivable microorganisms",
+      "diff": "M"
+     },
+     {
+      "id": "xl3-microbial-ecology--basic-concept-of-metagenomics-and-metatranscriptomics",
+      "name": "Basic concept of metagenomics and metatranscriptomics",
+      "diff": "E"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "xl4-animal-diversity",
+  "name": "Animal Diversity",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Animal Diversity",
+    "topics": [
+     {
+      "id": "xl4-animal-diversity--systematics-and-classification-of-animals",
+      "name": "Systematics and classification of animals",
+      "diff": "E",
+      "sample": true
+     },
+     {
+      "id": "xl4-animal-diversity--phylogenetic-relationships-based-on-classical-and-molecular-",
+      "name": "Phylogenetic relationships (based on classical and molecular phylogenetic tools)",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "xl4-evolution",
+  "name": "Evolution",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Evolution",
+    "topics": [
+     {
+      "id": "xl4-evolution--origin-and-history-of-life-on-earth",
+      "name": "Origin and history of life on earth",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "xl4-evolution--theories-of-evolution",
+      "name": "Theories of evolution",
+      "diff": "M"
+     },
+     {
+      "id": "xl4-evolution--natural-selection",
+      "name": "Natural selection",
+      "diff": "E"
+     },
+     {
+      "id": "xl4-evolution--adaptation",
+      "name": "Adaptation",
+      "diff": "E"
+     },
+     {
+      "id": "xl4-evolution--speciation",
+      "name": "Speciation",
+      "diff": "E"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "xl4-genetics",
+  "name": "Genetics",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Genetics",
+    "topics": [
+     {
+      "id": "xl4-genetics--basic-principles-of-inheritance",
+      "name": "Basic Principles of inheritance",
+      "diff": "E",
+      "sample": true
+     },
+     {
+      "id": "xl4-genetics--molecular-basis-of-heredity",
+      "name": "Molecular basis of heredity",
+      "diff": "M"
+     },
+     {
+      "id": "xl4-genetics--sex-determination-and-sex-linked-characteristics",
+      "name": "Sex determination and sex -linked characteristics",
+      "diff": "M"
+     },
+     {
+      "id": "xl4-genetics--cytoplasmic-inheritance",
+      "name": "Cytoplasmic inheritance",
+      "diff": "M"
+     },
+     {
+      "id": "xl4-genetics--linkage",
+      "name": "Linkage",
+      "diff": "E"
+     },
+     {
+      "id": "xl4-genetics--recombination-and-mapping-of-genes-in-eukaryotes",
+      "name": "Recombination and mapping of genes in eukaryotes",
+      "diff": "M"
+     },
+     {
+      "id": "xl4-genetics--population-genetics",
+      "name": "Population genetics",
+      "diff": "M"
+     },
+     {
+      "id": "xl4-genetics--genetic-disorders",
+      "name": "Genetic disorders",
+      "diff": "E"
+     },
+     {
+      "id": "xl4-genetics--roles-of-model-organisms-in-understanding-genetic-principles",
+      "name": "Roles of model organisms in understanding genetic principles",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "xl4-biochemistry-and-molecular-bio",
+  "name": "Biochemistry and Molecular Biology",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Biochemistry and Molecular Biology",
+    "topics": [
+     {
+      "id": "xl4-biochemistry-and-molecular-bio--nucleic-acids-proteins-lipids-and-carbohydrates",
+      "name": "Nucleic acids, proteins, lipids and carbohydrates",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "xl4-biochemistry-and-molecular-bio--replication",
+      "name": "Replication",
+      "diff": "E"
+     },
+     {
+      "id": "xl4-biochemistry-and-molecular-bio--transcription-and-translation",
+      "name": "Transcription and translation",
+      "diff": "M"
+     },
+     {
+      "id": "xl4-biochemistry-and-molecular-bio--krebs-cycle",
+      "name": "Krebs cycle",
+      "diff": "E"
+     },
+     {
+      "id": "xl4-biochemistry-and-molecular-bio--glycolysis",
+      "name": "Glycolysis",
+      "diff": "E"
+     },
+     {
+      "id": "xl4-biochemistry-and-molecular-bio--enzyme-catalysis",
+      "name": "Enzyme catalysis",
+      "diff": "E"
+     },
+     {
+      "id": "xl4-biochemistry-and-molecular-bio--hormones-and-their-actions",
+      "name": "Hormones and their actions",
+      "diff": "M"
+     },
+     {
+      "id": "xl4-biochemistry-and-molecular-bio--roles-of-vitamins-and-minerals",
+      "name": "Roles of vitamins and minerals",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "xl4-cell-biology",
+  "name": "Cell Biology",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Cell Biology",
+    "topics": [
+     {
+      "id": "xl4-cell-biology--basic-principles-of-cellular-microscopy",
+      "name": "Basic principles of cellular microscopy",
+      "diff": "E",
+      "sample": true
+     },
+     {
+      "id": "xl4-cell-biology--structure-of-cell",
+      "name": "Structure of cell",
+      "diff": "E"
+     },
+     {
+      "id": "xl4-cell-biology--cytoskeletal-organization",
+      "name": "Cytoskeletal organization",
+      "diff": "M"
+     },
+     {
+      "id": "xl4-cell-biology--cellular-organelles-and-their-structure-and-function",
+      "name": "Cellular organelles and their structure and function",
+      "diff": "M"
+     },
+     {
+      "id": "xl4-cell-biology--cell-cycle",
+      "name": "Cell cycle",
+      "diff": "E"
+     },
+     {
+      "id": "xl4-cell-biology--cell-division",
+      "name": "Cell division",
+      "diff": "E"
+     },
+     {
+      "id": "xl4-cell-biology--chromosomes-and-chromatin-structure",
+      "name": "Chromosomes and chromatin structure",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "xl4-gene-expression-in-eukaryotes",
+  "name": "Gene expression in Eukaryotes",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Gene expression in Eukaryotes",
+    "topics": [
+     {
+      "id": "xl4-gene-expression-in-eukaryotes--eukaryotic-genome-organization-and-regulation-of-gene-expres",
+      "name": "Eukaryotic genome organization and regulation of gene expression",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "xl4-gene-expression-in-eukaryotes--transposable-elements",
+      "name": "Transposable elements",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "xl4-animal-anatomy-and-physiology",
+  "name": "Animal Anatomy and Physiology",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Animal Anatomy and Physiology",
+    "topics": [
+     {
+      "id": "xl4-animal-anatomy-and-physiology--comparative-anatomy-and-physiology",
+      "name": "Comparative anatomy and physiology",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "xl4-animal-anatomy-and-physiology--respiratory-system",
+      "name": "Respiratory system",
+      "diff": "M"
+     },
+     {
+      "id": "xl4-animal-anatomy-and-physiology--muscular-system",
+      "name": "Muscular system",
+      "diff": "E"
+     },
+     {
+      "id": "xl4-animal-anatomy-and-physiology--circulatory-system",
+      "name": "Circulatory system",
+      "diff": "M"
+     },
+     {
+      "id": "xl4-animal-anatomy-and-physiology--digestive-system",
+      "name": "Digestive system",
+      "diff": "E"
+     },
+     {
+      "id": "xl4-animal-anatomy-and-physiology--nervous-system",
+      "name": "Nervous system",
+      "diff": "E"
+     },
+     {
+      "id": "xl4-animal-anatomy-and-physiology--excretory-system",
+      "name": "Excretory system",
+      "diff": "E"
+     },
+     {
+      "id": "xl4-animal-anatomy-and-physiology--endocrine-system",
+      "name": "Endocrine system",
+      "diff": "E"
+     },
+     {
+      "id": "xl4-animal-anatomy-and-physiology--reproductive-system",
+      "name": "Reproductive system",
+      "diff": "M"
+     },
+     {
+      "id": "xl4-animal-anatomy-and-physiology--skeletal-system",
+      "name": "Skeletal system",
+      "diff": "E"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "xl4-parasitology-and-immunology",
+  "name": "Parasitology and Immunology",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Parasitology and Immunology",
+    "topics": [
+     {
+      "id": "xl4-parasitology-and-immunology--nature-of-parasite",
+      "name": "Nature of parasite",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "xl4-parasitology-and-immunology--host-parasite-relation",
+      "name": "Host -parasite relation",
+      "diff": "M"
+     },
+     {
+      "id": "xl4-parasitology-and-immunology--protozoan-and-helminthic-parasites",
+      "name": "Protozoan and helminthic parasites",
+      "diff": "M"
+     },
+     {
+      "id": "xl4-parasitology-and-immunology--the-immune-system",
+      "name": "The immune system",
+      "diff": "E"
+     },
+     {
+      "id": "xl4-parasitology-and-immunology--cellular-and-humoral-immune-response",
+      "name": "Cellular and humoral immune response",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "xl4-development-biology",
+  "name": "Development Biology",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Development Biology",
+    "topics": [
+     {
+      "id": "xl4-development-biology--gametogenesis",
+      "name": "Gametogenesis",
+      "diff": "E",
+      "sample": true
+     },
+     {
+      "id": "xl4-development-biology--embryonic-development",
+      "name": "Embryonic development",
+      "diff": "M"
+     },
+     {
+      "id": "xl4-development-biology--cellular-differentiation",
+      "name": "Cellular differentiation",
+      "diff": "M"
+     },
+     {
+      "id": "xl4-development-biology--organogenesis",
+      "name": "Organogenesis",
+      "diff": "E"
+     },
+     {
+      "id": "xl4-development-biology--metamorphosis",
+      "name": "Metamorphosis",
+      "diff": "E"
+     },
+     {
+      "id": "xl4-development-biology--model-organisms-used-in-developmental-biology",
+      "name": "Model organisms used in developmental biology",
+      "diff": "M"
+     },
+     {
+      "id": "xl4-development-biology--genetic-and-molecular-basis-of-development",
+      "name": "Genetic and molecular basis of development",
+      "diff": "M"
+     },
+     {
+      "id": "xl4-development-biology--stem-cells",
+      "name": "Stem cells",
+      "diff": "E"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "xl4-ecology",
+  "name": "Ecology",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Ecology",
+    "topics": [
+     {
+      "id": "xl4-ecology--the-ecosystem",
+      "name": "The ecosystem",
+      "diff": "E",
+      "sample": true
+     },
+     {
+      "id": "xl4-ecology--animal-distribution",
+      "name": "Animal distribution",
+      "diff": "M"
+     },
+     {
+      "id": "xl4-ecology--ecological-niche-and-its-contribution-to-ecological-diversit",
+      "name": "Ecological niche and its contribution to ecological diversity",
+      "diff": "M"
+     },
+     {
+      "id": "xl4-ecology--the-food-chain",
+      "name": "The food chain",
+      "diff": "E"
+     },
+     {
+      "id": "xl4-ecology--population-dynamics",
+      "name": "Population dynamics",
+      "diff": "M"
+     },
+     {
+      "id": "xl4-ecology--species-diversity",
+      "name": "Species diversity",
+      "diff": "E"
+     },
+     {
+      "id": "xl4-ecology--zoogeography",
+      "name": "Zoogeography",
+      "diff": "E"
+     },
+     {
+      "id": "xl4-ecology--biogeochemical-cycles",
+      "name": "Biogeochemical cycles",
+      "diff": "M"
+     },
+     {
+      "id": "xl4-ecology--conservation-biology",
+      "name": "Conservation biology",
+      "diff": "M"
+     },
+     {
+      "id": "xl4-ecology--ecotoxicology",
+      "name": "Ecotoxicology",
+      "diff": "E"
+     },
+     {
+      "id": "xl4-ecology--biodiversity-hotspots-in-india",
+      "name": "Biodiversity hotspots in India",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "xl4-animal-behaviour",
+  "name": "Animal Behaviour",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Animal Behaviour",
+    "topics": [
+     {
+      "id": "xl4-animal-behaviour--type-of-animal-behaviours-and-their-evolution",
+      "name": "Type of animal behaviours and their evolution",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "xl4-animal-behaviour--courtship",
+      "name": "Courtship",
+      "diff": "E"
+     },
+     {
+      "id": "xl4-animal-behaviour--mating-and-territoriality",
+      "name": "Mating and territoriality",
+      "diff": "M"
+     },
+     {
+      "id": "xl4-animal-behaviour--instinct",
+      "name": "Instinct",
+      "diff": "E"
+     },
+     {
+      "id": "xl4-animal-behaviour--learning-and-memory",
+      "name": "Learning and memory",
+      "diff": "M"
+     },
+     {
+      "id": "xl4-animal-behaviour--social-behaviour-across-the-animal-taxa",
+      "name": "Social behaviour across the animal taxa",
+      "diff": "M"
+     },
+     {
+      "id": "xl4-animal-behaviour--communication",
+      "name": "Communication",
+      "diff": "E"
+     },
+     {
+      "id": "xl4-animal-behaviour--pheromones",
+      "name": "Pheromones",
+      "diff": "E"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "xl5-food-chemistry-and-nutrition",
+  "name": "Food Chemistry and Nutrition",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Overview",
+    "topics": [
+     {
+      "id": "xl5-food-chemistry-and-nutrition--food-components-characterization-and-quantification-techniqu",
+      "name": "Food Components Characterization and quantification techniques",
+      "diff": "M",
+      "sample": true
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Carbohydrates",
+    "topics": [
+     {
+      "id": "xl5-food-chemistry-and-nutrition--structure-and-functional-properties-of-mono",
+      "name": "Structure and functional properties of mono-",
+      "diff": "E"
+     },
+     {
+      "id": "xl5-food-chemistry-and-nutrition--oligo",
+      "name": "Oligo-",
+      "diff": "E"
+     },
+     {
+      "id": "xl5-food-chemistry-and-nutrition--and-poly-saccharides-including-starch",
+      "name": "& poly- saccharides including starch",
+      "diff": "M"
+     },
+     {
+      "id": "xl5-food-chemistry-and-nutrition--cellulose",
+      "name": "Cellulose",
+      "diff": "E"
+     },
+     {
+      "id": "xl5-food-chemistry-and-nutrition--pectic-substances-and-dietary-fibre",
+      "name": "Pectic substances and dietary fibre",
+      "diff": "M"
+     },
+     {
+      "id": "xl5-food-chemistry-and-nutrition--gelatinization-and-retrogradation-of-starch",
+      "name": "Gelatinization and retrogradation of starch",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "C",
+    "name": "Proteins",
+    "topics": [
+     {
+      "id": "xl5-food-chemistry-and-nutrition--classification-and-structure-of-proteins-in-food",
+      "name": "Classification and structure of proteins in food",
+      "diff": "E"
+     },
+     {
+      "id": "xl5-food-chemistry-and-nutrition--protein-denaturation",
+      "name": "Protein denaturation",
+      "diff": "M"
+     },
+     {
+      "id": "xl5-food-chemistry-and-nutrition--functional-properties-of-proteins-and-starch",
+      "name": "Functional properties of proteins and starch",
+      "diff": "E"
+     }
+    ]
+   },
+   {
+    "letter": "D",
+    "name": "Lipids",
+    "topics": [
+     {
+      "id": "xl5-food-chemistry-and-nutrition--classification-and-structure-of-lipids",
+      "name": "Classification and structure of lipids",
+      "diff": "E"
+     },
+     {
+      "id": "xl5-food-chemistry-and-nutrition--rancidity",
+      "name": "Rancidity",
+      "diff": "E"
+     },
+     {
+      "id": "xl5-food-chemistry-and-nutrition--polymerization-and-polymorphism",
+      "name": "Polymerization and polymorphism",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "E",
+    "name": "Pigments",
+    "topics": [
+     {
+      "id": "xl5-food-chemistry-and-nutrition--carotenoids-chlorophylls-anthocyanins-tannins-and-myoglobin",
+      "name": "Carotenoids, chlorophylls, anthocyanins, tannins and myoglobin",
+      "diff": "M"
+     },
+     {
+      "id": "xl5-food-chemistry-and-nutrition--curcumin-betalains",
+      "name": "Curcumin, betalains",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "F",
+    "name": "Food Flavours",
+    "topics": [
+     {
+      "id": "xl5-food-chemistry-and-nutrition--terpenes-esters-aldehydes-ketones-and-quinines",
+      "name": "Terpenes, esters, aldehydes, ketones and quinines",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "G",
+    "name": "Enzymes",
+    "topics": [
+     {
+      "id": "xl5-food-chemistry-and-nutrition--specificity",
+      "name": "Specificity",
+      "diff": "E"
+     },
+     {
+      "id": "xl5-food-chemistry-and-nutrition--simple-and-inhibition-kinetics",
+      "name": "Simple and inhibition kinetics",
+      "diff": "H"
+     },
+     {
+      "id": "xl5-food-chemistry-and-nutrition--coenzymes",
+      "name": "Coenzymes",
+      "diff": "E"
+     },
+     {
+      "id": "xl5-food-chemistry-and-nutrition--enzymatic-and-non-enzymatic-browning",
+      "name": "Enzymatic and non- enzymatic browning",
+      "diff": "M"
+     },
+     {
+      "id": "xl5-food-chemistry-and-nutrition--food-enzymology",
+      "name": "Food enzymology",
+      "diff": "E"
+     }
+    ]
+   },
+   {
+    "letter": "H",
+    "name": "Nutrition",
+    "topics": [
+     {
+      "id": "xl5-food-chemistry-and-nutrition--balanced-diet",
+      "name": "Balanced diet",
+      "diff": "E"
+     },
+     {
+      "id": "xl5-food-chemistry-and-nutrition--essential-amino-acids-and-essential-fatty-acids",
+      "name": "Essential amino acids and essential fatty acids",
+      "diff": "M"
+     },
+     {
+      "id": "xl5-food-chemistry-and-nutrition--protein-efficiency-ratio",
+      "name": "Protein efficiency ratio",
+      "diff": "M"
+     },
+     {
+      "id": "xl5-food-chemistry-and-nutrition--water-soluble-and-fat-soluble-vitamins",
+      "name": "Water soluble and fat soluble vitamins",
+      "diff": "M"
+     },
+     {
+      "id": "xl5-food-chemistry-and-nutrition--role-of-minerals-in-nutrition",
+      "name": "Role of minerals in nutrition",
+      "diff": "M"
+     },
+     {
+      "id": "xl5-food-chemistry-and-nutrition--co-factors",
+      "name": "Co -factors",
+      "diff": "E"
+     },
+     {
+      "id": "xl5-food-chemistry-and-nutrition--anti-nutrients",
+      "name": "Anti -nutrients",
+      "diff": "E"
+     },
+     {
+      "id": "xl5-food-chemistry-and-nutrition--nutraceuticals",
+      "name": "Nutraceuticals",
+      "diff": "E"
+     },
+     {
+      "id": "xl5-food-chemistry-and-nutrition--nutrient-deficiency-diseases",
+      "name": "Nutrient deficiency diseases",
+      "diff": "M"
+     },
+     {
+      "id": "xl5-food-chemistry-and-nutrition--food-supplements-concept-of-nutrigenomics",
+      "name": "Food Supplements, Concept of nutrigenomics",
+      "diff": "M"
+     },
+     {
+      "id": "xl5-food-chemistry-and-nutrition--food-adulteration-types-of-adulterants-and-their-detection",
+      "name": "Food adulteration (types of adulterants and their detection)",
+      "diff": "E"
+     }
+    ]
+   },
+   {
+    "letter": "I",
+    "name": "Chemical and Biochemical Changes",
+    "topics": [
+     {
+      "id": "xl5-food-chemistry-and-nutrition--changes-occurring-in-foods-during-different-processing",
+      "name": "Changes occurring in foods during different processing",
+      "diff": "M"
+     },
+     {
+      "id": "xl5-food-chemistry-and-nutrition--changes-occur-in-foods-and-food-biopolymers-carbohydrates-pr",
+      "name": "Changes occur in foods and food biopolymers (carbohydrates, proteins, lipids) during different processing",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "xl5-food-microbiology",
+  "name": "Food Microbiology",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Characteristics of Microorganisms",
+    "topics": [
+     {
+      "id": "xl5-food-microbiology--morphology-of-bacteria",
+      "name": "Morphology of bacteria",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "xl5-food-microbiology--yeast",
+      "name": "Yeast",
+      "diff": "E"
+     },
+     {
+      "id": "xl5-food-microbiology--mold-and-actinomycetes",
+      "name": "Mold and actinomycetes",
+      "diff": "M"
+     },
+     {
+      "id": "xl5-food-microbiology--spores-and-vegetative-cells",
+      "name": "Spores and vegetative cells",
+      "diff": "M"
+     },
+     {
+      "id": "xl5-food-microbiology--gram-staining",
+      "name": "Gram-staining",
+      "diff": "E"
+     },
+     {
+      "id": "xl5-food-microbiology--resistant-bacteria",
+      "name": "Resistant bacteria",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Microbial Growth",
+    "topics": [
+     {
+      "id": "xl5-food-microbiology--d-value",
+      "name": "D-value",
+      "diff": "E"
+     },
+     {
+      "id": "xl5-food-microbiology--z-value",
+      "name": "Z-value",
+      "diff": "E"
+     },
+     {
+      "id": "xl5-food-microbiology--f-value",
+      "name": "F-value",
+      "diff": "E"
+     },
+     {
+      "id": "xl5-food-microbiology--growth-and-death-kinetics",
+      "name": "Growth and death kinetics",
+      "diff": "H"
+     },
+     {
+      "id": "xl5-food-microbiology--serial-dilution-technique",
+      "name": "Serial dilution technique",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "C",
+    "name": "Food Spoilage",
+    "topics": [
+     {
+      "id": "xl5-food-microbiology--spoilage-microorganisms-in-different-food-products-including",
+      "name": "Spoilage microorganisms in different food products including milk",
+      "diff": "M"
+     },
+     {
+      "id": "xl5-food-microbiology--fish",
+      "name": "Fish",
+      "diff": "E"
+     },
+     {
+      "id": "xl5-food-microbiology--meat",
+      "name": "Meat",
+      "diff": "E"
+     },
+     {
+      "id": "xl5-food-microbiology--egg",
+      "name": "Egg",
+      "diff": "E"
+     },
+     {
+      "id": "xl5-food-microbiology--cereals-and-their-products",
+      "name": "Cereals and their products",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "D",
+    "name": "Toxins from Microbes",
+    "topics": [
+     {
+      "id": "xl5-food-microbiology--pathogens-and-non-pathogens-including-staphylococcus",
+      "name": "Pathogens and non -pathogens including Staphylococcus",
+      "diff": "M"
+     },
+     {
+      "id": "xl5-food-microbiology--salmonella",
+      "name": "Salmonella",
+      "diff": "E"
+     },
+     {
+      "id": "xl5-food-microbiology--shigella",
+      "name": "Shigella",
+      "diff": "E"
+     },
+     {
+      "id": "xl5-food-microbiology--escherichia",
+      "name": "Escherichia",
+      "diff": "E"
+     },
+     {
+      "id": "xl5-food-microbiology--bacillus",
+      "name": "Bacillus",
+      "diff": "E"
+     },
+     {
+      "id": "xl5-food-microbiology--clostridium",
+      "name": "Clostridium",
+      "diff": "E"
+     },
+     {
+      "id": "xl5-food-microbiology--aspergillus-genera",
+      "name": "Aspergillus genera",
+      "diff": "M"
+     },
+     {
+      "id": "xl5-food-microbiology--food-borne-diseases",
+      "name": "Food borne diseases",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "E",
+    "name": "Fermented Foods and Beverages",
+    "topics": [
+     {
+      "id": "xl5-food-microbiology--curd",
+      "name": "Curd",
+      "diff": "E"
+     },
+     {
+      "id": "xl5-food-microbiology--yoghurt",
+      "name": "Yoghurt",
+      "diff": "E"
+     },
+     {
+      "id": "xl5-food-microbiology--cheese",
+      "name": "Cheese",
+      "diff": "E"
+     },
+     {
+      "id": "xl5-food-microbiology--pickles",
+      "name": "Pickles",
+      "diff": "E"
+     },
+     {
+      "id": "xl5-food-microbiology--soya-sauce",
+      "name": "Soya-sauce",
+      "diff": "E"
+     },
+     {
+      "id": "xl5-food-microbiology--sauerkraut",
+      "name": "Sauerkraut",
+      "diff": "E"
+     },
+     {
+      "id": "xl5-food-microbiology--idli",
+      "name": "Idli",
+      "diff": "E"
+     },
+     {
+      "id": "xl5-food-microbiology--dosa",
+      "name": "Dosa",
+      "diff": "E"
+     },
+     {
+      "id": "xl5-food-microbiology--vinegar",
+      "name": "Vinegar",
+      "diff": "E"
+     },
+     {
+      "id": "xl5-food-microbiology--alcoholic-beverages",
+      "name": "Alcoholic beverages",
+      "diff": "M"
+     },
+     {
+      "id": "xl5-food-microbiology--sausage",
+      "name": "Sausage",
+      "diff": "E"
+     }
+    ]
+   },
+   {
+    "letter": "F",
+    "name": "Probiotic foods",
+    "topics": [
+     {
+      "id": "xl5-food-microbiology--probiotic-microorganisms-their-benefits-prebiotics-synbiotic",
+      "name": "Probiotic microorganisms, their benefits, prebiotics, synbiotics",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "xl5-food-products-technology",
+  "name": "Food Products Technology",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Processing Principles",
+    "topics": [
+     {
+      "id": "xl5-food-products-technology--food-components-characterization-and-quantification-techniqu",
+      "name": "Food Components Characterization and quantification techniques",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "xl5-food-products-technology--quality-analysis-of-raw-and-processed-food-products",
+      "name": "Quality analysis of raw and processed food products",
+      "diff": "M"
+     },
+     {
+      "id": "xl5-food-products-technology--thermal-processing-blanching-pasteurization-sterilization",
+      "name": "Thermal processing (blanching, pasteurization, sterilization)",
+      "diff": "M"
+     },
+     {
+      "id": "xl5-food-products-technology--chilling",
+      "name": "Chilling",
+      "diff": "E"
+     },
+     {
+      "id": "xl5-food-products-technology--freezing",
+      "name": "Freezing",
+      "diff": "E"
+     },
+     {
+      "id": "xl5-food-products-technology--dehydration",
+      "name": "Dehydration",
+      "diff": "E"
+     },
+     {
+      "id": "xl5-food-products-technology--addition-of-preservatives-and-food-additives",
+      "name": "Addition of preservatives and food additives",
+      "diff": "M"
+     },
+     {
+      "id": "xl5-food-products-technology--microwave",
+      "name": "Microwave",
+      "diff": "E"
+     },
+     {
+      "id": "xl5-food-products-technology--radiowave",
+      "name": "Radiowave",
+      "diff": "E"
+     },
+     {
+      "id": "xl5-food-products-technology--infrared-processing",
+      "name": "Infrared processing",
+      "diff": "M"
+     },
+     {
+      "id": "xl5-food-products-technology--irradiation",
+      "name": "Irradiation",
+      "diff": "E"
+     },
+     {
+      "id": "xl5-food-products-technology--fermentation",
+      "name": "Fermentation",
+      "diff": "E"
+     },
+     {
+      "id": "xl5-food-products-technology--hurdle-technology",
+      "name": "Hurdle technology",
+      "diff": "E"
+     },
+     {
+      "id": "xl5-food-products-technology--intermediate-moisture-foods",
+      "name": "Intermediate moisture foods",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Non thermal technologies",
+    "topics": [
+     {
+      "id": "xl5-food-products-technology--ultrasonication-hpp-pulse-electric-field-cold-plasma",
+      "name": "Ultrasonication, HPP, Pulse Electric Field, Cold plasma",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "C",
+    "name": "Food packaging and storage",
+    "topics": [
+     {
+      "id": "xl5-food-products-technology--packaging-materials-and-their-properties",
+      "name": "Packaging materials and their properties",
+      "diff": "M"
+     },
+     {
+      "id": "xl5-food-products-technology--aseptic-packaging-active-and-intelligent-packaging",
+      "name": "Aseptic packaging Active and Intelligent packaging",
+      "diff": "M"
+     },
+     {
+      "id": "xl5-food-products-technology--controlled-and-modified-atmosphere-storage",
+      "name": "Controlled and modified atmosphere storage",
+      "diff": "M"
+     },
+     {
+      "id": "xl5-food-products-technology--microplastics-in-food",
+      "name": "Microplastics in food",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "D",
+    "name": "Cereal processing and products",
+    "topics": [
+     {
+      "id": "xl5-food-products-technology--milling-of-rice",
+      "name": "Milling of rice",
+      "diff": "E"
+     },
+     {
+      "id": "xl5-food-products-technology--wheat",
+      "name": "Wheat",
+      "diff": "E"
+     },
+     {
+      "id": "xl5-food-products-technology--maize",
+      "name": "Maize",
+      "diff": "E"
+     },
+     {
+      "id": "xl5-food-products-technology--pulse-processing",
+      "name": "Pulse processing",
+      "diff": "E"
+     },
+     {
+      "id": "xl5-food-products-technology--parboiling-of-paddy",
+      "name": "Parboiling of paddy",
+      "diff": "M"
+     },
+     {
+      "id": "xl5-food-products-technology--bread",
+      "name": "Bread",
+      "diff": "E"
+     },
+     {
+      "id": "xl5-food-products-technology--biscuits",
+      "name": "Biscuits",
+      "diff": "E"
+     },
+     {
+      "id": "xl5-food-products-technology--extruded-products-and-ready-to-eat-breakfast-cereals",
+      "name": "Extruded products and ready to eat breakfast cereals",
+      "diff": "M"
+     },
+     {
+      "id": "xl5-food-products-technology--meat-analogue-and-plant-based-milk-alternatives",
+      "name": "Meat Analogue and Plant-based milk alternatives",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "E",
+    "name": "Oil Processing",
+    "topics": [
+     {
+      "id": "xl5-food-products-technology--expelling-solvent-extraction-refining-and-hydrogenation",
+      "name": "Expelling, solvent extraction, refining and hydrogenation",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "F",
+    "name": "Fruits and Vegetables Processing",
+    "topics": [
+     {
+      "id": "xl5-food-products-technology--extraction",
+      "name": "Extraction",
+      "diff": "E"
+     },
+     {
+      "id": "xl5-food-products-technology--clarification",
+      "name": "Clarification",
+      "diff": "E"
+     },
+     {
+      "id": "xl5-food-products-technology--concentration-and-packaging-of-fruit-juice",
+      "name": "Concentration and packaging of fruit juice",
+      "diff": "M"
+     },
+     {
+      "id": "xl5-food-products-technology--jam",
+      "name": "Jam",
+      "diff": "E"
+     },
+     {
+      "id": "xl5-food-products-technology--jelly",
+      "name": "Jelly",
+      "diff": "E"
+     },
+     {
+      "id": "xl5-food-products-technology--marmalade",
+      "name": "Marmalade",
+      "diff": "E"
+     },
+     {
+      "id": "xl5-food-products-technology--squash",
+      "name": "Squash",
+      "diff": "E"
+     },
+     {
+      "id": "xl5-food-products-technology--candies",
+      "name": "Candies",
+      "diff": "E"
+     },
+     {
+      "id": "xl5-food-products-technology--tomato-sauce",
+      "name": "Tomato sauce",
+      "diff": "E"
+     },
+     {
+      "id": "xl5-food-products-technology--ketchup",
+      "name": "Ketchup",
+      "diff": "E"
+     },
+     {
+      "id": "xl5-food-products-technology--puree",
+      "name": "Puree",
+      "diff": "E"
+     },
+     {
+      "id": "xl5-food-products-technology--potato-chips",
+      "name": "Potato chips",
+      "diff": "E"
+     },
+     {
+      "id": "xl5-food-products-technology--pickles",
+      "name": "Pickles",
+      "diff": "E"
+     }
+    ]
+   },
+   {
+    "letter": "G",
+    "name": "Plantation crops processing and products",
+    "topics": [
+     {
+      "id": "xl5-food-products-technology--tea",
+      "name": "Tea",
+      "diff": "E"
+     },
+     {
+      "id": "xl5-food-products-technology--coffee",
+      "name": "Coffee",
+      "diff": "E"
+     },
+     {
+      "id": "xl5-food-products-technology--cocoa",
+      "name": "Cocoa",
+      "diff": "E"
+     },
+     {
+      "id": "xl5-food-products-technology--spice",
+      "name": "Spice",
+      "diff": "E"
+     },
+     {
+      "id": "xl5-food-products-technology--extraction-of-essential-oils-and-oleoresins-from-spices",
+      "name": "Extraction of essential oils and oleoresins from spices",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "H",
+    "name": "Milk and Milk Products Processing",
+    "topics": [
+     {
+      "id": "xl5-food-products-technology--pasteurization-and-sterilization",
+      "name": "Pasteurization and sterilization",
+      "diff": "M"
+     },
+     {
+      "id": "xl5-food-products-technology--cream",
+      "name": "Cream",
+      "diff": "E"
+     },
+     {
+      "id": "xl5-food-products-technology--butter",
+      "name": "Butter",
+      "diff": "E"
+     },
+     {
+      "id": "xl5-food-products-technology--ghee",
+      "name": "Ghee",
+      "diff": "E"
+     },
+     {
+      "id": "xl5-food-products-technology--ice-cream",
+      "name": "Ice- cream",
+      "diff": "E"
+     },
+     {
+      "id": "xl5-food-products-technology--cheese-and-milk-powder",
+      "name": "Cheese and milk powder",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "I",
+    "name": "Processing of animal products",
+    "topics": [
+     {
+      "id": "xl5-food-products-technology--processing-of-frozen",
+      "name": "Processing of frozen",
+      "diff": "M"
+     },
+     {
+      "id": "xl5-food-products-technology--canned",
+      "name": "Canned",
+      "diff": "E"
+     },
+     {
+      "id": "xl5-food-products-technology--dried-products",
+      "name": "Dried products",
+      "diff": "E"
+     },
+     {
+      "id": "xl5-food-products-technology--ready-to-eat-products-of-fish-and-meat",
+      "name": "Ready to eat products of fish and meat",
+      "diff": "M"
+     },
+     {
+      "id": "xl5-food-products-technology--curing-smoking-poultry-processing-animal-slaughtering",
+      "name": "Curing, smoking, poultry processing, animal slaughtering",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "J",
+    "name": "Waste Utilization",
+    "topics": [
+     {
+      "id": "xl5-food-products-technology--pectin-from-fruit-wastes-uses-of-by-products-from-rice-milli",
+      "name": "Pectin from fruit wastes, uses of by-products from rice milling",
+      "diff": "M"
+     },
+     {
+      "id": "xl5-food-products-technology--edible-films-and-packaging-materials-from-waste",
+      "name": "Edible films and packaging materials from waste",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "K",
+    "name": "Food standards and Quality Maintenance",
+    "topics": [
+     {
+      "id": "xl5-food-products-technology--fpo",
+      "name": "FPO",
+      "diff": "E"
+     },
+     {
+      "id": "xl5-food-products-technology--pfa",
+      "name": "PFA",
+      "diff": "E"
+     },
+     {
+      "id": "xl5-food-products-technology--a-mark",
+      "name": "A-Mark",
+      "diff": "E"
+     },
+     {
+      "id": "xl5-food-products-technology--haccp",
+      "name": "HACCP",
+      "diff": "E"
+     },
+     {
+      "id": "xl5-food-products-technology--food-plant-sanitation-and-cleaning-in-place-cip",
+      "name": "Food plant sanitation and cleaning in place (CIP)",
+      "diff": "M"
+     },
+     {
+      "id": "xl5-food-products-technology--fssai",
+      "name": "FSSAI",
+      "diff": "E"
+     },
+     {
+      "id": "xl5-food-products-technology--bis",
+      "name": "BIS",
+      "diff": "E"
+     },
+     {
+      "id": "xl5-food-products-technology--codex-alimentarius",
+      "name": "Codex Alimentarius",
+      "diff": "M"
+     },
+     {
+      "id": "xl5-food-products-technology--iso",
+      "name": "ISO",
+      "diff": "E"
+     },
+     {
+      "id": "xl5-food-products-technology--food-safety-and-management-system-fsms",
+      "name": "Food Safety and Management System (FSMS)",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "xl5-food-engineering",
+  "name": "Food Engineering",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Overview",
+    "topics": [
+     {
+      "id": "xl5-food-engineering--mass-and-energy-balance",
+      "name": "Mass and energy balance",
+      "diff": "M",
+      "sample": true
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Momentum Transfer",
+    "topics": [
+     {
+      "id": "xl5-food-engineering--flow-rate-and-pressure-drop-relationships-for-newtonian-flui",
+      "name": "Flow rate and pressure drop relationships for Newtonian fluids flowing through pipe",
+      "diff": "M"
+     },
+     {
+      "id": "xl5-food-engineering--reynolds-number",
+      "name": "Reynolds number",
+      "diff": "E"
+     }
+    ]
+   },
+   {
+    "letter": "C",
+    "name": "Heat transfer",
+    "topics": [
+     {
+      "id": "xl5-food-engineering--heat-transfer-by-conduction-convection-radiation-heat-exchan",
+      "name": "Heat transfer by conduction, convection, radiation, heat exchangers",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "D",
+    "name": "Mass Transfer",
+    "topics": [
+     {
+      "id": "xl5-food-engineering--molecular-diffusion-and-ficks-law",
+      "name": "Molecular diffusion and Fick's law",
+      "diff": "M"
+     },
+     {
+      "id": "xl5-food-engineering--conduction-and-convective-mass-transfer",
+      "name": "Conduction and convective mass transfer",
+      "diff": "M"
+     },
+     {
+      "id": "xl5-food-engineering--permeability-through-single-and-multilayer-films",
+      "name": "Permeability through single and multilayer films",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "E",
+    "name": "Mechanical Operations",
+    "topics": [
+     {
+      "id": "xl5-food-engineering--size-reduction-of-solids",
+      "name": "Size reduction of solids",
+      "diff": "M"
+     },
+     {
+      "id": "xl5-food-engineering--high-pressure-homogenization",
+      "name": "High pressure homogenization",
+      "diff": "M"
+     },
+     {
+      "id": "xl5-food-engineering--filtration",
+      "name": "Filtration",
+      "diff": "E"
+     },
+     {
+      "id": "xl5-food-engineering--centrifugation",
+      "name": "Centrifugation",
+      "diff": "E"
+     },
+     {
+      "id": "xl5-food-engineering--settling",
+      "name": "Settling",
+      "diff": "E"
+     },
+     {
+      "id": "xl5-food-engineering--sieving",
+      "name": "Sieving",
+      "diff": "E"
+     },
+     {
+      "id": "xl5-food-engineering--mixing-and-agitation-of-liquid",
+      "name": "Mixing & agitation of liquid",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "F",
+    "name": "Thermal operations",
+    "topics": [
+     {
+      "id": "xl5-food-engineering--thermal-blanching",
+      "name": "Thermal blanching",
+      "diff": "E"
+     },
+     {
+      "id": "xl5-food-engineering--pasteurization",
+      "name": "Pasteurization",
+      "diff": "E"
+     },
+     {
+      "id": "xl5-food-engineering--sterilization",
+      "name": "Sterilization",
+      "diff": "E"
+     },
+     {
+      "id": "xl5-food-engineering--evaporation-of-liquid-foods",
+      "name": "Evaporation of liquid foods",
+      "diff": "M"
+     },
+     {
+      "id": "xl5-food-engineering--hot-air-drying-of-solids",
+      "name": "Hot air drying of solids",
+      "diff": "M"
+     },
+     {
+      "id": "xl5-food-engineering--spray-and-freeze-drying",
+      "name": "Spray and freeze-drying",
+      "diff": "M"
+     },
+     {
+      "id": "xl5-food-engineering--freezing-and-crystallization",
+      "name": "Freezing and crystallization",
+      "diff": "M"
+     },
+     {
+      "id": "xl5-food-engineering--mass-transfer-operations-psychometric",
+      "name": "Mass Transfer Operations: Psychometric",
+      "diff": "M"
+     },
+     {
+      "id": "xl5-food-engineering--humidification-and-dehumidification-operations",
+      "name": "Humidification and dehumidification operations",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ }
+]

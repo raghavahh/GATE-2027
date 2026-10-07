@@ -121,12 +121,24 @@ def build(code):
     return subjects
 
 
+COMPOSITE = {"XE": [f"XE{i}" for i in range(1, 9)], "XL": [f"XL{i}" for i in range(1, 6)], "XH": [f"XH{i}" for i in range(1, 7)]}
+
+
+def build_any(code):
+    if code not in COMPOSITE:
+        return build(code)
+    subs = []
+    for part in COMPOSITE[code]:
+        subs.extend(build(part))
+    return subs
+
+
 def main():
     OUT.mkdir(parents=True, exist_ok=True)
     codes = [c.upper() for c in sys.argv[1:]] or PAPERS
     for code in codes:
         try:
-            subs = build(code)
+            subs = build_any(code)
         except Exception as e:  # missing PDF etc.
             print(f"{code}: FAILED {e}")
             continue
