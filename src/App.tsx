@@ -8,6 +8,7 @@ import { devUnlockFromUrl } from './lib/store';
 import { AuthProvider } from './lib/auth';
 import { AdminPage } from './pages/AdminPage';
 import { MePage } from './pages/MePage';
+import { AuthPage } from './pages/AuthPage';
 import { ContactPage, DeliveryPage, PrivacyPage, RefundPage, TermsPage } from './pages/Legal';
 
 devUnlockFromUrl();
@@ -24,6 +25,7 @@ export default function App() {
           <Route path="guide" element={<GuidePage />} />
           <Route path="admin" element={<AdminPage />} />
           <Route path="me" element={<MePage />} />
+          <Route path="auth" element={<AuthPage />} />
           <Route path="terms" element={<TermsPage />} />
           <Route path="privacy" element={<PrivacyPage />} />
           <Route path="refund" element={<RefundPage />} />

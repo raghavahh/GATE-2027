@@ -78,7 +78,7 @@ export function SignInModal({ onClose, reason }: { onClose: () => void; reason?:
           </>
         ) : (
           <>
-            <p className="mt-5 text-sm text-sub">We emailed <span className="text-ink">{email}</span>. Type the code from that email below.</p>
+            <p className="mt-5 text-sm text-sub">We emailed <span className="text-ink">{email}</span>. Type the code from that email below, or tap the sign-in link in it.</p>
             <label htmlFor="si-code" className="mt-4 block text-sm font-medium">Code</label>
             <input id="si-code" inputMode="numeric" autoComplete="one-time-code" maxLength={10} value={code} onChange={e => { setCode(e.target.value.replace(/\D/g, '')); setErr(''); }}
               className="mt-1.5 h-11 w-full rounded-lg border border-line bg-page px-3 font-mono tracking-[0.4em] outline-none focus:border-brand/60" />
