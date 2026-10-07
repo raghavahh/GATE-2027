@@ -47,11 +47,11 @@ export function SignInModal({ onClose, reason }: { onClose: () => void; reason?:
             <label htmlFor="si-email" className="text-sm font-medium">Email</label>
             <input id="si-email" type="email" autoComplete="email" value={email} onChange={e => { setEmail(e.target.value); setErr(''); }}
               placeholder="you@gmail.com" className="mt-1.5 h-11 w-full rounded-lg border border-line bg-page px-3 outline-none focus:border-brand/60" />
-            <button type="button" disabled={busy} onClick={sendCode} className="btn-primary mt-3 h-11 w-full"><Mail size={16} />{busy ? 'Sending…' : 'Email me a code'}</button>
+            <button type="button" disabled={busy} onClick={sendCode} className="btn-primary mt-3 h-11 w-full"><Mail size={16} />{busy ? 'Sending…' : 'Email me a sign-in link'}</button>
           </>
         ) : (
           <>
-            <p className="mt-5 text-sm text-sub">We sent a 6-digit code to <span className="text-ink">{email}</span>.</p>
+            <p className="mt-5 text-sm text-sub">We emailed <span className="text-ink">{email}</span>. Tap the sign-in link in it on this device, or type the 6-digit code if the email has one.</p>
             <label htmlFor="si-code" className="mt-4 block text-sm font-medium">Code</label>
             <input id="si-code" inputMode="numeric" autoComplete="one-time-code" maxLength={6} value={code} onChange={e => { setCode(e.target.value); setErr(''); }}
               className="mt-1.5 h-11 w-full rounded-lg border border-line bg-page px-3 font-mono tracking-[0.4em] outline-none focus:border-brand/60" />
