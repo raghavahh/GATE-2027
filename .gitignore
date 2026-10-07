@@ -6,3 +6,4 @@ dist/
 # Paid content: full curated video lists (uploaded to Supabase, never public)
 src/catalog/videos.json
 scripts/*.log
+supabase/.temp/
