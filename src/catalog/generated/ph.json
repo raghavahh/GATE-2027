@@ -1,0 +1,983 @@
+[
+ {
+  "id": "ph-measurements-and-error-analysi",
+  "name": "Measurements and Error Analysis",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Measurements and Error Analysis",
+    "topics": [
+     {
+      "id": "ph-measurements-and-error-analysi--units-and-dimensions-dimensional-analysis",
+      "name": "Units and dimensions, dimensional analysis",
+      "diff": "E",
+      "sample": true
+     },
+     {
+      "id": "ph-measurements-and-error-analysi--least-count-significant-figures",
+      "name": "Least count, significant figures",
+      "diff": "M"
+     },
+     {
+      "id": "ph-measurements-and-error-analysi--methods-of-measurement-and-error-analysis-for-physical-quant",
+      "name": "Methods of measurement and error analysis for physical quantities associated with various measurements",
+      "diff": "M"
+     },
+     {
+      "id": "ph-measurements-and-error-analysi--2-probe-and-4-probe-methods-for-resistance-measurement",
+      "name": "2-probe and 4-probe methods for resistance measurement",
+      "diff": "M"
+     },
+     {
+      "id": "ph-measurements-and-error-analysi--grounding-for-electrical-circuits-ground-loops",
+      "name": "Grounding for electrical circuits, Ground loops",
+      "diff": "M"
+     },
+     {
+      "id": "ph-measurements-and-error-analysi--design-of-dc-power-supply",
+      "name": "Design of DC power supply",
+      "diff": "M"
+     },
+     {
+      "id": "ph-measurements-and-error-analysi--signal-processing-through-lock-in-amplifiers",
+      "name": "Signal processing through lock-in amplifiers",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "ph-mathematical-physics",
+  "name": "Mathematical Physics",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Linear vector spaces",
+    "topics": [
+     {
+      "id": "ph-mathematical-physics--basis-orthogonality-and-completeness",
+      "name": "Basis, orthogonality and completeness",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "ph-mathematical-physics--matrices-similarity-transformations",
+      "name": "Matrices: similarity transformations",
+      "diff": "H"
+     },
+     {
+      "id": "ph-mathematical-physics--diagonalization",
+      "name": "Diagonalization",
+      "diff": "E"
+     },
+     {
+      "id": "ph-mathematical-physics--eigenvalues-and-eigen-vectors",
+      "name": "Eigenvalues and eigen vectors",
+      "diff": "H"
+     },
+     {
+      "id": "ph-mathematical-physics--linear-differential-equations-simple-applications-of-first-a",
+      "name": "Linear differential equations: simple applications of first and second order linear differential equations an d solutions",
+      "diff": "M"
+     },
+     {
+      "id": "ph-mathematical-physics--complex-analysis-cauchy-riemann-conditions",
+      "name": "Complex analysis: Cauchy -Riemann conditions",
+      "diff": "M"
+     },
+     {
+      "id": "ph-mathematical-physics--cauchys-theorem",
+      "name": "Cauchy's theorem",
+      "diff": "E"
+     },
+     {
+      "id": "ph-mathematical-physics--singularities",
+      "name": "Singularities",
+      "diff": "E"
+     },
+     {
+      "id": "ph-mathematical-physics--residue-theorem-and-applications",
+      "name": "Residue theorem and applications",
+      "diff": "M"
+     },
+     {
+      "id": "ph-mathematical-physics--fourier-analysis",
+      "name": "Fourier analysis",
+      "diff": "H"
+     },
+     {
+      "id": "ph-mathematical-physics--tensors-tensor-transformations-covariant-and-contravariant-t",
+      "name": "Tensors: tensor transformations, covariant and contravariant tensors",
+      "diff": "H"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "ph-classical-mechanics",
+  "name": "Classical Mechanics",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Overview",
+    "topics": [
+     {
+      "id": "ph-classical-mechanics--dalemberts-principle",
+      "name": "D'Alembert's principle",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "ph-classical-mechanics--euler-lagrange-equation",
+      "name": "Euler-Lagrange equation",
+      "diff": "M"
+     },
+     {
+      "id": "ph-classical-mechanics--hamiltons-principle",
+      "name": "Hamilton's principle",
+      "diff": "M"
+     },
+     {
+      "id": "ph-classical-mechanics--calculus-of-variations",
+      "name": "Calculus of variations",
+      "diff": "M"
+     },
+     {
+      "id": "ph-classical-mechanics--symmetry-and-conservation-laws",
+      "name": "Symmetry and conservation laws",
+      "diff": "M"
+     },
+     {
+      "id": "ph-classical-mechanics--central-force-motion-kepler-problem",
+      "name": "Central force motion: Kepler problem",
+      "diff": "M"
+     },
+     {
+      "id": "ph-classical-mechanics--small-oscillations-coupled-oscillations-and-normal-modes",
+      "name": "Small oscillations: coupled oscillations and normal modes",
+      "diff": "M"
+     },
+     {
+      "id": "ph-classical-mechanics--rigid-body-dynamics-inertia-tensor",
+      "name": "Rigid body dynamics: inertia tensor",
+      "diff": "H"
+     },
+     {
+      "id": "ph-classical-mechanics--orthogonal-transformations",
+      "name": "Orthogonal transformations",
+      "diff": "H"
+     },
+     {
+      "id": "ph-classical-mechanics--euler-angles",
+      "name": "Euler angles",
+      "diff": "E"
+     },
+     {
+      "id": "ph-classical-mechanics--torque-free-motion-of-a-symmetric-top",
+      "name": "Torque free motion of a symmetric top",
+      "diff": "M"
+     },
+     {
+      "id": "ph-classical-mechanics--hamiltonian-and-hamilt-ons-equations-of-motion",
+      "name": "Hamiltonian and Hamilt on's equations of motion",
+      "diff": "M"
+     },
+     {
+      "id": "ph-classical-mechanics--canonical-transformations-poisson-bracket",
+      "name": "Canonical transformations: Poisson bracket",
+      "diff": "H"
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Special theory of relativity",
+    "topics": [
+     {
+      "id": "ph-classical-mechanics--lorentz-transformations",
+      "name": "Lorentz transformations",
+      "diff": "H"
+     },
+     {
+      "id": "ph-classical-mechanics--relativistic-kinematics",
+      "name": "Relativistic kinematics",
+      "diff": "M"
+     },
+     {
+      "id": "ph-classical-mechanics--mass-energy-equivalence",
+      "name": "Mass -energy equivalence",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "ph-thermodynamics-and-statistical",
+  "name": "Thermodynamics and Statistical Mechanics",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Thermodynamics and Statistical Mechanics",
+    "topics": [
+     {
+      "id": "ph-thermodynamics-and-statistical--laws-of-thermodynamics",
+      "name": "Laws of thermodynamics",
+      "diff": "H",
+      "sample": true
+     },
+     {
+      "id": "ph-thermodynamics-and-statistical--macrostates-and-microstates",
+      "name": "Macrostates and microstates",
+      "diff": "M"
+     },
+     {
+      "id": "ph-thermodynamics-and-statistical--phase-space",
+      "name": "Phase space",
+      "diff": "E"
+     },
+     {
+      "id": "ph-thermodynamics-and-statistical--ensembles",
+      "name": "Ensembles",
+      "diff": "E"
+     },
+     {
+      "id": "ph-thermodynamics-and-statistical--partition-function",
+      "name": "Partition function",
+      "diff": "M"
+     },
+     {
+      "id": "ph-thermodynamics-and-statistical--free-energy",
+      "name": "Free energy",
+      "diff": "E"
+     },
+     {
+      "id": "ph-thermodynamics-and-statistical--calculation-of-thermodynamic-quantities",
+      "name": "Calculation of thermodynamic quantities",
+      "diff": "H"
+     },
+     {
+      "id": "ph-thermodynamics-and-statistical--classical-and-quantum-statistics",
+      "name": "Classical and quantum statistics",
+      "diff": "H"
+     },
+     {
+      "id": "ph-thermodynamics-and-statistical--degenerate-fermi-gas",
+      "name": "Degenerate Fermi gas",
+      "diff": "M"
+     },
+     {
+      "id": "ph-thermodynamics-and-statistical--black-body-radiation-and-plancks-distribution-law",
+      "name": "Black body radiation and Planck's distribution law",
+      "diff": "M"
+     },
+     {
+      "id": "ph-thermodynamics-and-statistical--bose-einstein-condensation",
+      "name": "Bose-Einstein condensation",
+      "diff": "M"
+     },
+     {
+      "id": "ph-thermodynamics-and-statistical--first-and-second-order-phase-transitions",
+      "name": "First and second order phase transitions",
+      "diff": "M"
+     },
+     {
+      "id": "ph-thermodynamics-and-statistical--phase-equilibria",
+      "name": "Phase equilibria",
+      "diff": "E"
+     },
+     {
+      "id": "ph-thermodynamics-and-statistical--critical-phenomena",
+      "name": "Critical phenomena",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "ph-electromagnetic-theory",
+  "name": "Electromagnetic theory",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Electromagnetic theory",
+    "topics": [
+     {
+      "id": "ph-electromagnetic-theory--solutions-of-electrostatic-and-magnetostatic-problems-includ",
+      "name": "Solutions of electrostatic and magnetostatic problems including boundary value problems",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "ph-electromagnetic-theory--method-of-images",
+      "name": "Method of images",
+      "diff": "E"
+     },
+     {
+      "id": "ph-electromagnetic-theory--separation-of-variables",
+      "name": "Separation of variables",
+      "diff": "M"
+     },
+     {
+      "id": "ph-electromagnetic-theory--dielectrics-and-conductors",
+      "name": "Dielectrics and conductors",
+      "diff": "M"
+     },
+     {
+      "id": "ph-electromagnetic-theory--magnetic-materials",
+      "name": "Magnetic materials",
+      "diff": "M"
+     },
+     {
+      "id": "ph-electromagnetic-theory--multipole-expansion",
+      "name": "Multipole expansion",
+      "diff": "M"
+     },
+     {
+      "id": "ph-electromagnetic-theory--maxwells-equations",
+      "name": "Maxwell's equations",
+      "diff": "M"
+     },
+     {
+      "id": "ph-electromagnetic-theory--scalar-and-vector-potentials",
+      "name": "Scalar and vector potentials",
+      "diff": "M"
+     },
+     {
+      "id": "ph-electromagnetic-theory--coulomb-and-lorentz-gauges",
+      "name": "Coulomb and Lorentz gauges",
+      "diff": "M"
+     },
+     {
+      "id": "ph-electromagnetic-theory--electromagnetic-waves-in-free-space",
+      "name": "Electromagnetic waves in free space",
+      "diff": "M"
+     },
+     {
+      "id": "ph-electromagnetic-theory--non-conducting-and-conducting-media",
+      "name": "Non-conducting and conducting media",
+      "diff": "M"
+     },
+     {
+      "id": "ph-electromagnetic-theory--reflection-and-transmission-at-normal-and-oblique-incidences",
+      "name": "Reflection and transmission at normal and oblique incidences",
+      "diff": "M"
+     },
+     {
+      "id": "ph-electromagnetic-theory--polarization-of-electromagnetic-waves",
+      "name": "Polarization of electromagnetic waves",
+      "diff": "M"
+     },
+     {
+      "id": "ph-electromagnetic-theory--poynting-vector",
+      "name": "Poynting vector",
+      "diff": "E"
+     },
+     {
+      "id": "ph-electromagnetic-theory--poynting-theorem",
+      "name": "Poynting theorem",
+      "diff": "E"
+     },
+     {
+      "id": "ph-electromagnetic-theory--energy-and-momentum-of-electromagnetic-waves",
+      "name": "Energy and momentum of electromagnetic waves",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "ph-optical-physics",
+  "name": "Optical Physics",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Wave equation",
+    "topics": [
+     {
+      "id": "ph-optical-physics--plane-and-spherical-waves",
+      "name": "Plane and spherical waves",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "ph-optical-physics--superposition-of-waves",
+      "name": "Superposition of waves",
+      "diff": "M"
+     },
+     {
+      "id": "ph-optical-physics--standing-waves",
+      "name": "Standing waves",
+      "diff": "E"
+     },
+     {
+      "id": "ph-optical-physics--phase-and-group-velocities",
+      "name": "Phase and group velocities",
+      "diff": "M"
+     },
+     {
+      "id": "ph-optical-physics--interference-spatial-and-temporal-coherence",
+      "name": "Interference: spatial and temporal coherence",
+      "diff": "M"
+     },
+     {
+      "id": "ph-optical-physics--dielectric-films",
+      "name": "Dielectric films",
+      "diff": "E"
+     },
+     {
+      "id": "ph-optical-physics--newtons-ring",
+      "name": "Newton’s ring",
+      "diff": "E"
+     },
+     {
+      "id": "ph-optical-physics--multiple-beam-interference",
+      "name": "Multiple -beam interference",
+      "diff": "M"
+     },
+     {
+      "id": "ph-optical-physics--michelson-interferometer",
+      "name": "Michelson interferometer",
+      "diff": "M"
+     },
+     {
+      "id": "ph-optical-physics--fabry-perot-i-nterferometer-and-etalon",
+      "name": "Fabry -Perot i nterferometer and etalon",
+      "diff": "M"
+     },
+     {
+      "id": "ph-optical-physics--diffraction-fresnel-and-fraunhofer-diffraction",
+      "name": "Diffraction: Fresnel and Fraunhofer diffraction",
+      "diff": "M"
+     },
+     {
+      "id": "ph-optical-physics--rectangular-and-circular-aperture",
+      "name": "Rectangular and circular aperture",
+      "diff": "M"
+     },
+     {
+      "id": "ph-optical-physics--rayleigh-criterion-of-resolution",
+      "name": "Rayleigh criterion of resolution",
+      "diff": "M"
+     },
+     {
+      "id": "ph-optical-physics--diffraction-from-double-slit-and-many-slits",
+      "name": "Diffraction from double slit and many slits",
+      "diff": "M"
+     },
+     {
+      "id": "ph-optical-physics--dispersion-by-a-grating",
+      "name": "Dispersion by a grating",
+      "diff": "M"
+     },
+     {
+      "id": "ph-optical-physics--polarization-jones-vectors-and-matrices-for-linear",
+      "name": "Polarization: Jones vectors and matrices for linear",
+      "diff": "M"
+     },
+     {
+      "id": "ph-optical-physics--circular-and-elliptical-polarization",
+      "name": "Circular and elliptical polarization",
+      "diff": "M"
+     },
+     {
+      "id": "ph-optical-physics--birefringence",
+      "name": "Birefringence",
+      "diff": "E"
+     },
+     {
+      "id": "ph-optical-physics--ray-transfer-matrix-for-mirrors-and-lenses",
+      "name": "Ray -transfer matrix for mirrors and lenses",
+      "diff": "M"
+     },
+     {
+      "id": "ph-optical-physics--lasers-einstein-coefficients",
+      "name": "Lasers: Einstein coefficients",
+      "diff": "M"
+     },
+     {
+      "id": "ph-optical-physics--population-inversion",
+      "name": "Population inversion",
+      "diff": "M"
+     },
+     {
+      "id": "ph-optical-physics--two-and-three-level-laser-systems",
+      "name": "Two and three level laser systems",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "ph-quantum-mechanics",
+  "name": "Quantum Mechanics",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Quantum Mechanics",
+    "topics": [
+     {
+      "id": "ph-quantum-mechanics--basic-ideas-of-quantum-mechanics",
+      "name": "Basic ideas of quantum mechanics",
+      "diff": "H",
+      "sample": true
+     },
+     {
+      "id": "ph-quantum-mechanics--uncertainty-principle",
+      "name": "Uncertainty principle",
+      "diff": "M"
+     },
+     {
+      "id": "ph-quantum-mechanics--linear-vectors-and-operators-in-hilbert-space",
+      "name": "Linear vectors and operators in Hilbert space",
+      "diff": "M"
+     },
+     {
+      "id": "ph-quantum-mechanics--time-independent-schrodinger-equation",
+      "name": "Time independent Schrodinger equation",
+      "diff": "M"
+     },
+     {
+      "id": "ph-quantum-mechanics--one-dimensional-potentials-step-potential",
+      "name": "One dimensional potentials: step potential",
+      "diff": "M"
+     },
+     {
+      "id": "ph-quantum-mechanics--finite-rectangular-well",
+      "name": "Finite rectangular well",
+      "diff": "M"
+     },
+     {
+      "id": "ph-quantum-mechanics--tunnelling-from-a-potential-barrier",
+      "name": "Tunnelling from a potential barrier",
+      "diff": "M"
+     },
+     {
+      "id": "ph-quantum-mechanics--particle-in-1",
+      "name": "Particle in 1",
+      "diff": "E"
+     },
+     {
+      "id": "ph-quantum-mechanics--3-dimensional-box",
+      "name": "3 -dimensional box",
+      "diff": "M"
+     },
+     {
+      "id": "ph-quantum-mechanics--particle-in-single-and-double-delta-function-potentials",
+      "name": "Particle in single and double delta function potentials",
+      "diff": "M"
+     },
+     {
+      "id": "ph-quantum-mechanics--3-dimensional-harmon-ic-oscillator-concept-of-degeneracy",
+      "name": "3 dimensional harmon ic oscillator: concept of degeneracy",
+      "diff": "M"
+     },
+     {
+      "id": "ph-quantum-mechanics--central-potentials",
+      "name": "Central potentials",
+      "diff": "M"
+     },
+     {
+      "id": "ph-quantum-mechanics--hydrogen-like-atoms",
+      "name": "Hydrogen-like atoms",
+      "diff": "M"
+     },
+     {
+      "id": "ph-quantum-mechanics--orbital-and-spin-angular-momenta",
+      "name": "Orbital and spin angular momenta",
+      "diff": "M"
+     },
+     {
+      "id": "ph-quantum-mechanics--addition-of-angular-momenta",
+      "name": "Addition of angular momenta",
+      "diff": "M"
+     },
+     {
+      "id": "ph-quantum-mechanics--variational-method-time-independent-perturbation-theory",
+      "name": "Variational method, time independent perturbation theory",
+      "diff": "H"
+     },
+     {
+      "id": "ph-quantum-mechanics--elementary-scattering-theory-born-approximation",
+      "name": "Elementary scattering theory, Born approximation",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "ph-atomic-and-molecular-physics",
+  "name": "Atomic and Molecular Physics",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Atomic and Molecular Physics",
+    "topics": [
+     {
+      "id": "ph-atomic-and-molecular-physics--spectra-of-one-and-many-electron-atoms",
+      "name": "Spectra of one -and many -electron atoms",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "ph-atomic-and-molecular-physics--spin-orbit-interaction-l-s-and-j-j-coupling-schemes",
+      "name": "Spin -orbit interaction: L -S and j -j coupling schemes",
+      "diff": "M"
+     },
+     {
+      "id": "ph-atomic-and-molecular-physics--fine-and-hyperfine-structures",
+      "name": "Fine and hyperfine structures",
+      "diff": "M"
+     },
+     {
+      "id": "ph-atomic-and-molecular-physics--zeeman-paschen-back-and-stark-effects",
+      "name": "Zeeman, Paschen-Back and Stark effects",
+      "diff": "M"
+     },
+     {
+      "id": "ph-atomic-and-molecular-physics--electric-dipole-transitions-and-selection-rules",
+      "name": "Electric dipole transitions and selection rules",
+      "diff": "M"
+     },
+     {
+      "id": "ph-atomic-and-molecular-physics--rotational-and-vibrational-spectra-of-diatomic-molecules",
+      "name": "Rotational and vibrational spectra of diatomic molecules",
+      "diff": "H"
+     },
+     {
+      "id": "ph-atomic-and-molecular-physics--electronic-transitions-in-diatomic-molecules-franckcondon-pr",
+      "name": "Electronic transitions in diatomic molecules, FranckCondon principle",
+      "diff": "M"
+     },
+     {
+      "id": "ph-atomic-and-molecular-physics--raman-effect-and-basics-of-raman-spectroscopy",
+      "name": "Raman effect and basics of Raman spectroscopy",
+      "diff": "M"
+     },
+     {
+      "id": "ph-atomic-and-molecular-physics--nmr-esr-x-ray-and-mossbauer-spectroscopies",
+      "name": "NMR, ESR, X -ray and Mossbauer spectroscopies",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "ph-solid-state-physics",
+  "name": "Solid State Physics",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Solid State Physics",
+    "topics": [
+     {
+      "id": "ph-solid-state-physics--elements-of-crystallography",
+      "name": "Elements of crystallography",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "ph-solid-state-physics--diffraction-methods-for-structure-determination",
+      "name": "Diffraction methods for structure determination",
+      "diff": "M"
+     },
+     {
+      "id": "ph-solid-state-physics--bonding-in-solids",
+      "name": "Bonding in solids",
+      "diff": "E"
+     },
+     {
+      "id": "ph-solid-state-physics--lattice-vibrations-and-thermal-properties-of-solids",
+      "name": "Lattice vibrations and thermal properties of solids",
+      "diff": "H"
+     },
+     {
+      "id": "ph-solid-state-physics--free-electron-theory",
+      "name": "Free electron theory",
+      "diff": "M"
+     },
+     {
+      "id": "ph-solid-state-physics--band-theory-of-solids-nearly-free-electron-model",
+      "name": "Band theory of solids: nearly free electron model",
+      "diff": "M"
+     },
+     {
+      "id": "ph-solid-state-physics--metals-semiconductors-and-insula-tors",
+      "name": "Metals, semiconductors and insula tors",
+      "diff": "M"
+     },
+     {
+      "id": "ph-solid-state-physics--conductivity",
+      "name": "Conductivity",
+      "diff": "E"
+     },
+     {
+      "id": "ph-solid-state-physics--electron-and-hole-statistics-in-intrinsic-and-extrinsic-semi",
+      "name": "Electron and hole statistics in intrinsic and extrinsic semiconductors",
+      "diff": "M"
+     },
+     {
+      "id": "ph-solid-state-physics--mobility-and-effective-mass",
+      "name": "Mobility and effective mass",
+      "diff": "M"
+     },
+     {
+      "id": "ph-solid-state-physics--metal-semiconductor-junctions",
+      "name": "Metal-semiconductor junctions",
+      "diff": "M"
+     },
+     {
+      "id": "ph-solid-state-physics--ohmic-and-rectifying-contacts",
+      "name": "Ohmic and rectifying contacts",
+      "diff": "M"
+     },
+     {
+      "id": "ph-solid-state-physics--dielectric-properties-of-solids",
+      "name": "Dielectric properties of solids",
+      "diff": "E"
+     },
+     {
+      "id": "ph-solid-state-physics--polarizability-ferroelectricity",
+      "name": "Polarizability, ferroelectricity",
+      "diff": "M"
+     },
+     {
+      "id": "ph-solid-state-physics--magnet-ic-properties-of-solids",
+      "name": "Magnet ic properties of solids",
+      "diff": "E"
+     },
+     {
+      "id": "ph-solid-state-physics--dia-para-ferro-antiferro-and-ferri-magnetism-ferromagnetic-d",
+      "name": "Dia, para, ferro, antiferro and ferri magnetism, ferromagnetic domains",
+      "diff": "M"
+     },
+     {
+      "id": "ph-solid-state-physics--superconductivity-type-i-and-type-ii-superconductors",
+      "name": "Superconductivity: type -I and type II superconductors",
+      "diff": "M"
+     },
+     {
+      "id": "ph-solid-state-physics--meissner-effect",
+      "name": "Meissner effect",
+      "diff": "E"
+     },
+     {
+      "id": "ph-solid-state-physics--london-equation",
+      "name": "London equation",
+      "diff": "E"
+     },
+     {
+      "id": "ph-solid-state-physics--bcs-theory",
+      "name": "BCS theory",
+      "diff": "E"
+     },
+     {
+      "id": "ph-solid-state-physics--flux-quantization",
+      "name": "Flux quantization",
+      "diff": "E"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "ph-nuclear-and-particle-physics",
+  "name": "Nuclear and Particle Physics",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Nuclear and Particle Physics",
+    "topics": [
+     {
+      "id": "ph-nuclear-and-particle-physics--nuclear-binding-energy-electric-and-magnetic-moments",
+      "name": "Nuclear binding energy, electric and magnetic moments",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "ph-nuclear-and-particle-physics--semi-empirical-mass-formula",
+      "name": "Semi -empirical mass formula",
+      "diff": "M"
+     },
+     {
+      "id": "ph-nuclear-and-particle-physics--nuclear-models",
+      "name": "Nuclear models",
+      "diff": "E"
+     },
+     {
+      "id": "ph-nuclear-and-particle-physics--liquid-drop-model-nuclear-shell-model",
+      "name": "Liquid drop model, nuclear shell model",
+      "diff": "M"
+     },
+     {
+      "id": "ph-nuclear-and-particle-physics--nuclear-force-and-two-nucleon-problem",
+      "name": "Nuclear force and two nucleon problem",
+      "diff": "M"
+     },
+     {
+      "id": "ph-nuclear-and-particle-physics--alpha-decay-beta-decay-electromagnetic-transitions-in-nuclei",
+      "name": "Alpha decay, beta -decay, electromagnetic transitions in nuclei",
+      "diff": "M"
+     },
+     {
+      "id": "ph-nuclear-and-particle-physics--rutherford-scattering-nuclear-reactions-conservation-laws",
+      "name": "Rutherford scattering, nuclear reactions, conservation laws",
+      "diff": "M"
+     },
+     {
+      "id": "ph-nuclear-and-particle-physics--fission-and-fusion",
+      "name": "Fission and fusion",
+      "diff": "M"
+     },
+     {
+      "id": "ph-nuclear-and-particle-physics--particle-accelerators-and-detectors",
+      "name": "Particle accelerators and detectors",
+      "diff": "M"
+     },
+     {
+      "id": "ph-nuclear-and-particle-physics--elementary-particles",
+      "name": "Elementary particles",
+      "diff": "M"
+     },
+     {
+      "id": "ph-nuclear-and-particle-physics--photons-baryons-mesons-and-leptons",
+      "name": "Photons, baryons, mesons and leptons",
+      "diff": "M"
+     },
+     {
+      "id": "ph-nuclear-and-particle-physics--quark-model",
+      "name": "Quark model",
+      "diff": "E"
+     },
+     {
+      "id": "ph-nuclear-and-particle-physics--conservation-laws",
+      "name": "Conservation laws",
+      "diff": "E"
+     },
+     {
+      "id": "ph-nuclear-and-particle-physics--isospin-symmetry",
+      "name": "Isospin symmetry",
+      "diff": "E"
+     },
+     {
+      "id": "ph-nuclear-and-particle-physics--charge-conjugation",
+      "name": "Charge conjugation",
+      "diff": "M"
+     },
+     {
+      "id": "ph-nuclear-and-particle-physics--parity-and-time-reversal-invariance",
+      "name": "Parity and time-reversal invariance",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "ph-electronics",
+  "name": "Electronics",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Electronics",
+    "topics": [
+     {
+      "id": "ph-electronics--p-n-diodes-bipolar-junction-transistors-field-effect-transis",
+      "name": "P-n diodes, bipolar junction transistors, field effect transistors",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "ph-electronics--negative-and-positive-feedback-circuits",
+      "name": "Negative and positive feedback circuits",
+      "diff": "M"
+     },
+     {
+      "id": "ph-electronics--oscillators",
+      "name": "Oscillators",
+      "diff": "E"
+     },
+     {
+      "id": "ph-electronics--operational-amplifiers-and-their-applications",
+      "name": "Operational amplifiers and their applications",
+      "diff": "M"
+     },
+     {
+      "id": "ph-electronics--active-filters",
+      "name": "Active filters",
+      "diff": "E"
+     },
+     {
+      "id": "ph-electronics--wave-form-generators-sine-wave-square-wave-and-triangular-wa",
+      "name": "Wave form generators: sine wave, square wave and triangular wave",
+      "diff": "M"
+     },
+     {
+      "id": "ph-electronics--basics-of-digital-logic-circuits",
+      "name": "Basics of digital logic circuits",
+      "diff": "M"
+     },
+     {
+      "id": "ph-electronics--combinational-and-sequential-circuits",
+      "name": "Combinational and sequential circuits",
+      "diff": "M"
+     },
+     {
+      "id": "ph-electronics--flipflops",
+      "name": "Flipflops",
+      "diff": "E"
+     },
+     {
+      "id": "ph-electronics--timers",
+      "name": "Timers",
+      "diff": "E"
+     },
+     {
+      "id": "ph-electronics--counters",
+      "name": "Counters",
+      "diff": "E"
+     },
+     {
+      "id": "ph-electronics--registers",
+      "name": "Registers",
+      "diff": "E"
+     },
+     {
+      "id": "ph-electronics--a-d-and-d-a-conversion",
+      "name": "A/D and D/A conversion",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ }
+]

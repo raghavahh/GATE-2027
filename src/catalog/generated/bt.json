@@ -1,0 +1,1273 @@
+[
+ {
+  "id": "bt-engineering-mathematics",
+  "name": "Engineering Mathematics",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Linear Algebra",
+    "topics": [
+     {
+      "id": "bt-engineering-mathematics--matrices-and-determinants",
+      "name": "Matrices and determinants",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "bt-engineering-mathematics--systems-of-linear-equations",
+      "name": "Systems of linear equations",
+      "diff": "M"
+     },
+     {
+      "id": "bt-engineering-mathematics--eigen-values-and-eigen-vectors",
+      "name": "Eigen values and Eigen vectors",
+      "diff": "H"
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Calculus",
+    "topics": [
+     {
+      "id": "bt-engineering-mathematics--multivariable-calculus-limits-continuity-and-differentiabili",
+      "name": "Multivariable calculus (limits, continuity, and differentiability)",
+      "diff": "M"
+     },
+     {
+      "id": "bt-engineering-mathematics--partial-derivatives-maxima-and-minima",
+      "name": "Partial derivatives, maxima and minima",
+      "diff": "M"
+     },
+     {
+      "id": "bt-engineering-mathematics--sequences-and-series",
+      "name": "Sequences and series",
+      "diff": "M"
+     },
+     {
+      "id": "bt-engineering-mathematics--test-for-convergence",
+      "name": "Test for convergence",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "C",
+    "name": "Multivariable calculus",
+    "topics": [
+     {
+      "id": "bt-engineering-mathematics--gradient",
+      "name": "Gradient",
+      "diff": "E"
+     },
+     {
+      "id": "bt-engineering-mathematics--divergence",
+      "name": "Divergence",
+      "diff": "E"
+     },
+     {
+      "id": "bt-engineering-mathematics--curl-for-applications-in-fluid-mechanics-transport-processes",
+      "name": "Curl (for applications in fluid mechanics, transport processes, etc.)",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "D",
+    "name": "Differential Equations",
+    "topics": [
+     {
+      "id": "bt-engineering-mathematics--linear-and-nonlinear-first-order-odes",
+      "name": "Linear and nonlinear first order ODEs",
+      "diff": "H"
+     },
+     {
+      "id": "bt-engineering-mathematics--higher-order-odes-with-constant-coefficients",
+      "name": "Higher order ODEs with constant coefficients",
+      "diff": "M"
+     },
+     {
+      "id": "bt-engineering-mathematics--cauchys-and-eulers-equations",
+      "name": "Cauchy’s and Euler’s equations",
+      "diff": "M"
+     },
+     {
+      "id": "bt-engineering-mathematics--laplace-transforms",
+      "name": "Laplace transforms",
+      "diff": "H"
+     }
+    ]
+   },
+   {
+    "letter": "E",
+    "name": "Probability and Statistics",
+    "topics": [
+     {
+      "id": "bt-engineering-mathematics--mean-median-mode-and-standard-deviation",
+      "name": "Mean, median, mode and standard deviation",
+      "diff": "M"
+     },
+     {
+      "id": "bt-engineering-mathematics--random-variables",
+      "name": "Random variables",
+      "diff": "E"
+     },
+     {
+      "id": "bt-engineering-mathematics--poisson-normal-and-binomial-distributions",
+      "name": "Poisson, normal and binomial distributions",
+      "diff": "M"
+     },
+     {
+      "id": "bt-engineering-mathematics--correlation-and-regression-analysis",
+      "name": "Correlation and regression analysis",
+      "diff": "M"
+     },
+     {
+      "id": "bt-engineering-mathematics--bayesian-statistics",
+      "name": "Bayesian Statistics",
+      "diff": "H"
+     }
+    ]
+   },
+   {
+    "letter": "F",
+    "name": "Numerical Methods",
+    "topics": [
+     {
+      "id": "bt-engineering-mathematics--solution-of-linear-and-nonlinear-algebraic-equations",
+      "name": "Solution of linear and nonlinear algebraic equations",
+      "diff": "H"
+     },
+     {
+      "id": "bt-engineering-mathematics--integration-by-trapezoidal-and-simpsons-rule",
+      "name": "Integration by trapezoidal and Simpson’s rule",
+      "diff": "M"
+     },
+     {
+      "id": "bt-engineering-mathematics--single-step-method-for-differential-equations",
+      "name": "Single step method for differential equations",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "bt-general-biology",
+  "name": "General Biology",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Biochemistry",
+    "topics": [
+     {
+      "id": "bt-general-biology--biomolecules-structure-and-function",
+      "name": "Biomolecules - structure and function",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "bt-general-biology--biological-membranes-structure",
+      "name": "Biological membranes - structure",
+      "diff": "M"
+     },
+     {
+      "id": "bt-general-biology--membrane-channels-and-pumps",
+      "name": "Membrane channels and pumps",
+      "diff": "M"
+     },
+     {
+      "id": "bt-general-biology--molecular-motors",
+      "name": "Molecular motors",
+      "diff": "E"
+     },
+     {
+      "id": "bt-general-biology--action-potential-and-transport-processes",
+      "name": "Action potential and transport processes",
+      "diff": "M"
+     },
+     {
+      "id": "bt-general-biology--basic-concepts-and-regulation-of-metabolism-of-carbohydrates",
+      "name": "Basic concepts and regulation of metabolism of carbohydrates",
+      "diff": "E"
+     },
+     {
+      "id": "bt-general-biology--lipids",
+      "name": "Lipids",
+      "diff": "E"
+     },
+     {
+      "id": "bt-general-biology--amino-acids-and-nucleic-acids",
+      "name": "Amino acids and nucleic acids",
+      "diff": "M"
+     },
+     {
+      "id": "bt-general-biology--metabolism-regulation-of-metabolism-of-carbohydrates",
+      "name": "Metabolism: Regulation of metabolism of carbohydrates",
+      "diff": "M"
+     },
+     {
+      "id": "bt-general-biology--amino-acids",
+      "name": "Amino acids",
+      "diff": "E"
+     },
+     {
+      "id": "bt-general-biology--nucleic-acids",
+      "name": "Nucleic acids",
+      "diff": "E"
+     },
+     {
+      "id": "bt-general-biology--detailed-pathways-like-glycolysis",
+      "name": "Detailed pathways like glycolysis",
+      "diff": "M"
+     },
+     {
+      "id": "bt-general-biology--citric-acid-cycle",
+      "name": "Citric acid cycle",
+      "diff": "E"
+     },
+     {
+      "id": "bt-general-biology--fatty-acid-oxidation",
+      "name": "Fatty acid oxidation",
+      "diff": "M"
+     },
+     {
+      "id": "bt-general-biology--photosynthesis-respiration-and-electron-transport-chain",
+      "name": "Photosynthesis, respiration and electron transport chain",
+      "diff": "M"
+     },
+     {
+      "id": "bt-general-biology--enzymes-classification-catalytic-and-regulatory-strategies",
+      "name": "Enzymes - Classification, catalytic and regulatory strategies",
+      "diff": "E"
+     },
+     {
+      "id": "bt-general-biology--enzyme-kinetics-michaelis-menten-equation",
+      "name": "Enzyme kinetics - Michaelis-Menten equation",
+      "diff": "H"
+     },
+     {
+      "id": "bt-general-biology--enzyme-inhibition-competitive",
+      "name": "Enzyme inhibition - competitive",
+      "diff": "M"
+     },
+     {
+      "id": "bt-general-biology--noncompetitive-and-uncompetitive-inhibition",
+      "name": "Noncompetitive and uncompetitive inhibition",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Microbiology",
+    "topics": [
+     {
+      "id": "bt-general-biology--history-of-microbiology-bacterial-classification-and-diversi",
+      "name": "History of Microbiology, Bacterial classification and diversity",
+      "diff": "E"
+     },
+     {
+      "id": "bt-general-biology--bacterial-cell-wall-composition",
+      "name": "Bacterial cell wall composition",
+      "diff": "M"
+     },
+     {
+      "id": "bt-general-biology--gram-positive-and-gram-negative-bacteria",
+      "name": "Gram positive and Gram-negative bacteria",
+      "diff": "M"
+     },
+     {
+      "id": "bt-general-biology--archea",
+      "name": "Archea",
+      "diff": "E"
+     },
+     {
+      "id": "bt-general-biology--methods-in-microbiology",
+      "name": "Methods in microbiology",
+      "diff": "M"
+     },
+     {
+      "id": "bt-general-biology--microbial-growth-and-nutrition",
+      "name": "Microbial growth and nutrition",
+      "diff": "M"
+     },
+     {
+      "id": "bt-general-biology--operon-lac-trp-and-ara-operon-nitrogen-fixation",
+      "name": "Operon- Lac, Trp and Ara operon, Nitrogen fixation",
+      "diff": "M"
+     },
+     {
+      "id": "bt-general-biology--microbial-diseases-and-host-pathogen-interactions",
+      "name": "Microbial diseases and host-pathogen interactions",
+      "diff": "M"
+     },
+     {
+      "id": "bt-general-biology--antibiotics-and-antimicrobial-resistance",
+      "name": "Antibiotics and antimicrobial resistance",
+      "diff": "M"
+     },
+     {
+      "id": "bt-general-biology--two-component-system-tcs",
+      "name": "Two-component system ( TCS)",
+      "diff": "M"
+     },
+     {
+      "id": "bt-general-biology--bacterial-communication",
+      "name": "Bacterial communication",
+      "diff": "M"
+     },
+     {
+      "id": "bt-general-biology--viruses-structure-and-classification",
+      "name": "Viruses - structure and classification",
+      "diff": "E"
+     }
+    ]
+   },
+   {
+    "letter": "C",
+    "name": "Immunology",
+    "topics": [
+     {
+      "id": "bt-general-biology--primary-and-secondary-lymphoid-organs",
+      "name": "Primary and Secondary lymphoid organs",
+      "diff": "M"
+     },
+     {
+      "id": "bt-general-biology--innate-immunity-and-inflammation",
+      "name": "Innate immunity and Inflammation",
+      "diff": "M"
+     },
+     {
+      "id": "bt-general-biology--cytokines-and-chemokines",
+      "name": "Cytokines and Chemokines",
+      "diff": "M"
+     },
+     {
+      "id": "bt-general-biology--complement-system",
+      "name": "Complement system",
+      "diff": "E"
+     },
+     {
+      "id": "bt-general-biology--effector-responses-cellular-and-humoral-immunity",
+      "name": "Effector responses: Cellular and Humoral Immunity",
+      "diff": "M"
+     },
+     {
+      "id": "bt-general-biology--molecular-basis-of-antibody-diversity-and-function",
+      "name": "Molecular basis of Antibody diversity and function",
+      "diff": "M"
+     },
+     {
+      "id": "bt-general-biology--polyclonal-and-monoclonal-antibodie-s",
+      "name": "Polyclonal and Monoclonal antibodie s",
+      "diff": "M"
+     },
+     {
+      "id": "bt-general-biology--t-cell-and-b-cell-development",
+      "name": "T -cell and B -cell development",
+      "diff": "M"
+     },
+     {
+      "id": "bt-general-biology--memory-responses",
+      "name": "Memory responses",
+      "diff": "E"
+     },
+     {
+      "id": "bt-general-biology--major-histocompatibility-complex-mhc",
+      "name": "Major Histocompatibility complex (MHC)",
+      "diff": "M"
+     },
+     {
+      "id": "bt-general-biology--antigen-processing-and-presentation",
+      "name": "Antigen processing and presentation",
+      "diff": "M"
+     },
+     {
+      "id": "bt-general-biology--regulation-of-immune-responses",
+      "name": "Regulation of immune responses",
+      "diff": "M"
+     },
+     {
+      "id": "bt-general-biology--immune-tolerance",
+      "name": "Immune tolerance",
+      "diff": "E"
+     },
+     {
+      "id": "bt-general-biology--hypersensitivity",
+      "name": "Hypersensitivity",
+      "diff": "E"
+     },
+     {
+      "id": "bt-general-biology--autoimmunity-and-immunodeficiency",
+      "name": "Autoimmunity and Immunodeficiency",
+      "diff": "M"
+     },
+     {
+      "id": "bt-general-biology--graft-vs-host-disease",
+      "name": "Graft vs Host disease",
+      "diff": "M"
+     },
+     {
+      "id": "bt-general-biology--immunization-and-vaccines",
+      "name": "Immunization and vaccines",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "bt-genetics-cellular-and-molecula",
+  "name": "Genetics, Cellular and Molecular Biology",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Genetics and Evolutionary Biology",
+    "topics": [
+     {
+      "id": "bt-genetics-cellular-and-molecula--mendelian-inheritance",
+      "name": "Mendelian inheritance",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "bt-genetics-cellular-and-molecula--gene-interaction",
+      "name": "Gene interaction",
+      "diff": "E"
+     },
+     {
+      "id": "bt-genetics-cellular-and-molecula--complementation",
+      "name": "Complementation",
+      "diff": "E"
+     },
+     {
+      "id": "bt-genetics-cellular-and-molecula--linkage-recombination-and-chromosome-mapping",
+      "name": "Linkage, recombination and chromosome mapping",
+      "diff": "M"
+     },
+     {
+      "id": "bt-genetics-cellular-and-molecula--extra-chromosomal-inheritance",
+      "name": "Extra chromosomal inheritance",
+      "diff": "M"
+     },
+     {
+      "id": "bt-genetics-cellular-and-molecula--microbial-genetics-transformation-transduction-and-conjugati",
+      "name": "Microbial genetics - transformation, transduction and conjugation",
+      "diff": "H"
+     },
+     {
+      "id": "bt-genetics-cellular-and-molecula--bacterial-gene-mapping",
+      "name": "Bacterial gene mapping",
+      "diff": "M"
+     },
+     {
+      "id": "bt-genetics-cellular-and-molecula--horizontal-gene-transfer-and-transposable-elements",
+      "name": "Horizontal gene transfer and transposable elements",
+      "diff": "M"
+     },
+     {
+      "id": "bt-genetics-cellular-and-molecula--chromosomal-variation",
+      "name": "Chromosomal variation",
+      "diff": "M"
+     },
+     {
+      "id": "bt-genetics-cellular-and-molecula--sex-determination",
+      "name": "Sex Determination",
+      "diff": "E"
+     },
+     {
+      "id": "bt-genetics-cellular-and-molecula--genetic-disorders",
+      "name": "Genetic disorders",
+      "diff": "E"
+     },
+     {
+      "id": "bt-genetics-cellular-and-molecula--population-genetics",
+      "name": "Population genetics",
+      "diff": "M"
+     },
+     {
+      "id": "bt-genetics-cellular-and-molecula--epigenetics",
+      "name": "Epigenetics",
+      "diff": "E"
+     },
+     {
+      "id": "bt-genetics-cellular-and-molecula--selection-and-inheritance",
+      "name": "Selection and inheritance",
+      "diff": "M"
+     },
+     {
+      "id": "bt-genetics-cellular-and-molecula--adaptive-and-neutral-evolution",
+      "name": "Adaptive and neutral evolution",
+      "diff": "M"
+     },
+     {
+      "id": "bt-genetics-cellular-and-molecula--genetic-drift",
+      "name": "Genetic drift",
+      "diff": "E"
+     },
+     {
+      "id": "bt-genetics-cellular-and-molecula--species-and-speciation",
+      "name": "Species and speciation",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Cell Biology",
+    "topics": [
+     {
+      "id": "bt-genetics-cellular-and-molecula--eukaryotic-cell-structure",
+      "name": "Eukaryotic cell structure",
+      "diff": "M"
+     },
+     {
+      "id": "bt-genetics-cellular-and-molecula--cell-cycle-and-cell-growth-control",
+      "name": "Cell cycle and cell growth control",
+      "diff": "M"
+     },
+     {
+      "id": "bt-genetics-cellular-and-molecula--cell-cell-communication",
+      "name": "Cell -cell communication",
+      "diff": "M"
+     },
+     {
+      "id": "bt-genetics-cellular-and-molecula--cell-signalling-and-signal-transduction",
+      "name": "Cell signalling and signal transduction",
+      "diff": "M"
+     },
+     {
+      "id": "bt-genetics-cellular-and-molecula--non-cell-autonomous-cell-signalling",
+      "name": "Non-cell autonomous cell signalling",
+      "diff": "M"
+     },
+     {
+      "id": "bt-genetics-cellular-and-molecula--post-translational-modifications",
+      "name": "Post-translational modifications",
+      "diff": "M"
+     },
+     {
+      "id": "bt-genetics-cellular-and-molecula--protein-trafficking",
+      "name": "Protein trafficking",
+      "diff": "M"
+     },
+     {
+      "id": "bt-genetics-cellular-and-molecula--cell-death-and-autophagy",
+      "name": "Cell death and autophagy",
+      "diff": "M"
+     },
+     {
+      "id": "bt-genetics-cellular-and-molecula--extra-cellular-matrix",
+      "name": "Extra-cellular matrix",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "C",
+    "name": "Molecular Biology",
+    "topics": [
+     {
+      "id": "bt-genetics-cellular-and-molecula--molecular-structure-of-genes-and-chromosomes",
+      "name": "Molecular structure of genes and chromosomes",
+      "diff": "M"
+     },
+     {
+      "id": "bt-genetics-cellular-and-molecula--mutations-and-mutagenesis",
+      "name": "Mutations and mutagenesis",
+      "diff": "M"
+     },
+     {
+      "id": "bt-genetics-cellular-and-molecula--regulation-of-gene-expression",
+      "name": "Regulation of gene expression",
+      "diff": "M"
+     },
+     {
+      "id": "bt-genetics-cellular-and-molecula--nucleic-acid-replication",
+      "name": "Nucleic acid - replication",
+      "diff": "M"
+     },
+     {
+      "id": "bt-genetics-cellular-and-molecula--transcription",
+      "name": "Transcription",
+      "diff": "E"
+     },
+     {
+      "id": "bt-genetics-cellular-and-molecula--splicing",
+      "name": "Splicing",
+      "diff": "E"
+     },
+     {
+      "id": "bt-genetics-cellular-and-molecula--translation-and-their-regulatory-mechanisms",
+      "name": "Translation and their regulatory mechanisms",
+      "diff": "M"
+     },
+     {
+      "id": "bt-genetics-cellular-and-molecula--gate-2027-iitm-organizing-institute-non-coding-and-micro-rna",
+      "name": "GATE 2027 IITM | Organizing Institute Non-coding and micro RNA",
+      "diff": "M"
+     },
+     {
+      "id": "bt-genetics-cellular-and-molecula--rna-interference",
+      "name": "RNA interference",
+      "diff": "E"
+     },
+     {
+      "id": "bt-genetics-cellular-and-molecula--dna-damage-and-repair",
+      "name": "DNA damage and repair",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "bt-fundamentals-of-biological-eng",
+  "name": "Fundamentals of Biological Engineering",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Bioreaction Engineering",
+    "topics": [
+     {
+      "id": "bt-fundamentals-of-biological-eng--rate-law-zero-and-first-order-kinetics",
+      "name": "Rate law, zero and first order kinetics",
+      "diff": "H",
+      "sample": true
+     },
+     {
+      "id": "bt-fundamentals-of-biological-eng--more-advanced-kinetic-models",
+      "name": "(More advanced kinetic models",
+      "diff": "M"
+     },
+     {
+      "id": "bt-fundamentals-of-biological-eng--including-michaelis-menten-kinetics-for-enzyme-reactions",
+      "name": "Including Michaelis-Menten kinetics for enzyme reactions",
+      "diff": "H"
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Inhibition kinetics",
+    "topics": [
+     {
+      "id": "bt-fundamentals-of-biological-eng--competitive-non-competitive-and-uncompetitive-inhibition-in-",
+      "name": "Competitive, non -competitive, and uncompetitive inhibition in enzyme catalysis)",
+      "diff": "M"
+     },
+     {
+      "id": "bt-fundamentals-of-biological-eng--ideal-reactors-batch-mixed-flow-and-plug-flow",
+      "name": "Ideal reactors - batch, mixed flow and plug flow",
+      "diff": "M"
+     },
+     {
+      "id": "bt-fundamentals-of-biological-eng--enzyme-immobilization",
+      "name": "Enzyme immobilization",
+      "diff": "M"
+     },
+     {
+      "id": "bt-fundamentals-of-biological-eng--diffusion-effects-thiele-modulus",
+      "name": "Diffusion effects - Thiele modulus",
+      "diff": "M"
+     },
+     {
+      "id": "bt-fundamentals-of-biological-eng--effectiveness-factor",
+      "name": "Effectiveness factor",
+      "diff": "M"
+     },
+     {
+      "id": "bt-fundamentals-of-biological-eng--damkoehler-number",
+      "name": "Damkoehler number",
+      "diff": "E"
+     },
+     {
+      "id": "bt-fundamentals-of-biological-eng--kinetics-of-cell-growth-substrate-utilization-and-product-fo",
+      "name": "Kinetics of cell growth, substrate utilization and product formation",
+      "diff": "H"
+     },
+     {
+      "id": "bt-fundamentals-of-biological-eng--structured-and-unstructured-models",
+      "name": "Structured and unstructured models",
+      "diff": "M"
+     },
+     {
+      "id": "bt-fundamentals-of-biological-eng--batch-fed-batch-and-continuous-processes",
+      "name": "Batch, fed -batch and continuous processes",
+      "diff": "M"
+     },
+     {
+      "id": "bt-fundamentals-of-biological-eng--microbial-and-enzyme-reactors",
+      "name": "Microbial and enzyme reactors",
+      "diff": "M"
+     },
+     {
+      "id": "bt-fundamentals-of-biological-eng--optimization-and-scale-up-design-and-operation-of-microbial-",
+      "name": "Optimization and scale up ( Design and operation of microbial reactors (e.g., fermentation reactors) and enzyme reactors (e.g., immobilized enzyme systems)",
+      "diff": "H"
+     },
+     {
+      "id": "bt-fundamentals-of-biological-eng--case-studies-on-the-use-of-microbial-reactors-in-large-scale",
+      "name": "Case studies on the use of microbial reactors in large-scale production (e.g., antibiotics, biofuels)",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "C",
+    "name": "Upstream and Downstream Processing",
+    "topics": [
+     {
+      "id": "bt-fundamentals-of-biological-eng--media-formulation-and-optimization",
+      "name": "Media formulation and optimization",
+      "diff": "H"
+     },
+     {
+      "id": "bt-fundamentals-of-biological-eng--sterilization-of-air-and-media",
+      "name": "Sterilization of air and media",
+      "diff": "M"
+     },
+     {
+      "id": "bt-fundamentals-of-biological-eng--filtration-membrane-filtration-ultra-filtration",
+      "name": "Filtration - membrane filtration, ultra filtration",
+      "diff": "M"
+     },
+     {
+      "id": "bt-fundamentals-of-biological-eng--centrifugation-high-speed-and-ultra",
+      "name": "Centrifugation - high speed and ultra",
+      "diff": "M"
+     },
+     {
+      "id": "bt-fundamentals-of-biological-eng--cell-disruption",
+      "name": "Cell disruption",
+      "diff": "E"
+     },
+     {
+      "id": "bt-fundamentals-of-biological-eng--principles-of-chromatography-ion-exchange",
+      "name": "Principles of chromatography - ion exchange",
+      "diff": "M"
+     },
+     {
+      "id": "bt-fundamentals-of-biological-eng--gel-filtration",
+      "name": "Gel filtration",
+      "diff": "E"
+     },
+     {
+      "id": "bt-fundamentals-of-biological-eng--hydrophobic-interaction",
+      "name": "Hydrophobic interaction",
+      "diff": "M"
+     },
+     {
+      "id": "bt-fundamentals-of-biological-eng--affinity",
+      "name": "Affinity",
+      "diff": "E"
+     },
+     {
+      "id": "bt-fundamentals-of-biological-eng--hplc-and-fplc",
+      "name": "HPLC and FPLC",
+      "diff": "E"
+     },
+     {
+      "id": "bt-fundamentals-of-biological-eng--extraction-adsorption-and-drying",
+      "name": "Extraction, adsorption and drying",
+      "diff": "M"
+     },
+     {
+      "id": "bt-fundamentals-of-biological-eng--measurement-devices",
+      "name": "Measurement devices",
+      "diff": "M"
+     },
+     {
+      "id": "bt-fundamentals-of-biological-eng--valves",
+      "name": "Valves",
+      "diff": "E"
+     },
+     {
+      "id": "bt-fundamentals-of-biological-eng--first-order-and-second-order-systems",
+      "name": "First order and second order systems",
+      "diff": "M"
+     },
+     {
+      "id": "bt-fundamentals-of-biological-eng--feedback-and-feed-forward-control",
+      "name": "Feedback and feed forward control",
+      "diff": "M"
+     },
+     {
+      "id": "bt-fundamentals-of-biological-eng--types-of-controllers-proportional-derivative-and-integral-co",
+      "name": "Types of controllers - proportional, derivative and integral control",
+      "diff": "E"
+     },
+     {
+      "id": "bt-fundamentals-of-biological-eng--t-uning-of-controllers",
+      "name": "T uning of controllers",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "bt-plant-animal-and-microbial-bio",
+  "name": "Plant, Animal and Microbial Biotechnology",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Plants",
+    "topics": [
+     {
+      "id": "bt-plant-animal-and-microbial-bio--totipotency",
+      "name": "Totipotency",
+      "diff": "E",
+      "sample": true
+     },
+     {
+      "id": "bt-plant-animal-and-microbial-bio--cell-fate-transition",
+      "name": "Cell fate transition",
+      "diff": "M"
+     },
+     {
+      "id": "bt-plant-animal-and-microbial-bio--direct-and-indirect-organogenesis",
+      "name": "Direct and indirect organogenesis",
+      "diff": "M"
+     },
+     {
+      "id": "bt-plant-animal-and-microbial-bio--regeneration-of-plants",
+      "name": "Regeneration of plants",
+      "diff": "M"
+     },
+     {
+      "id": "bt-plant-animal-and-microbial-bio--plant-growth-regulators-and-elicitors",
+      "name": "Plant growth regulators and elicitors",
+      "diff": "M"
+     },
+     {
+      "id": "bt-plant-animal-and-microbial-bio--tissue-culture-and-cell-suspension-culture-system-methodolog",
+      "name": "Tissue culture and cell suspension culture system - methodology",
+      "diff": "M"
+     },
+     {
+      "id": "bt-plant-animal-and-microbial-bio--kinetics-of-growth-and-nutrient-optimization",
+      "name": "Kinetics of growth and nutrient optimization",
+      "diff": "H"
+     },
+     {
+      "id": "bt-plant-animal-and-microbial-bio--production-of-secondary-metabolites",
+      "name": "Production of secondary metabolites",
+      "diff": "M"
+     },
+     {
+      "id": "bt-plant-animal-and-microbial-bio--hairy-root-culture",
+      "name": "Hairy root culture",
+      "diff": "M"
+     },
+     {
+      "id": "bt-plant-animal-and-microbial-bio--plant-products-of-industrial-importance",
+      "name": "Plant products of industrial importance",
+      "diff": "M"
+     },
+     {
+      "id": "bt-plant-animal-and-microbial-bio--artificial-seeds",
+      "name": "Artificial seeds",
+      "diff": "E"
+     },
+     {
+      "id": "bt-plant-animal-and-microbial-bio--somaclonal-variation",
+      "name": "Somaclonal variation",
+      "diff": "M"
+     },
+     {
+      "id": "bt-plant-animal-and-microbial-bio--protoplast-protoplast-fusion-somatic-hybrid-and-cybrid",
+      "name": "Protoplast, protoplast fusion - somatic hybrid and cybrid",
+      "diff": "M"
+     },
+     {
+      "id": "bt-plant-animal-and-microbial-bio--transgenic-plants-direct-and-indirect-methods-of-gene-transf",
+      "name": "Transgenic plants - direct and indirect methods of gene transfer techniques",
+      "diff": "M"
+     },
+     {
+      "id": "bt-plant-animal-and-microbial-bio--selection-marker-and-reporter-gene",
+      "name": "Selection marker and reporter gene",
+      "diff": "M"
+     },
+     {
+      "id": "bt-plant-animal-and-microbial-bio--plastid-transformation",
+      "name": "Plastid transformation",
+      "diff": "H"
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Animals",
+    "topics": [
+     {
+      "id": "bt-plant-animal-and-microbial-bio--culture-media-composition-and-growth-conditions",
+      "name": "Culture media composition and growth conditions",
+      "diff": "M"
+     },
+     {
+      "id": "bt-plant-animal-and-microbial-bio--animal-cell-and-tissue-preservation",
+      "name": "Animal cell and tissue preservation",
+      "diff": "M"
+     },
+     {
+      "id": "bt-plant-animal-and-microbial-bio--anchorage-and-non-anchorage-dependent-cell-culture",
+      "name": "Anchorage and non-anchorage dependent cell culture",
+      "diff": "M"
+     },
+     {
+      "id": "bt-plant-animal-and-microbial-bio--kinetics-of-cell-growth",
+      "name": "Kinetics of cell growth",
+      "diff": "H"
+     },
+     {
+      "id": "bt-plant-animal-and-microbial-bio--micro-and-macro-carrier-culture",
+      "name": "Micro & macro - carrier culture",
+      "diff": "M"
+     },
+     {
+      "id": "bt-plant-animal-and-microbial-bio--hybridoma-technology",
+      "name": "Hybridoma technology",
+      "diff": "M"
+     },
+     {
+      "id": "bt-plant-animal-and-microbial-bio--stem-cell-technology",
+      "name": "Stem cell technology",
+      "diff": "M"
+     },
+     {
+      "id": "bt-plant-animal-and-microbial-bio--animal-cloning",
+      "name": "Animal cloning",
+      "diff": "E"
+     },
+     {
+      "id": "bt-plant-animal-and-microbial-bio--transgenic-animals",
+      "name": "Transgenic animals",
+      "diff": "M"
+     },
+     {
+      "id": "bt-plant-animal-and-microbial-bio--knock-out-and-knock-in-animals",
+      "name": "Knock-out and knock-in animals",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "C",
+    "name": "Microbes",
+    "topics": [
+     {
+      "id": "bt-plant-animal-and-microbial-bio--production-of-biomass-and-primary-secondary-metabolites-biof",
+      "name": "Production of biomass and primary/secondary metabolites - Biofuels",
+      "diff": "M"
+     },
+     {
+      "id": "bt-plant-animal-and-microbial-bio--bioplastics",
+      "name": "Bioplastics",
+      "diff": "E"
+     },
+     {
+      "id": "bt-plant-animal-and-microbial-bio--industrial-enzymes",
+      "name": "Industrial enzymes",
+      "diff": "M"
+     },
+     {
+      "id": "bt-plant-animal-and-microbial-bio--antibiotics",
+      "name": "Antibiotics",
+      "diff": "E"
+     },
+     {
+      "id": "bt-plant-animal-and-microbial-bio--large-scale-production-and-purification-of-recombinant-prote",
+      "name": "Large scale production and purification of recombinant proteins and metabolites",
+      "diff": "M"
+     },
+     {
+      "id": "bt-plant-animal-and-microbial-bio--clinical-food-and-industrial-microbiology",
+      "name": "Clinical-, food- and industrial- microbiology",
+      "diff": "M"
+     },
+     {
+      "id": "bt-plant-animal-and-microbial-bio--screening-strategies-for-new-products",
+      "name": "Screening strategies for new products",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "bt-recombinant-dna-technology-and",
+  "name": "Recombinant DNA technology and Other Tools in Biotechnology",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Recombinant DNA technology",
+    "topics": [
+     {
+      "id": "bt-recombinant-dna-technology-and--restriction-and-modification-enzymes",
+      "name": "Restriction and modification enzymes",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "bt-recombinant-dna-technology-and--vectors-plasmids",
+      "name": "Vectors - plasmids",
+      "diff": "M"
+     },
+     {
+      "id": "bt-recombinant-dna-technology-and--bacteriophage-and-other-viral-vectors",
+      "name": "Bacteriophage and other viral vectors",
+      "diff": "M"
+     },
+     {
+      "id": "bt-recombinant-dna-technology-and--cosmids",
+      "name": "Cosmids",
+      "diff": "E"
+     },
+     {
+      "id": "bt-recombinant-dna-technology-and--ti-plasmid",
+      "name": "Ti plasmid",
+      "diff": "E"
+     },
+     {
+      "id": "bt-recombinant-dna-technology-and--bacterial-and-yeast-artificial-chromosomes",
+      "name": "Bacterial and yeast artificial chromosomes",
+      "diff": "M"
+     },
+     {
+      "id": "bt-recombinant-dna-technology-and--expression-vectors",
+      "name": "Expression vectors",
+      "diff": "M"
+     },
+     {
+      "id": "bt-recombinant-dna-technology-and--cdna-and-genomic-dna-library-gene-isolation-and-cloning",
+      "name": "CDNA and genomic DNA library Gene isolation and cloning",
+      "diff": "M"
+     },
+     {
+      "id": "bt-recombinant-dna-technology-and--strategies-for-production-of-recombinant-prot-eins",
+      "name": "Strategies for production of recombinant prot eins",
+      "diff": "M"
+     },
+     {
+      "id": "bt-recombinant-dna-technology-and--transposons-and-gene-targeting-recombination-based-gene-clon",
+      "name": "Transposons and gene targeting, Recombination-based gene cloning",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Molecular tools",
+    "topics": [
+     {
+      "id": "bt-recombinant-dna-technology-and--polymerase-chain-reaction",
+      "name": "Polymerase chain reaction",
+      "diff": "M"
+     },
+     {
+      "id": "bt-recombinant-dna-technology-and--dna-rna-labelling-and-sangers-and-next-generation-sequencing",
+      "name": "DNA/RNA labelling and Sangers and next generation sequencing",
+      "diff": "M"
+     },
+     {
+      "id": "bt-recombinant-dna-technology-and--southern-and-northern-blotting",
+      "name": "Southern and northern blotting",
+      "diff": "M"
+     },
+     {
+      "id": "bt-recombinant-dna-technology-and--in-situ-hybridization",
+      "name": "In-situ hybridization",
+      "diff": "M"
+     },
+     {
+      "id": "bt-recombinant-dna-technology-and--dna-fingerprinting-rapd-rflp",
+      "name": "DNA fingerprinting, RAPD, RFLP",
+      "diff": "M"
+     },
+     {
+      "id": "bt-recombinant-dna-technology-and--site-directed-mutagenesis",
+      "name": "Site-directed mutagenesis",
+      "diff": "M"
+     },
+     {
+      "id": "bt-recombinant-dna-technology-and--crispr-cas",
+      "name": "CRISPR -Cas",
+      "diff": "E"
+     },
+     {
+      "id": "bt-recombinant-dna-technology-and--biosensing-and-biosensors",
+      "name": "Biosensing and biosensors",
+      "diff": "M"
+     },
+     {
+      "id": "bt-recombinant-dna-technology-and--dna-protein-and-protein-protein-interaction-tools",
+      "name": "DNA-protein and protein -protein interaction tools",
+      "diff": "M"
+     },
+     {
+      "id": "bt-recombinant-dna-technology-and--genomics-and-proteomics-based-approaches",
+      "name": "Genomics and proteomics-based approaches",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "C",
+    "name": "Analytical tools",
+    "topics": [
+     {
+      "id": "bt-recombinant-dna-technology-and--principles-of-microscopy-light-electron-fluorescence-and-con",
+      "name": "Principles of microscopy - light, electron, fluorescence and confocal",
+      "diff": "M"
+     },
+     {
+      "id": "bt-recombinant-dna-technology-and--principles-of-spectroscopyuv",
+      "name": "Principles of spectroscopyUV",
+      "diff": "M"
+     },
+     {
+      "id": "bt-recombinant-dna-technology-and--visible",
+      "name": "Visible",
+      "diff": "E"
+     },
+     {
+      "id": "bt-recombinant-dna-technology-and--fluorescence",
+      "name": "Fluorescence",
+      "diff": "E"
+     },
+     {
+      "id": "bt-recombinant-dna-technology-and--ft-ir",
+      "name": "FT -IR",
+      "diff": "E"
+     },
+     {
+      "id": "bt-recombinant-dna-technology-and--nmr",
+      "name": "NMR",
+      "diff": "E"
+     },
+     {
+      "id": "bt-recombinant-dna-technology-and--electrophoresis",
+      "name": "Electrophoresis",
+      "diff": "E"
+     },
+     {
+      "id": "bt-recombinant-dna-technology-and--micro-arrays",
+      "name": "Micro - arrays",
+      "diff": "E"
+     },
+     {
+      "id": "bt-recombinant-dna-technology-and--enzymatic-assays",
+      "name": "Enzymatic assays",
+      "diff": "E"
+     },
+     {
+      "id": "bt-recombinant-dna-technology-and--immunoassays-elisa-ria-immunohistochemistry",
+      "name": "Immunoassays - ELISA, RIA, immunohistochemistry",
+      "diff": "M"
+     },
+     {
+      "id": "bt-recombinant-dna-technology-and--immunoblotting",
+      "name": "Immunoblotting",
+      "diff": "E"
+     },
+     {
+      "id": "bt-recombinant-dna-technology-and--flow-cytometry",
+      "name": "Flow cytometry",
+      "diff": "E"
+     },
+     {
+      "id": "bt-recombinant-dna-technology-and--whole-genome-and-chip-sequencing",
+      "name": "Whole genome and ChIP sequencing",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "D",
+    "name": "Computational tools",
+    "topics": [
+     {
+      "id": "bt-recombinant-dna-technology-and--bioinformatics-resources-and-search-tools",
+      "name": "Bioinformatics resources and search tools",
+      "diff": "M"
+     },
+     {
+      "id": "bt-recombinant-dna-technology-and--sequence-and-structure-databases",
+      "name": "Sequence and structure databases",
+      "diff": "M"
+     },
+     {
+      "id": "bt-recombinant-dna-technology-and--sequence-analysis-sequence-file-formats",
+      "name": "Sequence analysis - sequence file formats",
+      "diff": "M"
+     },
+     {
+      "id": "bt-recombinant-dna-technology-and--scoring-matrices",
+      "name": "Scoring matrices",
+      "diff": "E"
+     },
+     {
+      "id": "bt-recombinant-dna-technology-and--alignment",
+      "name": "Alignment",
+      "diff": "E"
+     },
+     {
+      "id": "bt-recombinant-dna-technology-and--phylogeny",
+      "name": "Phylogeny",
+      "diff": "E"
+     },
+     {
+      "id": "bt-recombinant-dna-technology-and--genomics-proteomics-metabolomics",
+      "name": "Genomics, proteomics, metabolomics",
+      "diff": "M"
+     },
+     {
+      "id": "bt-recombinant-dna-technology-and--gene-prediction",
+      "name": "Gene prediction",
+      "diff": "E"
+     },
+     {
+      "id": "bt-recombinant-dna-technology-and--functional-annotation",
+      "name": "Functional annotation",
+      "diff": "M"
+     },
+     {
+      "id": "bt-recombinant-dna-technology-and--secondary-structure-and-3d-structure-prediction",
+      "name": "Secondary structure and 3D structure prediction",
+      "diff": "M"
+     },
+     {
+      "id": "bt-recombinant-dna-technology-and--knowledge-discovery-in-biochemical-databases",
+      "name": "Knowledge discovery in biochemical databases",
+      "diff": "M"
+     },
+     {
+      "id": "bt-recombinant-dna-technology-and--metagenomics",
+      "name": "Metagenomics",
+      "diff": "E"
+     },
+     {
+      "id": "bt-recombinant-dna-technology-and--metabolic-engineering-and-systems-biology",
+      "name": "Metabolic engineering and systems biology",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ }
+]

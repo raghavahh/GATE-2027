@@ -1,0 +1,811 @@
+[
+ {
+  "id": "mn-engineering-mathematics",
+  "name": "Engineering Mathematics",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Linear Algebra",
+    "topics": [
+     {
+      "id": "mn-engineering-mathematics--matrices-and-determinants",
+      "name": "Matrices and Determinants",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "mn-engineering-mathematics--inverse-and-rank-of-matrix",
+      "name": "Inverse and Rank of matrix",
+      "diff": "M"
+     },
+     {
+      "id": "mn-engineering-mathematics--systems-of-linear-equations",
+      "name": "Systems of linear equations",
+      "diff": "M"
+     },
+     {
+      "id": "mn-engineering-mathematics--eigen-values-and-eigen-vectors",
+      "name": "Eigen values and Eigen vectors",
+      "diff": "H"
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Calculus",
+    "topics": [
+     {
+      "id": "mn-engineering-mathematics--limit-continuity-and-differentiability",
+      "name": "Limit, continuity and differentiability",
+      "diff": "M"
+     },
+     {
+      "id": "mn-engineering-mathematics--partial-derivatives",
+      "name": "Partial Derivatives",
+      "diff": "M"
+     },
+     {
+      "id": "mn-engineering-mathematics--mean-value-theorems",
+      "name": "Mean value theorems",
+      "diff": "M"
+     },
+     {
+      "id": "mn-engineering-mathematics--indeterminate-forms-and-l-hospitals-rule",
+      "name": "Indeterminate forms and L' Hospital's rule",
+      "diff": "H"
+     },
+     {
+      "id": "mn-engineering-mathematics--maxima-and-minima",
+      "name": "Maxima and minima",
+      "diff": "E"
+     },
+     {
+      "id": "mn-engineering-mathematics--taylors-theorem",
+      "name": "Taylor's theorem",
+      "diff": "E"
+     },
+     {
+      "id": "mn-engineering-mathematics--sequences-and-series",
+      "name": "Sequences and series",
+      "diff": "M"
+     },
+     {
+      "id": "mn-engineering-mathematics--fourier-series",
+      "name": "Fourier series",
+      "diff": "H"
+     }
+    ]
+   },
+   {
+    "letter": "C",
+    "name": "Vector Calculus",
+    "topics": [
+     {
+      "id": "mn-engineering-mathematics--gradient",
+      "name": "Gradient",
+      "diff": "E"
+     },
+     {
+      "id": "mn-engineering-mathematics--divergence-and-curl",
+      "name": "Divergence and Curl",
+      "diff": "M"
+     },
+     {
+      "id": "mn-engineering-mathematics--line",
+      "name": "Line",
+      "diff": "E"
+     },
+     {
+      "id": "mn-engineering-mathematics--surface-and-volume-integrals",
+      "name": "Surface and volume integrals",
+      "diff": "M"
+     },
+     {
+      "id": "mn-engineering-mathematics--stokes-gauss-and-greens-theorems",
+      "name": "Stokes, Gauss and Green's theorems",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "D",
+    "name": "Differential Equations",
+    "topics": [
+     {
+      "id": "mn-engineering-mathematics--linear-and-non-linear-first-order-odes",
+      "name": "Linear and non -linear first order ODEs",
+      "diff": "M"
+     },
+     {
+      "id": "mn-engineering-mathematics--higher-order-linear-odes-with-constant-coefficients",
+      "name": "Higher order linear ODEs with constant coefficients",
+      "diff": "M"
+     },
+     {
+      "id": "mn-engineering-mathematics--cauchys-and-eulers-equations",
+      "name": "Cauchy's and Euler's equations",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "E",
+    "name": "Probability and Statistics",
+    "topics": [
+     {
+      "id": "mn-engineering-mathematics--probability-joint-conditional-bayes-theory",
+      "name": "Probability: Joint, Conditional, Bayes' Theory",
+      "diff": "M"
+     },
+     {
+      "id": "mn-engineering-mathematics--descriptive-statistics",
+      "name": "Descriptive Statistics",
+      "diff": "M"
+     },
+     {
+      "id": "mn-engineering-mathematics--sampling-theory-and-hypothesis-testing",
+      "name": "Sampling theory and hypothesis testing",
+      "diff": "M"
+     },
+     {
+      "id": "mn-engineering-mathematics--binomial-poisson-exponential-and-normal-distributions",
+      "name": "Binomial, Poisson, exponential and normal distributions",
+      "diff": "M"
+     },
+     {
+      "id": "mn-engineering-mathematics--pearson-correlation-and-linear-regression",
+      "name": "Pearson Correlation and linear regression",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "F",
+    "name": "Numerical Methods",
+    "topics": [
+     {
+      "id": "mn-engineering-mathematics--solutions-of-linear-algebraic-equations",
+      "name": "Solutions of linear algebraic equations",
+      "diff": "M"
+     },
+     {
+      "id": "mn-engineering-mathematics--interpolation",
+      "name": "Interpolation",
+      "diff": "E"
+     },
+     {
+      "id": "mn-engineering-mathematics--integration-of-trapezoidal-and-simpsons-rule",
+      "name": "Integration of trapezoidal and Simpson's rule",
+      "diff": "M"
+     },
+     {
+      "id": "mn-engineering-mathematics--single-and-multi-step-methods-for-differential-equations",
+      "name": "Single and multi-step methods for differential equations",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "mn-mining-geology-mine-developmen",
+  "name": "Mining Geology, Mine Development and Surveying",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Mining Geology",
+    "topics": [
+     {
+      "id": "mn-mining-geology-mine-developmen--minerals-rocks-and-their-origin-classification-ore-genesis",
+      "name": "Minerals, Rocks and their Origin, Classification, Ore Genesis",
+      "diff": "E",
+      "sample": true
+     },
+     {
+      "id": "mn-mining-geology-mine-developmen--structural-geology",
+      "name": "Structural Geology",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Mine Development",
+    "topics": [
+     {
+      "id": "mn-mining-geology-mine-developmen--methods-of-access-to-deposits",
+      "name": "Methods of access to deposits",
+      "diff": "M"
+     },
+     {
+      "id": "mn-mining-geology-mine-developmen--underground-drivages",
+      "name": "Underground drivages",
+      "diff": "M"
+     },
+     {
+      "id": "mn-mining-geology-mine-developmen--drilling-methods-and-machines",
+      "name": "Drilling methods and machines",
+      "diff": "M"
+     },
+     {
+      "id": "mn-mining-geology-mine-developmen--explosives-and-initiation-system",
+      "name": "Explosives and initiation system",
+      "diff": "M"
+     },
+     {
+      "id": "mn-mining-geology-mine-developmen--blasting-tools",
+      "name": "Blasting tools",
+      "diff": "E"
+     },
+     {
+      "id": "mn-mining-geology-mine-developmen--blast-design-practices",
+      "name": "Blast design practices",
+      "diff": "M"
+     },
+     {
+      "id": "mn-mining-geology-mine-developmen--ground-vibration",
+      "name": "Ground vibration",
+      "diff": "H"
+     }
+    ]
+   },
+   {
+    "letter": "C",
+    "name": "Mine Surveying",
+    "topics": [
+     {
+      "id": "mn-mining-geology-mine-developmen--levels-and-levelling-tacheometry-triangulation",
+      "name": "Levels and levelling, tacheometry, triangulation",
+      "diff": "M"
+     },
+     {
+      "id": "mn-mining-geology-mine-developmen--errors-and-adjustments",
+      "name": "Errors and adjustments",
+      "diff": "M"
+     },
+     {
+      "id": "mn-mining-geology-mine-developmen--correlation",
+      "name": "Correlation",
+      "diff": "E"
+     },
+     {
+      "id": "mn-mining-geology-mine-developmen--underground-surveying",
+      "name": "Underground surveying",
+      "diff": "M"
+     },
+     {
+      "id": "mn-mining-geology-mine-developmen--curves-and-contouring",
+      "name": "Curves and contouring",
+      "diff": "M"
+     },
+     {
+      "id": "mn-mining-geology-mine-developmen--photogrammetry",
+      "name": "Photogrammetry",
+      "diff": "E"
+     },
+     {
+      "id": "mn-mining-geology-mine-developmen--theodolite",
+      "name": "Theodolite",
+      "diff": "E"
+     },
+     {
+      "id": "mn-mining-geology-mine-developmen--edm",
+      "name": "EDM",
+      "diff": "E"
+     },
+     {
+      "id": "mn-mining-geology-mine-developmen--total-station",
+      "name": "Total Station",
+      "diff": "E"
+     },
+     {
+      "id": "mn-mining-geology-mine-developmen--gps",
+      "name": "GPS",
+      "diff": "E"
+     },
+     {
+      "id": "mn-mining-geology-mine-developmen--remote-sensing-and-astronomical-survey",
+      "name": "Remote sensing and Astronomical survey",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "mn-geomechanics-and-ground-contro",
+  "name": "Geomechanics and Ground Control",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Engineering Mechanics",
+    "topics": [
+     {
+      "id": "mn-geomechanics-and-ground-contro--equivalent-force-systems",
+      "name": "Equivalent force systems",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "mn-geomechanics-and-ground-contro--equations-of-equilibrium",
+      "name": "Equations of equilibrium",
+      "diff": "M"
+     },
+     {
+      "id": "mn-geomechanics-and-ground-contro--two-dimensional-frames-and-trusses",
+      "name": "Two dimensional frames and trusses",
+      "diff": "M"
+     },
+     {
+      "id": "mn-geomechanics-and-ground-contro--friction-forces",
+      "name": "Friction forces",
+      "diff": "E"
+     },
+     {
+      "id": "mn-geomechanics-and-ground-contro--particle-kinematics-and-dynamics",
+      "name": "Particle kinematics and dynamics",
+      "diff": "M"
+     },
+     {
+      "id": "mn-geomechanics-and-ground-contro--beam-analysis",
+      "name": "Beam analysis",
+      "diff": "E"
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Geomechanics",
+    "topics": [
+     {
+      "id": "mn-geomechanics-and-ground-contro--geo-technical-properties-of-rocks",
+      "name": "Geo-technical properties of rocks",
+      "diff": "E"
+     },
+     {
+      "id": "mn-geomechanics-and-ground-contro--rock-mass-classification",
+      "name": "Rock mass classification",
+      "diff": "E"
+     },
+     {
+      "id": "mn-geomechanics-and-ground-contro--instrumentations-and-in-situ-stress-measurement-techniques",
+      "name": "Instrumentations and in-situ stress measurement techniques",
+      "diff": "M"
+     },
+     {
+      "id": "mn-geomechanics-and-ground-contro--theories-of-rock-failure",
+      "name": "Theories of rock failure",
+      "diff": "M"
+     },
+     {
+      "id": "mn-geomechanics-and-ground-contro--stress-distribution-around-mine-openings",
+      "name": "Stress distribution around mine openings",
+      "diff": "M"
+     },
+     {
+      "id": "mn-geomechanics-and-ground-contro--subsidence",
+      "name": "Subsidence",
+      "diff": "E"
+     },
+     {
+      "id": "mn-geomechanics-and-ground-contro--slope-and-dump-stability",
+      "name": "Slope and Dump stability",
+      "diff": "H"
+     }
+    ]
+   },
+   {
+    "letter": "C",
+    "name": "Ground Control",
+    "topics": [
+     {
+      "id": "mn-geomechanics-and-ground-contro--design-of-pillars-and-supporting-systems",
+      "name": "Design of pillars and supporting systems",
+      "diff": "M"
+     },
+     {
+      "id": "mn-geomechanics-and-ground-contro--mine-filling",
+      "name": "Mine filling",
+      "diff": "E"
+     },
+     {
+      "id": "mn-geomechanics-and-ground-contro--strata-control",
+      "name": "Strata Control",
+      "diff": "E"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "mn-mining-methods-and-machinery",
+  "name": "Mining Methods and Machinery",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Mining Methods",
+    "topics": [
+     {
+      "id": "mn-mining-methods-and-machinery--surface-mining-layout-and-haul-road-development",
+      "name": "Surface mining: layout and haul road development",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "mn-mining-methods-and-machinery--loading",
+      "name": "Loading",
+      "diff": "E"
+     },
+     {
+      "id": "mn-mining-methods-and-machinery--transportation-and-mechanization",
+      "name": "Transportation and mechanization",
+      "diff": "M"
+     },
+     {
+      "id": "mn-mining-methods-and-machinery--continuous-mining-systems",
+      "name": "Continuous mining systems",
+      "diff": "M"
+     },
+     {
+      "id": "mn-mining-methods-and-machinery--highwall-mining",
+      "name": "Highwall mining",
+      "diff": "E"
+     },
+     {
+      "id": "mn-mining-methods-and-machinery--underground-coal-mining-bord-and-pillar-systems",
+      "name": "Underground coal mining:bord and pillar systems",
+      "diff": "M"
+     },
+     {
+      "id": "mn-mining-methods-and-machinery--longwall-mining",
+      "name": "Longwall mining",
+      "diff": "E"
+     },
+     {
+      "id": "mn-mining-methods-and-machinery--thick-seam-mining-methods",
+      "name": "Thick seam mining methods",
+      "diff": "M"
+     },
+     {
+      "id": "mn-mining-methods-and-machinery--underground-metal-mining-open",
+      "name": "Underground metal mining: open",
+      "diff": "M"
+     },
+     {
+      "id": "mn-mining-methods-and-machinery--supported-and-caving-stoping-methods",
+      "name": "Supported and caving stoping methods",
+      "diff": "M"
+     },
+     {
+      "id": "mn-mining-methods-and-machinery--stope-mechanization",
+      "name": "Stope mechanization",
+      "diff": "M"
+     },
+     {
+      "id": "mn-mining-methods-and-machinery--ore-handling-systems",
+      "name": "Ore handling systems",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Mining Machinery",
+    "topics": [
+     {
+      "id": "mn-mining-methods-and-machinery--generation-and-transmission-of-mechanical",
+      "name": "Generation and transmission of mechanical",
+      "diff": "M"
+     },
+     {
+      "id": "mn-mining-methods-and-machinery--hydraulic-and-pneumatic-power",
+      "name": "Hydraulic and pneumatic power",
+      "diff": "M"
+     },
+     {
+      "id": "mn-mining-methods-and-machinery--materials-handling-wire-ropes",
+      "name": "Materials handling: wire ropes",
+      "diff": "M"
+     },
+     {
+      "id": "mn-mining-methods-and-machinery--haulages",
+      "name": "Haulages",
+      "diff": "E"
+     },
+     {
+      "id": "mn-mining-methods-and-machinery--conveyors",
+      "name": "Conveyors",
+      "diff": "E"
+     },
+     {
+      "id": "mn-mining-methods-and-machinery--face-and-development-machineries",
+      "name": "Face and development machineries",
+      "diff": "M"
+     },
+     {
+      "id": "mn-mining-methods-and-machinery--hoisting-systems",
+      "name": "Hoisting systems",
+      "diff": "E"
+     },
+     {
+      "id": "mn-mining-methods-and-machinery--pumps",
+      "name": "Pumps",
+      "diff": "E"
+     },
+     {
+      "id": "mn-mining-methods-and-machinery--comminution-methods-and-machinery",
+      "name": "Comminution methods and machinery",
+      "diff": "M"
+     },
+     {
+      "id": "mn-mining-methods-and-machinery--rock-tool-interaction-and-mechanical-cutting",
+      "name": "Rock-tool interaction and mechanical cutting",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "mn-surface-environment-mine-venti",
+  "name": "Surface Environment, Mine Ventilation and Underground Hazards",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Surface Environment",
+    "topics": [
+     {
+      "id": "mn-surface-environment-mine-venti--air",
+      "name": "Air",
+      "diff": "E",
+      "sample": true
+     },
+     {
+      "id": "mn-surface-environment-mine-venti--water-and-soil-pollution-standards-of-quality",
+      "name": "Water and soil pollution: Standards of quality",
+      "diff": "M"
+     },
+     {
+      "id": "mn-surface-environment-mine-venti--causes-and-dispersion-of-contamination-and-control",
+      "name": "Causes and dispersion of contamination and control",
+      "diff": "M"
+     },
+     {
+      "id": "mn-surface-environment-mine-venti--noise-pollution-and-control",
+      "name": "Noise pollution and control",
+      "diff": "M"
+     },
+     {
+      "id": "mn-surface-environment-mine-venti--land-reclamation",
+      "name": "Land reclamation",
+      "diff": "E"
+     },
+     {
+      "id": "mn-surface-environment-mine-venti--eia",
+      "name": "EIA",
+      "diff": "E"
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Mine Ventilation",
+    "topics": [
+     {
+      "id": "mn-surface-environment-mine-venti--underground-atmosphere",
+      "name": "Underground atmosphere",
+      "diff": "M"
+     },
+     {
+      "id": "mn-surface-environment-mine-venti--heat-load-sources-and-thermal-environment-air-cooling",
+      "name": "Heat load sources and thermal environment, air cooling",
+      "diff": "M"
+     },
+     {
+      "id": "mn-surface-environment-mine-venti--mechanics-of-airflow-distribution-natural-and-mechanical-ven",
+      "name": "Mechanics of airflow, distribution, natural and mechanical ventilation",
+      "diff": "M"
+     },
+     {
+      "id": "mn-surface-environment-mine-venti--mine-fans-and-usage",
+      "name": "Mine fans and usage",
+      "diff": "M"
+     },
+     {
+      "id": "mn-surface-environment-mine-venti--auxiliary-ventilation",
+      "name": "Auxiliary ventilation",
+      "diff": "M"
+     },
+     {
+      "id": "mn-surface-environment-mine-venti--ventilation-survey-and-planning",
+      "name": "Ventilation survey and planning",
+      "diff": "M"
+     },
+     {
+      "id": "mn-surface-environment-mine-venti--ventilation-networks",
+      "name": "Ventilation networks",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "C",
+    "name": "Underground Hazards",
+    "topics": [
+     {
+      "id": "mn-surface-environment-mine-venti--mine-gases-methane-drainage",
+      "name": "Mine Gases, Methane drainage",
+      "diff": "M"
+     },
+     {
+      "id": "mn-surface-environment-mine-venti--underground-hazards-from-fires-explosions-dust-and-inundatio",
+      "name": "Underground hazards from fires, explosions, dust and inundation",
+      "diff": "M"
+     },
+     {
+      "id": "mn-surface-environment-mine-venti--rescue-apparatus-and-practices",
+      "name": "Rescue apparatus and practices",
+      "diff": "M"
+     },
+     {
+      "id": "mn-surface-environment-mine-venti--safety-management-plan",
+      "name": "Safety management plan",
+      "diff": "M"
+     },
+     {
+      "id": "mn-surface-environment-mine-venti--safety-data-analytics",
+      "name": "Safety data analytics",
+      "diff": "M"
+     },
+     {
+      "id": "mn-surface-environment-mine-venti--mine-illumination",
+      "name": "Mine illumination",
+      "diff": "E"
+     },
+     {
+      "id": "mn-surface-environment-mine-venti--mine-legislation",
+      "name": "Mine legislation",
+      "diff": "E"
+     },
+     {
+      "id": "mn-surface-environment-mine-venti--occupational-health-and-safety",
+      "name": "Occupational health and safety",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "mn-mineral-economics-mine-plannin",
+  "name": "Mineral Economics, Mine Planning, Systems Engineering",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Mineral Economics",
+    "topics": [
+     {
+      "id": "mn-mineral-economics-mine-plannin--mineral-resource-classification",
+      "name": "Mineral resource classification",
+      "diff": "E",
+      "sample": true
+     },
+     {
+      "id": "mn-mineral-economics-mine-plannin--discounted-cash-flow-analysis",
+      "name": "Discounted cash flow analysis",
+      "diff": "M"
+     },
+     {
+      "id": "mn-mineral-economics-mine-plannin--mine-valuation",
+      "name": "Mine valuation",
+      "diff": "E"
+     },
+     {
+      "id": "mn-mineral-economics-mine-plannin--mineral-taxation",
+      "name": "Mineral taxation",
+      "diff": "E"
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Mine Planning",
+    "topics": [
+     {
+      "id": "mn-mineral-economics-mine-plannin--sampling-methods-practices-and-interpretation",
+      "name": "Sampling methods, practices and interpretation",
+      "diff": "M"
+     },
+     {
+      "id": "mn-mineral-economics-mine-plannin--reserve-estimation-techniques-basics-of-geostatistics-and-qu",
+      "name": "Reserve estimation techniques : Basics of geostatistics and quality control",
+      "diff": "M"
+     },
+     {
+      "id": "mn-mineral-economics-mine-plannin--optimization-of-facility-location",
+      "name": "Optimization of facility location",
+      "diff": "H"
+     },
+     {
+      "id": "mn-mineral-economics-mine-plannin--mine-planning-and-its-components",
+      "name": "Mine planning and its components",
+      "diff": "M"
+     },
+     {
+      "id": "mn-mineral-economics-mine-plannin--determination-of-mine-size-and-mine-life",
+      "name": "Determination of mine size and mine life",
+      "diff": "M"
+     },
+     {
+      "id": "mn-mineral-economics-mine-plannin--ultimate-pit-design",
+      "name": "Ultimate pit design",
+      "diff": "M"
+     },
+     {
+      "id": "mn-mineral-economics-mine-plannin--grade-tonnage-relationship-ore-dilution-recovery-and-cut-off",
+      "name": "Grade-tonnage relationship, ore dilution, recovery and cut-off grade",
+      "diff": "M"
+     },
+     {
+      "id": "mn-mineral-economics-mine-plannin--equipment-selection",
+      "name": "Equipment Selection",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "C",
+    "name": "Systems Engineering",
+    "topics": [
+     {
+      "id": "mn-mineral-economics-mine-plannin--concepts-of-reliability",
+      "name": "Concepts of reliability",
+      "diff": "M"
+     },
+     {
+      "id": "mn-mineral-economics-mine-plannin--reliability-of-simple-systems",
+      "name": "Reliability of simple systems",
+      "diff": "M"
+     },
+     {
+      "id": "mn-mineral-economics-mine-plannin--maintainability-and-availability",
+      "name": "Maintainability and availability",
+      "diff": "M"
+     },
+     {
+      "id": "mn-mineral-economics-mine-plannin--linear-programming-transportation-and-assignment-problems",
+      "name": "Linear programming, transportation and assignment problems",
+      "diff": "M"
+     },
+     {
+      "id": "mn-mineral-economics-mine-plannin--network-analysis",
+      "name": "Network analysis",
+      "diff": "E"
+     },
+     {
+      "id": "mn-mineral-economics-mine-plannin--inventory-models",
+      "name": "Inventory models",
+      "diff": "E"
+     },
+     {
+      "id": "mn-mineral-economics-mine-plannin--queuing-theory",
+      "name": "Queuing theory",
+      "diff": "E"
+     }
+    ]
+   }
+  ]
+ }
+]

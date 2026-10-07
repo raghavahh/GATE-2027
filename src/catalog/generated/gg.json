@@ -1,0 +1,2212 @@
+[
+ {
+  "id": "gg-common-section",
+  "name": "Common Section",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Overview",
+    "topics": [
+     {
+      "id": "gg-common-section--this-section-includes-various-introductory-topics-related-to",
+      "name": "This section includes various introductory topics related to geology and geophysics",
+      "diff": "M",
+      "sample": true
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Introduction to Earth and planetary systems",
+    "topics": [
+     {
+      "id": "gg-common-section--terrestrial-planets-and-moons-of-the-solar-system",
+      "name": "Terrestrial planets and moons of the solar system",
+      "diff": "M"
+     },
+     {
+      "id": "gg-common-section--concept-of-isostasy",
+      "name": "Concept of isostasy",
+      "diff": "M"
+     },
+     {
+      "id": "gg-common-section--internal-structure-of-earth-elasticity",
+      "name": "Internal structure of Earth - elasticity",
+      "diff": "M"
+     },
+     {
+      "id": "gg-common-section--body-and-surface-waves",
+      "name": "Body and surface waves",
+      "diff": "M"
+     },
+     {
+      "id": "gg-common-section--propagation-of-body-waves-in-the-earths-interior",
+      "name": "Propagation of body waves in the Earth’s interior",
+      "diff": "M"
+     },
+     {
+      "id": "gg-common-section--heat-flow-within-the-earth",
+      "name": "Heat flow within the Earth",
+      "diff": "M"
+     },
+     {
+      "id": "gg-common-section--gravitational-field-of-the-earth",
+      "name": "Gravitational field of the Earth",
+      "diff": "M"
+     },
+     {
+      "id": "gg-common-section--continental-and-oceanic-crust-composition-structure-and-thic",
+      "name": "Continental and oceanic crust - composition, structure and thickness",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "C",
+    "name": "Plate Tectonics",
+    "topics": [
+     {
+      "id": "gg-common-section--type-of-plate-boundaries",
+      "name": "Type of plate boundaries",
+      "diff": "M"
+     },
+     {
+      "id": "gg-common-section--plate-motions-and-driving-mechanisms",
+      "name": "Plate motions and driving mechanisms",
+      "diff": "M"
+     },
+     {
+      "id": "gg-common-section--processes-at-plate-boundaries-volcanism",
+      "name": "Processes at plate boundaries - volcanism",
+      "diff": "M"
+     },
+     {
+      "id": "gg-common-section--seismicity",
+      "name": "Seismicity",
+      "diff": "E"
+     },
+     {
+      "id": "gg-common-section--orogenesis",
+      "name": "Orogenesis",
+      "diff": "E"
+     },
+     {
+      "id": "gg-common-section--sea-floor-spreading-and-magnetic-anomalies-and-paleomagnetis",
+      "name": "Sea-floor spreading and magnetic anomalies and paleomagnetism",
+      "diff": "M"
+     },
+     {
+      "id": "gg-common-section--formation-of-back-arc-basins",
+      "name": "Formation of back-arc basins",
+      "diff": "M"
+     },
+     {
+      "id": "gg-common-section--continental-rifting-mantle-plumes-hotspots",
+      "name": "Continental rifting, mantle plumes, hotspots",
+      "diff": "M"
+     },
+     {
+      "id": "gg-common-section--numerical-problems-related-to-plate-motions",
+      "name": "Numerical problems related to plate motions",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "D",
+    "name": "Earth surface processes",
+    "topics": [
+     {
+      "id": "gg-common-section--landforms-created-by-hillslopes",
+      "name": "Landforms created by hillslopes",
+      "diff": "M"
+     },
+     {
+      "id": "gg-common-section--rivers",
+      "name": "Rivers",
+      "diff": "E"
+     },
+     {
+      "id": "gg-common-section--wind",
+      "name": "Wind",
+      "diff": "E"
+     },
+     {
+      "id": "gg-common-section--glaciers",
+      "name": "Glaciers",
+      "diff": "E"
+     },
+     {
+      "id": "gg-common-section--oceans",
+      "name": "Oceans",
+      "diff": "E"
+     },
+     {
+      "id": "gg-common-section--volcanoes",
+      "name": "Volcanoes",
+      "diff": "E"
+     }
+    ]
+   },
+   {
+    "letter": "E",
+    "name": "Basic structural geology",
+    "topics": [
+     {
+      "id": "gg-common-section--mohrs-circle-stress-strain-and-material-response",
+      "name": "Mohr’s circle, stress, strain, and material response",
+      "diff": "M"
+     },
+     {
+      "id": "gg-common-section--brittle-and-ductile-deformation",
+      "name": "Brittle and ductile deformation",
+      "diff": "M"
+     },
+     {
+      "id": "gg-common-section--nomenclature-and-classification-of-folds-and-faults",
+      "name": "Nomenclature and classification of folds and faults",
+      "diff": "E"
+     }
+    ]
+   },
+   {
+    "letter": "F",
+    "name": "Mineralogy",
+    "topics": [
+     {
+      "id": "gg-common-section--silicate-crystal-structure",
+      "name": "Silicate crystal structure",
+      "diff": "M"
+     },
+     {
+      "id": "gg-common-section--physical-and-chemical-properties-of-common-rock-forming-mine",
+      "name": "Physical and chemical properties of common rock-forming minerals",
+      "diff": "E"
+     }
+    ]
+   },
+   {
+    "letter": "G",
+    "name": "Common Igneous",
+    "topics": [
+     {
+      "id": "gg-common-section--sedimentary",
+      "name": "Sedimentary",
+      "diff": "E"
+     },
+     {
+      "id": "gg-common-section--metamorphic-rocks-composition",
+      "name": "Metamorphic-rocks: composition",
+      "diff": "M"
+     },
+     {
+      "id": "gg-common-section--structure",
+      "name": "Structure",
+      "diff": "E"
+     },
+     {
+      "id": "gg-common-section--formation-processes",
+      "name": "Formation processes",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "H",
+    "name": "Stratigraphy and Geological time scale",
+    "topics": [
+     {
+      "id": "gg-common-section--r-elative-and-absolute-time",
+      "name": "R elative and absolute time",
+      "diff": "M"
+     },
+     {
+      "id": "gg-common-section--half-life",
+      "name": "Half -life",
+      "diff": "E"
+     },
+     {
+      "id": "gg-common-section--decay-constant",
+      "name": "Decay constant",
+      "diff": "E"
+     },
+     {
+      "id": "gg-common-section--radioactive-equilibrium",
+      "name": "Radioactive equilibrium",
+      "diff": "M"
+     },
+     {
+      "id": "gg-common-section--stratigraphic-principles",
+      "name": "Stratigraphic principles",
+      "diff": "M"
+     },
+     {
+      "id": "gg-common-section--major-stratigraphic-divisions-of-india",
+      "name": "Major stratigraphic divisions of India",
+      "diff": "M"
+     },
+     {
+      "id": "gg-common-section--major-metallic-ores-coal-and-petroleum-resources-of-india",
+      "name": "Major metallic ores, coal and petroleum resources of India",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "I",
+    "name": "Introduction to remote sensing",
+    "topics": [
+     {
+      "id": "gg-common-section--energy-sources-and-radiation-principles",
+      "name": "Energy sources and radiation principles",
+      "diff": "M"
+     },
+     {
+      "id": "gg-common-section--atmospheric-absorption",
+      "name": "Atmospheric absorption",
+      "diff": "M"
+     },
+     {
+      "id": "gg-common-section--interaction-of-energy-with-earths-surface",
+      "name": "Interaction of energy with Earth’s surface",
+      "diff": "M"
+     },
+     {
+      "id": "gg-common-section--engineering-properties-of-rocks-and-soils",
+      "name": "Engineering properties of rocks and soils",
+      "diff": "E"
+     },
+     {
+      "id": "gg-common-section--natural-hazards-landslide-volcanic-seismogenic-coastal-and-m",
+      "name": "Natural hazards (landslide, volcanic, seismogenic, coastal) and mitigation",
+      "diff": "M"
+     },
+     {
+      "id": "gg-common-section--principles-of-climate-change",
+      "name": "Principles of climate change",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "J",
+    "name": "Elements of hydrogeology",
+    "topics": [
+     {
+      "id": "gg-common-section--principles-and-applications-of-gravity",
+      "name": "Principles and applications of gravity",
+      "diff": "M"
+     },
+     {
+      "id": "gg-common-section--magnetic",
+      "name": "Magnetic",
+      "diff": "E"
+     },
+     {
+      "id": "gg-common-section--electrical",
+      "name": "Electrical",
+      "diff": "E"
+     },
+     {
+      "id": "gg-common-section--electromagnetic",
+      "name": "Electromagnetic",
+      "diff": "E"
+     },
+     {
+      "id": "gg-common-section--seismic",
+      "name": "Seismic",
+      "diff": "E"
+     },
+     {
+      "id": "gg-common-section--radiometric-methods-of-prospecting-for-oil",
+      "name": "Radiometric methods of prospecting for oil",
+      "diff": "M"
+     },
+     {
+      "id": "gg-common-section--mineral",
+      "name": "Mineral",
+      "diff": "E"
+     },
+     {
+      "id": "gg-common-section--groundwater",
+      "name": "Groundwater",
+      "diff": "E"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "gg-advanced-topics-in-geology",
+  "name": "Advanced topics in Geology",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Geomorphology",
+    "topics": [
+     {
+      "id": "gg-advanced-topics-in-geology--basic-geomorphic-concepts-geomorphic-processes-and-agents",
+      "name": "Basic geomorphic concepts, Geomorphic processes, and agents",
+      "diff": "E",
+      "sample": true
+     },
+     {
+      "id": "gg-advanced-topics-in-geology--development-and-evolution-of-landforms-in-continental-and-oc",
+      "name": "Development and evolution of landforms in continental and oceanic settings",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geology--landscape-evolution-in-response-to-tectonics",
+      "name": "Landscape evolution in response to tectonics",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geology--climate",
+      "name": "Climate",
+      "diff": "E"
+     },
+     {
+      "id": "gg-advanced-topics-in-geology--base-level-change",
+      "name": "Base - level change",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geology--quaternary-geomorphology",
+      "name": "Quaternary geomorphology",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Structural Geology",
+    "topics": [
+     {
+      "id": "gg-advanced-topics-in-geology--stress-and-strain-analysis",
+      "name": "Stress and strain analysis",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geology--deformation-mechanisms",
+      "name": "Deformation mechanisms",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geology--primary-and-secondary-structures",
+      "name": "Primary and secondary structures",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geology--geometry-and-genesis-of-planar-and-linear-structures-bedding",
+      "name": "Geometry and genesis of planar and linear structures (bedding, cleavage, schistosity, lineation)",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geology--folds-faults-joints-and-unconformities",
+      "name": "Folds, faults, joints, and unconformities",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geology--shear-zones-thrusts-and-superposed-folding",
+      "name": "Shear zones, thrusts, and superposed folding",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geology--geological-maps-interpretation-measurements-and-numerical-an",
+      "name": "Geological maps -interpretation, measurements, and numerical analysis",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geology--stereographic-projection",
+      "name": "Stereographic projection",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "C",
+    "name": "Crystallography and Mineralogy",
+    "topics": [
+     {
+      "id": "gg-advanced-topics-in-geology--elements-of-crystal-symmetry-form-and-twinning",
+      "name": "Elements of crystal symmetry, form, and twinning",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geology--crystallographic-projections",
+      "name": "Crystallographic projections",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geology--classification-of-minerals",
+      "name": "Classification of minerals",
+      "diff": "E"
+     },
+     {
+      "id": "gg-advanced-topics-in-geology--physical-and-optical-properties-of-rock-forming-minerals",
+      "name": "Physical and optical properties of rock -forming minerals",
+      "diff": "E"
+     },
+     {
+      "id": "gg-advanced-topics-in-geology--mineral-nucleation",
+      "name": "Mineral nucleation",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geology--mineral-chemistry-major-trace-and-rare-earth-elements",
+      "name": "Mineral chemistry (major, trace, and rare earth elements)",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geology--cation-re-calculations",
+      "name": "Cation re-calculations",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "D",
+    "name": "Geochemistry",
+    "topics": [
+     {
+      "id": "gg-advanced-topics-in-geology--nucleosynthesis-and-cosmic-abundance-of-elements",
+      "name": "Nucleosynthesis and cosmic abundance of elements",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geology--classification-and-components-of-meteorites",
+      "name": "Classification and components of meteorites",
+      "diff": "E"
+     },
+     {
+      "id": "gg-advanced-topics-in-geology--geochemical-affinities-and-distribution-of-major",
+      "name": "Geochemical affinities and distribution of major",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geology--minor-and-trace-elements-in-crust",
+      "name": "Minor and trace elements in crust",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geology--mantle",
+      "name": "Mantle",
+      "diff": "E"
+     },
+     {
+      "id": "gg-advanced-topics-in-geology--core",
+      "name": "Core",
+      "diff": "E"
+     },
+     {
+      "id": "gg-advanced-topics-in-geology--planetary-differentiation-and-geochemical-evolution-of-the-e",
+      "name": "Planetary differentiation and geochemical evolution of the earth",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geology--radiogenic-long-lived-isotopic-evolution-rbsr-sm-nd-u-th-pb-",
+      "name": "Radiogenic (long-lived) isotopic evolution (RbSr, Sm-Nd, U-Th-Pb) of the crust and the mantle",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geology--mantle-reservoirs",
+      "name": "Mantle reservoirs",
+      "diff": "E"
+     },
+     {
+      "id": "gg-advanced-topics-in-geology--stable-isotope-geochemistry-h-o-c-isotope-fractionation",
+      "name": "Stable isotope geochemistry (H, O, C), isotope fractionation",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geology--geochemical-cycles",
+      "name": "Geochemical cycles",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geology--elements-of-high-temperature-and-low-temperature-geochemical",
+      "name": "Elements of high -temperature and low -temperature geochemical thermodynamics",
+      "diff": "H"
+     },
+     {
+      "id": "gg-advanced-topics-in-geology--geochemical-and-isotopic-c-o-sr-isotopes-composition-of-rive",
+      "name": "Geochemical and isotopic (C -O, Sr isotopes) composition of river water",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geology--groundwater-and-seawater",
+      "name": "Groundwater and seawater",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geology--residence-time",
+      "name": "Residence time",
+      "diff": "E"
+     },
+     {
+      "id": "gg-advanced-topics-in-geology--water-rock-interaction",
+      "name": "Water -rock interaction",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geology--principles-of-environmental-geochemistry-ph-salinity-tds-bod",
+      "name": "Principles of environmental geochemistry (pH, Salinity, TDS, BOD, COD)",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "E",
+    "name": "Igneous Petrology",
+    "topics": [
+     {
+      "id": "gg-advanced-topics-in-geology--classification-and-textures-of-common-igneous-rocks",
+      "name": "Classification and textures of common igneous rocks",
+      "diff": "E"
+     },
+     {
+      "id": "gg-advanced-topics-in-geology--mantle-melting",
+      "name": "Mantle melting",
+      "diff": "E"
+     },
+     {
+      "id": "gg-advanced-topics-in-geology--magmatic-differentiation",
+      "name": "Magmatic differentiation",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geology--role-of-major-trace-and-rare-earth-elements-in-igneous-petro",
+      "name": "Role of major, trace, and rare earth elements in igneous petrogenesis",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geology--magma-evolution",
+      "name": "Magma evolution",
+      "diff": "E"
+     },
+     {
+      "id": "gg-advanced-topics-in-geology--modeling-crystallization-and-melting-processes",
+      "name": "Modeling crystallization and melting processes",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geology--plate-margin-volcanism",
+      "name": "Plate margin volcanism",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geology--intra-plate-volcanism-and-large-igneous-provinces",
+      "name": "Intra-plate volcanism and large igneous provinces",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "F",
+    "name": "Thermodynamics",
+    "topics": [
+     {
+      "id": "gg-advanced-topics-in-geology--equilibrium-gibbs-free-energy",
+      "name": "Equilibrium, Gibbs free energy",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geology--enthalpy",
+      "name": "Enthalpy",
+      "diff": "E"
+     },
+     {
+      "id": "gg-advanced-topics-in-geology--entropy",
+      "name": "Entropy",
+      "diff": "E"
+     },
+     {
+      "id": "gg-advanced-topics-in-geology--energy",
+      "name": "Energy",
+      "diff": "E"
+     },
+     {
+      "id": "gg-advanced-topics-in-geology--clapeyron-equation",
+      "name": "Clapeyron Equation",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geology--mineral-stability-and-phase-equilibria",
+      "name": "Mineral stability and Phase equilibria",
+      "diff": "H"
+     },
+     {
+      "id": "gg-advanced-topics-in-geology--schreinmakers-rules",
+      "name": "Schreinmakers rules",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geology--phase-rule",
+      "name": "Phase rule",
+      "diff": "E"
+     },
+     {
+      "id": "gg-advanced-topics-in-geology--phase-diagrams-activity-composition",
+      "name": "Phase diagrams, Activity-composition",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geology--mineral-solid-solutions",
+      "name": "Mineral solid solutions",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geology--enthalpy-and-entropy-of-magma-crystallization",
+      "name": "Enthalpy and entropy of magma crystallization",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geology--binary-and-ternary-phase-diagrams-in-igneous-systems",
+      "name": "Binary and ternary phase diagrams in igneous systems",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geology--chemical-speciation-and-equilibrium-in-natural-waters",
+      "name": "Chemical speciation and equilibrium in natural waters",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geology--solubility-and-precipitation-of-minerals-saturation-index-ca",
+      "name": "Solubility and precipitation of minerals - saturation index calculations",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geology--eh-ph-diagrams-and-redox-equilibria",
+      "name": "Eh-pH diagrams and redox equilibria",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "G",
+    "name": "Sedimentology",
+    "topics": [
+     {
+      "id": "gg-advanced-topics-in-geology--texture",
+      "name": "Texture",
+      "diff": "E"
+     },
+     {
+      "id": "gg-advanced-topics-in-geology--structure",
+      "name": "Structure",
+      "diff": "E"
+     },
+     {
+      "id": "gg-advanced-topics-in-geology--sedimentary-processes",
+      "name": "Sedimentary processes",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geology--physical-principles-related-to-fluid-flow",
+      "name": "Physical principles related to fluid flow",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geology--statistical-analysis-in-sedimentology",
+      "name": "Statistical analysis in sedimentology",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geology--petrology-of-common-sedimentary-rocks",
+      "name": "Petrology of common sedimentary rocks",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geology--sedimentary-facies-and-environments",
+      "name": "Sedimentary facies and environments",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geology--cyclicities-in-sedimentary-succession",
+      "name": "Cyclicities in sedimentary succession",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geology--provenance-and-basin-analysis",
+      "name": "Provenance and basin analysis",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "H",
+    "name": "Metamorphic Petrology",
+    "topics": [
+     {
+      "id": "gg-advanced-topics-in-geology--structures-and-textures-of-metamorphic-rocks",
+      "name": "Structures and textures of metamorphic rocks",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geology--extreme-metamorphism",
+      "name": "Extreme metamorphism",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geology--metamorphic-facies-and-grades",
+      "name": "Metamorphic facies and grades",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geology--paired-metamorphic-belts",
+      "name": "Paired metamorphic belts",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geology--mineral-reactions-and-chemographic-projections",
+      "name": "Mineral reactions and chemographic projections",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geology--metamorphism-of-pelitic-mafic-and-impure-carbonate-rocks",
+      "name": "Metamorphism of pelitic, mafic and impure carbonate rocks",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geology--role-of-bulk-compositions-and-fluids-in-metamorphism",
+      "name": "Role of bulk compositions and fluids in metamorphism",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geology--thermobarometry",
+      "name": "Thermobarometry",
+      "diff": "E"
+     },
+     {
+      "id": "gg-advanced-topics-in-geology--timing-of-metamorphism",
+      "name": "Timing of metamorphism",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "I",
+    "name": "Paleontology",
+    "topics": [
+     {
+      "id": "gg-advanced-topics-in-geology--diversity-of-life-through-time-mass-extinctions-causes-and-e",
+      "name": "Diversity of life through time, mass extinctions - causes and effects",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geology--taphonomy-processes-of-fossilization",
+      "name": "Taphonomy - processes of fossilization",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geology--functional-morphology-of-invertebrates-bivalves-brachiopods-",
+      "name": "Functional morphology of invertebrates (bivalves, brachiopods, gastropods, echinoids, ammonites) and microfossils - (foraminifera, Ostracoda, conodonts, bryozoa)",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geology--statistical-analysis-of-morphology",
+      "name": "Statistical analysis of morphology",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geology--vertebrate-paleontology",
+      "name": "Vertebrate paleontology",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geology--basic-concepts-of-paleoecology",
+      "name": "Basic concepts of paleoecology",
+      "diff": "E"
+     },
+     {
+      "id": "gg-advanced-topics-in-geology--fossils-and-paleoenvironments",
+      "name": "Fossils and paleoenvironments",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "J",
+    "name": "Stratigraphy",
+    "topics": [
+     {
+      "id": "gg-advanced-topics-in-geology--principles-of-stratigraphy",
+      "name": "Principles of stratigraphy",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geology--concepts-of-correlation-and-their-applications-in-indian-str",
+      "name": "Concepts of correlation and their applications in Indian stratigraphy",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geology--quantitative-lithostratigraphy",
+      "name": "Quantitative Lithostratigraphy",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geology--biostratigraphy",
+      "name": "Biostratigraphy",
+      "diff": "E"
+     },
+     {
+      "id": "gg-advanced-topics-in-geology--chronostratigraphy-statistical-and-probabilistic-approaches",
+      "name": "Chronostratigraphy - statistical and probabilistic approaches",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geology--isotope-stratigraphy",
+      "name": "Isotope stratigraphy",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geology--principles-of-sequence-stratigraphy-and-applications",
+      "name": "Principles of sequence stratigraphy and applications",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geology--boundary-problems-in-indian-stratigraphy",
+      "name": "Boundary problems in Indian stratigraphy",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "K",
+    "name": "Resource Geology",
+    "topics": [
+     {
+      "id": "gg-advanced-topics-in-geology--ore-mineralogy",
+      "name": "Ore-mineralogy",
+      "diff": "E"
+     },
+     {
+      "id": "gg-advanced-topics-in-geology--ore-forming-processes-magmatic",
+      "name": "Ore forming processes - magmatic",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geology--hydrothermal",
+      "name": "Hydrothermal",
+      "diff": "E"
+     },
+     {
+      "id": "gg-advanced-topics-in-geology--sedimentary",
+      "name": "Sedimentary",
+      "diff": "E"
+     },
+     {
+      "id": "gg-advanced-topics-in-geology--supergene",
+      "name": "Supergene",
+      "diff": "E"
+     },
+     {
+      "id": "gg-advanced-topics-in-geology--metamorphogenic-ores",
+      "name": "Metamorphogenic ores",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geology--fluid-inclusions-in-ore-genesis",
+      "name": "Fluid inclusions in ore genesis",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geology--coal-and-petroleum-geology",
+      "name": "Coal and petroleum geology",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geology--marine-mineral-resources",
+      "name": "Marine mineral resources",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geology--prospecting-and-exploration-of-economic-mineral-deposits-sam",
+      "name": "Prospecting and exploration of economic mineral deposits - sampling",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geology--ore-reserve-estimation",
+      "name": "Ore reserve estimation",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geology--geostatistics",
+      "name": "Geostatistics",
+      "diff": "E"
+     },
+     {
+      "id": "gg-advanced-topics-in-geology--mining-methods",
+      "name": "Mining methods",
+      "diff": "E"
+     },
+     {
+      "id": "gg-advanced-topics-in-geology--distribution-of-strategic",
+      "name": "Distribution of strategic",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geology--essential",
+      "name": "Essential",
+      "diff": "E"
+     },
+     {
+      "id": "gg-advanced-topics-in-geology--critical-minerals-and-fossil-fuel-deposits-in-india",
+      "name": "Critical minerals and fossil fuel deposits in India",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "L",
+    "name": "Engineering Geology",
+    "topics": [
+     {
+      "id": "gg-advanced-topics-in-geology--physico-mechanical-properties-of-rocks-and-soils",
+      "name": "Physico-mechanical properties of rocks and soils",
+      "diff": "E"
+     },
+     {
+      "id": "gg-advanced-topics-in-geology--rock-index-tests",
+      "name": "Rock index tests",
+      "diff": "E"
+     },
+     {
+      "id": "gg-advanced-topics-in-geology--rock-failure-criteria-mohr-coulomb-griffith-and-hoek-brown-c",
+      "name": "Rock failure criteria (Mohr-Coulomb, Griffith, and Hoek -Brown criteria)",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geology--shear-strength-of-rock-discontinuities",
+      "name": "Shear strength of rock discontinuities",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geology--rock-mass-classifications-rmr-and-q-systems",
+      "name": "Rock mass classifications (RMR and Q Systems)",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geology--in-situ-stresses",
+      "name": "In -situ stresses",
+      "diff": "E"
+     },
+     {
+      "id": "gg-advanced-topics-in-geology--geological-factors-in-the-construction-of-engineering-struct",
+      "name": "Geological factors in the construction of engineering structures including dams",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geology--tunnels",
+      "name": "Tunnels",
+      "diff": "E"
+     },
+     {
+      "id": "gg-advanced-topics-in-geology--excavation-sites",
+      "name": "Excavation sites",
+      "diff": "E"
+     },
+     {
+      "id": "gg-advanced-topics-in-geology--analysis-of-slope-stability",
+      "name": "Analysis of slope stability",
+      "diff": "H"
+     }
+    ]
+   },
+   {
+    "letter": "M",
+    "name": "Hydrogeology",
+    "topics": [
+     {
+      "id": "gg-advanced-topics-in-geology--porosity-and-permeability",
+      "name": "Porosity and permeability",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geology--groundwater-storage-and-aquifer-properties",
+      "name": "Groundwater storage and aquifer properties",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geology--darcys-law",
+      "name": "Darcy’s law",
+      "diff": "E"
+     },
+     {
+      "id": "gg-advanced-topics-in-geology--hydraulic-conductivity-and-groundwater-flow-dynamics",
+      "name": "Hydraulic conductivity and groundwater flow dynamics",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geology--groundwater-exploration-well-hydraulics",
+      "name": "Groundwater exploration, well hydraulics",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "N",
+    "name": "Remote Sensing",
+    "topics": [
+     {
+      "id": "gg-advanced-topics-in-geology--em-spectrum",
+      "name": "EM spectrum",
+      "diff": "E"
+     },
+     {
+      "id": "gg-advanced-topics-in-geology--multispectral-remote-sensing-in-visible",
+      "name": "Multispectral remote sensing in visible",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geology--infrared",
+      "name": "Infrared",
+      "diff": "E"
+     },
+     {
+      "id": "gg-advanced-topics-in-geology--thermal-ir-and-microwave-regions-including-hyperspectral",
+      "name": "Thermal IR and microwave regions including hyperspectral",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geology--digital-processing-of-satellite-images",
+      "name": "Digital processing of satellite images",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geology--gis-basic-concepts-raster-and-vector-mode-operations",
+      "name": "GIS - basic concepts, raster and vector mode operations",
+      "diff": "E"
+     },
+     {
+      "id": "gg-advanced-topics-in-geology--applications-of-remote-sensing-tools-and-techniques-in-geolo",
+      "name": "Applications of remote sensing tools and techniques in geology",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "gg-advanced-topics-in-geophysics",
+  "name": "Advanced topics in Geophysics",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Heat flow",
+    "topics": [
+     {
+      "id": "gg-advanced-topics-in-geophysics--elements-of-conduction-and-convection-within-the-mantle-and-",
+      "name": "Elements of conduction and convection within the mantle and the core",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--half-space-cooling",
+      "name": "Half-space cooling",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--calculation-of-simple-geotherms",
+      "name": "Calculation of simple geotherms",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--geothermal-gradient",
+      "name": "Geothermal gradient",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--equilibrium-geotherms",
+      "name": "Equilibrium geotherms",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--thermal-models-in-plate-tectonics",
+      "name": "Thermal models in plate tectonics",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--adiabat",
+      "name": "Adiabat",
+      "diff": "E"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--melting-in-the-mantle",
+      "name": "Melting in the mantle",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Geodesy",
+    "topics": [
+     {
+      "id": "gg-advanced-topics-in-geophysics--gravitational-field-of-the-earth",
+      "name": "Gravitational Field of the Earth",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--clairauts-theorem-size-and-shape-of-earth",
+      "name": "Clairaut’s theorem, size and shape of Earth",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--geoid",
+      "name": "Geoid",
+      "diff": "E"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--ellipsoid",
+      "name": "Ellipsoid",
+      "diff": "E"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--geodetic-reference-systems",
+      "name": "Geodetic Reference Systems",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--datum",
+      "name": "Datum",
+      "diff": "E"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--gps",
+      "name": "GPS",
+      "diff": "E"
+     }
+    ]
+   },
+   {
+    "letter": "C",
+    "name": "Seismology and Interior of the Earth",
+    "topics": [
+     {
+      "id": "gg-advanced-topics-in-geophysics--variation-of-density",
+      "name": "Variation of density",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--velocity",
+      "name": "Velocity",
+      "diff": "E"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--pressure",
+      "name": "Pressure",
+      "diff": "E"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--temperature",
+      "name": "Temperature",
+      "diff": "E"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--electrical-and-magnetic-properties-of-the-earth",
+      "name": "Electrical and magnetic properties of the Earth",
+      "diff": "E"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--conservation-laws",
+      "name": "Conservation laws",
+      "diff": "E"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--newtons-law-of-viscosity",
+      "name": "Newton’s law of viscosity",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--elements-of-laminar-and-turbulent-flow",
+      "name": "Elements of laminar and turbulent flow",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--elements-of-elasticity-theory-stress-and-strain-tensors",
+      "name": "Elements of elasticity theory - stress and strain tensors",
+      "diff": "H"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--generalized-hookes-law",
+      "name": "Generalized Hooke’s Law",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--body-and-surface-waves",
+      "name": "Body and Surface Waves",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--rotational-dilatational-irrotational-and-equivoluminal-wave-",
+      "name": "Rotational, dilatational, irrotational, and equivoluminal wave s",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--reflection-and-refraction-of-elastic-waves",
+      "name": "Reflection and refraction of elastic waves",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--inhomogeneous-and-evanescent-waves-and-bounded-waves",
+      "name": "Inhomogeneous and evanescent waves and bounded waves",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--eikonal-equation-and-ray-theory",
+      "name": "Eikonal Equation and Ray theory",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--wave-propagation-in-elastic-media-seismic-tomography",
+      "name": "Wave propagation in elastic media, Seismic Tomography",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "D",
+    "name": "Earthquake Seismology",
+    "topics": [
+     {
+      "id": "gg-advanced-topics-in-geophysics--earthquakes-causes-and-measurements",
+      "name": "Earthquakes-causes and measurements",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--magnitude-and-intensity",
+      "name": "Magnitude and intensity",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--focal-mechanisms",
+      "name": "Focal mechanisms",
+      "diff": "E"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--earthquake-quantification",
+      "name": "Earthquake quantification",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--source-characteristics",
+      "name": "Source characteristics",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--seismotectonics-and-seismic-hazards",
+      "name": "Seismotectonics and seismic hazards",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--digital-seismographs",
+      "name": "Digital seismographs",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--earthquake-statistics",
+      "name": "Earthquake statistics",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--quantifying-earthquake-source-from-seismological-data",
+      "name": "Quantifying earthquake source from seismological data",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--uniqueness-theorem",
+      "name": "Uniqueness Theorem",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--representation-theorems-of-correlation-and-convolution-type",
+      "name": "Representation Theorems of correlation and convolution type",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--reciprocity",
+      "name": "Reciprocity",
+      "diff": "E"
+     }
+    ]
+   },
+   {
+    "letter": "E",
+    "name": "Potential and Time Varying Fields",
+    "topics": [
+     {
+      "id": "gg-advanced-topics-in-geophysics--scalar-and-vector-potential-fields",
+      "name": "Scalar and vector potential fields",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--laplace",
+      "name": "Laplace",
+      "diff": "H"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--maxwell-and-helmholtz-equations-for-solution-of-different-ty",
+      "name": "Maxwell and Helmholtz equations for solution of different types of boundary value problems in Cartesian",
+      "diff": "E"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--cylindrical",
+      "name": "Cylindrical",
+      "diff": "E"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--spherical-polar-coordinates",
+      "name": "Spherical polar coordinates",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--greens-theorem",
+      "name": "Green’s theorem",
+      "diff": "E"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--image-theory",
+      "name": "Image theory",
+      "diff": "E"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--integral-equations-in-potential-and-time-varying-field-theor",
+      "name": "Integral equations in potential and time-varying field theory",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "F",
+    "name": "Gravity",
+    "topics": [
+     {
+      "id": "gg-advanced-topics-in-geophysics--the-earth-as-a-planet",
+      "name": "The earth as a planet",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--absolute-and-relative-gravity-measurements",
+      "name": "Absolute and relative gravity measurements",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--the-various-corrections-for-gravity-data-reduction-free-air",
+      "name": "The various corrections for gravity data reduction - free air",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--bouguer-and-isostatic-anomalies",
+      "name": "Bouguer and isostatic anomalies",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--density-estimates-of-rocks",
+      "name": "Density estimates of rocks",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--regional-and-residual-gravity-separation",
+      "name": "Regional and residual gravity separation",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--principle-of-equivalent-stratum",
+      "name": "Principle of equivalent stratum",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--upward-and-downward-continuation",
+      "name": "Upward and downward continuation",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--wavelength-filtering",
+      "name": "Wavelength filtering",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--gravity-anomalies-and-their-interpretation-anomalies-due-to-",
+      "name": "Gravity anomalies and their interpretation - anomalies due to geometrical and irregular shaped bodies",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--depth-rules",
+      "name": "Depth rules",
+      "diff": "E"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--calculation-of-mass",
+      "name": "Calculation of mass",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "G",
+    "name": "Magnetic Methods",
+    "topics": [
+     {
+      "id": "gg-advanced-topics-in-geophysics--geomagnetic-field-paleomagnetism",
+      "name": "Geomagnetic field, paleomagnetism",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--inclination-declination",
+      "name": "Inclination, declination",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--magnetic-induction-equation-convection",
+      "name": "Magnetic induction equation - convection",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--diffusion",
+      "name": "Diffusion",
+      "diff": "E"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--ohms-law-for-a-moving-conductor",
+      "name": "Ohm’s law for a moving conductor",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--frozen-flux-theorem",
+      "name": "Frozen flux theorem",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--magnetic-fields-of-planets-in-the-solar-system",
+      "name": "Magnetic fields of planets in the Solar System",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--geodynamo-and-origin-of-earths-magnetic-field",
+      "name": "Geodynamo and origin of Earth’s Magnetic field",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--magnetic-susceptibility-of-rocks-and-measurements",
+      "name": "Magnetic susceptibility of rocks and measurements",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--various-corrections-applied-to-magnetic-data",
+      "name": "Various corrections applied to magnetic data",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--igrf",
+      "name": "IGRF",
+      "diff": "E"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--poissons-relation-of-gravity-and-magnetic-potential-field",
+      "name": "Poisson’s relation of gravity and magnetic potential field",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--upward-and-downward-continuation",
+      "name": "Upward and downward continuation",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--magnetic-anomalies-due-to-geometrical-and-irregular-shaped-b",
+      "name": "Magnetic anomalies due to geometrical and irregular shaped bodies",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--interpretation-of-processed-magnetic-anomaly-data",
+      "name": "Interpretation of processed magnetic anomaly data",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--derivative-analytic-signal-and-euler-depth-solutions",
+      "name": "Derivative, analytic signal and Euler Depth Solutions",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "H",
+    "name": "Electrical Methods",
+    "topics": [
+     {
+      "id": "gg-advanced-topics-in-geophysics--conduction-of-electricity-through-rocks",
+      "name": "Conduction of electricity through rocks",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--electrical-conductivities-of-metals",
+      "name": "Electrical conductivities of metals",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--non-metals",
+      "name": "Non-metals",
+      "diff": "E"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--rockforming-minerals-and-different-rocks",
+      "name": "Rockforming minerals and different rocks",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--concepts-of-d-c-resistivity-measurement-and-depth-of-investi",
+      "name": "Concepts of D.C. resistivity measurement and depth of investigation",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--apparent-resistivity-and-apparent-chargeability",
+      "name": "Apparent Resistivity and Apparent Chargeability",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--theo-ry-of-reciprocity",
+      "name": "Theo ry of Reciprocity",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--sounding-and-profiling",
+      "name": "Sounding and Profiling",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--various-electrode-arrangements",
+      "name": "Various electrode arrangements",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--application-of-linear-filter-theory",
+      "name": "Application of linear filter theory",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--sounding-curves-over-multi-layered-earth",
+      "name": "Sounding curves over multi-layered earth",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--interpretation-of-resistivity-field-data",
+      "name": "Interpretation of resistivity field data",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--principles-of-equivalence-and-suppression",
+      "name": "Principles of equivalence and suppression",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "I",
+    "name": "Electromagnetic Methods",
+    "topics": [
+     {
+      "id": "gg-advanced-topics-in-geophysics--geo-electromagnetic-spectrum",
+      "name": "Geo-electromagnetic spectrum",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--biot-savarts-law",
+      "name": "Biot Savart’s Law",
+      "diff": "E"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--maxwells-equation",
+      "name": "Maxwell’s Equation",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--helmholtz-equation",
+      "name": "Helmholtz Equation",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--basic-concept-of-em-induction-in-the-earth",
+      "name": "Basic concept of EM induction in the earth",
+      "diff": "E"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--skin-depth",
+      "name": "Skin -depth",
+      "diff": "E"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--elliptic-polarization",
+      "name": "Elliptic polarization",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--in-phase-and-quadrature-components",
+      "name": "In-phase and quadrature components",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--phasor-diagrams",
+      "name": "Phasor diagrams",
+      "diff": "E"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--response-function-and-respo-nse-parameters",
+      "name": "Response function and respo nse parameters",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--measurements-in-different-source-receiver-configurations",
+      "name": "Measurements in different source receiver configurations",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--earths-natural-electromagnetic-methods-tellurics",
+      "name": "Earth’s natural electromagnetic methods - tellurics",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--geomagnetic-depth-sounding-and-magnetotellurics",
+      "name": "Geomagnetic depth sounding and magnetotellurics",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--electromagnetic-profiling-and-sounding-time-domain-em-method",
+      "name": "Electromagnetic profiling and Sounding, Time domain EM method",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--em-scale-modelling-processing-of-em-data-and-interpretation",
+      "name": "EM scale modelling, processing of EM data and interpretation",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--ground-penetrating-radar-gpr-methods",
+      "name": "Ground Penetrating Radar (GPR) Methods",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--effect-of-conducting-overburden",
+      "name": "Effect of conducting overburden",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "J",
+    "name": "Seismic Methods",
+    "topics": [
+     {
+      "id": "gg-advanced-topics-in-geophysics--elastic-properties-of-earth-materials",
+      "name": "Elastic properties of earth materials",
+      "diff": "E"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--reflection",
+      "name": "Reflection",
+      "diff": "E"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--refraction",
+      "name": "Refraction",
+      "diff": "E"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--generation",
+      "name": "Generation",
+      "diff": "E"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--propagation-of-elastic-waves",
+      "name": "Propagation of elastic waves",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--velocity-depth-models",
+      "name": "Velocity - depth models",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--seismic-noise-and-noise-profile-analysis",
+      "name": "Seismic noise and noise profile analysis",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--processing",
+      "name": "Processing",
+      "diff": "E"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--interpretation",
+      "name": "Interpretation",
+      "diff": "E"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--cdp-stacking-charts",
+      "name": "CDP stacking charts",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--binning",
+      "name": "Binning",
+      "diff": "E"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--filtering",
+      "name": "Filtering",
+      "diff": "E"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--static-and-dynamic-corrections",
+      "name": "Static and dynamic corrections",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--digital-seismic-data-processing",
+      "name": "Digital seismic data processing",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--seismic-deconvolution-and-migration-methods",
+      "name": "Seismic deconvolution and migration methods",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--attribute-analysis",
+      "name": "Attribute analysis",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--bright-and-dim-spots",
+      "name": "Bright and dim spots",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--seismic-stratigraphy",
+      "name": "Seismic stratigraphy",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--high-resolution-seismics",
+      "name": "High - resolution seismics",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--vsp",
+      "name": "VSP",
+      "diff": "E"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--avo",
+      "name": "AVO",
+      "diff": "E"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--multi-component-seismics",
+      "name": "Multi -component seismics",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--seismic-interferomet-ry",
+      "name": "Seismic interferomet ry",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--kirchhoff-migration",
+      "name": "Kirchhoff migration",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--time-reversal",
+      "name": "Time Reversal",
+      "diff": "E"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--time-reversal-imaging",
+      "name": "Time -Reversal imaging",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--reverse-time-migration",
+      "name": "Reverse -Time Migration",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--representation-theorem-of-cross-correlation-and-convolution-",
+      "name": "Representation theorem of cross -correlation and convolution type",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "K",
+    "name": "Reservoir Geophysics",
+    "topics": [
+     {
+      "id": "gg-advanced-topics-in-geophysics--rock-physics-and-petrophysics",
+      "name": "Rock Physics and Petrophysics",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--failure-criteria",
+      "name": "Failure Criteria",
+      "diff": "E"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--stress-concentration",
+      "name": "Stress concentration",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--linear-elasticity-fracture-mechanics",
+      "name": "Linear elasticity fracture mechanics",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--elastic-plastic-fracture-mechanics",
+      "name": "Elastic -Plastic Fracture mechanics",
+      "diff": "H"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--griffiths-criterion-dynamic-fracture-mechanics",
+      "name": "Griffith’s criterion, dynamic fracture mechanics",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--lithology-and-porosity-estimation",
+      "name": "Lithology and Porosity Estimation",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--saturation-and-permeability-estimation",
+      "name": "Saturation and Permeability Estimation",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--application-of-borehole-geophysics-in-groundwater",
+      "name": "Application of borehole geophysics in groundwater",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--mineral",
+      "name": "Mineral",
+      "diff": "E"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--oil-exploration",
+      "name": "Oil exploration",
+      "diff": "E"
+     }
+    ]
+   },
+   {
+    "letter": "L",
+    "name": "Geophysical Signal Processing",
+    "topics": [
+     {
+      "id": "gg-advanced-topics-in-geophysics--sampling-theorem",
+      "name": "Sampling theorem",
+      "diff": "E"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--nyquist-frequency",
+      "name": "Nyquist frequency",
+      "diff": "H"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--aliasing",
+      "name": "Aliasing",
+      "diff": "E"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--fourier-series",
+      "name": "Fourier series",
+      "diff": "H"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--periodic-waveform",
+      "name": "Periodic waveform",
+      "diff": "E"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--fourier-and-hilbert-transform",
+      "name": "Fourier and Hilbert transform",
+      "diff": "H"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--z-transform-and-wavelet-transform",
+      "name": "Z -transform and wavelet transform",
+      "diff": "H"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--power-spectrum",
+      "name": "Power spectrum",
+      "diff": "E"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--delta-function",
+      "name": "Delta function",
+      "diff": "E"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--auto-correlation",
+      "name": "Auto-correlation",
+      "diff": "E"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--cross-correlation",
+      "name": "Cross-correlation",
+      "diff": "E"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--convolution",
+      "name": "Convolution",
+      "diff": "E"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--deconvolution",
+      "name": "Deconvolution",
+      "diff": "E"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--principles-o-f-digital-filters",
+      "name": "Principles o f digital filters",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--windows",
+      "name": "Windows",
+      "diff": "E"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--poles",
+      "name": "Poles",
+      "diff": "E"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--zeros",
+      "name": "Zeros",
+      "diff": "E"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--basics-of-time-frequency-analysis",
+      "name": "Basics of Time-frequency analysis",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "M",
+    "name": "Geophysical Well Logging",
+    "topics": [
+     {
+      "id": "gg-advanced-topics-in-geophysics--principles-and-techniques-of-geophysical-well-logging",
+      "name": "Principles and techniques of geophysical well -logging",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--resistivity",
+      "name": "Resistivity",
+      "diff": "E"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--induction",
+      "name": "Induction",
+      "diff": "E"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--gamma-ray",
+      "name": "Gamma ray",
+      "diff": "E"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--neutron",
+      "name": "Neutron",
+      "diff": "E"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--density",
+      "name": "Density",
+      "diff": "E"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--sonic",
+      "name": "Sonic",
+      "diff": "E"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--temperature",
+      "name": "Temperature",
+      "diff": "E"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--dip-meter",
+      "name": "Dip meter",
+      "diff": "E"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--caliper",
+      "name": "Caliper",
+      "diff": "E"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--nuclear-magnetic-resonance-longitudinal-and-transverse-relax",
+      "name": "Nuclear magnetic resonance- longitudinal and transverse relaxation",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--cpmg-sequence",
+      "name": "CPMG sequence",
+      "diff": "E"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--porosity-characterization",
+      "name": "Porosity characterization",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--cement-bond-logging",
+      "name": "Cement bond logging",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--micro-logs",
+      "name": "Micro-logs",
+      "diff": "E"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--quantitative-evaluation-of-formations-from-well-logs",
+      "name": "Quantitative evaluation of formations from well logs",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "N",
+    "name": "Geophysical Inversion",
+    "topics": [
+     {
+      "id": "gg-advanced-topics-in-geophysics--basic-concepts-of-forward-and-inverse-problems",
+      "name": "Basic concepts of forward and inverse problems",
+      "diff": "E"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--ill-posedness-of-inverse-problems",
+      "name": "Ill -posedness of inverse problems",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--condition-number",
+      "name": "Condition number",
+      "diff": "E"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--non-uniqueness-and-stability-of-solutions",
+      "name": "Non -uniqueness and stability of solutions",
+      "diff": "H"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--lp-norms",
+      "name": "Lp norms",
+      "diff": "E"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--overdetermined",
+      "name": "Overdetermined",
+      "diff": "E"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--underdetermined-and-mixed-determined-inverse-problems",
+      "name": "Underdetermined and mixed determined inverse problems",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--quasi-linear-and-non-linear-methods-including-tikhonovs-regu",
+      "name": "Quasi -linear and non -linear methods including Tikhonov’s regularization method",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--singular-value-decomposition",
+      "name": "Singular Value Decomposition",
+      "diff": "H"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--backus-gilbert-method",
+      "name": "Backus-Gilbert method",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--simulated-annealing",
+      "name": "Simulated annealing",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--genetic-algorithms",
+      "name": "Genetic algorithms",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--swarm-intelligence",
+      "name": "Swarm intelligence",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--statistics-of-misfit-and-likelihood",
+      "name": "Statistics of misfit and likelihood",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--random-variables-and-processes",
+      "name": "Random Variables and Processes",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--probability-distribution-functions-gaussian",
+      "name": "Probability distribution functions - Gaussian",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--poissonian",
+      "name": "Poissonian",
+      "diff": "E"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--log-normal",
+      "name": "Log -normal",
+      "diff": "E"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--spatial-analysis-hypothesis-testing",
+      "name": "Spatial analysis, Hypothesis testing",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--bayesian-construction-of-posterior-probabilities",
+      "name": "Bayesian construction of posterior probabilities",
+      "diff": "H"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--sparsity-promoting-l1-optimization",
+      "name": "Sparsity promoting L1 optimization",
+      "diff": "H"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--ambiguity-and-uncertainty-in-geophysical-interpretation",
+      "name": "Ambiguity and uncertainty in geophysical interpretation",
+      "diff": "M"
+     },
+     {
+      "id": "gg-advanced-topics-in-geophysics--pde-constrained-optimization-adjoint-state-method",
+      "name": "PDE constrained optimization, Adjoint-state method",
+      "diff": "H"
+     }
+    ]
+   }
+  ]
+ }
+]

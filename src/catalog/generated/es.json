@@ -1,0 +1,1550 @@
+[
+ {
+  "id": "es-mathematics-foundation",
+  "name": "Mathematics Foundation",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Linear Algebra",
+    "topics": [
+     {
+      "id": "es-mathematics-foundation--determinants-and-matrices",
+      "name": "Determinants and matrices",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "es-mathematics-foundation--systems-of-linear-equations",
+      "name": "Systems of linear equations",
+      "diff": "M"
+     },
+     {
+      "id": "es-mathematics-foundation--eigenvalues-and-eigenvectors",
+      "name": "Eigenvalues and eigenvectors",
+      "diff": "H"
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Calculus",
+    "topics": [
+     {
+      "id": "es-mathematics-foundation--functions",
+      "name": "Functions",
+      "diff": "E"
+     },
+     {
+      "id": "es-mathematics-foundation--limit",
+      "name": "Limit",
+      "diff": "E"
+     },
+     {
+      "id": "es-mathematics-foundation--continuity",
+      "name": "Continuity",
+      "diff": "E"
+     },
+     {
+      "id": "es-mathematics-foundation--differentiability",
+      "name": "Differentiability",
+      "diff": "E"
+     },
+     {
+      "id": "es-mathematics-foundation--local-maxima-and-minima",
+      "name": "Local maxima and minima",
+      "diff": "M"
+     },
+     {
+      "id": "es-mathematics-foundation--taylor-series",
+      "name": "Taylor series",
+      "diff": "E"
+     },
+     {
+      "id": "es-mathematics-foundation--tests-for-convergence",
+      "name": "Tests for convergence",
+      "diff": "M"
+     },
+     {
+      "id": "es-mathematics-foundation--definite-and-indefinite-integrals",
+      "name": "Definite and indefinite integrals",
+      "diff": "M"
+     },
+     {
+      "id": "es-mathematics-foundation--application-of-definite-integral-to-obtain-area-and-volume",
+      "name": "Application of definite integral to obtain area and volume",
+      "diff": "M"
+     },
+     {
+      "id": "es-mathematics-foundation--partial-and-total-derivatives",
+      "name": "Partial and total derivatives",
+      "diff": "M"
+     },
+     {
+      "id": "es-mathematics-foundation--linear-and-non-linear-first-order-ordinary-differential-equa",
+      "name": "Linear and non-linear first order ordinary differential equations (ODE)",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "C",
+    "name": "Numerical Methods",
+    "topics": [
+     {
+      "id": "es-mathematics-foundation--approximation-errors-accuracy-and-precision-in-numerical-met",
+      "name": "Approximation, errors, accuracy and precision in numerical methods",
+      "diff": "M"
+     },
+     {
+      "id": "es-mathematics-foundation--numerical-solutions-roots-of-linear-and-non-linear-algebraic",
+      "name": "Numerical solutions (roots) of linear and non -linear algebraic equations",
+      "diff": "M"
+     },
+     {
+      "id": "es-mathematics-foundation--interpolation-and-curve-fitting-least-square-approximation",
+      "name": "Interpolation and curve fitting - Least square approximation",
+      "diff": "M"
+     },
+     {
+      "id": "es-mathematics-foundation--newtons-and-lagrange-polynomials",
+      "name": "Newton’s and Lagrange polynomials",
+      "diff": "M"
+     },
+     {
+      "id": "es-mathematics-foundation--numerical-differentiation-and-integration-trapezoidal-and-si",
+      "name": "Numerical differentiation and integration - trapezoidal and Simpson’s rule",
+      "diff": "M"
+     },
+     {
+      "id": "es-mathematics-foundation--numerical-solution-of-ordinary-differential-equations-single",
+      "name": "Numerical solution of ordinary differential equations - single and multi-step methods",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "D",
+    "name": "Probability and Statistics",
+    "topics": [
+     {
+      "id": "es-mathematics-foundation--descriptive-statistics",
+      "name": "Descriptive statistics",
+      "diff": "M"
+     },
+     {
+      "id": "es-mathematics-foundation--measurement-of-central-tendency",
+      "name": "Measurement of central tendency",
+      "diff": "M"
+     },
+     {
+      "id": "es-mathematics-foundation--dispersion",
+      "name": "Dispersion",
+      "diff": "E"
+     },
+     {
+      "id": "es-mathematics-foundation--skewness-and-kurtosis",
+      "name": "Skewness and kurtosis",
+      "diff": "M"
+     },
+     {
+      "id": "es-mathematics-foundation--probability-concepts",
+      "name": "Probability concepts",
+      "diff": "M"
+     },
+     {
+      "id": "es-mathematics-foundation--conditional-probability",
+      "name": "Conditional probability",
+      "diff": "M"
+     },
+     {
+      "id": "es-mathematics-foundation--bayes-theorem",
+      "name": "Bayes theorem",
+      "diff": "E"
+     },
+     {
+      "id": "es-mathematics-foundation--risk-and-reliability",
+      "name": "Risk and reliability",
+      "diff": "M"
+     },
+     {
+      "id": "es-mathematics-foundation--probability-distributions",
+      "name": "Probability distributions",
+      "diff": "M"
+     },
+     {
+      "id": "es-mathematics-foundation--correlation",
+      "name": "Correlation",
+      "diff": "E"
+     },
+     {
+      "id": "es-mathematics-foundation--single-and-multiple-regression-models",
+      "name": "Single and multiple regression models",
+      "diff": "M"
+     },
+     {
+      "id": "es-mathematics-foundation--hypothesis-testing-t-test-f-test-chi-square-test",
+      "name": "Hypothesis testing (t-test, F-test, chi-square test)",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "es-environmental-chemistry",
+  "name": "Environmental Chemistry",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Fundamentals of Environmental Chemistry",
+    "topics": [
+     {
+      "id": "es-environmental-chemistry--covalent-and-ionic-bonding",
+      "name": "Covalent and ionic bonding",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "es-environmental-chemistry--chemical-equations-concentration-and-activity",
+      "name": "Chemical equations, concentration and activity",
+      "diff": "M"
+     },
+     {
+      "id": "es-environmental-chemistry--structure-and-chemistry-of-organic-molecules",
+      "name": "Structure and chemistry of organic molecules",
+      "diff": "M"
+     },
+     {
+      "id": "es-environmental-chemistry--chemical-equilibria",
+      "name": "Chemical equilibria",
+      "diff": "M"
+     },
+     {
+      "id": "es-environmental-chemistry--thermodynamics-and-kinetics-of-chemical-reactions",
+      "name": "Thermodynamics and kinetics of chemical reactions",
+      "diff": "H"
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Principles of Water Chemistry",
+    "topics": [
+     {
+      "id": "es-environmental-chemistry--water-quality-parameters-and-their-measurement",
+      "name": "Water quality parameters and their measurement",
+      "diff": "M"
+     },
+     {
+      "id": "es-environmental-chemistry--acid-base-equilibria",
+      "name": "Acid -base equilibria",
+      "diff": "M"
+     },
+     {
+      "id": "es-environmental-chemistry--buffer-solution",
+      "name": "Buffer solution",
+      "diff": "E"
+     },
+     {
+      "id": "es-environmental-chemistry--carbonate-equilibrium",
+      "name": "Carbonate equilibrium",
+      "diff": "M"
+     },
+     {
+      "id": "es-environmental-chemistry--solubility-of-gases-in-water",
+      "name": "Solubility of gases in water",
+      "diff": "M"
+     },
+     {
+      "id": "es-environmental-chemistry--complexation-precipitation-and-redox-reactions",
+      "name": "Complexation, precipitation, and redox reactions",
+      "diff": "M"
+     },
+     {
+      "id": "es-environmental-chemistry--inorganic-and-organic-contaminants",
+      "name": "Inorganic and organic contaminants",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "C",
+    "name": "Soil Chemistry",
+    "topics": [
+     {
+      "id": "es-environmental-chemistry--organic-matter",
+      "name": "Organic matter",
+      "diff": "E"
+     },
+     {
+      "id": "es-environmental-chemistry--nitrogen",
+      "name": "Nitrogen",
+      "diff": "E"
+     },
+     {
+      "id": "es-environmental-chemistry--phosphorous",
+      "name": "Phosphorous",
+      "diff": "E"
+     },
+     {
+      "id": "es-environmental-chemistry--potassium",
+      "name": "Potassium",
+      "diff": "E"
+     },
+     {
+      "id": "es-environmental-chemistry--cation-exchange-capacity",
+      "name": "Cation exchange capacity",
+      "diff": "M"
+     },
+     {
+      "id": "es-environmental-chemistry--base-saturation",
+      "name": "Base saturation",
+      "diff": "E"
+     },
+     {
+      "id": "es-environmental-chemistry--sodium-absorption-ratio",
+      "name": "Sodium absorption ratio",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "D",
+    "name": "Atmospheric Chemistry",
+    "topics": [
+     {
+      "id": "es-environmental-chemistry--composition-of-the-atmosphere",
+      "name": "Composition of the atmosphere",
+      "diff": "M"
+     },
+     {
+      "id": "es-environmental-chemistry--reactivity-of-trace-substances-in-the-atmosphere",
+      "name": "Reactivity of trace substances in the atmosphere",
+      "diff": "M"
+     },
+     {
+      "id": "es-environmental-chemistry--chemistry-of-ozone-formation",
+      "name": "Chemistry of ozone formation",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "es-environmental-microbiology",
+  "name": "Environmental Microbiology",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Prokaryotic and Eukaryotic Microorganisms",
+    "topics": [
+     {
+      "id": "es-environmental-microbiology--characteristics-of-diverse-groups-of-microorganisms",
+      "name": "Characteristics of diverse groups of microorganisms",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "es-environmental-microbiology--classification-of-microorganisms",
+      "name": "Classification of microorganisms",
+      "diff": "E"
+     },
+     {
+      "id": "es-environmental-microbiology--microbial-diversity",
+      "name": "Microbial diversity",
+      "diff": "M"
+     },
+     {
+      "id": "es-environmental-microbiology--role-of-microorganisms-in-wastewater-treatment",
+      "name": "Role of microorganisms in wastewater treatment",
+      "diff": "M"
+     },
+     {
+      "id": "es-environmental-microbiology--bioremediation-and-biogeochemical-cycling",
+      "name": "Bioremediation and biogeochemical cycling",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Cell Chemistry and Cell Biology",
+    "topics": [
+     {
+      "id": "es-environmental-microbiology--structure-of-proteins",
+      "name": "Structure of proteins",
+      "diff": "M"
+     },
+     {
+      "id": "es-environmental-microbiology--nucleic-acid-dna-and-rna",
+      "name": "Nucleic acid (DNA & RNA)",
+      "diff": "M"
+     },
+     {
+      "id": "es-environmental-microbiology--lipids-and-polysaccharides",
+      "name": "Lipids and polysaccharides",
+      "diff": "M"
+     },
+     {
+      "id": "es-environmental-microbiology--structure-of-cell",
+      "name": "Structure of cell",
+      "diff": "E"
+     },
+     {
+      "id": "es-environmental-microbiology--structure-and-function-of-cytoplasmic-membrane",
+      "name": "Structure and function of cytoplasmic membrane",
+      "diff": "M"
+     },
+     {
+      "id": "es-environmental-microbiology--cell-wall",
+      "name": "Cell wall",
+      "diff": "E"
+     },
+     {
+      "id": "es-environmental-microbiology--outer-membrane",
+      "name": "Outer membrane",
+      "diff": "E"
+     },
+     {
+      "id": "es-environmental-microbiology--glycocalyx",
+      "name": "Glycocalyx",
+      "diff": "E"
+     },
+     {
+      "id": "es-environmental-microbiology--antimicrobial-resistance-quorum-sensing",
+      "name": "Antimicrobial resistance, quorum sensing",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "C",
+    "name": "Microbial Metabolism",
+    "topics": [
+     {
+      "id": "es-environmental-microbiology--anabolism-and-catabolism",
+      "name": "Anabolism and catabolism",
+      "diff": "M"
+     },
+     {
+      "id": "es-environmental-microbiology--phosphorylation",
+      "name": "Phosphorylation",
+      "diff": "E"
+     },
+     {
+      "id": "es-environmental-microbiology--glycolysis",
+      "name": "Glycolysis",
+      "diff": "E"
+     },
+     {
+      "id": "es-environmental-microbiology--tca-cycle",
+      "name": "TCA cycle",
+      "diff": "E"
+     },
+     {
+      "id": "es-environmental-microbiology--electron-transport-chain",
+      "name": "Electron transport chain",
+      "diff": "M"
+     },
+     {
+      "id": "es-environmental-microbiology--fermentation",
+      "name": "Fermentation",
+      "diff": "E"
+     },
+     {
+      "id": "es-environmental-microbiology--anaerobic-respiration",
+      "name": "Anaerobic respiration",
+      "diff": "M"
+     },
+     {
+      "id": "es-environmental-microbiology--energy-balances",
+      "name": "Energy balances",
+      "diff": "E"
+     },
+     {
+      "id": "es-environmental-microbiology--enzymes-and-enzyme-kinetics",
+      "name": "Enzymes and Enzyme kinetics",
+      "diff": "H"
+     }
+    ]
+   },
+   {
+    "letter": "D",
+    "name": "Growth and Control of Microorganisms",
+    "topics": [
+     {
+      "id": "es-environmental-microbiology--bacterial-nutrition-and-growth",
+      "name": "Bacterial nutrition and growth",
+      "diff": "M"
+     },
+     {
+      "id": "es-environmental-microbiology--specific-growth-rate-and-doubling-time",
+      "name": "Specific growth rate and doubling time",
+      "diff": "M"
+     },
+     {
+      "id": "es-environmental-microbiology--monods-model",
+      "name": "Monod’s model",
+      "diff": "E"
+     },
+     {
+      "id": "es-environmental-microbiology--types-of-culture-media",
+      "name": "Types of culture media",
+      "diff": "E"
+     },
+     {
+      "id": "es-environmental-microbiology--batch-and-continuous-culture",
+      "name": "Batch and continuous culture",
+      "diff": "M"
+     },
+     {
+      "id": "es-environmental-microbiology--effects-of-environmental-factors-on-growth",
+      "name": "Effects of environmental factors on growth",
+      "diff": "M"
+     },
+     {
+      "id": "es-environmental-microbiology--control-of-microbes-using-physical-and-chemical-methods",
+      "name": "Control of microbes using physical and chemical methods",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "E",
+    "name": "Microbiology and Health",
+    "topics": [
+     {
+      "id": "es-environmental-microbiology--pathogens-and-modes-of-transmission",
+      "name": "Pathogens and modes of transmission",
+      "diff": "M"
+     },
+     {
+      "id": "es-environmental-microbiology--indicator-organisms",
+      "name": "Indicator organisms",
+      "diff": "M"
+     },
+     {
+      "id": "es-environmental-microbiology--quantification-of-coliforms-using-mpn-and-membrane-filtratio",
+      "name": "Quantification of coliforms using MPN and membrane filtration techniques",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "es-water-resources-and-environmen",
+  "name": "Water Resources and Environmental Hydraulics",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Global Water Resources",
+    "topics": [
+     {
+      "id": "es-water-resources-and-environmen--structure-properties-and-distribution-of-water",
+      "name": "Structure, properties and distribution of water",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "es-water-resources-and-environmen--threats-to-water-resources",
+      "name": "Threats to water resources",
+      "diff": "M"
+     },
+     {
+      "id": "es-water-resources-and-environmen--water-conservation",
+      "name": "Water conservation",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Surface Water Resources",
+    "topics": [
+     {
+      "id": "es-water-resources-and-environmen--hydrological-cycle-and-water-balance-precipitation",
+      "name": "Hydrological cycle and water balance - precipitation",
+      "diff": "M"
+     },
+     {
+      "id": "es-water-resources-and-environmen--infiltration",
+      "name": "Infiltration",
+      "diff": "E"
+     },
+     {
+      "id": "es-water-resources-and-environmen--evapotranspiration",
+      "name": "Evapotranspiration",
+      "diff": "M"
+     },
+     {
+      "id": "es-water-resources-and-environmen--runoff",
+      "name": "Runoff",
+      "diff": "E"
+     },
+     {
+      "id": "es-water-resources-and-environmen--flow-hydrographs",
+      "name": "Flow hydrographs",
+      "diff": "E"
+     },
+     {
+      "id": "es-water-resources-and-environmen--unit-hydrographs",
+      "name": "Unit hydrographs",
+      "diff": "E"
+     },
+     {
+      "id": "es-water-resources-and-environmen--stage-discharge-relationship",
+      "name": "Stage -discharge relationship",
+      "diff": "M"
+     },
+     {
+      "id": "es-water-resources-and-environmen--reservoir-capacity",
+      "name": "Reservoir capacity",
+      "diff": "M"
+     },
+     {
+      "id": "es-water-resources-and-environmen--surface-water-management",
+      "name": "Surface water management",
+      "diff": "M"
+     },
+     {
+      "id": "es-water-resources-and-environmen--rain-water-harvesting-and-storage",
+      "name": "Rain water harvesting and storage",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "C",
+    "name": "Groundwater Resources",
+    "topics": [
+     {
+      "id": "es-water-resources-and-environmen--geologic-formations-as-aquifers",
+      "name": "Geologic formations as aquifers",
+      "diff": "M"
+     },
+     {
+      "id": "es-water-resources-and-environmen--vadose-and-saturated-zones",
+      "name": "Vadose and saturated zones",
+      "diff": "M"
+     },
+     {
+      "id": "es-water-resources-and-environmen--confined-and-unconfined-aquifers-and-their-parameters-porosi",
+      "name": "Confined and unconfined aquifers and their parameters - porosity",
+      "diff": "M"
+     },
+     {
+      "id": "es-water-resources-and-environmen--permeability",
+      "name": "Permeability",
+      "diff": "E"
+     },
+     {
+      "id": "es-water-resources-and-environmen--transmissivity-and-storage-coefficient",
+      "name": "Transmissivity and storage coefficient",
+      "diff": "M"
+     },
+     {
+      "id": "es-water-resources-and-environmen--darcys-law-and-applications",
+      "name": "Darcy’s law and applications",
+      "diff": "M"
+     },
+     {
+      "id": "es-water-resources-and-environmen--steady-state-well-hydraulics",
+      "name": "Steady state well hydraulics",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "D",
+    "name": "Environmental Hydraulics",
+    "topics": [
+     {
+      "id": "es-water-resources-and-environmen--concepts-of-mechanics",
+      "name": "Concepts of mechanics",
+      "diff": "M"
+     },
+     {
+      "id": "es-water-resources-and-environmen--properties-of-fluids",
+      "name": "Properties of fluids",
+      "diff": "E"
+     },
+     {
+      "id": "es-water-resources-and-environmen--pressure-measurement",
+      "name": "Pressure measurement",
+      "diff": "M"
+     },
+     {
+      "id": "es-water-resources-and-environmen--hydrostatic-force-on-surfaces",
+      "name": "Hydrostatic force on surfaces",
+      "diff": "M"
+     },
+     {
+      "id": "es-water-resources-and-environmen--buoyancy-and-flotation",
+      "name": "Buoyancy and flotation",
+      "diff": "M"
+     },
+     {
+      "id": "es-water-resources-and-environmen--laminar-and-turbulent-flow",
+      "name": "Laminar and turbulent flow",
+      "diff": "M"
+     },
+     {
+      "id": "es-water-resources-and-environmen--flow-through-pipes",
+      "name": "Flow through pipes",
+      "diff": "M"
+     },
+     {
+      "id": "es-water-resources-and-environmen--pipe-networks",
+      "name": "Pipe networks",
+      "diff": "E"
+     },
+     {
+      "id": "es-water-resources-and-environmen--forces-on-immersed-bodies",
+      "name": "Forces on immersed bodies",
+      "diff": "M"
+     },
+     {
+      "id": "es-water-resources-and-environmen--flow-measurement-in-channels-and-pipes",
+      "name": "Flow measurement in channels and pipes",
+      "diff": "M"
+     },
+     {
+      "id": "es-water-resources-and-environmen--kinematics-of-flow",
+      "name": "Kinematics of flow",
+      "diff": "M"
+     },
+     {
+      "id": "es-water-resources-and-environmen--continuity-momentum-and-energy-equations",
+      "name": "Continuity, momentum and energy equations",
+      "diff": "M"
+     },
+     {
+      "id": "es-water-resources-and-environmen--channel-hydraulics-specific-energy",
+      "name": "Channel hydraulics - specific energy",
+      "diff": "M"
+     },
+     {
+      "id": "es-water-resources-and-environmen--critical-flow",
+      "name": "Critical flow",
+      "diff": "E"
+     },
+     {
+      "id": "es-water-resources-and-environmen--hydraulic-jump",
+      "name": "Hydraulic jump",
+      "diff": "E"
+     },
+     {
+      "id": "es-water-resources-and-environmen--rapid-and-gradually-varied-flow",
+      "name": "Rapid and gradually varied flow",
+      "diff": "M"
+     },
+     {
+      "id": "es-water-resources-and-environmen--design-of-lined-channels",
+      "name": "Design of lined channels",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "es-water-and-wastewater-treatment",
+  "name": "Water & Wastewater Treatment and Management",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Overview",
+    "topics": [
+     {
+      "id": "es-water-and-wastewater-treatment--water-and-wastewater-quality-parameters",
+      "name": "Water and wastewater quality parameters",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "es-water-and-wastewater-treatment--eutrophication-and-thermal-stratification-in-lakes",
+      "name": "Eutrophication and thermal stratification in lakes",
+      "diff": "M"
+     },
+     {
+      "id": "es-water-and-wastewater-treatment--river-pollution-oxygen-sag-curve",
+      "name": "River pollution - Oxygen sag curve",
+      "diff": "M"
+     },
+     {
+      "id": "es-water-and-wastewater-treatment--water-treatment-methods-screening",
+      "name": "Water treatment methods — screening",
+      "diff": "M"
+     },
+     {
+      "id": "es-water-and-wastewater-treatment--sedimentation-with-and-without-coagulation",
+      "name": "Sedimentation with and without coagulation",
+      "diff": "M"
+     },
+     {
+      "id": "es-water-and-wastewater-treatment--filtration",
+      "name": "Filtration",
+      "diff": "E"
+     },
+     {
+      "id": "es-water-and-wastewater-treatment--desalination",
+      "name": "Desalination",
+      "diff": "E"
+     },
+     {
+      "id": "es-water-and-wastewater-treatment--disinfection",
+      "name": "Disinfection",
+      "diff": "E"
+     },
+     {
+      "id": "es-water-and-wastewater-treatment--water-distribution-and-storage",
+      "name": "Water distribution and storage",
+      "diff": "M"
+     },
+     {
+      "id": "es-water-and-wastewater-treatment--point-and-non-point-sources-of-wastewater",
+      "name": "Point and non -point sources of wastewater",
+      "diff": "M"
+     },
+     {
+      "id": "es-water-and-wastewater-treatment--population-forecasting-methods",
+      "name": "Population forecasting methods",
+      "diff": "M"
+     },
+     {
+      "id": "es-water-and-wastewater-treatment--design-of-sewer-and-storm-water-sewers",
+      "name": "Design of sewer and storm water sewers",
+      "diff": "M"
+     },
+     {
+      "id": "es-water-and-wastewater-treatment--sewer-appurtenances",
+      "name": "Sewer appurtenances",
+      "diff": "M"
+     },
+     {
+      "id": "es-water-and-wastewater-treatment--preliminary-primary-secondary-and-tertiary-sewage-treatment",
+      "name": "Preliminary, primary, secondary and tertiary sewage treatment",
+      "diff": "M"
+     },
+     {
+      "id": "es-water-and-wastewater-treatment--sludge-generation-processing-and-disposal-methods",
+      "name": "Sludge generation, processing and disposal methods",
+      "diff": "M"
+     },
+     {
+      "id": "es-water-and-wastewater-treatment--sewage-farming",
+      "name": "Sewage farming",
+      "diff": "E"
+     },
+     {
+      "id": "es-water-and-wastewater-treatment--sources-and-characteristics-of-industrial-effluents",
+      "name": "Sources and characteristics of industrial effluents",
+      "diff": "M"
+     },
+     {
+      "id": "es-water-and-wastewater-treatment--concept-of-common-effluent-treatment-plants-cetp",
+      "name": "Concept of Common Effluent Treatment Plants (CETP)",
+      "diff": "M"
+     },
+     {
+      "id": "es-water-and-wastewater-treatment--wastewater-recycling-and-zero-liquid-discharge",
+      "name": "Wastewater recycling and zero liquid discharge",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Kinetics and reactor design",
+    "topics": [
+     {
+      "id": "es-water-and-wastewater-treatment--mass-and-energy-balance",
+      "name": "Mass and energy balance",
+      "diff": "M"
+     },
+     {
+      "id": "es-water-and-wastewater-treatment--order-and-rate-of-reactions",
+      "name": "Order and rate of reactions",
+      "diff": "M"
+     },
+     {
+      "id": "es-water-and-wastewater-treatment--batch-reactors",
+      "name": "Batch reactors",
+      "diff": "E"
+     },
+     {
+      "id": "es-water-and-wastewater-treatment--completely-mixed-flow-reactors",
+      "name": "Completely mixed flow reactors",
+      "diff": "M"
+     },
+     {
+      "id": "es-water-and-wastewater-treatment--plug-flow-reactors",
+      "name": "Plug flow reactors",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "es-air-and-noise-pollution",
+  "name": "Air and Noise Pollution",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Overview",
+    "topics": [
+     {
+      "id": "es-air-and-noise-pollution--structure-and-composition-of-the-atmosphere",
+      "name": "Structure and composition of the atmosphere",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "es-air-and-noise-pollution--sources-natural-and-anthropogenic",
+      "name": "Sources (natural and anthropogenic)",
+      "diff": "M"
+     },
+     {
+      "id": "es-air-and-noise-pollution--atmospheric-processes-emission-transformation-transport-remo",
+      "name": "Atmospheric processes (emission, transformation, transport, removal)",
+      "diff": "H"
+     },
+     {
+      "id": "es-air-and-noise-pollution--indoor-air-pollution",
+      "name": "Indoor air pollution",
+      "diff": "M"
+     },
+     {
+      "id": "es-air-and-noise-pollution--effects-on-health-and-environment",
+      "name": "Effects on health and environment",
+      "diff": "M"
+     },
+     {
+      "id": "es-air-and-noise-pollution--air-pollution-gases-and-particulate-matter",
+      "name": "Air pollution: gases and particulate matter",
+      "diff": "M"
+     },
+     {
+      "id": "es-air-and-noise-pollution--air-quality-standards",
+      "name": "Air quality standards",
+      "diff": "M"
+     },
+     {
+      "id": "es-air-and-noise-pollution--primary-and-secondary-pollutants",
+      "name": "Primary and secondary pollutants",
+      "diff": "M"
+     },
+     {
+      "id": "es-air-and-noise-pollution--criteria-pollutants",
+      "name": "Criteria pollutants",
+      "diff": "M"
+     },
+     {
+      "id": "es-air-and-noise-pollution--ambient-and-emission-standards",
+      "name": "Ambient and emission standards",
+      "diff": "M"
+     },
+     {
+      "id": "es-air-and-noise-pollution--air-quality-indices",
+      "name": "Air quality indices",
+      "diff": "M"
+     },
+     {
+      "id": "es-air-and-noise-pollution--visibility-and-radiative-effects",
+      "name": "Visibility and radiative effects",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Particulate Pollutants",
+    "topics": [
+     {
+      "id": "es-air-and-noise-pollution--measurement-and-control-methods",
+      "name": "Measurement and control methods",
+      "diff": "M"
+     },
+     {
+      "id": "es-air-and-noise-pollution--control-of-particulate-air-pollutants-using-gravitational-se",
+      "name": "Control of particulate air pollutants using gravitational settling chambers",
+      "diff": "M"
+     },
+     {
+      "id": "es-air-and-noise-pollution--cyclone-separators",
+      "name": "Cyclone separators",
+      "diff": "M"
+     },
+     {
+      "id": "es-air-and-noise-pollution--wet-scrubbers",
+      "name": "Wet scrubbers",
+      "diff": "E"
+     },
+     {
+      "id": "es-air-and-noise-pollution--fabric-filters-baghouse-filter",
+      "name": "Fabric filters (Baghouse filter)",
+      "diff": "M"
+     },
+     {
+      "id": "es-air-and-noise-pollution--electrostatic-precipitators-esp",
+      "name": "Electrostatic precipitators (ESP)",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "C",
+    "name": "Gaseous Pollutants",
+    "topics": [
+     {
+      "id": "es-air-and-noise-pollution--measurement-and-control-methods",
+      "name": "Measurement and control methods",
+      "diff": "M"
+     },
+     {
+      "id": "es-air-and-noise-pollution--control-of-gaseous-contaminants-absorption",
+      "name": "Control of gaseous contaminants: absorption",
+      "diff": "M"
+     },
+     {
+      "id": "es-air-and-noise-pollution--adsorption",
+      "name": "Adsorption",
+      "diff": "E"
+     },
+     {
+      "id": "es-air-and-noise-pollution--condensation-and-combustion",
+      "name": "Condensation and combustion",
+      "diff": "M"
+     },
+     {
+      "id": "es-air-and-noise-pollution--control-of-sulphur-oxides",
+      "name": "Control of sulphur oxides",
+      "diff": "M"
+     },
+     {
+      "id": "es-air-and-noise-pollution--nitrogen-oxides",
+      "name": "Nitrogen oxides",
+      "diff": "E"
+     },
+     {
+      "id": "es-air-and-noise-pollution--carbon-monoxide",
+      "name": "Carbon monoxide",
+      "diff": "E"
+     },
+     {
+      "id": "es-air-and-noise-pollution--hydrocarbons",
+      "name": "Hydrocarbons",
+      "diff": "E"
+     },
+     {
+      "id": "es-air-and-noise-pollution--diffusion-ficks-law-and-interfacial-mass-transfer",
+      "name": "Diffusion, Fick’s law and interfacial mass transfer",
+      "diff": "M"
+     },
+     {
+      "id": "es-air-and-noise-pollution--vehicular-emission-control-systems",
+      "name": "Vehicular emission control systems",
+      "diff": "M"
+     },
+     {
+      "id": "es-air-and-noise-pollution--including-diesel-particulate-filters-dpfs",
+      "name": "Including diesel particulate filters (DPFs)",
+      "diff": "M"
+     },
+     {
+      "id": "es-air-and-noise-pollution--catalytic-converters",
+      "name": "Catalytic converters",
+      "diff": "M"
+     },
+     {
+      "id": "es-air-and-noise-pollution--fuel-standards",
+      "name": "Fuel standards",
+      "diff": "E"
+     }
+    ]
+   },
+   {
+    "letter": "D",
+    "name": "Air Quality Management",
+    "topics": [
+     {
+      "id": "es-air-and-noise-pollution--point-line-and-area-sources",
+      "name": "Point, line and area sources",
+      "diff": "M"
+     },
+     {
+      "id": "es-air-and-noise-pollution--inventory",
+      "name": "Inventory",
+      "diff": "E"
+     },
+     {
+      "id": "es-air-and-noise-pollution--meteorology-and-dispersion",
+      "name": "Meteorology and dispersion",
+      "diff": "M"
+     },
+     {
+      "id": "es-air-and-noise-pollution--atmospheric-stability-and-inversion",
+      "name": "Atmospheric stability and inversion",
+      "diff": "H"
+     },
+     {
+      "id": "es-air-and-noise-pollution--mixing-height",
+      "name": "Mixing height",
+      "diff": "E"
+     },
+     {
+      "id": "es-air-and-noise-pollution--wind-rose-diagrams",
+      "name": "Wind rose diagrams",
+      "diff": "M"
+     },
+     {
+      "id": "es-air-and-noise-pollution--gaussian-plume-dispersion-modelling",
+      "name": "Gaussian plume dispersion modelling",
+      "diff": "M"
+     },
+     {
+      "id": "es-air-and-noise-pollution--topographic-influences",
+      "name": "Topographic influences",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "E",
+    "name": "Noise Pollution",
+    "topics": [
+     {
+      "id": "es-air-and-noise-pollution--sources",
+      "name": "Sources",
+      "diff": "E"
+     },
+     {
+      "id": "es-air-and-noise-pollution--health-effects",
+      "name": "Health effects",
+      "diff": "E"
+     },
+     {
+      "id": "es-air-and-noise-pollution--standards",
+      "name": "Standards",
+      "diff": "E"
+     },
+     {
+      "id": "es-air-and-noise-pollution--measurement-parameters-sound-pressure-level-equivalent-conti",
+      "name": "Measurement parameters (sound pressure level, equivalent continuous sound level Leq, day-night level Ldn)",
+      "diff": "M"
+     },
+     {
+      "id": "es-air-and-noise-pollution--frequency-analysis",
+      "name": "Frequency analysis",
+      "diff": "M"
+     },
+     {
+      "id": "es-air-and-noise-pollution--control-and-mitigation-methods",
+      "name": "Control and mitigation methods",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "es-solid-and-hazardous-waste-mana",
+  "name": "Solid and Hazardous Waste Management",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Overview",
+    "topics": [
+     {
+      "id": "es-solid-and-hazardous-waste-mana--integrated-solid-waste-management",
+      "name": "Integrated solid waste management",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "es-solid-and-hazardous-waste-mana--waste-hierarchy",
+      "name": "Waste hierarchy",
+      "diff": "E"
+     },
+     {
+      "id": "es-solid-and-hazardous-waste-mana--rules-and-regulations-for-solid-waste-management-in-india",
+      "name": "Rules and regulations for solid waste management in India",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Municipal solid waste management",
+    "topics": [
+     {
+      "id": "es-solid-and-hazardous-waste-mana--sources",
+      "name": "Sources",
+      "diff": "E"
+     },
+     {
+      "id": "es-solid-and-hazardous-waste-mana--generation",
+      "name": "Generation",
+      "diff": "E"
+     },
+     {
+      "id": "es-solid-and-hazardous-waste-mana--characteristics",
+      "name": "Characteristics",
+      "diff": "E"
+     },
+     {
+      "id": "es-solid-and-hazardous-waste-mana--collection",
+      "name": "Collection",
+      "diff": "E"
+     },
+     {
+      "id": "es-solid-and-hazardous-waste-mana--segregation",
+      "name": "Segregation",
+      "diff": "E"
+     },
+     {
+      "id": "es-solid-and-hazardous-waste-mana--transportation",
+      "name": "Transportation",
+      "diff": "E"
+     },
+     {
+      "id": "es-solid-and-hazardous-waste-mana--waste-processing-and-disposal-including-reuse-options-biolog",
+      "name": "Waste processing and disposal (including reuse options, biological methods, energy recovery processes and landfilling)",
+      "diff": "M"
+     },
+     {
+      "id": "es-solid-and-hazardous-waste-mana--waste-to-energy-technologies",
+      "name": "Waste-to-energy technologies",
+      "diff": "M"
+     },
+     {
+      "id": "es-solid-and-hazardous-waste-mana--circular-economy-principles",
+      "name": "Circular economy principles",
+      "diff": "M"
+     },
+     {
+      "id": "es-solid-and-hazardous-waste-mana--life-cycle-energy-analysis",
+      "name": "Life-cycle energy analysis",
+      "diff": "M"
+     },
+     {
+      "id": "es-solid-and-hazardous-waste-mana--decentralized-renewable-systems",
+      "name": "Decentralized renewable systems",
+      "diff": "M"
+     },
+     {
+      "id": "es-solid-and-hazardous-waste-mana--urban-metabolism",
+      "name": "Urban metabolism",
+      "diff": "E"
+     }
+    ]
+   },
+   {
+    "letter": "C",
+    "name": "Hazardous waste management",
+    "topics": [
+     {
+      "id": "es-solid-and-hazardous-waste-mana--characteristics",
+      "name": "Characteristics",
+      "diff": "E"
+     },
+     {
+      "id": "es-solid-and-hazardous-waste-mana--generation",
+      "name": "Generation",
+      "diff": "E"
+     },
+     {
+      "id": "es-solid-and-hazardous-waste-mana--fate-of-materials-in-the-environment",
+      "name": "Fate of materials in the environment",
+      "diff": "M"
+     },
+     {
+      "id": "es-solid-and-hazardous-waste-mana--treatment-and-disposal",
+      "name": "Treatment and disposal",
+      "diff": "M"
+     },
+     {
+      "id": "es-solid-and-hazardous-waste-mana--soil-contamination-and-leaching-of-contaminants-into-groundw",
+      "name": "Soil contamination and leaching of contaminants into groundwater",
+      "diff": "M"
+     },
+     {
+      "id": "es-solid-and-hazardous-waste-mana--management-of-biomedical-waste",
+      "name": "Management of biomedical waste",
+      "diff": "M"
+     },
+     {
+      "id": "es-solid-and-hazardous-waste-mana--plastic-waste",
+      "name": "Plastic waste",
+      "diff": "H"
+     },
+     {
+      "id": "es-solid-and-hazardous-waste-mana--waste-from-energy-sector-solar-wind-batteries-etc",
+      "name": "Waste from energy sector (solar/wind/batteries etc)",
+      "diff": "M"
+     },
+     {
+      "id": "es-solid-and-hazardous-waste-mana--candd-waste-and-e-waste-sources",
+      "name": "C&D waste and E-waste: Sources",
+      "diff": "M"
+     },
+     {
+      "id": "es-solid-and-hazardous-waste-mana--generation-and-characteristics",
+      "name": "Generation and characteristics",
+      "diff": "M"
+     },
+     {
+      "id": "es-solid-and-hazardous-waste-mana--waste-management-practices-including-storage-collection-and-",
+      "name": "Waste management practices including storage, collection and transfer",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "es-global-and-regional-environmen",
+  "name": "Global and Regional Environmental Issues",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Global effects of air pollution",
+    "topics": [
+     {
+      "id": "es-global-and-regional-environmen--greenhouse-gases",
+      "name": "Greenhouse gases",
+      "diff": "E",
+      "sample": true
+     },
+     {
+      "id": "es-global-and-regional-environmen--radiative-forcing-and-global-warming-potential-gwp",
+      "name": "Radiative forcing and global warming potential (GWP)",
+      "diff": "M"
+     },
+     {
+      "id": "es-global-and-regional-environmen--climate-change",
+      "name": "Climate change",
+      "diff": "E"
+     },
+     {
+      "id": "es-global-and-regional-environmen--urban-heat-islands",
+      "name": "Urban heat islands",
+      "diff": "M"
+     },
+     {
+      "id": "es-global-and-regional-environmen--acid-rain",
+      "name": "Acid rain",
+      "diff": "E"
+     },
+     {
+      "id": "es-global-and-regional-environmen--ozone-hole",
+      "name": "Ozone hole",
+      "diff": "E"
+     },
+     {
+      "id": "es-global-and-regional-environmen--ecology-and-various-ecosystems",
+      "name": "Ecology and various ecosystems",
+      "diff": "M"
+     },
+     {
+      "id": "es-global-and-regional-environmen--biodiversity",
+      "name": "Biodiversity",
+      "diff": "E"
+     },
+     {
+      "id": "es-global-and-regional-environmen--factors-influencing-increase-in-population",
+      "name": "Factors influencing increase in population",
+      "diff": "M"
+     },
+     {
+      "id": "es-global-and-regional-environmen--energy-consumption",
+      "name": "Energy consumption",
+      "diff": "M"
+     },
+     {
+      "id": "es-global-and-regional-environmen--environmental-degradation",
+      "name": "Environmental degradation",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "es-environmental-management-and-s",
+  "name": "Environmental Management and Sustainable Development",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Overview",
+    "topics": [
+     {
+      "id": "es-environmental-management-and-s--environmental-management-systems",
+      "name": "Environmental Management Systems",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "es-environmental-management-and-s--iso14000-series",
+      "name": "ISO14000 series",
+      "diff": "E"
+     },
+     {
+      "id": "es-environmental-management-and-s--environmental-auditing-environmental-impact-assessment",
+      "name": "Environmental Auditing: Environmental Impact Assessment",
+      "diff": "M"
+     },
+     {
+      "id": "es-environmental-management-and-s--life-cycle-assessment",
+      "name": "Life cycle assessment",
+      "diff": "M"
+     },
+     {
+      "id": "es-environmental-management-and-s--human-health-risk-assessment",
+      "name": "Human health risk assessment",
+      "diff": "M"
+     },
+     {
+      "id": "es-environmental-management-and-s--occupational-health-and-hygiene-physical-and-chemical-hazard",
+      "name": "Occupational Health and Hygiene, Physical & Chemical Hazards",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Environmental Law and Policy",
+    "topics": [
+     {
+      "id": "es-environmental-management-and-s--objectives",
+      "name": "Objectives",
+      "diff": "E"
+     },
+     {
+      "id": "es-environmental-management-and-s--polluter-pays-principle-precautionary-principle",
+      "name": "Polluter pays principle, Precautionary principle",
+      "diff": "M"
+     },
+     {
+      "id": "es-environmental-management-and-s--the-water-and-air-acts-with-amendments",
+      "name": "The Water and Air Acts with amendments",
+      "diff": "M"
+     },
+     {
+      "id": "es-environmental-management-and-s--the-environment-protection-act-epa-1986",
+      "name": "The Environment (Protection) Act (EPA) 1986",
+      "diff": "M"
+     },
+     {
+      "id": "es-environmental-management-and-s--national-green-tribunal-act-2010",
+      "name": "National Green Tribunal Act, 2010",
+      "diff": "M"
+     },
+     {
+      "id": "es-environmental-management-and-s--national-environment-policy",
+      "name": "National Environment Policy",
+      "diff": "M"
+     },
+     {
+      "id": "es-environmental-management-and-s--principles-of-international-law-and-international-treaties",
+      "name": "Principles of International Law and International treaties",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "C",
+    "name": "Energy and Environment",
+    "topics": [
+     {
+      "id": "es-environmental-management-and-s--energy-sources-overview-of-resources-and-reserves",
+      "name": "Energy Sources: Overview of resources and reserves",
+      "diff": "E"
+     },
+     {
+      "id": "es-environmental-management-and-s--renewable-and-non-renewable-energy-sources",
+      "name": "Renewable and non-renewable energy sources",
+      "diff": "M"
+     },
+     {
+      "id": "es-environmental-management-and-s--energy-environment-nexus",
+      "name": "Energy-Environment nexus",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "D",
+    "name": "Sustainable Development",
+    "topics": [
+     {
+      "id": "es-environmental-management-and-s--definition-and-concepts-of-sustainable-development",
+      "name": "Definition and concepts of sustainable development",
+      "diff": "E"
+     },
+     {
+      "id": "es-environmental-management-and-s--sustainable-development-goals",
+      "name": "Sustainable development goals",
+      "diff": "M"
+     },
+     {
+      "id": "es-environmental-management-and-s--hurdles-to-sustainability",
+      "name": "Hurdles to sustainability",
+      "diff": "M"
+     },
+     {
+      "id": "es-environmental-management-and-s--environment-and-economics",
+      "name": "Environment and economics",
+      "diff": "M"
+     },
+     {
+      "id": "es-environmental-management-and-s--carbon-pricing",
+      "name": "Carbon pricing",
+      "diff": "E"
+     },
+     {
+      "id": "es-environmental-management-and-s--emission-trading",
+      "name": "Emission trading",
+      "diff": "E"
+     },
+     {
+      "id": "es-environmental-management-and-s--environmental",
+      "name": "Environmental",
+      "diff": "E"
+     },
+     {
+      "id": "es-environmental-management-and-s--social",
+      "name": "Social",
+      "diff": "E"
+     },
+     {
+      "id": "es-environmental-management-and-s--governance-esg-frameworks",
+      "name": "Governance (ESG) frameworks",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ }
+]

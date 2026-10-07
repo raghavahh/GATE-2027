@@ -64,7 +64,7 @@ export function BuyModal({ paper, topicName, counts, onClose }: Props) {
           <span className="font-mono text-3xl font-medium tnum">₹{PRICE_INR}</span>
           <span className="text-sm text-sub">one payment · access till 30 days after the exam</span>
         </div>
-        <p className="mt-1 text-xs text-mute">One account, one active login. Each branch is bought separately.</p>
+        <p className="mt-1 text-xs text-mute">One account, one active login. Each branch is bought separately. No refunds or cancellations after purchase.</p>
 
         <button type="button" className="btn-primary mt-5 h-11 w-full text-[15px]" onClick={() => alert('Payments open soon. Razorpay checkout will appear here.')}>
           Pay ₹{PRICE_INR} with UPI

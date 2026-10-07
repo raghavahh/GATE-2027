@@ -1,0 +1,1944 @@
+[
+ {
+  "id": "cy-physical-chemistry",
+  "name": "Physical Chemistry",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Structure",
+    "topics": [
+     {
+      "id": "cy-physical-chemistry--postulates-of-quantum-mechanics",
+      "name": "Postulates of quantum mechanics",
+      "diff": "H",
+      "sample": true
+     },
+     {
+      "id": "cy-physical-chemistry--operators",
+      "name": "Operators",
+      "diff": "E"
+     },
+     {
+      "id": "cy-physical-chemistry--commutation-relations-and-expectations-values",
+      "name": "Commutation relations and expectations values",
+      "diff": "M"
+     },
+     {
+      "id": "cy-physical-chemistry--the-role-of-the-wave-function-and-its-absolute-squares",
+      "name": "The role of the wave function and its absolute squares",
+      "diff": "M"
+     },
+     {
+      "id": "cy-physical-chemistry--time-dependent-and-time-independent-schr-dinger-equations",
+      "name": "Time dependent and time independent Schrödinger equations",
+      "diff": "M"
+     },
+     {
+      "id": "cy-physical-chemistry--born-interpretation",
+      "name": "Born interpretation",
+      "diff": "M"
+     },
+     {
+      "id": "cy-physical-chemistry--dirac-bra-ket-notation",
+      "name": "Dirac bra-ket notation",
+      "diff": "M"
+     },
+     {
+      "id": "cy-physical-chemistry--examples-of-model-solvable-quantum-mechanical-systems",
+      "name": "Examples of model solvable quantum mechanical systems",
+      "diff": "H"
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Particle in a Box",
+    "topics": [
+     {
+      "id": "cy-physical-chemistry--solutions-and-interpretations-for-finite-length-and-infinite",
+      "name": "Solutions and interpretations for finite length and infinite potential barrier",
+      "diff": "M"
+     },
+     {
+      "id": "cy-physical-chemistry--concept-of-tunnelling",
+      "name": "Concept of tunnelling",
+      "diff": "M"
+     },
+     {
+      "id": "cy-physical-chemistry--particle-in-1d-2d-and-3d-boxes",
+      "name": "Particle in 1D, 2D and 3D-boxes",
+      "diff": "M"
+     },
+     {
+      "id": "cy-physical-chemistry--applications",
+      "name": "Applications",
+      "diff": "E"
+     }
+    ]
+   },
+   {
+    "letter": "C",
+    "name": "Harmonic Oscillator",
+    "topics": [
+     {
+      "id": "cy-physical-chemistry--exact-solutions-of-wave-functions-properties-of-hermite-poly",
+      "name": "Exact solutions of wave functions, properties of Hermite polynomials",
+      "diff": "E"
+     },
+     {
+      "id": "cy-physical-chemistry--eigenvalues-in-one-dimension",
+      "name": "Eigenvalues in one dimension",
+      "diff": "H"
+     },
+     {
+      "id": "cy-physical-chemistry--calculation-of-expectation-values-for-potential-and-kinetic-",
+      "name": "Calculation of expectation values for potential and kinetic energy",
+      "diff": "M"
+     },
+     {
+      "id": "cy-physical-chemistry--harmonic-and-anharmonic-potentials",
+      "name": "Harmonic and anharmonic potentials",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "D",
+    "name": "Rotational Motion",
+    "topics": [
+     {
+      "id": "cy-physical-chemistry--angular-momentum-operators-orbital-and-spin",
+      "name": "Angular momentum operators (orbital and spin)",
+      "diff": "M"
+     },
+     {
+      "id": "cy-physical-chemistry--spherical-harmonics-and-their-properties",
+      "name": "Spherical harmonics and their properties",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "E",
+    "name": "Hydrogen and Hydrogen -like Atoms",
+    "topics": [
+     {
+      "id": "cy-physical-chemistry--atomic-orbitals",
+      "name": "Atomic orbitals",
+      "diff": "E"
+     },
+     {
+      "id": "cy-physical-chemistry--radial-and-angular-distribution-functions-and-their-probabil",
+      "name": "Radial and angular distribution functions and their probabilities",
+      "diff": "M"
+     },
+     {
+      "id": "cy-physical-chemistry--atomic-units-multi-electron-atoms-orbital-approximation",
+      "name": "Atomic units, Multi-electron atoms: Orbital approximation",
+      "diff": "E"
+     },
+     {
+      "id": "cy-physical-chemistry--electron-spin",
+      "name": "Electron spin",
+      "diff": "E"
+     },
+     {
+      "id": "cy-physical-chemistry--pauli-exclusion-principle",
+      "name": "Pauli exclusion principle",
+      "diff": "M"
+     },
+     {
+      "id": "cy-physical-chemistry--slater-determinants",
+      "name": "Slater determinants",
+      "diff": "M"
+     },
+     {
+      "id": "cy-physical-chemistry--variational-method-and-secular-determinants",
+      "name": "Variational method and secular determinants",
+      "diff": "H"
+     },
+     {
+      "id": "cy-physical-chemistry--firs-t-order-non-degenerate-perturbation-techniques",
+      "name": "Firs t order non -degenerate perturbation techniques",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "F",
+    "name": "Molecular Structure and Chemical Bonding",
+    "topics": [
+     {
+      "id": "cy-physical-chemistry--born-oppenheimer-approximation",
+      "name": "Born-Oppenheimer approximation",
+      "diff": "M"
+     },
+     {
+      "id": "cy-physical-chemistry--valence-bond-theory-treatment-for-hydrogen-molecule-and-line",
+      "name": "Valence bond theory treatment for hydrogen molecule and linear combination of atomic orbitals - molecular orbitals (LCAO -MO) theory",
+      "diff": "M"
+     },
+     {
+      "id": "cy-physical-chemistry--concept-of-hybridization-and-hybrid-orbitals",
+      "name": "Concept of hybridization and hybrid orbitals",
+      "diff": "M"
+     },
+     {
+      "id": "cy-physical-chemistry--applications-of-lcao-mo-theory-to-h-2-h2",
+      "name": "Applications of LCAO -MO theory to H 2+, H2",
+      "diff": "M"
+     },
+     {
+      "id": "cy-physical-chemistry--molecular-orbital-theory-mot-of-homo-and-heteronuclear-diato",
+      "name": "Molecular orbital theory (MOT) of homo- and heteronuclear diatomic molecules",
+      "diff": "M"
+     },
+     {
+      "id": "cy-physical-chemistry--h-ckel-theory",
+      "name": "Hückel theory",
+      "diff": "E"
+     },
+     {
+      "id": "cy-physical-chemistry--applications-to-simple-molecules",
+      "name": "Applications to simple molecules",
+      "diff": "M"
+     },
+     {
+      "id": "cy-physical-chemistry--small-conjugated-electron-systems",
+      "name": "Small conjugated π-electron systems",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "G",
+    "name": "Group Theory",
+    "topics": [
+     {
+      "id": "cy-physical-chemistry--symmetry-elements-and-symmetry-operations",
+      "name": "Symmetry elements and symmetry operations",
+      "diff": "M"
+     },
+     {
+      "id": "cy-physical-chemistry--basic-postulates-of-groups-and-group-multiplication-tables",
+      "name": "Basic postulates of groups and group multiplication tables",
+      "diff": "E"
+     },
+     {
+      "id": "cy-physical-chemistry--classes",
+      "name": "Classes",
+      "diff": "E"
+     },
+     {
+      "id": "cy-physical-chemistry--reducible-and-irreducible-representations-of-symmetry-elemen",
+      "name": "Reducible and irreducible representations of symmetry elements",
+      "diff": "M"
+     },
+     {
+      "id": "cy-physical-chemistry--classification-and-labelling-of-molecular-point-groups",
+      "name": "Classification and labelling of molecular point groups",
+      "diff": "E"
+     },
+     {
+      "id": "cy-physical-chemistry--symmetry-based-selectio-n-rules-and-their-application-to-ele",
+      "name": "Symmetry based selectio n rules and their application to electronic and vibrational spectroscopy",
+      "diff": "H"
+     },
+     {
+      "id": "cy-physical-chemistry--internal-coordinates-and-symmetry-labelling-of-vibrational-m",
+      "name": "Internal coordinates and symmetry labelling of vibrational modes",
+      "diff": "H"
+     },
+     {
+      "id": "cy-physical-chemistry--symmetry-adapted-linear-combination-of-atomic-orbitals-lcao-",
+      "name": "Symmetry adapted linear combination of atomic orbitals (LCAO -MO)",
+      "diff": "M"
+     },
+     {
+      "id": "cy-physical-chemistry--construction-of-hybrid-orbitals-using-molecular-po-int-group",
+      "name": "Construction of hybrid orbitals using molecular po int group symmetry",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "H",
+    "name": "Spectroscopy",
+    "topics": [
+     {
+      "id": "cy-physical-chemistry--atomic-spectroscopy",
+      "name": "Atomic spectroscopy",
+      "diff": "M"
+     },
+     {
+      "id": "cy-physical-chemistry--russell-saunders-coupling",
+      "name": "Russell -Saunders coupling",
+      "diff": "M"
+     },
+     {
+      "id": "cy-physical-chemistry--term-symbols-and-spectral-details",
+      "name": "Term symbols and spectral details",
+      "diff": "M"
+     },
+     {
+      "id": "cy-physical-chemistry--origin-of-selection-rules",
+      "name": "Origin of selection rules",
+      "diff": "M"
+     },
+     {
+      "id": "cy-physical-chemistry--rotational",
+      "name": "Rotational",
+      "diff": "E"
+     },
+     {
+      "id": "cy-physical-chemistry--vibrational",
+      "name": "Vibrational",
+      "diff": "H"
+     },
+     {
+      "id": "cy-physical-chemistry--electronic-and-raman-spectroscopy-of-diatomic-and-simple-pol",
+      "name": "Electronic and Raman spectroscopy of diatomic and simple polyatomic molecules",
+      "diff": "M"
+     },
+     {
+      "id": "cy-physical-chemistry--line-broadening-and-line-widths",
+      "name": "Line broadening and line widths",
+      "diff": "M"
+     },
+     {
+      "id": "cy-physical-chemistry--simple-properties-of-gaussian-and-lorentzian-line-shapes",
+      "name": "Simple properties of Gaussian and Lorentzian line shapes",
+      "diff": "E"
+     },
+     {
+      "id": "cy-physical-chemistry--molecular-spectroscopy-absorbance",
+      "name": "Molecular spectroscopy: Absorbance",
+      "diff": "M"
+     },
+     {
+      "id": "cy-physical-chemistry--beer-lamberts-law",
+      "name": "Beer - Lambert’s law",
+      "diff": "M"
+     },
+     {
+      "id": "cy-physical-chemistry--einsteins-coefficient",
+      "name": "Einstein’s coefficient",
+      "diff": "M"
+     },
+     {
+      "id": "cy-physical-chemistry--jablonski-diagram",
+      "name": "Jablonski diagram",
+      "diff": "E"
+     },
+     {
+      "id": "cy-physical-chemistry--relationship-of-transition-moment-integral-with-molar-extinc",
+      "name": "Relationship of transition moment integral with molar extinction coefficient and oscillator strength",
+      "diff": "M"
+     },
+     {
+      "id": "cy-physical-chemistry--basi-c-principles-of-nuclear",
+      "name": "Basi c principles of Nuclear",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "I",
+    "name": "Magnetic Resonance",
+    "topics": [
+     {
+      "id": "cy-physical-chemistry--gyromagnetic-ratio",
+      "name": "Gyromagnetic ratio",
+      "diff": "M"
+     },
+     {
+      "id": "cy-physical-chemistry--chemical-shift-nuclear-coupling",
+      "name": "Chemical shift, nuclear coupling",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "J",
+    "name": "Equilibrium",
+    "topics": [
+     {
+      "id": "cy-physical-chemistry--laws-of-thermodynamics",
+      "name": "Laws of thermodynamics",
+      "diff": "H"
+     },
+     {
+      "id": "cy-physical-chemistry--standard-states",
+      "name": "Standard states",
+      "diff": "E"
+     },
+     {
+      "id": "cy-physical-chemistry--thermochemistry",
+      "name": "Thermochemistry",
+      "diff": "E"
+     },
+     {
+      "id": "cy-physical-chemistry--thermodynamic-functions-and-their-relationships-gibbs-helmho",
+      "name": "Thermodynamic functions and their relationships: Gibbs-Helmholtz and Maxwell relations",
+      "diff": "H"
+     },
+     {
+      "id": "cy-physical-chemistry--gibbs-duhem-equation",
+      "name": "Gibbs-Duhem equation",
+      "diff": "M"
+     },
+     {
+      "id": "cy-physical-chemistry--vant-hoff-equation",
+      "name": "Van’t Hoff equation",
+      "diff": "M"
+     },
+     {
+      "id": "cy-physical-chemistry--criteria-of-spontaneity-and-equilibrium",
+      "name": "Criteria of spontaneity and equilibrium",
+      "diff": "M"
+     },
+     {
+      "id": "cy-physical-chemistry--absolute-entropy",
+      "name": "Absolute entropy",
+      "diff": "E"
+     },
+     {
+      "id": "cy-physical-chemistry--partial-molar-quantities",
+      "name": "Partial molar quantities",
+      "diff": "M"
+     },
+     {
+      "id": "cy-physical-chemistry--thermodynamics-of-mixing",
+      "name": "Thermodynamics of mixing",
+      "diff": "H"
+     },
+     {
+      "id": "cy-physical-chemistry--chemical-potential",
+      "name": "Chemical potential",
+      "diff": "M"
+     },
+     {
+      "id": "cy-physical-chemistry--fugacity-activity-and-activity-coefficient",
+      "name": "Fugacity, Activity and Activity coefficient",
+      "diff": "M"
+     },
+     {
+      "id": "cy-physical-chemistry--chemical-equilibria",
+      "name": "Chemical equilibria",
+      "diff": "M"
+     },
+     {
+      "id": "cy-physical-chemistry--dependence-of-equilibrium-constant-on-temperature-and-pressu",
+      "name": "Dependence of equilibrium constant on temperature and pressure",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "K",
+    "name": "Solutions",
+    "topics": [
+     {
+      "id": "cy-physical-chemistry--ideal-and-non-ideal-solutions-raoults-law-and-henrys-law",
+      "name": "Ideal and non-ideal solutions, Raoult’s Law and Henry’s Law",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "L",
+    "name": "Electrochemistry",
+    "topics": [
+     {
+      "id": "cy-physical-chemistry--standard-electrode-potential-and-electrochemical-cells",
+      "name": "Standard electrode potential and electrochemical cells",
+      "diff": "M"
+     },
+     {
+      "id": "cy-physical-chemistry--nernst-equation-and-its-application",
+      "name": "Nernst Equation and its application",
+      "diff": "M"
+     },
+     {
+      "id": "cy-physical-chemistry--relationship-between-electrode-potential-and-thermodynamic-q",
+      "name": "Relationship between electrode potential and thermodynamic quantities",
+      "diff": "H"
+     },
+     {
+      "id": "cy-physical-chemistry--potentiometric-and-conductometric-titrations",
+      "name": "Potentiometric and conductometric titrations",
+      "diff": "M"
+     },
+     {
+      "id": "cy-physical-chemistry--ionic-mobility-and-conductivity",
+      "name": "Ionic mobility and conductivity",
+      "diff": "M"
+     },
+     {
+      "id": "cy-physical-chemistry--kohlrauschs-law-debye-h-ckel-limiting-law",
+      "name": "Kohlrausch’s law, Debye -Hückel limiting law",
+      "diff": "M"
+     },
+     {
+      "id": "cy-physical-chemistry--debye-h-ckelonsager-equation",
+      "name": "Debye -HückelOnsager equation",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "M",
+    "name": "Phase Equilibria",
+    "topics": [
+     {
+      "id": "cy-physical-chemistry--phase-rule",
+      "name": "Phase rule",
+      "diff": "E"
+     },
+     {
+      "id": "cy-physical-chemistry--clausius-clapeyron-equation",
+      "name": "Clausius- Clapeyron equation",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "N",
+    "name": "Phase diagram of one component system",
+    "topics": [
+     {
+      "id": "cy-physical-chemistry--co2-h2o-s",
+      "name": "CO2, H2O, S",
+      "diff": "E"
+     },
+     {
+      "id": "cy-physical-chemistry--two-component-systems-liquid-vapor",
+      "name": "Two component systems: liquid -vapor",
+      "diff": "M"
+     },
+     {
+      "id": "cy-physical-chemistry--liquid-liquid-and-solid-liquid-systems",
+      "name": "Liquid -liquid and solid -liquid systems",
+      "diff": "M"
+     },
+     {
+      "id": "cy-physical-chemistry--fractional-distillation",
+      "name": "Fractional distillation",
+      "diff": "M"
+     },
+     {
+      "id": "cy-physical-chemistry--azeotropes-and-eutectics",
+      "name": "Azeotropes and Eutectics",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "O",
+    "name": "Statistical Thermodynamics",
+    "topics": [
+     {
+      "id": "cy-physical-chemistry--micro-canonical",
+      "name": "Micro-canonical",
+      "diff": "E"
+     },
+     {
+      "id": "cy-physical-chemistry--canonical-and-grand-canonical-ensembles",
+      "name": "Canonical and Grand canonical ensembles",
+      "diff": "M"
+     },
+     {
+      "id": "cy-physical-chemistry--boltzmann-distribution",
+      "name": "Boltzmann distribution",
+      "diff": "M"
+     },
+     {
+      "id": "cy-physical-chemistry--partition-functions-and-thermodynamic-properties",
+      "name": "Partition functions and thermodynamic properties",
+      "diff": "H"
+     },
+     {
+      "id": "cy-physical-chemistry--statistical-mechanics-of-non-interacting-systems",
+      "name": "Statistical mechanics of non-interacting systems",
+      "diff": "M"
+     },
+     {
+      "id": "cy-physical-chemistry--ideal-monoatomic",
+      "name": "Ideal monoatomic",
+      "diff": "E"
+     },
+     {
+      "id": "cy-physical-chemistry--diatomic-gases",
+      "name": "Diatomic gases",
+      "diff": "E"
+     },
+     {
+      "id": "cy-physical-chemistry--translational",
+      "name": "Translational",
+      "diff": "E"
+     },
+     {
+      "id": "cy-physical-chemistry--rotational",
+      "name": "Rotational",
+      "diff": "E"
+     },
+     {
+      "id": "cy-physical-chemistry--vibrational-and-electronic-partition-functions",
+      "name": "Vibrational and electronic partition functions",
+      "diff": "H"
+     }
+    ]
+   },
+   {
+    "letter": "P",
+    "name": "Kinetics and Reaction Dynamics",
+    "topics": [
+     {
+      "id": "cy-physical-chemistry--elementary-parallel-opposing-and-consecutive-reactions",
+      "name": "Elementary, parallel, opposing, and consecutive reactions",
+      "diff": "M"
+     },
+     {
+      "id": "cy-physical-chemistry--steady-state-approximation",
+      "name": "Steady state approximation",
+      "diff": "M"
+     },
+     {
+      "id": "cy-physical-chemistry--mechanism-of-complex-reactions",
+      "name": "Mechanism of complex reactions",
+      "diff": "M"
+     },
+     {
+      "id": "cy-physical-chemistry--unimolecular-reactions",
+      "name": "Unimolecular reactions",
+      "diff": "M"
+     },
+     {
+      "id": "cy-physical-chemistry--potential-energy-surface-and-classical-trajectories",
+      "name": "Potential energy surface and classical trajectories",
+      "diff": "M"
+     },
+     {
+      "id": "cy-physical-chemistry--concept-of-saddle-points",
+      "name": "Concept of saddle points",
+      "diff": "M"
+     },
+     {
+      "id": "cy-physical-chemistry--transition-state-theory-eyring-equation",
+      "name": "Transition state theory: Eyring equation",
+      "diff": "M"
+     },
+     {
+      "id": "cy-physical-chemistry--thermodynamic-aspects",
+      "name": "Thermodynamic aspects",
+      "diff": "H"
+     },
+     {
+      "id": "cy-physical-chemistry--kinetics-of-polymerization",
+      "name": "Kinetics of polymerization",
+      "diff": "H"
+     },
+     {
+      "id": "cy-physical-chemistry--catalysis-concepts-and-enzyme-catalysis",
+      "name": "Catalysis concepts and enzyme catalysis",
+      "diff": "M"
+     },
+     {
+      "id": "cy-physical-chemistry--kinetic-isotope-effects",
+      "name": "Kinetic isotope effects",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "Q",
+    "name": "Fast reaction kinetics",
+    "topics": [
+     {
+      "id": "cy-physical-chemistry--relaxation-and-flow-methods",
+      "name": "Relaxation and flow methods",
+      "diff": "M"
+     },
+     {
+      "id": "cy-physical-chemistry--diffusion-controlled-reactions",
+      "name": "Diffusion controlled reactions",
+      "diff": "M"
+     },
+     {
+      "id": "cy-physical-chemistry--kinetics-of-unimolecular-and-bimolecular-photophysical-proce",
+      "name": "Kinetics of unimolecular and bimolecular photophysical processes",
+      "diff": "H"
+     },
+     {
+      "id": "cy-physical-chemistry--quantum-yield-calculation",
+      "name": "Quantum yield calculation",
+      "diff": "H"
+     },
+     {
+      "id": "cy-physical-chemistry--static-and-dynamic-quenching",
+      "name": "Static and dynamic quenching",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "R",
+    "name": "Surfaces and Interfaces",
+    "topics": [
+     {
+      "id": "cy-physical-chemistry--physisorption-and-chemisorption",
+      "name": "Physisorption and chemisorption",
+      "diff": "M"
+     },
+     {
+      "id": "cy-physical-chemistry--langmuir-freundlich-and-brunauer-emmett-teller-bet-isotherms",
+      "name": "Langmuir, Freundlich and Brunauer -Emmett-Teller (BET) isotherms",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "S",
+    "name": "Surface catalysis",
+    "topics": [
+     {
+      "id": "cy-physical-chemistry--langmuir-hinshelwood-mechanism",
+      "name": "Langmuir -Hinshelwood mechanism",
+      "diff": "M"
+     },
+     {
+      "id": "cy-physical-chemistry--surface-tension",
+      "name": "Surface tension",
+      "diff": "E"
+     },
+     {
+      "id": "cy-physical-chemistry--viscosity",
+      "name": "Viscosity",
+      "diff": "E"
+     },
+     {
+      "id": "cy-physical-chemistry--self-assembly-physical-chemistry-of-colloids",
+      "name": "Self - assembly/ physical chemistry of colloids",
+      "diff": "M"
+     },
+     {
+      "id": "cy-physical-chemistry--micelles-and-macromolecules",
+      "name": "Micelles and macromolecules",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "cy-inorganic-chemistry",
+  "name": "Inorganic Chemistry",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Main Group Elements",
+    "topics": [
+     {
+      "id": "cy-inorganic-chemistry--shapes-and-structures-of-molecules-using-vsepr-postulates",
+      "name": "Shapes and structures of molecules using VSEPR postulates",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "cy-inorganic-chemistry--hydrides",
+      "name": "Hydrides",
+      "diff": "E"
+     },
+     {
+      "id": "cy-inorganic-chemistry--halides",
+      "name": "Halides",
+      "diff": "E"
+     },
+     {
+      "id": "cy-inorganic-chemistry--oxides",
+      "name": "Oxides",
+      "diff": "E"
+     },
+     {
+      "id": "cy-inorganic-chemistry--oxoacids",
+      "name": "Oxoacids",
+      "diff": "E"
+     },
+     {
+      "id": "cy-inorganic-chemistry--nitrides",
+      "name": "Nitrides",
+      "diff": "E"
+     },
+     {
+      "id": "cy-inorganic-chemistry--sulfides-shapes-and-reactivity",
+      "name": "Sulfides - shapes and reactivity",
+      "diff": "M"
+     },
+     {
+      "id": "cy-inorganic-chemistry--structure-and-bonding-of-boranes",
+      "name": "Structure and bonding of boranes",
+      "diff": "M"
+     },
+     {
+      "id": "cy-inorganic-chemistry--carboranes",
+      "name": "Carboranes",
+      "diff": "E"
+     },
+     {
+      "id": "cy-inorganic-chemistry--silicones",
+      "name": "Silicones",
+      "diff": "E"
+     },
+     {
+      "id": "cy-inorganic-chemistry--silicates",
+      "name": "Silicates",
+      "diff": "E"
+     },
+     {
+      "id": "cy-inorganic-chemistry--boron-nitride",
+      "name": "Boron nitride",
+      "diff": "E"
+     },
+     {
+      "id": "cy-inorganic-chemistry--borazine-and-phosphazenes-electron-counting-in-polyhedral-bo",
+      "name": "Borazine and phosphazenes: electron counting in polyhedral boranes",
+      "diff": "M"
+     },
+     {
+      "id": "cy-inorganic-chemistry--isolobal-analogy",
+      "name": "Isolobal analogy",
+      "diff": "E"
+     },
+     {
+      "id": "cy-inorganic-chemistry--allotropes-of-carbon-phosphorus-and-sulfur",
+      "name": "Allotropes of carbon, phosphorus and sulfur",
+      "diff": "M"
+     },
+     {
+      "id": "cy-inorganic-chemistry--industrial-synthesis-of-compounds-of-main-group-elements-suc",
+      "name": "Industrial synthesis of compounds of main group elements such as NH3",
+      "diff": "M"
+     },
+     {
+      "id": "cy-inorganic-chemistry--h-2so4-and-hno-3",
+      "name": "H 2SO4 and HNO 3",
+      "diff": "E"
+     },
+     {
+      "id": "cy-inorganic-chemistry--chemistry-of-noble-gases-and-interhalogen-compounds",
+      "name": "Chemistry of noble gases and interhalogen compounds",
+      "diff": "M"
+     },
+     {
+      "id": "cy-inorganic-chemistry--acid-base-concepts-and-principles-lewis-br-nsted-hsab-and-ac",
+      "name": "Acid -base concepts and principles (Lewis, Brønsted, HSAB and acid-base catalysis)",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Transition Metals",
+    "topics": [
+     {
+      "id": "cy-inorganic-chemistry--coordination-chemistry-structure-and-isomerism",
+      "name": "Coordination chemistry - structure and isomerism",
+      "diff": "M"
+     },
+     {
+      "id": "cy-inorganic-chemistry--theories-of-bonding-vbt-cft-and-mot",
+      "name": "Theories of bonding (VBT, CFT, and MOT)",
+      "diff": "M"
+     },
+     {
+      "id": "cy-inorganic-chemistry--metal-metal-multiple-bonds",
+      "name": "Metal-metal multiple bonds",
+      "diff": "M"
+     },
+     {
+      "id": "cy-inorganic-chemistry--energy-level-diagrams-in-various-crystal-fields",
+      "name": "Energy level diagrams in various crystal fields",
+      "diff": "M"
+     },
+     {
+      "id": "cy-inorganic-chemistry--cfse",
+      "name": "CFSE",
+      "diff": "E"
+     },
+     {
+      "id": "cy-inorganic-chemistry--applications-of-cft",
+      "name": "Applications of CFT",
+      "diff": "M"
+     },
+     {
+      "id": "cy-inorganic-chemistry--jahn-teller-distortion",
+      "name": "Jahn-Teller distortion",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "C",
+    "name": "Electronic spectra of transition met al complexes",
+    "topics": [
+     {
+      "id": "cy-inorganic-chemistry--spectroscopic-term-symbols",
+      "name": "Spectroscopic term symbols",
+      "diff": "M"
+     },
+     {
+      "id": "cy-inorganic-chemistry--selection-rules",
+      "name": "Selection rules",
+      "diff": "E"
+     },
+     {
+      "id": "cy-inorganic-chemistry--orgel-and-tanabe-sugano-diagrams",
+      "name": "Orgel and Tanabe -Sugano diagrams",
+      "diff": "M"
+     },
+     {
+      "id": "cy-inorganic-chemistry--nephelauxetic-effect-and-racah-parameter",
+      "name": "Nephelauxetic effect and Racah parameter",
+      "diff": "M"
+     },
+     {
+      "id": "cy-inorganic-chemistry--charge-transfer-spectra",
+      "name": "Charge -transfer spectra",
+      "diff": "M"
+     },
+     {
+      "id": "cy-inorganic-chemistry--magnetic-properties-of-transition-metal-complexes",
+      "name": "Magnetic properties of transition metal complexes",
+      "diff": "E"
+     }
+    ]
+   },
+   {
+    "letter": "D",
+    "name": "Ray -Dutt and Bailar twists, Reaction mechanis ms",
+    "topics": [
+     {
+      "id": "cy-inorganic-chemistry--kinetic-and-thermodynamic-stability",
+      "name": "Kinetic and thermodynamic stability",
+      "diff": "H"
+     },
+     {
+      "id": "cy-inorganic-chemistry--associative",
+      "name": "Associative",
+      "diff": "E"
+     },
+     {
+      "id": "cy-inorganic-chemistry--dissociative-substitution-and-redox-reactions",
+      "name": "Dissociative substitution and redox reactions",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "E",
+    "name": "Lanthanides and Actinides",
+    "topics": [
+     {
+      "id": "cy-inorganic-chemistry--recovery",
+      "name": "Recovery",
+      "diff": "E"
+     },
+     {
+      "id": "cy-inorganic-chemistry--periodic-properties-spectral-and-magnetic-properties",
+      "name": "Periodic properties, spectral and magnetic properties",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "F",
+    "name": "Organometallics",
+    "topics": [
+     {
+      "id": "cy-inorganic-chemistry--18-electron-rule",
+      "name": "18-Electron rule",
+      "diff": "E"
+     },
+     {
+      "id": "cy-inorganic-chemistry--metal-alkyl",
+      "name": "Metal-alkyl",
+      "diff": "E"
+     },
+     {
+      "id": "cy-inorganic-chemistry--metal-carbonyl",
+      "name": "Metal-carbonyl",
+      "diff": "E"
+     },
+     {
+      "id": "cy-inorganic-chemistry--metal-olefin-and-metal-carbene-complexes-and-metallocenes",
+      "name": "Metal-olefin and metal-carbene complexes and metallocenes",
+      "diff": "M"
+     },
+     {
+      "id": "cy-inorganic-chemistry--fluxionality-in-organometallic-complexes",
+      "name": "Fluxionality in organometallic complexes",
+      "diff": "M"
+     },
+     {
+      "id": "cy-inorganic-chemistry--types-of-organometallic-reactions",
+      "name": "Types of organometallic reactions",
+      "diff": "E"
+     },
+     {
+      "id": "cy-inorganic-chemistry--homogeneous-catalysis-hydrogenation",
+      "name": "Homogeneous catalysis - Hydrogenation",
+      "diff": "M"
+     },
+     {
+      "id": "cy-inorganic-chemistry--hydroformylation",
+      "name": "Hydroformylation",
+      "diff": "E"
+     },
+     {
+      "id": "cy-inorganic-chemistry--methanol-to-ace-tic-acid-process",
+      "name": "Methanol to ace tic acid process",
+      "diff": "M"
+     },
+     {
+      "id": "cy-inorganic-chemistry--olefin-metathesis-and-wacker-oxidation",
+      "name": "Olefin metathesis and Wacker oxidation",
+      "diff": "M"
+     },
+     {
+      "id": "cy-inorganic-chemistry--heterogeneous-catalysis-fischer-tropsch-reaction",
+      "name": "Heterogeneous catalysis - Fischer-Tropsch reaction",
+      "diff": "M"
+     },
+     {
+      "id": "cy-inorganic-chemistry--ziegler-natta-polymerization",
+      "name": "Ziegler-Natta polymerization",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "G",
+    "name": "Bioinorganic Chemistry",
+    "topics": [
+     {
+      "id": "cy-inorganic-chemistry--ion-na-and-k-transport",
+      "name": "Ion (Na+ and K+) transport",
+      "diff": "M"
+     },
+     {
+      "id": "cy-inorganic-chemistry--oxygen-binding",
+      "name": "Oxygen binding",
+      "diff": "E"
+     },
+     {
+      "id": "cy-inorganic-chemistry--transport-and-utilization",
+      "name": "Transport and utilization",
+      "diff": "M"
+     },
+     {
+      "id": "cy-inorganic-chemistry--electron-transfer-reactions",
+      "name": "Electron transfer reactions",
+      "diff": "M"
+     },
+     {
+      "id": "cy-inorganic-chemistry--nitrogen-fixation",
+      "name": "Nitrogen fixation",
+      "diff": "E"
+     },
+     {
+      "id": "cy-inorganic-chemistry--metalloenzymes-containing-magnesium",
+      "name": "Metalloenzymes containing magnesium",
+      "diff": "M"
+     },
+     {
+      "id": "cy-inorganic-chemistry--molybdenum",
+      "name": "Molybdenum",
+      "diff": "E"
+     },
+     {
+      "id": "cy-inorganic-chemistry--iron",
+      "name": "Iron",
+      "diff": "E"
+     },
+     {
+      "id": "cy-inorganic-chemistry--cobalt",
+      "name": "Cobalt",
+      "diff": "E"
+     },
+     {
+      "id": "cy-inorganic-chemistry--copper-and-zinc",
+      "name": "Copper and zinc",
+      "diff": "E"
+     }
+    ]
+   },
+   {
+    "letter": "H",
+    "name": "Solids",
+    "topics": [
+     {
+      "id": "cy-inorganic-chemistry--crystal-systems-and-lattices",
+      "name": "Crystal systems and lattices",
+      "diff": "M"
+     },
+     {
+      "id": "cy-inorganic-chemistry--miller-planes",
+      "name": "Miller planes",
+      "diff": "E"
+     },
+     {
+      "id": "cy-inorganic-chemistry--crystal-packing",
+      "name": "Crystal packing",
+      "diff": "E"
+     },
+     {
+      "id": "cy-inorganic-chemistry--crystal-defects",
+      "name": "Crystal defects",
+      "diff": "E"
+     },
+     {
+      "id": "cy-inorganic-chemistry--braggs-law",
+      "name": "Bragg’s law",
+      "diff": "E"
+     },
+     {
+      "id": "cy-inorganic-chemistry--ionic-crystals",
+      "name": "Ionic crystals",
+      "diff": "E"
+     },
+     {
+      "id": "cy-inorganic-chemistry--structure-of-ax",
+      "name": "Structure of AX",
+      "diff": "E"
+     },
+     {
+      "id": "cy-inorganic-chemistry--ax-2",
+      "name": "AX 2",
+      "diff": "E"
+     },
+     {
+      "id": "cy-inorganic-chemistry--abx-3-type-compounds",
+      "name": "ABX 3 type compounds",
+      "diff": "M"
+     },
+     {
+      "id": "cy-inorganic-chemistry--spinels",
+      "name": "Spinels",
+      "diff": "E"
+     },
+     {
+      "id": "cy-inorganic-chemistry--band-theory",
+      "name": "Band theory",
+      "diff": "E"
+     },
+     {
+      "id": "cy-inorganic-chemistry--metals-and-semiconductors",
+      "name": "Metals and semiconductors",
+      "diff": "M"
+     },
+     {
+      "id": "cy-inorganic-chemistry--zeolites-and-their-applications",
+      "name": "Zeolites and their applications",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "I",
+    "name": "Instrumental Methods of Analysis",
+    "topics": [
+     {
+      "id": "cy-inorganic-chemistry--uv-visible",
+      "name": "UV-visible",
+      "diff": "E"
+     },
+     {
+      "id": "cy-inorganic-chemistry--fluorescence-and-ft-ir-spectrophotometry",
+      "name": "Fluorescence and FT -IR spectrophotometry",
+      "diff": "M"
+     },
+     {
+      "id": "cy-inorganic-chemistry--nmr-and-esr-spectroscopy",
+      "name": "NMR and ESR spectroscopy",
+      "diff": "M"
+     },
+     {
+      "id": "cy-inorganic-chemistry--mass-spectrometry",
+      "name": "Mass spectrometry",
+      "diff": "E"
+     },
+     {
+      "id": "cy-inorganic-chemistry--atomic-absorption-spectroscopy",
+      "name": "Atomic absorption spectroscopy",
+      "diff": "M"
+     },
+     {
+      "id": "cy-inorganic-chemistry--m-ssbauer-spectroscopy-fe-and-sn-and-x-ray-crystallography",
+      "name": "Mössbauer spectroscopy (Fe and Sn) and X - ray crystallography",
+      "diff": "M"
+     },
+     {
+      "id": "cy-inorganic-chemistry--electroanalytical-methods-cyclic-voltammetry",
+      "name": "Electroanalytical methods - cyclic voltammetry",
+      "diff": "M"
+     },
+     {
+      "id": "cy-inorganic-chemistry--ion-selective-electrodes",
+      "name": "Ion-selective electrodes",
+      "diff": "M"
+     },
+     {
+      "id": "cy-inorganic-chemistry--thermo-analytical-methods-tga-dta-and-dsc",
+      "name": "Thermo-analytical methods: TGA, DTA and DSC",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "cy-organic-chemistry",
+  "name": "Organic Chemistry",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "General Concepts",
+    "topics": [
+     {
+      "id": "cy-organic-chemistry--structure-dependence-on-properties-such-as-basicity-and-acid",
+      "name": "Structure dependence on properties such as basicity and acidity",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "cy-organic-chemistry--role-of-aromatic-stability-on-physical-properties-of-organic",
+      "name": "Role of aromatic stability on physical properties of organic compounds",
+      "diff": "H"
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Stereochemistry",
+    "topics": [
+     {
+      "id": "cy-organic-chemistry--chirality-and-symmetry-of-organic-molecules-with-or-without-",
+      "name": "Chirality and symmetry of organic molecules with or without chiral centres and determination of their absolute configurations and optical purity",
+      "diff": "M"
+     },
+     {
+      "id": "cy-organic-chemistry--relative-stereochemistry-in-compounds-having-more-than-one-s",
+      "name": "Relative stereochemistry in compounds having more than one stereogenic centre",
+      "diff": "M"
+     },
+     {
+      "id": "cy-organic-chemistry--homotopic-enantiotopic-and-diastereotopic-atoms-groups-and-f",
+      "name": "Homotopic, enantiotopic and diastereotopic atoms, groups and faces",
+      "diff": "M"
+     },
+     {
+      "id": "cy-organic-chemistry--conformational-analysis-of-acyclic-and-cyclic-compounds",
+      "name": "Conformational analysis of acyclic and cyclic compounds",
+      "diff": "M"
+     },
+     {
+      "id": "cy-organic-chemistry--geometrical-isomerism-and-optical-isomerism",
+      "name": "Geometrical isomerism and optical isomerism",
+      "diff": "M"
+     },
+     {
+      "id": "cy-organic-chemistry--configurational-and-conformational-effects",
+      "name": "Configurational and conformational effects",
+      "diff": "M"
+     },
+     {
+      "id": "cy-organic-chemistry--atropisomerism",
+      "name": "Atropisomerism",
+      "diff": "E"
+     },
+     {
+      "id": "cy-organic-chemistry--neighbouring-group-participation-on-reactivity-and-selectivi",
+      "name": "Neighbouring group participation on reactivity and selectivity/specificity",
+      "diff": "M"
+     },
+     {
+      "id": "cy-organic-chemistry--stereoselective-and-stereospecific-synthesis",
+      "name": "Stereoselective and stereospecific synthesis",
+      "diff": "M"
+     },
+     {
+      "id": "cy-organic-chemistry--enantiomeric-excess",
+      "name": "Enantiomeric excess",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "C",
+    "name": "Reaction Mechanisms",
+    "topics": [
+     {
+      "id": "cy-organic-chemistry--basic-mechanistic-concepts-and-energy-profile-diagrams-kinet",
+      "name": "Basic mechanistic concepts and energy profile diagrams - kinetics versus thermodynamic control",
+      "diff": "H"
+     },
+     {
+      "id": "cy-organic-chemistry--hammonds-postulate-and-curtin-hammett-principle",
+      "name": "Hammond’s postulate and Curtin -Hammett principle",
+      "diff": "M"
+     },
+     {
+      "id": "cy-organic-chemistry--methods-of-determining-reaction-mechanisms-through-kinetics",
+      "name": "Methods of determining reaction mechanisms through kinetics",
+      "diff": "H"
+     },
+     {
+      "id": "cy-organic-chemistry--identification-of-products",
+      "name": "Identification of products",
+      "diff": "M"
+     },
+     {
+      "id": "cy-organic-chemistry--intermediates-and-is-otopic-labelling",
+      "name": "Intermediates and is otopic labelling",
+      "diff": "M"
+     },
+     {
+      "id": "cy-organic-chemistry--solvent-effects-in-substitution-and-elimination-reactions",
+      "name": "Solvent effects in substitution and elimination reactions",
+      "diff": "M"
+     },
+     {
+      "id": "cy-organic-chemistry--linear-free-energy-relationship-hammett-and-taft-equations",
+      "name": "Linear free-energy relationship - Hammett and Taft equations",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "D",
+    "name": "Types of Reactions",
+    "topics": [
+     {
+      "id": "cy-organic-chemistry--nucleophilic-and-electrophilic-substitution-reactions-both-a",
+      "name": "Nucleophilic and electrophilic substitution reactions (both aromatic and aliphatic)",
+      "diff": "M"
+     },
+     {
+      "id": "cy-organic-chemistry--addition-reactions-to-carbon-carbon-and-carbon-heteroatom-n-",
+      "name": "Addition reactions to carbon -carbon and carbon -heteroatom (N and O) multiple bonds",
+      "diff": "M"
+     },
+     {
+      "id": "cy-organic-chemistry--elimination-reactions",
+      "name": "Elimination reactions",
+      "diff": "M"
+     },
+     {
+      "id": "cy-organic-chemistry--reactive-intermediates-carbocation",
+      "name": "Reactive intermediates - carbocation",
+      "diff": "M"
+     },
+     {
+      "id": "cy-organic-chemistry--carbanion",
+      "name": "Carbanion",
+      "diff": "E"
+     },
+     {
+      "id": "cy-organic-chemistry--carbenes",
+      "name": "Carbenes",
+      "diff": "E"
+     },
+     {
+      "id": "cy-organic-chemistry--nitrenes",
+      "name": "Nitrenes",
+      "diff": "E"
+     },
+     {
+      "id": "cy-organic-chemistry--arynes-and-free-radicals",
+      "name": "Arynes and free radicals",
+      "diff": "M"
+     },
+     {
+      "id": "cy-organic-chemistry--molecular-rearrangements",
+      "name": "Molecular rearrangements",
+      "diff": "M"
+     },
+     {
+      "id": "cy-organic-chemistry--barton-decarboxylation-and-barton-mccombie-reaction",
+      "name": "Barton decarboxylation and Barton-McCombie reaction",
+      "diff": "M"
+     },
+     {
+      "id": "cy-organic-chemistry--hunsdiecker-reaction",
+      "name": "Hunsdiecker reaction",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "E",
+    "name": "Organic Synthesis",
+    "topics": [
+     {
+      "id": "cy-organic-chemistry--synthesis",
+      "name": "Synthesis",
+      "diff": "E"
+     },
+     {
+      "id": "cy-organic-chemistry--reactions",
+      "name": "Reactions",
+      "diff": "E"
+     },
+     {
+      "id": "cy-organic-chemistry--mechanisms-and-selectivity-involving-the-following-classes-o",
+      "name": "Mechanisms and selectivity involving the following classes of compounds - alkenes",
+      "diff": "M"
+     },
+     {
+      "id": "cy-organic-chemistry--alkynes",
+      "name": "Alkynes",
+      "diff": "E"
+     },
+     {
+      "id": "cy-organic-chemistry--arenes",
+      "name": "Arenes",
+      "diff": "E"
+     },
+     {
+      "id": "cy-organic-chemistry--alcohols",
+      "name": "Alcohols",
+      "diff": "E"
+     },
+     {
+      "id": "cy-organic-chemistry--phenols",
+      "name": "Phenols",
+      "diff": "E"
+     },
+     {
+      "id": "cy-organic-chemistry--aldehydes",
+      "name": "Aldehydes",
+      "diff": "E"
+     },
+     {
+      "id": "cy-organic-chemistry--ketones",
+      "name": "Ketones",
+      "diff": "E"
+     },
+     {
+      "id": "cy-organic-chemistry--carboxylic-acids",
+      "name": "Carboxylic acids",
+      "diff": "E"
+     },
+     {
+      "id": "cy-organic-chemistry--esters",
+      "name": "Esters",
+      "diff": "E"
+     },
+     {
+      "id": "cy-organic-chemistry--nitriles",
+      "name": "Nitriles",
+      "diff": "E"
+     },
+     {
+      "id": "cy-organic-chemistry--halides",
+      "name": "Halides",
+      "diff": "E"
+     },
+     {
+      "id": "cy-organic-chemistry--nitro-compounds",
+      "name": "Nitro compounds",
+      "diff": "E"
+     },
+     {
+      "id": "cy-organic-chemistry--amines-and-amides",
+      "name": "Amines and amides",
+      "diff": "E"
+     },
+     {
+      "id": "cy-organic-chemistry--uses-of-mg",
+      "name": "Uses of Mg",
+      "diff": "E"
+     },
+     {
+      "id": "cy-organic-chemistry--sn-and-si-based-reagents-in-organic-synthesis",
+      "name": "Sn and Si based reagents in organic synthesis",
+      "diff": "M"
+     },
+     {
+      "id": "cy-organic-chemistry--carbon-carbon-bond-formation-through-coupling-reactions-heck",
+      "name": "Carbon -carbon bond formation through coupling reactions - Heck",
+      "diff": "M"
+     },
+     {
+      "id": "cy-organic-chemistry--suzuki",
+      "name": "Suzuki",
+      "diff": "E"
+     },
+     {
+      "id": "cy-organic-chemistry--stille",
+      "name": "Stille",
+      "diff": "E"
+     },
+     {
+      "id": "cy-organic-chemistry--sonogashira",
+      "name": "Sonogashira",
+      "diff": "E"
+     },
+     {
+      "id": "cy-organic-chemistry--negishi",
+      "name": "Negishi",
+      "diff": "E"
+     },
+     {
+      "id": "cy-organic-chemistry--kumada",
+      "name": "Kumada",
+      "diff": "E"
+     },
+     {
+      "id": "cy-organic-chemistry--hiyama",
+      "name": "Hiyama",
+      "diff": "E"
+     },
+     {
+      "id": "cy-organic-chemistry--tsuji-trost-reactions",
+      "name": "Tsuji-Trost reactions",
+      "diff": "M"
+     },
+     {
+      "id": "cy-organic-chemistry--olefin-metathesis",
+      "name": "Olefin metathesis",
+      "diff": "E"
+     },
+     {
+      "id": "cy-organic-chemistry--mcmurry-coupling-and-buchwald-hartwig-amination-reactions",
+      "name": "McMurry coupling and Buchwald -Hartwig amination reactions",
+      "diff": "M"
+     },
+     {
+      "id": "cy-organic-chemistry--baylis-hillman",
+      "name": "Baylis -Hillman",
+      "diff": "E"
+     },
+     {
+      "id": "cy-organic-chemistry--henry",
+      "name": "Henry",
+      "diff": "E"
+     },
+     {
+      "id": "cy-organic-chemistry--ritter",
+      "name": "Ritter",
+      "diff": "E"
+     },
+     {
+      "id": "cy-organic-chemistry--sakurai",
+      "name": "Sakurai",
+      "diff": "E"
+     },
+     {
+      "id": "cy-organic-chemistry--tebbe-olefination",
+      "name": "Tebbe olefination",
+      "diff": "E"
+     },
+     {
+      "id": "cy-organic-chemistry--pauson-khand-and-nazarov-cyclization-reactions",
+      "name": "Pauson -Khand and Nazarov cyclization reactions",
+      "diff": "M"
+     },
+     {
+      "id": "cy-organic-chemistry--concepts-of-multistep-synthesis-retrosynthetic-analysis",
+      "name": "Concepts of multistep synthesis - retrosynthetic analysis",
+      "diff": "M"
+     },
+     {
+      "id": "cy-organic-chemistry--strategic-disconnections",
+      "name": "Strategic disconnections",
+      "diff": "M"
+     },
+     {
+      "id": "cy-organic-chemistry--synthons-and-synthetic-equivalents",
+      "name": "Synthons and synthetic equivalents",
+      "diff": "M"
+     },
+     {
+      "id": "cy-organic-chemistry--atom-economy-and-green-chemistry",
+      "name": "Atom economy and green chemistry",
+      "diff": "M"
+     },
+     {
+      "id": "cy-organic-chemistry--umpolung-reactivity-formyl-and-acyl-anion-equivalents",
+      "name": "Umpolung reactivity - formyl and acyl anion equivalents",
+      "diff": "M"
+     },
+     {
+      "id": "cy-organic-chemistry--selectivity-in-organic-synthesis-chemo",
+      "name": "Selectivity in organic synthesis - chemo-",
+      "diff": "M"
+     },
+     {
+      "id": "cy-organic-chemistry--regio-and-stereoselectivity",
+      "name": "Regio- and stereoselectivity",
+      "diff": "M"
+     },
+     {
+      "id": "cy-organic-chemistry--protection-and-deprotection-of-functional-groups",
+      "name": "Protection and deprotection of functional groups",
+      "diff": "M"
+     },
+     {
+      "id": "cy-organic-chemistry--concepts-of-asymmetric-synthesis-resolution-including-enzyma",
+      "name": "Concepts of asymmetric synthesis - resolution (including enzymatic)",
+      "diff": "M"
+     },
+     {
+      "id": "cy-organic-chemistry--desymmetrization-and-use-of-chiral-auxiliaries",
+      "name": "Desymmetrization and use of chiral auxiliaries",
+      "diff": "M"
+     },
+     {
+      "id": "cy-organic-chemistry--organocatalysis",
+      "name": "Organocatalysis",
+      "diff": "E"
+     },
+     {
+      "id": "cy-organic-chemistry--carbon-carbon-and-carbonheteroatom-bond-forming-reactions-th",
+      "name": "Carbon -carbon and carbonheteroatom bond forming reactions through enolates (including boron enolates)",
+      "diff": "M"
+     },
+     {
+      "id": "cy-organic-chemistry--enamines-and-silyl-enol-ethers",
+      "name": "Enamines and silyl enol ethers",
+      "diff": "M"
+     },
+     {
+      "id": "cy-organic-chemistry--stereoselective-addition-to-c-o-groups-cram-prelog-and-felki",
+      "name": "Stereoselective addition to C=O groups (Cram, Prelog and Felkin-Anh models)",
+      "diff": "M"
+     },
+     {
+      "id": "cy-organic-chemistry--asymmetric-aldol-reactions-evans-reaction-and-proline-cataly",
+      "name": "Asymmetric aldol reactions - Evans reaction and proline catalyzed reaction",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "F",
+    "name": "Oxidation",
+    "topics": [
+     {
+      "id": "cy-organic-chemistry--oxidation-of-alcohols-involving-metal-and-non-metal-based-ch",
+      "name": "Oxidation of alcohols involving metal and non -metal-based (chromium, manganese, DMSO, and hypervalent iodine) reagents",
+      "diff": "M"
+     },
+     {
+      "id": "cy-organic-chemistry--peracid-oxidation-of-alkenes-and-carbonyls",
+      "name": "Peracid oxidation of alkenes and carbonyls",
+      "diff": "M"
+     },
+     {
+      "id": "cy-organic-chemistry--alkenes-to-diols-manganese-and-osmium-based-reagents",
+      "name": "Alkenes to diols (manganese and osmium-based reagents)",
+      "diff": "M"
+     },
+     {
+      "id": "cy-organic-chemistry--alkenes-to-carbonyls-with-bond-cleavage-ozonolysis",
+      "name": "Alkenes to carbonyls with bond cleavage (ozonolysis)",
+      "diff": "M"
+     },
+     {
+      "id": "cy-organic-chemistry--alkenes-to-alcohols-carbonyls-without-bond-cleavage-hydrobor",
+      "name": "Alkenes to alcohols/carbonyls without bond cleavage (hydroboration -oxidation)",
+      "diff": "M"
+     },
+     {
+      "id": "cy-organic-chemistry--asymmetric-epoxidations-sharpless-and-jacobsen-and-sharpless",
+      "name": "Asymmetric epoxidations (Sharpless and Jacobsen) and Sharpless asymmetric hydroxylation",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "G",
+    "name": "Reduction",
+    "topics": [
+     {
+      "id": "cy-organic-chemistry--catalytic-homogeneous-and-heterogeneous-hydrogenation",
+      "name": "Catalytic homogeneous and heterogeneous hydrogenation",
+      "diff": "M"
+     },
+     {
+      "id": "cy-organic-chemistry--metal-based-reductions-using-li-na-in-liquid-ammonia",
+      "name": "Metal based reductions using Li/Na in liquid ammonia",
+      "diff": "M"
+     },
+     {
+      "id": "cy-organic-chemistry--magnesium",
+      "name": "Magnesium",
+      "diff": "E"
+     },
+     {
+      "id": "cy-organic-chemistry--zinc",
+      "name": "Zinc",
+      "diff": "E"
+     },
+     {
+      "id": "cy-organic-chemistry--titanium",
+      "name": "Titanium",
+      "diff": "E"
+     },
+     {
+      "id": "cy-organic-chemistry--samarium",
+      "name": "Samarium",
+      "diff": "E"
+     }
+    ]
+   },
+   {
+    "letter": "H",
+    "name": "Hydride transfer reagents",
+    "topics": [
+     {
+      "id": "cy-organic-chemistry--nabh-4",
+      "name": "NaBH 4",
+      "diff": "E"
+     },
+     {
+      "id": "cy-organic-chemistry--l-selectride",
+      "name": "L -selectride",
+      "diff": "E"
+     },
+     {
+      "id": "cy-organic-chemistry--k-selectride",
+      "name": "K-selectride",
+      "diff": "E"
+     },
+     {
+      "id": "cy-organic-chemistry--luche-reduction",
+      "name": "Luche reduction",
+      "diff": "E"
+     },
+     {
+      "id": "cy-organic-chemistry--lialh4-and-dibal-h",
+      "name": "LiAlH4 and DIBAL-H",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "I",
+    "name": "Pericyclic Reactions and Photochemistry",
+    "topics": [
+     {
+      "id": "cy-organic-chemistry--electrocyclic-cycloaddition-and-sigmatropic-reactions",
+      "name": "Electrocyclic, cycloaddition and sigmatropic reactions",
+      "diff": "M"
+     },
+     {
+      "id": "cy-organic-chemistry--diels-alder-reaction",
+      "name": "Diels-Alder reaction",
+      "diff": "M"
+     },
+     {
+      "id": "cy-organic-chemistry--claisen-and-cope-rearrangements-and-their-applications-in-or",
+      "name": "Claisen and Cope rearrangements and their applications in organic synthesis",
+      "diff": "M"
+     },
+     {
+      "id": "cy-organic-chemistry--fmo-method-of-analysis",
+      "name": "FMO method of analysis",
+      "diff": "M"
+     },
+     {
+      "id": "cy-organic-chemistry--woodward-hoffmann-rules",
+      "name": "Woodward-Hoffmann rules",
+      "diff": "M"
+     },
+     {
+      "id": "cy-organic-chemistry--photochemistry-of-alkenes-arenes-and-carbonyl-compounds",
+      "name": "Photochemistry of alkenes, arenes and carbonyl compounds",
+      "diff": "M"
+     },
+     {
+      "id": "cy-organic-chemistry--photo-oxidation-and-photo-reduction",
+      "name": "Photo -oxidation and photo-reduction",
+      "diff": "M"
+     },
+     {
+      "id": "cy-organic-chemistry--di-methane-rearrangements-norrish-type-i-and-ii-reactions",
+      "name": "Di-π-methane rearrangements, Norrish type-I and II reactions",
+      "diff": "M"
+     },
+     {
+      "id": "cy-organic-chemistry--patern-b-chi-reaction-photocurtius-and-wolff-rearrangements",
+      "name": "Paternό -Büchi reaction, PhotoCurtius and Wolff rearrangements",
+      "diff": "M"
+     },
+     {
+      "id": "cy-organic-chemistry--barton-and-hofmann-l-ffler-freytag-reactions",
+      "name": "Barton and Hofmann-Lӧffler-Freytag reactions",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "J",
+    "name": "Heterocyclic Compounds",
+    "topics": [
+     {
+      "id": "cy-organic-chemistry--nomenclature-of-mono-and-bicyclic",
+      "name": "Nomenclature of mono - and bicyclic",
+      "diff": "M"
+     },
+     {
+      "id": "cy-organic-chemistry--as-well-as-mono-and-di-heteroatomic-compounds",
+      "name": "As well as mono - and di -heteroatomic compounds",
+      "diff": "M"
+     },
+     {
+      "id": "cy-organic-chemistry--structure",
+      "name": "Structure",
+      "diff": "E"
+     },
+     {
+      "id": "cy-organic-chemistry--preparation",
+      "name": "Preparation",
+      "diff": "E"
+     },
+     {
+      "id": "cy-organic-chemistry--properties-and-reactions-of-furan",
+      "name": "Properties and reactions of furan",
+      "diff": "M"
+     },
+     {
+      "id": "cy-organic-chemistry--pyrrole",
+      "name": "Pyrrole",
+      "diff": "E"
+     },
+     {
+      "id": "cy-organic-chemistry--thiophene",
+      "name": "Thiophene",
+      "diff": "E"
+     },
+     {
+      "id": "cy-organic-chemistry--pyridine",
+      "name": "Pyridine",
+      "diff": "E"
+     },
+     {
+      "id": "cy-organic-chemistry--indole",
+      "name": "Indole",
+      "diff": "E"
+     },
+     {
+      "id": "cy-organic-chemistry--quinoline-and-isoquinoline",
+      "name": "Quinoline and isoquinoline",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "K",
+    "name": "Biomolecules",
+    "topics": [
+     {
+      "id": "cy-organic-chemistry--structure",
+      "name": "Structure",
+      "diff": "E"
+     },
+     {
+      "id": "cy-organic-chemistry--properties-and-reactions-of-mono-and-di-saccharides",
+      "name": "Properties and reactions of mono - and di-saccharides",
+      "diff": "M"
+     },
+     {
+      "id": "cy-organic-chemistry--physicochemical-properties-of-amino-acids",
+      "name": "Physicochemical properties of amino acids",
+      "diff": "E"
+     },
+     {
+      "id": "cy-organic-chemistry--chemical-synthesis-of-peptides",
+      "name": "Chemical synthesis of peptides",
+      "diff": "M"
+     },
+     {
+      "id": "cy-organic-chemistry--chemical-structure-determination-of-peptides-and-proteins",
+      "name": "Chemical structure determination of peptides and proteins",
+      "diff": "M"
+     },
+     {
+      "id": "cy-organic-chemistry--structural-features-of-proteins",
+      "name": "Structural features of proteins",
+      "diff": "M"
+     },
+     {
+      "id": "cy-organic-chemistry--nucleic-acids",
+      "name": "Nucleic acids",
+      "diff": "E"
+     },
+     {
+      "id": "cy-organic-chemistry--lipids",
+      "name": "Lipids",
+      "diff": "E"
+     },
+     {
+      "id": "cy-organic-chemistry--steroids",
+      "name": "Steroids",
+      "diff": "E"
+     },
+     {
+      "id": "cy-organic-chemistry--terpenoids",
+      "name": "Terpenoids",
+      "diff": "E"
+     },
+     {
+      "id": "cy-organic-chemistry--carotenoids",
+      "name": "Carotenoids",
+      "diff": "E"
+     },
+     {
+      "id": "cy-organic-chemistry--alkaloids",
+      "name": "Alkaloids",
+      "diff": "E"
+     }
+    ]
+   },
+   {
+    "letter": "L",
+    "name": "Experimental Techniques in Organic Chemistry",
+    "topics": [
+     {
+      "id": "cy-organic-chemistry--optical-rotation-polarimetry",
+      "name": "Optical rotation (polarimetry)",
+      "diff": "M"
+     },
+     {
+      "id": "cy-organic-chemistry--application-of-various-chromatographic-techniques-such-as-th",
+      "name": "Application of various chromatographic techniques such as thin -layer",
+      "diff": "M"
+     },
+     {
+      "id": "cy-organic-chemistry--column",
+      "name": "Column",
+      "diff": "E"
+     },
+     {
+      "id": "cy-organic-chemistry--hplc-and-gc-applications-of-uv-visible",
+      "name": "HPLC and GC. Applications of UV -visible",
+      "diff": "M"
+     },
+     {
+      "id": "cy-organic-chemistry--nmr-spectroscopy-and-mass-spectrometry-in-the-structural-det",
+      "name": "NMR spectroscopy and Mass spectrometry in the structural determination of organic molecules",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ }
+]

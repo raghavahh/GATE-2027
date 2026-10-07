@@ -1,0 +1,1867 @@
+[
+ {
+  "id": "ar-design-and-graphics",
+  "name": "Design and Graphics",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Design and Graphics",
+    "topics": [
+     {
+      "id": "ar-design-and-graphics--architectural-graphics",
+      "name": "Architectural Graphics",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "ar-design-and-graphics--visual-composition-in-20-and-30",
+      "name": "Visual composition in 20 and 30",
+      "diff": "M"
+     },
+     {
+      "id": "ar-design-and-graphics--form",
+      "name": "Form",
+      "diff": "E"
+     },
+     {
+      "id": "ar-design-and-graphics--surface-development",
+      "name": "Surface development",
+      "diff": "M"
+     },
+     {
+      "id": "ar-design-and-graphics--anthropometrics",
+      "name": "Anthropometrics",
+      "diff": "E"
+     },
+     {
+      "id": "ar-design-and-graphics--ergonomics",
+      "name": "Ergonomics",
+      "diff": "E"
+     },
+     {
+      "id": "ar-design-and-graphics--ratio-and-proportion",
+      "name": "Ratio and proportion",
+      "diff": "M"
+     },
+     {
+      "id": "ar-design-and-graphics--scales-in-design",
+      "name": "Scales in design",
+      "diff": "E"
+     },
+     {
+      "id": "ar-design-and-graphics--organization-of-space",
+      "name": "Organization of space",
+      "diff": "M"
+     },
+     {
+      "id": "ar-design-and-graphics--plans-elevations-and-sections-of-buildings",
+      "name": "Plans, elevations, and sections of buildings",
+      "diff": "M"
+     },
+     {
+      "id": "ar-design-and-graphics--circulation-horizontal-and-vertical",
+      "name": "Circulation- horizontal and vertical",
+      "diff": "M"
+     },
+     {
+      "id": "ar-design-and-graphics--universal-design",
+      "name": "Universal design",
+      "diff": "E"
+     },
+     {
+      "id": "ar-design-and-graphics--building-bye-laws",
+      "name": "Building bye-laws",
+      "diff": "E"
+     },
+     {
+      "id": "ar-design-and-graphics--codes-and-standards-barrier-free-environment",
+      "name": "Codes and standards, Barrier-free environment",
+      "diff": "M"
+     },
+     {
+      "id": "ar-design-and-graphics--engineering-curves",
+      "name": "Engineering curves",
+      "diff": "M"
+     },
+     {
+      "id": "ar-design-and-graphics--orthographic-and-isometric-projection",
+      "name": "Orthographic and Isometric projection",
+      "diff": "M"
+     },
+     {
+      "id": "ar-design-and-graphics--one-point-and-twopoint-perspectives",
+      "name": "One-point and twopoint perspectives",
+      "diff": "M"
+     },
+     {
+      "id": "ar-design-and-graphics--light-shade-and-shadow",
+      "name": "Light, shade and shadow",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "ar-environmental-planning-and-lan",
+  "name": "Environmental Planning and Landscape",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Environmental Planning and Landscape",
+    "topics": [
+     {
+      "id": "ar-environmental-planning-and-lan--natural-and-man-made-ecosystem",
+      "name": "Natural and man-made ecosystem",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "ar-environmental-planning-and-lan--environmental-ecological-and-sustainability-principles",
+      "name": "Environmental, ecological, and sustainability principles",
+      "diff": "M"
+     },
+     {
+      "id": "ar-environmental-planning-and-lan--environmental-pollution-types",
+      "name": "Environmental pollution- types",
+      "diff": "M"
+     },
+     {
+      "id": "ar-environmental-planning-and-lan--causes",
+      "name": "Causes",
+      "diff": "E"
+     },
+     {
+      "id": "ar-environmental-planning-and-lan--controls-and-abatement-strategies",
+      "name": "Controls and abatement strategies",
+      "diff": "M"
+     },
+     {
+      "id": "ar-environmental-planning-and-lan--sustainable-development-goals-and-strategies",
+      "name": "Sustainable development goals and strategies",
+      "diff": "M"
+     },
+     {
+      "id": "ar-environmental-planning-and-lan--climate-change-and-built-environment",
+      "name": "Climate change and built environment",
+      "diff": "M"
+     },
+     {
+      "id": "ar-environmental-planning-and-lan--urban-ecosystem-approach",
+      "name": "Urban ecosystem approach",
+      "diff": "M"
+     },
+     {
+      "id": "ar-environmental-planning-and-lan--ecological-footprint-and-carrying-capacity",
+      "name": "Ecological footprint and carrying capacity",
+      "diff": "M"
+     },
+     {
+      "id": "ar-environmental-planning-and-lan--resource-management",
+      "name": "Resource management",
+      "diff": "M"
+     },
+     {
+      "id": "ar-environmental-planning-and-lan--life-cycle-analysis",
+      "name": "Life cycle analysis",
+      "diff": "M"
+     },
+     {
+      "id": "ar-environmental-planning-and-lan--principles-of-circular-economy",
+      "name": "Principles of circular economy",
+      "diff": "M"
+     },
+     {
+      "id": "ar-environmental-planning-and-lan--environmental-impact-assessment",
+      "name": "Environmental Impact Assessment",
+      "diff": "M"
+     },
+     {
+      "id": "ar-environmental-planning-and-lan--carbon-footprint",
+      "name": "Carbon footprint",
+      "diff": "E"
+     },
+     {
+      "id": "ar-environmental-planning-and-lan--carbon-credits",
+      "name": "Carbon credits",
+      "diff": "E"
+     },
+     {
+      "id": "ar-environmental-planning-and-lan--urban-heat-islands",
+      "name": "Urban Heat Islands",
+      "diff": "M"
+     },
+     {
+      "id": "ar-environmental-planning-and-lan--sustainable-site-planning",
+      "name": "Sustainable site planning",
+      "diff": "M"
+     },
+     {
+      "id": "ar-environmental-planning-and-lan--contour-and-slope-analysis",
+      "name": "Contour and slope analysis",
+      "diff": "M"
+     },
+     {
+      "id": "ar-environmental-planning-and-lan--landscape-planning-and-design",
+      "name": "Landscape planning and design",
+      "diff": "M"
+     },
+     {
+      "id": "ar-environmental-planning-and-lan--landscape-suitability-analysis",
+      "name": "Landscape suitability analysis",
+      "diff": "M"
+     },
+     {
+      "id": "ar-environmental-planning-and-lan--plant-characteristics-and-planting-designs",
+      "name": "Plant characteristics and planting designs",
+      "diff": "M"
+     },
+     {
+      "id": "ar-environmental-planning-and-lan--landscape-conservation-principles-and-techniques",
+      "name": "Landscape conservation - principles and techniques",
+      "diff": "M"
+     },
+     {
+      "id": "ar-environmental-planning-and-lan--social-forestry",
+      "name": "Social forestry",
+      "diff": "E"
+     },
+     {
+      "id": "ar-environmental-planning-and-lan--historical-gardens",
+      "name": "Historical gardens",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "ar-urban-design-and-conservation",
+  "name": "Urban Design and Conservation",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Urban Design and Conservation",
+    "topics": [
+     {
+      "id": "ar-urban-design-and-conservation--historical-and-modern-examples-of-urban-design",
+      "name": "Historical and modern examples of urban design",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "ar-urban-design-and-conservation--elements-of-urban-built-environment-urban-form",
+      "name": "Elements of urban built environment - urban form",
+      "diff": "M"
+     },
+     {
+      "id": "ar-urban-design-and-conservation--spaces",
+      "name": "Spaces",
+      "diff": "E"
+     },
+     {
+      "id": "ar-urban-design-and-conservation--structure",
+      "name": "Structure",
+      "diff": "E"
+     },
+     {
+      "id": "ar-urban-design-and-conservation--pattern",
+      "name": "Pattern",
+      "diff": "E"
+     },
+     {
+      "id": "ar-urban-design-and-conservation--fabric",
+      "name": "Fabric",
+      "diff": "E"
+     },
+     {
+      "id": "ar-urban-design-and-conservation--texture",
+      "name": "Texture",
+      "diff": "E"
+     },
+     {
+      "id": "ar-urban-design-and-conservation--grain",
+      "name": "Grain",
+      "diff": "E"
+     },
+     {
+      "id": "ar-urban-design-and-conservation--theories-principles-tools-and-techniques-of-urban-design",
+      "name": "Theories, principles, tools and techniques of urban design",
+      "diff": "M"
+     },
+     {
+      "id": "ar-urban-design-and-conservation--precincts-character-spatial-qualities",
+      "name": "Precincts, character, spatial qualities",
+      "diff": "M"
+     },
+     {
+      "id": "ar-urban-design-and-conservation--placemaking",
+      "name": "Placemaking",
+      "diff": "E"
+     },
+     {
+      "id": "ar-urban-design-and-conservation--form-based-code",
+      "name": "Form-based code",
+      "diff": "E"
+     },
+     {
+      "id": "ar-urban-design-and-conservation--urban-design-interventions-for-sustainable-development-and-t",
+      "name": "Urban design interventions for sustainable development and transportation",
+      "diff": "M"
+     },
+     {
+      "id": "ar-urban-design-and-conservation--development-controls-far-densities-and-building-byelaws",
+      "name": "Development controls - FAR, densities and building byelaws",
+      "diff": "M"
+     },
+     {
+      "id": "ar-urban-design-and-conservation--urban-renewal-and-conservation",
+      "name": "Urban renewal and conservation",
+      "diff": "M"
+     },
+     {
+      "id": "ar-urban-design-and-conservation--heritage-conservation",
+      "name": "Heritage conservation",
+      "diff": "M"
+     },
+     {
+      "id": "ar-urban-design-and-conservation--historical-and-contemporary-public-spaces",
+      "name": "Historical and contemporary public spaces",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "ar-town-planning-housing-and-real",
+  "name": "Town Planning, Housing and Real Estate Development",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Town Planning, Housing and Real Estate Development",
+    "topics": [
+     {
+      "id": "ar-town-planning-housing-and-real--principles-and-concepts-of-town-planning",
+      "name": "Principles and concepts of town planning",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "ar-town-planning-housing-and-real--traditional-and-modern-planned-cities-in-india-and-abroad",
+      "name": "Traditional and modern planned cities in India and abroad",
+      "diff": "M"
+     },
+     {
+      "id": "ar-town-planning-housing-and-real--housing-typologies",
+      "name": "Housing typologies",
+      "diff": "M"
+     },
+     {
+      "id": "ar-town-planning-housing-and-real--concepts-of-housing-need-demand-supply-and-shortage",
+      "name": "Concepts of housing need, demand, supply and shortage",
+      "diff": "M"
+     },
+     {
+      "id": "ar-town-planning-housing-and-real--neighbourhood-design",
+      "name": "Neighbourhood design",
+      "diff": "M"
+     },
+     {
+      "id": "ar-town-planning-housing-and-real--residential-densities",
+      "name": "Residential densities",
+      "diff": "M"
+     },
+     {
+      "id": "ar-town-planning-housing-and-real--affordable-and-incremental-housing",
+      "name": "Affordable and incremental housing",
+      "diff": "M"
+     },
+     {
+      "id": "ar-town-planning-housing-and-real--slums-squatters-and-informal-housing",
+      "name": "Slums, squatters and informal housing",
+      "diff": "M"
+     },
+     {
+      "id": "ar-town-planning-housing-and-real--standards-for-housing-and-community-facilities",
+      "name": "Standards for housing and community facilities",
+      "diff": "M"
+     },
+     {
+      "id": "ar-town-planning-housing-and-real--housing-for-special-areas-and-needs",
+      "name": "Housing for special areas and needs",
+      "diff": "M"
+     },
+     {
+      "id": "ar-town-planning-housing-and-real--real-estate-valuation",
+      "name": "Real estate valuation",
+      "diff": "M"
+     },
+     {
+      "id": "ar-town-planning-housing-and-real--real-estate-feasibility-studies-and-market-analysis",
+      "name": "Real estate feasibility studies and market analysis",
+      "diff": "M"
+     },
+     {
+      "id": "ar-town-planning-housing-and-real--real-estate-locational-decisions-and-economic-analysis",
+      "name": "Real Estate locational decisions and economic analysis",
+      "diff": "M"
+     },
+     {
+      "id": "ar-town-planning-housing-and-real--project-phasing-and-construction-phasing",
+      "name": "Project phasing and construction phasing",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "ar-1-history-and-theory-of-archit",
+  "name": "1 History and Theory of Architecture",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "World History of Architecture",
+    "topics": [
+     {
+      "id": "ar-1-history-and-theory-of-archit--egyptian",
+      "name": "Egyptian",
+      "diff": "E",
+      "sample": true
+     },
+     {
+      "id": "ar-1-history-and-theory-of-archit--greco-roman-classical-period",
+      "name": "Greco-Roman classical period",
+      "diff": "M"
+     },
+     {
+      "id": "ar-1-history-and-theory-of-archit--byzantine",
+      "name": "Byzantine",
+      "diff": "E"
+     },
+     {
+      "id": "ar-1-history-and-theory-of-archit--gothic",
+      "name": "Gothic",
+      "diff": "E"
+     },
+     {
+      "id": "ar-1-history-and-theory-of-archit--renaissance",
+      "name": "Renaissance",
+      "diff": "E"
+     },
+     {
+      "id": "ar-1-history-and-theory-of-archit--baroque-rococo",
+      "name": "Baroque-Rococo",
+      "diff": "E"
+     },
+     {
+      "id": "ar-1-history-and-theory-of-archit--recent-trends-in-contemporary-architecture-art-nouveau",
+      "name": "Recent trends in Contemporary Architecture: Art nouveau",
+      "diff": "M"
+     },
+     {
+      "id": "ar-1-history-and-theory-of-archit--art-deco",
+      "name": "Art Deco",
+      "diff": "E"
+     },
+     {
+      "id": "ar-1-history-and-theory-of-archit--eclecticism",
+      "name": "Eclecticism",
+      "diff": "E"
+     },
+     {
+      "id": "ar-1-history-and-theory-of-archit--international-styles",
+      "name": "International styles",
+      "diff": "M"
+     },
+     {
+      "id": "ar-1-history-and-theory-of-archit--postmodernism",
+      "name": "Postmodernism",
+      "diff": "E"
+     },
+     {
+      "id": "ar-1-history-and-theory-of-archit--deconstruction-in-architecture",
+      "name": "Deconstruction in architecture",
+      "diff": "M"
+     },
+     {
+      "id": "ar-1-history-and-theory-of-archit--influence-of-modern-art-and-design-in-architecture",
+      "name": "Influence of Modern art and Design in Architecture",
+      "diff": "M"
+     },
+     {
+      "id": "ar-1-history-and-theory-of-archit--indian-architecture",
+      "name": "Indian Architecture",
+      "diff": "M"
+     },
+     {
+      "id": "ar-1-history-and-theory-of-archit--oriental-architecture",
+      "name": "Oriental Architecture",
+      "diff": "M"
+     },
+     {
+      "id": "ar-1-history-and-theory-of-archit--works-of-renowned-national-and-international-architects",
+      "name": "Works of renowned national and international architects",
+      "diff": "M"
+     },
+     {
+      "id": "ar-1-history-and-theory-of-archit--principles-of-art-design-and-architecture",
+      "name": "Principles of art, design and Architecture",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "ar-2-climatology-and-environmenta",
+  "name": "2 Climatology and Environmentally Responsive Design",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "2 Climatology and Environmentally Responsive Design",
+    "topics": [
+     {
+      "id": "ar-2-climatology-and-environmenta--climatic-factors-and-classification",
+      "name": "Climatic factors and classification",
+      "diff": "E",
+      "sample": true
+     },
+     {
+      "id": "ar-2-climatology-and-environmenta--solar-architecture",
+      "name": "Solar architecture",
+      "diff": "M"
+     },
+     {
+      "id": "ar-2-climatology-and-environmenta--micro-and-macro-climatic-considerations-in-design",
+      "name": "Micro and macro climatic considerations in design",
+      "diff": "M"
+     },
+     {
+      "id": "ar-2-climatology-and-environmenta--thermal-comfort-in-built-environments",
+      "name": "Thermal comfort in built environments",
+      "diff": "M"
+     },
+     {
+      "id": "ar-2-climatology-and-environmenta--passive-design-principles-and-concepts",
+      "name": "Passive design principles and concepts",
+      "diff": "M"
+     },
+     {
+      "id": "ar-2-climatology-and-environmenta--building-energy-audit-and-management",
+      "name": "Building energy audit and management",
+      "diff": "M"
+     },
+     {
+      "id": "ar-2-climatology-and-environmenta--embodied-and-operational-energy",
+      "name": "Embodied and operational energy",
+      "diff": "M"
+     },
+     {
+      "id": "ar-2-climatology-and-environmenta--building-energy-performance-simulation-and-evaluation",
+      "name": "Building energy performance simulation and evaluation",
+      "diff": "M"
+     },
+     {
+      "id": "ar-2-climatology-and-environmenta--alternate-and-renewable-sources-of-energy-for-buildings",
+      "name": "Alternate and renewable sources of energy for buildings",
+      "diff": "M"
+     },
+     {
+      "id": "ar-2-climatology-and-environmenta--building-performance-rating-systems",
+      "name": "Building Performance Rating systems",
+      "diff": "M"
+     },
+     {
+      "id": "ar-2-climatology-and-environmenta--kinetic-architecture",
+      "name": "Kinetic architecture",
+      "diff": "M"
+     },
+     {
+      "id": "ar-2-climatology-and-environmenta--sustainable-building-technologies",
+      "name": "Sustainable building technologies",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "ar-3-building-construction-materi",
+  "name": "3 Building Construction, Materials, and Structural Systems",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Building construction techniques, methods and details",
+    "topics": [
+     {
+      "id": "ar-3-building-construction-materi--foundation",
+      "name": "Foundation",
+      "diff": "E",
+      "sample": true
+     },
+     {
+      "id": "ar-3-building-construction-materi--plinth",
+      "name": "Plinth",
+      "diff": "E"
+     },
+     {
+      "id": "ar-3-building-construction-materi--masonry",
+      "name": "Masonry",
+      "diff": "E"
+     },
+     {
+      "id": "ar-3-building-construction-materi--bonds",
+      "name": "Bonds",
+      "diff": "E"
+     },
+     {
+      "id": "ar-3-building-construction-materi--fenestrations",
+      "name": "Fenestrations",
+      "diff": "E"
+     },
+     {
+      "id": "ar-3-building-construction-materi--arches",
+      "name": "Arches",
+      "diff": "E"
+     },
+     {
+      "id": "ar-3-building-construction-materi--scaffolding",
+      "name": "Scaffolding",
+      "diff": "E"
+     },
+     {
+      "id": "ar-3-building-construction-materi--formwork",
+      "name": "Formwork",
+      "diff": "E"
+     },
+     {
+      "id": "ar-3-building-construction-materi--timber-rcc-steel-frame-construction",
+      "name": "Timber/RCC/Steel frame construction",
+      "diff": "M"
+     },
+     {
+      "id": "ar-3-building-construction-materi--roof-and-roof-covering",
+      "name": "Roof and roof covering",
+      "diff": "M"
+     },
+     {
+      "id": "ar-3-building-construction-materi--lightweight-construction",
+      "name": "Lightweight construction",
+      "diff": "M"
+     },
+     {
+      "id": "ar-3-building-construction-materi--fire-protection",
+      "name": "Fire protection",
+      "diff": "E"
+     },
+     {
+      "id": "ar-3-building-construction-materi--flooring-systems",
+      "name": "Flooring systems",
+      "diff": "E"
+     },
+     {
+      "id": "ar-3-building-construction-materi--principles-of-modular-coordination",
+      "name": "Principles of Modular Coordination",
+      "diff": "M"
+     },
+     {
+      "id": "ar-3-building-construction-materi--prefabricated-construction",
+      "name": "Prefabricated construction",
+      "diff": "M"
+     },
+     {
+      "id": "ar-3-building-construction-materi--building-materials-characteristics-and-applications",
+      "name": "Building materials characteristics & applications",
+      "diff": "M"
+     },
+     {
+      "id": "ar-3-building-construction-materi--different-types-of-building-materials-for-walls",
+      "name": "Different types of building materials for walls",
+      "diff": "E"
+     },
+     {
+      "id": "ar-3-building-construction-materi--floor",
+      "name": "Floor",
+      "diff": "E"
+     },
+     {
+      "id": "ar-3-building-construction-materi--roof",
+      "name": "Roof",
+      "diff": "E"
+     },
+     {
+      "id": "ar-3-building-construction-materi--finishes",
+      "name": "Finishes",
+      "diff": "E"
+     },
+     {
+      "id": "ar-3-building-construction-materi--repair-and-retrofitting",
+      "name": "Repair and retrofitting",
+      "diff": "M"
+     },
+     {
+      "id": "ar-3-building-construction-materi--acoustic-and-insulation-materials",
+      "name": "Acoustic & insulation materials",
+      "diff": "M"
+     },
+     {
+      "id": "ar-3-building-construction-materi--damp-prevention",
+      "name": "Damp prevention",
+      "diff": "E"
+     },
+     {
+      "id": "ar-3-building-construction-materi--alternative-building-materials",
+      "name": "Alternative building materials",
+      "diff": "M"
+     },
+     {
+      "id": "ar-3-building-construction-materi--building-structural-systems",
+      "name": "Building structural systems",
+      "diff": "M"
+     },
+     {
+      "id": "ar-3-building-construction-materi--elastic-and-limit-state-design",
+      "name": "Elastic and Limit State design",
+      "diff": "M"
+     },
+     {
+      "id": "ar-3-building-construction-materi--structural-systems",
+      "name": "Structural systems",
+      "diff": "M"
+     },
+     {
+      "id": "ar-3-building-construction-materi--design-with-steel-and-rcc",
+      "name": "Design with steel and RCC",
+      "diff": "M"
+     },
+     {
+      "id": "ar-3-building-construction-materi--principles-of-prestressing",
+      "name": "Principles of Prestressing",
+      "diff": "M"
+     },
+     {
+      "id": "ar-3-building-construction-materi--high-rise-and-shell-structures",
+      "name": "High Rise and Shell structures",
+      "diff": "M"
+     },
+     {
+      "id": "ar-3-building-construction-materi--gravity-and-lateral-load-resisting-systems",
+      "name": "Gravity and lateral load resisting systems",
+      "diff": "M"
+     },
+     {
+      "id": "ar-3-building-construction-materi--space-frames",
+      "name": "Space frames",
+      "diff": "E"
+     },
+     {
+      "id": "ar-3-building-construction-materi--long-span-structures",
+      "name": "Long span structures",
+      "diff": "M"
+     },
+     {
+      "id": "ar-3-building-construction-materi--suspension-structures",
+      "name": "Suspension structures",
+      "diff": "M"
+     },
+     {
+      "id": "ar-3-building-construction-materi--catenary-structures",
+      "name": "Catenary structures",
+      "diff": "M"
+     },
+     {
+      "id": "ar-3-building-construction-materi--wind-load-and-seismic-considerations-in-high-rise-structures",
+      "name": "Wind load & seismic considerations in high-rise structures",
+      "diff": "M"
+     },
+     {
+      "id": "ar-3-building-construction-materi--disaster-resistant-structures",
+      "name": "Disaster resistant structures",
+      "diff": "M"
+     },
+     {
+      "id": "ar-3-building-construction-materi--temporary-structures-for-rehabilitation",
+      "name": "Temporary structures for rehabilitation",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "ar-4-building-services",
+  "name": "4 Building Services",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "4 Building Services",
+    "topics": [
+     {
+      "id": "ar-4-building-services--natural-and-mechanical-ventilation",
+      "name": "Natural and mechanical ventilation",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "ar-4-building-services--hvac-design-principles",
+      "name": "HVAC design principles",
+      "diff": "M"
+     },
+     {
+      "id": "ar-4-building-services--air-conditioning-systems",
+      "name": "Air-Conditioning systems",
+      "diff": "M"
+     },
+     {
+      "id": "ar-4-building-services--water-supply-and-distribution-system",
+      "name": "Water supply and distribution system",
+      "diff": "M"
+     },
+     {
+      "id": "ar-4-building-services--water-harvesting-systems",
+      "name": "Water harvesting systems",
+      "diff": "M"
+     },
+     {
+      "id": "ar-4-building-services--water-treatment-recycling-and-reuse",
+      "name": "Water treatment, recycling and reuse",
+      "diff": "M"
+     },
+     {
+      "id": "ar-4-building-services--storm-water-drainage",
+      "name": "Storm water drainage",
+      "diff": "M"
+     },
+     {
+      "id": "ar-4-building-services--sewage-and-waste-disposal",
+      "name": "Sewage and waste disposal",
+      "diff": "M"
+     },
+     {
+      "id": "ar-4-building-services--sanitary-fittings-and-fixtures",
+      "name": "Sanitary fittings and fixtures",
+      "diff": "M"
+     },
+     {
+      "id": "ar-4-building-services--plumbing-systems",
+      "name": "Plumbing systems",
+      "diff": "E"
+     },
+     {
+      "id": "ar-4-building-services--drainage-system",
+      "name": "Drainage system",
+      "diff": "E"
+     },
+     {
+      "id": "ar-4-building-services--principles-of-electrification-and-illumination-and-special-l",
+      "name": "Principles of electrification and illumination and special lighting for buildings",
+      "diff": "M"
+     },
+     {
+      "id": "ar-4-building-services--acoustics-in-buildings",
+      "name": "Acoustics in buildings",
+      "diff": "M"
+     },
+     {
+      "id": "ar-4-building-services--vertical-transport-systems-standards-and-uses",
+      "name": "Vertical transport systems- standards and uses",
+      "diff": "M"
+     },
+     {
+      "id": "ar-4-building-services--building-automation-systems",
+      "name": "Building automation systems",
+      "diff": "M"
+     },
+     {
+      "id": "ar-4-building-services--firefighting-systems",
+      "name": "Firefighting Systems",
+      "diff": "M"
+     },
+     {
+      "id": "ar-4-building-services--building-safety-and-security-systems",
+      "name": "Building Safety and Security systems",
+      "diff": "M"
+     },
+     {
+      "id": "ar-4-building-services--building-management-systems",
+      "name": "Building Management Systems",
+      "diff": "M"
+     },
+     {
+      "id": "ar-4-building-services--services-for-specialised-buildings-like-hospitals",
+      "name": "Services for specialised buildings like Hospitals",
+      "diff": "M"
+     },
+     {
+      "id": "ar-4-building-services--indoor-sports-stadiums-and-high-rise-buildings",
+      "name": "Indoor Sports Stadiums & High-rise buildings",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "ar-5-computer-applications-in-arc",
+  "name": "5 Computer Applications in Architecture",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Overview",
+    "topics": [
+     {
+      "id": "ar-5-computer-applications-in-arc--fundamental-principles-of-computational-methods",
+      "name": "Fundamental principles of computational methods",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "ar-5-computer-applications-in-arc--logic-based-understanding-of-pattern-recognition",
+      "name": "Logic-based understanding of pattern recognition",
+      "diff": "M"
+     },
+     {
+      "id": "ar-5-computer-applications-in-arc--simulation",
+      "name": "Simulation",
+      "diff": "E"
+     },
+     {
+      "id": "ar-5-computer-applications-in-arc--data-analytics",
+      "name": "Data analytics",
+      "diff": "E"
+     },
+     {
+      "id": "ar-5-computer-applications-in-arc--computer-applications-in-building-design-and-performance-ana",
+      "name": "Computer applications in building design and performance analysis",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Architectural visualization",
+    "topics": [
+     {
+      "id": "ar-5-computer-applications-in-arc--3d-modelling-and-bim-rendering-virtual-reality-augmented-rea",
+      "name": "3d Modelling and BIM, Rendering, Virtual Reality, Augmented Reality",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "C",
+    "name": "Computational design",
+    "topics": [
+     {
+      "id": "ar-5-computer-applications-in-arc--parametric-design-shape-grammar-and-generative-design",
+      "name": "Parametric design, shape grammar and generative design",
+      "diff": "M"
+     },
+     {
+      "id": "ar-5-computer-applications-in-arc--visual-communication",
+      "name": "Visual communication",
+      "diff": "M"
+     },
+     {
+      "id": "ar-5-computer-applications-in-arc--user-interface-and-user-experience-design",
+      "name": "User Interface and User Experience Design",
+      "diff": "M"
+     },
+     {
+      "id": "ar-5-computer-applications-in-arc--digital-design-and-fabrication-methods-cnc-mining-and-3d-pri",
+      "name": "Digital design and fabrication methods: CNC mining and 3d printing",
+      "diff": "M"
+     },
+     {
+      "id": "ar-5-computer-applications-in-arc--artificial-intelligence-for-architecture",
+      "name": "Artificial Intelligence for architecture",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "ar-6-project-management-and-profe",
+  "name": "6 Project Management and Professional Practice",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "6 Project Management and Professional Practice",
+    "topics": [
+     {
+      "id": "ar-6-project-management-and-profe--construction-planning-and-equipment",
+      "name": "Construction planning and equipment",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "ar-6-project-management-and-profe--construction-project-management-techniques-e-g",
+      "name": "Construction project management techniques e.g",
+      "diff": "M"
+     },
+     {
+      "id": "ar-6-project-management-and-profe--pert-cpm",
+      "name": "PERT, CPM",
+      "diff": "E"
+     },
+     {
+      "id": "ar-6-project-management-and-profe--professional-practice-and-ethics",
+      "name": "Professional practice and ethics",
+      "diff": "M"
+     },
+     {
+      "id": "ar-6-project-management-and-profe--estimation-costing-and-specification",
+      "name": "Estimation, costing and specification",
+      "diff": "M"
+     },
+     {
+      "id": "ar-6-project-management-and-profe--tendering",
+      "name": "Tendering",
+      "diff": "E"
+     },
+     {
+      "id": "ar-6-project-management-and-profe--arbitration",
+      "name": "Arbitration",
+      "diff": "E"
+     },
+     {
+      "id": "ar-6-project-management-and-profe--role-of-council-of-architecture",
+      "name": "Role of Council of Architecture",
+      "diff": "M"
+     },
+     {
+      "id": "ar-6-project-management-and-profe--architecture-journalism",
+      "name": "Architecture journalism",
+      "diff": "M"
+     },
+     {
+      "id": "ar-6-project-management-and-profe--industrial-architecture",
+      "name": "Industrial architecture",
+      "diff": "M"
+     },
+     {
+      "id": "ar-6-project-management-and-profe--human-sociology",
+      "name": "Human Sociology",
+      "diff": "E"
+     },
+     {
+      "id": "ar-6-project-management-and-profe--building-economics",
+      "name": "Building Economics",
+      "diff": "M"
+     },
+     {
+      "id": "ar-6-project-management-and-profe--interior-design",
+      "name": "Interior design",
+      "diff": "E"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "ar-1-planning-history-theory-and-",
+  "name": "1 Planning History, Theory and Techniques",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Overview",
+    "topics": [
+     {
+      "id": "ar-1-planning-history-theory-and---origins-of-the-city",
+      "name": "Origins of the city",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "ar-1-planning-history-theory-and---pre-industrial-cities",
+      "name": "Pre-industrial cities",
+      "diff": "M"
+     },
+     {
+      "id": "ar-1-planning-history-theory-and---post-industrial-cities",
+      "name": "Post-industrial cities",
+      "diff": "M"
+     },
+     {
+      "id": "ar-1-planning-history-theory-and---garden-city-city-beautiful-broadacre-radial-city-linear-city",
+      "name": "Garden City, City Beautiful, Broadacre, Radial City, Linear City",
+      "diff": "M"
+     },
+     {
+      "id": "ar-1-planning-history-theory-and---concepts-and-theories-of-urban-planning",
+      "name": "Concepts and theories of urban planning",
+      "diff": "M"
+     },
+     {
+      "id": "ar-1-planning-history-theory-and---ekistics",
+      "name": "Ekistics",
+      "diff": "E"
+     },
+     {
+      "id": "ar-1-planning-history-theory-and---urban-sociology",
+      "name": "Urban sociology",
+      "diff": "E"
+     },
+     {
+      "id": "ar-1-planning-history-theory-and---theories-of-urban-geography",
+      "name": "Theories of urban geography",
+      "diff": "M"
+     },
+     {
+      "id": "ar-1-planning-history-theory-and---regional-delineation",
+      "name": "Regional delineation",
+      "diff": "M"
+     },
+     {
+      "id": "ar-1-planning-history-theory-and---settlement-hierarchy",
+      "name": "Settlement hierarchy",
+      "diff": "M"
+     },
+     {
+      "id": "ar-1-planning-history-theory-and---urban-growth-models",
+      "name": "Urban growth models",
+      "diff": "M"
+     },
+     {
+      "id": "ar-1-planning-history-theory-and---industrial-location-theories",
+      "name": "Industrial location theories",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Contemporary planning ideas and trends",
+    "topics": [
+     {
+      "id": "ar-1-planning-history-theory-and---eco-city-smart-city",
+      "name": "Eco­ City, Smart City",
+      "diff": "M"
+     },
+     {
+      "id": "ar-1-planning-history-theory-and---network-cities-global-cities-etc",
+      "name": "Network Cities, Global Cities etc",
+      "diff": "M"
+     },
+     {
+      "id": "ar-1-planning-history-theory-and---global-north-and-south-perspectives",
+      "name": "Global North and South perspectives",
+      "diff": "M"
+     },
+     {
+      "id": "ar-1-planning-history-theory-and---land-use-and-land-cover-classification",
+      "name": "Land use and land cover classification",
+      "diff": "E"
+     },
+     {
+      "id": "ar-1-planning-history-theory-and---types-tools-and-techniques-of-surveys",
+      "name": "Types, tools, and techniques of surveys",
+      "diff": "M"
+     },
+     {
+      "id": "ar-1-planning-history-theory-and---sampling-techniques",
+      "name": "Sampling techniques",
+      "diff": "M"
+     },
+     {
+      "id": "ar-1-planning-history-theory-and---demography-definition-and-variables",
+      "name": "Demography - definition and variables",
+      "diff": "E"
+     },
+     {
+      "id": "ar-1-planning-history-theory-and---techniques-of-population-projections",
+      "name": "Techniques of population projections",
+      "diff": "M"
+     },
+     {
+      "id": "ar-1-planning-history-theory-and---estimation-and-forecasting-techniques-in-planning",
+      "name": "Estimation and forecasting techniques in planning",
+      "diff": "M"
+     },
+     {
+      "id": "ar-1-planning-history-theory-and---socio-economic-analysis",
+      "name": "Socio-economic analysis",
+      "diff": "M"
+     },
+     {
+      "id": "ar-1-planning-history-theory-and---goal-formulation-and-scenario-analysis",
+      "name": "Goal formulation and scenario analysis",
+      "diff": "M"
+     },
+     {
+      "id": "ar-1-planning-history-theory-and---planning-indicators-norms-and-standards",
+      "name": "Planning indicators, norms, and standards",
+      "diff": "M"
+     },
+     {
+      "id": "ar-1-planning-history-theory-and---public-perception-and-user-behaviour",
+      "name": "Public perception and user behaviour",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "ar-2-planning-policy-and-practice",
+  "name": "2 Planning Policy and Practice",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "2 Planning Policy and Practice",
+    "topics": [
+     {
+      "id": "ar-2-planning-policy-and-practice--concepts-factors-and-trends-of-urbanization",
+      "name": "Concepts, factors and trends of urbanization",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "ar-2-planning-policy-and-practice--international-charters-and-mandates-for-planning",
+      "name": "International charters and mandates for planning",
+      "diff": "M"
+     },
+     {
+      "id": "ar-2-planning-policy-and-practice--constitutional-and-legal-provision-for-planning",
+      "name": "Constitutional and legal provision for planning",
+      "diff": "M"
+     },
+     {
+      "id": "ar-2-planning-policy-and-practice--planning-as-a-state-subject",
+      "name": "Planning as a state subject",
+      "diff": "M"
+     },
+     {
+      "id": "ar-2-planning-policy-and-practice--policies-and-programs-for-planning-in-india",
+      "name": "Policies and programs for planning in India",
+      "diff": "M"
+     },
+     {
+      "id": "ar-2-planning-policy-and-practice--types-and-hierarchy-of-plans",
+      "name": "Types and hierarchy of plans",
+      "diff": "M"
+     },
+     {
+      "id": "ar-2-planning-policy-and-practice--development-norms-standards-and-guidelines-such-as-urdpfi",
+      "name": "Development norms, standards and guidelines such as URDPFI",
+      "diff": "M"
+     },
+     {
+      "id": "ar-2-planning-policy-and-practice--eminent-domain",
+      "name": "Eminent domain",
+      "diff": "E"
+     },
+     {
+      "id": "ar-2-planning-policy-and-practice--land-pooling-and-readjustment",
+      "name": "Land pooling and readjustment",
+      "diff": "M"
+     },
+     {
+      "id": "ar-2-planning-policy-and-practice--land-acquisition",
+      "name": "Land acquisition",
+      "diff": "E"
+     },
+     {
+      "id": "ar-2-planning-policy-and-practice--laws-governing-land",
+      "name": "Laws governing land",
+      "diff": "M"
+     },
+     {
+      "id": "ar-2-planning-policy-and-practice--institutions-of-urban-governance",
+      "name": "Institutions of urban governance",
+      "diff": "M"
+     },
+     {
+      "id": "ar-2-planning-policy-and-practice--composition-and-functions-of-local-self-governments-and-stat",
+      "name": "Composition and functions of local self-governments and statutory institutions",
+      "diff": "M"
+     },
+     {
+      "id": "ar-2-planning-policy-and-practice--urban-reforms-and-good-governance",
+      "name": "Urban reforms and good governance",
+      "diff": "M"
+     },
+     {
+      "id": "ar-2-planning-policy-and-practice--participatory-planning-and-use-of-technology",
+      "name": "Participatory planning and use of technology",
+      "diff": "M"
+     },
+     {
+      "id": "ar-2-planning-policy-and-practice--municipal-information-systems",
+      "name": "Municipal information systems",
+      "diff": "M"
+     },
+     {
+      "id": "ar-2-planning-policy-and-practice--land-information-systems",
+      "name": "Land information systems",
+      "diff": "M"
+     },
+     {
+      "id": "ar-2-planning-policy-and-practice--cadastral-systems",
+      "name": "Cadastral systems",
+      "diff": "E"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "ar-3-infrastructure-services-and-",
+  "name": "3 Infrastructure, Services and Utilities",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Overview",
+    "topics": [
+     {
+      "id": "ar-3-infrastructure-services-and---water-supply-demand",
+      "name": "Water supply demand",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "ar-3-infrastructure-services-and---sources-of-water-and-intakes",
+      "name": "Sources of water and intakes",
+      "diff": "M"
+     },
+     {
+      "id": "ar-3-infrastructure-services-and---groundwater-yield-and-recharge",
+      "name": "Groundwater yield and recharge",
+      "diff": "M"
+     },
+     {
+      "id": "ar-3-infrastructure-services-and---service-reservoir-and-pumps",
+      "name": "Service Reservoir and Pumps",
+      "diff": "M"
+     },
+     {
+      "id": "ar-3-infrastructure-services-and---water-distribution-system-layout-and-network-design",
+      "name": "Water distribution system layout and network design",
+      "diff": "M"
+     },
+     {
+      "id": "ar-3-infrastructure-services-and---water-treatment",
+      "name": "Water treatment",
+      "diff": "E"
+     },
+     {
+      "id": "ar-3-infrastructure-services-and---water-quality-and-testing",
+      "name": "Water quality and testing",
+      "diff": "M"
+     },
+     {
+      "id": "ar-3-infrastructure-services-and---water-sensitive-urban-planning",
+      "name": "Water sensitive urban planning",
+      "diff": "M"
+     },
+     {
+      "id": "ar-3-infrastructure-services-and---off-site-and-on-site-sanitation",
+      "name": "Off-site and on-site sanitation",
+      "diff": "M"
+     },
+     {
+      "id": "ar-3-infrastructure-services-and---decentralized-sewerage-system",
+      "name": "Decentralized sewerage system",
+      "diff": "M"
+     },
+     {
+      "id": "ar-3-infrastructure-services-and---water-carriage-systems",
+      "name": "Water carriage systems",
+      "diff": "M"
+     },
+     {
+      "id": "ar-3-infrastructure-services-and---sewage-quantity",
+      "name": "Sewage quantity",
+      "diff": "E"
+     },
+     {
+      "id": "ar-3-infrastructure-services-and---sewerage-layout-and-network-design",
+      "name": "Sewerage layout and network design",
+      "diff": "M"
+     },
+     {
+      "id": "ar-3-infrastructure-services-and---sewer-section-and-sewer-design",
+      "name": "Sewer section and sewer design",
+      "diff": "M"
+     },
+     {
+      "id": "ar-3-infrastructure-services-and---sewer-appurtenances",
+      "name": "Sewer appurtenances",
+      "diff": "M"
+     },
+     {
+      "id": "ar-3-infrastructure-services-and---waste-water-treatment",
+      "name": "Waste water treatment",
+      "diff": "M"
+     },
+     {
+      "id": "ar-3-infrastructure-services-and---sewage-disposal",
+      "name": "Sewage disposal",
+      "diff": "E"
+     },
+     {
+      "id": "ar-3-infrastructure-services-and---surface-water-runoff-estimate-discharge-from-streams-and-riv",
+      "name": "Surface water runoff estimate, Discharge from streams and rivers",
+      "diff": "M"
+     },
+     {
+      "id": "ar-3-infrastructure-services-and---flood-protection-measures",
+      "name": "Flood protection measures",
+      "diff": "M"
+     },
+     {
+      "id": "ar-3-infrastructure-services-and---layout-and-design-of-storm-water-drains",
+      "name": "Layout and design of storm water drains",
+      "diff": "M"
+     },
+     {
+      "id": "ar-3-infrastructure-services-and---rain-water-harvesting",
+      "name": "Rain water harvesting",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Solid waste management",
+    "topics": [
+     {
+      "id": "ar-3-infrastructure-services-and---collection-storage-transportation-and-disposal",
+      "name": "Collection, storage, transportation and disposal",
+      "diff": "M"
+     },
+     {
+      "id": "ar-3-infrastructure-services-and---waste-composition-and-characteristics",
+      "name": "Waste composition and characteristics",
+      "diff": "M"
+     },
+     {
+      "id": "ar-3-infrastructure-services-and---recycling-and-reuse-of-solid-waste",
+      "name": "Recycling and Reuse of solid waste",
+      "diff": "M"
+     },
+     {
+      "id": "ar-3-infrastructure-services-and---processing-and-treatment-of-solid-wastes",
+      "name": "Processing and treatment of solid wastes",
+      "diff": "M"
+     },
+     {
+      "id": "ar-3-infrastructure-services-and---area-requirements-and-location-choice-criteria-for-different",
+      "name": "Area requirements and location choice criteria for different facilities and infrastructure",
+      "diff": "M"
+     },
+     {
+      "id": "ar-3-infrastructure-services-and---standards-rules-and-codes",
+      "name": "Standards, rules and Codes",
+      "diff": "M"
+     },
+     {
+      "id": "ar-3-infrastructure-services-and---fundamentals-of-power-transmission-and-distribution",
+      "name": "Fundamentals of power transmission & distribution",
+      "diff": "M"
+     },
+     {
+      "id": "ar-3-infrastructure-services-and---transformers-feeders-substation",
+      "name": "Transformers, Feeders, Substation",
+      "diff": "H"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "ar-4-urban-land-use-and-transport",
+  "name": "4 Urban Land Use and Transportation",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "4 Urban Land Use and Transportation",
+    "topics": [
+     {
+      "id": "ar-4-urban-land-use-and-transport--land-use-transport-urban-form-interaction",
+      "name": "Land Use-Transport-Urban form interaction",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "ar-4-urban-land-use-and-transport--urban-structures-and-land-use-pattern",
+      "name": "Urban structures and land use pattern",
+      "diff": "M"
+     },
+     {
+      "id": "ar-4-urban-land-use-and-transport--economics-concepts-of-land-rent-land-use-and-land-values",
+      "name": "Economics concepts of land, rent, land use and land values",
+      "diff": "M"
+     },
+     {
+      "id": "ar-4-urban-land-use-and-transport--land-value-capture",
+      "name": "Land value capture",
+      "diff": "M"
+     },
+     {
+      "id": "ar-4-urban-land-use-and-transport--transit-oriented-development",
+      "name": "Transit Oriented Development",
+      "diff": "M"
+     },
+     {
+      "id": "ar-4-urban-land-use-and-transport--urban-regeneration-and-brown-field-redevelopment",
+      "name": "Urban regeneration and brown field redevelopment",
+      "diff": "M"
+     },
+     {
+      "id": "ar-4-urban-land-use-and-transport--real-estate-pricing",
+      "name": "Real estate pricing",
+      "diff": "M"
+     },
+     {
+      "id": "ar-4-urban-land-use-and-transport--accessibility-measures",
+      "name": "Accessibility measures",
+      "diff": "M"
+     },
+     {
+      "id": "ar-4-urban-land-use-and-transport--residence-and-employment-location-choice",
+      "name": "Residence and employment location choice",
+      "diff": "M"
+     },
+     {
+      "id": "ar-4-urban-land-use-and-transport--aggregate-and-disaggregate-transport-demand-models-and-forec",
+      "name": "Aggregate and disaggregate transport demand models and forecasting",
+      "diff": "M"
+     },
+     {
+      "id": "ar-4-urban-land-use-and-transport--traffic-and-travel-demand-management-and-control-in-urban-ar",
+      "name": "Traffic and travel demand management and control in urban areas",
+      "diff": "M"
+     },
+     {
+      "id": "ar-4-urban-land-use-and-transport--process-and-principles-of-traffic-engineering",
+      "name": "Process and principles of traffic engineering",
+      "diff": "M"
+     },
+     {
+      "id": "ar-4-urban-land-use-and-transport--design-of-roads-intersections-grade-separators-and-parking-a",
+      "name": "Design of roads, intersections, grade separators and parking areas",
+      "diff": "M"
+     },
+     {
+      "id": "ar-4-urban-land-use-and-transport--hierarchy-of-roads-and-level-of-service",
+      "name": "Hierarchy of roads and level of service",
+      "diff": "M"
+     },
+     {
+      "id": "ar-4-urban-land-use-and-transport--modes-of-transportation",
+      "name": "Modes of transportation",
+      "diff": "M"
+     },
+     {
+      "id": "ar-4-urban-land-use-and-transport--pedestrian-and-non-motorized-transport-planning",
+      "name": "Pedestrian and non-motorized transport planning",
+      "diff": "M"
+     },
+     {
+      "id": "ar-4-urban-land-use-and-transport--traffic-survey-methods-traffic-flow-analysis",
+      "name": "Traffic survey methods, Traffic flow Analysis",
+      "diff": "M"
+     },
+     {
+      "id": "ar-4-urban-land-use-and-transport--transport-infrastructure-and-allied-facilities-planning",
+      "name": "Transport infrastructure and allied facilities planning",
+      "diff": "M"
+     },
+     {
+      "id": "ar-4-urban-land-use-and-transport--intelligent-transportation-systems",
+      "name": "Intelligent transportation systems",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "ar-5-data-analysis-remote-sensing",
+  "name": "5 Data Analysis, Remote Sensing and Geo-informatics",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Overview",
+    "topics": [
+     {
+      "id": "ar-5-data-analysis-remote-sensing--types-of-data-and-sources-of-data-for-planning",
+      "name": "Types of data and sources of data for planning",
+      "diff": "E",
+      "sample": true
+     },
+     {
+      "id": "ar-5-data-analysis-remote-sensing--descriptive-statistics",
+      "name": "Descriptive statistics",
+      "diff": "M"
+     },
+     {
+      "id": "ar-5-data-analysis-remote-sensing--tests-of-normality",
+      "name": "Tests of normality",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Inferential statistics",
+    "topics": [
+     {
+      "id": "ar-5-data-analysis-remote-sensing--linear-and-multiple-regression",
+      "name": "Linear and multiple regression",
+      "diff": "M"
+     },
+     {
+      "id": "ar-5-data-analysis-remote-sensing--testing-of-hypothesis",
+      "name": "Testing of hypothesis",
+      "diff": "M"
+     },
+     {
+      "id": "ar-5-data-analysis-remote-sensing--testing-of-error",
+      "name": "Testing of error",
+      "diff": "E"
+     },
+     {
+      "id": "ar-5-data-analysis-remote-sensing--anova-etc",
+      "name": "ANOVA etc",
+      "diff": "E"
+     },
+     {
+      "id": "ar-5-data-analysis-remote-sensing--decision-problem-structuring-analytical-hierarchical-process",
+      "name": "Decision Problem Structuring: Analytical Hierarchical Process",
+      "diff": "M"
+     },
+     {
+      "id": "ar-5-data-analysis-remote-sensing--multi-criteria-analysis-etc",
+      "name": "Multi-Criteria Analysis etc",
+      "diff": "M"
+     },
+     {
+      "id": "ar-5-data-analysis-remote-sensing--basic-concepts-in-satellite-remote-sensing",
+      "name": "Basic concepts in satellite remote sensing",
+      "diff": "E"
+     },
+     {
+      "id": "ar-5-data-analysis-remote-sensing--satellites",
+      "name": "Satellites",
+      "diff": "E"
+     },
+     {
+      "id": "ar-5-data-analysis-remote-sensing--sensors",
+      "name": "Sensors",
+      "diff": "E"
+     },
+     {
+      "id": "ar-5-data-analysis-remote-sensing--coverage",
+      "name": "Coverage",
+      "diff": "E"
+     },
+     {
+      "id": "ar-5-data-analysis-remote-sensing--principles-of-digital-image-processing",
+      "name": "Principles of digital image processing",
+      "diff": "M"
+     },
+     {
+      "id": "ar-5-data-analysis-remote-sensing--satellite-data-products-and-their-use",
+      "name": "Satellite data products and their use",
+      "diff": "M"
+     },
+     {
+      "id": "ar-5-data-analysis-remote-sensing--aerial-photography",
+      "name": "Aerial photography",
+      "diff": "M"
+     },
+     {
+      "id": "ar-5-data-analysis-remote-sensing--principles-of-photogrammetry",
+      "name": "Principles of photogrammetry",
+      "diff": "M"
+     },
+     {
+      "id": "ar-5-data-analysis-remote-sensing--application-of-remote-sensing-in-urban-and-regional-studies",
+      "name": "Application of remote sensing in urban and regional studies",
+      "diff": "M"
+     },
+     {
+      "id": "ar-5-data-analysis-remote-sensing--g-l-s-applications-in-planning",
+      "name": "G.l.S applications in planning",
+      "diff": "M"
+     },
+     {
+      "id": "ar-5-data-analysis-remote-sensing--georeferencing",
+      "name": "Georeferencing",
+      "diff": "E"
+     },
+     {
+      "id": "ar-5-data-analysis-remote-sensing--storage-of-spatial-data",
+      "name": "Storage of spatial data",
+      "diff": "M"
+     },
+     {
+      "id": "ar-5-data-analysis-remote-sensing--processing-tools",
+      "name": "Processing tools",
+      "diff": "E"
+     },
+     {
+      "id": "ar-5-data-analysis-remote-sensing--2d-spatial-3d-elevation-and-4d-temporal-data-analysis-and-mo",
+      "name": "2d(spatial), 3d(elevation) and 4d(temporal) data analysis and modeling",
+      "diff": "M"
+     },
+     {
+      "id": "ar-5-data-analysis-remote-sensing--database-management-systems",
+      "name": "Database management systems",
+      "diff": "M"
+     },
+     {
+      "id": "ar-5-data-analysis-remote-sensing--structured-query-language",
+      "name": "Structured query Language",
+      "diff": "M"
+     },
+     {
+      "id": "ar-5-data-analysis-remote-sensing--spatial-queries",
+      "name": "Spatial queries",
+      "diff": "E"
+     },
+     {
+      "id": "ar-5-data-analysis-remote-sensing--application-of-machine-learning-in-urban-planning",
+      "name": "Application of Machine Learning in urban planning",
+      "diff": "M"
+     },
+     {
+      "id": "ar-5-data-analysis-remote-sensing--smart-city-lot-applications",
+      "name": "Smart city loT applications",
+      "diff": "M"
+     },
+     {
+      "id": "ar-5-data-analysis-remote-sensing--python-basics",
+      "name": "Python basics",
+      "diff": "E"
+     },
+     {
+      "id": "ar-5-data-analysis-remote-sensing--urban-analytics",
+      "name": "Urban Analytics",
+      "diff": "E"
+     },
+     {
+      "id": "ar-5-data-analysis-remote-sensing--spatial-data-infrastructure",
+      "name": "Spatial Data Infrastructure",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "ar-6-project-implementation-and-f",
+  "name": "6 Project Implementation and Financing",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "6 Project Implementation and Financing",
+    "topics": [
+     {
+      "id": "ar-6-project-implementation-and-f--reforms-in-municipal-finance",
+      "name": "Reforms in municipal finance",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "ar-6-project-implementation-and-f--municipal-tax-administration",
+      "name": "Municipal tax administration",
+      "diff": "M"
+     },
+     {
+      "id": "ar-6-project-implementation-and-f--municipal-budgeting",
+      "name": "Municipal budgeting",
+      "diff": "M"
+     },
+     {
+      "id": "ar-6-project-implementation-and-f--fiscal-indicators-for-finance",
+      "name": "Fiscal indicators for finance",
+      "diff": "M"
+     },
+     {
+      "id": "ar-6-project-implementation-and-f--municipal-bonds-debentures",
+      "name": "Municipal bonds/debentures",
+      "diff": "M"
+     },
+     {
+      "id": "ar-6-project-implementation-and-f--loans-and-credit-rating",
+      "name": "Loans and credit rating",
+      "diff": "M"
+     },
+     {
+      "id": "ar-6-project-implementation-and-f--recovery-mechanisms-and-pricing-of-services-and-infrastructu",
+      "name": "Recovery mechanisms and pricing of services and infrastructure",
+      "diff": "M"
+     },
+     {
+      "id": "ar-6-project-implementation-and-f--partnership-approaches-and-types-of-contracts",
+      "name": "Partnership approaches and types of contracts",
+      "diff": "E"
+     },
+     {
+      "id": "ar-6-project-implementation-and-f--financial-viability-and-costbenefit-analysis",
+      "name": "Financial Viability & costbenefit analysis",
+      "diff": "M"
+     },
+     {
+      "id": "ar-6-project-implementation-and-f--project-implementation-monitoring-and-evaluation",
+      "name": "Project implementation, monitoring and evaluation",
+      "diff": "M"
+     },
+     {
+      "id": "ar-6-project-implementation-and-f--asset-management",
+      "name": "Asset management",
+      "diff": "E"
+     },
+     {
+      "id": "ar-6-project-implementation-and-f--operation-and-maintenance",
+      "name": "Operation and maintenance",
+      "diff": "M"
+     },
+     {
+      "id": "ar-6-project-implementation-and-f--institutional-organizational-structures-and-capacity-buildin",
+      "name": "Institutional organizational structures and capacity building",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ }
+]

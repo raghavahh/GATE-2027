@@ -1,16 +1,5 @@
-import type { CatModule, CatSubject, CatTopic, Diff } from './types';
-
-const slug = (s: string) =>
-  s.toLowerCase().replace(/&/g, 'and').replace(/['’]/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
-
-const T = (name: string, diff: Diff, lesson?: string): CatTopic => ({ id: slug(name), name, diff, lesson });
-const M = (letter: string, name: string, topics: CatTopic[]): CatModule => ({ letter, name, topics });
-const S = (id: string, name: string, marks: string, focus: string, modules: CatModule[]): CatSubject => {
-  const first = modules[0]?.topics[0];
-  if (first) first.sample = true;
-  modules.forEach(m => m.topics.forEach(t => (t.id = `${id}--${t.id}`)));
-  return { id, name, marks, focus, modules };
-};
+import type { CatSubject } from './types';
+import { M, S, T } from './builder';
 
 /** GATE CS syllabus as an A–Z sheet. "marks" are typical recent ranges, for prioritising. */
 export const CS_SUBJECTS: CatSubject[] = [

@@ -1,0 +1,1320 @@
+[
+ {
+  "id": "ag-engineering-mathematics",
+  "name": "Engineering Mathematics",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Linear Algebra",
+    "topics": [
+     {
+      "id": "ag-engineering-mathematics--matrices-and-determinants",
+      "name": "Matrices and determinants",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "ag-engineering-mathematics--linear-and-orthogonal-transformations",
+      "name": "Linear and orthogonal transformations",
+      "diff": "H"
+     },
+     {
+      "id": "ag-engineering-mathematics--caley-hamilton-theorem",
+      "name": "Caley Hamilton theorem",
+      "diff": "M"
+     },
+     {
+      "id": "ag-engineering-mathematics--eigen-values-and-eigen-vectors-solutions-of-linear-equations",
+      "name": "Eigen values and Eigen vectors, solutions of linear equations",
+      "diff": "H"
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Calculus",
+    "topics": [
+     {
+      "id": "ag-engineering-mathematics--limit-continuity-and-differentiability",
+      "name": "Limit, continuity and differentiability",
+      "diff": "M"
+     },
+     {
+      "id": "ag-engineering-mathematics--partial-derivatives",
+      "name": "Partial derivatives",
+      "diff": "M"
+     },
+     {
+      "id": "ag-engineering-mathematics--homogeneous-function-eulers-theorem-on-homogeneous-functions",
+      "name": "Homogeneous function - Euler’s theorem on homogeneous functions",
+      "diff": "M"
+     },
+     {
+      "id": "ag-engineering-mathematics--total-differentiation",
+      "name": "Total differentiation",
+      "diff": "M"
+     },
+     {
+      "id": "ag-engineering-mathematics--maxima-and-minima-of-function-with-several-independent-varia",
+      "name": "Maxima and minima of function with several independent variables",
+      "diff": "M"
+     },
+     {
+      "id": "ag-engineering-mathematics--sequences-and-series-infinite-series-tests-for-convergence",
+      "name": "Sequences and series - infinite series, tests for convergence",
+      "diff": "M"
+     },
+     {
+      "id": "ag-engineering-mathematics--fourier-taylor-and-maclaurin-series",
+      "name": "Fourier, Taylor and MacLaurin series",
+      "diff": "H"
+     }
+    ]
+   },
+   {
+    "letter": "C",
+    "name": "Vector Calculus",
+    "topics": [
+     {
+      "id": "ag-engineering-mathematics--vector-differentiation",
+      "name": "Vector differentiation",
+      "diff": "M"
+     },
+     {
+      "id": "ag-engineering-mathematics--scalar-and-vector-point-functions",
+      "name": "Scalar and vector point functions",
+      "diff": "M"
+     },
+     {
+      "id": "ag-engineering-mathematics--vector-differential-operators-del",
+      "name": "Vector differential operators - del",
+      "diff": "M"
+     },
+     {
+      "id": "ag-engineering-mathematics--gradient",
+      "name": "Gradient",
+      "diff": "E"
+     },
+     {
+      "id": "ag-engineering-mathematics--divergence-and-curl",
+      "name": "Divergence and curl",
+      "diff": "M"
+     },
+     {
+      "id": "ag-engineering-mathematics--physical-interpretations-line-surface-and-volume-integrals",
+      "name": "Physical interpretations-line, surface and volume integrals",
+      "diff": "M"
+     },
+     {
+      "id": "ag-engineering-mathematics--stokes-gauss-and-greens-theorems",
+      "name": "Stokes, Gauss and Green’s theorems",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "D",
+    "name": "Differential Equations",
+    "topics": [
+     {
+      "id": "ag-engineering-mathematics--linear-and-non-linear-first-order-ordinary-differential-equa",
+      "name": "Linear and non -linear first order Ordinary Differential Equations (ODE)",
+      "diff": "M"
+     },
+     {
+      "id": "ag-engineering-mathematics--homogeneous-differential-equations",
+      "name": "Homogeneous differential equations",
+      "diff": "M"
+     },
+     {
+      "id": "ag-engineering-mathematics--higher-order-linear-odes-with-constant-coefficients",
+      "name": "Higher order linear ODEs with constant coefficients",
+      "diff": "M"
+     },
+     {
+      "id": "ag-engineering-mathematics--laplace-transforms-and-their-inverse",
+      "name": "Laplace transforms and their inverse",
+      "diff": "H"
+     },
+     {
+      "id": "ag-engineering-mathematics--partial-differential-equations-laplace-heat-and-wave-equatio",
+      "name": "Partial Differential Equations - Laplace, heat and wave equations",
+      "diff": "H"
+     }
+    ]
+   },
+   {
+    "letter": "E",
+    "name": "Probability and Statistics",
+    "topics": [
+     {
+      "id": "ag-engineering-mathematics--mean-median-mode-and-standard-deviation",
+      "name": "Mean, median, mode and standard deviation",
+      "diff": "M"
+     },
+     {
+      "id": "ag-engineering-mathematics--random-variables",
+      "name": "Random variables",
+      "diff": "E"
+     },
+     {
+      "id": "ag-engineering-mathematics--poisson-normal-and-binomial-distributions",
+      "name": "Poisson, normal and binomial distributions",
+      "diff": "M"
+     },
+     {
+      "id": "ag-engineering-mathematics--correlation-and-regression-analysis",
+      "name": "Correlation and regression analysis",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "F",
+    "name": "Numerical Methods",
+    "topics": [
+     {
+      "id": "ag-engineering-mathematics--solutions-of-linear-and-non-linear-algebraic-equations",
+      "name": "Solutions of linear and non-linear algebraic equations",
+      "diff": "M"
+     },
+     {
+      "id": "ag-engineering-mathematics--numerical-integration-trapezoidal-and-simpsons-rule",
+      "name": "Numerical integration - trapezoidal and Simpson’s rule",
+      "diff": "M"
+     },
+     {
+      "id": "ag-engineering-mathematics--numerical-solutions-of-odes",
+      "name": "Numerical solutions of ODEs",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "ag-farm-machinery",
+  "name": "Farm Machinery",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Machine Design",
+    "topics": [
+     {
+      "id": "ag-farm-machinery--design-and-selection-of-machine-elements-gears",
+      "name": "Design and selection of machine elements - gears",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "ag-farm-machinery--pulleys",
+      "name": "Pulleys",
+      "diff": "E"
+     },
+     {
+      "id": "ag-farm-machinery--chains-and-sprockets-and-belts",
+      "name": "Chains and sprockets and belts",
+      "diff": "M"
+     },
+     {
+      "id": "ag-farm-machinery--overload-safety-devices-used-in-farm-machinery",
+      "name": "Overload safety devices used in farm machinery",
+      "diff": "M"
+     },
+     {
+      "id": "ag-farm-machinery--measurement-of-force",
+      "name": "Measurement of force",
+      "diff": "M"
+     },
+     {
+      "id": "ag-farm-machinery--stress",
+      "name": "Stress",
+      "diff": "E"
+     },
+     {
+      "id": "ag-farm-machinery--torque",
+      "name": "Torque",
+      "diff": "E"
+     },
+     {
+      "id": "ag-farm-machinery--speed",
+      "name": "Speed",
+      "diff": "E"
+     },
+     {
+      "id": "ag-farm-machinery--displacement-and-acceleration-on-machine-elements-shafts",
+      "name": "Displacement and acceleration on machine elements - shafts",
+      "diff": "M"
+     },
+     {
+      "id": "ag-farm-machinery--couplings",
+      "name": "Couplings",
+      "diff": "E"
+     },
+     {
+      "id": "ag-farm-machinery--keys",
+      "name": "Keys",
+      "diff": "E"
+     },
+     {
+      "id": "ag-farm-machinery--bearings-and-knuckle-joints",
+      "name": "Bearings and knuckle joints",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Farm Machinery",
+    "topics": [
+     {
+      "id": "ag-farm-machinery--soil-tillage",
+      "name": "Soil tillage",
+      "diff": "E"
+     },
+     {
+      "id": "ag-farm-machinery--forces-acting-on-a-tillage-tool",
+      "name": "Forces acting on a tillage tool",
+      "diff": "M"
+     },
+     {
+      "id": "ag-farm-machinery--hitch-systems-and-hitching-of-tillage-implements",
+      "name": "Hitch systems and hitching of tillage implements",
+      "diff": "M"
+     },
+     {
+      "id": "ag-farm-machinery--functional-requirements",
+      "name": "Functional requirements",
+      "diff": "M"
+     },
+     {
+      "id": "ag-farm-machinery--principles-of-working",
+      "name": "Principles of working",
+      "diff": "M"
+     },
+     {
+      "id": "ag-farm-machinery--construction-and-operation-of-manual",
+      "name": "Construction and operation of manual",
+      "diff": "M"
+     },
+     {
+      "id": "ag-farm-machinery--animal",
+      "name": "Animal",
+      "diff": "E"
+     },
+     {
+      "id": "ag-farm-machinery--tractor-and-renewable-energy-operated-equipment-for-tillage",
+      "name": "Tractor and renewable energy operated equipment for tillage",
+      "diff": "M"
+     },
+     {
+      "id": "ag-farm-machinery--sowing",
+      "name": "Sowing",
+      "diff": "E"
+     },
+     {
+      "id": "ag-farm-machinery--planting",
+      "name": "Planting",
+      "diff": "E"
+     },
+     {
+      "id": "ag-farm-machinery--fertilizer-application",
+      "name": "Fertilizer application",
+      "diff": "M"
+     },
+     {
+      "id": "ag-farm-machinery--inter-cultivation",
+      "name": "Inter -cultivation",
+      "diff": "M"
+     },
+     {
+      "id": "ag-farm-machinery--spraying",
+      "name": "Spraying",
+      "diff": "E"
+     },
+     {
+      "id": "ag-farm-machinery--mowing",
+      "name": "Mowing",
+      "diff": "E"
+     },
+     {
+      "id": "ag-farm-machinery--chaff-cutting",
+      "name": "Chaff cutting",
+      "diff": "E"
+     },
+     {
+      "id": "ag-farm-machinery--harvesting-and-threshing",
+      "name": "Harvesting and threshing",
+      "diff": "M"
+     },
+     {
+      "id": "ag-farm-machinery--calculation-of-performance-parameters-field-capacity",
+      "name": "Calculation of performance parameters - field capacity",
+      "diff": "M"
+     },
+     {
+      "id": "ag-farm-machinery--efficiency",
+      "name": "Efficiency",
+      "diff": "E"
+     },
+     {
+      "id": "ag-farm-machinery--performance-index",
+      "name": "Performance index",
+      "diff": "E"
+     },
+     {
+      "id": "ag-farm-machinery--application-rate-and-losses",
+      "name": "Application rate and losses",
+      "diff": "M"
+     },
+     {
+      "id": "ag-farm-machinery--cost-analysis-of-implements-and-tractors",
+      "name": "Cost analysis of implements and tractors",
+      "diff": "M"
+     },
+     {
+      "id": "ag-farm-machinery--equipment-for-precision-agriculture",
+      "name": "Equipment for precision agriculture",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "ag-farm-power",
+  "name": "Farm Power",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Sources of Power",
+    "topics": [
+     {
+      "id": "ag-farm-power--sources-of-power-on-the-farm-human",
+      "name": "Sources of power on the farm — human",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "ag-farm-power--animal",
+      "name": "Animal",
+      "diff": "E"
+     },
+     {
+      "id": "ag-farm-power--mechanical",
+      "name": "Mechanical",
+      "diff": "E"
+     },
+     {
+      "id": "ag-farm-power--electrical",
+      "name": "Electrical",
+      "diff": "E"
+     },
+     {
+      "id": "ag-farm-power--wind",
+      "name": "Wind",
+      "diff": "E"
+     },
+     {
+      "id": "ag-farm-power--solar-and-biomass",
+      "name": "Solar and biomass",
+      "diff": "E"
+     },
+     {
+      "id": "ag-farm-power--bio-fuels-and-their-use-in-farm-mechanization",
+      "name": "Bio-fuels and their use in farm mechanization",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Farm Power",
+    "topics": [
+     {
+      "id": "ag-farm-power--thermodynamic-principles-of-i-c-engines",
+      "name": "Thermodynamic principles of I.C. engines",
+      "diff": "H"
+     },
+     {
+      "id": "ag-farm-power--i-c-engine-cycles",
+      "name": "I.C. engine cycles",
+      "diff": "M"
+     },
+     {
+      "id": "ag-farm-power--engine-components",
+      "name": "Engine components",
+      "diff": "E"
+     },
+     {
+      "id": "ag-farm-power--fuels-and-combustion",
+      "name": "Fuels and combustion",
+      "diff": "M"
+     },
+     {
+      "id": "ag-farm-power--lubricants-and-their-properties",
+      "name": "Lubricants and their properties",
+      "diff": "M"
+     },
+     {
+      "id": "ag-farm-power--i-c-engine-systems-fuel",
+      "name": "I.C. engine systems - fuel",
+      "diff": "M"
+     },
+     {
+      "id": "ag-farm-power--cooling",
+      "name": "Cooling",
+      "diff": "E"
+     },
+     {
+      "id": "ag-farm-power--lubrication",
+      "name": "Lubrication",
+      "diff": "E"
+     },
+     {
+      "id": "ag-farm-power--ignition",
+      "name": "Ignition",
+      "diff": "E"
+     },
+     {
+      "id": "ag-farm-power--electrical",
+      "name": "Electrical",
+      "diff": "E"
+     },
+     {
+      "id": "ag-farm-power--intake-and-exhaust",
+      "name": "Intake and exhaust",
+      "diff": "M"
+     },
+     {
+      "id": "ag-farm-power--selection-operation-maintenance-and-repair-of-i-c-engines",
+      "name": "Selection, operation, maintenance and repair of I.C. engines",
+      "diff": "M"
+     },
+     {
+      "id": "ag-farm-power--power-efficiencies-and-measurement-engine-performance-curves",
+      "name": "Power efficiencies and measurement, engine performance curves",
+      "diff": "M"
+     },
+     {
+      "id": "ag-farm-power--calculation-of-power",
+      "name": "Calculation of power",
+      "diff": "M"
+     },
+     {
+      "id": "ag-farm-power--torque",
+      "name": "Torque",
+      "diff": "E"
+     },
+     {
+      "id": "ag-farm-power--fuel-consumption",
+      "name": "Fuel consumption",
+      "diff": "E"
+     },
+     {
+      "id": "ag-farm-power--heat-load-and-power-losses",
+      "name": "Heat load and power losses",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "C",
+    "name": "Tractors and Power tillers",
+    "topics": [
+     {
+      "id": "ag-farm-power--type-selection-maintenance-and-repair-of-tractors-and-power-",
+      "name": "Type, selection, maintenance and repair of tractors and power tillers",
+      "diff": "M"
+     },
+     {
+      "id": "ag-farm-power--tractor-clutches-and-brakes",
+      "name": "Tractor clutches and brakes",
+      "diff": "M"
+     },
+     {
+      "id": "ag-farm-power--power-transmission-systems-gear-trains",
+      "name": "Power transmission systems - gear trains",
+      "diff": "M"
+     },
+     {
+      "id": "ag-farm-power--differential",
+      "name": "Differential",
+      "diff": "E"
+     },
+     {
+      "id": "ag-farm-power--final-drives-and-power-take-off",
+      "name": "Final drives and power take -off",
+      "diff": "M"
+     },
+     {
+      "id": "ag-farm-power--mechanics-of-tractor-chassis",
+      "name": "Mechanics of tractor chassis",
+      "diff": "M"
+     },
+     {
+      "id": "ag-farm-power--traction-theory",
+      "name": "Traction theory",
+      "diff": "E"
+     },
+     {
+      "id": "ag-farm-power--three-point-hitches-free-link-and-restrained-link-operations",
+      "name": "Three point hitches - free link and restrained link operations",
+      "diff": "M"
+     },
+     {
+      "id": "ag-farm-power--steering-and-hydraulic-control-systems-used-in-tractors",
+      "name": "Steering and hydraulic control systems used in tractors",
+      "diff": "M"
+     },
+     {
+      "id": "ag-farm-power--tractor-tests-and-performance",
+      "name": "Tractor tests and performance",
+      "diff": "M"
+     },
+     {
+      "id": "ag-farm-power--human-engineering-and-safety-considerations-in-design-of-tra",
+      "name": "Human engineering and safety considerations in design of tractor and agricultural implements",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "ag-soil-and-water-conservation-en",
+  "name": "Soil and Water Conservation Engineering",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Fluid Mechanics",
+    "topics": [
+     {
+      "id": "ag-soil-and-water-conservation-en--ideal-and-real-fluids-properties-of-fluids",
+      "name": "Ideal and real fluids, properties of fluids",
+      "diff": "E",
+      "sample": true
+     },
+     {
+      "id": "ag-soil-and-water-conservation-en--hydrostatic-pressure-and-its-measurement",
+      "name": "Hydrostatic pressure and its measurement",
+      "diff": "M"
+     },
+     {
+      "id": "ag-soil-and-water-conservation-en--continuity-equation-kinematics-and-dynamics-of-flow",
+      "name": "Continuity equation, kinematics and dynamics of flow",
+      "diff": "M"
+     },
+     {
+      "id": "ag-soil-and-water-conservation-en--bernoullis-theorem",
+      "name": "Bernoulli’s theorem",
+      "diff": "M"
+     },
+     {
+      "id": "ag-soil-and-water-conservation-en--laminar-and-turbulent-flow-in-pipes",
+      "name": "Laminar and turbulent flow in pipes",
+      "diff": "M"
+     },
+     {
+      "id": "ag-soil-and-water-conservation-en--darcy-weisbach-and-hazen-williams-equations",
+      "name": "Darcy- Weisbach and Hazen -Williams equations",
+      "diff": "M"
+     },
+     {
+      "id": "ag-soil-and-water-conservation-en--flow-through-orifices-weirs-and-notches",
+      "name": "Flow through orifices, weirs and notches",
+      "diff": "M"
+     },
+     {
+      "id": "ag-soil-and-water-conservation-en--flow-in-open-channels",
+      "name": "Flow in open channels",
+      "diff": "M"
+     },
+     {
+      "id": "ag-soil-and-water-conservation-en--dimensional-analysis-concepts-of-geometric-dimensionless-num",
+      "name": "Dimensional analysis - concepts of geometric dimensionless numbers",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Soil Mechanics",
+    "topics": [
+     {
+      "id": "ag-soil-and-water-conservation-en--engineering-properties-of-soils",
+      "name": "Engineering properties of soils",
+      "diff": "E"
+     },
+     {
+      "id": "ag-soil-and-water-conservation-en--fundamental-definitions-and-relationships",
+      "name": "Fundamental definitions and relationships",
+      "diff": "M"
+     },
+     {
+      "id": "ag-soil-and-water-conservation-en--index-properties-of-soils",
+      "name": "Index properties of soils",
+      "diff": "E"
+     },
+     {
+      "id": "ag-soil-and-water-conservation-en--permeability-and-seepage-analysis",
+      "name": "Permeability and seepage analysis",
+      "diff": "M"
+     },
+     {
+      "id": "ag-soil-and-water-conservation-en--shear-strength",
+      "name": "Shear strength",
+      "diff": "E"
+     },
+     {
+      "id": "ag-soil-and-water-conservation-en--soil-compaction-and-proctor-test",
+      "name": "Soil compaction and Proctor test",
+      "diff": "M"
+     },
+     {
+      "id": "ag-soil-and-water-conservation-en--mohrs-circle-of-stress",
+      "name": "Mohr’s circle of stress",
+      "diff": "M"
+     },
+     {
+      "id": "ag-soil-and-water-conservation-en--active-and-passive-earth-pressures",
+      "name": "Active and passive earth pressures",
+      "diff": "M"
+     },
+     {
+      "id": "ag-soil-and-water-conservation-en--stability-of-slopes",
+      "name": "Stability of slopes",
+      "diff": "H"
+     },
+     {
+      "id": "ag-soil-and-water-conservation-en--terzaghis-one-dimensional-soil-consolidation-theory",
+      "name": "Terzaghi’s one dimensional soil consolidation theory",
+      "diff": "H"
+     }
+    ]
+   },
+   {
+    "letter": "C",
+    "name": "Hydrology",
+    "topics": [
+     {
+      "id": "ag-soil-and-water-conservation-en--hydrological-cycle-and-measurement-of-its-components",
+      "name": "Hydrological cycle and measurement of its components",
+      "diff": "M"
+     },
+     {
+      "id": "ag-soil-and-water-conservation-en--meteorological-parameters-and-their-measurement",
+      "name": "Meteorological parameters and their measurement",
+      "diff": "M"
+     },
+     {
+      "id": "ag-soil-and-water-conservation-en--analysis-of-precipitation-data",
+      "name": "Analysis of precipitation data",
+      "diff": "M"
+     },
+     {
+      "id": "ag-soil-and-water-conservation-en--runoff-estimation",
+      "name": "Runoff estimation",
+      "diff": "E"
+     },
+     {
+      "id": "ag-soil-and-water-conservation-en--hydrograph-analysis-unit-hydrograph-theory-and-application",
+      "name": "Hydrograph analysis, unit hydrograph theory and application",
+      "diff": "E"
+     },
+     {
+      "id": "ag-soil-and-water-conservation-en--stream-flow-measurement",
+      "name": "Stream flow measurement",
+      "diff": "M"
+     },
+     {
+      "id": "ag-soil-and-water-conservation-en--flood-routing",
+      "name": "Flood routing",
+      "diff": "E"
+     },
+     {
+      "id": "ag-soil-and-water-conservation-en--hydrological-reservoir-and-channel-routing",
+      "name": "Hydrological reservoir and channel routing",
+      "diff": "M"
+     },
+     {
+      "id": "ag-soil-and-water-conservation-en--infiltration-indices-and-equations",
+      "name": "Infiltration - indices and equations",
+      "diff": "M"
+     },
+     {
+      "id": "ag-soil-and-water-conservation-en--drought-and-its-classification",
+      "name": "Drought and its classification",
+      "diff": "E"
+     }
+    ]
+   },
+   {
+    "letter": "D",
+    "name": "Surveying and Leveling",
+    "topics": [
+     {
+      "id": "ag-soil-and-water-conservation-en--measurement-of-distance-and-area",
+      "name": "Measurement of distance and area",
+      "diff": "M"
+     },
+     {
+      "id": "ag-soil-and-water-conservation-en--instruments-for-surveying-and-levelling",
+      "name": "Instruments for surveying and levelling",
+      "diff": "M"
+     },
+     {
+      "id": "ag-soil-and-water-conservation-en--chain-surveying-methods-of-traversing",
+      "name": "Chain surveying, methods of traversing",
+      "diff": "M"
+     },
+     {
+      "id": "ag-soil-and-water-conservation-en--measurement-of-angles-and-bearings-plane-table-surveying",
+      "name": "Measurement of angles and bearings, plane table surveying",
+      "diff": "M"
+     },
+     {
+      "id": "ag-soil-and-water-conservation-en--types-of-levelling",
+      "name": "Types of levelling",
+      "diff": "E"
+     },
+     {
+      "id": "ag-soil-and-water-conservation-en--the-theodolite-traversing",
+      "name": "The Theodolite traversing",
+      "diff": "M"
+     },
+     {
+      "id": "ag-soil-and-water-conservation-en--contouring",
+      "name": "Contouring",
+      "diff": "E"
+     },
+     {
+      "id": "ag-soil-and-water-conservation-en--total-station",
+      "name": "Total station",
+      "diff": "E"
+     },
+     {
+      "id": "ag-soil-and-water-conservation-en--introduction-to-gps-survey",
+      "name": "Introduction to GPS survey",
+      "diff": "E"
+     },
+     {
+      "id": "ag-soil-and-water-conservation-en--computation-of-areas-and-volume",
+      "name": "Computation of areas and volume",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "E",
+    "name": "Soil and Water Erosion",
+    "topics": [
+     {
+      "id": "ag-soil-and-water-conservation-en--mechanics-of-soil-erosion-wind-and-water-erosion-soil-erosio",
+      "name": "Mechanics of soil erosion - wind and water erosion: soil erosion types",
+      "diff": "M"
+     },
+     {
+      "id": "ag-soil-and-water-conservation-en--factors-affecting-erosion",
+      "name": "Factors affecting erosion",
+      "diff": "M"
+     },
+     {
+      "id": "ag-soil-and-water-conservation-en--soil-loss-estimation",
+      "name": "Soil loss estimation",
+      "diff": "M"
+     },
+     {
+      "id": "ag-soil-and-water-conservation-en--biological-and-engineering-measures-to-control-erosion",
+      "name": "Biological and engineering measures to control erosion",
+      "diff": "M"
+     },
+     {
+      "id": "ag-soil-and-water-conservation-en--terraces-and-bunds",
+      "name": "Terraces and bunds",
+      "diff": "M"
+     },
+     {
+      "id": "ag-soil-and-water-conservation-en--vegetative-waterways",
+      "name": "Vegetative waterways",
+      "diff": "M"
+     },
+     {
+      "id": "ag-soil-and-water-conservation-en--gully-control-structures-drop-drop-inlet-and-chute-spillways",
+      "name": "Gully control structures, drop, drop inlet and chute spillways",
+      "diff": "M"
+     },
+     {
+      "id": "ag-soil-and-water-conservation-en--earthen-dams",
+      "name": "Earthen dams",
+      "diff": "E"
+     }
+    ]
+   },
+   {
+    "letter": "F",
+    "name": "Watershed Management",
+    "topics": [
+     {
+      "id": "ag-soil-and-water-conservation-en--watershed-characterization-and-land-use-capability-classific",
+      "name": "Watershed characterization and land use capability classification",
+      "diff": "E"
+     },
+     {
+      "id": "ag-soil-and-water-conservation-en--water-budgeting-in-watershed",
+      "name": "Water budgeting in watershed",
+      "diff": "M"
+     },
+     {
+      "id": "ag-soil-and-water-conservation-en--rainwater-harvesting",
+      "name": "Rainwater harvesting",
+      "diff": "M"
+     },
+     {
+      "id": "ag-soil-and-water-conservation-en--check-dams-and-farm-ponds",
+      "name": "Check dams and farm ponds",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "ag-irrigation-and-drainage-engine",
+  "name": "Irrigation and Drainage Engineering",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Soil-Water-Plant Relationship",
+    "topics": [
+     {
+      "id": "ag-irrigation-and-drainage-engine--water-requirement-of-crops",
+      "name": "Water requirement of crops",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "ag-irrigation-and-drainage-engine--consumptive-use-and-evapotranspiration",
+      "name": "Consumptive use and evapotranspiration",
+      "diff": "M"
+     },
+     {
+      "id": "ag-irrigation-and-drainage-engine--measurement-of-infiltration",
+      "name": "Measurement of infiltration",
+      "diff": "M"
+     },
+     {
+      "id": "ag-irrigation-and-drainage-engine--soil-moisture-and-irrigation-water-infiltration",
+      "name": "Soil moisture and irrigation water infiltration",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Irrigation Water Conveyance and Application Methods",
+    "topics": [
+     {
+      "id": "ag-irrigation-and-drainage-engine--design-of-irrigation-channels-and-underground-pipelines",
+      "name": "Design of irrigation channels and underground pipelines",
+      "diff": "M"
+     },
+     {
+      "id": "ag-irrigation-and-drainage-engine--irrigation-scheduling",
+      "name": "Irrigation scheduling",
+      "diff": "M"
+     },
+     {
+      "id": "ag-irrigation-and-drainage-engine--surface",
+      "name": "Surface",
+      "diff": "E"
+     },
+     {
+      "id": "ag-irrigation-and-drainage-engine--sprinkler-and-micro-irrigation-methods",
+      "name": "Sprinkler and micro irrigation methods",
+      "diff": "M"
+     },
+     {
+      "id": "ag-irrigation-and-drainage-engine--design-and-evaluation-of-irrigation-methods",
+      "name": "Design and evaluation of irrigation methods",
+      "diff": "M"
+     },
+     {
+      "id": "ag-irrigation-and-drainage-engine--irrigation-efficiencies",
+      "name": "Irrigation efficiencies",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "C",
+    "name": "Agricultural Drainage",
+    "topics": [
+     {
+      "id": "ag-irrigation-and-drainage-engine--drainage-coefficient",
+      "name": "Drainage coefficient",
+      "diff": "M"
+     },
+     {
+      "id": "ag-irrigation-and-drainage-engine--planning",
+      "name": "Planning",
+      "diff": "E"
+     },
+     {
+      "id": "ag-irrigation-and-drainage-engine--design-and-layout-of-surface-and-sub-surface-drainage-system",
+      "name": "Design and layout of surface and sub- surface drainage systems",
+      "diff": "M"
+     },
+     {
+      "id": "ag-irrigation-and-drainage-engine--leaching-requirement-and-salinity-control",
+      "name": "Leaching requirement and salinity control",
+      "diff": "M"
+     },
+     {
+      "id": "ag-irrigation-and-drainage-engine--irrigation-and-drainage-water-quality-and-reuse",
+      "name": "Irrigation and drainage water quality and reuse",
+      "diff": "M"
+     },
+     {
+      "id": "ag-irrigation-and-drainage-engine--non-conventional-drainage-system",
+      "name": "Non - conventional drainage system",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "D",
+    "name": "Groundwater Hydrology",
+    "topics": [
+     {
+      "id": "ag-irrigation-and-drainage-engine--groundwater-occurrence",
+      "name": "Groundwater occurrence",
+      "diff": "M"
+     },
+     {
+      "id": "ag-irrigation-and-drainage-engine--ground-water-movement",
+      "name": "Ground water movement",
+      "diff": "M"
+     },
+     {
+      "id": "ag-irrigation-and-drainage-engine--darcys-law",
+      "name": "Darcy’s Law",
+      "diff": "E"
+     },
+     {
+      "id": "ag-irrigation-and-drainage-engine--steady-and-unsteady-flow-in-confined-and-unconfined-aquifers",
+      "name": "Steady and unsteady flow in confined and unconfined aquifers",
+      "diff": "M"
+     },
+     {
+      "id": "ag-irrigation-and-drainage-engine--groundwater-exploration-techniques",
+      "name": "Groundwater exploration techniques",
+      "diff": "M"
+     },
+     {
+      "id": "ag-irrigation-and-drainage-engine--overview-of-groundwater-recharge-estimation-and-artificial-r",
+      "name": "Overview of groundwater recharge estimation and artificial recharge techniques",
+      "diff": "E"
+     }
+    ]
+   },
+   {
+    "letter": "E",
+    "name": "Wells and Pumps",
+    "topics": [
+     {
+      "id": "ag-irrigation-and-drainage-engine--types-of-wells-steady-flow-through-wells",
+      "name": "Types of wells, steady flow through wells",
+      "diff": "E"
+     },
+     {
+      "id": "ag-irrigation-and-drainage-engine--design-and-construction-of-water-wells",
+      "name": "Design and construction of water wells",
+      "diff": "M"
+     },
+     {
+      "id": "ag-irrigation-and-drainage-engine--classification-of-pumps",
+      "name": "Classification of pumps",
+      "diff": "E"
+     },
+     {
+      "id": "ag-irrigation-and-drainage-engine--pump-characteristics",
+      "name": "Pump characteristics",
+      "diff": "M"
+     },
+     {
+      "id": "ag-irrigation-and-drainage-engine--pump-selection-and-installation",
+      "name": "Pump selection and installation",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "ag-agricultural-process-engineeri",
+  "name": "Agricultural Process Engineering",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Engineering properties of agriculture produce",
+    "topics": [
+     {
+      "id": "ag-agricultural-process-engineeri--physical-thermal-frictional-rheological-and-electrical-prope",
+      "name": "Physical, thermal, frictional, rheological and electrical properties",
+      "diff": "M",
+      "sample": true
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Evaporation and Drying",
+    "topics": [
+     {
+      "id": "ag-agricultural-process-engineeri--concentration-and-drying-of-liquid-foods-evaporators",
+      "name": "Concentration and drying of liquid foods - evaporators",
+      "diff": "M"
+     },
+     {
+      "id": "ag-agricultural-process-engineeri--tray",
+      "name": "Tray",
+      "diff": "E"
+     },
+     {
+      "id": "ag-agricultural-process-engineeri--drum-and-spray-dryers",
+      "name": "Drum and spray dryers",
+      "diff": "M"
+     },
+     {
+      "id": "ag-agricultural-process-engineeri--osmotic-dehydration-and-freeze-drying",
+      "name": "Osmotic dehydration and freeze drying",
+      "diff": "M"
+     },
+     {
+      "id": "ag-agricultural-process-engineeri--hydrothermal-treatments",
+      "name": "Hydrothermal treatments",
+      "diff": "M"
+     },
+     {
+      "id": "ag-agricultural-process-engineeri--drying-and-milling-of-cereals-pulses-and-oilseeds",
+      "name": "Drying and milling of cereals, pulses and oilseeds",
+      "diff": "M"
+     },
+     {
+      "id": "ag-agricultural-process-engineeri--drying-kinetics",
+      "name": "Drying kinetics",
+      "diff": "H"
+     },
+     {
+      "id": "ag-agricultural-process-engineeri--psychrometry-properties-of-air-water-vapor-mixture",
+      "name": "Psychrometry - properties of air-water vapor mixture",
+      "diff": "E"
+     }
+    ]
+   },
+   {
+    "letter": "C",
+    "name": "Size Reduction and Material Handling",
+    "topics": [
+     {
+      "id": "ag-agricultural-process-engineeri--mechanics-and-energy-requirement-in-size-reduction-of-agricu",
+      "name": "Mechanics and energy requirement in size reduction of agriculture produce",
+      "diff": "M"
+     },
+     {
+      "id": "ag-agricultural-process-engineeri--particle-size-analysis-for-comminuted-solids",
+      "name": "Particle size analysis for comminuted solids",
+      "diff": "M"
+     },
+     {
+      "id": "ag-agricultural-process-engineeri--size-separation-by-screening",
+      "name": "Size separation by screening",
+      "diff": "M"
+     },
+     {
+      "id": "ag-agricultural-process-engineeri--fluidization-of-granular-solids-pneumatic",
+      "name": "Fluidization of granular solids-pneumatic",
+      "diff": "M"
+     },
+     {
+      "id": "ag-agricultural-process-engineeri--bucket",
+      "name": "Bucket",
+      "diff": "E"
+     },
+     {
+      "id": "ag-agricultural-process-engineeri--screw-and-belt-conveying",
+      "name": "Screw and belt conveying",
+      "diff": "M"
+     },
+     {
+      "id": "ag-agricultural-process-engineeri--cleaning-and-grading",
+      "name": "Cleaning and grading",
+      "diff": "M"
+     },
+     {
+      "id": "ag-agricultural-process-engineeri--effectiveness-of-separation",
+      "name": "Effectiveness of separation",
+      "diff": "M"
+     },
+     {
+      "id": "ag-agricultural-process-engineeri--centrifugal-separation-of-solids-liquids-and-gases",
+      "name": "Centrifugal separation of solids, liquids and gases",
+      "diff": "M"
+     },
+     {
+      "id": "ag-agricultural-process-engineeri--homogenization",
+      "name": "Homogenization",
+      "diff": "E"
+     },
+     {
+      "id": "ag-agricultural-process-engineeri--filtration-and-membrane-separation",
+      "name": "Filtration and membrane separation",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "D",
+    "name": "Processing of Agriculture Produce",
+    "topics": [
+     {
+      "id": "ag-agricultural-process-engineeri--processing-of-seeds-spices-fruits-and-vegetables",
+      "name": "Processing of seeds, spices, fruits and vegetables",
+      "diff": "M"
+     },
+     {
+      "id": "ag-agricultural-process-engineeri--value-addition-of-agriculture-produce",
+      "name": "Value addition of agriculture produce",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "E",
+    "name": "Storage Systems",
+    "topics": [
+     {
+      "id": "ag-agricultural-process-engineeri--controlled-and-modified-atmosphere-storage",
+      "name": "Controlled and modified atmosphere storage",
+      "diff": "M"
+     },
+     {
+      "id": "ag-agricultural-process-engineeri--perishable-food-storage",
+      "name": "Perishable food storage",
+      "diff": "M"
+     },
+     {
+      "id": "ag-agricultural-process-engineeri--godowns",
+      "name": "Godowns",
+      "diff": "E"
+     },
+     {
+      "id": "ag-agricultural-process-engineeri--bins-and-grain-silos",
+      "name": "Bins and grain silos",
+      "diff": "M"
+     },
+     {
+      "id": "ag-agricultural-process-engineeri--packaging-material-and-machines",
+      "name": "Packaging material and machines",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "ag-dairy-and-food-engineering",
+  "name": "Dairy and Food Engineering",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Heat and Mass Transfer",
+    "topics": [
+     {
+      "id": "ag-dairy-and-food-engineering--steady-state-heat-transfer-in-conduction-convection-and-radi",
+      "name": "Steady state heat transfer in conduction, convection and radiation",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "ag-dairy-and-food-engineering--transient-heat-transfer-in-simple-geometry",
+      "name": "Transient heat transfer in simple geometry",
+      "diff": "M"
+     },
+     {
+      "id": "ag-dairy-and-food-engineering--working-principles-of-heat-exchangers",
+      "name": "Working principles of heat exchangers",
+      "diff": "M"
+     },
+     {
+      "id": "ag-dairy-and-food-engineering--diffusive-and-convective-mass-transfer",
+      "name": "Diffusive and convective mass transfer",
+      "diff": "M"
+     },
+     {
+      "id": "ag-dairy-and-food-engineering--simultaneous-heat-and-mass-transfer-in-agricultural-processi",
+      "name": "Simultaneous heat and mass transfer in agricultural processing op erations",
+      "diff": "M"
+     },
+     {
+      "id": "ag-dairy-and-food-engineering--material-and-energy-balances-in-food-processing-systems",
+      "name": "Material and energy balances in food processing systems",
+      "diff": "M"
+     },
+     {
+      "id": "ag-dairy-and-food-engineering--water-activity-sorption-and-desorption-isotherms",
+      "name": "Water activity, sorption and desorption isotherms",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Unit operations in Dairy and Food engineering",
+    "topics": [
+     {
+      "id": "ag-dairy-and-food-engineering--blanching-homogenization-pasteurization-sterilization",
+      "name": "Blanching, homogenization, pasteurization, sterilization",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "C",
+    "name": "Preservation of Food",
+    "topics": [
+     {
+      "id": "ag-dairy-and-food-engineering--kinetics-of-microbial-death-pasteurization-and-sterilization",
+      "name": "Kinetics of microbial death - pasteurization and sterilization of milk and other liquid foods",
+      "diff": "H"
+     },
+     {
+      "id": "ag-dairy-and-food-engineering--preservation-of-food-by-cooling-and-freezing",
+      "name": "Preservation of food by cooling and freezing",
+      "diff": "M"
+     },
+     {
+      "id": "ag-dairy-and-food-engineering--refrigeration-and-cold-storage-basics-and-applications",
+      "name": "Refrigeration and cold storage basics and applications",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ }
+]

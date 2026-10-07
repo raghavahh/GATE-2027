@@ -1,0 +1,1061 @@
+[
+ {
+  "id": "ma-calculus",
+  "name": "Calculus",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Overview",
+    "topics": [
+     {
+      "id": "ma-calculus--functions-of-two-or-more-variables",
+      "name": "Functions of two or more variables",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "ma-calculus--continuity",
+      "name": "Continuity",
+      "diff": "E"
+     },
+     {
+      "id": "ma-calculus--directional-derivatives",
+      "name": "Directional derivatives",
+      "diff": "M"
+     },
+     {
+      "id": "ma-calculus--partial-derivatives",
+      "name": "Partial derivatives",
+      "diff": "M"
+     },
+     {
+      "id": "ma-calculus--total-derivative",
+      "name": "Total derivative",
+      "diff": "E"
+     },
+     {
+      "id": "ma-calculus--taylors-theorem",
+      "name": "Taylor’s theorem",
+      "diff": "E"
+     },
+     {
+      "id": "ma-calculus--maxima-and-minima",
+      "name": "Maxima and minima",
+      "diff": "E"
+     },
+     {
+      "id": "ma-calculus--saddle-point",
+      "name": "Saddle point",
+      "diff": "E"
+     },
+     {
+      "id": "ma-calculus--method-of-lagranges-multipliers",
+      "name": "Method of Lagrange’s multipliers",
+      "diff": "M"
+     },
+     {
+      "id": "ma-calculus--double-and-triple-integrals",
+      "name": "Double and Triple integrals",
+      "diff": "M"
+     },
+     {
+      "id": "ma-calculus--jacobians-and-change-of-variables",
+      "name": "Jacobians and Change of variables",
+      "diff": "M"
+     },
+     {
+      "id": "ma-calculus--applications-to-area",
+      "name": "Applications to area",
+      "diff": "M"
+     },
+     {
+      "id": "ma-calculus--volume-and-surface-area",
+      "name": "Volume and surface area",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Vector Calculus",
+    "topics": [
+     {
+      "id": "ma-calculus--gradient",
+      "name": "Gradient",
+      "diff": "E"
+     },
+     {
+      "id": "ma-calculus--divergence-and-curl",
+      "name": "Divergence and curl",
+      "diff": "M"
+     },
+     {
+      "id": "ma-calculus--line-integrals-and-surface-integrals",
+      "name": "Line integrals and Surface integrals",
+      "diff": "M"
+     },
+     {
+      "id": "ma-calculus--greens-theorem",
+      "name": "Green’s theorem",
+      "diff": "E"
+     },
+     {
+      "id": "ma-calculus--stokes-theorem",
+      "name": "Stokes’ theorem",
+      "diff": "E"
+     },
+     {
+      "id": "ma-calculus--gauss-divergence-theorem",
+      "name": "Gauss divergence theorem",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "ma-linear-algebra",
+  "name": "Linear Algebra",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Linear Algebra",
+    "topics": [
+     {
+      "id": "ma-linear-algebra--finite-dimensional-vector-spaces-over-real-or-complex-fields",
+      "name": "Finite dimensional vector spaces over real or complex fields",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "ma-linear-algebra--linear-transformations-and-their-matrix-representations",
+      "name": "Linear transformations and their matrix representations",
+      "diff": "H"
+     },
+     {
+      "id": "ma-linear-algebra--rank-and-nullity",
+      "name": "Rank and nullity",
+      "diff": "E"
+     },
+     {
+      "id": "ma-linear-algebra--systems-of-linear-equations",
+      "name": "Systems of linear equations",
+      "diff": "M"
+     },
+     {
+      "id": "ma-linear-algebra--characteristic-polynomial",
+      "name": "Characteristic polynomial",
+      "diff": "M"
+     },
+     {
+      "id": "ma-linear-algebra--eigenvalues-and-eigen-vectors",
+      "name": "Eigenvalues and eigen - vectors",
+      "diff": "H"
+     },
+     {
+      "id": "ma-linear-algebra--diagonalization",
+      "name": "Diagonalization",
+      "diff": "E"
+     },
+     {
+      "id": "ma-linear-algebra--minimal-polynom-ial",
+      "name": "Minimal polynom ial",
+      "diff": "M"
+     },
+     {
+      "id": "ma-linear-algebra--cayley-hamilton-theorem",
+      "name": "Cayley -Hamilton Theorem",
+      "diff": "M"
+     },
+     {
+      "id": "ma-linear-algebra--finite-dimensional-inner-product-spaces",
+      "name": "Finite dimensional inner product spaces",
+      "diff": "M"
+     },
+     {
+      "id": "ma-linear-algebra--gram-schmidt-orthonormalization-process",
+      "name": "Gram -Schmidt orthonormalization process",
+      "diff": "M"
+     },
+     {
+      "id": "ma-linear-algebra--symmetric",
+      "name": "Symmetric",
+      "diff": "E"
+     },
+     {
+      "id": "ma-linear-algebra--skew-symmetric",
+      "name": "Skew -symmetric",
+      "diff": "E"
+     },
+     {
+      "id": "ma-linear-algebra--hermitian",
+      "name": "Hermitian",
+      "diff": "E"
+     },
+     {
+      "id": "ma-linear-algebra--skew-hermitian",
+      "name": "Skew -Hermitian",
+      "diff": "E"
+     },
+     {
+      "id": "ma-linear-algebra--normal",
+      "name": "Normal",
+      "diff": "E"
+     },
+     {
+      "id": "ma-linear-algebra--orthogonal-and-unitary-matrices",
+      "name": "Orthogonal and unitary matrices",
+      "diff": "M"
+     },
+     {
+      "id": "ma-linear-algebra--diagonalization-by-a-unitary-matrix-jordan-canonical-form",
+      "name": "Diagonalization by a unitary matrix, Jordan canonical form",
+      "diff": "M"
+     },
+     {
+      "id": "ma-linear-algebra--bilinear-and-quadratic-forms",
+      "name": "Bilinear and quadratic forms",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "ma-real-analysis",
+  "name": "Real Analysis",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Real Analysis",
+    "topics": [
+     {
+      "id": "ma-real-analysis--metric-spaces",
+      "name": "Metric spaces",
+      "diff": "E",
+      "sample": true
+     },
+     {
+      "id": "ma-real-analysis--baire-category-theorem",
+      "name": "Baire category theorem",
+      "diff": "M"
+     },
+     {
+      "id": "ma-real-analysis--connectedness",
+      "name": "Connectedness",
+      "diff": "E"
+     },
+     {
+      "id": "ma-real-analysis--compactness",
+      "name": "Compactness",
+      "diff": "E"
+     },
+     {
+      "id": "ma-real-analysis--completeness",
+      "name": "Completeness",
+      "diff": "E"
+     },
+     {
+      "id": "ma-real-analysis--continuity-and-uniform-continuity-of-functions",
+      "name": "Continuity and Uniform continuity of functions",
+      "diff": "M"
+     },
+     {
+      "id": "ma-real-analysis--sequences-and-series-of-functions",
+      "name": "Sequences and series of functions",
+      "diff": "M"
+     },
+     {
+      "id": "ma-real-analysis--uniform-convergence",
+      "name": "Uniform convergence",
+      "diff": "M"
+     },
+     {
+      "id": "ma-real-analysis--ascoli-arzela-theorem",
+      "name": "Ascoli -Arzela theorem",
+      "diff": "M"
+     },
+     {
+      "id": "ma-real-analysis--weierstrass-approximation-theorem",
+      "name": "Weierstrass approximation theorem",
+      "diff": "M"
+     },
+     {
+      "id": "ma-real-analysis--contraction-mapping-principle-power-series",
+      "name": "Contraction mapping principle, Power series",
+      "diff": "M"
+     },
+     {
+      "id": "ma-real-analysis--differentiation-of-functions-of-several-variables",
+      "name": "Differentiation of functions of several variables",
+      "diff": "M"
+     },
+     {
+      "id": "ma-real-analysis--inverse-and-implicit-function-theorems",
+      "name": "Inverse and Implicit function theorems",
+      "diff": "M"
+     },
+     {
+      "id": "ma-real-analysis--lebesgue-measure-on-the-real-line-measurable-functions",
+      "name": "Lebesgue measure on the real line, measurable functions",
+      "diff": "M"
+     },
+     {
+      "id": "ma-real-analysis--lebesgue-integral",
+      "name": "Lebesgue integral",
+      "diff": "E"
+     },
+     {
+      "id": "ma-real-analysis--fatous-lemma",
+      "name": "Fatou’s lemma",
+      "diff": "E"
+     },
+     {
+      "id": "ma-real-analysis--monotone-convergence-theorem",
+      "name": "Monotone convergence theorem",
+      "diff": "M"
+     },
+     {
+      "id": "ma-real-analysis--dominated-convergence-theorem",
+      "name": "Dominated convergence theorem",
+      "diff": "M"
+     },
+     {
+      "id": "ma-real-analysis--lp-spaces",
+      "name": "Lp spaces",
+      "diff": "E"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "ma-complex-analysis",
+  "name": "Complex Analysis",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Functions of a complex variable",
+    "topics": [
+     {
+      "id": "ma-complex-analysis--continuity-differentiability-analytic-functions-harmonic-fun",
+      "name": "Continuity, differentiability, analytic functions, harmonic functions",
+      "diff": "M",
+      "sample": true
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Complex integration",
+    "topics": [
+     {
+      "id": "ma-complex-analysis--cauchys-integral-theorem-and-formula",
+      "name": "Cauchy’s integral theorem and formula",
+      "diff": "M"
+     },
+     {
+      "id": "ma-complex-analysis--liouvilles-theorem-maximum-modulus-principle-moreras-theorem",
+      "name": "Liouville’s theorem, maximum modulus principle, Morera’s theorem",
+      "diff": "M"
+     },
+     {
+      "id": "ma-complex-analysis--zeros-and-singularities",
+      "name": "Zeros and singularities",
+      "diff": "M"
+     },
+     {
+      "id": "ma-complex-analysis--power-series",
+      "name": "Power series",
+      "diff": "E"
+     },
+     {
+      "id": "ma-complex-analysis--radius-of-convergence",
+      "name": "Radius of convergence",
+      "diff": "M"
+     },
+     {
+      "id": "ma-complex-analysis--taylors-series-and-laurents-series",
+      "name": "Taylor’s series and Laurent’s series",
+      "diff": "M"
+     },
+     {
+      "id": "ma-complex-analysis--residue-theorem-and-applications-for-evaluating-rea-l-integr",
+      "name": "Residue theorem and applications for evaluating rea l integrals",
+      "diff": "M"
+     },
+     {
+      "id": "ma-complex-analysis--rouches-theorem-argument-principle-schwarz-lemma",
+      "name": "Rouche’s theorem, Argument principle, Schwarz lemma",
+      "diff": "M"
+     },
+     {
+      "id": "ma-complex-analysis--conformal-mappings-mobius-transformations",
+      "name": "Conformal mappings, Mobius transformations",
+      "diff": "H"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "ma-ordinary-differential-equation",
+  "name": "Ordinary Differential Equations",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Ordinary Differential Equations",
+    "topics": [
+     {
+      "id": "ma-ordinary-differential-equation--first-order-ordinary-differential-equations",
+      "name": "First order ordinary differential equations",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "ma-ordinary-differential-equation--existence-and-uniqueness-theorems-for-initial-value-problems",
+      "name": "Existence and uniqueness theorems for initial value problems",
+      "diff": "M"
+     },
+     {
+      "id": "ma-ordinary-differential-equation--linear-ordinary-differential-equations-of-higher-order-with-",
+      "name": "Linear ordinary differential equations of higher order with constant coefficients",
+      "diff": "M"
+     },
+     {
+      "id": "ma-ordinary-differential-equation--second-order-linear-ordinary-differential-equations-with-var",
+      "name": "Second order linear ordinary differential equations with variable coefficients",
+      "diff": "M"
+     },
+     {
+      "id": "ma-ordinary-differential-equation--cauchy-euler-equation",
+      "name": "Cauchy -Euler equation",
+      "diff": "M"
+     },
+     {
+      "id": "ma-ordinary-differential-equation--definition-and-basic-properties-of-laplace-transforms",
+      "name": "Definition and basic properties of Laplace transforms",
+      "diff": "H"
+     },
+     {
+      "id": "ma-ordinary-differential-equation--applications-of-lapalce-transform-for-solving-ordinary-diffe",
+      "name": "Applications of Lapalce transform for solving ordinary differential equations",
+      "diff": "H"
+     },
+     {
+      "id": "ma-ordinary-differential-equation--series-solutions-power-series-frobenius-method",
+      "name": "Series solutions (power series, Frobenius method)",
+      "diff": "M"
+     },
+     {
+      "id": "ma-ordinary-differential-equation--legendre-and-bessel-functions-and-their-orthogonal-propertie",
+      "name": "Legendre and Bessel functions and their orthogonal properties",
+      "diff": "M"
+     },
+     {
+      "id": "ma-ordinary-differential-equation--systems-of-linear-first-order-ordinary-differential-equation",
+      "name": "Systems of linear first order ordinary differential equations",
+      "diff": "M"
+     },
+     {
+      "id": "ma-ordinary-differential-equation--sturms-oscillation-and-separation-theorems",
+      "name": "Sturm's oscillation and separation theorems",
+      "diff": "M"
+     },
+     {
+      "id": "ma-ordinary-differential-equation--sturm-liouville-eigenvalue-problems",
+      "name": "Sturm -Liouville eigenvalue problems",
+      "diff": "H"
+     },
+     {
+      "id": "ma-ordinary-differential-equation--planar-autonomous-systems-of-ordinary-differential-equations",
+      "name": "Planar autonomous systems of ordinary differential equations: Stability of stationary points for linear systems with constant coefficients",
+      "diff": "H"
+     },
+     {
+      "id": "ma-ordinary-differential-equation--linearized-stability",
+      "name": "Linearized stability",
+      "diff": "H"
+     },
+     {
+      "id": "ma-ordinary-differential-equation--lyapunov-functions",
+      "name": "Lyapunov functions",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "ma-algebra",
+  "name": "Algebra",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Algebra",
+    "topics": [
+     {
+      "id": "ma-algebra--groups",
+      "name": "Groups",
+      "diff": "E",
+      "sample": true
+     },
+     {
+      "id": "ma-algebra--subgroups",
+      "name": "Subgroups",
+      "diff": "E"
+     },
+     {
+      "id": "ma-algebra--normal-subgroups",
+      "name": "Normal subgroups",
+      "diff": "E"
+     },
+     {
+      "id": "ma-algebra--quotient-groups",
+      "name": "Quotient groups",
+      "diff": "E"
+     },
+     {
+      "id": "ma-algebra--homomorphisms",
+      "name": "Homomorphisms",
+      "diff": "E"
+     },
+     {
+      "id": "ma-algebra--automorphisms",
+      "name": "Automorphisms",
+      "diff": "E"
+     },
+     {
+      "id": "ma-algebra--cyclic-groups",
+      "name": "Cyclic groups",
+      "diff": "E"
+     },
+     {
+      "id": "ma-algebra--permutation-groups",
+      "name": "Permutation groups",
+      "diff": "M"
+     },
+     {
+      "id": "ma-algebra--group-action",
+      "name": "Group action",
+      "diff": "E"
+     },
+     {
+      "id": "ma-algebra--finite-abelian-groups",
+      "name": "Finite Abelian groups",
+      "diff": "M"
+     },
+     {
+      "id": "ma-algebra--sylows-theorems-and-their-applications",
+      "name": "Sylow’s theorems and their applications",
+      "diff": "M"
+     },
+     {
+      "id": "ma-algebra--rings",
+      "name": "Rings",
+      "diff": "E"
+     },
+     {
+      "id": "ma-algebra--ideals",
+      "name": "Ideals",
+      "diff": "E"
+     },
+     {
+      "id": "ma-algebra--prime-and-maximal-ideals",
+      "name": "Prime and maximal ideals",
+      "diff": "M"
+     },
+     {
+      "id": "ma-algebra--quotient-rings",
+      "name": "Quotient rings",
+      "diff": "E"
+     },
+     {
+      "id": "ma-algebra--un-ique-factorization-domains",
+      "name": "Un ique factorization domains",
+      "diff": "M"
+     },
+     {
+      "id": "ma-algebra--principle-ideal-domains",
+      "name": "Principle ideal domains",
+      "diff": "M"
+     },
+     {
+      "id": "ma-algebra--euclidean-domains",
+      "name": "Euclidean domains",
+      "diff": "E"
+     },
+     {
+      "id": "ma-algebra--polynomial-rings",
+      "name": "Polynomial rings",
+      "diff": "E"
+     },
+     {
+      "id": "ma-algebra--eisensteins-irreducibility-criterion",
+      "name": "Eisenstein’s irreducibility criterion",
+      "diff": "M"
+     },
+     {
+      "id": "ma-algebra--fields",
+      "name": "Fields",
+      "diff": "E"
+     },
+     {
+      "id": "ma-algebra--finite-fields",
+      "name": "Finite fields",
+      "diff": "E"
+     },
+     {
+      "id": "ma-algebra--field-extensions",
+      "name": "Field extensions",
+      "diff": "E"
+     },
+     {
+      "id": "ma-algebra--algebraic-extensions",
+      "name": "Algebraic extensions",
+      "diff": "M"
+     },
+     {
+      "id": "ma-algebra--algebraically-closed-fields",
+      "name": "Algebraically closed fields",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "ma-functional-analysis",
+  "name": "Functional Analysis",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Functional Analysis",
+    "topics": [
+     {
+      "id": "ma-functional-analysis--normed-linear-spaces",
+      "name": "Normed linear spaces",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "ma-functional-analysis--bounded-linear-operators-and-compact-linear-operators",
+      "name": "Bounded linear operators and compact linear operators",
+      "diff": "M"
+     },
+     {
+      "id": "ma-functional-analysis--banach-spaces",
+      "name": "Banach spaces",
+      "diff": "E"
+     },
+     {
+      "id": "ma-functional-analysis--separability",
+      "name": "Separability",
+      "diff": "E"
+     },
+     {
+      "id": "ma-functional-analysis--dual-spaces",
+      "name": "Dual spaces",
+      "diff": "E"
+     },
+     {
+      "id": "ma-functional-analysis--hahn-banach-theorem",
+      "name": "Hahn -Banach theorem",
+      "diff": "M"
+     },
+     {
+      "id": "ma-functional-analysis--open-mapping-and-closed-graph-theorems",
+      "name": "Open mapping and closed graph theorems",
+      "diff": "M"
+     },
+     {
+      "id": "ma-functional-analysis--principle-of-uniform-boundedness",
+      "name": "Principle of uniform boundedness",
+      "diff": "M"
+     },
+     {
+      "id": "ma-functional-analysis--inner-product-spaces",
+      "name": "Inner-product spaces",
+      "diff": "M"
+     },
+     {
+      "id": "ma-functional-analysis--hilbert-spaces",
+      "name": "Hilbert spaces",
+      "diff": "E"
+     },
+     {
+      "id": "ma-functional-analysis--orth-onormal-bases",
+      "name": "Orth onormal bases",
+      "diff": "M"
+     },
+     {
+      "id": "ma-functional-analysis--projection-theorem",
+      "name": "Projection theorem",
+      "diff": "M"
+     },
+     {
+      "id": "ma-functional-analysis--riesz-representation-theorem",
+      "name": "Riesz representation theorem",
+      "diff": "M"
+     },
+     {
+      "id": "ma-functional-analysis--spectral-theorem-for-compact-self-adjoint-operators",
+      "name": "Spectral theorem for compact self-adjoint operators",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "ma-numerical-analysis",
+  "name": "Numerical Analysis",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Systems of linear equations",
+    "topics": [
+     {
+      "id": "ma-numerical-analysis--direct-methods-gaussian-elimination-lu-decomposition-cholesk",
+      "name": "Direct methods (Gaussian elimination, LU decomposition, Cholesky factorization)",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "ma-numerical-analysis--iterative-methods-gauss-seidel-and-jacobi-and-their-converge",
+      "name": "Iterative methods (Gauss-Seidel and Jacobi) and their convergence for diagonally dominant coefficient matrices",
+      "diff": "M"
+     },
+     {
+      "id": "ma-numerical-analysis--numerical-solutions-of-nonlinear-equations-bisection-method",
+      "name": "Numerical solutions of nonlinear equations: bisection method",
+      "diff": "H"
+     },
+     {
+      "id": "ma-numerical-analysis--secant-method",
+      "name": "Secant method",
+      "diff": "E"
+     },
+     {
+      "id": "ma-numerical-analysis--newton-raphson-method",
+      "name": "Newton -Raphson method",
+      "diff": "M"
+     },
+     {
+      "id": "ma-numerical-analysis--fixed-point-iteration",
+      "name": "Fixed point iteration",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Interpolation",
+    "topics": [
+     {
+      "id": "ma-numerical-analysis--lagrange-and-newton-forms-of-interpolating-polynomial",
+      "name": "Lagrange and Newton forms of interpolating polynomial",
+      "diff": "M"
+     },
+     {
+      "id": "ma-numerical-analysis--error-in-polynomial-interpolation-of-a-function",
+      "name": "Error in polynomial interpolation of a function",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "C",
+    "name": "Numerical differentiation and error, Numerical integration",
+    "topics": [
+     {
+      "id": "ma-numerical-analysis--trapezoidal-and-simpson-rules",
+      "name": "Trapezoidal and Simpson rules",
+      "diff": "M"
+     },
+     {
+      "id": "ma-numerical-analysis--newton-cotes-integration-formulas",
+      "name": "Newton -Cotes integration formulas",
+      "diff": "M"
+     },
+     {
+      "id": "ma-numerical-analysis--composite-rules",
+      "name": "Composite rules",
+      "diff": "E"
+     },
+     {
+      "id": "ma-numerical-analysis--mathematical-errors-involved-in-numerical-integration-formul",
+      "name": "Mathematical errors involved in numerical integration formulae",
+      "diff": "M"
+     },
+     {
+      "id": "ma-numerical-analysis--numerical-solution-of-initial-value-problems-for-ordinary-di",
+      "name": "Numerical solution of initial value problems for ordinary differential equations: Methods of Euler",
+      "diff": "M"
+     },
+     {
+      "id": "ma-numerical-analysis--runge-kutta-method-of-order-2",
+      "name": "Runge-Kutta method of order 2",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "ma-partial-differential-equations",
+  "name": "Partial Differential Equations",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Partial Differential Equations",
+    "topics": [
+     {
+      "id": "ma-partial-differential-equations--method-of-characteristics-for-first-order-linear-and-quasili",
+      "name": "Method of characteristics for first order linear and quasilinear partial differential equations",
+      "diff": "H",
+      "sample": true
+     },
+     {
+      "id": "ma-partial-differential-equations--second-order-partial-differential-equations-in-two-independe",
+      "name": "Second order partial differential equations in two independent variables: classification and canonical forms",
+      "diff": "H"
+     },
+     {
+      "id": "ma-partial-differential-equations--method-of-separation-of-variables-for-laplace-equation-in-ca",
+      "name": "Method of separation of variables for Laplace equation in Cartesian and polar coordinates",
+      "diff": "H"
+     },
+     {
+      "id": "ma-partial-differential-equations--maximum-principle",
+      "name": "Maximum Principle",
+      "diff": "E"
+     },
+     {
+      "id": "ma-partial-differential-equations--heat-and-wave-equations-in-one-space-variable",
+      "name": "Heat and wave equations in one space variable",
+      "diff": "M"
+     },
+     {
+      "id": "ma-partial-differential-equations--wave-equation-cauchy-problem-and-dalembert-formula",
+      "name": "Wave equation: Cauchy problem and d'Alembert formula",
+      "diff": "M"
+     },
+     {
+      "id": "ma-partial-differential-equations--domains-of-dependence-and-influence",
+      "name": "Domains of dependence and influence",
+      "diff": "M"
+     },
+     {
+      "id": "ma-partial-differential-equations--non-homogeneous-wave-equation",
+      "name": "Non-homogeneous wave equation",
+      "diff": "M"
+     },
+     {
+      "id": "ma-partial-differential-equations--heat-equation-cauchy-problem",
+      "name": "Heat equation: Cauchy problem",
+      "diff": "M"
+     },
+     {
+      "id": "ma-partial-differential-equations--laplace-and-fourier-transform-methods",
+      "name": "Laplace and Fourier transform methods",
+      "diff": "H"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "ma-topology",
+  "name": "Topology",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Topology",
+    "topics": [
+     {
+      "id": "ma-topology--basic-concepts-of-topology",
+      "name": "Basic concepts of topology",
+      "diff": "E",
+      "sample": true
+     },
+     {
+      "id": "ma-topology--bases",
+      "name": "Bases",
+      "diff": "E"
+     },
+     {
+      "id": "ma-topology--subbases",
+      "name": "Subbases",
+      "diff": "E"
+     },
+     {
+      "id": "ma-topology--subspace-topology",
+      "name": "Subspace topology",
+      "diff": "E"
+     },
+     {
+      "id": "ma-topology--order-topology",
+      "name": "Order topology",
+      "diff": "E"
+     },
+     {
+      "id": "ma-topology--product-topology",
+      "name": "Product topology",
+      "diff": "E"
+     },
+     {
+      "id": "ma-topology--quotient-topology",
+      "name": "Quotient topology",
+      "diff": "E"
+     },
+     {
+      "id": "ma-topology--metric-topology",
+      "name": "Metric topology",
+      "diff": "E"
+     },
+     {
+      "id": "ma-topology--connectedness",
+      "name": "Connectedness",
+      "diff": "E"
+     },
+     {
+      "id": "ma-topology--path-connectedness",
+      "name": "Path connectedness",
+      "diff": "M"
+     },
+     {
+      "id": "ma-topology--compactness",
+      "name": "Compactness",
+      "diff": "E"
+     },
+     {
+      "id": "ma-topology--sequentially-compact",
+      "name": "Sequentially compact",
+      "diff": "M"
+     },
+     {
+      "id": "ma-topology--limit-point-compact",
+      "name": "Limit point compact",
+      "diff": "M"
+     },
+     {
+      "id": "ma-topology--tychonoff-theorem",
+      "name": "Tychonoff theorem",
+      "diff": "E"
+     },
+     {
+      "id": "ma-topology--countability-and-separation-axioms",
+      "name": "Countability and separation axioms",
+      "diff": "M"
+     },
+     {
+      "id": "ma-topology--urysohns-lemma",
+      "name": "Urysohn’s Lemma",
+      "diff": "E"
+     },
+     {
+      "id": "ma-topology--tietze-extension-theorem",
+      "name": "Tietze extension theorem",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "ma-linear-programming",
+  "name": "Linear Programming",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Linear Programming",
+    "topics": [
+     {
+      "id": "ma-linear-programming--linear-programming-models-convex-sets-extreme-points",
+      "name": "Linear programming models, convex sets, extreme points",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "ma-linear-programming--basic-feasible-solution",
+      "name": "Basic feasible solution",
+      "diff": "E"
+     },
+     {
+      "id": "ma-linear-programming--graphical-method",
+      "name": "Graphical method",
+      "diff": "E"
+     },
+     {
+      "id": "ma-linear-programming--simplex-method",
+      "name": "Simplex method",
+      "diff": "E"
+     },
+     {
+      "id": "ma-linear-programming--two-phase-methods",
+      "name": "Two phase methods",
+      "diff": "E"
+     },
+     {
+      "id": "ma-linear-programming--revised-simplex-method",
+      "name": "Revised simplex method",
+      "diff": "M"
+     },
+     {
+      "id": "ma-linear-programming--infeasible-and-unbounded-linear-programming-models-alternate",
+      "name": "Infeasible and unbounded linear programming models, alternate optima",
+      "diff": "M"
+     },
+     {
+      "id": "ma-linear-programming--duality-theory-weak-dualit-y-and-strong-duality",
+      "name": "Duality theory, weak dualit y and strong duality",
+      "diff": "M"
+     },
+     {
+      "id": "ma-linear-programming--balanced-and-unbalanced-transportation-problems",
+      "name": "Balanced and unbalanced transportation problems",
+      "diff": "M"
+     },
+     {
+      "id": "ma-linear-programming--initial-basic-feasible-solution-of-balanced-transportation-p",
+      "name": "Initial basic feasible solution of balanced transportation problems (least cost method, north-west corner rule, V ogel’s approximation method)",
+      "diff": "E"
+     },
+     {
+      "id": "ma-linear-programming--optimal-solution-modified-distribution-me-thod",
+      "name": "Optimal solution, modified distribution me thod",
+      "diff": "M"
+     },
+     {
+      "id": "ma-linear-programming--solving-assignment-problems-hungarian-method",
+      "name": "Solving assignment problems, Hungarian method",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ }
+]

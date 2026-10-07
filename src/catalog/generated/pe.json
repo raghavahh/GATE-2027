@@ -1,0 +1,1112 @@
+[
+ {
+  "id": "pe-engineering-mathematics",
+  "name": "Engineering Mathematics",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Linear Algebra",
+    "topics": [
+     {
+      "id": "pe-engineering-mathematics--matrix-algebra",
+      "name": "Matrix algebra",
+      "diff": "E",
+      "sample": true
+     },
+     {
+      "id": "pe-engineering-mathematics--systems-of-linear-equations",
+      "name": "Systems of linear equations",
+      "diff": "M"
+     },
+     {
+      "id": "pe-engineering-mathematics--eigenvalues-and-eigenvectors",
+      "name": "Eigenvalues and eigenvectors",
+      "diff": "H"
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Calculus",
+    "topics": [
+     {
+      "id": "pe-engineering-mathematics--functions-of-single-variable",
+      "name": "Functions of single variable",
+      "diff": "M"
+     },
+     {
+      "id": "pe-engineering-mathematics--limit-continuity-and-differentiability",
+      "name": "Limit, continuity and differentiability",
+      "diff": "M"
+     },
+     {
+      "id": "pe-engineering-mathematics--taylor-series",
+      "name": "Taylor series",
+      "diff": "E"
+     },
+     {
+      "id": "pe-engineering-mathematics--mean-value-theorems",
+      "name": "Mean value theorems",
+      "diff": "M"
+     },
+     {
+      "id": "pe-engineering-mathematics--evaluation-of-definite-and-improper-integrals",
+      "name": "Evaluation of definite and improper integrals",
+      "diff": "M"
+     },
+     {
+      "id": "pe-engineering-mathematics--partial-derivative-total-derivative",
+      "name": "Partial derivative, Total derivative",
+      "diff": "M"
+     },
+     {
+      "id": "pe-engineering-mathematics--maxima-and-minima",
+      "name": "Maxima and minima",
+      "diff": "E"
+     },
+     {
+      "id": "pe-engineering-mathematics--gradient-divergence-and-curl",
+      "name": "Gradient, divergence and curl",
+      "diff": "M"
+     },
+     {
+      "id": "pe-engineering-mathematics--vector-identities",
+      "name": "Vector identities",
+      "diff": "E"
+     },
+     {
+      "id": "pe-engineering-mathematics--directional-derivatives",
+      "name": "Directional derivatives",
+      "diff": "M"
+     },
+     {
+      "id": "pe-engineering-mathematics--line-surface-and-volume-integrals",
+      "name": "Line, surface and volume integrals",
+      "diff": "M"
+     },
+     {
+      "id": "pe-engineering-mathematics--stokes-gauss-and-greens-theorems",
+      "name": "Stokes, Gauss and Green’s theorems",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "C",
+    "name": "Differential Equations",
+    "topics": [
+     {
+      "id": "pe-engineering-mathematics--first-order-equations-linear-and-nonlinear",
+      "name": "First order equations: linear and nonlinear",
+      "diff": "H"
+     },
+     {
+      "id": "pe-engineering-mathematics--higher-order-linear-differential-equations-with-constant-coe",
+      "name": "Higher order linear differential equations with constant coefficients",
+      "diff": "M"
+     },
+     {
+      "id": "pe-engineering-mathematics--cauchys-and-eulers-equations",
+      "name": "Cauchy’s and Euler’s equations",
+      "diff": "M"
+     },
+     {
+      "id": "pe-engineering-mathematics--initial-and-boundary-value-problems",
+      "name": "Initial and boundary value problems",
+      "diff": "M"
+     },
+     {
+      "id": "pe-engineering-mathematics--laplace-transform",
+      "name": "Laplace transform",
+      "diff": "H"
+     },
+     {
+      "id": "pe-engineering-mathematics--solution-of-one-dimensional-diffusivity-equation-and-laplace",
+      "name": "Solution of one-dimensional diffusivity equation and Laplace equation",
+      "diff": "H"
+     }
+    ]
+   },
+   {
+    "letter": "D",
+    "name": "Complex Variables",
+    "topics": [
+     {
+      "id": "pe-engineering-mathematics--complex-number",
+      "name": "Complex number",
+      "diff": "E"
+     },
+     {
+      "id": "pe-engineering-mathematics--polar-form-of-complex-number",
+      "name": "Polar form of complex number",
+      "diff": "M"
+     },
+     {
+      "id": "pe-engineering-mathematics--triangle-inequality",
+      "name": "Triangle inequality",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "E",
+    "name": "Probability and Statistics",
+    "topics": [
+     {
+      "id": "pe-engineering-mathematics--definitions-of-pr-obability-and-sampling-theorems",
+      "name": "Definitions of pr obability and sampling theorems",
+      "diff": "M"
+     },
+     {
+      "id": "pe-engineering-mathematics--conditional-probability",
+      "name": "Conditional probability",
+      "diff": "M"
+     },
+     {
+      "id": "pe-engineering-mathematics--mean-median-mode-and-standard-deviation",
+      "name": "Mean, median, mode and standard deviation",
+      "diff": "M"
+     },
+     {
+      "id": "pe-engineering-mathematics--random-variables",
+      "name": "Random variables",
+      "diff": "E"
+     },
+     {
+      "id": "pe-engineering-mathematics--poisson-normal-and-binomial-distributions",
+      "name": "Poisson, normal and binomial distributions",
+      "diff": "M"
+     },
+     {
+      "id": "pe-engineering-mathematics--linear-regression-analysis",
+      "name": "Linear regression analysis",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "F",
+    "name": "Numerical Methods",
+    "topics": [
+     {
+      "id": "pe-engineering-mathematics--numerical-solutions-of-linear-and-non-linear-algebraic-equat",
+      "name": "Numerical solutions of linear and non-linear algebraic equations",
+      "diff": "M"
+     },
+     {
+      "id": "pe-engineering-mathematics--integration-by-trapezoidal-and-simpsons-rule",
+      "name": "Integration by trapezoidal and Simpson’s rule",
+      "diff": "M"
+     },
+     {
+      "id": "pe-engineering-mathematics--single-and-multi-step-methods-for-numerical-solution-of-diff",
+      "name": "Single and multi-step methods for numerical solution of differential equations",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "pe-petroleum-exploration",
+  "name": "Petroleum Exploration",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Petroleum Exploration",
+    "topics": [
+     {
+      "id": "pe-petroleum-exploration--classification-and-description-of-some-common-rocks-with-spe",
+      "name": "Classification and description of some common rocks with special reference to clastic and non -clastic reservoir rocks",
+      "diff": "E",
+      "sample": true
+     },
+     {
+      "id": "pe-petroleum-exploration--origin-migration-and-accumulation-of-petroleum",
+      "name": "Origin, migration and accumulation of petroleum",
+      "diff": "M"
+     },
+     {
+      "id": "pe-petroleum-exploration--petroleum-exploration-methods",
+      "name": "Petroleum exploration methods",
+      "diff": "M"
+     },
+     {
+      "id": "pe-petroleum-exploration--petroleum-resource-classification-and-evaluation",
+      "name": "Petroleum resource classification and evaluation",
+      "diff": "E"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "pe-oil-and-gas-well-drilling-tech",
+  "name": "Oil and Gas Well Drilling Technology",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Oil and Gas Well Drilling Technology",
+    "topics": [
+     {
+      "id": "pe-oil-and-gas-well-drilling-tech--well-planning",
+      "name": "Well planning",
+      "diff": "E",
+      "sample": true
+     },
+     {
+      "id": "pe-oil-and-gas-well-drilling-tech--drilling-methods",
+      "name": "Drilling methods",
+      "diff": "E"
+     },
+     {
+      "id": "pe-oil-and-gas-well-drilling-tech--drilling-rigs",
+      "name": "Drilling rigs",
+      "diff": "E"
+     },
+     {
+      "id": "pe-oil-and-gas-well-drilling-tech--rig-operating-systems",
+      "name": "Rig operating systems",
+      "diff": "M"
+     },
+     {
+      "id": "pe-oil-and-gas-well-drilling-tech--drilling-fluids-function-and-properties",
+      "name": "Drilling fluids, function and properties",
+      "diff": "M"
+     },
+     {
+      "id": "pe-oil-and-gas-well-drilling-tech--drilling-fluid-maintenance-equipment",
+      "name": "Drilling fluid maintenance equipment",
+      "diff": "M"
+     },
+     {
+      "id": "pe-oil-and-gas-well-drilling-tech--oil-and-gas-well-cementing-operations",
+      "name": "Oil and gas well cementing operations",
+      "diff": "M"
+     },
+     {
+      "id": "pe-oil-and-gas-well-drilling-tech--drill-bit-types-and-their-applications",
+      "name": "Drill bit types and their applications",
+      "diff": "M"
+     },
+     {
+      "id": "pe-oil-and-gas-well-drilling-tech--drill-string-and-casing-string-function",
+      "name": "Drill string and casing string function",
+      "diff": "M"
+     },
+     {
+      "id": "pe-oil-and-gas-well-drilling-tech--operation",
+      "name": "Operation",
+      "diff": "E"
+     },
+     {
+      "id": "pe-oil-and-gas-well-drilling-tech--selection-and-design",
+      "name": "Selection and design",
+      "diff": "M"
+     },
+     {
+      "id": "pe-oil-and-gas-well-drilling-tech--drilling-problems-their-control-and-remedies",
+      "name": "Drilling problems, their control and remedies",
+      "diff": "M"
+     },
+     {
+      "id": "pe-oil-and-gas-well-drilling-tech--directional-drilling-tools",
+      "name": "Directional drilling tools",
+      "diff": "M"
+     },
+     {
+      "id": "pe-oil-and-gas-well-drilling-tech--directional-survey",
+      "name": "Directional survey",
+      "diff": "M"
+     },
+     {
+      "id": "pe-oil-and-gas-well-drilling-tech--application-of-horizontal-multilateral-extended-reach",
+      "name": "Application of horizontal, multilateral, extended reach",
+      "diff": "M"
+     },
+     {
+      "id": "pe-oil-and-gas-well-drilling-tech--slim-wells",
+      "name": "Slim wells",
+      "diff": "E"
+     },
+     {
+      "id": "pe-oil-and-gas-well-drilling-tech--intelligent-drilling-and-completion-techniques-image-assiste",
+      "name": "Intelligent drilling and completion techniques: image assisted drilling",
+      "diff": "M"
+     },
+     {
+      "id": "pe-oil-and-gas-well-drilling-tech--managed-pressure-drilling",
+      "name": "Managed pressure drilling",
+      "diff": "M"
+     },
+     {
+      "id": "pe-oil-and-gas-well-drilling-tech--underbalanced-drilling",
+      "name": "Underbalanced drilling",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "pe-reservoir-engineering",
+  "name": "Reservoir Engineering",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Reservoir Engineering",
+    "topics": [
+     {
+      "id": "pe-reservoir-engineering--petrophysical-properties-of-reservoir-rocks",
+      "name": "Petrophysical properties of reservoir rocks",
+      "diff": "E",
+      "sample": true
+     },
+     {
+      "id": "pe-reservoir-engineering--coring-and-core-analysis",
+      "name": "Coring and core analysis",
+      "diff": "M"
+     },
+     {
+      "id": "pe-reservoir-engineering--reservoir-fluid-properties",
+      "name": "Reservoir fluid properties",
+      "diff": "M"
+     },
+     {
+      "id": "pe-reservoir-engineering--phase-behaviour-of-a-hydrocarbon-system",
+      "name": "Phase behaviour of a hydrocarbon system",
+      "diff": "M"
+     },
+     {
+      "id": "pe-reservoir-engineering--single-phase-and-multiphase-flow-through-porous-media",
+      "name": "Single phase and multiphase flow through porous media",
+      "diff": "M"
+     },
+     {
+      "id": "pe-reservoir-engineering--water-and-gas-coning",
+      "name": "Water and gas coning",
+      "diff": "M"
+     },
+     {
+      "id": "pe-reservoir-engineering--reservoir-pressure-measurement",
+      "name": "Reservoir pressure measurement",
+      "diff": "M"
+     },
+     {
+      "id": "pe-reservoir-engineering--reservoir-drives-drive-mechanisms-and-recovery-factors",
+      "name": "Reservoir drives, drive mechanisms and recovery factors",
+      "diff": "M"
+     },
+     {
+      "id": "pe-reservoir-engineering--theory-of-material-balance",
+      "name": "Theory of material balance",
+      "diff": "M"
+     },
+     {
+      "id": "pe-reservoir-engineering--reserve-estimation-and-techniques",
+      "name": "Reserve estimation and techniques",
+      "diff": "M"
+     },
+     {
+      "id": "pe-reservoir-engineering--field-development-and-reservoir-management",
+      "name": "Field development and reservoir management",
+      "diff": "M"
+     },
+     {
+      "id": "pe-reservoir-engineering--reservoir-geomechanics-stress-analysis-and-fracturing",
+      "name": "Reservoir geomechanics: Stress analysis and fracturing",
+      "diff": "M"
+     },
+     {
+      "id": "pe-reservoir-engineering--basics-of-reservoir-simulation-mathematical-models",
+      "name": "Basics of reservoir simulation: mathematical models",
+      "diff": "M"
+     },
+     {
+      "id": "pe-reservoir-engineering--finite-difference-discretization",
+      "name": "Finite difference discretization",
+      "diff": "M"
+     },
+     {
+      "id": "pe-reservoir-engineering--cartesian-and-radial-grid-systems",
+      "name": "Cartesian and radial grid systems",
+      "diff": "M"
+     },
+     {
+      "id": "pe-reservoir-engineering--black-oil-reservoir-simulation",
+      "name": "Black oil reservoir simulation",
+      "diff": "M"
+     },
+     {
+      "id": "pe-reservoir-engineering--history-matching",
+      "name": "History matching",
+      "diff": "E"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "pe-petroleum-production-operation",
+  "name": "Petroleum Production Operations",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Petroleum Production Operations",
+    "topics": [
+     {
+      "id": "pe-petroleum-production-operation--well-equipment",
+      "name": "Well equipment",
+      "diff": "E",
+      "sample": true
+     },
+     {
+      "id": "pe-petroleum-production-operation--well-completion-techniques",
+      "name": "Well completion techniques",
+      "diff": "M"
+     },
+     {
+      "id": "pe-petroleum-production-operation--well-production-problems-and-mitigation",
+      "name": "Well production problems and mitigation",
+      "diff": "M"
+     },
+     {
+      "id": "pe-petroleum-production-operation--well-servicing-and-workover-operations",
+      "name": "Well servicing and Workover operations",
+      "diff": "M"
+     },
+     {
+      "id": "pe-petroleum-production-operation--workover-and-completion-fluids",
+      "name": "Workover and completion fluids",
+      "diff": "M"
+     },
+     {
+      "id": "pe-petroleum-production-operation--formation-damage",
+      "name": "Formation damage",
+      "diff": "E"
+     },
+     {
+      "id": "pe-petroleum-production-operation--well-stimulation-techniques",
+      "name": "Well stimulation techniques",
+      "diff": "M"
+     },
+     {
+      "id": "pe-petroleum-production-operation--artificial-lift-techniques",
+      "name": "Artificial lift techniques",
+      "diff": "M"
+     },
+     {
+      "id": "pe-petroleum-production-operation--field-processing-of-oil-and-gas",
+      "name": "Field processing of oil and gas",
+      "diff": "M"
+     },
+     {
+      "id": "pe-petroleum-production-operation--storage-and-transportation-of-petroleum-and-petroleum-produc",
+      "name": "Storage and transportation of petroleum and petroleum products",
+      "diff": "M"
+     },
+     {
+      "id": "pe-petroleum-production-operation--metering-and-measurements-of-oil-and-gas",
+      "name": "Metering and measurements of oil and gas",
+      "diff": "M"
+     },
+     {
+      "id": "pe-petroleum-production-operation--production-system-analysis-and-optimization-including-inflow",
+      "name": "Production system analysis and optimization including inflow performance",
+      "diff": "H"
+     },
+     {
+      "id": "pe-petroleum-production-operation--tubing-performance",
+      "name": "Tubing performance",
+      "diff": "M"
+     },
+     {
+      "id": "pe-petroleum-production-operation--nodal-analysis",
+      "name": "Nodal analysis",
+      "diff": "E"
+     },
+     {
+      "id": "pe-petroleum-production-operation--production-testing",
+      "name": "Production testing",
+      "diff": "M"
+     },
+     {
+      "id": "pe-petroleum-production-operation--multiphase-flow-in-tubing-and-flowlines",
+      "name": "Multiphase flow in tubing and flowlines",
+      "diff": "M"
+     },
+     {
+      "id": "pe-petroleum-production-operation--flow-assurance-problems-and-remedies",
+      "name": "Flow assurance: Problems and remedies",
+      "diff": "M"
+     },
+     {
+      "id": "pe-petroleum-production-operation--pressure-vessels",
+      "name": "Pressure vessels",
+      "diff": "E"
+     },
+     {
+      "id": "pe-petroleum-production-operation--storage-tanks",
+      "name": "Storage tanks",
+      "diff": "E"
+     },
+     {
+      "id": "pe-petroleum-production-operation--shell-and-tube-heat-exchangers",
+      "name": "Shell and tube heat exchangers",
+      "diff": "M"
+     },
+     {
+      "id": "pe-petroleum-production-operation--pumps-and-compressors",
+      "name": "Pumps and compressors",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "pe-offshore-drilling-and-producti",
+  "name": "Offshore Drilling and Production Practices",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Offshore Drilling and Production Practices",
+    "topics": [
+     {
+      "id": "pe-offshore-drilling-and-producti--offshore-oil-and-gas-operations-and-ocean-environment",
+      "name": "Offshore oil and gas operations and ocean environment",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "pe-offshore-drilling-and-producti--buoyancy-and-stability",
+      "name": "Buoyancy and stability",
+      "diff": "H"
+     },
+     {
+      "id": "pe-offshore-drilling-and-producti--offshore-fixed-platforms",
+      "name": "Offshore fixed platforms",
+      "diff": "M"
+     },
+     {
+      "id": "pe-offshore-drilling-and-producti--offshore-mobile-units",
+      "name": "Offshore mobile units",
+      "diff": "E"
+     },
+     {
+      "id": "pe-offshore-drilling-and-producti--station-keeping-methods-like-mooring-and-dynamic-positioning",
+      "name": "Station keeping methods like mooring and dynamic positioning system",
+      "diff": "M"
+     },
+     {
+      "id": "pe-offshore-drilling-and-producti--offshore-drilling-from-fixed-platform",
+      "name": "Offshore drilling from fixed platform",
+      "diff": "M"
+     },
+     {
+      "id": "pe-offshore-drilling-and-producti--jack-up",
+      "name": "Jack -up",
+      "diff": "E"
+     },
+     {
+      "id": "pe-offshore-drilling-and-producti--ships-and-semi-submersibles",
+      "name": "Ships and semi submersibles",
+      "diff": "M"
+     },
+     {
+      "id": "pe-offshore-drilling-and-producti--use-of-conductors-risers-and-umbilicals",
+      "name": "Use of conductors, risers and umbilicals",
+      "diff": "M"
+     },
+     {
+      "id": "pe-offshore-drilling-and-producti--offshore-well-completion",
+      "name": "Offshore well completion",
+      "diff": "M"
+     },
+     {
+      "id": "pe-offshore-drilling-and-producti--deep-water-applications-of-subsea-technology",
+      "name": "Deep water applications of subsea technology",
+      "diff": "M"
+     },
+     {
+      "id": "pe-offshore-drilling-and-producti--offshore-production-oil-processing-platforms",
+      "name": "Offshore production: Oil processing platforms",
+      "diff": "M"
+     },
+     {
+      "id": "pe-offshore-drilling-and-producti--water-injection-platforms",
+      "name": "Water injection platforms",
+      "diff": "M"
+     },
+     {
+      "id": "pe-offshore-drilling-and-producti--storage",
+      "name": "Storage",
+      "diff": "E"
+     },
+     {
+      "id": "pe-offshore-drilling-and-producti--single-point-mooring-spm-and-single-buoy-mooring-sbm",
+      "name": "Single Point Mooring (SPM) and Single Buoy Mooring (SBM)",
+      "diff": "M"
+     },
+     {
+      "id": "pe-offshore-drilling-and-producti--transportation-and-utilities",
+      "name": "Transportation and utilities",
+      "diff": "M"
+     },
+     {
+      "id": "pe-offshore-drilling-and-producti--deep-water-drilling-and-production-system",
+      "name": "Deep water drilling and production system",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "pe-petroleum-formation-evaluation",
+  "name": "Petroleum Formation Evaluation",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Petrophysical evaluation of sub -surface formations",
+    "topics": [
+     {
+      "id": "pe-petroleum-formation-evaluation--principles",
+      "name": "Principles",
+      "diff": "E",
+      "sample": true
+     },
+     {
+      "id": "pe-petroleum-formation-evaluation--applications",
+      "name": "Applications",
+      "diff": "E"
+     },
+     {
+      "id": "pe-petroleum-formation-evaluation--advantages-and-disadvantages-of-spontaneous-potential-sp",
+      "name": "Advantages and disadvantages of Spontaneous Potential (SP)",
+      "diff": "M"
+     },
+     {
+      "id": "pe-petroleum-formation-evaluation--resistivity",
+      "name": "Resistivity",
+      "diff": "E"
+     },
+     {
+      "id": "pe-petroleum-formation-evaluation--radioactive",
+      "name": "Radioactive",
+      "diff": "E"
+     },
+     {
+      "id": "pe-petroleum-formation-evaluation--acoustic-logs",
+      "name": "Acoustic logs",
+      "diff": "E"
+     },
+     {
+      "id": "pe-petroleum-formation-evaluation--gamma-ray-logs-and-types-of-tools-used",
+      "name": "Gamma ray logs and types of tools used",
+      "diff": "E"
+     },
+     {
+      "id": "pe-petroleum-formation-evaluation--logging-while-drilling-lwd",
+      "name": "Logging While Drilling (LWD)",
+      "diff": "M"
+     },
+     {
+      "id": "pe-petroleum-formation-evaluation--evaluation-of-cement-bond-long-cbl-variable-density-log-vdl",
+      "name": "Evaluation of Cement Bond Long ( CBL)/ Variable Density Log ( VDL)",
+      "diff": "M"
+     },
+     {
+      "id": "pe-petroleum-formation-evaluation--ultrasonic-imager-tool-usit",
+      "name": "Ultrasonic Imager Tool (USIT)",
+      "diff": "M"
+     },
+     {
+      "id": "pe-petroleum-formation-evaluation--segmented-frequency-tool-sft",
+      "name": "Segmented Frequency Tool (SFT)",
+      "diff": "M"
+     },
+     {
+      "id": "pe-petroleum-formation-evaluation--repeat-formation-tester-rft",
+      "name": "Repeat Formation Tester (RFT)",
+      "diff": "M"
+     },
+     {
+      "id": "pe-petroleum-formation-evaluation--production-logging-tools-principles-limitations-and-applicat",
+      "name": "Production logging tools, principles, limitations and applications",
+      "diff": "M"
+     },
+     {
+      "id": "pe-petroleum-formation-evaluation--special-types-of-logging-tools",
+      "name": "Special types of logging tools",
+      "diff": "E"
+     },
+     {
+      "id": "pe-petroleum-formation-evaluation--casing-inspection-tools-principles-applications-and-limitati",
+      "name": "Casing inspection tools : principles, applications and limitations",
+      "diff": "M"
+     },
+     {
+      "id": "pe-petroleum-formation-evaluation--formations-micro-scanner-fms",
+      "name": "Formations micro scanner (FMS)",
+      "diff": "M"
+     },
+     {
+      "id": "pe-petroleum-formation-evaluation--nuclear-magnetic-resonance-nmr-logging-principles",
+      "name": "Nuclear Magnetic Resonance (NMR) logging principles",
+      "diff": "M"
+     },
+     {
+      "id": "pe-petroleum-formation-evaluation--standard-log-interpretation-methods",
+      "name": "Standard log interpretation methods",
+      "diff": "M"
+     },
+     {
+      "id": "pe-petroleum-formation-evaluation--cross-plotting-methods",
+      "name": "Cross-plotting methods",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "pe-oil-and-gas-well-testing",
+  "name": "Oil and Gas Well Testing",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Oil and Gas Well Testing",
+    "topics": [
+     {
+      "id": "pe-oil-and-gas-well-testing--diffusivity-equation-and-its-solutions",
+      "name": "Diffusivity equation and its solutions",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "pe-oil-and-gas-well-testing--radius-of-investigation",
+      "name": "Radius of investigation",
+      "diff": "M"
+     },
+     {
+      "id": "pe-oil-and-gas-well-testing--principle-of-superposition",
+      "name": "Principle of superposition",
+      "diff": "M"
+     },
+     {
+      "id": "pe-oil-and-gas-well-testing--horners-approximation",
+      "name": "Horner’s approximation",
+      "diff": "M"
+     },
+     {
+      "id": "pe-oil-and-gas-well-testing--drill-stem-testing",
+      "name": "Drill stem testing",
+      "diff": "M"
+     },
+     {
+      "id": "pe-oil-and-gas-well-testing--pressure-transient-tests-drawdown-and-build-up-test-analysis",
+      "name": "Pressure transient tests: drawdown and build up -test analysis",
+      "diff": "M"
+     },
+     {
+      "id": "pe-oil-and-gas-well-testing--pressure-derivative-analysis",
+      "name": "Pressure derivative analysis",
+      "diff": "M"
+     },
+     {
+      "id": "pe-oil-and-gas-well-testing--wellbore-effects",
+      "name": "Wellbore effects",
+      "diff": "E"
+     },
+     {
+      "id": "pe-oil-and-gas-well-testing--multilayer-reservoirs",
+      "name": "Multilayer reservoirs",
+      "diff": "M"
+     },
+     {
+      "id": "pe-oil-and-gas-well-testing--injection-well-testing",
+      "name": "Injection well testing",
+      "diff": "M"
+     },
+     {
+      "id": "pe-oil-and-gas-well-testing--multiple-well-testing",
+      "name": "Multiple well testing",
+      "diff": "M"
+     },
+     {
+      "id": "pe-oil-and-gas-well-testing--interference-testing",
+      "name": "Interference testing",
+      "diff": "M"
+     },
+     {
+      "id": "pe-oil-and-gas-well-testing--pulse-testing",
+      "name": "Pulse testing",
+      "diff": "E"
+     },
+     {
+      "id": "pe-oil-and-gas-well-testing--well-test-analysis-by-use-of-type-curves",
+      "name": "Well-test analysis by use of type curves",
+      "diff": "M"
+     },
+     {
+      "id": "pe-oil-and-gas-well-testing--gas-well-testing",
+      "name": "Gas well testing",
+      "diff": "E"
+     },
+     {
+      "id": "pe-oil-and-gas-well-testing--inflow-testing",
+      "name": "Inflow testing",
+      "diff": "E"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "pe-health-safety-and-environment-",
+  "name": "Health Safety and Environment in Petroleum Industry",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Health hazards in Petroleum Industry",
+    "topics": [
+     {
+      "id": "pe-health-safety-and-environment---toxicity",
+      "name": "Toxicity",
+      "diff": "E",
+      "sample": true
+     },
+     {
+      "id": "pe-health-safety-and-environment---physiological",
+      "name": "Physiological",
+      "diff": "E"
+     },
+     {
+      "id": "pe-health-safety-and-environment---asphyxiation",
+      "name": "Asphyxiation",
+      "diff": "E"
+     },
+     {
+      "id": "pe-health-safety-and-environment---respiratory-and-skin-effect-of-petroleum-hydrocarbons",
+      "name": "Respiratory and skin effect of petroleum hydrocarbons",
+      "diff": "M"
+     },
+     {
+      "id": "pe-health-safety-and-environment---sour-gases",
+      "name": "Sour gases",
+      "diff": "E"
+     },
+     {
+      "id": "pe-health-safety-and-environment---safety-system-manual-and-automatic-shutdown-system-blow-down",
+      "name": "Safety System: manual and automatic shutdown system, blow down systems",
+      "diff": "M"
+     },
+     {
+      "id": "pe-health-safety-and-environment---gas-detection-system",
+      "name": "Gas detection system",
+      "diff": "M"
+     },
+     {
+      "id": "pe-health-safety-and-environment---fire-detection-and-suppression-systems",
+      "name": "Fire detection and suppression systems",
+      "diff": "M"
+     },
+     {
+      "id": "pe-health-safety-and-environment---personal-protection-system-and-measures",
+      "name": "Personal protection system and measures",
+      "diff": "M"
+     },
+     {
+      "id": "pe-health-safety-and-environment---health-safety-and-environment-hse-policies",
+      "name": "Health, Safety and Environment ( HSE) policies",
+      "diff": "M"
+     },
+     {
+      "id": "pe-health-safety-and-environment---disaster-and-crisis-management-in-petroleum-industry",
+      "name": "Disaster and crisis management in petroleum industry",
+      "diff": "M"
+     },
+     {
+      "id": "pe-health-safety-and-environment---environment-environment-concepts",
+      "name": "Environment: Environment concepts",
+      "diff": "M"
+     },
+     {
+      "id": "pe-health-safety-and-environment---impact-on-ecosystem",
+      "name": "Impact on ecosystem",
+      "diff": "M"
+     },
+     {
+      "id": "pe-health-safety-and-environment---air",
+      "name": "Air",
+      "diff": "E"
+     },
+     {
+      "id": "pe-health-safety-and-environment---water-and-soil",
+      "name": "Water and soil",
+      "diff": "E"
+     },
+     {
+      "id": "pe-health-safety-and-environment---the-impact-of-drilling-and-production-operations-on-environm",
+      "name": "The impact of drilling and production operations on environment",
+      "diff": "M"
+     },
+     {
+      "id": "pe-health-safety-and-environment---environmental-transport-of-petroleum-wastes",
+      "name": "Environmental transport of petroleum wastes",
+      "diff": "M"
+     },
+     {
+      "id": "pe-health-safety-and-environment---offshore-environmental-studies",
+      "name": "Offshore environmental studies",
+      "diff": "M"
+     },
+     {
+      "id": "pe-health-safety-and-environment---offshore-oil-spill-and-oil-spill-control",
+      "name": "Offshore oil-spill and oil-spill control",
+      "diff": "M"
+     },
+     {
+      "id": "pe-health-safety-and-environment---environmental-regulations-and-compliance",
+      "name": "Environmental regulations and compliance",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "pe-enhanced-oil-recovery-techniqu",
+  "name": "Enhanced Oil Recovery Techniques",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Enhanced Oil Recovery Techniques",
+    "topics": [
+     {
+      "id": "pe-enhanced-oil-recovery-techniqu--basic-principles-and-mechanism-of-enhanced-oil-recovery-eor",
+      "name": "Basic principles and mechanism of Enhanced Oil Recovery ( EOR)",
+      "diff": "E",
+      "sample": true
+     },
+     {
+      "id": "pe-enhanced-oil-recovery-techniqu--screening-of-eor-process-es",
+      "name": "Screening of EOR process es",
+      "diff": "M"
+     },
+     {
+      "id": "pe-enhanced-oil-recovery-techniqu--concept-of-pattern-flooding",
+      "name": "Concept of pattern flooding",
+      "diff": "M"
+     },
+     {
+      "id": "pe-enhanced-oil-recovery-techniqu--recovery-efficiency",
+      "name": "Recovery efficiency",
+      "diff": "M"
+     },
+     {
+      "id": "pe-enhanced-oil-recovery-techniqu--permeability-heterogeneity",
+      "name": "Permeability heterogeneity",
+      "diff": "M"
+     },
+     {
+      "id": "pe-enhanced-oil-recovery-techniqu--macroscopic-and-microscopic-displacement-efficiency",
+      "name": "Macroscopic and microscopic displacement efficiency",
+      "diff": "M"
+     },
+     {
+      "id": "pe-enhanced-oil-recovery-techniqu--eor-methods-chemical-flooding",
+      "name": "EOR methods: chemical flooding",
+      "diff": "M"
+     },
+     {
+      "id": "pe-enhanced-oil-recovery-techniqu--miscible-flooding",
+      "name": "Miscible flooding",
+      "diff": "E"
+     },
+     {
+      "id": "pe-enhanced-oil-recovery-techniqu--thermal-recoveries-steam-stimulation-hot-water-and-steam-flo",
+      "name": "Thermal recoveries (steam stimulation, hot water and steam flooding, in-situ combustion)",
+      "diff": "M"
+     },
+     {
+      "id": "pe-enhanced-oil-recovery-techniqu--microbial-eor",
+      "name": "Microbial EOR",
+      "diff": "E"
+     },
+     {
+      "id": "pe-enhanced-oil-recovery-techniqu--low-salinity-water-flooding",
+      "name": "Low salinity water flooding",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "pe-latest-trends-in-petroleum-eng",
+  "name": "Latest Trends in Petroleum Engineering",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Latest Trends in Petroleum Engineering",
+    "topics": [
+     {
+      "id": "pe-latest-trends-in-petroleum-eng--coal-bed-methane",
+      "name": "Coal bed methane",
+      "diff": "E",
+      "sample": true
+     },
+     {
+      "id": "pe-latest-trends-in-petroleum-eng--shale-gas",
+      "name": "Shale gas",
+      "diff": "E"
+     },
+     {
+      "id": "pe-latest-trends-in-petroleum-eng--oil-shale",
+      "name": "Oil shale",
+      "diff": "E"
+     },
+     {
+      "id": "pe-latest-trends-in-petroleum-eng--gas-hydrate",
+      "name": "Gas hydrate",
+      "diff": "E"
+     },
+     {
+      "id": "pe-latest-trends-in-petroleum-eng--heavy-oil",
+      "name": "Heavy oil",
+      "diff": "E"
+     },
+     {
+      "id": "pe-latest-trends-in-petroleum-eng--physical-and-chemical-trapping-of-co-2-in-underground-reserv",
+      "name": "Physical and chemical trapping of CO 2 in underground reservoirs",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ }
+]

@@ -1,0 +1,492 @@
+[
+ {
+  "id": "ge-common-section",
+  "name": "Common Section",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Engineering Mathematics",
+    "topics": [
+     {
+      "id": "ge-common-section--surveying-measurements",
+      "name": "Surveying measurements",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "ge-common-section--accuracy",
+      "name": "Accuracy",
+      "diff": "E"
+     },
+     {
+      "id": "ge-common-section--precision",
+      "name": "Precision",
+      "diff": "E"
+     },
+     {
+      "id": "ge-common-section--most-probable-value",
+      "name": "Most probable value",
+      "diff": "M"
+     },
+     {
+      "id": "ge-common-section--errors-and-their-adjustments",
+      "name": "Errors and their adjustments",
+      "diff": "M"
+     },
+     {
+      "id": "ge-common-section--regression-analysis",
+      "name": "Regression analysis",
+      "diff": "M"
+     },
+     {
+      "id": "ge-common-section--correlation-coefficient",
+      "name": "Correlation coefficient",
+      "diff": "M"
+     },
+     {
+      "id": "ge-common-section--least-squares-adjustment",
+      "name": "Least squares adjustment",
+      "diff": "M"
+     },
+     {
+      "id": "ge-common-section--statistical-significant-value",
+      "name": "Statistical significant value",
+      "diff": "M"
+     },
+     {
+      "id": "ge-common-section--chi-square-test",
+      "name": "Chi-square test",
+      "diff": "E"
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Remote Sensing",
+    "topics": [
+     {
+      "id": "ge-common-section--basic-concept",
+      "name": "Basic concept",
+      "diff": "E"
+     },
+     {
+      "id": "ge-common-section--physical-principles-of-remote-sensing",
+      "name": "Physical Principles of Remote Sensing",
+      "diff": "M"
+     },
+     {
+      "id": "ge-common-section--spectral-signature",
+      "name": "Spectral signature",
+      "diff": "M"
+     },
+     {
+      "id": "ge-common-section--resolutions-spectral",
+      "name": "Resolutions: Spectral",
+      "diff": "M"
+     },
+     {
+      "id": "ge-common-section--spatial",
+      "name": "Spatial",
+      "diff": "E"
+     },
+     {
+      "id": "ge-common-section--temporal",
+      "name": "Temporal",
+      "diff": "E"
+     },
+     {
+      "id": "ge-common-section--radiometric",
+      "name": "Radiometric",
+      "diff": "E"
+     },
+     {
+      "id": "ge-common-section--platforms-and-sensors",
+      "name": "Platforms and Sensors",
+      "diff": "M"
+     },
+     {
+      "id": "ge-common-section--remote-sensing-data-products-pan",
+      "name": "Remote Sensing Data Products - PAN",
+      "diff": "M"
+     },
+     {
+      "id": "ge-common-section--multispectral",
+      "name": "Multispectral",
+      "diff": "E"
+     },
+     {
+      "id": "ge-common-section--microwave",
+      "name": "Microwave",
+      "diff": "E"
+     },
+     {
+      "id": "ge-common-section--thermal",
+      "name": "Thermal",
+      "diff": "E"
+     },
+     {
+      "id": "ge-common-section--hyperspectral-data",
+      "name": "Hyperspectral data",
+      "diff": "M"
+     },
+     {
+      "id": "ge-common-section--visual-and-digital-interpretation-methods",
+      "name": "Visual and digital interpretation methods",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "C",
+    "name": "GNSS",
+    "topics": [
+     {
+      "id": "ge-common-section--principle-used",
+      "name": "Principle used",
+      "diff": "E"
+     },
+     {
+      "id": "ge-common-section--components-of-gnss",
+      "name": "Components of GNSS",
+      "diff": "M"
+     },
+     {
+      "id": "ge-common-section--data-collection-methods",
+      "name": "Data collection methods",
+      "diff": "M"
+     },
+     {
+      "id": "ge-common-section--dgps",
+      "name": "DGPS",
+      "diff": "E"
+     },
+     {
+      "id": "ge-common-section--errors-in-observations-and-corrections",
+      "name": "Errors in observations and corrections",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "D",
+    "name": "GIS",
+    "topics": [
+     {
+      "id": "ge-common-section--introduction",
+      "name": "Introduction",
+      "diff": "E"
+     },
+     {
+      "id": "ge-common-section--data-sources",
+      "name": "Data Sources",
+      "diff": "E"
+     },
+     {
+      "id": "ge-common-section--data-models-and-data-structures",
+      "name": "Data Models and Data Structures",
+      "diff": "M"
+     },
+     {
+      "id": "ge-common-section--dbms",
+      "name": "DBMS",
+      "diff": "E"
+     },
+     {
+      "id": "ge-common-section--creation-of-databases-spatial-and-non-spatial",
+      "name": "Creation of Databases (spatial and non-spatial)",
+      "diff": "M"
+     },
+     {
+      "id": "ge-common-section--basic-spatial-analysis-interpolation",
+      "name": "Basic Spatial analysis: Interpolation",
+      "diff": "E"
+     },
+     {
+      "id": "ge-common-section--buffer",
+      "name": "Buffer",
+      "diff": "E"
+     },
+     {
+      "id": "ge-common-section--overlay",
+      "name": "Overlay",
+      "diff": "E"
+     },
+     {
+      "id": "ge-common-section--terrain-modeling-and-network-analysis",
+      "name": "Terrain Modeling and Network analysis",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "ge-surveying-and-mapping",
+  "name": "Surveying and Mapping",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Maps",
+    "topics": [
+     {
+      "id": "ge-surveying-and-mapping--importance-of-maps-to-engineering-projects",
+      "name": "Importance of maps to engineering projects",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "ge-surveying-and-mapping--types-of-maps",
+      "name": "Types of maps",
+      "diff": "E"
+     },
+     {
+      "id": "ge-surveying-and-mapping--scales",
+      "name": "Scales",
+      "diff": "E"
+     },
+     {
+      "id": "ge-surveying-and-mapping--uses",
+      "name": "Uses",
+      "diff": "E"
+     },
+     {
+      "id": "ge-surveying-and-mapping--plotting-accuracy",
+      "name": "Plotting accuracy",
+      "diff": "E"
+     },
+     {
+      "id": "ge-surveying-and-mapping--map-sheet-numbering",
+      "name": "Map sheet numbering",
+      "diff": "M"
+     },
+     {
+      "id": "ge-surveying-and-mapping--coordinate-systems-cartesian-and-geographical",
+      "name": "Coordinate systems - Cartesian and geographical",
+      "diff": "M"
+     },
+     {
+      "id": "ge-surveying-and-mapping--map-projections",
+      "name": "Map projections",
+      "diff": "E"
+     },
+     {
+      "id": "ge-surveying-and-mapping--map-datum-msl",
+      "name": "Map datum - MSL",
+      "diff": "E"
+     },
+     {
+      "id": "ge-surveying-and-mapping--geoid",
+      "name": "Geoid",
+      "diff": "E"
+     },
+     {
+      "id": "ge-surveying-and-mapping--spheroid",
+      "name": "Spheroid",
+      "diff": "E"
+     },
+     {
+      "id": "ge-surveying-and-mapping--wgs-84",
+      "name": "WGS-84",
+      "diff": "E"
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Land Surveying",
+    "topics": [
+     {
+      "id": "ge-surveying-and-mapping--levelling-instruments",
+      "name": "Levelling instruments",
+      "diff": "M"
+     },
+     {
+      "id": "ge-surveying-and-mapping--levelling-methods",
+      "name": "Levelling methods",
+      "diff": "E"
+     },
+     {
+      "id": "ge-surveying-and-mapping--compass",
+      "name": "Compass",
+      "diff": "E"
+     },
+     {
+      "id": "ge-surveying-and-mapping--theodolite",
+      "name": "Theodolite",
+      "diff": "E"
+     },
+     {
+      "id": "ge-surveying-and-mapping--total-station-and-cogo-functions",
+      "name": "Total Station and COGO functions",
+      "diff": "M"
+     },
+     {
+      "id": "ge-surveying-and-mapping--tachometer",
+      "name": "Tachometer",
+      "diff": "E"
+     },
+     {
+      "id": "ge-surveying-and-mapping--trigonometric-levelling",
+      "name": "Trigonometric levelling",
+      "diff": "M"
+     },
+     {
+      "id": "ge-surveying-and-mapping--traversing",
+      "name": "Traversing",
+      "diff": "E"
+     },
+     {
+      "id": "ge-surveying-and-mapping--triangulation-and-trilateration",
+      "name": "Triangulation and Trilateration",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "C",
+    "name": "Aerial Photogrammetry",
+    "topics": [
+     {
+      "id": "ge-surveying-and-mapping--types-of-photographs",
+      "name": "Types of photographs",
+      "diff": "E"
+     },
+     {
+      "id": "ge-surveying-and-mapping--flying-height-and-scale",
+      "name": "Flying height and scale",
+      "diff": "M"
+     },
+     {
+      "id": "ge-surveying-and-mapping--relief-height-displacement",
+      "name": "Relief (height) displacement",
+      "diff": "M"
+     },
+     {
+      "id": "ge-surveying-and-mapping--stereoscopy",
+      "name": "Stereoscopy",
+      "diff": "E"
+     },
+     {
+      "id": "ge-surveying-and-mapping--height-determination-using-parallax-bar",
+      "name": "Height determination using Parallax Bar",
+      "diff": "M"
+     },
+     {
+      "id": "ge-surveying-and-mapping--digital-elevation-model-dem",
+      "name": "Digital Elevation Model (DEM)",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "ge-image-processing-and-analysis",
+  "name": "Image Processing and Analysis",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Data Quantization and Processing",
+    "topics": [
+     {
+      "id": "ge-image-processing-and-analysis--sampling-and-quantization-theory-principle-of-linear-system",
+      "name": "Sampling and quantization theory Principle of Linear System",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "ge-image-processing-and-analysis--convolution",
+      "name": "Convolution",
+      "diff": "E"
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Digital Image Processing",
+    "topics": [
+     {
+      "id": "ge-image-processing-and-analysis--digital-image-characteristics-image-histogram-and-scattergra",
+      "name": "Digital image characteristics: image histogram and scattergram and their significance",
+      "diff": "M"
+     },
+     {
+      "id": "ge-image-processing-and-analysis--variance-covariance-and-correlation-matrix-and-their-signifi",
+      "name": "Variance-Covariance and Correlation matrix and their significance",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "C",
+    "name": "Basic Radiometric and Geometric Corrections",
+    "topics": [
+     {
+      "id": "ge-image-processing-and-analysis--registration-and-resampling-techniques",
+      "name": "Registration and Resampling techniques",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "D",
+    "name": "Image Enhancement",
+    "topics": [
+     {
+      "id": "ge-image-processing-and-analysis--spatial-enhancement-noise-and-spatial-filters",
+      "name": "Spatial Enhancement: Noise and Spatial filters",
+      "diff": "M"
+     },
+     {
+      "id": "ge-image-processing-and-analysis--contrast-enhancement-linear-and-non-linear-methods",
+      "name": "Contrast Enhancement: Linear and Non - linear methods",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "E",
+    "name": "Image Transformation",
+    "topics": [
+     {
+      "id": "ge-image-processing-and-analysis--principal-component-analysis-pca",
+      "name": "Principal Component Analysis (PCA)",
+      "diff": "M"
+     },
+     {
+      "id": "ge-image-processing-and-analysis--discriminant-analysis",
+      "name": "Discriminant Analysis",
+      "diff": "M"
+     },
+     {
+      "id": "ge-image-processing-and-analysis--color-transformations-rgb-ihs-cmyk",
+      "name": "Color transformations (RGB - IHS, CMYK)",
+      "diff": "H"
+     },
+     {
+      "id": "ge-image-processing-and-analysis--indices-ratios-ndvi-ndwi",
+      "name": "Indices (Ratios, NDVI, NDWI)",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "F",
+    "name": "Basic Image Classification and Segmentation",
+    "topics": [
+     {
+      "id": "ge-image-processing-and-analysis--supervised-and-unsupervised-techniques-accuracy-analysis",
+      "name": "Supervised and unsupervised techniques, accuracy analysis",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ }
+]

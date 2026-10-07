@@ -1,0 +1,1232 @@
+[
+ {
+  "id": "mt-engineering-mathematics",
+  "name": "Engineering Mathematics",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Linear Algebra",
+    "topics": [
+     {
+      "id": "mt-engineering-mathematics--matrices-and-determinants",
+      "name": "Matrices and determinants",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "mt-engineering-mathematics--systems-of-linear-equations",
+      "name": "Systems of linear equations",
+      "diff": "M"
+     },
+     {
+      "id": "mt-engineering-mathematics--eigenvalues-and-eigenvectors",
+      "name": "Eigenvalues and eigenvectors",
+      "diff": "H"
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Calculus",
+    "topics": [
+     {
+      "id": "mt-engineering-mathematics--limit-continuity-and-differentiability",
+      "name": "Limit, continuity and differentiability",
+      "diff": "M"
+     },
+     {
+      "id": "mt-engineering-mathematics--partial-derivatives",
+      "name": "Partial derivatives",
+      "diff": "M"
+     },
+     {
+      "id": "mt-engineering-mathematics--maxima-and-minima",
+      "name": "Maxima and minima",
+      "diff": "E"
+     },
+     {
+      "id": "mt-engineering-mathematics--sequences-and-series",
+      "name": "Sequences and series",
+      "diff": "M"
+     },
+     {
+      "id": "mt-engineering-mathematics--test-for-convergence",
+      "name": "Test for convergence",
+      "diff": "M"
+     },
+     {
+      "id": "mt-engineering-mathematics--fourier-series",
+      "name": "Fourier series",
+      "diff": "H"
+     }
+    ]
+   },
+   {
+    "letter": "C",
+    "name": "Vector Calculus",
+    "topics": [
+     {
+      "id": "mt-engineering-mathematics--gradient-divergence-and-curl",
+      "name": "Gradient, divergence and curl",
+      "diff": "M"
+     },
+     {
+      "id": "mt-engineering-mathematics--line-surface-and-volume-integrals",
+      "name": "Line, surface and volume integrals",
+      "diff": "M"
+     },
+     {
+      "id": "mt-engineering-mathematics--gauss-theorem",
+      "name": "Gauss theorem",
+      "diff": "E"
+     }
+    ]
+   },
+   {
+    "letter": "D",
+    "name": "Differential Equations",
+    "topics": [
+     {
+      "id": "mt-engineering-mathematics--linear-and-non-linear-first-order-odes",
+      "name": "Linear and non -linear first order ODEs",
+      "diff": "M"
+     },
+     {
+      "id": "mt-engineering-mathematics--higher-order-linear-odes-with-constant-coefficients",
+      "name": "Higher order linear ODEs with constant coefficients",
+      "diff": "M"
+     },
+     {
+      "id": "mt-engineering-mathematics--cauchys-and-eulers-equations",
+      "name": "Cauchy’s and Euler’s equations",
+      "diff": "M"
+     },
+     {
+      "id": "mt-engineering-mathematics--pdes-one-dimensional-heat-and-wave-equations",
+      "name": "PDEs - one dimensional heat and wave equations",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "E",
+    "name": "Probability and Statistics",
+    "topics": [
+     {
+      "id": "mt-engineering-mathematics--definitions-of-probability",
+      "name": "Definitions of probability",
+      "diff": "M"
+     },
+     {
+      "id": "mt-engineering-mathematics--conditional-probability",
+      "name": "Conditional probability",
+      "diff": "M"
+     },
+     {
+      "id": "mt-engineering-mathematics--mean-median-mode-and-standard-deviation",
+      "name": "Mean, median, mode and standard deviation",
+      "diff": "M"
+     },
+     {
+      "id": "mt-engineering-mathematics--random-variables",
+      "name": "Random variables",
+      "diff": "E"
+     },
+     {
+      "id": "mt-engineering-mathematics--poisson-normal-and-binomial-distributions",
+      "name": "Poisson, normal and binomial distributions",
+      "diff": "M"
+     },
+     {
+      "id": "mt-engineering-mathematics--analysis-of-experimental-data",
+      "name": "Analysis of experimental data",
+      "diff": "M"
+     },
+     {
+      "id": "mt-engineering-mathematics--linear-least-squares-method",
+      "name": "Linear least squares method",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "F",
+    "name": "Numerical Methods",
+    "topics": [
+     {
+      "id": "mt-engineering-mathematics--roots-of-linear-and-non-linear-algebraic-equations-of-single",
+      "name": "Roots of linear and non -linear algebraic equations of single variable ( bisection, secant, Newton- Raphson methods)",
+      "diff": "M"
+     },
+     {
+      "id": "mt-engineering-mathematics--numerical-integration-trapezoidal-rule-and-differentiation-t",
+      "name": "Numerical integration (trapezoidal rule) and differentiation (Taylor series expansion)",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "mt-metallurgical-thermodynamics",
+  "name": "Metallurgical Thermodynamics",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Laws of Thermodynamics",
+    "topics": [
+     {
+      "id": "mt-metallurgical-thermodynamics--first-law-energy-conservation-second-law-entropy",
+      "name": "First law - energy conservation, Second law - entropy",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "mt-metallurgical-thermodynamics--enthalpy-gibbs-and-helmholtz-free-energy",
+      "name": "Enthalpy, Gibbs and Helmholtz free energy",
+      "diff": "M"
+     },
+     {
+      "id": "mt-metallurgical-thermodynamics--maxwells-relations",
+      "name": "Maxwell’s relations",
+      "diff": "M"
+     },
+     {
+      "id": "mt-metallurgical-thermodynamics--chemical-potential",
+      "name": "Chemical potential",
+      "diff": "M"
+     },
+     {
+      "id": "mt-metallurgical-thermodynamics--applications-to-metallurgical-systems",
+      "name": "Applications to metallurgical systems",
+      "diff": "M"
+     },
+     {
+      "id": "mt-metallurgical-thermodynamics--solutions-ideal-and-regular-solutions",
+      "name": "Solutions, ideal and regular solutions",
+      "diff": "M"
+     },
+     {
+      "id": "mt-metallurgical-thermodynamics--gibbs-phase-rule",
+      "name": "Gibbs phase rule",
+      "diff": "E"
+     },
+     {
+      "id": "mt-metallurgical-thermodynamics--phase-equilibria",
+      "name": "Phase equilibria",
+      "diff": "E"
+     },
+     {
+      "id": "mt-metallurgical-thermodynamics--binary-phase-diagram-and-lever-rule",
+      "name": "Binary phase diagram and lever rule",
+      "diff": "M"
+     },
+     {
+      "id": "mt-metallurgical-thermodynamics--free-energy-vs",
+      "name": "Free-energy vs",
+      "diff": "E"
+     },
+     {
+      "id": "mt-metallurgical-thermodynamics--composition-diagrams",
+      "name": "Composition diagrams",
+      "diff": "M"
+     },
+     {
+      "id": "mt-metallurgical-thermodynamics--equilibrium-constant-activity-ellingham-and-phase-stability-",
+      "name": "Equilibrium constant, activity, Ellingham and phase stability diagrams",
+      "diff": "H"
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Electrochemistry",
+    "topics": [
+     {
+      "id": "mt-metallurgical-thermodynamics--single-electrode-potential",
+      "name": "Single electrode potential",
+      "diff": "M"
+     },
+     {
+      "id": "mt-metallurgical-thermodynamics--electrochemical-cells",
+      "name": "Electrochemical cells",
+      "diff": "M"
+     },
+     {
+      "id": "mt-metallurgical-thermodynamics--nernst-equation",
+      "name": "Nernst equation",
+      "diff": "E"
+     },
+     {
+      "id": "mt-metallurgical-thermodynamics--potential-ph-diagrams",
+      "name": "Potential-pH diagrams",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "mt-transport-phenomena-and-rate-p",
+  "name": "Transport Phenomena and Rate Processes",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Momentum Transfer",
+    "topics": [
+     {
+      "id": "mt-transport-phenomena-and-rate-p--concept-of-viscosity",
+      "name": "Concept of viscosity",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "mt-transport-phenomena-and-rate-p--shell-balances",
+      "name": "Shell balances",
+      "diff": "E"
+     },
+     {
+      "id": "mt-transport-phenomena-and-rate-p--bernoullis-equation",
+      "name": "Bernoulli’s equation",
+      "diff": "M"
+     },
+     {
+      "id": "mt-transport-phenomena-and-rate-p--mechanical-energy-balance-equation",
+      "name": "Mechanical energy balance equation",
+      "diff": "M"
+     },
+     {
+      "id": "mt-transport-phenomena-and-rate-p--flow-past-plane-surfaces-and-through-pipes",
+      "name": "Flow past plane surfaces and through pipes",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Heat transfer",
+    "topics": [
+     {
+      "id": "mt-transport-phenomena-and-rate-p--conduction-fouriers-law-1-d-steady-state-conduction",
+      "name": "Conduction - Fourier’s Law, 1-D steady state conduction",
+      "diff": "H"
+     },
+     {
+      "id": "mt-transport-phenomena-and-rate-p--convection",
+      "name": "Convection",
+      "diff": "E"
+     },
+     {
+      "id": "mt-transport-phenomena-and-rate-p--heat-transfer-coefficient-and-correlations",
+      "name": "Heat transfer coefficient and correlations",
+      "diff": "M"
+     },
+     {
+      "id": "mt-transport-phenomena-and-rate-p--radiation",
+      "name": "Radiation",
+      "diff": "E"
+     },
+     {
+      "id": "mt-transport-phenomena-and-rate-p--stefan-boltzmann-law",
+      "name": "Stefan-Boltzmann Law",
+      "diff": "M"
+     },
+     {
+      "id": "mt-transport-phenomena-and-rate-p--kirchhoffs-law",
+      "name": "Kirchhoff’s Law",
+      "diff": "E"
+     }
+    ]
+   },
+   {
+    "letter": "C",
+    "name": "Mass Transfer",
+    "topics": [
+     {
+      "id": "mt-transport-phenomena-and-rate-p--diffusion-and-ficks-laws-mass-transfer-coefficients-and-corr",
+      "name": "Diffusion and Fick’s laws, mass transfer coefficients and correlations",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "D",
+    "name": "Dimensional Analysis",
+    "topics": [
+     {
+      "id": "mt-transport-phenomena-and-rate-p--significance-of-dimensionless-numbers-and-their-applications",
+      "name": "Significance of dimensionless numbers and their applications",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "E",
+    "name": "Basic Laws of Chemical Kinetics",
+    "topics": [
+     {
+      "id": "mt-transport-phenomena-and-rate-p--first-order-reactions",
+      "name": "First order reactions",
+      "diff": "M"
+     },
+     {
+      "id": "mt-transport-phenomena-and-rate-p--reaction-rate-constant",
+      "name": "Reaction rate constant",
+      "diff": "M"
+     },
+     {
+      "id": "mt-transport-phenomena-and-rate-p--arrhenius-relation",
+      "name": "Arrhenius relation",
+      "diff": "M"
+     },
+     {
+      "id": "mt-transport-phenomena-and-rate-p--heterogeneous-reactions",
+      "name": "Heterogeneous reactions",
+      "diff": "M"
+     },
+     {
+      "id": "mt-transport-phenomena-and-rate-p--oxidation-kinetics",
+      "name": "Oxidation kinetics",
+      "diff": "H"
+     }
+    ]
+   },
+   {
+    "letter": "F",
+    "name": "Electrochemical Kinetics",
+    "topics": [
+     {
+      "id": "mt-transport-phenomena-and-rate-p--polarization",
+      "name": "Polarization",
+      "diff": "E"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "mt-mineral-processing-and-extract",
+  "name": "Mineral Processing and Extractive Metallurgy",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Overview",
+    "topics": [
+     {
+      "id": "mt-mineral-processing-and-extract--comminution",
+      "name": "Comminution",
+      "diff": "E",
+      "sample": true
+     },
+     {
+      "id": "mt-mineral-processing-and-extract--size-classification",
+      "name": "Size classification",
+      "diff": "E"
+     },
+     {
+      "id": "mt-mineral-processing-and-extract--flotation",
+      "name": "Flotation",
+      "diff": "E"
+     },
+     {
+      "id": "mt-mineral-processing-and-extract--gravity",
+      "name": "Gravity",
+      "diff": "E"
+     },
+     {
+      "id": "mt-mineral-processing-and-extract--magnetic-and-electrostatic-separation-methods-of-mineral-ben",
+      "name": "Magnetic and electrostatic separation methods of mineral beneficiation",
+      "diff": "M"
+     },
+     {
+      "id": "mt-mineral-processing-and-extract--principles-of-pyro-hydro-and-electro-metallurgy",
+      "name": "Principles of pyro, hydro and electro metallurgy",
+      "diff": "M"
+     },
+     {
+      "id": "mt-mineral-processing-and-extract--unit-processes-for-extraction-of-non-ferrous-metals-aluminiu",
+      "name": "Unit processes for extraction of non-ferrous metals - aluminium",
+      "diff": "E"
+     },
+     {
+      "id": "mt-mineral-processing-and-extract--copper",
+      "name": "Copper",
+      "diff": "E"
+     },
+     {
+      "id": "mt-mineral-processing-and-extract--titanium",
+      "name": "Titanium",
+      "diff": "E"
+     },
+     {
+      "id": "mt-mineral-processing-and-extract--zinc",
+      "name": "Zinc",
+      "diff": "E"
+     },
+     {
+      "id": "mt-mineral-processing-and-extract--associated-heat-and-material-balance",
+      "name": "Associated heat and material balance",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Ironmaking",
+    "topics": [
+     {
+      "id": "mt-mineral-processing-and-extract--thermodynamics-of-blast-furnace-ironmaking",
+      "name": "Thermodynamics of blast furnace ironmaking",
+      "diff": "H"
+     },
+     {
+      "id": "mt-mineral-processing-and-extract--heat-and-material-balance-in-blast-furnace",
+      "name": "Heat and material balance in blast furnace",
+      "diff": "M"
+     },
+     {
+      "id": "mt-mineral-processing-and-extract--production-of-sinter",
+      "name": "Production of sinter",
+      "diff": "M"
+     },
+     {
+      "id": "mt-mineral-processing-and-extract--pellets",
+      "name": "Pellets",
+      "diff": "E"
+     },
+     {
+      "id": "mt-mineral-processing-and-extract--metallurgical-coke-and-testing",
+      "name": "Metallurgical coke and testing",
+      "diff": "M"
+     },
+     {
+      "id": "mt-mineral-processing-and-extract--alternative-routes-of-iron-making-rotary-kiln-midrex-corex",
+      "name": "Alternative routes of iron making (rotary kiln, MIDREX, COREX)",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "C",
+    "name": "Primary Steel Making",
+    "topics": [
+     {
+      "id": "mt-mineral-processing-and-extract--structure-and-properties-of-slags",
+      "name": "Structure and properties of slags",
+      "diff": "E"
+     },
+     {
+      "id": "mt-mineral-processing-and-extract--thermodynamics-and-kinetics-of-steelmaking",
+      "name": "Thermodynamics and kinetics of steelmaking",
+      "diff": "H"
+     },
+     {
+      "id": "mt-mineral-processing-and-extract--basic-oxygen-furnace-and-electric-arc-furnace-steel-making",
+      "name": "Basic oxygen furnace and electric arc furnace steel making",
+      "diff": "E"
+     }
+    ]
+   },
+   {
+    "letter": "D",
+    "name": "Secondary Steel Making",
+    "topics": [
+     {
+      "id": "mt-mineral-processing-and-extract--ladle-process-deoxidation",
+      "name": "Ladle process - deoxidation",
+      "diff": "M"
+     },
+     {
+      "id": "mt-mineral-processing-and-extract--degassing",
+      "name": "Degassing",
+      "diff": "E"
+     },
+     {
+      "id": "mt-mineral-processing-and-extract--argon-stirring",
+      "name": "Argon stirring",
+      "diff": "E"
+     },
+     {
+      "id": "mt-mineral-processing-and-extract--desulphurization",
+      "name": "Desulphurization",
+      "diff": "E"
+     },
+     {
+      "id": "mt-mineral-processing-and-extract--inclusion-shape-control",
+      "name": "Inclusion shape control",
+      "diff": "M"
+     },
+     {
+      "id": "mt-mineral-processing-and-extract--basics-of-stainless-steel-manufacturing",
+      "name": "Basics of stainless steel manufacturing",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "E",
+    "name": "Continuous Casting",
+    "topics": [
+     {
+      "id": "mt-mineral-processing-and-extract--basics-of-continuous-casting-casting-defects-thin-slab-casti",
+      "name": "Basics of continuous casting, casting defects, thin slab casting",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "mt-physical-metallurgy",
+  "name": "Physical Metallurgy",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Materials Characterisation",
+    "topics": [
+     {
+      "id": "mt-physical-metallurgy--x-ray-diffraction-braggs-law",
+      "name": "X-ray Diffraction-Bragg’s law",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "mt-physical-metallurgy--optical-microscopy",
+      "name": "Optical microscopy",
+      "diff": "M"
+     },
+     {
+      "id": "mt-physical-metallurgy--imaging-and-spectroscopy-in-sem",
+      "name": "Imaging and spectroscopy in SEM",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Crystal Imperfections",
+    "topics": [
+     {
+      "id": "mt-physical-metallurgy--point-line-and-surface-defects",
+      "name": "Point, line and surface defects",
+      "diff": "M"
+     },
+     {
+      "id": "mt-physical-metallurgy--coherent-semi-coherent-and-incoherent-interfaces",
+      "name": "Coherent, semi-coherent and incoherent interfaces",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "C",
+    "name": "Diffusion in Solids",
+    "topics": [
+     {
+      "id": "mt-physical-metallurgy--atomic-models-for-interstitial-and-substitutional-diffusion",
+      "name": "Atomic models for interstitial and substitutional diffusion",
+      "diff": "M"
+     },
+     {
+      "id": "mt-physical-metallurgy--volume-surface-and-grain-boundary-diffusion-kirkendall-effec",
+      "name": "Volume, surface and grain boundary diffusion, Kirkendall effect",
+      "diff": "M"
+     },
+     {
+      "id": "mt-physical-metallurgy--uphill-diffusion",
+      "name": "Uphill diffusion",
+      "diff": "E"
+     }
+    ]
+   },
+   {
+    "letter": "D",
+    "name": "Phase Transformation",
+    "topics": [
+     {
+      "id": "mt-physical-metallurgy--driving-force",
+      "name": "Driving force",
+      "diff": "E"
+     },
+     {
+      "id": "mt-physical-metallurgy--homogeneous-and-heterogeneous-nucleation",
+      "name": "Homogeneous and heterogeneous nucleation",
+      "diff": "M"
+     },
+     {
+      "id": "mt-physical-metallurgy--growth-kinetics",
+      "name": "Growth kinetics",
+      "diff": "H"
+     },
+     {
+      "id": "mt-physical-metallurgy--solidification-in-isomorphous-eutectic-and-peritectic-system",
+      "name": "Solidification in isomorphous, eutectic and peritectic systems",
+      "diff": "M"
+     },
+     {
+      "id": "mt-physical-metallurgy--cast-structures-and-macrosegregation",
+      "name": "Cast structures and macrosegregation",
+      "diff": "M"
+     },
+     {
+      "id": "mt-physical-metallurgy--dendritic-solidification-and-constitutional-supercooling",
+      "name": "Dendritic solidification and constitutional supercooling",
+      "diff": "M"
+     },
+     {
+      "id": "mt-physical-metallurgy--coring-and-microsegregation",
+      "name": "Coring and microsegregation",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "E",
+    "name": "Solid-state Transformations",
+    "topics": [
+     {
+      "id": "mt-physical-metallurgy--precipitation",
+      "name": "Precipitation",
+      "diff": "E"
+     },
+     {
+      "id": "mt-physical-metallurgy--eutectoid-transformation-diffusionless-transformations",
+      "name": "Eutectoid transformation, diffusionless transformations",
+      "diff": "H"
+     },
+     {
+      "id": "mt-physical-metallurgy--precipitate-coarsening-gibbs-thomson-effect",
+      "name": "Precipitate coarsening, Gibbs-Thomson effect",
+      "diff": "M"
+     },
+     {
+      "id": "mt-physical-metallurgy--glass-transition-in-ceramics-and-polymers",
+      "name": "Glass transition in ceramics and polymers",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "F",
+    "name": "Principles of heat treatment",
+    "topics": [
+     {
+      "id": "mt-physical-metallurgy--heat-treatment-of-steels",
+      "name": "Heat treatment of steels",
+      "diff": "M"
+     },
+     {
+      "id": "mt-physical-metallurgy--time-temperature-transformation-ttt-and-continuous-cooling-t",
+      "name": "Time-temperature-transformation (TTT) and continuous cooling transformation (CCT) diagrams",
+      "diff": "H"
+     },
+     {
+      "id": "mt-physical-metallurgy--surface-hardening",
+      "name": "Surface hardening",
+      "diff": "E"
+     },
+     {
+      "id": "mt-physical-metallurgy--recovery-recrystallization-and-grain-growth",
+      "name": "Recovery, recrystallization and grain growth",
+      "diff": "M"
+     },
+     {
+      "id": "mt-physical-metallurgy--heat-treatment-of-cast-irons-and-aluminium-alloys",
+      "name": "Heat treatment of cast irons and aluminium alloys",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "G",
+    "name": "Corrosion",
+    "topics": [
+     {
+      "id": "mt-physical-metallurgy--basic-forms-of-corrosion-and-its-prevention",
+      "name": "Basic forms of corrosion and its prevention",
+      "diff": "E"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "mt-mechanical-behaviour-of-materi",
+  "name": "Mechanical Behaviour of Materials",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Overview",
+    "topics": [
+     {
+      "id": "mt-mechanical-behaviour-of-materi--elasticity",
+      "name": "Elasticity",
+      "diff": "E",
+      "sample": true
+     },
+     {
+      "id": "mt-mechanical-behaviour-of-materi--strain-tensor-and-stress-tensor",
+      "name": "Strain tensor and stress tensor",
+      "diff": "H"
+     },
+     {
+      "id": "mt-mechanical-behaviour-of-materi--representation-by-mohrs-circle",
+      "name": "Representation by Mohr’s circle",
+      "diff": "M"
+     },
+     {
+      "id": "mt-mechanical-behaviour-of-materi--uniaxial-tensile-testing-and-stress-strain-curves-for-metals",
+      "name": "Uniaxial tensile testing and stress-strain curves for metals",
+      "diff": "M"
+     },
+     {
+      "id": "mt-mechanical-behaviour-of-materi--ceramics",
+      "name": "Ceramics",
+      "diff": "E"
+     },
+     {
+      "id": "mt-mechanical-behaviour-of-materi--polymers",
+      "name": "Polymers",
+      "diff": "E"
+     },
+     {
+      "id": "mt-mechanical-behaviour-of-materi--tresca-and-von-mises-yield-criteria",
+      "name": "Tresca and von Mises yield criteria",
+      "diff": "M"
+     },
+     {
+      "id": "mt-mechanical-behaviour-of-materi--plastic-deformation-by-slip-and-twinning",
+      "name": "Plastic deformation by slip and twinning",
+      "diff": "H"
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Dislocation Theory",
+    "topics": [
+     {
+      "id": "mt-mechanical-behaviour-of-materi--edge-screw-and-mixed-dislocations",
+      "name": "Edge, screw and mixed dislocations",
+      "diff": "M"
+     },
+     {
+      "id": "mt-mechanical-behaviour-of-materi--sources-and-multiplication-of-dislocations",
+      "name": "Sources and multiplication of dislocations",
+      "diff": "M"
+     },
+     {
+      "id": "mt-mechanical-behaviour-of-materi--stress-fields-around-dislocations",
+      "name": "Stress fields around dislocations",
+      "diff": "M"
+     },
+     {
+      "id": "mt-mechanical-behaviour-of-materi--partial-dislocations",
+      "name": "Partial dislocations",
+      "diff": "M"
+     },
+     {
+      "id": "mt-mechanical-behaviour-of-materi--dislocation-interactions-and-reactions",
+      "name": "Dislocation interactions and reactions",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "C",
+    "name": "Strengthening Mechanisms",
+    "topics": [
+     {
+      "id": "mt-mechanical-behaviour-of-materi--work-strain-hardening",
+      "name": "Work/strain hardening",
+      "diff": "M"
+     },
+     {
+      "id": "mt-mechanical-behaviour-of-materi--strengthening-due-to-grain-boundaries",
+      "name": "Strengthening due to grain boundaries",
+      "diff": "M"
+     },
+     {
+      "id": "mt-mechanical-behaviour-of-materi--solid-solution",
+      "name": "Solid solution",
+      "diff": "E"
+     },
+     {
+      "id": "mt-mechanical-behaviour-of-materi--precipitation-and-dispersion",
+      "name": "Precipitation and dispersion",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "D",
+    "name": "Fracture behaviour",
+    "topics": [
+     {
+      "id": "mt-mechanical-behaviour-of-materi--griffith-theory",
+      "name": "Griffith theory",
+      "diff": "E"
+     },
+     {
+      "id": "mt-mechanical-behaviour-of-materi--linear-elastic-fracture-mechanics",
+      "name": "Linear elastic fracture mechanics",
+      "diff": "M"
+     },
+     {
+      "id": "mt-mechanical-behaviour-of-materi--fracture-toughness",
+      "name": "Fracture toughness",
+      "diff": "M"
+     },
+     {
+      "id": "mt-mechanical-behaviour-of-materi--fractography",
+      "name": "Fractography",
+      "diff": "E"
+     },
+     {
+      "id": "mt-mechanical-behaviour-of-materi--ductile-to-brittle-transition",
+      "name": "Ductile to brittle transition",
+      "diff": "M"
+     },
+     {
+      "id": "mt-mechanical-behaviour-of-materi--toughening-mechanisms-in-ceramics",
+      "name": "Toughening mechanisms in ceramics",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "E",
+    "name": "Fatigue",
+    "topics": [
+     {
+      "id": "mt-mechanical-behaviour-of-materi--low-and-high-cycle-fatigue",
+      "name": "Low and high cycle fatigue",
+      "diff": "H"
+     },
+     {
+      "id": "mt-mechanical-behaviour-of-materi--crack-growth",
+      "name": "Crack growth",
+      "diff": "E"
+     }
+    ]
+   },
+   {
+    "letter": "F",
+    "name": "High Temperature deformation",
+    "topics": [
+     {
+      "id": "mt-mechanical-behaviour-of-materi--mechanisms-of-high-temperature-deformation-and-failure",
+      "name": "Mechanisms of high temperature deformation and failure",
+      "diff": "M"
+     },
+     {
+      "id": "mt-mechanical-behaviour-of-materi--creep-and-stress-rupture-stress-exponent-and-activation-ener",
+      "name": "Creep and stress rupture, stress exponent and activation energy",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "mt-manufacturing-processes",
+  "name": "Manufacturing Processes",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Metal Casting",
+    "topics": [
+     {
+      "id": "mt-manufacturing-processes--mould-design-involving-feeding",
+      "name": "Mould design involving feeding",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "mt-manufacturing-processes--gating-and-risering",
+      "name": "Gating and risering",
+      "diff": "M"
+     },
+     {
+      "id": "mt-manufacturing-processes--casting-practices",
+      "name": "Casting practices",
+      "diff": "E"
+     },
+     {
+      "id": "mt-manufacturing-processes--casting-defects",
+      "name": "Casting defects",
+      "diff": "E"
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Hot, Warm and Cold Working of Metals",
+    "topics": [
+     {
+      "id": "mt-manufacturing-processes--metal-forming-fundamentals-of-metal-forming-processes-of-rol",
+      "name": "Metal forming - fundamentals of metal forming processes of rolling",
+      "diff": "M"
+     },
+     {
+      "id": "mt-manufacturing-processes--forging",
+      "name": "Forging",
+      "diff": "E"
+     },
+     {
+      "id": "mt-manufacturing-processes--extrusion",
+      "name": "Extrusion",
+      "diff": "E"
+     },
+     {
+      "id": "mt-manufacturing-processes--wire-drawing-and-sheet-metal-forming",
+      "name": "Wire drawing and sheet metal forming",
+      "diff": "M"
+     },
+     {
+      "id": "mt-manufacturing-processes--defects-in-forming",
+      "name": "Defects in forming",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "C",
+    "name": "Metal Joining",
+    "topics": [
+     {
+      "id": "mt-manufacturing-processes--principles-of-soldering-brazing-and-welding",
+      "name": "Principles of soldering, brazing and welding",
+      "diff": "M"
+     },
+     {
+      "id": "mt-manufacturing-processes--welding-metallurgy",
+      "name": "Welding metallurgy",
+      "diff": "M"
+     },
+     {
+      "id": "mt-manufacturing-processes--defects-in-welded-joints-in-steels-and-aluminium-alloys",
+      "name": "Defects in welded joints in steels and aluminium alloys",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "D",
+    "name": "Powder Metallurgy",
+    "topics": [
+     {
+      "id": "mt-manufacturing-processes--production-of-powders-compaction-and-sintering",
+      "name": "Production of powders, compaction and sintering",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "E",
+    "name": "Non-destructive Testing (NDT)",
+    "topics": [
+     {
+      "id": "mt-manufacturing-processes--dye-penetrant",
+      "name": "Dye-penetrant",
+      "diff": "E"
+     },
+     {
+      "id": "mt-manufacturing-processes--ultrasonic",
+      "name": "Ultrasonic",
+      "diff": "E"
+     },
+     {
+      "id": "mt-manufacturing-processes--radiography",
+      "name": "Radiography",
+      "diff": "E"
+     },
+     {
+      "id": "mt-manufacturing-processes--eddy-current",
+      "name": "Eddy current",
+      "diff": "E"
+     },
+     {
+      "id": "mt-manufacturing-processes--acoustic-emission-and-magnetic-particle-inspection-methods",
+      "name": "Acoustic emission and magnetic particle inspection methods",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "mt-materials-science-and-non-meta",
+  "name": "Materials Science and Non-Metallic Materials",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Overview",
+    "topics": [
+     {
+      "id": "mt-materials-science-and-non-meta--classification-of-engineering-materials",
+      "name": "Classification of engineering materials",
+      "diff": "E",
+      "sample": true
+     },
+     {
+      "id": "mt-materials-science-and-non-meta--chemical-bonding-ionic",
+      "name": "Chemical bonding - ionic",
+      "diff": "M"
+     },
+     {
+      "id": "mt-materials-science-and-non-meta--covalent",
+      "name": "Covalent",
+      "diff": "E"
+     },
+     {
+      "id": "mt-materials-science-and-non-meta--metallic-and-secondary-bonding-in-materials",
+      "name": "Metallic and secondary bonding in materials",
+      "diff": "M"
+     },
+     {
+      "id": "mt-materials-science-and-non-meta--structure-of-metals-and-alloys",
+      "name": "Structure of metals and alloys",
+      "diff": "M"
+     },
+     {
+      "id": "mt-materials-science-and-non-meta--ionic-and-covalent-bonded-solids-and-polymers",
+      "name": "Ionic and covalent bonded solids and polymers",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Polymers",
+    "topics": [
+     {
+      "id": "mt-materials-science-and-non-meta--molecular-weight",
+      "name": "Molecular weight",
+      "diff": "E"
+     },
+     {
+      "id": "mt-materials-science-and-non-meta--thermoplastics-and-thermosets",
+      "name": "Thermoplastics and thermosets",
+      "diff": "M"
+     },
+     {
+      "id": "mt-materials-science-and-non-meta--copolymers",
+      "name": "Copolymers",
+      "diff": "E"
+     },
+     {
+      "id": "mt-materials-science-and-non-meta--crystallinity-of-polymers",
+      "name": "Crystallinity of polymers",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "C",
+    "name": "Ceramics",
+    "topics": [
+     {
+      "id": "mt-materials-science-and-non-meta--radius-ratio-and-electroneutrality-rules-for-determining-cry",
+      "name": "Radius ratio and electroneutrality rules for determining crystal structure",
+      "diff": "M"
+     },
+     {
+      "id": "mt-materials-science-and-non-meta--schottky-and-frenkel-defects-non-stoichiometric-defects",
+      "name": "Schottky and Frenkel defects, non-stoichiometric defects",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "D",
+    "name": "Composites",
+    "topics": [
+     {
+      "id": "mt-materials-science-and-non-meta--types-of-reinforcements-and-matrices",
+      "name": "Types of reinforcements and matrices",
+      "diff": "E"
+     },
+     {
+      "id": "mt-materials-science-and-non-meta--enhancement-in-modulus-and-strength",
+      "name": "Enhancement in modulus and strength",
+      "diff": "M"
+     },
+     {
+      "id": "mt-materials-science-and-non-meta--isostrain-and-isostress-loading-conditions",
+      "name": "Isostrain and isostress loading conditions",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "E",
+    "name": "Electronic Properties",
+    "topics": [
+     {
+      "id": "mt-materials-science-and-non-meta--band-gap",
+      "name": "Band gap",
+      "diff": "E"
+     },
+     {
+      "id": "mt-materials-science-and-non-meta--fermi-energy",
+      "name": "Fermi energy",
+      "diff": "E"
+     },
+     {
+      "id": "mt-materials-science-and-non-meta--conductors-semiconductors-and-insulators",
+      "name": "Conductors, semiconductors and insulators",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "F",
+    "name": "Magnetic properties",
+    "topics": [
+     {
+      "id": "mt-materials-science-and-non-meta--magnetization-and-b-h-curves",
+      "name": "Magnetization and B -H curves",
+      "diff": "M"
+     },
+     {
+      "id": "mt-materials-science-and-non-meta--principles-of-ferro",
+      "name": "Principles of ferro -",
+      "diff": "M"
+     },
+     {
+      "id": "mt-materials-science-and-non-meta--ferri",
+      "name": "Ferri -",
+      "diff": "E"
+     },
+     {
+      "id": "mt-materials-science-and-non-meta--antiferro",
+      "name": "Antiferro -",
+      "diff": "E"
+     },
+     {
+      "id": "mt-materials-science-and-non-meta--para-and-dia-magnetism",
+      "name": "Para - and dia - magnetism",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ }
+]

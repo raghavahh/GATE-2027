@@ -1,0 +1,1257 @@
+[
+ {
+  "id": "me-engineering-mathematics",
+  "name": "Engineering Mathematics",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Linear Algebra",
+    "topics": [
+     {
+      "id": "me-engineering-mathematics--matrix-algebra",
+      "name": "Matrix algebra",
+      "diff": "E",
+      "sample": true
+     },
+     {
+      "id": "me-engineering-mathematics--systems-of-linear-equations",
+      "name": "Systems of linear equations",
+      "diff": "M"
+     },
+     {
+      "id": "me-engineering-mathematics--eigen-values-and-eigen-vectors",
+      "name": "Eigen values and eigen vectors",
+      "diff": "H"
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Calculus",
+    "topics": [
+     {
+      "id": "me-engineering-mathematics--functions-of-single-variable",
+      "name": "Functions of single variable",
+      "diff": "M"
+     },
+     {
+      "id": "me-engineering-mathematics--limit",
+      "name": "Limit",
+      "diff": "E"
+     },
+     {
+      "id": "me-engineering-mathematics--continuity-and-differentiability",
+      "name": "Continuity and differentiability",
+      "diff": "M"
+     },
+     {
+      "id": "me-engineering-mathematics--mean-value-theorems",
+      "name": "Mean value theorems",
+      "diff": "M"
+     },
+     {
+      "id": "me-engineering-mathematics--indeterminate-forms",
+      "name": "Indeterminate forms",
+      "diff": "H"
+     },
+     {
+      "id": "me-engineering-mathematics--evaluation-of-definite-and-improper-integrals",
+      "name": "Evaluation of definite and improper integrals",
+      "diff": "M"
+     },
+     {
+      "id": "me-engineering-mathematics--double-and-triple-integrals",
+      "name": "Double and triple integrals",
+      "diff": "M"
+     },
+     {
+      "id": "me-engineering-mathematics--partial-derivatives",
+      "name": "Partial derivatives",
+      "diff": "M"
+     },
+     {
+      "id": "me-engineering-mathematics--total-derivative",
+      "name": "Total derivative",
+      "diff": "E"
+     },
+     {
+      "id": "me-engineering-mathematics--taylor-series-in-one-and-two-variables",
+      "name": "Taylor series (in one and two variables)",
+      "diff": "M"
+     },
+     {
+      "id": "me-engineering-mathematics--maxima-and-minima",
+      "name": "Maxima and minima",
+      "diff": "E"
+     },
+     {
+      "id": "me-engineering-mathematics--fourier-series",
+      "name": "Fourier series",
+      "diff": "H"
+     },
+     {
+      "id": "me-engineering-mathematics--gradient",
+      "name": "Gradient",
+      "diff": "E"
+     },
+     {
+      "id": "me-engineering-mathematics--divergence-and-curl",
+      "name": "Divergence and curl",
+      "diff": "M"
+     },
+     {
+      "id": "me-engineering-mathematics--vector-identities",
+      "name": "Vector identities",
+      "diff": "E"
+     },
+     {
+      "id": "me-engineering-mathematics--directional-derivatives",
+      "name": "Directional derivatives",
+      "diff": "M"
+     },
+     {
+      "id": "me-engineering-mathematics--line",
+      "name": "Line",
+      "diff": "E"
+     },
+     {
+      "id": "me-engineering-mathematics--surface-and-volume-integrals",
+      "name": "Surface and volume integrals",
+      "diff": "M"
+     },
+     {
+      "id": "me-engineering-mathematics--applications-of-gauss",
+      "name": "Applications of Gauss",
+      "diff": "M"
+     },
+     {
+      "id": "me-engineering-mathematics--stokes-and-greens-theorems",
+      "name": "Stokes and Green’s theorems",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "C",
+    "name": "Differential Equations",
+    "topics": [
+     {
+      "id": "me-engineering-mathematics--first-order-equations-linear-and-nonlinear",
+      "name": "First order equations (linear and nonlinear)",
+      "diff": "H"
+     },
+     {
+      "id": "me-engineering-mathematics--higher-order-linear-differential-equations-with-constant-coe",
+      "name": "Higher order linear differential equations with constant coefficients",
+      "diff": "M"
+     },
+     {
+      "id": "me-engineering-mathematics--euler-cauchy-equation",
+      "name": "Euler-Cauchy equation",
+      "diff": "M"
+     },
+     {
+      "id": "me-engineering-mathematics--initial-and-boundary-value-problems",
+      "name": "Initial and boundary value problems",
+      "diff": "M"
+     },
+     {
+      "id": "me-engineering-mathematics--laplace-transforms",
+      "name": "Laplace transforms",
+      "diff": "H"
+     },
+     {
+      "id": "me-engineering-mathematics--solutions-of-heat-wave-and-laplaces-equations",
+      "name": "Solutions of heat, wave and Laplace's equations",
+      "diff": "H"
+     }
+    ]
+   },
+   {
+    "letter": "D",
+    "name": "Complex Variables",
+    "topics": [
+     {
+      "id": "me-engineering-mathematics--analytic-functions",
+      "name": "Analytic functions",
+      "diff": "M"
+     },
+     {
+      "id": "me-engineering-mathematics--cauchy-riemann-equations",
+      "name": "Cauchy-Riemann equations",
+      "diff": "M"
+     },
+     {
+      "id": "me-engineering-mathematics--cauchys-integral-theorem-and-contour-integral-formula",
+      "name": "Cauchy’s integral theorem and contour integral formula",
+      "diff": "M"
+     },
+     {
+      "id": "me-engineering-mathematics--taylor-and-laurent-series",
+      "name": "Taylor and Laurent series",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "E",
+    "name": "Probability and Statistics",
+    "topics": [
+     {
+      "id": "me-engineering-mathematics--definitions-of-probability-sampling-theorems-conditional-pro",
+      "name": "Definitions of probability, sampling theorems, conditional probability",
+      "diff": "M"
+     },
+     {
+      "id": "me-engineering-mathematics--mean-median-mode-and-standard-deviation",
+      "name": "Mean, median, mode and standard deviation",
+      "diff": "M"
+     },
+     {
+      "id": "me-engineering-mathematics--random-variables-binomial-poisson-and-normal-distributions",
+      "name": "Random variables, binomial, Poisson and normal distributions",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "F",
+    "name": "Numerical Methods",
+    "topics": [
+     {
+      "id": "me-engineering-mathematics--numerical-solutions-of-linear-and-non-linear-algebraic-equat",
+      "name": "Numerical solutions of linear and non -linear algebraic equations",
+      "diff": "M"
+     },
+     {
+      "id": "me-engineering-mathematics--integration-by-trapezoidal-and-simpsons-rules",
+      "name": "Integration by trapezoidal and Simpson’s rules",
+      "diff": "M"
+     },
+     {
+      "id": "me-engineering-mathematics--single-and-multi-step-methods-for-ordinary-differential-equa",
+      "name": "Single and multi-step methods for ordinary differential equations",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "me-applied-mechanics-and-design",
+  "name": "Applied Mechanics and Design",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Engineering Mechanics",
+    "topics": [
+     {
+      "id": "me-applied-mechanics-and-design--free-body-diagrams-and-equilibrium",
+      "name": "Free-body diagrams and equilibrium",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "me-applied-mechanics-and-design--friction-and-its-applications-including-rolling-resistance",
+      "name": "Friction and its applications including rolling resistance",
+      "diff": "M"
+     },
+     {
+      "id": "me-applied-mechanics-and-design--belt-pulley",
+      "name": "Belt-pulley",
+      "diff": "E"
+     },
+     {
+      "id": "me-applied-mechanics-and-design--brakes",
+      "name": "Brakes",
+      "diff": "E"
+     },
+     {
+      "id": "me-applied-mechanics-and-design--clutches",
+      "name": "Clutches",
+      "diff": "E"
+     },
+     {
+      "id": "me-applied-mechanics-and-design--screw-jack",
+      "name": "Screw jack",
+      "diff": "E"
+     },
+     {
+      "id": "me-applied-mechanics-and-design--wedge",
+      "name": "Wedge",
+      "diff": "E"
+     },
+     {
+      "id": "me-applied-mechanics-and-design--vehicles",
+      "name": "Vehicles",
+      "diff": "E"
+     },
+     {
+      "id": "me-applied-mechanics-and-design--etc",
+      "name": "Etc",
+      "diff": "E"
+     },
+     {
+      "id": "me-applied-mechanics-and-design--plane-trusses-and-frames",
+      "name": "Plane trusses and frames",
+      "diff": "M"
+     },
+     {
+      "id": "me-applied-mechanics-and-design--virtual-work",
+      "name": "Virtual work",
+      "diff": "E"
+     },
+     {
+      "id": "me-applied-mechanics-and-design--kinematics-and-dynamics-of-rigid-bodies-in-plane-motion",
+      "name": "Kinematics and dynamics of rigid bodies in plane motion",
+      "diff": "M"
+     },
+     {
+      "id": "me-applied-mechanics-and-design--impulse-and-momentum-linear-and-angular-and-energy-formulati",
+      "name": "Impulse and momentum (linear and angular) and energy formulations",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Mechanics of Materials",
+    "topics": [
+     {
+      "id": "me-applied-mechanics-and-design--stress-and-strain-elastic-constants-and-their-relationships",
+      "name": "Stress and strain, elastic constants and their relationships",
+      "diff": "M"
+     },
+     {
+      "id": "me-applied-mechanics-and-design--stress-and-strain-components-transformations-in-2d",
+      "name": "Stress and strain components transformations in 2D",
+      "diff": "H"
+     },
+     {
+      "id": "me-applied-mechanics-and-design--mohrs-circle-for-plane-stress-and-plane-strain",
+      "name": "Mohr’s circle for plane stress and plane strain",
+      "diff": "M"
+     },
+     {
+      "id": "me-applied-mechanics-and-design--thin-walled-pressure-vessels",
+      "name": "Thin -walled pressure vessels",
+      "diff": "M"
+     },
+     {
+      "id": "me-applied-mechanics-and-design--shear-force-and-bending-moment-diagrams",
+      "name": "Shear force and bending moment diagrams",
+      "diff": "M"
+     },
+     {
+      "id": "me-applied-mechanics-and-design--bending-and-shear-stresses",
+      "name": "Bending and shear stresses",
+      "diff": "M"
+     },
+     {
+      "id": "me-applied-mechanics-and-design--concept-of-shear-centre",
+      "name": "Concept of shear centre",
+      "diff": "M"
+     },
+     {
+      "id": "me-applied-mechanics-and-design--deflection-of-beams",
+      "name": "Deflection of beams",
+      "diff": "M"
+     },
+     {
+      "id": "me-applied-mechanics-and-design--torsion-of-circular-shafts",
+      "name": "Torsion of circular shafts",
+      "diff": "M"
+     },
+     {
+      "id": "me-applied-mechanics-and-design--eulers-theory-of-columns",
+      "name": "Euler’s theory of columns",
+      "diff": "M"
+     },
+     {
+      "id": "me-applied-mechanics-and-design--energy-methods",
+      "name": "Energy methods",
+      "diff": "E"
+     },
+     {
+      "id": "me-applied-mechanics-and-design--thermal-stresses",
+      "name": "Thermal stresses",
+      "diff": "E"
+     },
+     {
+      "id": "me-applied-mechanics-and-design--strain-gauges-and-rosettes",
+      "name": "Strain gauges and rosettes",
+      "diff": "M"
+     },
+     {
+      "id": "me-applied-mechanics-and-design--mechanical-properties-of-materials",
+      "name": "Mechanical properties of materials",
+      "diff": "E"
+     },
+     {
+      "id": "me-applied-mechanics-and-design--toughness",
+      "name": "Toughness",
+      "diff": "E"
+     },
+     {
+      "id": "me-applied-mechanics-and-design--hardness",
+      "name": "Hardness",
+      "diff": "E"
+     },
+     {
+      "id": "me-applied-mechanics-and-design--impact-strength",
+      "name": "Impact strength",
+      "diff": "E"
+     }
+    ]
+   },
+   {
+    "letter": "C",
+    "name": "Theory of Machines",
+    "topics": [
+     {
+      "id": "me-applied-mechanics-and-design--displacement-velocity-and-acceleration-analysis-of-plane-mec",
+      "name": "Displacement, velocity and acceleration analysis of plane mechanisms",
+      "diff": "M"
+     },
+     {
+      "id": "me-applied-mechanics-and-design--dynamic-analysis-of-linkages",
+      "name": "Dynamic analysis of linkages",
+      "diff": "M"
+     },
+     {
+      "id": "me-applied-mechanics-and-design--cams",
+      "name": "Cams",
+      "diff": "E"
+     },
+     {
+      "id": "me-applied-mechanics-and-design--gears-and-gear-trains",
+      "name": "Gears and gear trains",
+      "diff": "M"
+     },
+     {
+      "id": "me-applied-mechanics-and-design--flywheels-and-governors",
+      "name": "Flywheels and governors",
+      "diff": "M"
+     },
+     {
+      "id": "me-applied-mechanics-and-design--balancing-of-reciprocating-and-rotating-masses",
+      "name": "Balancing of reciprocating and rotating masses",
+      "diff": "M"
+     },
+     {
+      "id": "me-applied-mechanics-and-design--gyroscope",
+      "name": "Gyroscope",
+      "diff": "E"
+     }
+    ]
+   },
+   {
+    "letter": "D",
+    "name": "Vibrations",
+    "topics": [
+     {
+      "id": "me-applied-mechanics-and-design--free-and-forced-vibration-of-linear-systems-with-single-and-",
+      "name": "Free and forced vibration of linear systems with single and two degrees of freedom",
+      "diff": "H"
+     },
+     {
+      "id": "me-applied-mechanics-and-design--damping-estimation-and-effects",
+      "name": "Damping estimation and effects",
+      "diff": "M"
+     },
+     {
+      "id": "me-applied-mechanics-and-design--vibration-isolation-transmissibility-ratio",
+      "name": "Vibration isolation, transmissibility ratio",
+      "diff": "H"
+     },
+     {
+      "id": "me-applied-mechanics-and-design--resonance",
+      "name": "Resonance",
+      "diff": "E"
+     },
+     {
+      "id": "me-applied-mechanics-and-design--critical-speeds-of-shafts",
+      "name": "Critical speeds of shafts",
+      "diff": "M"
+     },
+     {
+      "id": "me-applied-mechanics-and-design--control-system-pid-controller-transfer-function",
+      "name": "Control system, PID controller, transfer function",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "E",
+    "name": "Machine Design",
+    "topics": [
+     {
+      "id": "me-applied-mechanics-and-design--design-for-static-and-dynamic-loading",
+      "name": "Design for static and dynamic loading",
+      "diff": "M"
+     },
+     {
+      "id": "me-applied-mechanics-and-design--failure-theories",
+      "name": "Failure theories",
+      "diff": "E"
+     },
+     {
+      "id": "me-applied-mechanics-and-design--fatigue-strength-and-the-s-n-diagram",
+      "name": "Fatigue strength and the S -N diagram",
+      "diff": "H"
+     },
+     {
+      "id": "me-applied-mechanics-and-design--principles-and-design-of-machine-elements-such-as-bolted",
+      "name": "Principles and design of machine elements such as bolted",
+      "diff": "M"
+     },
+     {
+      "id": "me-applied-mechanics-and-design--riveted-and-welded-joints",
+      "name": "Riveted and welded joints",
+      "diff": "M"
+     },
+     {
+      "id": "me-applied-mechanics-and-design--shafts",
+      "name": "Shafts",
+      "diff": "E"
+     },
+     {
+      "id": "me-applied-mechanics-and-design--gears",
+      "name": "Gears",
+      "diff": "E"
+     },
+     {
+      "id": "me-applied-mechanics-and-design--belt-drives",
+      "name": "Belt drives",
+      "diff": "E"
+     },
+     {
+      "id": "me-applied-mechanics-and-design--rolling-and-sliding-contact-bearings",
+      "name": "Rolling and sliding contact bearings",
+      "diff": "M"
+     },
+     {
+      "id": "me-applied-mechanics-and-design--brakes-and-clutches",
+      "name": "Brakes and clutches",
+      "diff": "M"
+     },
+     {
+      "id": "me-applied-mechanics-and-design--springs",
+      "name": "Springs",
+      "diff": "E"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "me-fluid-mechanics-and-thermal-sc",
+  "name": "Fluid Mechanics and Thermal Sciences",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Fluid Mechanics",
+    "topics": [
+     {
+      "id": "me-fluid-mechanics-and-thermal-sc--fluid-properties",
+      "name": "Fluid properties",
+      "diff": "E",
+      "sample": true
+     },
+     {
+      "id": "me-fluid-mechanics-and-thermal-sc--fluid-statics",
+      "name": "Fluid statics",
+      "diff": "E"
+     },
+     {
+      "id": "me-fluid-mechanics-and-thermal-sc--forces-on-submerged-bodies",
+      "name": "Forces on submerged bodies",
+      "diff": "M"
+     },
+     {
+      "id": "me-fluid-mechanics-and-thermal-sc--stability-of-floating-bodies",
+      "name": "Stability of floating bodies",
+      "diff": "H"
+     },
+     {
+      "id": "me-fluid-mechanics-and-thermal-sc--control-volume-analysis-of-mass-momentum-and-energy",
+      "name": "Control-volume analysis of mass, momentum and energy",
+      "diff": "M"
+     },
+     {
+      "id": "me-fluid-mechanics-and-thermal-sc--fluid-acceleration",
+      "name": "Fluid acceleration",
+      "diff": "M"
+     },
+     {
+      "id": "me-fluid-mechanics-and-thermal-sc--differential-equations-of-continuity-and-momentum",
+      "name": "Differential equations of continuity and momentum",
+      "diff": "M"
+     },
+     {
+      "id": "me-fluid-mechanics-and-thermal-sc--concept-of-velocity-potential",
+      "name": "Concept of velocity potential",
+      "diff": "M"
+     },
+     {
+      "id": "me-fluid-mechanics-and-thermal-sc--bernoullis-equation",
+      "name": "Bernoulli’s equation",
+      "diff": "M"
+     },
+     {
+      "id": "me-fluid-mechanics-and-thermal-sc--dimensional-analysis",
+      "name": "Dimensional analysis",
+      "diff": "M"
+     },
+     {
+      "id": "me-fluid-mechanics-and-thermal-sc--viscous-flow-of-incompressible-fluids",
+      "name": "Viscous flow of incompressible fluids",
+      "diff": "M"
+     },
+     {
+      "id": "me-fluid-mechanics-and-thermal-sc--boundary-layer",
+      "name": "Boundary layer",
+      "diff": "E"
+     },
+     {
+      "id": "me-fluid-mechanics-and-thermal-sc--elementary-turbulent-flow",
+      "name": "Elementary turbulent flow",
+      "diff": "M"
+     },
+     {
+      "id": "me-fluid-mechanics-and-thermal-sc--flow-through-pipes",
+      "name": "Flow through pipes",
+      "diff": "M"
+     },
+     {
+      "id": "me-fluid-mechanics-and-thermal-sc--head-losses-in-pipes",
+      "name": "Head losses in pipes",
+      "diff": "M"
+     },
+     {
+      "id": "me-fluid-mechanics-and-thermal-sc--bends-and-fittings",
+      "name": "Bends and fittings",
+      "diff": "M"
+     },
+     {
+      "id": "me-fluid-mechanics-and-thermal-sc--one-dimensional-high-speed-compressible-fluid-flow",
+      "name": "One dimensional high speed compressible fluid flow",
+      "diff": "M"
+     },
+     {
+      "id": "me-fluid-mechanics-and-thermal-sc--flow-through-converging-and-converging-diverging-nozzles",
+      "name": "Flow through converging and converging-diverging nozzles",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Heat Transfer",
+    "topics": [
+     {
+      "id": "me-fluid-mechanics-and-thermal-sc--modes-of-heat-transfer",
+      "name": "Modes of heat transfer",
+      "diff": "M"
+     },
+     {
+      "id": "me-fluid-mechanics-and-thermal-sc--one-dimensional-heat-conduction",
+      "name": "One dimensional heat conduction",
+      "diff": "M"
+     },
+     {
+      "id": "me-fluid-mechanics-and-thermal-sc--resistance-concept-and-electrical-analogy",
+      "name": "Resistance concept and electrical analogy",
+      "diff": "M"
+     },
+     {
+      "id": "me-fluid-mechanics-and-thermal-sc--heat-transfer-through-fins",
+      "name": "Heat transfer through fins",
+      "diff": "M"
+     },
+     {
+      "id": "me-fluid-mechanics-and-thermal-sc--unsteady-heat-conduction",
+      "name": "Unsteady heat conduction",
+      "diff": "M"
+     },
+     {
+      "id": "me-fluid-mechanics-and-thermal-sc--lumped-parameter-system",
+      "name": "Lumped parameter system",
+      "diff": "M"
+     },
+     {
+      "id": "me-fluid-mechanics-and-thermal-sc--thermal-boundary-layer",
+      "name": "Thermal boundary layer",
+      "diff": "M"
+     },
+     {
+      "id": "me-fluid-mechanics-and-thermal-sc--dimensionless-parameters-in-free-and-forced-convective-heat-",
+      "name": "Dimensionless parameters in free and forced convective heat transfer",
+      "diff": "M"
+     },
+     {
+      "id": "me-fluid-mechanics-and-thermal-sc--heat-transfer-correlations-for-flow-over-flat-plates-and-thr",
+      "name": "Heat transfer correlations for flow over flat plates and through pipes",
+      "diff": "M"
+     },
+     {
+      "id": "me-fluid-mechanics-and-thermal-sc--boiling-and-condensation",
+      "name": "Boiling and condensation",
+      "diff": "M"
+     },
+     {
+      "id": "me-fluid-mechanics-and-thermal-sc--effect-of-turbulence",
+      "name": "Effect of turbulence",
+      "diff": "M"
+     },
+     {
+      "id": "me-fluid-mechanics-and-thermal-sc--heat-exchanger-performance-lmtd-and-ntu-methods",
+      "name": "Heat exchanger performance, LMTD and NTU methods",
+      "diff": "M"
+     },
+     {
+      "id": "me-fluid-mechanics-and-thermal-sc--radiative-heat-transfer",
+      "name": "Radiative heat transfer",
+      "diff": "M"
+     },
+     {
+      "id": "me-fluid-mechanics-and-thermal-sc--stefan-boltzmann-law",
+      "name": "Stefan- Boltzmann law",
+      "diff": "M"
+     },
+     {
+      "id": "me-fluid-mechanics-and-thermal-sc--wiens-displacement-law",
+      "name": "Wien's displacement law",
+      "diff": "M"
+     },
+     {
+      "id": "me-fluid-mechanics-and-thermal-sc--black-and-grey-surfaces",
+      "name": "Black and grey surfaces",
+      "diff": "M"
+     },
+     {
+      "id": "me-fluid-mechanics-and-thermal-sc--view-factors",
+      "name": "View factors",
+      "diff": "E"
+     },
+     {
+      "id": "me-fluid-mechanics-and-thermal-sc--radiation-network-analysis",
+      "name": "Radiation network analysis",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "C",
+    "name": "Thermodynamics",
+    "topics": [
+     {
+      "id": "me-fluid-mechanics-and-thermal-sc--thermodynamic-systems-and-processes",
+      "name": "Thermodynamic systems and processes",
+      "diff": "H"
+     },
+     {
+      "id": "me-fluid-mechanics-and-thermal-sc--properties-of-pure-substances-behaviour-of-ideal-and-real-ga",
+      "name": "Properties of pure substances, behaviour of ideal and real gases",
+      "diff": "E"
+     },
+     {
+      "id": "me-fluid-mechanics-and-thermal-sc--zeroth",
+      "name": "Zeroth",
+      "diff": "E"
+     },
+     {
+      "id": "me-fluid-mechanics-and-thermal-sc--first-and-second-laws-of-thermodynamics",
+      "name": "First and second laws of thermodynamics",
+      "diff": "H"
+     },
+     {
+      "id": "me-fluid-mechanics-and-thermal-sc--calculation-of-work",
+      "name": "Calculation of work",
+      "diff": "M"
+     },
+     {
+      "id": "me-fluid-mechanics-and-thermal-sc--heat",
+      "name": "Heat",
+      "diff": "E"
+     },
+     {
+      "id": "me-fluid-mechanics-and-thermal-sc--energy-changes-and-entropy-changes-in-various-processes",
+      "name": "Energy changes and entropy changes in various processes",
+      "diff": "M"
+     },
+     {
+      "id": "me-fluid-mechanics-and-thermal-sc--application-of-first-and-second-laws-for-analysis-of-closed-",
+      "name": "Application of first and second laws for analysis of closed and open systems",
+      "diff": "M"
+     },
+     {
+      "id": "me-fluid-mechanics-and-thermal-sc--thermodynamic-property-charts-and-tables",
+      "name": "Thermodynamic property charts and tables",
+      "diff": "H"
+     },
+     {
+      "id": "me-fluid-mechanics-and-thermal-sc--availability-and-irreversibility",
+      "name": "Availability and irreversibility",
+      "diff": "M"
+     },
+     {
+      "id": "me-fluid-mechanics-and-thermal-sc--thermodynamic-relations",
+      "name": "Thermodynamic relations",
+      "diff": "H"
+     }
+    ]
+   },
+   {
+    "letter": "D",
+    "name": "Applications",
+    "topics": [
+     {
+      "id": "me-fluid-mechanics-and-thermal-sc--power-engineering-vapour-and-gas-power-cycles",
+      "name": "Power Engineering: vapour and gas power cycles",
+      "diff": "M"
+     },
+     {
+      "id": "me-fluid-mechanics-and-thermal-sc--concepts-of-regeneration-and-reheat",
+      "name": "Concepts of regeneration and reheat",
+      "diff": "M"
+     },
+     {
+      "id": "me-fluid-mechanics-and-thermal-sc--i-c",
+      "name": "I.C",
+      "diff": "E"
+     }
+    ]
+   },
+   {
+    "letter": "E",
+    "name": "Engines",
+    "topics": [
+     {
+      "id": "me-fluid-mechanics-and-thermal-sc--air-standard-otto-diesel-and-dual-cycles",
+      "name": "Air-standard Otto, Diesel and dual cycles",
+      "diff": "M"
+     },
+     {
+      "id": "me-fluid-mechanics-and-thermal-sc--basics-of-combustion-air-fuel-ratio-equivalence-ratio",
+      "name": "Basics of Combustion: Air- Fuel Ratio, Equivalence Ratio",
+      "diff": "M"
+     },
+     {
+      "id": "me-fluid-mechanics-and-thermal-sc--refrigeration-and-air-conditioning-vapour-and-gas-refrigerat",
+      "name": "Refrigeration and air-conditioning: Vapour and gas refrigeration and heat pump cycles",
+      "diff": "M"
+     },
+     {
+      "id": "me-fluid-mechanics-and-thermal-sc--properties-of-moist-air",
+      "name": "Properties of moist air",
+      "diff": "E"
+     },
+     {
+      "id": "me-fluid-mechanics-and-thermal-sc--psychrometric-chart",
+      "name": "Psychrometric chart",
+      "diff": "M"
+     },
+     {
+      "id": "me-fluid-mechanics-and-thermal-sc--basic-psychrometric-processes",
+      "name": "Basic psychrometric processes",
+      "diff": "E"
+     },
+     {
+      "id": "me-fluid-mechanics-and-thermal-sc--turbomachinery-impulse-and-reaction-principles",
+      "name": "Turbomachinery: Impulse and reaction principles",
+      "diff": "M"
+     },
+     {
+      "id": "me-fluid-mechanics-and-thermal-sc--velocity-diagrams",
+      "name": "Velocity diagrams",
+      "diff": "E"
+     },
+     {
+      "id": "me-fluid-mechanics-and-thermal-sc--pelton-wheel",
+      "name": "Pelton-wheel",
+      "diff": "E"
+     },
+     {
+      "id": "me-fluid-mechanics-and-thermal-sc--francis-and-kaplan-turbines",
+      "name": "Francis and Kaplan turbines",
+      "diff": "M"
+     },
+     {
+      "id": "me-fluid-mechanics-and-thermal-sc--steam-and-gas-turbines",
+      "name": "Steam and gas turbines",
+      "diff": "M"
+     },
+     {
+      "id": "me-fluid-mechanics-and-thermal-sc--air-and-gas-compressors",
+      "name": "Air and gas compressors",
+      "diff": "M"
+     },
+     {
+      "id": "me-fluid-mechanics-and-thermal-sc--pumps-and-pump-characteristics",
+      "name": "Pumps and pump characteristics",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "me-materials-manufacturing-and-in",
+  "name": "Materials, Manufacturing and Industrial Engineering",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Engineering Materials",
+    "topics": [
+     {
+      "id": "me-materials-manufacturing-and-in--crystal-structure-of-common-metals-phase-diagrams-heat-treat",
+      "name": "Crystal structure of common metals, phase diagrams, heat treatment",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "me-materials-manufacturing-and-in--properties-and-applications-of-engineering-materials-metals-",
+      "name": "Properties and applications of engineering materials - metals and alloys",
+      "diff": "M"
+     },
+     {
+      "id": "me-materials-manufacturing-and-in--polymers",
+      "name": "Polymers",
+      "diff": "E"
+     },
+     {
+      "id": "me-materials-manufacturing-and-in--composites-and-ceramics",
+      "name": "Composites and ceramics",
+      "diff": "M"
+     },
+     {
+      "id": "me-materials-manufacturing-and-in--engineering-and-true-stress-strain-diagrams",
+      "name": "Engineering and true stress-strain diagrams",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Casting, Forming and Joining Processes",
+    "topics": [
+     {
+      "id": "me-materials-manufacturing-and-in--different-types-of-casting-processes",
+      "name": "Different types of casting processes",
+      "diff": "E"
+     },
+     {
+      "id": "me-materials-manufacturing-and-in--patterns-moulds-and-core",
+      "name": "Patterns, moulds and core",
+      "diff": "M"
+     },
+     {
+      "id": "me-materials-manufacturing-and-in--solidification-and-cooling-riser-and-gating-design-casting-d",
+      "name": "Solidification and cooling, riser and gating design, casting defects",
+      "diff": "M"
+     },
+     {
+      "id": "me-materials-manufacturing-and-in--plastic-deformation-and-yield-criteria",
+      "name": "Plastic deformation and yield criteria",
+      "diff": "H"
+     },
+     {
+      "id": "me-materials-manufacturing-and-in--hot-working-and-cold-working",
+      "name": "Hot working and cold working",
+      "diff": "M"
+     },
+     {
+      "id": "me-materials-manufacturing-and-in--principles-of-bulk-forming-and-sheet-forming-processes-and-e",
+      "name": "Principles of bulk forming and sheet forming processes and estimation of load in these processes",
+      "diff": "M"
+     },
+     {
+      "id": "me-materials-manufacturing-and-in--fundamentals-of-powder-metallurgy-and-its-applications",
+      "name": "Fundamentals of powder metallurgy and its applications",
+      "diff": "M"
+     },
+     {
+      "id": "me-materials-manufacturing-and-in--principles-of-welding-brazing-soldering",
+      "name": "Principles of welding, brazing, soldering",
+      "diff": "M"
+     },
+     {
+      "id": "me-materials-manufacturing-and-in--solid-state-welding-processes-adhesive-bonding",
+      "name": "Solid-state welding processes, adhesive bonding",
+      "diff": "M"
+     },
+     {
+      "id": "me-materials-manufacturing-and-in--non-destructive-testing-methods",
+      "name": "Non-destructive testing methods",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "C",
+    "name": "Machining and Machine Tool Operations",
+    "topics": [
+     {
+      "id": "me-materials-manufacturing-and-in--basic-machining-operations-and-machine-tools",
+      "name": "Basic machining operations and machine tools",
+      "diff": "E"
+     },
+     {
+      "id": "me-materials-manufacturing-and-in--single-point-and-multipoint-cutting-tools",
+      "name": "Single-point and multipoint cutting tools",
+      "diff": "M"
+     },
+     {
+      "id": "me-materials-manufacturing-and-in--geometry-of-single-point-turning-tools-asa-and-ors-systems",
+      "name": "Geometry of single -point turning tools - ASA and ORS systems",
+      "diff": "M"
+     },
+     {
+      "id": "me-materials-manufacturing-and-in--mechanics-of-machining",
+      "name": "Mechanics of machining",
+      "diff": "M"
+     },
+     {
+      "id": "me-materials-manufacturing-and-in--cutting-tool-materials-tool-life-and-tool-wear",
+      "name": "Cutting tool materials, tool life and tool wear",
+      "diff": "M"
+     },
+     {
+      "id": "me-materials-manufacturing-and-in--economics-of-machining",
+      "name": "Economics of machining",
+      "diff": "M"
+     },
+     {
+      "id": "me-materials-manufacturing-and-in--abrasive-machining-processes",
+      "name": "Abrasive machining processes",
+      "diff": "M"
+     },
+     {
+      "id": "me-materials-manufacturing-and-in--principles-and-applications-of-non-traditional-machining-pro",
+      "name": "Principles and applications of non -traditional machining processes",
+      "diff": "M"
+     },
+     {
+      "id": "me-materials-manufacturing-and-in--principles-of-work-holding-jigs-and-fixtures",
+      "name": "Principles of work holding, jigs and fixtures",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "D",
+    "name": "Additive Manufacturing",
+    "topics": [
+     {
+      "id": "me-materials-manufacturing-and-in--principles-of-different-types-of-additive-manufacturing-proc",
+      "name": "Principles of different types of additive manufacturing processes for engineering materials",
+      "diff": "E"
+     },
+     {
+      "id": "me-materials-manufacturing-and-in--additively-manufactured-products-advantages",
+      "name": "Additively manufactured products - advantages",
+      "diff": "M"
+     },
+     {
+      "id": "me-materials-manufacturing-and-in--limitations",
+      "name": "Limitations",
+      "diff": "E"
+     },
+     {
+      "id": "me-materials-manufacturing-and-in--applications",
+      "name": "Applications",
+      "diff": "E"
+     }
+    ]
+   },
+   {
+    "letter": "E",
+    "name": "Metrology and Inspection",
+    "topics": [
+     {
+      "id": "me-materials-manufacturing-and-in--limits-fits-and-tolerances",
+      "name": "Limits, fits and tolerances",
+      "diff": "M"
+     },
+     {
+      "id": "me-materials-manufacturing-and-in--linear-and-angular-measurements",
+      "name": "Linear and angular measurements",
+      "diff": "M"
+     },
+     {
+      "id": "me-materials-manufacturing-and-in--comparators",
+      "name": "Comparators",
+      "diff": "E"
+     },
+     {
+      "id": "me-materials-manufacturing-and-in--interferometry",
+      "name": "Interferometry",
+      "diff": "E"
+     },
+     {
+      "id": "me-materials-manufacturing-and-in--form-and-finish-measurement",
+      "name": "Form and finish measurement",
+      "diff": "M"
+     },
+     {
+      "id": "me-materials-manufacturing-and-in--alignment-and-testing-methods",
+      "name": "Alignment and testing methods",
+      "diff": "M"
+     },
+     {
+      "id": "me-materials-manufacturing-and-in--tolerance-analysis-in-manufacturing-and-assembly",
+      "name": "Tolerance analysis in manufacturing and assembly",
+      "diff": "M"
+     },
+     {
+      "id": "me-materials-manufacturing-and-in--principle-of-coordinate-measuring-machine-cmm",
+      "name": "Principle of coordinate- measuring machine (CMM)",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "F",
+    "name": "Computer Aided Manufacturing and Automation",
+    "topics": [
+     {
+      "id": "me-materials-manufacturing-and-in--basic-concepts-of-cad-cam-and-their-integration-tools",
+      "name": "Basic concepts of CAD/CAM and their integration tools",
+      "diff": "E"
+     },
+     {
+      "id": "me-materials-manufacturing-and-in--nc-cnc-machines-and-cnc-programming",
+      "name": "NC/CNC machines and CNC programming",
+      "diff": "M"
+     },
+     {
+      "id": "me-materials-manufacturing-and-in--pneumatic-electro-pneumatic-and-hydraulic-actuators-for-auto",
+      "name": "Pneumatic, electro -pneumatic, and hydraulic actuators for automation",
+      "diff": "M"
+     },
+     {
+      "id": "me-materials-manufacturing-and-in--programmable-logic-controllers",
+      "name": "Programmable logic controllers",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "G",
+    "name": "Production Planning and Control",
+    "topics": [
+     {
+      "id": "me-materials-manufacturing-and-in--work-study",
+      "name": "Work study",
+      "diff": "E"
+     },
+     {
+      "id": "me-materials-manufacturing-and-in--productivity",
+      "name": "Productivity",
+      "diff": "E"
+     },
+     {
+      "id": "me-materials-manufacturing-and-in--forecasting-models",
+      "name": "Forecasting models",
+      "diff": "M"
+     },
+     {
+      "id": "me-materials-manufacturing-and-in--aggregate-production-planning",
+      "name": "Aggregate production planning",
+      "diff": "M"
+     },
+     {
+      "id": "me-materials-manufacturing-and-in--scheduling",
+      "name": "Scheduling",
+      "diff": "E"
+     },
+     {
+      "id": "me-materials-manufacturing-and-in--materials-requirement-planning",
+      "name": "Materials requirement planning",
+      "diff": "M"
+     },
+     {
+      "id": "me-materials-manufacturing-and-in--six-sigma",
+      "name": "Six sigma",
+      "diff": "E"
+     },
+     {
+      "id": "me-materials-manufacturing-and-in--lean-manufacturing",
+      "name": "Lean manufacturing",
+      "diff": "M"
+     },
+     {
+      "id": "me-materials-manufacturing-and-in--inventory-control-deterministic-models",
+      "name": "Inventory Control - deterministic models",
+      "diff": "M"
+     },
+     {
+      "id": "me-materials-manufacturing-and-in--safety-stock",
+      "name": "Safety stock",
+      "diff": "E"
+     },
+     {
+      "id": "me-materials-manufacturing-and-in--inventory-control-systems",
+      "name": "Inventory control systems",
+      "diff": "M"
+     },
+     {
+      "id": "me-materials-manufacturing-and-in--quality-and-reliability-concepts-for-product-lifecycle-analy",
+      "name": "Quality and reliability concepts for product lifecycle analysis",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "H",
+    "name": "Operations Research",
+    "topics": [
+     {
+      "id": "me-materials-manufacturing-and-in--linear-programming",
+      "name": "Linear programming",
+      "diff": "M"
+     },
+     {
+      "id": "me-materials-manufacturing-and-in--simplex-method",
+      "name": "Simplex method",
+      "diff": "E"
+     },
+     {
+      "id": "me-materials-manufacturing-and-in--transportation",
+      "name": "Transportation",
+      "diff": "E"
+     },
+     {
+      "id": "me-materials-manufacturing-and-in--assignment",
+      "name": "Assignment",
+      "diff": "E"
+     },
+     {
+      "id": "me-materials-manufacturing-and-in--network-flow-models",
+      "name": "Network flow models",
+      "diff": "M"
+     },
+     {
+      "id": "me-materials-manufacturing-and-in--simple-queuing-models",
+      "name": "Simple queuing models",
+      "diff": "M"
+     },
+     {
+      "id": "me-materials-manufacturing-and-in--pert-and-cpm",
+      "name": "PERT and CPM",
+      "diff": "E"
+     }
+    ]
+   }
+  ]
+ }
+]

@@ -1,0 +1,219 @@
+[
+ {
+  "id": "ga-verbal-aptitude",
+  "name": "Verbal Aptitude",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Basic English grammar",
+    "topics": [
+     {
+      "id": "ga-verbal-aptitude--tenses",
+      "name": "Tenses",
+      "diff": "E",
+      "sample": true
+     },
+     {
+      "id": "ga-verbal-aptitude--articles",
+      "name": "Articles",
+      "diff": "E"
+     },
+     {
+      "id": "ga-verbal-aptitude--adjectives",
+      "name": "Adjectives",
+      "diff": "E"
+     },
+     {
+      "id": "ga-verbal-aptitude--prepositions",
+      "name": "Prepositions",
+      "diff": "E"
+     },
+     {
+      "id": "ga-verbal-aptitude--conjunctions",
+      "name": "Conjunctions",
+      "diff": "E"
+     },
+     {
+      "id": "ga-verbal-aptitude--verb-noun-agreement",
+      "name": "Verb-noun agreement",
+      "diff": "M"
+     },
+     {
+      "id": "ga-verbal-aptitude--other-parts-of-speech",
+      "name": "Other parts of speech",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Basic vocabulary",
+    "topics": [
+     {
+      "id": "ga-verbal-aptitude--words-idioms-and-phrases-in-context",
+      "name": "Words, idioms, and phrases in context",
+      "diff": "M"
+     },
+     {
+      "id": "ga-verbal-aptitude--reading-and-comprehension-narrative-sequencing",
+      "name": "Reading and comprehension, Narrative sequencing",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "ga-quantitative-aptitude",
+  "name": "Quantitative Aptitude",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Data interpretation",
+    "topics": [
+     {
+      "id": "ga-quantitative-aptitude--data-graphs-bar-graphs-pie-charts-and-other-graphs-represent",
+      "name": "Data graphs (bar graphs, pie charts, and other graphs representing data)",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "ga-quantitative-aptitude--2-and-3-dimensional-plots",
+      "name": "2-and 3-dimensional plots",
+      "diff": "M"
+     },
+     {
+      "id": "ga-quantitative-aptitude--maps",
+      "name": "Maps",
+      "diff": "E"
+     },
+     {
+      "id": "ga-quantitative-aptitude--tables",
+      "name": "Tables",
+      "diff": "E"
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Numerical computation and estimation",
+    "topics": [
+     {
+      "id": "ga-quantitative-aptitude--ratios",
+      "name": "Ratios",
+      "diff": "E"
+     },
+     {
+      "id": "ga-quantitative-aptitude--percentages",
+      "name": "Percentages",
+      "diff": "E"
+     },
+     {
+      "id": "ga-quantitative-aptitude--powers",
+      "name": "Powers",
+      "diff": "E"
+     },
+     {
+      "id": "ga-quantitative-aptitude--exponents-and-logarithms",
+      "name": "Exponents and logarithms",
+      "diff": "M"
+     },
+     {
+      "id": "ga-quantitative-aptitude--permutations-and-combinations",
+      "name": "Permutations and combinations",
+      "diff": "M"
+     },
+     {
+      "id": "ga-quantitative-aptitude--series",
+      "name": "Series",
+      "diff": "E"
+     },
+     {
+      "id": "ga-quantitative-aptitude--mensuration-and-geometry-elementary-statistics-and-probabili",
+      "name": "Mensuration and geometry, Elementary statistics and probability",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "ga-analytical-aptitude",
+  "name": "Analytical Aptitude",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Logic",
+    "topics": [
+     {
+      "id": "ga-analytical-aptitude--deduction-and-induction-analogy-numerical-relations-and-reas",
+      "name": "Deduction and induction, Analogy, Numerical relations and reasoning",
+      "diff": "M",
+      "sample": true
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "ga-spatial-aptitude",
+  "name": "Spatial Aptitude",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Transformation of shapes",
+    "topics": [
+     {
+      "id": "ga-spatial-aptitude--translation",
+      "name": "Translation",
+      "diff": "E",
+      "sample": true
+     },
+     {
+      "id": "ga-spatial-aptitude--rotation",
+      "name": "Rotation",
+      "diff": "E"
+     },
+     {
+      "id": "ga-spatial-aptitude--scaling",
+      "name": "Scaling",
+      "diff": "E"
+     },
+     {
+      "id": "ga-spatial-aptitude--mirroring",
+      "name": "Mirroring",
+      "diff": "E"
+     },
+     {
+      "id": "ga-spatial-aptitude--assembling",
+      "name": "Assembling",
+      "diff": "E"
+     },
+     {
+      "id": "ga-spatial-aptitude--grouping-paper-folding",
+      "name": "Grouping paper folding",
+      "diff": "M"
+     },
+     {
+      "id": "ga-spatial-aptitude--cutting",
+      "name": "Cutting",
+      "diff": "E"
+     },
+     {
+      "id": "ga-spatial-aptitude--patterns-in-2-and-3-dimensions",
+      "name": "Patterns in 2 and 3 dimensions",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ }
+]

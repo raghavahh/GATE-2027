@@ -1,12 +1,18 @@
 import { PAPERS } from './papers';
-import { CS_SUBJECTS } from './cs';
 import type { CatSubject, CatTopic, Paper, Video } from './types';
 import videosJson from './videos.json';
 
 export * from './types';
 export { PAPERS, PRICE_INR, EDITION } from './papers';
 
-const SUBJECTS: Record<string, CatSubject[]> = { cs: CS_SUBJECTS };
+/** Sheets generated from the official GATE 2027 syllabus PDFs (scripts/build_syllabus.py). */
+const files = import.meta.glob<CatSubject[]>('./generated/*.json', { eager: true, import: 'default' });
+const byCode: Record<string, CatSubject[]> = {};
+for (const [path, subs] of Object.entries(files)) byCode[path.replace(/^.*\/(\w+)\.json$/, '$1')] = subs;
+
+const GA = byCode.ga ?? [];
+const SUBJECTS: Record<string, CatSubject[]> = {};
+for (const p of PAPERS) if (byCode[p.slug]?.length) SUBJECTS[p.slug] = [...GA, ...byCode[p.slug]];
 const VIDEOS = videosJson as Record<string, Video[]>;
 
 export const getPaper = (slug?: string): Paper | undefined => PAPERS.find(p => p.slug === slug);

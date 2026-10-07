@@ -1,0 +1,1079 @@
+[
+ {
+  "id": "st-calculus",
+  "name": "Calculus",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Overview",
+    "topics": [
+     {
+      "id": "st-calculus--finite-countable-and-uncountable-sets",
+      "name": "Finite, countable and uncountable sets",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "st-calculus--sequences-of-real-numbers",
+      "name": "Sequences of real numbers",
+      "diff": "M"
+     },
+     {
+      "id": "st-calculus--convergence-of-sequences",
+      "name": "Convergence of sequences",
+      "diff": "M"
+     },
+     {
+      "id": "st-calculus--bounded-sequences",
+      "name": "Bounded sequences",
+      "diff": "E"
+     },
+     {
+      "id": "st-calculus--monotonic-sequences",
+      "name": "Monotonic sequences",
+      "diff": "M"
+     },
+     {
+      "id": "st-calculus--cauchy-criterion-for-convergence",
+      "name": "Cauchy criterion for convergence",
+      "diff": "M"
+     },
+     {
+      "id": "st-calculus--series-of-real-numbers",
+      "name": "Series of real numbers",
+      "diff": "M"
+     },
+     {
+      "id": "st-calculus--convergence",
+      "name": "Convergence",
+      "diff": "E"
+     },
+     {
+      "id": "st-calculus--tests-of-convergence",
+      "name": "Tests of convergence",
+      "diff": "M"
+     },
+     {
+      "id": "st-calculus--alternating-series",
+      "name": "Alternating series",
+      "diff": "M"
+     },
+     {
+      "id": "st-calculus--absolute-and-conditional-convergence",
+      "name": "Absolute and conditional convergence",
+      "diff": "M"
+     },
+     {
+      "id": "st-calculus--power-series-and-radius-of-convergence",
+      "name": "Power series and radius of convergence",
+      "diff": "M"
+     },
+     {
+      "id": "st-calculus--functions-of-a-real-variable-limit",
+      "name": "Functions of a real variable: Limit",
+      "diff": "M"
+     },
+     {
+      "id": "st-calculus--continuity",
+      "name": "Continuity",
+      "diff": "E"
+     },
+     {
+      "id": "st-calculus--monotone-functions",
+      "name": "Monotone functions",
+      "diff": "M"
+     },
+     {
+      "id": "st-calculus--uniform-continuity",
+      "name": "Uniform continuity",
+      "diff": "M"
+     },
+     {
+      "id": "st-calculus--differentiability",
+      "name": "Differentiability",
+      "diff": "E"
+     },
+     {
+      "id": "st-calculus--rolles-theorem",
+      "name": "Rolle’s theorem",
+      "diff": "E"
+     },
+     {
+      "id": "st-calculus--mean-value-theorems",
+      "name": "Mean value theorems",
+      "diff": "M"
+     },
+     {
+      "id": "st-calculus--taylors-theorem",
+      "name": "Taylor’s theorem",
+      "diff": "E"
+     },
+     {
+      "id": "st-calculus--lhospital-rules",
+      "name": "L’Hospital rules",
+      "diff": "E"
+     },
+     {
+      "id": "st-calculus--maxima-and-minima",
+      "name": "Maxima and minima",
+      "diff": "E"
+     },
+     {
+      "id": "st-calculus--riemann-integration-and-its-properties",
+      "name": "Riemann integration and its properties",
+      "diff": "M"
+     },
+     {
+      "id": "st-calculus--improper-integrals",
+      "name": "Improper integrals",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Functions of several real variables",
+    "topics": [
+     {
+      "id": "st-calculus--limit",
+      "name": "Limit",
+      "diff": "E"
+     },
+     {
+      "id": "st-calculus--continuity",
+      "name": "Continuity",
+      "diff": "E"
+     },
+     {
+      "id": "st-calculus--partial-derivatives",
+      "name": "Partial derivatives",
+      "diff": "M"
+     },
+     {
+      "id": "st-calculus--directional-derivatives",
+      "name": "Directional derivatives",
+      "diff": "M"
+     },
+     {
+      "id": "st-calculus--gradient",
+      "name": "Gradient",
+      "diff": "E"
+     },
+     {
+      "id": "st-calculus--taylors-theorem",
+      "name": "Taylor’s theorem",
+      "diff": "E"
+     },
+     {
+      "id": "st-calculus--total-derivative",
+      "name": "Total derivative",
+      "diff": "E"
+     },
+     {
+      "id": "st-calculus--maxima-and-minima",
+      "name": "Maxima and minima",
+      "diff": "E"
+     },
+     {
+      "id": "st-calculus--saddle-point",
+      "name": "Saddle point",
+      "diff": "E"
+     },
+     {
+      "id": "st-calculus--method-of-lagrange-multipliers",
+      "name": "Method of Lagrange multipliers",
+      "diff": "M"
+     },
+     {
+      "id": "st-calculus--double-and-triple-integrals-and-their-applications",
+      "name": "Double and triple integrals and their applications",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "st-matrix-theory",
+  "name": "Matrix Theory:",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Matrix Theory:",
+    "topics": [
+     {
+      "id": "st-matrix-theory--subspaces-of-and",
+      "name": "Subspaces of ℝ𝑛 and ℂ𝑛",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "st-matrix-theory--span",
+      "name": "Span",
+      "diff": "E"
+     },
+     {
+      "id": "st-matrix-theory--linear-independence",
+      "name": "Linear independence",
+      "diff": "M"
+     },
+     {
+      "id": "st-matrix-theory--basis-and-dimension",
+      "name": "Basis and dimension",
+      "diff": "M"
+     },
+     {
+      "id": "st-matrix-theory--row-space-and-column-space-of-a-matrix",
+      "name": "Row space and column space of a matrix",
+      "diff": "M"
+     },
+     {
+      "id": "st-matrix-theory--rank-and-nullity",
+      "name": "Rank and nullity",
+      "diff": "E"
+     },
+     {
+      "id": "st-matrix-theory--row-reduced-echelon-form",
+      "name": "Row reduced echelon form",
+      "diff": "M"
+     },
+     {
+      "id": "st-matrix-theory--trace-and-determinant",
+      "name": "Trace and determinant",
+      "diff": "M"
+     },
+     {
+      "id": "st-matrix-theory--inverse-of-a-matrix",
+      "name": "Inverse of a matrix",
+      "diff": "M"
+     },
+     {
+      "id": "st-matrix-theory--systems-of-linear-equations",
+      "name": "Systems of linear equations",
+      "diff": "M"
+     },
+     {
+      "id": "st-matrix-theory--inner-products-in-and-gram-schmidt-orthonormalization",
+      "name": "Inner products in ℝ 𝑛 and ℂ𝑛, Gram-Schmidt orthonormalization",
+      "diff": "M"
+     },
+     {
+      "id": "st-matrix-theory--eigen-values-and-eigen-vectors",
+      "name": "Eigen values and eigen vectors",
+      "diff": "H"
+     },
+     {
+      "id": "st-matrix-theory--characteristic-polynomial",
+      "name": "Characteristic polynomial",
+      "diff": "M"
+     },
+     {
+      "id": "st-matrix-theory--cayley-hamilton-theorem",
+      "name": "Cayley-Hamilton theorem",
+      "diff": "M"
+     },
+     {
+      "id": "st-matrix-theory--symmetric",
+      "name": "Symmetric",
+      "diff": "E"
+     },
+     {
+      "id": "st-matrix-theory--skew-symmetric",
+      "name": "Skew-symmetric",
+      "diff": "E"
+     },
+     {
+      "id": "st-matrix-theory--hermitian",
+      "name": "Hermitian",
+      "diff": "E"
+     },
+     {
+      "id": "st-matrix-theory--skewhermitian",
+      "name": "SkewHermitian",
+      "diff": "E"
+     },
+     {
+      "id": "st-matrix-theory--orthogonal",
+      "name": "Orthogonal",
+      "diff": "E"
+     },
+     {
+      "id": "st-matrix-theory--unitary-matrices-and-their-eigen-values",
+      "name": "Unitary matrices and their eigen values",
+      "diff": "H"
+     },
+     {
+      "id": "st-matrix-theory--change-of-basis-matrix",
+      "name": "Change of basis matrix",
+      "diff": "M"
+     },
+     {
+      "id": "st-matrix-theory--equivalence-and-similarity",
+      "name": "Equivalence and similarity",
+      "diff": "M"
+     },
+     {
+      "id": "st-matrix-theory--diagonalizability",
+      "name": "Diagonalizability",
+      "diff": "E"
+     },
+     {
+      "id": "st-matrix-theory--positive-definite-and-positive-semi-definite-matrices-and-th",
+      "name": "Positive definite and positive semi-definite matrices and their properties",
+      "diff": "M"
+     },
+     {
+      "id": "st-matrix-theory--quadratic-forms",
+      "name": "Quadratic forms",
+      "diff": "E"
+     },
+     {
+      "id": "st-matrix-theory--singular-value-decomposition",
+      "name": "Singular value decomposition",
+      "diff": "H"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "st-probability",
+  "name": "Probability",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Probability",
+    "topics": [
+     {
+      "id": "st-probability--axiomatic-definition-of-probability",
+      "name": "Axiomatic definition of probability",
+      "diff": "E",
+      "sample": true
+     },
+     {
+      "id": "st-probability--properties-of-probability-function",
+      "name": "Properties of probability function",
+      "diff": "E"
+     },
+     {
+      "id": "st-probability--conditional-probability",
+      "name": "Conditional probability",
+      "diff": "M"
+     },
+     {
+      "id": "st-probability--bayes-theorem",
+      "name": "Bayes’ theorem",
+      "diff": "E"
+     },
+     {
+      "id": "st-probability--independence-of-events",
+      "name": "Independence of events",
+      "diff": "M"
+     },
+     {
+      "id": "st-probability--random-variables-and-their-distributions",
+      "name": "Random variables and their distributions",
+      "diff": "M"
+     },
+     {
+      "id": "st-probability--cumulative-distribution-function",
+      "name": "Cumulative distribution function",
+      "diff": "M"
+     },
+     {
+      "id": "st-probability--probability-mass-function",
+      "name": "Probability mass function",
+      "diff": "M"
+     },
+     {
+      "id": "st-probability--probability-density-function-and-their-properties",
+      "name": "Probability density function and their properties",
+      "diff": "M"
+     },
+     {
+      "id": "st-probability--expectation",
+      "name": "Expectation",
+      "diff": "E"
+     },
+     {
+      "id": "st-probability--variance",
+      "name": "Variance",
+      "diff": "E"
+     },
+     {
+      "id": "st-probability--properties-of-expectation-and-variance",
+      "name": "Properties of expectation and variance",
+      "diff": "E"
+     },
+     {
+      "id": "st-probability--moments-and-moment-generating-function",
+      "name": "Moments and moment generating function",
+      "diff": "M"
+     },
+     {
+      "id": "st-probability--probability-generating-function",
+      "name": "Probability generating function",
+      "diff": "M"
+     },
+     {
+      "id": "st-probability--quantiles",
+      "name": "Quantiles",
+      "diff": "E"
+     },
+     {
+      "id": "st-probability--distribution-of-functions-of-a-random-variable",
+      "name": "Distribution of functions of a random variable",
+      "diff": "M"
+     },
+     {
+      "id": "st-probability--chebyshev",
+      "name": "Chebyshev",
+      "diff": "E"
+     },
+     {
+      "id": "st-probability--markov-and-jensen-inequalities",
+      "name": "Markov and Jensen inequalities",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "st-standard-univariate-distributi",
+  "name": "Standard Univariate Distributions",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Standard Univariate Distributions",
+    "topics": [
+     {
+      "id": "st-standard-univariate-distributi--bernoulli",
+      "name": "Bernoulli",
+      "diff": "E",
+      "sample": true
+     },
+     {
+      "id": "st-standard-univariate-distributi--binomial",
+      "name": "Binomial",
+      "diff": "E"
+     },
+     {
+      "id": "st-standard-univariate-distributi--geometric",
+      "name": "Geometric",
+      "diff": "E"
+     },
+     {
+      "id": "st-standard-univariate-distributi--negative-binomial",
+      "name": "Negative binomial",
+      "diff": "E"
+     },
+     {
+      "id": "st-standard-univariate-distributi--hypergeometric",
+      "name": "Hypergeometric",
+      "diff": "E"
+     },
+     {
+      "id": "st-standard-univariate-distributi--discrete-uniform",
+      "name": "Discrete uniform",
+      "diff": "E"
+     },
+     {
+      "id": "st-standard-univariate-distributi--poisson",
+      "name": "Poisson",
+      "diff": "E"
+     },
+     {
+      "id": "st-standard-univariate-distributi--continuous-uniform",
+      "name": "Continuous uniform",
+      "diff": "M"
+     },
+     {
+      "id": "st-standard-univariate-distributi--exponential",
+      "name": "Exponential",
+      "diff": "E"
+     },
+     {
+      "id": "st-standard-univariate-distributi--double-exponential",
+      "name": "Double exponential",
+      "diff": "M"
+     },
+     {
+      "id": "st-standard-univariate-distributi--gamma",
+      "name": "Gamma",
+      "diff": "E"
+     },
+     {
+      "id": "st-standard-univariate-distributi--beta-distributions-of-first-and-second-kinds",
+      "name": "Beta distributions of first and second kinds",
+      "diff": "M"
+     },
+     {
+      "id": "st-standard-univariate-distributi--weibull",
+      "name": "Weibull",
+      "diff": "E"
+     },
+     {
+      "id": "st-standard-univariate-distributi--normal",
+      "name": "Normal",
+      "diff": "E"
+     },
+     {
+      "id": "st-standard-univariate-distributi--cauchy",
+      "name": "Cauchy",
+      "diff": "E"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "st-joint-distributions",
+  "name": "Joint Distributions",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Joint Distributions",
+    "topics": [
+     {
+      "id": "st-joint-distributions--jointly-distributed-random-variables-and-their-distribution-",
+      "name": "Jointly distributed random variables and their distribution functions",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "st-joint-distributions--probability-mass-function",
+      "name": "Probability mass function",
+      "diff": "M"
+     },
+     {
+      "id": "st-joint-distributions--probability-density-function-and-their-properties",
+      "name": "Probability density function and their properties",
+      "diff": "M"
+     },
+     {
+      "id": "st-joint-distributions--marginal-and-conditional-distributions",
+      "name": "Marginal and conditional distributions",
+      "diff": "M"
+     },
+     {
+      "id": "st-joint-distributions--conditional-expectation-and-moments",
+      "name": "Conditional expectation and moments",
+      "diff": "M"
+     },
+     {
+      "id": "st-joint-distributions--product-moments",
+      "name": "Product moments",
+      "diff": "E"
+     },
+     {
+      "id": "st-joint-distributions--simple-correlation-coefficient",
+      "name": "Simple correlation coefficient",
+      "diff": "M"
+     },
+     {
+      "id": "st-joint-distributions--joint-moment-generating-function",
+      "name": "Joint moment generating function",
+      "diff": "M"
+     },
+     {
+      "id": "st-joint-distributions--independence-of-random-variables",
+      "name": "Independence of random variables",
+      "diff": "M"
+     },
+     {
+      "id": "st-joint-distributions--functions-of-random-vector-and-their-distributions",
+      "name": "Functions of random vector and their distributions",
+      "diff": "M"
+     },
+     {
+      "id": "st-joint-distributions--distributions-of-order-statistics",
+      "name": "Distributions of order statistics",
+      "diff": "M"
+     },
+     {
+      "id": "st-joint-distributions--joint-and-marginal-distributions-of-order-statistics",
+      "name": "Joint and marginal distributions of order statistics",
+      "diff": "M"
+     },
+     {
+      "id": "st-joint-distributions--multinomial-distribution",
+      "name": "Multinomial distribution",
+      "diff": "M"
+     },
+     {
+      "id": "st-joint-distributions--bi-variate-normal-distribution",
+      "name": "Bi variate normal distribution",
+      "diff": "M"
+     },
+     {
+      "id": "st-joint-distributions--sampling-distributions-central-chi-square",
+      "name": "Sampling distributions: central chi-square",
+      "diff": "M"
+     },
+     {
+      "id": "st-joint-distributions--central",
+      "name": "Central 𝑡",
+      "diff": "E"
+     },
+     {
+      "id": "st-joint-distributions--central-distributions",
+      "name": "Central 𝐹 distributions",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "st-convergence-of-random-variable",
+  "name": "Convergence of Random Variables",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Convergence of Random Variables",
+    "topics": [
+     {
+      "id": "st-convergence-of-random-variable--convergence-in-distribution",
+      "name": "Convergence in distribution",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "st-convergence-of-random-variable--convergence-in-probability",
+      "name": "Convergence in probability",
+      "diff": "M"
+     },
+     {
+      "id": "st-convergence-of-random-variable--convergence-almost-surely",
+      "name": "Convergence almost surely",
+      "diff": "M"
+     },
+     {
+      "id": "st-convergence-of-random-variable--convergence-in-mean-and-their-inter-relations",
+      "name": "Convergence in 𝑟 − 𝑡ℎ mean and their inter -relations",
+      "diff": "M"
+     },
+     {
+      "id": "st-convergence-of-random-variable--slutskys-lemma",
+      "name": "Slutsky’s lemma",
+      "diff": "E"
+     },
+     {
+      "id": "st-convergence-of-random-variable--borel-cantelli-lemma",
+      "name": "Borel -Cantelli lemma",
+      "diff": "M"
+     },
+     {
+      "id": "st-convergence-of-random-variable--weak-and-strong-laws-of-large-numbers",
+      "name": "Weak and strong laws of large numbers",
+      "diff": "M"
+     },
+     {
+      "id": "st-convergence-of-random-variable--central-limit-theorem-for-i-i-d",
+      "name": "Central limit theorem for i.i.d",
+      "diff": "M"
+     },
+     {
+      "id": "st-convergence-of-random-variable--random-variables",
+      "name": "Random variables",
+      "diff": "E"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "st-stochastic-processes",
+  "name": "Stochastic Processes",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Stochastic Processes",
+    "topics": [
+     {
+      "id": "st-stochastic-processes--markov-chains-with-finite-and-countable-state-space",
+      "name": "Markov chains with finite and countable state space",
+      "diff": "H",
+      "sample": true
+     },
+     {
+      "id": "st-stochastic-processes--classification-of-states",
+      "name": "Classification of states",
+      "diff": "E"
+     },
+     {
+      "id": "st-stochastic-processes--limiting-behaviour-of-n-step-transition-probabilities",
+      "name": "Limiting behaviour of n -step transition probabilities",
+      "diff": "M"
+     },
+     {
+      "id": "st-stochastic-processes--stationary-distribution",
+      "name": "Stationary distribution",
+      "diff": "M"
+     },
+     {
+      "id": "st-stochastic-processes--poisson-process",
+      "name": "Poisson process",
+      "diff": "E"
+     },
+     {
+      "id": "st-stochastic-processes--birth-and-death-process",
+      "name": "Birth-and-death process",
+      "diff": "M"
+     },
+     {
+      "id": "st-stochastic-processes--pure-birth-process",
+      "name": "Pure-birth process",
+      "diff": "M"
+     },
+     {
+      "id": "st-stochastic-processes--pure-death-process",
+      "name": "Pure-death process",
+      "diff": "M"
+     },
+     {
+      "id": "st-stochastic-processes--brownian-motion-and-its-basic-properties",
+      "name": "Brownian motion and its basic properties",
+      "diff": "E"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "st-estimation",
+  "name": "Estimation",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Overview",
+    "topics": [
+     {
+      "id": "st-estimation--sufficiency",
+      "name": "Sufficiency",
+      "diff": "E",
+      "sample": true
+     },
+     {
+      "id": "st-estimation--minimal-sufficiency",
+      "name": "Minimal sufficiency",
+      "diff": "M"
+     },
+     {
+      "id": "st-estimation--factorization-theorem",
+      "name": "Factorization theorem",
+      "diff": "M"
+     },
+     {
+      "id": "st-estimation--completeness",
+      "name": "Completeness",
+      "diff": "E"
+     },
+     {
+      "id": "st-estimation--completeness-of-exponential-families",
+      "name": "Completeness of exponential families",
+      "diff": "M"
+     },
+     {
+      "id": "st-estimation--ancillary-statistic",
+      "name": "Ancillary statistic",
+      "diff": "M"
+     },
+     {
+      "id": "st-estimation--basus-theorem-and-its-applications",
+      "name": "Basu’s theorem and its applications",
+      "diff": "M"
+     },
+     {
+      "id": "st-estimation--unbiased-estimation",
+      "name": "Unbiased estimation",
+      "diff": "M"
+     },
+     {
+      "id": "st-estimation--uniformly-minimum-variance-unbiased-estimation",
+      "name": "Uniformly minimum variance unbiased estimation",
+      "diff": "M"
+     },
+     {
+      "id": "st-estimation--rao-blackwell-theorem",
+      "name": "Rao-Blackwell theorem",
+      "diff": "M"
+     },
+     {
+      "id": "st-estimation--lehmann-scheffe-theorem",
+      "name": "Lehmann-Scheffe theorem",
+      "diff": "M"
+     },
+     {
+      "id": "st-estimation--cramer-rao-inequality",
+      "name": "Cramer-Rao inequality",
+      "diff": "M"
+     },
+     {
+      "id": "st-estimation--consistent-estimators",
+      "name": "Consistent estimators",
+      "diff": "M"
+     },
+     {
+      "id": "st-estimation--method-of-moments-estimators",
+      "name": "Method of moments estimators",
+      "diff": "M"
+     },
+     {
+      "id": "st-estimation--method-of-maximum-likelihood-estimators-and-their-properties",
+      "name": "Method of maximum likelihood estimators and their properties",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Interval estimation",
+    "topics": [
+     {
+      "id": "st-estimation--pivotal-quantities-and-confidence-intervals-based-on-them",
+      "name": "Pivotal quantities and confidence intervals based on them",
+      "diff": "M"
+     },
+     {
+      "id": "st-estimation--coverage-probability",
+      "name": "Coverage probability",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "st-testing-of-hypotheses",
+  "name": "Testing of Hypotheses",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Testing of Hypotheses",
+    "topics": [
+     {
+      "id": "st-testing-of-hypotheses--neyman-pearson-lemma",
+      "name": "Neyman-Pearson lemma",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "st-testing-of-hypotheses--most-powerful-tests",
+      "name": "Most powerful tests",
+      "diff": "M"
+     },
+     {
+      "id": "st-testing-of-hypotheses--monotone-likelihood-ratio-mlr-property",
+      "name": "Monotone likelihood ratio (MLR) property",
+      "diff": "M"
+     },
+     {
+      "id": "st-testing-of-hypotheses--uniformly-most-powerful-tests",
+      "name": "Uniformly most powerful tests",
+      "diff": "M"
+     },
+     {
+      "id": "st-testing-of-hypotheses--uniformly-most-powerful-tests-for-families-having-mlr-proper",
+      "name": "Uniformly most powerful tests for families having MLR property",
+      "diff": "M"
+     },
+     {
+      "id": "st-testing-of-hypotheses--uniformly-most-powerful-unbiased-tests",
+      "name": "Uniformly most powerful unbiased tests",
+      "diff": "M"
+     },
+     {
+      "id": "st-testing-of-hypotheses--uniformly-most-powerful-unbiased-tests-for-exponential-famil",
+      "name": "Uniformly most powerful unbiased tests for exponential families",
+      "diff": "M"
+     },
+     {
+      "id": "st-testing-of-hypotheses--likelihood-ratio-tests",
+      "name": "Likelihood ratio tests",
+      "diff": "M"
+     },
+     {
+      "id": "st-testing-of-hypotheses--large-sample-tests",
+      "name": "Large sample tests",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "st-non-parametric-statistics",
+  "name": "Non-parametric Statistics",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Non-parametric Statistics",
+    "topics": [
+     {
+      "id": "st-non-parametric-statistics--empirical-distribution-function-and-its-properties",
+      "name": "Empirical distribution function and its properties",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "st-non-parametric-statistics--goodness-of-fit-tests",
+      "name": "Goodness of fit tests",
+      "diff": "M"
+     },
+     {
+      "id": "st-non-parametric-statistics--chi-square-test",
+      "name": "Chi-square test",
+      "diff": "E"
+     },
+     {
+      "id": "st-non-parametric-statistics--kolmogorov-smirnov-test",
+      "name": "Kolmogorov-Smirnov test",
+      "diff": "M"
+     },
+     {
+      "id": "st-non-parametric-statistics--run-tests",
+      "name": "Run tests",
+      "diff": "E"
+     },
+     {
+      "id": "st-non-parametric-statistics--sign-test",
+      "name": "Sign test",
+      "diff": "E"
+     },
+     {
+      "id": "st-non-parametric-statistics--wilcoxon-signed-rank-test",
+      "name": "Wilcoxon signed rank test",
+      "diff": "M"
+     },
+     {
+      "id": "st-non-parametric-statistics--mann-whitney-u-test",
+      "name": "Mann -Whitney U -test",
+      "diff": "M"
+     },
+     {
+      "id": "st-non-parametric-statistics--kruskal-wallis-test",
+      "name": "Kruskal -Wallis test",
+      "diff": "M"
+     },
+     {
+      "id": "st-non-parametric-statistics--rank-correlation-coefficients-of-spearman-and-kendall",
+      "name": "Rank correlation coefficients of Spearman and Kendall",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "st-multivariate-analysis",
+  "name": "Multivariate Analysis",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Multivariate normal distribution",
+    "topics": [
+     {
+      "id": "st-multivariate-analysis--properties",
+      "name": "Properties",
+      "diff": "E",
+      "sample": true
+     },
+     {
+      "id": "st-multivariate-analysis--conditional-and-marginal-distributions",
+      "name": "Conditional and marginal distributions",
+      "diff": "M"
+     },
+     {
+      "id": "st-multivariate-analysis--maximum-likelihood-estimation-of-mean-vector-and-dispersion-",
+      "name": "Maximum likelihood estimation of mean vector and dispersion matrix",
+      "diff": "M"
+     },
+     {
+      "id": "st-multivariate-analysis--hotellings-2-test",
+      "name": "Hotelling’s 𝑇2 test",
+      "diff": "M"
+     },
+     {
+      "id": "st-multivariate-analysis--wishart-distribution-and-its-basic-properties",
+      "name": "Wishart distribution and its basic properties",
+      "diff": "E"
+     },
+     {
+      "id": "st-multivariate-analysis--multiple-and-partial-correlation-coefficients-and-their-basi",
+      "name": "Multiple and partial correlation coefficients and their basic properties",
+      "diff": "E"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "st-regression-analysis",
+  "name": "Regression Analysis",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Regression Analysis",
+    "topics": [
+     {
+      "id": "st-regression-analysis--simple-and-multiple-linear-regression",
+      "name": "Simple and multiple linear regression",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "st-regression-analysis--2-and-adjusted-2-and-their-applications",
+      "name": "𝑅2 and adjusted 𝑅2 and their applications",
+      "diff": "M"
+     },
+     {
+      "id": "st-regression-analysis--distributions-of-quadratic-forms-of-random-vectors-fisher-co",
+      "name": "Distributions of quadratic forms of random vectors: Fisher-Cochran theorem",
+      "diff": "M"
+     },
+     {
+      "id": "st-regression-analysis--gauss-markov-theorem",
+      "name": "Gauss-Markov theorem",
+      "diff": "M"
+     },
+     {
+      "id": "st-regression-analysis--tests-for-regression-coefficients",
+      "name": "Tests for regression coefficients",
+      "diff": "M"
+     },
+     {
+      "id": "st-regression-analysis--confidence-intervals",
+      "name": "Confidence intervals",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ }
+]

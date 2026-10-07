@@ -1,0 +1,1380 @@
+[
+ {
+  "id": "ce-engineering-mathematics",
+  "name": "Engineering Mathematics",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Linear Algebra",
+    "topics": [
+     {
+      "id": "ce-engineering-mathematics--matrix-algebra",
+      "name": "Matrix algebra",
+      "diff": "E",
+      "sample": true
+     },
+     {
+      "id": "ce-engineering-mathematics--systems-of-linear-equations",
+      "name": "Systems of linear equations",
+      "diff": "M"
+     },
+     {
+      "id": "ce-engineering-mathematics--eigenvalues-and-eigenvectors",
+      "name": "Eigenvalues and eigenvectors",
+      "diff": "H"
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Calculus",
+    "topics": [
+     {
+      "id": "ce-engineering-mathematics--functions-of-single-variable",
+      "name": "Functions of single variable",
+      "diff": "M"
+     },
+     {
+      "id": "ce-engineering-mathematics--limit-continuity-and-differentiability",
+      "name": "Limit, continuity and differentiability",
+      "diff": "M"
+     },
+     {
+      "id": "ce-engineering-mathematics--mean-value-theorems-local-maxima-and-minima",
+      "name": "Mean value theorems, local maxima and minima",
+      "diff": "M"
+     },
+     {
+      "id": "ce-engineering-mathematics--taylor-series",
+      "name": "Taylor series",
+      "diff": "E"
+     },
+     {
+      "id": "ce-engineering-mathematics--evaluation-of-definite-and-indefinite-integrals",
+      "name": "Evaluation of definite and indefinite integrals",
+      "diff": "M"
+     },
+     {
+      "id": "ce-engineering-mathematics--application-of-definite-integral-to-obtain-area-and-volume",
+      "name": "Application of definite integral to obtain area and volume",
+      "diff": "M"
+     },
+     {
+      "id": "ce-engineering-mathematics--partial-derivatives",
+      "name": "Partial derivatives",
+      "diff": "M"
+     },
+     {
+      "id": "ce-engineering-mathematics--total-derivative",
+      "name": "Total derivative",
+      "diff": "E"
+     },
+     {
+      "id": "ce-engineering-mathematics--gradient-divergence-and-curl-vector-identities",
+      "name": "Gradient, Divergence and Curl, Vector identities",
+      "diff": "M"
+     },
+     {
+      "id": "ce-engineering-mathematics--directional-derivatives",
+      "name": "Directional derivatives",
+      "diff": "M"
+     },
+     {
+      "id": "ce-engineering-mathematics--line-surface-and-volume-integrals",
+      "name": "Line, Surface and Volume integrals",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "C",
+    "name": "Ordinary Differential Equation (ODE)",
+    "topics": [
+     {
+      "id": "ce-engineering-mathematics--first-order-linear-and-non-linear-equations",
+      "name": "First order (linear and non-linear) equations",
+      "diff": "M"
+     },
+     {
+      "id": "ce-engineering-mathematics--higher-order-linear-equations-with-constant-coefficients",
+      "name": "Higher order linear equations with constant coefficients",
+      "diff": "M"
+     },
+     {
+      "id": "ce-engineering-mathematics--euler-cauchy-equations",
+      "name": "Euler-Cauchy equations",
+      "diff": "M"
+     },
+     {
+      "id": "ce-engineering-mathematics--initial-and-boundary-value-problems",
+      "name": "Initial and boundary value problems",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "D",
+    "name": "Partial Differential Equation (PDE)",
+    "topics": [
+     {
+      "id": "ce-engineering-mathematics--fourier-series",
+      "name": "Fourier series",
+      "diff": "H"
+     },
+     {
+      "id": "ce-engineering-mathematics--separation-of-variables",
+      "name": "Separation of variables",
+      "diff": "M"
+     },
+     {
+      "id": "ce-engineering-mathematics--solutions-of-one-dimensional-diffusion-equation",
+      "name": "Solutions of one -dimensional diffusion equation",
+      "diff": "M"
+     },
+     {
+      "id": "ce-engineering-mathematics--first-and-second-order-one-dimensional-wave-equation-and-two",
+      "name": "First and second order one-dimensional wave equation and two-dimensional Laplace equation",
+      "diff": "H"
+     }
+    ]
+   },
+   {
+    "letter": "E",
+    "name": "Probability and Statistics",
+    "topics": [
+     {
+      "id": "ce-engineering-mathematics--basic-concepts-of-probability-axioms-and-theorems",
+      "name": "Basic concepts of probability - axioms and theorems",
+      "diff": "E"
+     },
+     {
+      "id": "ce-engineering-mathematics--statistical-independence",
+      "name": "Statistical independence",
+      "diff": "M"
+     },
+     {
+      "id": "ce-engineering-mathematics--conditional-probability",
+      "name": "Conditional probability",
+      "diff": "M"
+     },
+     {
+      "id": "ce-engineering-mathematics--descriptive-statistics-mean-median-mode-and-standard-deviati",
+      "name": "Descriptive statistics - Mean, median, mode and standard deviation",
+      "diff": "M"
+     },
+     {
+      "id": "ce-engineering-mathematics--random-variables-probability-mass-function",
+      "name": "Random Variables - Probability mass function",
+      "diff": "M"
+     },
+     {
+      "id": "ce-engineering-mathematics--probability-density-function",
+      "name": "Probability density function",
+      "diff": "M"
+     },
+     {
+      "id": "ce-engineering-mathematics--cumulative-distribution-function",
+      "name": "Cumulative distribution function",
+      "diff": "M"
+     },
+     {
+      "id": "ce-engineering-mathematics--poisson-and-normal-distribution",
+      "name": "Poisson and Normal Distribution",
+      "diff": "M"
+     },
+     {
+      "id": "ce-engineering-mathematics--linear-regression",
+      "name": "Linear regression",
+      "diff": "E"
+     }
+    ]
+   },
+   {
+    "letter": "F",
+    "name": "Numerical Methods",
+    "topics": [
+     {
+      "id": "ce-engineering-mathematics--error-analysis",
+      "name": "Error analysis",
+      "diff": "E"
+     },
+     {
+      "id": "ce-engineering-mathematics--numerical-solutions-of-linear-and-nonlinear-algebraic-equati",
+      "name": "Numerical solutions of linear and nonlinear algebraic equations",
+      "diff": "H"
+     },
+     {
+      "id": "ce-engineering-mathematics--newtons-and-lagrange-polynomials",
+      "name": "Newton’s and Lagrange polynomials",
+      "diff": "M"
+     },
+     {
+      "id": "ce-engineering-mathematics--numerical-differentiation",
+      "name": "Numerical differentiation",
+      "diff": "M"
+     },
+     {
+      "id": "ce-engineering-mathematics--integration-by-trapezoidal-and-simpsons-rule",
+      "name": "Integration by trapezoidal and Simpson’s rule",
+      "diff": "M"
+     },
+     {
+      "id": "ce-engineering-mathematics--single-and-multi-step-methods-for-firstorder-differential-eq",
+      "name": "Single and multi-step methods for firstorder differential equations",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "ce-structural-engineering",
+  "name": "Structural Engineering",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Engineering Mechanics",
+    "topics": [
+     {
+      "id": "ce-structural-engineering--system-of-forces-free-body-diagrams-equilibrium-equations",
+      "name": "System of forces, free -body diagrams, equilibrium equations",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "ce-structural-engineering--internal-forces-in-structures",
+      "name": "Internal forces in structures",
+      "diff": "M"
+     },
+     {
+      "id": "ce-structural-engineering--frictions-and-its-applications",
+      "name": "Frictions and its applications",
+      "diff": "M"
+     },
+     {
+      "id": "ce-structural-engineering--centre-of-mass",
+      "name": "Centre of mass",
+      "diff": "E"
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Solid Mechanics",
+    "topics": [
+     {
+      "id": "ce-structural-engineering--bending-moment-and-shear-force-in-statically-determinate-bea",
+      "name": "Bending moment and shear force in statically determinate beams",
+      "diff": "M"
+     },
+     {
+      "id": "ce-structural-engineering--transformation-of-stress-mohrs-circle",
+      "name": "Transformation of stress (Mohr’s circle)",
+      "diff": "H"
+     },
+     {
+      "id": "ce-structural-engineering--simple-stress-and-strain-relationships",
+      "name": "Simple stress and strain relationships",
+      "diff": "M"
+     },
+     {
+      "id": "ce-structural-engineering--simple-bending-theory-flexural-and-shear-stresses-shear-cent",
+      "name": "Simple bending theory, flexural and shear stresses, shear centre",
+      "diff": "M"
+     },
+     {
+      "id": "ce-structural-engineering--uniform-torsion",
+      "name": "Uniform torsion",
+      "diff": "E"
+     },
+     {
+      "id": "ce-structural-engineering--combined-stresses",
+      "name": "Combined stresses",
+      "diff": "E"
+     },
+     {
+      "id": "ce-structural-engineering--column-buckling",
+      "name": "Column buckling",
+      "diff": "E"
+     }
+    ]
+   },
+   {
+    "letter": "C",
+    "name": "Structural Analysis",
+    "topics": [
+     {
+      "id": "ce-structural-engineering--principle-of-superposition",
+      "name": "Principle of superposition",
+      "diff": "M"
+     },
+     {
+      "id": "ce-structural-engineering--work-and-energy-methods-principle-of-virtual-work",
+      "name": "Work and energy methods: Principle of virtual work",
+      "diff": "M"
+     },
+     {
+      "id": "ce-structural-engineering--castiglianos-second-theorem",
+      "name": "Castigliano's second theorem",
+      "diff": "M"
+     },
+     {
+      "id": "ce-structural-engineering--deflections-of-statically-determinate-beams-frames-and-truss",
+      "name": "Deflections of statically determinate beams, frames, and trusses",
+      "diff": "M"
+     },
+     {
+      "id": "ce-structural-engineering--analysis-of-statically-indeterminate-structures-by-force-and",
+      "name": "Analysis of statically indeterminate structures by force and displacement methods (method of consistent deformations, slopedeflection method, moment distribution method)",
+      "diff": "H"
+     },
+     {
+      "id": "ce-structural-engineering--influence-lines-and-moving-loads",
+      "name": "Influence lines and moving loads",
+      "diff": "M"
+     },
+     {
+      "id": "ce-structural-engineering--stiffness-matrix-method",
+      "name": "Stiffness matrix method",
+      "diff": "H"
+     },
+     {
+      "id": "ce-structural-engineering--analysis-of-determinate-arches-and-cables",
+      "name": "Analysis of determinate arches and cables",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "D",
+    "name": "Concrete Structures",
+    "topics": [
+     {
+      "id": "ce-structural-engineering--working-stress-and-limit-state-design-concepts",
+      "name": "Working stress and limit state design concepts",
+      "diff": "M"
+     },
+     {
+      "id": "ce-structural-engineering--design-and-detailing-of-beams-slabs-columns-and-isolated-foo",
+      "name": "Design and detailing of beams, slabs, columns, and isolated footings",
+      "diff": "M"
+     },
+     {
+      "id": "ce-structural-engineering--bond-and-development-length",
+      "name": "Bond and development length",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "E",
+    "name": "Steel Structures",
+    "topics": [
+     {
+      "id": "ce-structural-engineering--working-stress-and-limit-state-design-concepts",
+      "name": "Working stress and limit state design concepts",
+      "diff": "M"
+     },
+     {
+      "id": "ce-structural-engineering--design-of-tension-and-compression-members",
+      "name": "Design of tension and compression members",
+      "diff": "M"
+     },
+     {
+      "id": "ce-structural-engineering--beams-and-beam-columns",
+      "name": "Beams and beam -columns",
+      "diff": "M"
+     },
+     {
+      "id": "ce-structural-engineering--column-bases",
+      "name": "Column bases",
+      "diff": "E"
+     },
+     {
+      "id": "ce-structural-engineering--connections-simple-and-eccentric-beam-column-connections",
+      "name": "Connections - simple and eccentric, beam -column connections",
+      "diff": "M"
+     },
+     {
+      "id": "ce-structural-engineering--concept-of-plastic-analysis-beams-and-portal-frames",
+      "name": "Concept of plastic analysis - beams and portal frames",
+      "diff": "H"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "ce-geotechnical-engineering",
+  "name": "Geotechnical Engineering",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Geotechnical Engineering",
+    "topics": [
+     {
+      "id": "ce-geotechnical-engineering--three-phase-system-and-phase-relationships-index-properties",
+      "name": "Three-phase system and phase relationships, index properties",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "ce-geotechnical-engineering--unified-and-indian-standard-soil-classification-system",
+      "name": "Unified and Indian standard soil classification system",
+      "diff": "E"
+     },
+     {
+      "id": "ce-geotechnical-engineering--permeability-one-dimensional-flow",
+      "name": "Permeability - one dimensional flow",
+      "diff": "M"
+     },
+     {
+      "id": "ce-geotechnical-engineering--seepage-through-soils-two-dimensional-flow",
+      "name": "Seepage through soils - two-dimensional flow",
+      "diff": "M"
+     },
+     {
+      "id": "ce-geotechnical-engineering--flow-nets",
+      "name": "Flow nets",
+      "diff": "E"
+     },
+     {
+      "id": "ce-geotechnical-engineering--uplift-pressure",
+      "name": "Uplift pressure",
+      "diff": "E"
+     },
+     {
+      "id": "ce-geotechnical-engineering--piping",
+      "name": "Piping",
+      "diff": "E"
+     },
+     {
+      "id": "ce-geotechnical-engineering--capillarity",
+      "name": "Capillarity",
+      "diff": "E"
+     },
+     {
+      "id": "ce-geotechnical-engineering--seepage-force",
+      "name": "Seepage force",
+      "diff": "E"
+     },
+     {
+      "id": "ce-geotechnical-engineering--principle-of-effective-stress-and-quicksand-condition",
+      "name": "Principle of effective stress and quicksand condition",
+      "diff": "M"
+     },
+     {
+      "id": "ce-geotechnical-engineering--compaction-of-soils",
+      "name": "Compaction of soils",
+      "diff": "M"
+     },
+     {
+      "id": "ce-geotechnical-engineering--one-dimensional-consolidation-time-rate-of-consolidation",
+      "name": "One-dimensional consolidation, time rate of consolidation",
+      "diff": "H"
+     },
+     {
+      "id": "ce-geotechnical-engineering--shear-strength",
+      "name": "Shear Strength",
+      "diff": "E"
+     },
+     {
+      "id": "ce-geotechnical-engineering--mohrs-circle",
+      "name": "Mohr’s circle",
+      "diff": "E"
+     },
+     {
+      "id": "ce-geotechnical-engineering--effective-and-total-shear-strength-parameters",
+      "name": "Effective and total shear strength parameters",
+      "diff": "M"
+     },
+     {
+      "id": "ce-geotechnical-engineering--stress-strain-characteristics-of-clays-and-sand",
+      "name": "Stress-strain characteristics of clays and sand",
+      "diff": "M"
+     },
+     {
+      "id": "ce-geotechnical-engineering--stress-paths",
+      "name": "Stress paths",
+      "diff": "E"
+     },
+     {
+      "id": "ce-geotechnical-engineering--sub-surface-investigations-drilling-bore-holes",
+      "name": "Sub-surface investigations - Drilling bore holes",
+      "diff": "M"
+     },
+     {
+      "id": "ce-geotechnical-engineering--sampling",
+      "name": "Sampling",
+      "diff": "E"
+     },
+     {
+      "id": "ce-geotechnical-engineering--plate-load-test",
+      "name": "Plate load test",
+      "diff": "E"
+     },
+     {
+      "id": "ce-geotechnical-engineering--standard-penetration-and-cone-penetration-tests",
+      "name": "Standard penetration and cone penetration tests",
+      "diff": "M"
+     },
+     {
+      "id": "ce-geotechnical-engineering--earth-pressure-theories-rankine-and-coulomb",
+      "name": "Earth pressure theories - Rankine and Coulomb",
+      "diff": "M"
+     },
+     {
+      "id": "ce-geotechnical-engineering--stability-of-slopes-finite-and-infinite-slopes-bishops-metho",
+      "name": "Stability of slopes - Finite and infinite slopes, Bishop’s method",
+      "diff": "H"
+     },
+     {
+      "id": "ce-geotechnical-engineering--sheet-piles",
+      "name": "Sheet Piles",
+      "diff": "E"
+     },
+     {
+      "id": "ce-geotechnical-engineering--stress-distribution-in-soils-boussinesqs-theory",
+      "name": "Stress distribution in soils - Boussinesq’s theory",
+      "diff": "M"
+     },
+     {
+      "id": "ce-geotechnical-engineering--pressure-bulbs",
+      "name": "Pressure bulbs",
+      "diff": "E"
+     },
+     {
+      "id": "ce-geotechnical-engineering--shallow-foundations-terzaghis-and-meyerhofs-bearing-capacity",
+      "name": "Shallow foundations - Terzaghi’s and Meyerhof’s bearing capacity theories",
+      "diff": "M"
+     },
+     {
+      "id": "ce-geotechnical-engineering--effect-of-water-table",
+      "name": "Effect of water table",
+      "diff": "M"
+     },
+     {
+      "id": "ce-geotechnical-engineering--combined-footing-and-raft-foundation",
+      "name": "Combined footing and raft foundation",
+      "diff": "M"
+     },
+     {
+      "id": "ce-geotechnical-engineering--contact-pressure",
+      "name": "Contact pressure",
+      "diff": "E"
+     },
+     {
+      "id": "ce-geotechnical-engineering--settlement-analysis-in-sands-and-clays",
+      "name": "Settlement analysis in sands and clays",
+      "diff": "M"
+     },
+     {
+      "id": "ce-geotechnical-engineering--deep-foundations-static-formulae",
+      "name": "Deep foundations - static formulae",
+      "diff": "M"
+     },
+     {
+      "id": "ce-geotechnical-engineering--axial-load-capacity-of-piles-in-sands-and-clays",
+      "name": "Axial load capacity of piles in sands and clays",
+      "diff": "M"
+     },
+     {
+      "id": "ce-geotechnical-engineering--pile-load-test",
+      "name": "Pile load test",
+      "diff": "E"
+     },
+     {
+      "id": "ce-geotechnical-engineering--pile-under-lateral-loading",
+      "name": "Pile under lateral loading",
+      "diff": "M"
+     },
+     {
+      "id": "ce-geotechnical-engineering--pile-group-efficiency",
+      "name": "Pile group efficiency",
+      "diff": "M"
+     },
+     {
+      "id": "ce-geotechnical-engineering--negative-skin-friction",
+      "name": "Negative skin friction",
+      "diff": "M"
+     },
+     {
+      "id": "ce-geotechnical-engineering--ground-improvement-techniques",
+      "name": "Ground improvement techniques",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "ce-water-resources-engineering",
+  "name": "Water Resources Engineering",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Fluid Mechanics",
+    "topics": [
+     {
+      "id": "ce-water-resources-engineering--properties-of-fluids-fluid-statics",
+      "name": "Properties of fluids, fluid statics",
+      "diff": "E",
+      "sample": true
+     },
+     {
+      "id": "ce-water-resources-engineering--continuity-momentum-and-energy-equations-and-their-applicati",
+      "name": "Continuity, momentum and energy equations and their applications",
+      "diff": "M"
+     },
+     {
+      "id": "ce-water-resources-engineering--potential-flow-laminar-and-turbulent-flow",
+      "name": "Potential flow, Laminar and turbulent flow",
+      "diff": "M"
+     },
+     {
+      "id": "ce-water-resources-engineering--flow-in-pipes-pipe-networks",
+      "name": "Flow in pipes, pipe networks",
+      "diff": "M"
+     },
+     {
+      "id": "ce-water-resources-engineering--concept-of-boundary-layer-and-its-growth",
+      "name": "Concept of boundary layer and its growth",
+      "diff": "M"
+     },
+     {
+      "id": "ce-water-resources-engineering--concept-of-lift-and-drag",
+      "name": "Concept of lift and drag",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Hydraulics",
+    "topics": [
+     {
+      "id": "ce-water-resources-engineering--forces-on-immersed-bodies",
+      "name": "Forces on immersed bodies",
+      "diff": "M"
+     },
+     {
+      "id": "ce-water-resources-engineering--flow-measurement-in-channels-and-pipes",
+      "name": "Flow measurement in channels and pipes",
+      "diff": "M"
+     },
+     {
+      "id": "ce-water-resources-engineering--dimensional-analysis-and-hydraulic-similitude",
+      "name": "Dimensional analysis and hydraulic similitude",
+      "diff": "M"
+     },
+     {
+      "id": "ce-water-resources-engineering--channel-hydraulics-energy-depth-relationships",
+      "name": "Channel Hydraulics - Energy-depth relationships",
+      "diff": "M"
+     },
+     {
+      "id": "ce-water-resources-engineering--specific-energy",
+      "name": "Specific energy",
+      "diff": "E"
+     },
+     {
+      "id": "ce-water-resources-engineering--critical-flow",
+      "name": "Critical flow",
+      "diff": "E"
+     },
+     {
+      "id": "ce-water-resources-engineering--hydraulic-jump",
+      "name": "Hydraulic jump",
+      "diff": "E"
+     },
+     {
+      "id": "ce-water-resources-engineering--uniform-flow",
+      "name": "Uniform flow",
+      "diff": "E"
+     },
+     {
+      "id": "ce-water-resources-engineering--gradually-varied-flow-and-water-surface-profiles",
+      "name": "Gradually varied flow and water surface profiles",
+      "diff": "M"
+     },
+     {
+      "id": "ce-water-resources-engineering--prismatic-and-mobile-channels",
+      "name": "Prismatic and mobile channels",
+      "diff": "M"
+     },
+     {
+      "id": "ce-water-resources-engineering--steady-and-unsteady-flows",
+      "name": "Steady and unsteady flows",
+      "diff": "M"
+     },
+     {
+      "id": "ce-water-resources-engineering--rapidly-varied-flow-and-hydraulic-jump",
+      "name": "Rapidly varied flow and hydraulic jump",
+      "diff": "M"
+     },
+     {
+      "id": "ce-water-resources-engineering--flow-past-sharp-crested-weirs",
+      "name": "Flow past sharp crested weirs",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "C",
+    "name": "Hydrology",
+    "topics": [
+     {
+      "id": "ce-water-resources-engineering--hydrologic-cycle",
+      "name": "Hydrologic cycle",
+      "diff": "E"
+     },
+     {
+      "id": "ce-water-resources-engineering--precipitation",
+      "name": "Precipitation",
+      "diff": "E"
+     },
+     {
+      "id": "ce-water-resources-engineering--evaporation",
+      "name": "Evaporation",
+      "diff": "E"
+     },
+     {
+      "id": "ce-water-resources-engineering--evapo-transpiration",
+      "name": "Evapo -transpiration",
+      "diff": "M"
+     },
+     {
+      "id": "ce-water-resources-engineering--watershed",
+      "name": "Watershed",
+      "diff": "E"
+     },
+     {
+      "id": "ce-water-resources-engineering--infiltration",
+      "name": "Infiltration",
+      "diff": "E"
+     },
+     {
+      "id": "ce-water-resources-engineering--streamflow-measurements",
+      "name": "Streamflow measurements",
+      "diff": "M"
+     },
+     {
+      "id": "ce-water-resources-engineering--unit-hydrographs",
+      "name": "Unit hydrographs",
+      "diff": "E"
+     },
+     {
+      "id": "ce-water-resources-engineering--hydrograph-analysis",
+      "name": "Hydrograph analysis",
+      "diff": "M"
+     },
+     {
+      "id": "ce-water-resources-engineering--reservoir-capacity",
+      "name": "Reservoir capacity",
+      "diff": "M"
+     },
+     {
+      "id": "ce-water-resources-engineering--flood-estimation-and-routing",
+      "name": "Flood estimation and routing",
+      "diff": "M"
+     },
+     {
+      "id": "ce-water-resources-engineering--surface-runoff-models",
+      "name": "Surface runoff models",
+      "diff": "M"
+     },
+     {
+      "id": "ce-water-resources-engineering--ground-water-hydrology-steady-state-well-hydraulics-and-aqui",
+      "name": "Ground water hydrology - steady state well hydraulics and aquifers",
+      "diff": "M"
+     },
+     {
+      "id": "ce-water-resources-engineering--application-of-darcys-law",
+      "name": "Application of Darcy’s Law",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "D",
+    "name": "Irrigation",
+    "topics": [
+     {
+      "id": "ce-water-resources-engineering--types-of-irrigation-systems-and-methods",
+      "name": "Types of irrigation systems and methods",
+      "diff": "E"
+     },
+     {
+      "id": "ce-water-resources-engineering--crop-water-requirements-duty-delta-evapo-transpiration",
+      "name": "Crop water requirements - Duty, delta, evapo-transpiration",
+      "diff": "M"
+     },
+     {
+      "id": "ce-water-resources-engineering--gravity-dams-and-spillways",
+      "name": "Gravity dams and spillways",
+      "diff": "M"
+     },
+     {
+      "id": "ce-water-resources-engineering--lined-and-unlined-canals-design-of-weirs-on-permeable-founda",
+      "name": "Lined and unlined canals, Design of weirs on permeable foundation",
+      "diff": "M"
+     },
+     {
+      "id": "ce-water-resources-engineering--cross-drainage-structures",
+      "name": "Cross drainage structures",
+      "diff": "M"
+     },
+     {
+      "id": "ce-water-resources-engineering--river-training-structures",
+      "name": "River training structures",
+      "diff": "M"
+     },
+     {
+      "id": "ce-water-resources-engineering--earthen-dams",
+      "name": "Earthen dams",
+      "diff": "E"
+     },
+     {
+      "id": "ce-water-resources-engineering--seepage-through-dams",
+      "name": "Seepage through dams",
+      "diff": "M"
+     },
+     {
+      "id": "ce-water-resources-engineering--well-irrigation",
+      "name": "Well irrigation",
+      "diff": "E"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "ce-environmental-engineering",
+  "name": "Environmental Engineering",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Water and Waste Water Quality and Treatment",
+    "topics": [
+     {
+      "id": "ce-environmental-engineering--basics-of-water-quality-standards-physical",
+      "name": "Basics of water quality standards - Physical",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "ce-environmental-engineering--chemical-and-biological-parameters",
+      "name": "Chemical and biological parameters",
+      "diff": "M"
+     },
+     {
+      "id": "ce-environmental-engineering--water-quality-index",
+      "name": "Water quality index",
+      "diff": "M"
+     },
+     {
+      "id": "ce-environmental-engineering--unit-processes-and-operations",
+      "name": "Unit processes and operations",
+      "diff": "E"
+     },
+     {
+      "id": "ce-environmental-engineering--water-requirement",
+      "name": "Water requirement",
+      "diff": "E"
+     },
+     {
+      "id": "ce-environmental-engineering--water-distribution-system",
+      "name": "Water distribution system",
+      "diff": "M"
+     },
+     {
+      "id": "ce-environmental-engineering--drinking-water-treatment",
+      "name": "Drinking water treatment",
+      "diff": "M"
+     },
+     {
+      "id": "ce-environmental-engineering--sewerage-system-design",
+      "name": "Sewerage system design",
+      "diff": "M"
+     },
+     {
+      "id": "ce-environmental-engineering--quantity-of-domestic-wastewater",
+      "name": "Quantity of domestic wastewater",
+      "diff": "M"
+     },
+     {
+      "id": "ce-environmental-engineering--primary",
+      "name": "Primary",
+      "diff": "E"
+     },
+     {
+      "id": "ce-environmental-engineering--secondary-and-tertiary-treatment",
+      "name": "Secondary and tertiary treatment",
+      "diff": "M"
+     },
+     {
+      "id": "ce-environmental-engineering--effluent-discharge-standards",
+      "name": "Effluent discharge standards",
+      "diff": "M"
+     },
+     {
+      "id": "ce-environmental-engineering--sludge-treatment-and-disposal",
+      "name": "Sludge treatment and disposal",
+      "diff": "M"
+     },
+     {
+      "id": "ce-environmental-engineering--reuse-of-treated-sewage-for-different-applications",
+      "name": "Reuse of treated sewage for different applications",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Air Pollution",
+    "topics": [
+     {
+      "id": "ce-environmental-engineering--types-of-pollutants",
+      "name": "Types of pollutants",
+      "diff": "E"
+     },
+     {
+      "id": "ce-environmental-engineering--their-sources-and-impacts",
+      "name": "Their sources and impacts",
+      "diff": "M"
+     },
+     {
+      "id": "ce-environmental-engineering--air-pollution-control",
+      "name": "Air pollution control",
+      "diff": "M"
+     },
+     {
+      "id": "ce-environmental-engineering--air-quality-standards",
+      "name": "Air quality standards",
+      "diff": "M"
+     },
+     {
+      "id": "ce-environmental-engineering--air-quality-index-and-limits",
+      "name": "Air quality index and limits",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "C",
+    "name": "Municipal Solid Wastes",
+    "topics": [
+     {
+      "id": "ce-environmental-engineering--characteristics",
+      "name": "Characteristics",
+      "diff": "E"
+     },
+     {
+      "id": "ce-environmental-engineering--generation",
+      "name": "Generation",
+      "diff": "E"
+     },
+     {
+      "id": "ce-environmental-engineering--collection-and-transportation-of-solid-wastes",
+      "name": "Collection and transportation of solid wastes",
+      "diff": "M"
+     },
+     {
+      "id": "ce-environmental-engineering--engineered-systems-for-solid-waste-management-reuse-recycle-",
+      "name": "Engineered systems for solid waste management (reuse/recycle, energy recovery, treatment and disposal)",
+      "diff": "M"
+     },
+     {
+      "id": "ce-environmental-engineering--basics-of-landfill-design-and-operation",
+      "name": "Basics of landfill design and operation",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "ce-transportation-engineering",
+  "name": "Transportation Engineering",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Transportation Infrastructure",
+    "topics": [
+     {
+      "id": "ce-transportation-engineering--geometric-design-of-roadways-using-irc-codes-crosssectional-",
+      "name": "Geometric design of roadways using IRC codes - crosssectional elements",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "ce-transportation-engineering--sight-distances",
+      "name": "Sight distances",
+      "diff": "E"
+     },
+     {
+      "id": "ce-transportation-engineering--classifications-of-roadways",
+      "name": "Classifications of roadways",
+      "diff": "M"
+     },
+     {
+      "id": "ce-transportation-engineering--design-vehicle",
+      "name": "Design vehicle",
+      "diff": "E"
+     },
+     {
+      "id": "ce-transportation-engineering--horizontal-and-vertical-alignments",
+      "name": "Horizontal and vertical alignments",
+      "diff": "M"
+     },
+     {
+      "id": "ce-transportation-engineering--geometric-design-of-railway-track-speed-and-cant",
+      "name": "Geometric design of railway Track - Speed and cant",
+      "diff": "M"
+     },
+     {
+      "id": "ce-transportation-engineering--concept-of-airport-runway-length-calculations-and-correction",
+      "name": "Concept of airport runway length, calculations and corrections",
+      "diff": "M"
+     },
+     {
+      "id": "ce-transportation-engineering--taxiway-and-exit-taxiway-design",
+      "name": "Taxiway and exit taxiway design",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Highway Pavements",
+    "topics": [
+     {
+      "id": "ce-transportation-engineering--highway-materials-desirable-properties-and-tests",
+      "name": "Highway materials - desirable properties and tests",
+      "diff": "M"
+     },
+     {
+      "id": "ce-transportation-engineering--desirable-properties-of-bituminous-paving-mixes",
+      "name": "Desirable properties of bituminous paving mixes",
+      "diff": "E"
+     },
+     {
+      "id": "ce-transportation-engineering--design-factors-for-flexible-and-rigid-pavements",
+      "name": "Design factors for flexible and rigid pavements",
+      "diff": "M"
+     },
+     {
+      "id": "ce-transportation-engineering--design-of-flexible-and-rigid-pavement-using-irc-codes",
+      "name": "Design of flexible and rigid pavement using IRC codes",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "C",
+    "name": "Traffic Engineering",
+    "topics": [
+     {
+      "id": "ce-transportation-engineering--traffic-studies-on-flow-and-speed",
+      "name": "Traffic studies on flow and speed",
+      "diff": "M"
+     },
+     {
+      "id": "ce-transportation-engineering--peak-hour-factor",
+      "name": "Peak hour factor",
+      "diff": "E"
+     },
+     {
+      "id": "ce-transportation-engineering--accident-study",
+      "name": "Accident study",
+      "diff": "E"
+     },
+     {
+      "id": "ce-transportation-engineering--statistical-analysis-of-traffic-data",
+      "name": "Statistical analysis of traffic data",
+      "diff": "M"
+     },
+     {
+      "id": "ce-transportation-engineering--microscopic-and-macroscopic-parameters-of-traffic-flow",
+      "name": "Microscopic and macroscopic parameters of traffic flow",
+      "diff": "M"
+     },
+     {
+      "id": "ce-transportation-engineering--fundamental-relationships",
+      "name": "Fundamental relationships",
+      "diff": "M"
+     },
+     {
+      "id": "ce-transportation-engineering--traffic-signs",
+      "name": "Traffic signs",
+      "diff": "E"
+     },
+     {
+      "id": "ce-transportation-engineering--signal-design-by-websters-method",
+      "name": "Signal design by Webster’s method",
+      "diff": "M"
+     },
+     {
+      "id": "ce-transportation-engineering--types-of-intersections-and-interchanges",
+      "name": "Types of intersections and interchanges",
+      "diff": "E"
+     },
+     {
+      "id": "ce-transportation-engineering--highway-capacity-and-level-of-service",
+      "name": "Highway capacity and level of service",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "D",
+    "name": "Transportation Planning",
+    "topics": [
+     {
+      "id": "ce-transportation-engineering--four-step-travel-demand-modelling-trip-generation",
+      "name": "Four step travel demand modelling - trip generation",
+      "diff": "M"
+     },
+     {
+      "id": "ce-transportation-engineering--trip-distribution",
+      "name": "Trip distribution",
+      "diff": "E"
+     },
+     {
+      "id": "ce-transportation-engineering--mode-choice",
+      "name": "Mode choice",
+      "diff": "E"
+     },
+     {
+      "id": "ce-transportation-engineering--traffic-assignment-and-its-applications",
+      "name": "Traffic assignment and its applications",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "ce-geomatics-engineering",
+  "name": "Geomatics Engineering",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Geomatics Engineering",
+    "topics": [
+     {
+      "id": "ce-geomatics-engineering--principles-of-surveying",
+      "name": "Principles of surveying",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "ce-geomatics-engineering--plane-and-geodetic-surveying",
+      "name": "Plane and geodetic surveying",
+      "diff": "M"
+     },
+     {
+      "id": "ce-geomatics-engineering--gnss-surveying",
+      "name": "GNSS surveying",
+      "diff": "E"
+     },
+     {
+      "id": "ce-geomatics-engineering--errors-and-their-adjustment",
+      "name": "Errors and their adjustment",
+      "diff": "M"
+     },
+     {
+      "id": "ce-geomatics-engineering--maps-scale-coordinate-system",
+      "name": "Maps - Scale, coordinate system",
+      "diff": "M"
+     },
+     {
+      "id": "ce-geomatics-engineering--distance-and-angle-measurement-levelling-and-trigonometric-l",
+      "name": "Distance and angle measurement - Levelling and trigonometric levelling",
+      "diff": "M"
+     },
+     {
+      "id": "ce-geomatics-engineering--traversing-and-triangulation-survey",
+      "name": "Traversing and triangulation survey",
+      "diff": "M"
+     },
+     {
+      "id": "ce-geomatics-engineering--total-station",
+      "name": "Total station",
+      "diff": "E"
+     },
+     {
+      "id": "ce-geomatics-engineering--principles-of-topographic-cadastral-engineering",
+      "name": "Principles of topographic, cadastral, engineering",
+      "diff": "M"
+     },
+     {
+      "id": "ce-geomatics-engineering--introduction-to-cartography-map-projections",
+      "name": "Introduction to cartography, map projections",
+      "diff": "E"
+     },
+     {
+      "id": "ce-geomatics-engineering--photogrammetry-introduction-to-photogrammetry",
+      "name": "Photogrammetry - Introduction to photogrammetry",
+      "diff": "E"
+     },
+     {
+      "id": "ce-geomatics-engineering--digital-photogrammetry",
+      "name": "Digital photogrammetry",
+      "diff": "M"
+     },
+     {
+      "id": "ce-geomatics-engineering--photographic-scale",
+      "name": "Photographic scale",
+      "diff": "M"
+     },
+     {
+      "id": "ce-geomatics-engineering--flying-height",
+      "name": "Flying height",
+      "diff": "E"
+     },
+     {
+      "id": "ce-geomatics-engineering--space-resection",
+      "name": "Space resection",
+      "diff": "E"
+     },
+     {
+      "id": "ce-geomatics-engineering--parallax-equations",
+      "name": "Parallax equations",
+      "diff": "M"
+     },
+     {
+      "id": "ce-geomatics-engineering--elevations-by-parallax-differences",
+      "name": "Elevations by parallax differences",
+      "diff": "M"
+     },
+     {
+      "id": "ce-geomatics-engineering--camera-calibration",
+      "name": "Camera calibration",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "ce-construction-materials-and-man",
+  "name": "Construction Materials and Management",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Construction Materials",
+    "topics": [
+     {
+      "id": "ce-construction-materials-and-man--steel-composition-material-properties-and-behaviour",
+      "name": "Steel - Composition, material properties and behaviour",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "ce-construction-materials-and-man--cement-composition",
+      "name": "Cement - composition",
+      "diff": "M"
+     },
+     {
+      "id": "ce-construction-materials-and-man--hydration-and-microstructure",
+      "name": "Hydration and microstructure",
+      "diff": "M"
+     },
+     {
+      "id": "ce-construction-materials-and-man--chemical-and-mineral-admixtures",
+      "name": "Chemical and mineral admixtures",
+      "diff": "M"
+     },
+     {
+      "id": "ce-construction-materials-and-man--concrete-constituents",
+      "name": "Concrete - Constituents",
+      "diff": "M"
+     },
+     {
+      "id": "ce-construction-materials-and-man--mix-design",
+      "name": "Mix design",
+      "diff": "E"
+     },
+     {
+      "id": "ce-construction-materials-and-man--short-term-and-long-term-properties",
+      "name": "Short-term and long-term properties",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Construction Management",
+    "topics": [
+     {
+      "id": "ce-construction-materials-and-man--types-of-construction-projects",
+      "name": "Types of construction projects",
+      "diff": "E"
+     },
+     {
+      "id": "ce-construction-materials-and-man--estimation-and-costing-quantity-estimation-using-long-wall-a",
+      "name": "Estimation and costing - Quantity estimation using long wall and short wall method",
+      "diff": "M"
+     },
+     {
+      "id": "ce-construction-materials-and-man--center-line-method",
+      "name": "Center line method",
+      "diff": "M"
+     },
+     {
+      "id": "ce-construction-materials-and-man--analysis-of-rates",
+      "name": "Analysis of rates",
+      "diff": "E"
+     },
+     {
+      "id": "ce-construction-materials-and-man--project-planning-and-scheduling-aoa-and-aon-network-analysis",
+      "name": "Project planning and scheduling: AOA and AON network analysis - PERT and CPM",
+      "diff": "M"
+     },
+     {
+      "id": "ce-construction-materials-and-man--project-updating-and-monitoring",
+      "name": "Project updating and monitoring",
+      "diff": "M"
+     },
+     {
+      "id": "ce-construction-materials-and-man--construction-equipment-equipment-for-earthwork",
+      "name": "Construction equipment - Equipment for earthwork",
+      "diff": "M"
+     },
+     {
+      "id": "ce-construction-materials-and-man--concreting",
+      "name": "Concreting",
+      "diff": "E"
+     },
+     {
+      "id": "ce-construction-materials-and-man--hoisting-and-transportation-of-materials",
+      "name": "Hoisting and transportation of materials",
+      "diff": "M"
+     },
+     {
+      "id": "ce-construction-materials-and-man--types-of-contracts",
+      "name": "Types of contracts",
+      "diff": "E"
+     }
+    ]
+   }
+  ]
+ }
+]

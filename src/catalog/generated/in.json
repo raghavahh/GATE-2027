@@ -1,0 +1,509 @@
+[
+ {
+  "id": "in-digital-electronics",
+  "name": "Digital Electronics",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Overview",
+    "topics": [
+     {
+      "id": "in-digital-electronics--basics-of-number-systems",
+      "name": "Basics of number systems",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "in-digital-electronics--combinational-logic-circuits",
+      "name": "Combinational logic circuits",
+      "diff": "M"
+     },
+     {
+      "id": "in-digital-electronics--multiplexer-and-demultiplexer",
+      "name": "Multiplexer and demultiplexer",
+      "diff": "M"
+     },
+     {
+      "id": "in-digital-electronics--truth-table",
+      "name": "Truth table",
+      "diff": "E"
+     },
+     {
+      "id": "in-digital-electronics--minimization-of-boolean-functions",
+      "name": "Minimization of Boolean functions",
+      "diff": "M"
+     },
+     {
+      "id": "in-digital-electronics--ic-families-ecl-ttl-and-cmos-cmos-implementation-of-logic-ga",
+      "name": "IC families: ECL, TTL and CMOS , CMOS implementation of logic gates",
+      "diff": "M"
+     },
+     {
+      "id": "in-digital-electronics--arithmetic-circuits",
+      "name": "Arithmetic circuits",
+      "diff": "M"
+     },
+     {
+      "id": "in-digital-electronics--sequential-circuits",
+      "name": "Sequential circuits",
+      "diff": "M"
+     },
+     {
+      "id": "in-digital-electronics--finite-state-machines",
+      "name": "Finite state machines",
+      "diff": "M"
+     },
+     {
+      "id": "in-digital-electronics--flipflops",
+      "name": "Flipflops",
+      "diff": "E"
+     },
+     {
+      "id": "in-digital-electronics--shift-registers",
+      "name": "Shift registers",
+      "diff": "E"
+     },
+     {
+      "id": "in-digital-electronics--timers-and-counters",
+      "name": "Timers and counters",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Analog front end",
+    "topics": [
+     {
+      "id": "in-digital-electronics--analog-multiplexer",
+      "name": "Analog multiplexer",
+      "diff": "M"
+     },
+     {
+      "id": "in-digital-electronics--programmable-gain-amplifier",
+      "name": "Programmable gain amplifier",
+      "diff": "M"
+     },
+     {
+      "id": "in-digital-electronics--sample-and-hold-circuit",
+      "name": "Sample -and-hold circuit",
+      "diff": "M"
+     },
+     {
+      "id": "in-digital-electronics--analog-to-digital-converters-adc-successive-approximation-in",
+      "name": "Analog-to-digital converters (ADC) (successive approximation, integrating, flash and sigma-delta) and digital-to-analog converters (DAC) (weighted R, R-2R ladder and current steering logic)",
+      "diff": "M"
+     },
+     {
+      "id": "in-digital-electronics--characteristics-and-specifications-of-adc-and-dac-dynamic-ra",
+      "name": "Characteristics and specifications of ADC and DAC (dynamic range, resolution, quantization, significant bits, conversion/settling time, INL, DNL, ENOB)",
+      "diff": "M"
+     },
+     {
+      "id": "in-digital-electronics--embedded-systems-common-microprocessors-and-microcontrollers",
+      "name": "Embedded systems: common microprocessors and microcontrollers",
+      "diff": "M"
+     },
+     {
+      "id": "in-digital-electronics--memory-and-input-output-interfacing",
+      "name": "Memory and input -output interfacing",
+      "diff": "M"
+     },
+     {
+      "id": "in-digital-electronics--embedded-systems-programming",
+      "name": "Embedded systems programming",
+      "diff": "M"
+     },
+     {
+      "id": "in-digital-electronics--basics-of-data-acquisition-systems-virtual-instrumentation-i",
+      "name": "Basics of data acquisition systems, virtual instrumentation, IoT",
+      "diff": "M"
+     },
+     {
+      "id": "in-digital-electronics--basic-ai-applications-in-instrumentation-sensor-linearizatio",
+      "name": "Basic AI applications in instrumentation (sensor linearization, system calibration and tuning, signal classification)",
+      "diff": "E"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "in-measurements",
+  "name": "Measurements",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Measurements",
+    "topics": [
+     {
+      "id": "in-measurements--si-units",
+      "name": "SI units",
+      "diff": "E",
+      "sample": true
+     },
+     {
+      "id": "in-measurements--standards-of-basic-electrical-quantities-r-l-c-voltage-curre",
+      "name": "Standards of basic electrical quantities (R, L, C, voltage, current and frequency)",
+      "diff": "E"
+     },
+     {
+      "id": "in-measurements--systematic-and-random-errors-in-measurement",
+      "name": "Systematic and random errors in measurement",
+      "diff": "M"
+     },
+     {
+      "id": "in-measurements--expression-of-uncertainty",
+      "name": "Expression of uncertainty",
+      "diff": "M"
+     },
+     {
+      "id": "in-measurements--accuracy-and-precision",
+      "name": "Accuracy and precision",
+      "diff": "M"
+     },
+     {
+      "id": "in-measurements--propagation-of-errors",
+      "name": "Propagation of errors",
+      "diff": "M"
+     },
+     {
+      "id": "in-measurements--linear-and-weighted-regression",
+      "name": "Linear and weighted regression",
+      "diff": "M"
+     },
+     {
+      "id": "in-measurements--bridges-wheatstone",
+      "name": "Bridges: Wheatstone",
+      "diff": "M"
+     },
+     {
+      "id": "in-measurements--kelvin",
+      "name": "Kelvin",
+      "diff": "E"
+     },
+     {
+      "id": "in-measurements--maxwell",
+      "name": "Maxwell",
+      "diff": "E"
+     },
+     {
+      "id": "in-measurements--anderson",
+      "name": "Anderson",
+      "diff": "E"
+     },
+     {
+      "id": "in-measurements--schering-and-wien-bridges-for-measurement-of-r",
+      "name": "Schering and Wien bridges for measurement of R",
+      "diff": "M"
+     },
+     {
+      "id": "in-measurements--c-and-frequency",
+      "name": "C and frequency",
+      "diff": "E"
+     },
+     {
+      "id": "in-measurements--typical-applications-of-bridges",
+      "name": "Typical applications of bridges",
+      "diff": "M"
+     },
+     {
+      "id": "in-measurements--q-meter",
+      "name": "Q -meter",
+      "diff": "E"
+     },
+     {
+      "id": "in-measurements--megohm-measurement",
+      "name": "Megohm measurement",
+      "diff": "M"
+     },
+     {
+      "id": "in-measurements--measurement-of-voltage",
+      "name": "Measurement of voltage",
+      "diff": "M"
+     },
+     {
+      "id": "in-measurements--current-and-power-in-dc",
+      "name": "Current and power in DC",
+      "diff": "M"
+     },
+     {
+      "id": "in-measurements--single-and-three-phase-ac-circuits",
+      "name": "Single and three phase AC circuits",
+      "diff": "M"
+     },
+     {
+      "id": "in-measurements--contact-and-noncontact-type-ac-and-dc-current-and-voltage-pr",
+      "name": "Contact and noncontact type AC and DC current and voltage probes",
+      "diff": "M"
+     },
+     {
+      "id": "in-measurements--true-rms-meters",
+      "name": "True rms meters",
+      "diff": "E"
+     },
+     {
+      "id": "in-measurements--voltage-and-current-scaling",
+      "name": "Voltage and current scaling",
+      "diff": "M"
+     },
+     {
+      "id": "in-measurements--instrument-transformers",
+      "name": "Instrument transformers",
+      "diff": "H"
+     },
+     {
+      "id": "in-measurements--timer-counter",
+      "name": "Timer/counter",
+      "diff": "E"
+     },
+     {
+      "id": "in-measurements--time",
+      "name": "Time",
+      "diff": "E"
+     },
+     {
+      "id": "in-measurements--phase-and-frequency-measu-rements",
+      "name": "Phase and frequency measu rements",
+      "diff": "M"
+     },
+     {
+      "id": "in-measurements--digital-voltmeter",
+      "name": "Digital voltmeter",
+      "diff": "E"
+     },
+     {
+      "id": "in-measurements--digital-multimeter",
+      "name": "Digital multimeter",
+      "diff": "M"
+     },
+     {
+      "id": "in-measurements--digital-energy-meter",
+      "name": "Digital energy meter",
+      "diff": "M"
+     },
+     {
+      "id": "in-measurements--digital-storage-oscilloscope",
+      "name": "Digital storage oscilloscope",
+      "diff": "M"
+     },
+     {
+      "id": "in-measurements--spectrum-analyzer",
+      "name": "Spectrum analyzer",
+      "diff": "E"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "in-sensors-and-industrial-instrum",
+  "name": "Sensors and Industrial Instrumentation",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Overview",
+    "topics": [
+     {
+      "id": "in-sensors-and-industrial-instrum--resistive",
+      "name": "Resistive",
+      "diff": "E",
+      "sample": true
+     },
+     {
+      "id": "in-sensors-and-industrial-instrum--capacitive",
+      "name": "Capacitive",
+      "diff": "E"
+     },
+     {
+      "id": "in-sensors-and-industrial-instrum--inductive",
+      "name": "Inductive",
+      "diff": "E"
+     },
+     {
+      "id": "in-sensors-and-industrial-instrum--piezoelectric",
+      "name": "Piezoelectric",
+      "diff": "E"
+     },
+     {
+      "id": "in-sensors-and-industrial-instrum--electromagnetic-and-hall-effect-sensors-and-associated-signa",
+      "name": "Electromagnetic and Hall effect sensors and associated signal conditioning circuits",
+      "diff": "M"
+     },
+     {
+      "id": "in-sensors-and-industrial-instrum--transducers-for-industrial-instrumentation-displacement",
+      "name": "Transducers for industrial instrumentation: displacement",
+      "diff": "M"
+     },
+     {
+      "id": "in-sensors-and-industrial-instrum--velocity",
+      "name": "Velocity",
+      "diff": "E"
+     },
+     {
+      "id": "in-sensors-and-industrial-instrum--acceleration-linear-and-angular",
+      "name": "Acceleration (linear and angular)",
+      "diff": "M"
+     },
+     {
+      "id": "in-sensors-and-industrial-instrum--force",
+      "name": "Force",
+      "diff": "E"
+     },
+     {
+      "id": "in-sensors-and-industrial-instrum--torque",
+      "name": "Torque",
+      "diff": "E"
+     },
+     {
+      "id": "in-sensors-and-industrial-instrum--vibration",
+      "name": "Vibration",
+      "diff": "H"
+     },
+     {
+      "id": "in-sensors-and-industrial-instrum--shock",
+      "name": "Shock",
+      "diff": "E"
+     },
+     {
+      "id": "in-sensors-and-industrial-instrum--pressure-including-low-and-high-pressure",
+      "name": "Pressure (including low and high pressure)",
+      "diff": "M"
+     },
+     {
+      "id": "in-sensors-and-industrial-instrum--flow-variable-head-variable-area-electromagnetic-ultrasonic-",
+      "name": "Flow (variable head, variable area, electromagnetic, ultrasonic, turbine flowmeters)",
+      "diff": "M"
+     },
+     {
+      "id": "in-sensors-and-industrial-instrum--temperature-thermocouple-bolometer-2-3-4-wire-rtd-thermistor",
+      "name": "Temperature (thermocouple, bolometer, 2, 3, 4 wire RTD, thermistor, pyrometer and semiconductor sensor)",
+      "diff": "M"
+     },
+     {
+      "id": "in-sensors-and-industrial-instrum--liquid-level",
+      "name": "Liquid level",
+      "diff": "E"
+     },
+     {
+      "id": "in-sensors-and-industrial-instrum--conductivity-and-viscosity-measurement",
+      "name": "Conductivity and viscosity measurement",
+      "diff": "M"
+     },
+     {
+      "id": "in-sensors-and-industrial-instrum--section-10-communication-and-optical-instrumentation-amplitu",
+      "name": "Section 10 Communication and Optical Instrumentation Amplitude and frequency modulation and demodulation",
+      "diff": "M"
+     },
+     {
+      "id": "in-sensors-and-industrial-instrum--pulse-code-modulation",
+      "name": "Pulse code modulation",
+      "diff": "M"
+     },
+     {
+      "id": "in-sensors-and-industrial-instrum--frequency-and-time-division-multiplexing",
+      "name": "Frequency and time division multiplexing",
+      "diff": "M"
+     },
+     {
+      "id": "in-sensors-and-industrial-instrum--amplitude",
+      "name": "Amplitude",
+      "diff": "E"
+     },
+     {
+      "id": "in-sensors-and-industrial-instrum--phase",
+      "name": "Phase",
+      "diff": "E"
+     },
+     {
+      "id": "in-sensors-and-industrial-instrum--frequency",
+      "name": "Frequency",
+      "diff": "E"
+     },
+     {
+      "id": "in-sensors-and-industrial-instrum--quadrature-amplitude",
+      "name": "Quadrature amplitude",
+      "diff": "M"
+     },
+     {
+      "id": "in-sensors-and-industrial-instrum--pulse-shift-keying-for-digital-modulation-and-demodulation",
+      "name": "Pulse shift keying for digital modulation and demodulation",
+      "diff": "M"
+     },
+     {
+      "id": "in-sensors-and-industrial-instrum--functional-architectures-of-transmitters-and-receivers",
+      "name": "Functional architectures of transmitters and receivers",
+      "diff": "M"
+     },
+     {
+      "id": "in-sensors-and-industrial-instrum--instrument-and-sensor-networks-4-20-ma-two-wire-transmitter",
+      "name": "Instrument and sensor networks, 4 -20 mA two-wire transmitter",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Optical sources and detectors",
+    "topics": [
+     {
+      "id": "in-sensors-and-industrial-instrum--led",
+      "name": "LED",
+      "diff": "E"
+     },
+     {
+      "id": "in-sensors-and-industrial-instrum--laser",
+      "name": "Laser",
+      "diff": "E"
+     },
+     {
+      "id": "in-sensors-and-industrial-instrum--photo-diode",
+      "name": "Photo-diode",
+      "diff": "E"
+     },
+     {
+      "id": "in-sensors-and-industrial-instrum--light-dependent-resistor",
+      "name": "Light dependent resistor",
+      "diff": "M"
+     },
+     {
+      "id": "in-sensors-and-industrial-instrum--square-law-detectors-and-their-characteristics",
+      "name": "Square law detectors and their characteristics",
+      "diff": "M"
+     },
+     {
+      "id": "in-sensors-and-industrial-instrum--interferometer-applications-in-metrology",
+      "name": "Interferometer: applications in metrology",
+      "diff": "M"
+     },
+     {
+      "id": "in-sensors-and-industrial-instrum--basics-of-fiber-optic-sensing",
+      "name": "Basics of fiber optic sensing",
+      "diff": "M"
+     },
+     {
+      "id": "in-sensors-and-industrial-instrum--nearinfrared-nir-sensing",
+      "name": "Nearinfrared (NIR) sensing",
+      "diff": "M"
+     },
+     {
+      "id": "in-sensors-and-industrial-instrum--ultraviolet-visible-uv-vis-spectrophotometers",
+      "name": "Ultraviolet-Visible (UV-VIS) spectrophotometers",
+      "diff": "M"
+     },
+     {
+      "id": "in-sensors-and-industrial-instrum--mass-spectrometer",
+      "name": "Mass spectrometer",
+      "diff": "E"
+     }
+    ]
+   }
+  ]
+ }
+]

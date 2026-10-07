@@ -1,0 +1,1002 @@
+[
+ {
+  "id": "bm-engineering-mathematics",
+  "name": "Engineering Mathematics",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Linear Algebra",
+    "topics": [
+     {
+      "id": "bm-engineering-mathematics--matrix-algebra",
+      "name": "Matrix algebra",
+      "diff": "E",
+      "sample": true
+     },
+     {
+      "id": "bm-engineering-mathematics--systems-of-linear-equations",
+      "name": "Systems of linear equations",
+      "diff": "M"
+     },
+     {
+      "id": "bm-engineering-mathematics--eigenvalues-and-eigenvectors",
+      "name": "Eigenvalues and Eigenvectors",
+      "diff": "H"
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Calculus",
+    "topics": [
+     {
+      "id": "bm-engineering-mathematics--mean-value-theorems",
+      "name": "Mean value theorems",
+      "diff": "M"
+     },
+     {
+      "id": "bm-engineering-mathematics--theorems-of-integral-calculus",
+      "name": "Theorems of integral calculus",
+      "diff": "M"
+     },
+     {
+      "id": "bm-engineering-mathematics--partial-derivatives",
+      "name": "Partial derivatives",
+      "diff": "M"
+     },
+     {
+      "id": "bm-engineering-mathematics--maxima-and-minima",
+      "name": "Maxima and minima",
+      "diff": "E"
+     },
+     {
+      "id": "bm-engineering-mathematics--multiple-integrals",
+      "name": "Multiple integrals",
+      "diff": "M"
+     },
+     {
+      "id": "bm-engineering-mathematics--fourier-series",
+      "name": "Fourier series",
+      "diff": "H"
+     },
+     {
+      "id": "bm-engineering-mathematics--vector-identities",
+      "name": "Vector identities",
+      "diff": "E"
+     },
+     {
+      "id": "bm-engineering-mathematics--line",
+      "name": "Line",
+      "diff": "E"
+     },
+     {
+      "id": "bm-engineering-mathematics--surface-and-volume-integrals",
+      "name": "Surface and volume integrals",
+      "diff": "M"
+     },
+     {
+      "id": "bm-engineering-mathematics--stokes",
+      "name": "Stokes",
+      "diff": "E"
+     },
+     {
+      "id": "bm-engineering-mathematics--gauss-and-greens-theorems",
+      "name": "Gauss and Green's theorems",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "C",
+    "name": "Differential equations",
+    "topics": [
+     {
+      "id": "bm-engineering-mathematics--first-order-linear-and-nonlinear-differential-equations",
+      "name": "First order linear and nonlinear differential equations",
+      "diff": "H"
+     },
+     {
+      "id": "bm-engineering-mathematics--higher-order-linear-differential-equations-with-constant-coe",
+      "name": "Higher order linear differential equations with constant coefficients",
+      "diff": "M"
+     },
+     {
+      "id": "bm-engineering-mathematics--method-of-separation-of-variables",
+      "name": "Method of separation of variables",
+      "diff": "M"
+     },
+     {
+      "id": "bm-engineering-mathematics--cauchys-and-eulers-equations",
+      "name": "Cauchy's and Euler's equations",
+      "diff": "M"
+     },
+     {
+      "id": "bm-engineering-mathematics--initial-and-boundary-value-problems",
+      "name": "Initial and boundary value problems",
+      "diff": "M"
+     },
+     {
+      "id": "bm-engineering-mathematics--solution-of-partial-differential-equations",
+      "name": "Solution of partial differential equations",
+      "diff": "H"
+     }
+    ]
+   },
+   {
+    "letter": "D",
+    "name": "Analysis of complex variables",
+    "topics": [
+     {
+      "id": "bm-engineering-mathematics--analytic-functions",
+      "name": "Analytic functions",
+      "diff": "M"
+     },
+     {
+      "id": "bm-engineering-mathematics--cauchys-integral-theorem-and-integral-formula",
+      "name": "Cauchy's integral theorem and integral formula",
+      "diff": "M"
+     },
+     {
+      "id": "bm-engineering-mathematics--taylors-and-laurents-series",
+      "name": "Taylor's and Laurent's series",
+      "diff": "M"
+     },
+     {
+      "id": "bm-engineering-mathematics--residue-theorem",
+      "name": "Residue theorem",
+      "diff": "E"
+     }
+    ]
+   },
+   {
+    "letter": "E",
+    "name": "Probability and Statistics",
+    "topics": [
+     {
+      "id": "bm-engineering-mathematics--sampling-theorems",
+      "name": "Sampling theorems",
+      "diff": "E"
+     },
+     {
+      "id": "bm-engineering-mathematics--conditional-probability",
+      "name": "Conditional probability",
+      "diff": "M"
+     },
+     {
+      "id": "bm-engineering-mathematics--mean",
+      "name": "Mean",
+      "diff": "E"
+     },
+     {
+      "id": "bm-engineering-mathematics--median",
+      "name": "Median",
+      "diff": "E"
+     },
+     {
+      "id": "bm-engineering-mathematics--mode-and-standard-deviation",
+      "name": "Mode and standard deviation",
+      "diff": "M"
+     },
+     {
+      "id": "bm-engineering-mathematics--random-variables",
+      "name": "Random variables",
+      "diff": "E"
+     },
+     {
+      "id": "bm-engineering-mathematics--discrete-and-continuous-distributions-normal",
+      "name": "Discrete and continuous distributions: normal",
+      "diff": "M"
+     },
+     {
+      "id": "bm-engineering-mathematics--poisson-and-binomial-distributions",
+      "name": "Poisson and binomial distributions",
+      "diff": "M"
+     },
+     {
+      "id": "bm-engineering-mathematics--tests-of-significance",
+      "name": "Tests of Significance",
+      "diff": "M"
+     },
+     {
+      "id": "bm-engineering-mathematics--statistical-power-analysis",
+      "name": "Statistical power analysis",
+      "diff": "M"
+     },
+     {
+      "id": "bm-engineering-mathematics--sample-size-estimation",
+      "name": "Sample size estimation",
+      "diff": "M"
+     },
+     {
+      "id": "bm-engineering-mathematics--linear-regression-and-correlation-analysis",
+      "name": "Linear Regression and correlation analysis",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "F",
+    "name": "Numerical Methods",
+    "topics": [
+     {
+      "id": "bm-engineering-mathematics--matrix-inversion",
+      "name": "Matrix inversion",
+      "diff": "E"
+     },
+     {
+      "id": "bm-engineering-mathematics--numerical-solutions-of-nonlinear-algebraic-equations",
+      "name": "Numerical solutions of nonlinear algebraic equations",
+      "diff": "H"
+     },
+     {
+      "id": "bm-engineering-mathematics--iterative-methods-for-solving-differential-equations",
+      "name": "Iterative methods for solving differential equations",
+      "diff": "M"
+     },
+     {
+      "id": "bm-engineering-mathematics--numerical-integration",
+      "name": "Numerical integration",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "bm-electrical-circuits",
+  "name": "Electrical Circuits",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Electrical Circuits",
+    "topics": [
+     {
+      "id": "bm-electrical-circuits--v-oltage-and-current-sources-independent",
+      "name": "V oltage and current sources - independent",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "bm-electrical-circuits--dependent",
+      "name": "Dependent",
+      "diff": "E"
+     },
+     {
+      "id": "bm-electrical-circuits--ideal-and-practical",
+      "name": "Ideal and practical",
+      "diff": "M"
+     },
+     {
+      "id": "bm-electrical-circuits--v-i-relationships-of-resistor-inductor-and-capacitor",
+      "name": "V -i relationships of resistor, inductor and capacitor",
+      "diff": "M"
+     },
+     {
+      "id": "bm-electrical-circuits--transient-analysis-of-rlc-circuits-with-dc-excitation",
+      "name": "Transient analysis of RLC circuits with dc excitation",
+      "diff": "M"
+     },
+     {
+      "id": "bm-electrical-circuits--kirchoffs-laws",
+      "name": "Kirchoff’s laws",
+      "diff": "E"
+     },
+     {
+      "id": "bm-electrical-circuits--superposition",
+      "name": "Superposition",
+      "diff": "E"
+     },
+     {
+      "id": "bm-electrical-circuits--thevenin",
+      "name": "Thevenin",
+      "diff": "E"
+     },
+     {
+      "id": "bm-electrical-circuits--norton",
+      "name": "Norton",
+      "diff": "E"
+     },
+     {
+      "id": "bm-electrical-circuits--maximum-power-transfer-and-reciprocity-theorems",
+      "name": "Maximum power transfer and reciprocity theorems",
+      "diff": "M"
+     },
+     {
+      "id": "bm-electrical-circuits--peak-average-and-rms-values-of-ac-quantities",
+      "name": "Peak, average and rms values of ac quantities",
+      "diff": "M"
+     },
+     {
+      "id": "bm-electrical-circuits--apparent-active-and-reactive-powers",
+      "name": "Apparent, active and reactive powers",
+      "diff": "M"
+     },
+     {
+      "id": "bm-electrical-circuits--phasor-analysis-impedance-and-admittance",
+      "name": "Phasor analysis, impedance and admittance",
+      "diff": "M"
+     },
+     {
+      "id": "bm-electrical-circuits--series-and-parallel-resonance",
+      "name": "Series and parallel resonance",
+      "diff": "M"
+     },
+     {
+      "id": "bm-electrical-circuits--realization-of-basic-filters-with-r",
+      "name": "Realization of basic filters with R",
+      "diff": "E"
+     },
+     {
+      "id": "bm-electrical-circuits--l-and-c-elements",
+      "name": "L and C elements",
+      "diff": "E"
+     },
+     {
+      "id": "bm-electrical-circuits--bode-plot",
+      "name": "Bode plot",
+      "diff": "E"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "bm-signals-and-systems",
+  "name": "Signals and Systems",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Signals and Systems",
+    "topics": [
+     {
+      "id": "bm-signals-and-systems--continuous-and-discrete-signal-and-systems-periodic",
+      "name": "Continuous and Discrete Signal and Systems - Periodic",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "bm-signals-and-systems--a-periodic-and-impulse-signals",
+      "name": "A periodic and impulse signals",
+      "diff": "M"
+     },
+     {
+      "id": "bm-signals-and-systems--sampling-theorem",
+      "name": "Sampling theorem",
+      "diff": "E"
+     },
+     {
+      "id": "bm-signals-and-systems--laplace-and-fourier-transforms",
+      "name": "Laplace and Fourier transforms",
+      "diff": "H"
+     },
+     {
+      "id": "bm-signals-and-systems--impulse-response-of-systems",
+      "name": "Impulse response of systems",
+      "diff": "M"
+     },
+     {
+      "id": "bm-signals-and-systems--transfer-function",
+      "name": "Transfer function",
+      "diff": "E"
+     },
+     {
+      "id": "bm-signals-and-systems--frequency-response-of-first-and-second-order-linear-time-inv",
+      "name": "Frequency response of first and second order linear time invariant systems",
+      "diff": "M"
+     },
+     {
+      "id": "bm-signals-and-systems--convolution",
+      "name": "Convolution",
+      "diff": "E"
+     },
+     {
+      "id": "bm-signals-and-systems--correlation",
+      "name": "Correlation",
+      "diff": "E"
+     },
+     {
+      "id": "bm-signals-and-systems--discrete-time-systems-impulse-response",
+      "name": "Discrete time systems - impulse response",
+      "diff": "M"
+     },
+     {
+      "id": "bm-signals-and-systems--frequency-response",
+      "name": "Frequency response",
+      "diff": "M"
+     },
+     {
+      "id": "bm-signals-and-systems--dft",
+      "name": "DFT",
+      "diff": "E"
+     },
+     {
+      "id": "bm-signals-and-systems--z-transform",
+      "name": "Z - transform",
+      "diff": "H"
+     },
+     {
+      "id": "bm-signals-and-systems--basics-of-iir-and-fir-filter",
+      "name": "Basics of IIR and FIR filter",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "bm-analog-and-digital-electronics",
+  "name": "Analog and Digital Electronics",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Analog and Digital Electronics",
+    "topics": [
+     {
+      "id": "bm-analog-and-digital-electronics--basic-characteristics-and-applications-of-diode-bjt-and-mosf",
+      "name": "Basic characteristics and applications of diode, BJT and MOSFET",
+      "diff": "E",
+      "sample": true
+     },
+     {
+      "id": "bm-analog-and-digital-electronics--characteristics-and-applications-of-operational-amplifiers-d",
+      "name": "Characteristics and applications of operational amplifiers - difference amplifier",
+      "diff": "M"
+     },
+     {
+      "id": "bm-analog-and-digital-electronics--adder",
+      "name": "Adder",
+      "diff": "E"
+     },
+     {
+      "id": "bm-analog-and-digital-electronics--subtractor",
+      "name": "Subtractor",
+      "diff": "E"
+     },
+     {
+      "id": "bm-analog-and-digital-electronics--integrator",
+      "name": "Integrator",
+      "diff": "E"
+     },
+     {
+      "id": "bm-analog-and-digital-electronics--differentiator",
+      "name": "Differentiator",
+      "diff": "E"
+     },
+     {
+      "id": "bm-analog-and-digital-electronics--instrumentation-amplifier",
+      "name": "Instrumentation amplifier",
+      "diff": "M"
+     },
+     {
+      "id": "bm-analog-and-digital-electronics--buffer",
+      "name": "Buffer",
+      "diff": "E"
+     },
+     {
+      "id": "bm-analog-and-digital-electronics--filters-and-waveform-generators",
+      "name": "Filters and waveform generators",
+      "diff": "M"
+     },
+     {
+      "id": "bm-analog-and-digital-electronics--number-systems-boolean-algebra",
+      "name": "Number systems, Boolean algebra",
+      "diff": "M"
+     },
+     {
+      "id": "bm-analog-and-digital-electronics--combinational-logic-circuits-arithmetic-circuits",
+      "name": "Combinational logic circuits - arithmetic circuits",
+      "diff": "M"
+     },
+     {
+      "id": "bm-analog-and-digital-electronics--comparators",
+      "name": "Comparators",
+      "diff": "E"
+     },
+     {
+      "id": "bm-analog-and-digital-electronics--schmitt-trigger",
+      "name": "Schmitt trigger",
+      "diff": "E"
+     },
+     {
+      "id": "bm-analog-and-digital-electronics--encoder-decoder",
+      "name": "Encoder/decoder",
+      "diff": "E"
+     },
+     {
+      "id": "bm-analog-and-digital-electronics--mux-demux",
+      "name": "MUX/DEMUX",
+      "diff": "E"
+     },
+     {
+      "id": "bm-analog-and-digital-electronics--multi-vibrators",
+      "name": "Multi -vibrators",
+      "diff": "E"
+     },
+     {
+      "id": "bm-analog-and-digital-electronics--principles-of-adc-and-dac",
+      "name": "Principles of ADC and DAC",
+      "diff": "M"
+     },
+     {
+      "id": "bm-analog-and-digital-electronics--microprocessor-architecture",
+      "name": "Microprocessor- architecture",
+      "diff": "M"
+     },
+     {
+      "id": "bm-analog-and-digital-electronics--interfacing-memory-and-input-output-devices",
+      "name": "Interfacing memory and input- output devices",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "bm-measurements-and-control-syste",
+  "name": "Measurements and Control Systems",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Measurements and Control Systems",
+    "topics": [
+     {
+      "id": "bm-measurements-and-control-syste--si-units",
+      "name": "SI units",
+      "diff": "E",
+      "sample": true
+     },
+     {
+      "id": "bm-measurements-and-control-syste--systematic-and-random-errors-in-measurement",
+      "name": "Systematic and random errors in measurement",
+      "diff": "M"
+     },
+     {
+      "id": "bm-measurements-and-control-syste--expression-of-uncertainty-accuracy-and-precision-index",
+      "name": "Expression of uncertainty - accuracy and precision index",
+      "diff": "M"
+     },
+     {
+      "id": "bm-measurements-and-control-syste--propagation-of-errors",
+      "name": "Propagation of errors",
+      "diff": "M"
+     },
+     {
+      "id": "bm-measurements-and-control-syste--pmmc-mi-and-dynamometer-type-instruments",
+      "name": "PMMC, MI and dynamometer type instruments",
+      "diff": "M"
+     },
+     {
+      "id": "bm-measurements-and-control-syste--dc-potentiometer",
+      "name": "DC potentiometer",
+      "diff": "E"
+     },
+     {
+      "id": "bm-measurements-and-control-syste--bridges-for-measurement-of-r-l-and-c-q-meter",
+      "name": "Bridges for measurement of R, L and C, Q-meter",
+      "diff": "M"
+     },
+     {
+      "id": "bm-measurements-and-control-syste--basics-of-control-system-transfer-function",
+      "name": "Basics of control system - transfer function",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "bm-sensors-and-bioinstrumentation",
+  "name": "Sensors and Bioinstrumentation",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Sensors and Bioinstrumentation",
+    "topics": [
+     {
+      "id": "bm-sensors-and-bioinstrumentation--sensors-resistive",
+      "name": "Sensors - resistive",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "bm-sensors-and-bioinstrumentation--capacitive",
+      "name": "Capacitive",
+      "diff": "E"
+     },
+     {
+      "id": "bm-sensors-and-bioinstrumentation--inductive",
+      "name": "Inductive",
+      "diff": "E"
+     },
+     {
+      "id": "bm-sensors-and-bioinstrumentation--piezoelectric",
+      "name": "Piezoelectric",
+      "diff": "E"
+     },
+     {
+      "id": "bm-sensors-and-bioinstrumentation--hall-effect",
+      "name": "Hall effect",
+      "diff": "E"
+     },
+     {
+      "id": "bm-sensors-and-bioinstrumentation--electro-chemical",
+      "name": "Electro chemical",
+      "diff": "E"
+     },
+     {
+      "id": "bm-sensors-and-bioinstrumentation--optical",
+      "name": "Optical",
+      "diff": "E"
+     },
+     {
+      "id": "bm-sensors-and-bioinstrumentation--sensor-signal-conditioning-circuits",
+      "name": "Sensor signal conditioning circuits",
+      "diff": "M"
+     },
+     {
+      "id": "bm-sensors-and-bioinstrumentation--application-of-laser-in-sensing-and-therapy",
+      "name": "Application of LASER in sensing and therapy",
+      "diff": "M"
+     },
+     {
+      "id": "bm-sensors-and-bioinstrumentation--origin-of-bio-potentials-and-their-measurement-techniques-ec",
+      "name": "Origin of bio potentials and their measurement techniques - ECG",
+      "diff": "M"
+     },
+     {
+      "id": "bm-sensors-and-bioinstrumentation--eeg",
+      "name": "EEG",
+      "diff": "E"
+     },
+     {
+      "id": "bm-sensors-and-bioinstrumentation--emg",
+      "name": "EMG",
+      "diff": "E"
+     },
+     {
+      "id": "bm-sensors-and-bioinstrumentation--erg",
+      "name": "ERG",
+      "diff": "E"
+     },
+     {
+      "id": "bm-sensors-and-bioinstrumentation--eog",
+      "name": "EOG",
+      "diff": "E"
+     },
+     {
+      "id": "bm-sensors-and-bioinstrumentation--gsr",
+      "name": "GSR",
+      "diff": "E"
+     },
+     {
+      "id": "bm-sensors-and-bioinstrumentation--pcg",
+      "name": "PCG",
+      "diff": "E"
+     },
+     {
+      "id": "bm-sensors-and-bioinstrumentation--principles-of-measuring-blood-pressure",
+      "name": "Principles of measuring blood pressure",
+      "diff": "M"
+     },
+     {
+      "id": "bm-sensors-and-bioinstrumentation--body-temperature",
+      "name": "Body temperature",
+      "diff": "E"
+     },
+     {
+      "id": "bm-sensors-and-bioinstrumentation--volume-and-flow-in-arteries",
+      "name": "Volume and flow in arteries",
+      "diff": "M"
+     },
+     {
+      "id": "bm-sensors-and-bioinstrumentation--veins-and-tissues",
+      "name": "Veins and tissues",
+      "diff": "E"
+     },
+     {
+      "id": "bm-sensors-and-bioinstrumentation--respiratory-measurements-and-cardiac-output-measurement",
+      "name": "Respiratory measurements and cardiac output measurement",
+      "diff": "M"
+     },
+     {
+      "id": "bm-sensors-and-bioinstrumentation--operating-principle-of-medical-equipment-sphygmomanometer",
+      "name": "Operating principle of medical equipment-sphygmomanometer",
+      "diff": "M"
+     },
+     {
+      "id": "bm-sensors-and-bioinstrumentation--ventilator",
+      "name": "Ventilator",
+      "diff": "E"
+     },
+     {
+      "id": "bm-sensors-and-bioinstrumentation--cardiac-pacemaker",
+      "name": "Cardiac pacemaker",
+      "diff": "E"
+     },
+     {
+      "id": "bm-sensors-and-bioinstrumentation--defibrillator",
+      "name": "Defibrillator",
+      "diff": "E"
+     },
+     {
+      "id": "bm-sensors-and-bioinstrumentation--pulse-oximeter",
+      "name": "Pulse oximeter",
+      "diff": "E"
+     },
+     {
+      "id": "bm-sensors-and-bioinstrumentation--hemodialyzer-electrical-isolation-optical-and-electrical",
+      "name": "Hemodialyzer Electrical Isolation (optical and electrical)",
+      "diff": "M"
+     },
+     {
+      "id": "bm-sensors-and-bioinstrumentation--safety-and-regulatory-aspects-of-biomedical-instruments",
+      "name": "Safety and Regulatory Aspects of Biomedical Instruments",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "bm-mammalian-cell-biology-human-a",
+  "name": "Mammalian Cell Biology, Human Anatomy and Physiology",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Mammalian Cell Biology, Human Anatomy and Physiology",
+    "topics": [
+     {
+      "id": "bm-mammalian-cell-biology-human-a--basics-of-cell-types-of-tissues-and-organ-systems",
+      "name": "Basics of cell, types of tissues and organ systems",
+      "diff": "E",
+      "sample": true
+     },
+     {
+      "id": "bm-mammalian-cell-biology-human-a--homeostasis",
+      "name": "Homeostasis",
+      "diff": "E"
+     },
+     {
+      "id": "bm-mammalian-cell-biology-human-a--basics-of-organ-systems-and-their-physiological-aspects-musc",
+      "name": "Basics of organ systems & their physiological aspects - musculoskeletal",
+      "diff": "M"
+     },
+     {
+      "id": "bm-mammalian-cell-biology-human-a--respiratory",
+      "name": "Respiratory",
+      "diff": "E"
+     },
+     {
+      "id": "bm-mammalian-cell-biology-human-a--circulatory",
+      "name": "Circulatory",
+      "diff": "E"
+     },
+     {
+      "id": "bm-mammalian-cell-biology-human-a--excretory",
+      "name": "Excretory",
+      "diff": "E"
+     },
+     {
+      "id": "bm-mammalian-cell-biology-human-a--endocrine",
+      "name": "Endocrine",
+      "diff": "E"
+     },
+     {
+      "id": "bm-mammalian-cell-biology-human-a--nervous",
+      "name": "Nervous",
+      "diff": "E"
+     },
+     {
+      "id": "bm-mammalian-cell-biology-human-a--gastro-intestinal-systems",
+      "name": "Gastro-intestinal systems",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "bm-medical-imaging-systems",
+  "name": "Medical Imaging Systems",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Medical Imaging Systems",
+    "topics": [
+     {
+      "id": "bm-medical-imaging-systems--instrumentation-and-image-formation-techniques-in-medical-im",
+      "name": "Instrumentation and image formation techniques in medical imaging modalities such as X -Ray",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "bm-medical-imaging-systems--computed-tomography",
+      "name": "Computed Tomography",
+      "diff": "M"
+     },
+     {
+      "id": "bm-medical-imaging-systems--single-photon-emission-computed-tomography",
+      "name": "Single Photon Emission Computed Tomography",
+      "diff": "M"
+     },
+     {
+      "id": "bm-medical-imaging-systems--positron-emission-tomography",
+      "name": "Positron Emission Tomography",
+      "diff": "M"
+     },
+     {
+      "id": "bm-medical-imaging-systems--magnetic-resonance-imaging",
+      "name": "Magnetic Resonance Imaging",
+      "diff": "M"
+     },
+     {
+      "id": "bm-medical-imaging-systems--ultrasound",
+      "name": "Ultrasound",
+      "diff": "E"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "bm-biomechanics",
+  "name": "Biomechanics",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Biomechanics",
+    "topics": [
+     {
+      "id": "bm-biomechanics--kinematics-of-muscles-and-joints-free-body-diagrams-and-equi",
+      "name": "Kinematics of muscles and joints - free-body diagrams and equilibrium",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "bm-biomechanics--forces-and-stresses-in-joints",
+      "name": "Forces and stresses in joints",
+      "diff": "M"
+     },
+     {
+      "id": "bm-biomechanics--biomechanical-analysis-of-joints",
+      "name": "Biomechanical analysis of joints",
+      "diff": "M"
+     },
+     {
+      "id": "bm-biomechanics--gait-analysis",
+      "name": "Gait analysis",
+      "diff": "E"
+     },
+     {
+      "id": "bm-biomechanics--hard-tissues-definition-of-stress-and-strain",
+      "name": "Hard Tissues - Definition of Stress and Strain",
+      "diff": "E"
+     },
+     {
+      "id": "bm-biomechanics--structure-and-mechanical-properties-of-bone-cortical-and-can",
+      "name": "Structure and mechanical properties of bone - cortical and cancellous bones",
+      "diff": "E"
+     },
+     {
+      "id": "bm-biomechanics--soft-tissues-structure-functions-material-properties",
+      "name": "Soft Tissues - Structure, functions, material properties",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "bm-biomaterials-and-tissue-engine",
+  "name": "Biomaterials and Tissue Engineering",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Biomaterials and Tissue Engineering",
+    "topics": [
+     {
+      "id": "bm-biomaterials-and-tissue-engine--basic-properties-of-biomaterials-metallic",
+      "name": "Basic properties of biomaterials - Metallic",
+      "diff": "E",
+      "sample": true
+     },
+     {
+      "id": "bm-biomaterials-and-tissue-engine--ceramic",
+      "name": "Ceramic",
+      "diff": "E"
+     },
+     {
+      "id": "bm-biomaterials-and-tissue-engine--polymeric",
+      "name": "Polymeric",
+      "diff": "E"
+     },
+     {
+      "id": "bm-biomaterials-and-tissue-engine--carbon-based-and-composite-materials",
+      "name": "Carbon -based and Composite materials",
+      "diff": "M"
+     },
+     {
+      "id": "bm-biomaterials-and-tissue-engine--fundamental-characteristics-of-implants-biocompatibility",
+      "name": "Fundamental characteristics of implants - biocompatibility",
+      "diff": "M"
+     },
+     {
+      "id": "bm-biomaterials-and-tissue-engine--bioactivity",
+      "name": "Bioactivity",
+      "diff": "E"
+     },
+     {
+      "id": "bm-biomaterials-and-tissue-engine--biodegradability",
+      "name": "Biodegradability",
+      "diff": "E"
+     },
+     {
+      "id": "bm-biomaterials-and-tissue-engine--basics-of-tissue-engineering",
+      "name": "Basics of tissue engineering",
+      "diff": "M"
+     },
+     {
+      "id": "bm-biomaterials-and-tissue-engine--biomaterial-characterization-techniques-atomic-force-microsc",
+      "name": "Biomaterial characterization techniques - Atomic Force Microscopy",
+      "diff": "M"
+     },
+     {
+      "id": "bm-biomaterials-and-tissue-engine--electron-microscopy",
+      "name": "Electron Microscopy",
+      "diff": "M"
+     },
+     {
+      "id": "bm-biomaterials-and-tissue-engine--fourier-transform-infrared-spectroscopy",
+      "name": "Fourier Transform Infrared Spectroscopy",
+      "diff": "H"
+     },
+     {
+      "id": "bm-biomaterials-and-tissue-engine--scaffold-fabrication-techniques-electrospinning",
+      "name": "Scaffold fabrication techniques- Electrospinning",
+      "diff": "M"
+     },
+     {
+      "id": "bm-biomaterials-and-tissue-engine--3d-printing-and-bioprinting",
+      "name": "3D Printing and Bioprinting",
+      "diff": "M"
+     },
+     {
+      "id": "bm-biomaterials-and-tissue-engine--artificial-organs",
+      "name": "Artificial Organs",
+      "diff": "E"
+     },
+     {
+      "id": "bm-biomaterials-and-tissue-engine--organoid",
+      "name": "Organoid",
+      "diff": "E"
+     },
+     {
+      "id": "bm-biomaterials-and-tissue-engine--organ-on-chip",
+      "name": "Organ-on-chip",
+      "diff": "E"
+     }
+    ]
+   }
+  ]
+ }
+]

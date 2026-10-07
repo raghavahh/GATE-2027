@@ -1,0 +1,596 @@
+[
+ {
+  "id": "cs-engineering-mathematics",
+  "name": "Engineering Mathematics",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Discrete Mathematics",
+    "topics": [
+     {
+      "id": "cs-engineering-mathematics--propositional-and-first-order-logic",
+      "name": "Propositional and first order logic",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "cs-engineering-mathematics--sets-relations-functions-partial-orders-and-lattices",
+      "name": "Sets, relations, functions, partial orders and lattices",
+      "diff": "M"
+     },
+     {
+      "id": "cs-engineering-mathematics--monoids-groups",
+      "name": "Monoids, Groups",
+      "diff": "E"
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Graphs",
+    "topics": [
+     {
+      "id": "cs-engineering-mathematics--connectivity-matching-colouring",
+      "name": "Connectivity, matching, colouring",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "C",
+    "name": "Combinatorics",
+    "topics": [
+     {
+      "id": "cs-engineering-mathematics--counting-recurrence-relations-generating-functions",
+      "name": "Counting, recurrence relations, generating functions",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "D",
+    "name": "Linear Algebra",
+    "topics": [
+     {
+      "id": "cs-engineering-mathematics--matrices",
+      "name": "Matrices",
+      "diff": "E"
+     },
+     {
+      "id": "cs-engineering-mathematics--determinants",
+      "name": "Determinants",
+      "diff": "E"
+     },
+     {
+      "id": "cs-engineering-mathematics--system-of-linear-equations",
+      "name": "System of linear equations",
+      "diff": "M"
+     },
+     {
+      "id": "cs-engineering-mathematics--eigenvalues-and-eigenvectors",
+      "name": "Eigenvalues and eigenvectors",
+      "diff": "H"
+     },
+     {
+      "id": "cs-engineering-mathematics--lu-decomposition",
+      "name": "LU decomposition",
+      "diff": "E"
+     }
+    ]
+   },
+   {
+    "letter": "E",
+    "name": "Calculus",
+    "topics": [
+     {
+      "id": "cs-engineering-mathematics--limits",
+      "name": "Limits",
+      "diff": "E"
+     },
+     {
+      "id": "cs-engineering-mathematics--continuity-and-differentiability",
+      "name": "Continuity and differentiability",
+      "diff": "M"
+     },
+     {
+      "id": "cs-engineering-mathematics--maxima-and-minima",
+      "name": "Maxima and minima",
+      "diff": "E"
+     },
+     {
+      "id": "cs-engineering-mathematics--mean-value-theorem",
+      "name": "Mean value theorem",
+      "diff": "M"
+     },
+     {
+      "id": "cs-engineering-mathematics--integration",
+      "name": "Integration",
+      "diff": "E"
+     }
+    ]
+   },
+   {
+    "letter": "F",
+    "name": "Probability and Statistics",
+    "topics": [
+     {
+      "id": "cs-engineering-mathematics--random-variables",
+      "name": "Random variables",
+      "diff": "E"
+     },
+     {
+      "id": "cs-engineering-mathematics--uniform",
+      "name": "Uniform",
+      "diff": "E"
+     },
+     {
+      "id": "cs-engineering-mathematics--normal",
+      "name": "Normal",
+      "diff": "E"
+     },
+     {
+      "id": "cs-engineering-mathematics--exponential",
+      "name": "Exponential",
+      "diff": "E"
+     },
+     {
+      "id": "cs-engineering-mathematics--poisson-and-binomial-distributions",
+      "name": "Poisson and binomial distributions",
+      "diff": "M"
+     },
+     {
+      "id": "cs-engineering-mathematics--mean-median-mode-and-standard-deviation",
+      "name": "Mean, median, mode and standard deviation",
+      "diff": "M"
+     },
+     {
+      "id": "cs-engineering-mathematics--conditional-probability-and-bayes-theorem",
+      "name": "Conditional probability and Bayes theorem",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "cs-digital-logic",
+  "name": "Digital Logic",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Digital Logic",
+    "topics": [
+     {
+      "id": "cs-digital-logic--boolean-algebra-and-minimization-algebraic-technique",
+      "name": "Boolean algebra and minimization - algebraic technique",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "cs-digital-logic--karnaugh-map",
+      "name": "Karnaugh map",
+      "diff": "E"
+     },
+     {
+      "id": "cs-digital-logic--tabular-method",
+      "name": "Tabular method",
+      "diff": "E"
+     },
+     {
+      "id": "cs-digital-logic--design-of-combinational-and-sequential-circuits",
+      "name": "Design of combinational and sequential circuits",
+      "diff": "M"
+     },
+     {
+      "id": "cs-digital-logic--number-representation-and-arithmetic-fixed-and-floating-poin",
+      "name": "Number representation and arithmetic (fixed and floating point)",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "cs-computer-organization-and-arch",
+  "name": "Computer Organization and Architecture",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Overview",
+    "topics": [
+     {
+      "id": "cs-computer-organization-and-arch--instruction-set-and-addressing-modes",
+      "name": "Instruction set and addressing modes",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "cs-computer-organization-and-arch--design-of-arithmetic-and-logic-unit-alu",
+      "name": "Design of arithmetic and logic unit (ALU)",
+      "diff": "E"
+     },
+     {
+      "id": "cs-computer-organization-and-arch--design-of-control-unit-hardwired-and-microprogrammed",
+      "name": "Design of control unit - hardwired and microprogrammed",
+      "diff": "E"
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Memory interfacing and hierarchy",
+    "topics": [
+     {
+      "id": "cs-computer-organization-and-arch--performance-cache-memory-mapping",
+      "name": "Performance, cache memory mapping",
+      "diff": "M"
+     },
+     {
+      "id": "cs-computer-organization-and-arch--i-o-interface-interrupt-and-dma",
+      "name": "I/O interface (interrupt and DMA)",
+      "diff": "M"
+     },
+     {
+      "id": "cs-computer-organization-and-arch--instruction-pipelining-pipeline-hazards",
+      "name": "Instruction pipelining, pipeline hazards",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "cs-programming-and-data-structure",
+  "name": "Programming and Data Structures",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Programming and Data Structures",
+    "topics": [
+     {
+      "id": "cs-programming-and-data-structure--programming-in-c-recursion",
+      "name": "Programming in C. Recursion",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "cs-programming-and-data-structure--arrays",
+      "name": "Arrays",
+      "diff": "E"
+     },
+     {
+      "id": "cs-programming-and-data-structure--stacks",
+      "name": "Stacks",
+      "diff": "E"
+     },
+     {
+      "id": "cs-programming-and-data-structure--queues",
+      "name": "Queues",
+      "diff": "E"
+     },
+     {
+      "id": "cs-programming-and-data-structure--linked-lists",
+      "name": "Linked lists",
+      "diff": "E"
+     },
+     {
+      "id": "cs-programming-and-data-structure--trees",
+      "name": "Trees",
+      "diff": "E"
+     },
+     {
+      "id": "cs-programming-and-data-structure--binary-search-trees",
+      "name": "Binary search trees",
+      "diff": "M"
+     },
+     {
+      "id": "cs-programming-and-data-structure--binary-heaps",
+      "name": "Binary heaps",
+      "diff": "E"
+     },
+     {
+      "id": "cs-programming-and-data-structure--graphs",
+      "name": "Graphs",
+      "diff": "E"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "cs-algorithms",
+  "name": "Algorithms",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Overview",
+    "topics": [
+     {
+      "id": "cs-algorithms--searching-sorting-hashing",
+      "name": "Searching, sorting, hashing",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "cs-algorithms--asymptotic-worst-case-time-and-space-complexity",
+      "name": "Asymptotic worst case time and space complexity",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Algorithm design techniques",
+    "topics": [
+     {
+      "id": "cs-algorithms--greedy-dynamic-programming-and-divide-and-conquer",
+      "name": "Greedy, dynamic programming and divide-and-conquer",
+      "diff": "M"
+     },
+     {
+      "id": "cs-algorithms--graph-traversals-minimum-spanning-trees-shortest-paths",
+      "name": "Graph traversals, minimum spanning trees, shortest paths",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "cs-theory-of-computation",
+  "name": "Theory of Computation",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Theory of Computation",
+    "topics": [
+     {
+      "id": "cs-theory-of-computation--regular-expressions-and-finite-automata",
+      "name": "Regular expressions and finite automata",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "cs-theory-of-computation--context-free-grammars-and-push-down-automata",
+      "name": "Context-free grammars and push-down automata",
+      "diff": "M"
+     },
+     {
+      "id": "cs-theory-of-computation--regular-and-context-free-languages-pumping-lemma",
+      "name": "Regular and context-free languages, pumping lemma",
+      "diff": "M"
+     },
+     {
+      "id": "cs-theory-of-computation--turing-machines-and-undecidability",
+      "name": "Turing machines and undecidability",
+      "diff": "H"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "cs-compiler-design",
+  "name": "Compiler Design",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Overview",
+    "topics": [
+     {
+      "id": "cs-compiler-design--lexical-analysis-parsing-syntax-directed-translation",
+      "name": "Lexical analysis, parsing, syntax-directed translation",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "cs-compiler-design--runtime-environments",
+      "name": "Runtime environments",
+      "diff": "M"
+     },
+     {
+      "id": "cs-compiler-design--intermediate-code-generation",
+      "name": "Intermediate code generation",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Local optimisation, Data flow analyses",
+    "topics": [
+     {
+      "id": "cs-compiler-design--constant-propagation",
+      "name": "Constant propagation",
+      "diff": "M"
+     },
+     {
+      "id": "cs-compiler-design--liveness-analysis",
+      "name": "Liveness analysis",
+      "diff": "E"
+     },
+     {
+      "id": "cs-compiler-design--common-sub-expression-elimination",
+      "name": "Common sub expression elimination",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "cs-operating-system",
+  "name": "Operating System",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Operating System",
+    "topics": [
+     {
+      "id": "cs-operating-system--system-calls",
+      "name": "System calls",
+      "diff": "E",
+      "sample": true
+     },
+     {
+      "id": "cs-operating-system--processes",
+      "name": "Processes",
+      "diff": "E"
+     },
+     {
+      "id": "cs-operating-system--threads",
+      "name": "Threads",
+      "diff": "E"
+     },
+     {
+      "id": "cs-operating-system--inter-process-communication",
+      "name": "Inter-process communication",
+      "diff": "M"
+     },
+     {
+      "id": "cs-operating-system--concurrency-and-synchronization",
+      "name": "Concurrency and synchronization",
+      "diff": "M"
+     },
+     {
+      "id": "cs-operating-system--deadlock",
+      "name": "Deadlock",
+      "diff": "E"
+     },
+     {
+      "id": "cs-operating-system--cpu-and-i-o-scheduling",
+      "name": "CPU and I/O scheduling",
+      "diff": "M"
+     },
+     {
+      "id": "cs-operating-system--memory-management-and-virtual-memory",
+      "name": "Memory management and virtual memory",
+      "diff": "M"
+     },
+     {
+      "id": "cs-operating-system--file-systems",
+      "name": "File systems",
+      "diff": "E"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "cs-databases",
+  "name": "Databases",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Relational model",
+    "topics": [
+     {
+      "id": "cs-databases--relational-algebra",
+      "name": "Relational algebra",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "cs-databases--tuple-calculus",
+      "name": "Tuple calculus",
+      "diff": "E"
+     },
+     {
+      "id": "cs-databases--sql-integrity-constraints",
+      "name": "SQL. Integrity constraints",
+      "diff": "M"
+     },
+     {
+      "id": "cs-databases--normal-forms",
+      "name": "Normal forms",
+      "diff": "E"
+     },
+     {
+      "id": "cs-databases--file-organization-indexing-e-g-b-and-b-trees",
+      "name": "File organization, indexing (e.g., B and B+ trees)",
+      "diff": "M"
+     },
+     {
+      "id": "cs-databases--transactions-and-concurrency-control",
+      "name": "Transactions and concurrency control",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "cs-computer-networks",
+  "name": "Computer Networks",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Overview",
+    "topics": [
+     {
+      "id": "cs-computer-networks--principles-of-layering",
+      "name": "Principles of Layering",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "cs-computer-networks--basics-of-switching-circuit-packet-and-virtual-circuit-and-p",
+      "name": "Basics of switching (circuit, packet and virtual circuit) and performance metrics",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Data link layer",
+    "topics": [
+     {
+      "id": "cs-computer-networks--error-detection-medium-access-control-ethernet",
+      "name": "Error detection, Medium Access Control, Ethernet",
+      "diff": "M"
+     },
+     {
+      "id": "cs-computer-networks--distance-vector-and-link-state-routing",
+      "name": "Distance vector and link state routing",
+      "diff": "M"
+     },
+     {
+      "id": "cs-computer-networks--ipv4-fragmentation-cidr-notation-network-address-translation",
+      "name": "IPv4 - Fragmentation, CIDR Notation, Network Address Translation",
+      "diff": "M"
+     },
+     {
+      "id": "cs-computer-networks--tcp-flow-control-and-congestion-control-socket-api",
+      "name": "TCP- flow control and congestion control, socket API",
+      "diff": "M"
+     },
+     {
+      "id": "cs-computer-networks--dns-and-http",
+      "name": "DNS and HTTP",
+      "diff": "E"
+     }
+    ]
+   }
+  ]
+ }
+]

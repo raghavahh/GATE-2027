@@ -1,0 +1,1348 @@
+[
+ {
+  "id": "pi-engineering-mathematics",
+  "name": "Engineering Mathematics",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Linear Algebra",
+    "topics": [
+     {
+      "id": "pi-engineering-mathematics--matrix-algebra",
+      "name": "Matrix algebra",
+      "diff": "E",
+      "sample": true
+     },
+     {
+      "id": "pi-engineering-mathematics--systems-of-linear-equations",
+      "name": "Systems of linear equations",
+      "diff": "M"
+     },
+     {
+      "id": "pi-engineering-mathematics--eigenvalues-and-eigenvectors",
+      "name": "Eigenvalues and eigenvectors",
+      "diff": "H"
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Calculus",
+    "topics": [
+     {
+      "id": "pi-engineering-mathematics--functions-of-single-variable",
+      "name": "Functions of single variable",
+      "diff": "M"
+     },
+     {
+      "id": "pi-engineering-mathematics--limit-continuity-and-differentiability",
+      "name": "Limit, continuity and differentiability",
+      "diff": "M"
+     },
+     {
+      "id": "pi-engineering-mathematics--mean-value-theorems-evaluation-of-definite-integrals",
+      "name": "Mean value theorems, Evaluation of definite integrals",
+      "diff": "M"
+     },
+     {
+      "id": "pi-engineering-mathematics--partial-derivative",
+      "name": "Partial derivative",
+      "diff": "M"
+     },
+     {
+      "id": "pi-engineering-mathematics--total-derivative",
+      "name": "Total derivative",
+      "diff": "E"
+     },
+     {
+      "id": "pi-engineering-mathematics--maxima-and-minima",
+      "name": "Maxima and minima",
+      "diff": "E"
+     },
+     {
+      "id": "pi-engineering-mathematics--gradient-divergence-and-curl",
+      "name": "Gradient, divergence and curl",
+      "diff": "M"
+     },
+     {
+      "id": "pi-engineering-mathematics--vector-identities",
+      "name": "Vector identities",
+      "diff": "E"
+     },
+     {
+      "id": "pi-engineering-mathematics--directional-derivatives",
+      "name": "Directional derivatives",
+      "diff": "M"
+     },
+     {
+      "id": "pi-engineering-mathematics--line-surface-and-volume-integrals",
+      "name": "Line, Surface and Volume integrals",
+      "diff": "M"
+     },
+     {
+      "id": "pi-engineering-mathematics--stokes-gauss-and-greens-theorems",
+      "name": "Stokes, Gauss and Green’s theorems",
+      "diff": "M"
+     },
+     {
+      "id": "pi-engineering-mathematics--taylor-series",
+      "name": "Taylor series",
+      "diff": "E"
+     }
+    ]
+   },
+   {
+    "letter": "C",
+    "name": "Differential Equations",
+    "topics": [
+     {
+      "id": "pi-engineering-mathematics--first-order-equations-linear-and-nonlinear",
+      "name": "First order equations: linear and nonlinear",
+      "diff": "H"
+     },
+     {
+      "id": "pi-engineering-mathematics--higher-order-linear-differential-equations-with-constant-coe",
+      "name": "Higher order linear differential equations with constant coefficients",
+      "diff": "M"
+     },
+     {
+      "id": "pi-engineering-mathematics--cauchys-and-eulers-equations",
+      "name": "Cauchy’s and Euler’s equations",
+      "diff": "M"
+     },
+     {
+      "id": "pi-engineering-mathematics--initial-and-boundary-value-problems",
+      "name": "Initial and boundary value problems",
+      "diff": "M"
+     },
+     {
+      "id": "pi-engineering-mathematics--laplace-transform",
+      "name": "Laplace transform",
+      "diff": "H"
+     }
+    ]
+   },
+   {
+    "letter": "D",
+    "name": "Probability and Statistics",
+    "topics": [
+     {
+      "id": "pi-engineering-mathematics--definitions-of-probability-and-sampling-theorems",
+      "name": "Definitions of probability and sampling theorems",
+      "diff": "M"
+     },
+     {
+      "id": "pi-engineering-mathematics--conditional-probability",
+      "name": "Conditional probability",
+      "diff": "M"
+     },
+     {
+      "id": "pi-engineering-mathematics--mean-median-mode-and-standard-deviation",
+      "name": "Mean, median, mode and standard deviation",
+      "diff": "M"
+     },
+     {
+      "id": "pi-engineering-mathematics--linear-regression",
+      "name": "Linear regression",
+      "diff": "E"
+     },
+     {
+      "id": "pi-engineering-mathematics--random-variables",
+      "name": "Random variables",
+      "diff": "E"
+     },
+     {
+      "id": "pi-engineering-mathematics--poisson",
+      "name": "Poisson",
+      "diff": "E"
+     },
+     {
+      "id": "pi-engineering-mathematics--normal",
+      "name": "Normal",
+      "diff": "E"
+     },
+     {
+      "id": "pi-engineering-mathematics--binomial-and-exponential-distributions",
+      "name": "Binomial and exponential distributions",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "E",
+    "name": "Numerical Methods",
+    "topics": [
+     {
+      "id": "pi-engineering-mathematics--numerical-solutions-of-linear-and-nonlinear-algebraic-equati",
+      "name": "Numerical solutions of linear and nonlinear algebraic equations",
+      "diff": "H"
+     },
+     {
+      "id": "pi-engineering-mathematics--integration-by-trapezoidal-and-simpsons-rules",
+      "name": "Integration by trapezoidal and Simpson’s rules",
+      "diff": "M"
+     },
+     {
+      "id": "pi-engineering-mathematics--single-and-multi-step-methods-for-differential-equations",
+      "name": "Single and multi-step methods for differential equations",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "pi-general-engineering",
+  "name": "General Engineering",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Engineering Materials",
+    "topics": [
+     {
+      "id": "pi-general-engineering--structure",
+      "name": "Structure",
+      "diff": "E",
+      "sample": true
+     },
+     {
+      "id": "pi-general-engineering--physical-and-mechanical-properties",
+      "name": "Physical and mechanical properties",
+      "diff": "M"
+     },
+     {
+      "id": "pi-general-engineering--applications-of-common-engineering-materials-metals-and-allo",
+      "name": "Applications of common engineering materials (metals and alloys, semiconductors, ceramics, polymers, and composites - metal, polymer and ceramic based)",
+      "diff": "M"
+     },
+     {
+      "id": "pi-general-engineering--iron-carbon-equilibrium-phase-diagram",
+      "name": "Iron -carbon equilibrium phase diagram",
+      "diff": "M"
+     },
+     {
+      "id": "pi-general-engineering--heat-treatment-of-metals-and-alloys-and-its-influence-on-mec",
+      "name": "Heat treatment of metals and alloys and its influence on mechanical properties",
+      "diff": "M"
+     },
+     {
+      "id": "pi-general-engineering--stress-strain-behavior-of-metals-and-alloys",
+      "name": "Stress-strain behavior of metals and alloys",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Applied Mechanics",
+    "topics": [
+     {
+      "id": "pi-general-engineering--engineering-mechanics-equivalent-force-systems",
+      "name": "Engineering mechanics - equivalent force systems",
+      "diff": "M"
+     },
+     {
+      "id": "pi-general-engineering--free-body-concepts",
+      "name": "Free body concepts",
+      "diff": "M"
+     },
+     {
+      "id": "pi-general-engineering--equations-of-equilibrium",
+      "name": "Equations of equilibrium",
+      "diff": "M"
+     },
+     {
+      "id": "pi-general-engineering--strength-of-materials-stress-strain-and-their-relationship",
+      "name": "Strength of materials - stress, strain and their relationship",
+      "diff": "M"
+     },
+     {
+      "id": "pi-general-engineering--failure-theories",
+      "name": "Failure theories",
+      "diff": "E"
+     },
+     {
+      "id": "pi-general-engineering--mohrs-circle-stress",
+      "name": "Mohr’s circle (stress)",
+      "diff": "M"
+     },
+     {
+      "id": "pi-general-engineering--deflection-of-beams-bending-and-shear-stresses",
+      "name": "Deflection of beams, bending and shear stresses",
+      "diff": "M"
+     },
+     {
+      "id": "pi-general-engineering--thick-and-thin-cylinders",
+      "name": "Thick and thin cylinders",
+      "diff": "M"
+     },
+     {
+      "id": "pi-general-engineering--torsion",
+      "name": "Torsion",
+      "diff": "E"
+     }
+    ]
+   },
+   {
+    "letter": "C",
+    "name": "Theory of Machines and Design",
+    "topics": [
+     {
+      "id": "pi-general-engineering--analysis-of-planar-mechanisms-cams-and-followers",
+      "name": "Analysis of planar mechanisms, cams and followers",
+      "diff": "M"
+     },
+     {
+      "id": "pi-general-engineering--governors-and-fly-wheels",
+      "name": "Governors and fly wheels",
+      "diff": "M"
+     },
+     {
+      "id": "pi-general-engineering--design-of-bolted-riveted-and-welded-joints",
+      "name": "Design of bolted, riveted and welded joints",
+      "diff": "M"
+     },
+     {
+      "id": "pi-general-engineering--interference-shrink-fit-joints",
+      "name": "Interference/shrink fit joints",
+      "diff": "M"
+     },
+     {
+      "id": "pi-general-engineering--friction-and-lubrication",
+      "name": "Friction and lubrication",
+      "diff": "M"
+     },
+     {
+      "id": "pi-general-engineering--design-of-shafts",
+      "name": "Design of shafts",
+      "diff": "E"
+     },
+     {
+      "id": "pi-general-engineering--keys",
+      "name": "Keys",
+      "diff": "E"
+     },
+     {
+      "id": "pi-general-engineering--couplings",
+      "name": "Couplings",
+      "diff": "E"
+     },
+     {
+      "id": "pi-general-engineering--spur-gears",
+      "name": "Spur gears",
+      "diff": "E"
+     },
+     {
+      "id": "pi-general-engineering--belt-drives",
+      "name": "Belt drives",
+      "diff": "E"
+     },
+     {
+      "id": "pi-general-engineering--brakes-and-clutches",
+      "name": "Brakes and clutches",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "D",
+    "name": "Thermal and Fluids Engineering",
+    "topics": [
+     {
+      "id": "pi-general-engineering--fluid-mechanics-fluid-statics",
+      "name": "Fluid mechanics - fluid statics",
+      "diff": "M"
+     },
+     {
+      "id": "pi-general-engineering--bernoullis-equation",
+      "name": "Bernoulli’s equation",
+      "diff": "M"
+     },
+     {
+      "id": "pi-general-engineering--flow-through-pipes",
+      "name": "Flow through pipes",
+      "diff": "M"
+     },
+     {
+      "id": "pi-general-engineering--laminar-and-turbulent-flows",
+      "name": "Laminar and turbulent flows",
+      "diff": "M"
+     },
+     {
+      "id": "pi-general-engineering--equations-of-continuity-and-momentum",
+      "name": "Equations of continuity and momentum",
+      "diff": "M"
+     },
+     {
+      "id": "pi-general-engineering--capillary-action",
+      "name": "Capillary action",
+      "diff": "E"
+     },
+     {
+      "id": "pi-general-engineering--dimensional-analysis",
+      "name": "Dimensional analysis",
+      "diff": "M"
+     },
+     {
+      "id": "pi-general-engineering--thermodynamics-zeroth",
+      "name": "Thermodynamics - zeroth",
+      "diff": "H"
+     },
+     {
+      "id": "pi-general-engineering--first-and-second-laws-of-thermodynamics",
+      "name": "First and second laws of thermodynamics",
+      "diff": "H"
+     },
+     {
+      "id": "pi-general-engineering--thermodynamic-systems-and-processes",
+      "name": "Thermodynamic systems and processes",
+      "diff": "H"
+     },
+     {
+      "id": "pi-general-engineering--calculation-of-work-and-heat-for-systems-and-control-volumes",
+      "name": "Calculation of work and heat for systems and control volumes",
+      "diff": "M"
+     },
+     {
+      "id": "pi-general-engineering--air-standard-cycles",
+      "name": "Air standard cycles",
+      "diff": "M"
+     },
+     {
+      "id": "pi-general-engineering--heat-transfer-basic-applications-of-conduction",
+      "name": "Heat transfer - basic applications of conduction",
+      "diff": "E"
+     },
+     {
+      "id": "pi-general-engineering--convection-and-radiation",
+      "name": "Convection and radiation",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "pi-manufacturing-processes-i",
+  "name": "Manufacturing Processes I",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Casting",
+    "topics": [
+     {
+      "id": "pi-manufacturing-processes-i--types-of-casting-processes-and-applications",
+      "name": "Types of casting processes and applications",
+      "diff": "E",
+      "sample": true
+     },
+     {
+      "id": "pi-manufacturing-processes-i--sand-casting-patterns-types-materials-and-allowances",
+      "name": "Sand casting: patterns - types, materials and allowances",
+      "diff": "M"
+     },
+     {
+      "id": "pi-manufacturing-processes-i--molds-and-cores-materials-making-and-testing",
+      "name": "Molds and cores-materials, making, and testing",
+      "diff": "M"
+     },
+     {
+      "id": "pi-manufacturing-processes-i--design-of-gating-system-and-riser",
+      "name": "Design of gating system and riser",
+      "diff": "M"
+     },
+     {
+      "id": "pi-manufacturing-processes-i--analysis-of-solidification-and-microstructure-development",
+      "name": "Analysis of solidification and microstructure development",
+      "diff": "M"
+     },
+     {
+      "id": "pi-manufacturing-processes-i--other-casting-techniques-pressure-die-casting",
+      "name": "Other casting techniques: Pressure die casting",
+      "diff": "M"
+     },
+     {
+      "id": "pi-manufacturing-processes-i--centrifugal-casting",
+      "name": "Centrifugal casting",
+      "diff": "M"
+     },
+     {
+      "id": "pi-manufacturing-processes-i--investment-casting",
+      "name": "Investment casting",
+      "diff": "M"
+     },
+     {
+      "id": "pi-manufacturing-processes-i--casting-defects-and-their-inspection-by-non-destructive-test",
+      "name": "Casting defects and their inspection by non-destructive testing",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Metal Forming",
+    "topics": [
+     {
+      "id": "pi-manufacturing-processes-i--stress-strain-relations-in-elastic-and-plastic-deformation",
+      "name": "Stress-strain relations in elastic and plastic deformation",
+      "diff": "H"
+     },
+     {
+      "id": "pi-manufacturing-processes-i--von-mises-and-tresca-yield-criteria-concept-of-flow-stress",
+      "name": "Von Mises and Tresca yield criteria, concept of flow stress",
+      "diff": "M"
+     },
+     {
+      "id": "pi-manufacturing-processes-i--hot-warm-and-cold-working",
+      "name": "Hot, warm and cold working",
+      "diff": "M"
+     },
+     {
+      "id": "pi-manufacturing-processes-i--bulk-forming-processes-forging-rolling-extrusion-and-wire-dr",
+      "name": "Bulk forming processes - forging, rolling, extrusion and wire drawing",
+      "diff": "M"
+     },
+     {
+      "id": "pi-manufacturing-processes-i--sheet-metal-working-processes-blanking",
+      "name": "Sheet metal working processes - blanking",
+      "diff": "M"
+     },
+     {
+      "id": "pi-manufacturing-processes-i--punching",
+      "name": "Punching",
+      "diff": "E"
+     },
+     {
+      "id": "pi-manufacturing-processes-i--bending-and-deep-drawing",
+      "name": "Bending and deep drawing",
+      "diff": "M"
+     },
+     {
+      "id": "pi-manufacturing-processes-i--ideal-work-and-slab-analysis",
+      "name": "Ideal work and slab analysis",
+      "diff": "M"
+     },
+     {
+      "id": "pi-manufacturing-processes-i--defects-in-metal-working-and-their-causes",
+      "name": "Defects in metal working and their causes",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "C",
+    "name": "Joining of Materials",
+    "topics": [
+     {
+      "id": "pi-manufacturing-processes-i--classification-of-joining-processes",
+      "name": "Classification of joining processes",
+      "diff": "E"
+     },
+     {
+      "id": "pi-manufacturing-processes-i--principles-of-fusion-welding-processes-using-different-heat-",
+      "name": "Principles of fusion welding processes using different heat sources (flame, arc, resistance, laser, and electron beam)",
+      "diff": "M"
+     },
+     {
+      "id": "pi-manufacturing-processes-i--heat-transfer-and-associated-losses",
+      "name": "Heat transfer and associated losses",
+      "diff": "M"
+     },
+     {
+      "id": "pi-manufacturing-processes-i--arc-welding-processes-smaw",
+      "name": "Arc welding processes - SMAW",
+      "diff": "M"
+     },
+     {
+      "id": "pi-manufacturing-processes-i--gmaw",
+      "name": "GMAW",
+      "diff": "E"
+     },
+     {
+      "id": "pi-manufacturing-processes-i--gtaw",
+      "name": "GTAW",
+      "diff": "E"
+     },
+     {
+      "id": "pi-manufacturing-processes-i--plasma-arc",
+      "name": "Plasma arc",
+      "diff": "E"
+     },
+     {
+      "id": "pi-manufacturing-processes-i--submerged-arc-welding-processes",
+      "name": "Submerged arc welding processes",
+      "diff": "M"
+     },
+     {
+      "id": "pi-manufacturing-processes-i--principles-of-solid-state-welding-processes-friction-welding",
+      "name": "Principles of solid state welding processes - friction welding",
+      "diff": "M"
+     },
+     {
+      "id": "pi-manufacturing-processes-i--friction-stir-welding",
+      "name": "Friction stir welding",
+      "diff": "M"
+     },
+     {
+      "id": "pi-manufacturing-processes-i--ultrasonic-welding",
+      "name": "Ultrasonic welding",
+      "diff": "M"
+     },
+     {
+      "id": "pi-manufacturing-processes-i--welding-defects-causes-and-inspection",
+      "name": "Welding defects - causes and inspection",
+      "diff": "M"
+     },
+     {
+      "id": "pi-manufacturing-processes-i--principles-of-adhesive-joining-brazing-and-soldering-process",
+      "name": "Principles of adhesive joining, brazing and soldering processes",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "D",
+    "name": "Powder Processing",
+    "topics": [
+     {
+      "id": "pi-manufacturing-processes-i--production-of-metal-ceramic-powders",
+      "name": "Production of metal/ceramic powders",
+      "diff": "M"
+     },
+     {
+      "id": "pi-manufacturing-processes-i--compaction-and-sintering-of-metals-and-ceramic-powders",
+      "name": "Compaction and sintering of metals and ceramic powders",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "E",
+    "name": "Polymers and Composites",
+    "topics": [
+     {
+      "id": "pi-manufacturing-processes-i--polymer-processing-injection",
+      "name": "Polymer processing - injection",
+      "diff": "M"
+     },
+     {
+      "id": "pi-manufacturing-processes-i--compression-and-blow-molding",
+      "name": "Compression and blow molding",
+      "diff": "M"
+     },
+     {
+      "id": "pi-manufacturing-processes-i--extrusion",
+      "name": "Extrusion",
+      "diff": "E"
+     },
+     {
+      "id": "pi-manufacturing-processes-i--calendaring-and-thermoforming",
+      "name": "Calendaring and thermoforming",
+      "diff": "M"
+     },
+     {
+      "id": "pi-manufacturing-processes-i--molding-of-composites",
+      "name": "Molding of composites",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "pi-manufacturing-processes-ii",
+  "name": "Manufacturing Processes II",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Machining",
+    "topics": [
+     {
+      "id": "pi-manufacturing-processes-ii--orthogonal-and-oblique-machining",
+      "name": "Orthogonal and oblique machining",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "pi-manufacturing-processes-ii--single-point-cutting-tool-and-tool-signature",
+      "name": "Single point cutting tool and tool signature",
+      "diff": "M"
+     },
+     {
+      "id": "pi-manufacturing-processes-ii--chip-formation",
+      "name": "Chip formation",
+      "diff": "E"
+     },
+     {
+      "id": "pi-manufacturing-processes-ii--cutting-forces",
+      "name": "Cutting forces",
+      "diff": "E"
+     },
+     {
+      "id": "pi-manufacturing-processes-ii--merchants-analysis",
+      "name": "Merchant’s analysis",
+      "diff": "M"
+     },
+     {
+      "id": "pi-manufacturing-processes-ii--specific-cutting-energy-and-power",
+      "name": "Specific cutting energy and power",
+      "diff": "M"
+     },
+     {
+      "id": "pi-manufacturing-processes-ii--machining-parameters-and-material-removal-rate",
+      "name": "Machining parameters and material removal rate",
+      "diff": "M"
+     },
+     {
+      "id": "pi-manufacturing-processes-ii--tool-materials-tool-wear-and-tool-life",
+      "name": "Tool materials, tool wear and tool life",
+      "diff": "M"
+     },
+     {
+      "id": "pi-manufacturing-processes-ii--thermal-aspects-of-machining-cutting-fluids-machinability",
+      "name": "Thermal aspects of machining, cutting fluids, machinability",
+      "diff": "M"
+     },
+     {
+      "id": "pi-manufacturing-processes-ii--economics-of-machining",
+      "name": "Economics of machining",
+      "diff": "M"
+     },
+     {
+      "id": "pi-manufacturing-processes-ii--machining-processes-turning",
+      "name": "Machining processes - turning",
+      "diff": "M"
+     },
+     {
+      "id": "pi-manufacturing-processes-ii--taper-turning",
+      "name": "Taper turning",
+      "diff": "E"
+     },
+     {
+      "id": "pi-manufacturing-processes-ii--thread-cutting",
+      "name": "Thread cutting",
+      "diff": "E"
+     },
+     {
+      "id": "pi-manufacturing-processes-ii--drilling",
+      "name": "Drilling",
+      "diff": "E"
+     },
+     {
+      "id": "pi-manufacturing-processes-ii--boring",
+      "name": "Boring",
+      "diff": "E"
+     },
+     {
+      "id": "pi-manufacturing-processes-ii--milling",
+      "name": "Milling",
+      "diff": "E"
+     },
+     {
+      "id": "pi-manufacturing-processes-ii--gear-cutting",
+      "name": "Gear cutting",
+      "diff": "E"
+     },
+     {
+      "id": "pi-manufacturing-processes-ii--thread-production",
+      "name": "Thread production",
+      "diff": "E"
+     },
+     {
+      "id": "pi-manufacturing-processes-ii--finishing-processes-grinding-honing-lapping-and-super-finish",
+      "name": "Finishing processes - grinding, honing, lapping and super-finishing",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Machine Tools",
+    "topics": [
+     {
+      "id": "pi-manufacturing-processes-ii--lathe",
+      "name": "Lathe",
+      "diff": "E"
+     },
+     {
+      "id": "pi-manufacturing-processes-ii--milling",
+      "name": "Milling",
+      "diff": "E"
+     },
+     {
+      "id": "pi-manufacturing-processes-ii--drilling-and-shaping-machines-construction-and-kinematics",
+      "name": "Drilling and shaping machines - construction and kinematics",
+      "diff": "M"
+     },
+     {
+      "id": "pi-manufacturing-processes-ii--jigs-and-fixtures-principles-applications-and-design",
+      "name": "Jigs and fixtures - principles, applications, and design",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "C",
+    "name": "Advanced Manufacturing",
+    "topics": [
+     {
+      "id": "pi-manufacturing-processes-ii--principles-and-applications-of-usm",
+      "name": "Principles and applications of USM",
+      "diff": "M"
+     },
+     {
+      "id": "pi-manufacturing-processes-ii--ajm",
+      "name": "AJM",
+      "diff": "E"
+     },
+     {
+      "id": "pi-manufacturing-processes-ii--wjm",
+      "name": "WJM",
+      "diff": "E"
+     },
+     {
+      "id": "pi-manufacturing-processes-ii--awjm",
+      "name": "AWJM",
+      "diff": "E"
+     },
+     {
+      "id": "pi-manufacturing-processes-ii--edm",
+      "name": "EDM",
+      "diff": "E"
+     },
+     {
+      "id": "pi-manufacturing-processes-ii--lbm",
+      "name": "LBM",
+      "diff": "E"
+     },
+     {
+      "id": "pi-manufacturing-processes-ii--ebm",
+      "name": "EBM",
+      "diff": "E"
+     },
+     {
+      "id": "pi-manufacturing-processes-ii--pam",
+      "name": "PAM",
+      "diff": "E"
+     },
+     {
+      "id": "pi-manufacturing-processes-ii--chm",
+      "name": "CHM",
+      "diff": "E"
+     },
+     {
+      "id": "pi-manufacturing-processes-ii--ecm",
+      "name": "ECM",
+      "diff": "E"
+     },
+     {
+      "id": "pi-manufacturing-processes-ii--effect-of-process-parameters-on-material-removal-rate",
+      "name": "Effect of process parameters on material removal rate",
+      "diff": "M"
+     },
+     {
+      "id": "pi-manufacturing-processes-ii--surface-roughness-and-power-consumption",
+      "name": "Surface roughness and power consumption",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "D",
+    "name": "Additive manufacturing techniques",
+    "topics": [
+     {
+      "id": "pi-manufacturing-processes-ii--fundamentals",
+      "name": "Fundamentals",
+      "diff": "E"
+     },
+     {
+      "id": "pi-manufacturing-processes-ii--stereolithography",
+      "name": "Stereolithography",
+      "diff": "E"
+     },
+     {
+      "id": "pi-manufacturing-processes-ii--fused-filament-fabrication",
+      "name": "Fused filament fabrication",
+      "diff": "M"
+     },
+     {
+      "id": "pi-manufacturing-processes-ii--selective-laser-sintering",
+      "name": "Selective laser sintering",
+      "diff": "M"
+     },
+     {
+      "id": "pi-manufacturing-processes-ii--selective-laser-melting",
+      "name": "Selective laser melting",
+      "diff": "M"
+     },
+     {
+      "id": "pi-manufacturing-processes-ii--directed-energy-deposition",
+      "name": "Directed energy deposition",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "E",
+    "name": "Computer Integrated Manufacturing",
+    "topics": [
+     {
+      "id": "pi-manufacturing-processes-ii--basic-concepts-of-cad-and-cam-cnc",
+      "name": "Basic concepts of CAD and CAM, CNC",
+      "diff": "E"
+     },
+     {
+      "id": "pi-manufacturing-processes-ii--automation-in-manufacturing",
+      "name": "Automation in manufacturing",
+      "diff": "M"
+     },
+     {
+      "id": "pi-manufacturing-processes-ii--industrial-robots-configurations-drives-and-controls",
+      "name": "Industrial robots - configurations, drives and controls",
+      "diff": "M"
+     },
+     {
+      "id": "pi-manufacturing-processes-ii--cellular-manufacturing-and-fms-group-technology",
+      "name": "Cellular manufacturing and FMS - group technology",
+      "diff": "M"
+     },
+     {
+      "id": "pi-manufacturing-processes-ii--introduction-to-internet-of-things-and-digital-twins",
+      "name": "Introduction to Internet of Things and digital twins",
+      "diff": "E"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "pi-quality-and-reliability",
+  "name": "Quality and Reliability",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Metrology and Inspection",
+    "topics": [
+     {
+      "id": "pi-quality-and-reliability--accuracy-and-precision",
+      "name": "Accuracy and precision",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "pi-quality-and-reliability--types-of-errors",
+      "name": "Types of errors",
+      "diff": "E"
+     },
+     {
+      "id": "pi-quality-and-reliability--limits-fits-and-tolerances",
+      "name": "Limits, fits and tolerances",
+      "diff": "M"
+     },
+     {
+      "id": "pi-quality-and-reliability--gauge-design-interchangeability-selective-assembly",
+      "name": "Gauge design, Interchangeability, selective assembly",
+      "diff": "M"
+     },
+     {
+      "id": "pi-quality-and-reliability--linear",
+      "name": "Linear",
+      "diff": "E"
+     },
+     {
+      "id": "pi-quality-and-reliability--angular",
+      "name": "Angular",
+      "diff": "E"
+     },
+     {
+      "id": "pi-quality-and-reliability--form-measurements-straightness-flatness-roundness-runout-and",
+      "name": "Form measurements (straightness, flatness, roundness, runout and cylindricity) by mechanical and optical methods",
+      "diff": "M"
+     },
+     {
+      "id": "pi-quality-and-reliability--inspection-of-screw-threads-and-gears",
+      "name": "Inspection of screw threads and gears",
+      "diff": "M"
+     },
+     {
+      "id": "pi-quality-and-reliability--surface-roughness-measurement-by-contact-and-non-contact-met",
+      "name": "Surface roughness measurement by contact and non-contact methods",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Quality Management",
+    "topics": [
+     {
+      "id": "pi-quality-and-reliability--quality-concepts-and-cost",
+      "name": "Quality - concepts and cost",
+      "diff": "M"
+     },
+     {
+      "id": "pi-quality-and-reliability--statistical-quality-control-process-capability-analysis",
+      "name": "Statistical quality control - process capability analysis",
+      "diff": "M"
+     },
+     {
+      "id": "pi-quality-and-reliability--control-charts-for-variables-and-attributes-and-acceptance-s",
+      "name": "Control charts for variables and attributes and acceptance sampling",
+      "diff": "M"
+     },
+     {
+      "id": "pi-quality-and-reliability--six-sigma",
+      "name": "Six sigma",
+      "diff": "E"
+     },
+     {
+      "id": "pi-quality-and-reliability--total-quality-management-just-in-time-inventory-management",
+      "name": "Total quality management, Just -in-Time inventory management",
+      "diff": "M"
+     },
+     {
+      "id": "pi-quality-and-reliability--quality-assurance-and-certification-iso-9001-2015-iso-14001-",
+      "name": "Quality assurance and certification - ISO 9001:2015, ISO 14001:2015",
+      "diff": "M"
+     },
+     {
+      "id": "pi-quality-and-reliability--integration-of-sustainable-manufacturing-with-quality-manage",
+      "name": "Integration of sustainable manufacturing with quality management",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "C",
+    "name": "Reliability and Maintenance",
+    "topics": [
+     {
+      "id": "pi-quality-and-reliability--reliability-availability-and-maintainability",
+      "name": "Reliability, availability and maintainability",
+      "diff": "M"
+     },
+     {
+      "id": "pi-quality-and-reliability--distribution-of-failure-and-repair-times",
+      "name": "Distribution of failure and repair times",
+      "diff": "M"
+     },
+     {
+      "id": "pi-quality-and-reliability--determination-of-mtbf-and-mttr-reliability-models",
+      "name": "Determination of MTBF and MTTR, reliability models",
+      "diff": "M"
+     },
+     {
+      "id": "pi-quality-and-reliability--determination-of-system-reliability",
+      "name": "Determination of system reliability",
+      "diff": "M"
+     },
+     {
+      "id": "pi-quality-and-reliability--preventive-and-predictive-maintenance-and-replacement",
+      "name": "Preventive and predictive maintenance and replacement",
+      "diff": "M"
+     },
+     {
+      "id": "pi-quality-and-reliability--total-productive-maintenance",
+      "name": "Total productive maintenance",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "pi-industrial-engineering",
+  "name": "Industrial Engineering",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Product Design and Development",
+    "topics": [
+     {
+      "id": "pi-industrial-engineering--principles-of-product-design-tolerance-design",
+      "name": "Principles of product design, tolerance design",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "pi-industrial-engineering--quality-and-cost-considerations",
+      "name": "Quality and cost considerations",
+      "diff": "M"
+     },
+     {
+      "id": "pi-industrial-engineering--product-life-cycle",
+      "name": "Product life cycle",
+      "diff": "M"
+     },
+     {
+      "id": "pi-industrial-engineering--standardization-simplification-diversification",
+      "name": "Standardization, simplification, diversification",
+      "diff": "M"
+     },
+     {
+      "id": "pi-industrial-engineering--value-engineering-and-analysis",
+      "name": "Value engineering and analysis",
+      "diff": "M"
+     },
+     {
+      "id": "pi-industrial-engineering--concurrent-engineering",
+      "name": "Concurrent engineering",
+      "diff": "M"
+     },
+     {
+      "id": "pi-industrial-engineering--design-for-x",
+      "name": "Design for “X”",
+      "diff": "E"
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Work System Design",
+    "topics": [
+     {
+      "id": "pi-industrial-engineering--taylors-scientific-management-gilbreths-contributions",
+      "name": "Taylor’s scientific management, Gilbreths’ contributions",
+      "diff": "M"
+     },
+     {
+      "id": "pi-industrial-engineering--productivity-concepts-and-measurements",
+      "name": "Productivity - concepts and measurements",
+      "diff": "M"
+     },
+     {
+      "id": "pi-industrial-engineering--method-study-micro-motion-study-principles-of-motion-economy",
+      "name": "Method study, micro-motion study, principles of motion economy",
+      "diff": "M"
+     },
+     {
+      "id": "pi-industrial-engineering--work-measurement-time-study-work-sampling-standard-data-pmts",
+      "name": "Work measurement - time study, work sampling, standard data, PMTS",
+      "diff": "M"
+     },
+     {
+      "id": "pi-industrial-engineering--ergonomics",
+      "name": "Ergonomics",
+      "diff": "E"
+     },
+     {
+      "id": "pi-industrial-engineering--job-evaluation-and-merit-rating",
+      "name": "Job evaluation and merit rating",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "C",
+    "name": "Facility Design",
+    "topics": [
+     {
+      "id": "pi-industrial-engineering--facility-location-factors-and-evaluation-of-alternate-locati",
+      "name": "Facility location factors and evaluation of alternate locations",
+      "diff": "M"
+     },
+     {
+      "id": "pi-industrial-engineering--types-of-plant-layout-and-their-evaluation",
+      "name": "Types of plant layout and their evaluation",
+      "diff": "E"
+     },
+     {
+      "id": "pi-industrial-engineering--assembly-line-balancing",
+      "name": "Assembly line balancing",
+      "diff": "M"
+     },
+     {
+      "id": "pi-industrial-engineering--material-handling-systems",
+      "name": "Material handling systems",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "pi-operations-research-and-operat",
+  "name": "Operations research and Operations management",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Operation Research",
+    "topics": [
+     {
+      "id": "pi-operations-research-and-operat--linear-programming-problem-formulation",
+      "name": "Linear programming - problem formulation",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "pi-operations-research-and-operat--simplex-method",
+      "name": "Simplex method",
+      "diff": "E"
+     },
+     {
+      "id": "pi-operations-research-and-operat--duality-and-sensitivity-analysis",
+      "name": "Duality and sensitivity analysis",
+      "diff": "M"
+     },
+     {
+      "id": "pi-operations-research-and-operat--transportation-and-assignment-models",
+      "name": "Transportation and assignment models",
+      "diff": "M"
+     },
+     {
+      "id": "pi-operations-research-and-operat--integer-programming",
+      "name": "Integer programming",
+      "diff": "M"
+     },
+     {
+      "id": "pi-operations-research-and-operat--markovian-queuing-models",
+      "name": "Markovian queuing models",
+      "diff": "M"
+     },
+     {
+      "id": "pi-operations-research-and-operat--introduction-to-discrete-event-simulation",
+      "name": "Introduction to discrete event simulation",
+      "diff": "E"
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Engineering Economy and Costing",
+    "topics": [
+     {
+      "id": "pi-operations-research-and-operat--elementary-cost-accounting-and-methods-of-depreciation",
+      "name": "Elementary cost accounting and methods of depreciation",
+      "diff": "M"
+     },
+     {
+      "id": "pi-operations-research-and-operat--break-even-analysis",
+      "name": "Break -even analysis",
+      "diff": "M"
+     },
+     {
+      "id": "pi-operations-research-and-operat--activity-based-costing",
+      "name": "Activity based costing",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "C",
+    "name": "Production Control",
+    "topics": [
+     {
+      "id": "pi-operations-research-and-operat--forecasting-techniques-causal-and-time-series-models",
+      "name": "Forecasting techniques - causal and time series models",
+      "diff": "M"
+     },
+     {
+      "id": "pi-operations-research-and-operat--moving-average",
+      "name": "Moving average",
+      "diff": "E"
+     },
+     {
+      "id": "pi-operations-research-and-operat--exponential-smoothing",
+      "name": "Exponential smoothing",
+      "diff": "M"
+     },
+     {
+      "id": "pi-operations-research-and-operat--trend-and-seasonality",
+      "name": "Trend and seasonality",
+      "diff": "M"
+     },
+     {
+      "id": "pi-operations-research-and-operat--aggregate-production-planning",
+      "name": "Aggregate production planning",
+      "diff": "M"
+     },
+     {
+      "id": "pi-operations-research-and-operat--master-production-scheduling",
+      "name": "Master production scheduling",
+      "diff": "M"
+     },
+     {
+      "id": "pi-operations-research-and-operat--mrp-mrp-ii-and-erp",
+      "name": "MRP, MRP-II and ERP",
+      "diff": "M"
+     },
+     {
+      "id": "pi-operations-research-and-operat--routing-scheduling-and-priority-dispatching",
+      "name": "Routing, scheduling and priority dispatching",
+      "diff": "M"
+     },
+     {
+      "id": "pi-operations-research-and-operat--push-and-pull-production-systems",
+      "name": "Push and pull production systems",
+      "diff": "M"
+     },
+     {
+      "id": "pi-operations-research-and-operat--concepts-of-lean-and-agile-manufacturing-systems",
+      "name": "Concepts of lean and agile manufacturing systems",
+      "diff": "M"
+     },
+     {
+      "id": "pi-operations-research-and-operat--logistics-distribution-and-supply-chain-management",
+      "name": "Logistics, distribution, and supply chain management",
+      "diff": "M"
+     },
+     {
+      "id": "pi-operations-research-and-operat--inventory-functions",
+      "name": "Inventory - functions",
+      "diff": "M"
+     },
+     {
+      "id": "pi-operations-research-and-operat--costs",
+      "name": "Costs",
+      "diff": "E"
+     },
+     {
+      "id": "pi-operations-research-and-operat--classifications",
+      "name": "Classifications",
+      "diff": "E"
+     },
+     {
+      "id": "pi-operations-research-and-operat--deterministic-inventory-models",
+      "name": "Deterministic inventory models",
+      "diff": "M"
+     },
+     {
+      "id": "pi-operations-research-and-operat--quantity-discount",
+      "name": "Quantity discount",
+      "diff": "E"
+     },
+     {
+      "id": "pi-operations-research-and-operat--perpetual-and-periodic-inventory-control-systems",
+      "name": "Perpetual and periodic inventory control systems",
+      "diff": "M"
+     },
+     {
+      "id": "pi-operations-research-and-operat--project-management-cpm-pert-and-gantt-chart",
+      "name": "Project Management: CPM, PERT and Gantt chart",
+      "diff": "M"
+     },
+     {
+      "id": "pi-operations-research-and-operat--time-cost-tradeoff",
+      "name": "Time-cost tradeoff",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ }
+]

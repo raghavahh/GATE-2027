@@ -1,0 +1,653 @@
+[
+ {
+  "id": "da-probability-and-statistics",
+  "name": "Probability and Statistics",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Probability and Statistics",
+    "topics": [
+     {
+      "id": "da-probability-and-statistics--counting-permutation-and-combinations",
+      "name": "Counting (permutation and combinations)",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "da-probability-and-statistics--probability-axioms",
+      "name": "Probability axioms",
+      "diff": "M"
+     },
+     {
+      "id": "da-probability-and-statistics--sample-space",
+      "name": "Sample space",
+      "diff": "E"
+     },
+     {
+      "id": "da-probability-and-statistics--events",
+      "name": "Events",
+      "diff": "E"
+     },
+     {
+      "id": "da-probability-and-statistics--independent-events",
+      "name": "Independent events",
+      "diff": "M"
+     },
+     {
+      "id": "da-probability-and-statistics--mutually-exclusive-events",
+      "name": "Mutually exclusive events",
+      "diff": "M"
+     },
+     {
+      "id": "da-probability-and-statistics--marginal",
+      "name": "Marginal",
+      "diff": "E"
+     },
+     {
+      "id": "da-probability-and-statistics--conditional-and-joint-probability",
+      "name": "Conditional and joint probability",
+      "diff": "M"
+     },
+     {
+      "id": "da-probability-and-statistics--bayes-theorem",
+      "name": "Bayes Theorem",
+      "diff": "E"
+     },
+     {
+      "id": "da-probability-and-statistics--conditional-expectation-and-variance",
+      "name": "Conditional expectation and variance",
+      "diff": "M"
+     },
+     {
+      "id": "da-probability-and-statistics--mean",
+      "name": "Mean",
+      "diff": "E"
+     },
+     {
+      "id": "da-probability-and-statistics--median",
+      "name": "Median",
+      "diff": "E"
+     },
+     {
+      "id": "da-probability-and-statistics--mode-and-standard-deviation",
+      "name": "Mode and standard deviation",
+      "diff": "M"
+     },
+     {
+      "id": "da-probability-and-statistics--correlation",
+      "name": "Correlation",
+      "diff": "E"
+     },
+     {
+      "id": "da-probability-and-statistics--covariance",
+      "name": "Covariance",
+      "diff": "E"
+     },
+     {
+      "id": "da-probability-and-statistics--random-variables",
+      "name": "Random variables",
+      "diff": "E"
+     },
+     {
+      "id": "da-probability-and-statistics--discrete-random-variables-and-probability-mass-functions",
+      "name": "Discrete random variables and probability mass functions",
+      "diff": "M"
+     },
+     {
+      "id": "da-probability-and-statistics--uniform",
+      "name": "Uniform",
+      "diff": "E"
+     },
+     {
+      "id": "da-probability-and-statistics--bernoulli",
+      "name": "Bernoulli",
+      "diff": "E"
+     },
+     {
+      "id": "da-probability-and-statistics--binomial-distribution",
+      "name": "Binomial distribution",
+      "diff": "M"
+     },
+     {
+      "id": "da-probability-and-statistics--continuous-random-variables-and-probability-distribution-fun",
+      "name": "Continuous random variables and probability distribution function",
+      "diff": "M"
+     },
+     {
+      "id": "da-probability-and-statistics--exponential",
+      "name": "Exponential",
+      "diff": "E"
+     },
+     {
+      "id": "da-probability-and-statistics--pois-son",
+      "name": "Pois son",
+      "diff": "E"
+     },
+     {
+      "id": "da-probability-and-statistics--normal",
+      "name": "Normal",
+      "diff": "E"
+     },
+     {
+      "id": "da-probability-and-statistics--standard-normal",
+      "name": "Standard normal",
+      "diff": "E"
+     },
+     {
+      "id": "da-probability-and-statistics--t-distribution",
+      "name": "T - distribution",
+      "diff": "E"
+     },
+     {
+      "id": "da-probability-and-statistics--chi-squared-distributions",
+      "name": "Chi-squared distributions",
+      "diff": "M"
+     },
+     {
+      "id": "da-probability-and-statistics--cumulative-distribution-function",
+      "name": "Cumulative distribution function",
+      "diff": "M"
+     },
+     {
+      "id": "da-probability-and-statistics--conditional-pdf",
+      "name": "Conditional PDF",
+      "diff": "E"
+     },
+     {
+      "id": "da-probability-and-statistics--central-limit-theorem",
+      "name": "Central limit theorem",
+      "diff": "M"
+     },
+     {
+      "id": "da-probability-and-statistics--confidence-interval",
+      "name": "Confidence interval",
+      "diff": "M"
+     },
+     {
+      "id": "da-probability-and-statistics--z-test",
+      "name": "Z-test",
+      "diff": "E"
+     },
+     {
+      "id": "da-probability-and-statistics--t-test",
+      "name": "T-test",
+      "diff": "E"
+     },
+     {
+      "id": "da-probability-and-statistics--chi-squared-test",
+      "name": "Chi-squared test",
+      "diff": "E"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "da-linear-algebra",
+  "name": "Linear Algebra",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Linear Algebra",
+    "topics": [
+     {
+      "id": "da-linear-algebra--vector-space",
+      "name": "Vector space",
+      "diff": "E",
+      "sample": true
+     },
+     {
+      "id": "da-linear-algebra--subspaces",
+      "name": "Subspaces",
+      "diff": "E"
+     },
+     {
+      "id": "da-linear-algebra--linear-dependence-and-independence-of-vectors",
+      "name": "Linear dependence and independence of vectors",
+      "diff": "M"
+     },
+     {
+      "id": "da-linear-algebra--matrices",
+      "name": "Matrices",
+      "diff": "E"
+     },
+     {
+      "id": "da-linear-algebra--projection-matrix",
+      "name": "Projection matrix",
+      "diff": "E"
+     },
+     {
+      "id": "da-linear-algebra--orthogonal-matrix",
+      "name": "Orthogonal matrix",
+      "diff": "E"
+     },
+     {
+      "id": "da-linear-algebra--idempotent-matrix",
+      "name": "Idempotent matrix",
+      "diff": "E"
+     },
+     {
+      "id": "da-linear-algebra--partition-matrix-and-their-properties",
+      "name": "Partition matrix and their properties",
+      "diff": "M"
+     },
+     {
+      "id": "da-linear-algebra--quadratic-forms",
+      "name": "Quadratic forms",
+      "diff": "E"
+     },
+     {
+      "id": "da-linear-algebra--systems-of-linear-equations-and-solutions",
+      "name": "Systems of linear equations and solutions",
+      "diff": "M"
+     },
+     {
+      "id": "da-linear-algebra--gaussian-eliminati-on",
+      "name": "Gaussian eliminati on",
+      "diff": "M"
+     },
+     {
+      "id": "da-linear-algebra--eigenvalues-and-eigenvectors",
+      "name": "Eigenvalues and eigenvectors",
+      "diff": "H"
+     },
+     {
+      "id": "da-linear-algebra--determinant",
+      "name": "Determinant",
+      "diff": "E"
+     },
+     {
+      "id": "da-linear-algebra--rank",
+      "name": "Rank",
+      "diff": "E"
+     },
+     {
+      "id": "da-linear-algebra--nullity",
+      "name": "Nullity",
+      "diff": "E"
+     },
+     {
+      "id": "da-linear-algebra--projections",
+      "name": "Projections",
+      "diff": "E"
+     },
+     {
+      "id": "da-linear-algebra--lu-decomposition",
+      "name": "LU decomposition",
+      "diff": "E"
+     },
+     {
+      "id": "da-linear-algebra--singular-value-decomposition",
+      "name": "Singular value decomposition",
+      "diff": "H"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "da-calculus-and-optimization",
+  "name": "Calculus and Optimization",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Calculus and Optimization",
+    "topics": [
+     {
+      "id": "da-calculus-and-optimization--functions-of-a-single-variable",
+      "name": "Functions of a single variable",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "da-calculus-and-optimization--limit",
+      "name": "Limit",
+      "diff": "E"
+     },
+     {
+      "id": "da-calculus-and-optimization--continuity-and-differentiability",
+      "name": "Continuity and differentiability",
+      "diff": "M"
+     },
+     {
+      "id": "da-calculus-and-optimization--taylor-series",
+      "name": "Taylor series",
+      "diff": "E"
+     },
+     {
+      "id": "da-calculus-and-optimization--maxima-and-minima",
+      "name": "Maxima and minima",
+      "diff": "E"
+     },
+     {
+      "id": "da-calculus-and-optimization--optimization-involving-a-single-variable",
+      "name": "Optimization involving a single variable",
+      "diff": "H"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "da-programming-data-structures-an",
+  "name": "Programming, Data Structures and Algorithms",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Programming in Python, basic data structures",
+    "topics": [
+     {
+      "id": "da-programming-data-structures-an--stacks-queues-linked-lists-trees-hash-tables",
+      "name": "Stacks, queues, linked lists, trees, hash tables",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "da-programming-data-structures-an--search-algorithms-linear-search-and-binary-search",
+      "name": "Search algorithms: linear search and binary search",
+      "diff": "M"
+     },
+     {
+      "id": "da-programming-data-structures-an--basic-sorting-algorithms-selection-sort",
+      "name": "Basic sorting algorithms: selection sort",
+      "diff": "E"
+     },
+     {
+      "id": "da-programming-data-structures-an--bubble-sort-and-insertion-sort",
+      "name": "Bubble sort and insertion sort",
+      "diff": "M"
+     },
+     {
+      "id": "da-programming-data-structures-an--divide-and-conquer-mergesort-quicksort",
+      "name": "Divide and conquer: mergesort, quicksort",
+      "diff": "M"
+     },
+     {
+      "id": "da-programming-data-structures-an--introduction-to-graph-theory",
+      "name": "Introduction to graph theory",
+      "diff": "E"
+     },
+     {
+      "id": "da-programming-data-structures-an--basic-graph-algorithms-traversals-and-shortest-path",
+      "name": "Basic graph algorithms: traversals and shortest path",
+      "diff": "E"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "da-database-management-and-wareho",
+  "name": "Database Management and Warehousing",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "ER-model, relational model",
+    "topics": [
+     {
+      "id": "da-database-management-and-wareho--relational-algebra",
+      "name": "Relational algebra",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "da-database-management-and-wareho--tuple-calculus",
+      "name": "Tuple calculus",
+      "diff": "E"
+     },
+     {
+      "id": "da-database-management-and-wareho--sql",
+      "name": "SQL",
+      "diff": "E"
+     },
+     {
+      "id": "da-database-management-and-wareho--integrity-constraints",
+      "name": "Integrity constraints",
+      "diff": "M"
+     },
+     {
+      "id": "da-database-management-and-wareho--normal-form",
+      "name": "Normal form",
+      "diff": "E"
+     },
+     {
+      "id": "da-database-management-and-wareho--file-organization",
+      "name": "File organization",
+      "diff": "E"
+     },
+     {
+      "id": "da-database-management-and-wareho--indexing",
+      "name": "Indexing",
+      "diff": "E"
+     },
+     {
+      "id": "da-database-management-and-wareho--data-types",
+      "name": "Data types",
+      "diff": "E"
+     },
+     {
+      "id": "da-database-management-and-wareho--data-transformation-such-as-normalization",
+      "name": "Data transformation such as normalization",
+      "diff": "H"
+     },
+     {
+      "id": "da-database-management-and-wareho--discretization",
+      "name": "Discretization",
+      "diff": "E"
+     },
+     {
+      "id": "da-database-management-and-wareho--sampling",
+      "name": "Sampling",
+      "diff": "E"
+     },
+     {
+      "id": "da-database-management-and-wareho--compression",
+      "name": "Compression",
+      "diff": "E"
+     },
+     {
+      "id": "da-database-management-and-wareho--data-warehouse-modelling-schema-for-multidimensional-data-mo",
+      "name": "Data warehouse modelling: schema for multidimensional data models",
+      "diff": "M"
+     },
+     {
+      "id": "da-database-management-and-wareho--concept-hierarchies",
+      "name": "Concept hierarchies",
+      "diff": "M"
+     },
+     {
+      "id": "da-database-management-and-wareho--measures-categorization-and-computations",
+      "name": "Measures: categorization and computations",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "da-machine-learning",
+  "name": "Machine Learning",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Supervised Learning",
+    "topics": [
+     {
+      "id": "da-machine-learning--regression-and-classification-problems",
+      "name": "Regression and classification problems",
+      "diff": "E",
+      "sample": true
+     },
+     {
+      "id": "da-machine-learning--simple-linear-regression",
+      "name": "Simple linear regression",
+      "diff": "M"
+     },
+     {
+      "id": "da-machine-learning--multiple-linear-regression",
+      "name": "Multiple linear regression",
+      "diff": "M"
+     },
+     {
+      "id": "da-machine-learning--ridge-regression",
+      "name": "Ridge regression",
+      "diff": "E"
+     },
+     {
+      "id": "da-machine-learning--logistic-regression",
+      "name": "Logistic regression",
+      "diff": "M"
+     },
+     {
+      "id": "da-machine-learning--k-nearest-neighbour",
+      "name": "K -nearest neighbour",
+      "diff": "M"
+     },
+     {
+      "id": "da-machine-learning--naive-bayes-classifier",
+      "name": "Naive Bayes classifier",
+      "diff": "M"
+     },
+     {
+      "id": "da-machine-learning--linear-discriminant-analysis",
+      "name": "Linear discriminant analysis",
+      "diff": "M"
+     },
+     {
+      "id": "da-machine-learning--support-vector-machine",
+      "name": "Support vector machine",
+      "diff": "M"
+     },
+     {
+      "id": "da-machine-learning--decision-trees",
+      "name": "Decision trees",
+      "diff": "E"
+     },
+     {
+      "id": "da-machine-learning--bias-variance-trade-off",
+      "name": "Bias -variance trade-off",
+      "diff": "M"
+     },
+     {
+      "id": "da-machine-learning--cross-validation-methods-such-as-leave-one-out-loo-cross-val",
+      "name": "Cross-validation methods such as leave -one-out (LOO) cross-validation",
+      "diff": "M"
+     },
+     {
+      "id": "da-machine-learning--k-folds-cross-validation",
+      "name": "K-folds cross-validation",
+      "diff": "M"
+     },
+     {
+      "id": "da-machine-learning--multi-layer-perceptron",
+      "name": "Multi-layer perceptron",
+      "diff": "M"
+     },
+     {
+      "id": "da-machine-learning--feed-forward-neural-network",
+      "name": "Feed-forward neural network",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Unsupervised Learning",
+    "topics": [
+     {
+      "id": "da-machine-learning--clustering-algorithms",
+      "name": "Clustering algorithms",
+      "diff": "M"
+     },
+     {
+      "id": "da-machine-learning--k-means-k-medoid",
+      "name": "K-means/k-medoid",
+      "diff": "E"
+     },
+     {
+      "id": "da-machine-learning--hierarchical-clustering",
+      "name": "Hierarchical clustering",
+      "diff": "M"
+     },
+     {
+      "id": "da-machine-learning--top-down",
+      "name": "Top-down",
+      "diff": "E"
+     },
+     {
+      "id": "da-machine-learning--bottom-up-single-linkage",
+      "name": "Bottom-up: single-linkage",
+      "diff": "M"
+     },
+     {
+      "id": "da-machine-learning--multiple-linkage",
+      "name": "Multiple-linkage",
+      "diff": "E"
+     },
+     {
+      "id": "da-machine-learning--dimensionality-reduction",
+      "name": "Dimensionality reduction",
+      "diff": "M"
+     },
+     {
+      "id": "da-machine-learning--principal-component-analysis",
+      "name": "Principal component analysis",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "da-ai",
+  "name": "AI",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Search",
+    "topics": [
+     {
+      "id": "da-ai--informed-uninformed-adversarial",
+      "name": "Informed, uninformed, adversarial",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "da-ai--logic-propositional-predicate",
+      "name": "Logic, propositional, predicate",
+      "diff": "M"
+     },
+     {
+      "id": "da-ai--reasoning-under-uncertainty-topics-conditional-independence-",
+      "name": "Reasoning under uncertainty topics — conditional independence representation",
+      "diff": "M"
+     },
+     {
+      "id": "da-ai--exact-inference-through-variable-elimination",
+      "name": "Exact inference through variable elimination",
+      "diff": "H"
+     },
+     {
+      "id": "da-ai--approximate-inference-through-sampling",
+      "name": "Approximate inference through sampling",
+      "diff": "H"
+     }
+    ]
+   }
+  ]
+ }
+]

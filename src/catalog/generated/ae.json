@@ -1,0 +1,942 @@
+[
+ {
+  "id": "ae-engineering-mathematics",
+  "name": "Engineering Mathematics",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Linear Algebra",
+    "topics": [
+     {
+      "id": "ae-engineering-mathematics--vector-algebra",
+      "name": "Vector algebra",
+      "diff": "E",
+      "sample": true
+     },
+     {
+      "id": "ae-engineering-mathematics--matrix-algebra",
+      "name": "Matrix algebra",
+      "diff": "E"
+     },
+     {
+      "id": "ae-engineering-mathematics--systems-of-linear-equations",
+      "name": "Systems of linear equations",
+      "diff": "M"
+     },
+     {
+      "id": "ae-engineering-mathematics--rank-of-a-matrix",
+      "name": "Rank of a matrix",
+      "diff": "E"
+     },
+     {
+      "id": "ae-engineering-mathematics--eigenvalues-and-eigenvectors",
+      "name": "Eigenvalues and eigenvectors",
+      "diff": "H"
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Calculus",
+    "topics": [
+     {
+      "id": "ae-engineering-mathematics--functions-of-single-variable",
+      "name": "Functions of single variable",
+      "diff": "M"
+     },
+     {
+      "id": "ae-engineering-mathematics--limits",
+      "name": "Limits",
+      "diff": "E"
+     },
+     {
+      "id": "ae-engineering-mathematics--continuity-and-differentiability",
+      "name": "Continuity and differentiability",
+      "diff": "M"
+     },
+     {
+      "id": "ae-engineering-mathematics--chain-rule",
+      "name": "Chain rule",
+      "diff": "E"
+     },
+     {
+      "id": "ae-engineering-mathematics--maxima-and-minima",
+      "name": "Maxima and minima",
+      "diff": "E"
+     },
+     {
+      "id": "ae-engineering-mathematics--integration",
+      "name": "Integration",
+      "diff": "E"
+     },
+     {
+      "id": "ae-engineering-mathematics--functions-of-several-variables",
+      "name": "Functions of several variables",
+      "diff": "M"
+     },
+     {
+      "id": "ae-engineering-mathematics--partial-derivatives",
+      "name": "Partial derivatives",
+      "diff": "M"
+     },
+     {
+      "id": "ae-engineering-mathematics--gradient",
+      "name": "Gradient",
+      "diff": "E"
+     },
+     {
+      "id": "ae-engineering-mathematics--divergence-and-curl",
+      "name": "Divergence and curl",
+      "diff": "M"
+     },
+     {
+      "id": "ae-engineering-mathematics--directional-derivatives",
+      "name": "Directional derivatives",
+      "diff": "M"
+     },
+     {
+      "id": "ae-engineering-mathematics--line-surface-and-volume-integrals",
+      "name": "Line, surface and volume integrals",
+      "diff": "M"
+     },
+     {
+      "id": "ae-engineering-mathematics--theorems-of-stokes-gauss-and-green",
+      "name": "Theorems of Stokes, Gauss and Green",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "C",
+    "name": "Differential Equations",
+    "topics": [
+     {
+      "id": "ae-engineering-mathematics--first-order-linear-ordinary-differential-equations",
+      "name": "First order linear ordinary differential equations",
+      "diff": "M"
+     },
+     {
+      "id": "ae-engineering-mathematics--higher-order-linear-odes-with-constant-coefficients",
+      "name": "Higher order linear ODEs with constant coefficients",
+      "diff": "M"
+     },
+     {
+      "id": "ae-engineering-mathematics--classification-of-partial-differential-equations",
+      "name": "Classification of partial differential equations",
+      "diff": "H"
+     },
+     {
+      "id": "ae-engineering-mathematics--solution-to-wave-equation",
+      "name": "Solution to: wave equation",
+      "diff": "M"
+     },
+     {
+      "id": "ae-engineering-mathematics--laplace-equation",
+      "name": "Laplace equation",
+      "diff": "H"
+     },
+     {
+      "id": "ae-engineering-mathematics--heat-equation-using-separation-of-variables-methods",
+      "name": "Heat equation using separation of variables methods",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "D",
+    "name": "Numerical Methods",
+    "topics": [
+     {
+      "id": "ae-engineering-mathematics--numerical-solutions-for-linear-and-nonlinear-algebraic-equat",
+      "name": "Numerical solutions for linear and nonlinear algebraic equations by bisection",
+      "diff": "H"
+     },
+     {
+      "id": "ae-engineering-mathematics--newton-raphson-method",
+      "name": "Newton - Raphson method",
+      "diff": "M"
+     },
+     {
+      "id": "ae-engineering-mathematics--basic-numerical-differentiation",
+      "name": "Basic numerical differentiation",
+      "diff": "E"
+     },
+     {
+      "id": "ae-engineering-mathematics--numerical-integration-by-trapezoidal-and-simpsons-rules",
+      "name": "Numerical integration by trapezoidal and Simpson’s rules",
+      "diff": "M"
+     },
+     {
+      "id": "ae-engineering-mathematics--linear-regression-and-least-squares-method",
+      "name": "Linear regression and least squares method",
+      "diff": "M"
+     },
+     {
+      "id": "ae-engineering-mathematics--linear-interpolation",
+      "name": "Linear interpolation",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "E",
+    "name": "Special Topics",
+    "topics": [
+     {
+      "id": "ae-engineering-mathematics--fourier-series",
+      "name": "Fourier series",
+      "diff": "H"
+     },
+     {
+      "id": "ae-engineering-mathematics--complex-numbers-analytic-functions-and-cauchy-riemann-equati",
+      "name": "Complex numbers, analytic functions and Cauchy-Riemann equations",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "F",
+    "name": "Basics of probability and statistics",
+    "topics": [
+     {
+      "id": "ae-engineering-mathematics--bayes-theorem-mean-median-and-mode",
+      "name": "Bayes theorem, mean, median, & mode",
+      "diff": "M"
+     },
+     {
+      "id": "ae-engineering-mathematics--variance",
+      "name": "Variance",
+      "diff": "E"
+     },
+     {
+      "id": "ae-engineering-mathematics--binomial-normal-and-poisson-distribution",
+      "name": "Binomial, normal and Poisson distribution",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "ae-flight-mechanics-and-space-dyn",
+  "name": "Flight Mechanics & Space Dynamics",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Atmosphere",
+    "topics": [
+     {
+      "id": "ae-flight-mechanics-and-space-dyn--properties-of-standard-atmosphere",
+      "name": "Properties of standard atmosphere",
+      "diff": "E",
+      "sample": true
+     },
+     {
+      "id": "ae-flight-mechanics-and-space-dyn--classification-of-aircraft",
+      "name": "Classification of aircraft",
+      "diff": "E"
+     },
+     {
+      "id": "ae-flight-mechanics-and-space-dyn--airplane-fixed-wing-aircraft-configuration-and-various-parts",
+      "name": "Airplane (fixed wing aircraft) configuration and various parts",
+      "diff": "M"
+     },
+     {
+      "id": "ae-flight-mechanics-and-space-dyn--pressure-altitude",
+      "name": "Pressure altitude",
+      "diff": "E"
+     },
+     {
+      "id": "ae-flight-mechanics-and-space-dyn--equivalent-calibrated-indicated-air-speeds",
+      "name": "Equivalent, calibrated, indicated air speeds",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Primary flight instruments",
+    "topics": [
+     {
+      "id": "ae-flight-mechanics-and-space-dyn--altimeter",
+      "name": "Altimeter",
+      "diff": "E"
+     },
+     {
+      "id": "ae-flight-mechanics-and-space-dyn--air-speed-indicator",
+      "name": "Air speed indicator",
+      "diff": "M"
+     },
+     {
+      "id": "ae-flight-mechanics-and-space-dyn--vertical-speed-indicator",
+      "name": "Vertical speed indicator",
+      "diff": "M"
+     },
+     {
+      "id": "ae-flight-mechanics-and-space-dyn--turn-bank-indicator",
+      "name": "Turn-bank indicator",
+      "diff": "M"
+     },
+     {
+      "id": "ae-flight-mechanics-and-space-dyn--aerodynamic-forces-and-moments",
+      "name": "Aerodynamic forces and moments",
+      "diff": "M"
+     },
+     {
+      "id": "ae-flight-mechanics-and-space-dyn--angle-of-attack",
+      "name": "Angle of attack",
+      "diff": "E"
+     },
+     {
+      "id": "ae-flight-mechanics-and-space-dyn--sideslip",
+      "name": "Sideslip",
+      "diff": "E"
+     },
+     {
+      "id": "ae-flight-mechanics-and-space-dyn--high-lift-devices",
+      "name": "High-lift devices",
+      "diff": "E"
+     },
+     {
+      "id": "ae-flight-mechanics-and-space-dyn--roll-pitch-and-yaw-controls",
+      "name": "Roll, pitch & yaw controls",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "C",
+    "name": "Airplane performance",
+    "topics": [
+     {
+      "id": "ae-flight-mechanics-and-space-dyn--cl-alpha-curve-drag-polar",
+      "name": "CL-alpha curve, drag polar",
+      "diff": "M"
+     },
+     {
+      "id": "ae-flight-mechanics-and-space-dyn--take-off-and-landing",
+      "name": "Take -off and landing",
+      "diff": "M"
+     },
+     {
+      "id": "ae-flight-mechanics-and-space-dyn--steady-climb-and-descent",
+      "name": "Steady climb and descent",
+      "diff": "M"
+     },
+     {
+      "id": "ae-flight-mechanics-and-space-dyn--absolute-and-service-ceiling",
+      "name": "Absolute and service ceiling",
+      "diff": "M"
+     },
+     {
+      "id": "ae-flight-mechanics-and-space-dyn--range-and-endurance-load-factor-turning-flight-v-n-diagram",
+      "name": "Range and endurance, load factor, turning flight, V-n diagram",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "D",
+    "name": "Winds",
+    "topics": [
+     {
+      "id": "ae-flight-mechanics-and-space-dyn--head-tail-and-cross-winds",
+      "name": "Head, tail and cross winds",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "E",
+    "name": "Static stability",
+    "topics": [
+     {
+      "id": "ae-flight-mechanics-and-space-dyn--stability-and-control-derivatives",
+      "name": "Stability and control derivatives",
+      "diff": "H"
+     },
+     {
+      "id": "ae-flight-mechanics-and-space-dyn--longitudinal-stick-fixed-and-free-stability",
+      "name": "Longitudinal stick fixed and free stability",
+      "diff": "H"
+     },
+     {
+      "id": "ae-flight-mechanics-and-space-dyn--horizontal-tail-position-and-size",
+      "name": "Horizontal tail position and size",
+      "diff": "M"
+     },
+     {
+      "id": "ae-flight-mechanics-and-space-dyn--directional-stability-vertical-tail-position-and-size",
+      "name": "Directional stability, vertical tail position and size",
+      "diff": "H"
+     },
+     {
+      "id": "ae-flight-mechanics-and-space-dyn--lateral-stability",
+      "name": "Lateral stability",
+      "diff": "H"
+     },
+     {
+      "id": "ae-flight-mechanics-and-space-dyn--wing-dihedral-sweep-and-position",
+      "name": "Wing dihedral, sweep & position",
+      "diff": "M"
+     },
+     {
+      "id": "ae-flight-mechanics-and-space-dyn--hinge-moments-stick-forces",
+      "name": "Hinge moments, stick forces",
+      "diff": "M"
+     },
+     {
+      "id": "ae-flight-mechanics-and-space-dyn--linear-momentum-and-angular-momentum-balance-for-rigid-bodie",
+      "name": "Linear momentum and angular momentum balance for rigid bodies",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "F",
+    "name": "Space Dynamics",
+    "topics": [
+     {
+      "id": "ae-flight-mechanics-and-space-dyn--central-force-motion-keplerian-orbits-keplers-laws",
+      "name": "Central force motion, Keplerian orbits, Kepler’s laws",
+      "diff": "M"
+     },
+     {
+      "id": "ae-flight-mechanics-and-space-dyn--escape-velocity",
+      "name": "Escape velocity",
+      "diff": "E"
+     },
+     {
+      "id": "ae-flight-mechanics-and-space-dyn--gate-2027-iit-madras-organizing-institute",
+      "name": "GATE 2027 IIT Madras | Organizing Institute",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "G",
+    "name": "Special Topics",
+    "topics": [
+     {
+      "id": "ae-flight-mechanics-and-space-dyn--equations-of-motion",
+      "name": "Equations of motion",
+      "diff": "M"
+     },
+     {
+      "id": "ae-flight-mechanics-and-space-dyn--euler-angles",
+      "name": "Euler angles",
+      "diff": "E"
+     },
+     {
+      "id": "ae-flight-mechanics-and-space-dyn--decoupling-of-longitudinal-and-lateral-directional-dynamics",
+      "name": "Decoupling of longitudinal and lateral -directional dynamics",
+      "diff": "M"
+     },
+     {
+      "id": "ae-flight-mechanics-and-space-dyn--longitudinal-modes",
+      "name": "Longitudinal modes",
+      "diff": "M"
+     },
+     {
+      "id": "ae-flight-mechanics-and-space-dyn--lateral-directional-modes-hohmann-orbital-transfers",
+      "name": "Lateral-directional modes, Hohmann orbital transfers",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "ae-aerodynamics",
+  "name": "Aerodynamics",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Basic fluid mechanics",
+    "topics": [
+     {
+      "id": "ae-aerodynamics--fluid-kinematics-streamline-streakline-pathline",
+      "name": "Fluid kinematics, streamline, streakline, pathline",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "ae-aerodynamics--conservation-laws-mass",
+      "name": "Conservation laws : mass",
+      "diff": "M"
+     },
+     {
+      "id": "ae-aerodynamics--linear-momentum-and-energy-integral-and-differential-form",
+      "name": "Linear momentum and energy (integral and differential form)",
+      "diff": "M"
+     },
+     {
+      "id": "ae-aerodynamics--dimensional-analysis-and-dynamic-similarity",
+      "name": "Dimensional analysis and dynamic similarity",
+      "diff": "M"
+     },
+     {
+      "id": "ae-aerodynamics--incompressibility-conditions",
+      "name": "Incompressibility conditions",
+      "diff": "M"
+     },
+     {
+      "id": "ae-aerodynamics--newtonian-fluids",
+      "name": "Newtonian fluids",
+      "diff": "E"
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Elementary ideas of viscous flows",
+    "topics": [
+     {
+      "id": "ae-aerodynamics--hagen-poiseulle-flow",
+      "name": "Hagen-Poiseulle flow",
+      "diff": "M"
+     },
+     {
+      "id": "ae-aerodynamics--couette-flow",
+      "name": "Couette flow",
+      "diff": "E"
+     },
+     {
+      "id": "ae-aerodynamics--basic-concepts-in-boundary-layers",
+      "name": "Basic concepts in boundary layers",
+      "diff": "E"
+     },
+     {
+      "id": "ae-aerodynamics--boundary-layer-thickness",
+      "name": "Boundary layer thickness",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "C",
+    "name": "Two-dimensional potential flow theory",
+    "topics": [
+     {
+      "id": "ae-aerodynamics--sources",
+      "name": "Sources",
+      "diff": "E"
+     },
+     {
+      "id": "ae-aerodynamics--sinks",
+      "name": "Sinks",
+      "diff": "E"
+     },
+     {
+      "id": "ae-aerodynamics--doublets",
+      "name": "Doublets",
+      "diff": "E"
+     },
+     {
+      "id": "ae-aerodynamics--point-vortex-and-their-superposition",
+      "name": "Point vortex and their superposition",
+      "diff": "M"
+     },
+     {
+      "id": "ae-aerodynamics--bernoullis-equation",
+      "name": "Bernoulli’s equation",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "D",
+    "name": "Airfoils and wings",
+    "topics": [
+     {
+      "id": "ae-aerodynamics--airfoil-nomenclature",
+      "name": "Airfoil nomenclature",
+      "diff": "M"
+     },
+     {
+      "id": "ae-aerodynamics--aerodynamic-coefficients-lift-drag-and-moment",
+      "name": "Aerodynamic coefficients : lift, drag and moment",
+      "diff": "M"
+     },
+     {
+      "id": "ae-aerodynamics--kutta-joukoswki-theorem",
+      "name": "Kutta -Joukoswki theorem",
+      "diff": "M"
+     },
+     {
+      "id": "ae-aerodynamics--thin-airfoil-theory-kutta-condition-starting-vortex",
+      "name": "Thin airfoil theory, Kutta condition, starting vortex",
+      "diff": "M"
+     },
+     {
+      "id": "ae-aerodynamics--finite-wing-theory-induced-drag-prandtl-lifting-line-theory",
+      "name": "Finite wing theory: induced drag, Prandtl lifting line theory",
+      "diff": "M"
+     },
+     {
+      "id": "ae-aerodynamics--critical-and-drag-divergence-mach-numbers",
+      "name": "Critical and drag divergence Mach numbers",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "E",
+    "name": "Compressible flows",
+    "topics": [
+     {
+      "id": "ae-aerodynamics--basic-concepts-of-compressibility",
+      "name": "Basic concepts of compressibility",
+      "diff": "E"
+     },
+     {
+      "id": "ae-aerodynamics--one-dimensional-compressible-flows",
+      "name": "One -dimensional compressible flows",
+      "diff": "M"
+     },
+     {
+      "id": "ae-aerodynamics--isentropic-flows",
+      "name": "Isentropic flows",
+      "diff": "E"
+     },
+     {
+      "id": "ae-aerodynamics--normal-and-oblique-shocks",
+      "name": "Normal and oblique shocks",
+      "diff": "M"
+     },
+     {
+      "id": "ae-aerodynamics--prandtl-meyer-flow",
+      "name": "Prandtl-Meyer flow",
+      "diff": "M"
+     },
+     {
+      "id": "ae-aerodynamics--flow-through-nozzles-and-diffusers",
+      "name": "Flow through nozzles and diffusers",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "F",
+    "name": "Special Topics",
+    "topics": [
+     {
+      "id": "ae-aerodynamics--fanno-flow",
+      "name": "Fanno flow",
+      "diff": "E"
+     },
+     {
+      "id": "ae-aerodynamics--rayleigh-flow",
+      "name": "Rayleigh flow",
+      "diff": "E"
+     },
+     {
+      "id": "ae-aerodynamics--pressure-measurements-using-u-tube-manometers-and-pitot-prob",
+      "name": "Pressure measurements using U-tube manometers and Pitot probe",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "ae-structures",
+  "name": "Structures",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Strength of materials",
+    "topics": [
+     {
+      "id": "ae-structures--stress-and-strain-stress-strain-curves-of-steel-and-aluminiu",
+      "name": "Stress and strain, stress-strain curves of steel and Aluminium",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "ae-structures--stresses-and-deflections-in-statically-determinate-and-indet",
+      "name": "Stresses and deflections in statically determinate and indeterminate linear elastic trusses",
+      "diff": "H"
+     },
+     {
+      "id": "ae-structures--bars",
+      "name": "Bars",
+      "diff": "E"
+     },
+     {
+      "id": "ae-structures--beams",
+      "name": "Beams",
+      "diff": "E"
+     },
+     {
+      "id": "ae-structures--shafts",
+      "name": "Shafts",
+      "diff": "E"
+     },
+     {
+      "id": "ae-structures--two-dimensional-transformations-of-stresses-and-strains",
+      "name": "Two-dimensional transformations of stresses and strains",
+      "diff": "H"
+     },
+     {
+      "id": "ae-structures--mohrs-circle",
+      "name": "Mohr’s circle",
+      "diff": "E"
+     },
+     {
+      "id": "ae-structures--principal-stresses-and-strains",
+      "name": "Principal stresses and strains",
+      "diff": "M"
+     },
+     {
+      "id": "ae-structures--combined-loading-failure-criteria-maximum-stress-tresca-von-",
+      "name": "Combined loading, failure criteria: maximum stress, Tresca, von Mises",
+      "diff": "M"
+     },
+     {
+      "id": "ae-structures--strain-energy",
+      "name": "Strain energy",
+      "diff": "E"
+     },
+     {
+      "id": "ae-structures--castiglianos-principles",
+      "name": "Castigliano’s principles",
+      "diff": "M"
+     },
+     {
+      "id": "ae-structures--three-dimensional-hookes-law",
+      "name": "Three-dimensional Hooke's law",
+      "diff": "M"
+     },
+     {
+      "id": "ae-structures--plane-stress-and-strain",
+      "name": "Plane stress and strain",
+      "diff": "M"
+     },
+     {
+      "id": "ae-structures--euler-buckling-of-columns",
+      "name": "Euler buckling of columns",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Flight vehicle structures",
+    "topics": [
+     {
+      "id": "ae-structures--torsion",
+      "name": "Torsion",
+      "diff": "E"
+     },
+     {
+      "id": "ae-structures--bending-and-shear-of-open-and-closed-thin-walled-sections-sy",
+      "name": "Bending and shear of open and closed thin -walled sections: symmetric and unsymmetric cross-sections",
+      "diff": "M"
+     },
+     {
+      "id": "ae-structures--loads-on-aircraft",
+      "name": "Loads on aircraft",
+      "diff": "E"
+     }
+    ]
+   },
+   {
+    "letter": "C",
+    "name": "Structural Dynamics",
+    "topics": [
+     {
+      "id": "ae-structures--free-and-forced-vibrations-of-undamped-and-damped-sdof-syste",
+      "name": "Free and forced vibrations of undamped and damped SDOF systems",
+      "diff": "H"
+     },
+     {
+      "id": "ae-structures--free-vibrations-of-undamped-2-dof-systems",
+      "name": "Free vibrations of undamped 2-DOF systems",
+      "diff": "H"
+     }
+    ]
+   },
+   {
+    "letter": "D",
+    "name": "Special Topics",
+    "topics": [
+     {
+      "id": "ae-structures--equilibrium-and-compatibility-equations-in-two-dimensional-e",
+      "name": "Equilibrium and compatibility equations in two-dimensional elasticity",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "ae-propulsion",
+  "name": "Propulsion",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Core Topics",
+    "topics": [
+     {
+      "id": "ae-propulsion--basics-of-thermodynamics",
+      "name": "Basics of thermodynamics",
+      "diff": "H",
+      "sample": true
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Aerothermodynamics of aircraft engines",
+    "topics": [
+     {
+      "id": "ae-propulsion--thrust-efficiency-range",
+      "name": "Thrust, efficiency, range",
+      "diff": "M"
+     },
+     {
+      "id": "ae-propulsion--brayton-cycle",
+      "name": "Brayton cycle",
+      "diff": "E"
+     }
+    ]
+   },
+   {
+    "letter": "C",
+    "name": "Engine performance",
+    "topics": [
+     {
+      "id": "ae-propulsion--ramjet-turbojet-turbofan-turboprop-and-turboshaft-engines",
+      "name": "Ramjet, turbojet, turbofan, turboprop and turboshaft engines",
+      "diff": "M"
+     },
+     {
+      "id": "ae-propulsion--after-burners",
+      "name": "After-burners",
+      "diff": "E"
+     },
+     {
+      "id": "ae-propulsion--aerothermodynamics-of-non-rotating-propulsion-components-suc",
+      "name": "Aerothermodynamics of non-rotating propulsion components such as intakes",
+      "diff": "M"
+     },
+     {
+      "id": "ae-propulsion--nozzles",
+      "name": "Nozzles",
+      "diff": "E"
+     }
+    ]
+   },
+   {
+    "letter": "D",
+    "name": "Gas turbine combustor",
+    "topics": [
+     {
+      "id": "ae-propulsion--types-and-configurations",
+      "name": "Types and configurations",
+      "diff": "M"
+     },
+     {
+      "id": "ae-propulsion--combustion-stoichiometric-fuel-to-air-ratio",
+      "name": "Combustion, stoichiometric fuel-to-air ratio",
+      "diff": "M"
+     },
+     {
+      "id": "ae-propulsion--gate-2027-iit-madras-organizing-institute",
+      "name": "GATE 2027 IIT Madras | Organizing Institute",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "E",
+    "name": "Turbomachinery",
+    "topics": [
+     {
+      "id": "ae-propulsion--axial-compressors-angular-momentum",
+      "name": "Axial compressors: angular momentum",
+      "diff": "M"
+     },
+     {
+      "id": "ae-propulsion--work-and-compression",
+      "name": "Work and compression",
+      "diff": "M"
+     },
+     {
+      "id": "ae-propulsion--characteristic-performance-of-a-single-axial-compressor-stag",
+      "name": "Characteristic performance of a single axial compressor stage",
+      "diff": "M"
+     },
+     {
+      "id": "ae-propulsion--efficiency-of-the-compressor-and-degree-of-reaction",
+      "name": "Efficiency of the compressor and degree of reaction",
+      "diff": "M"
+     },
+     {
+      "id": "ae-propulsion--multi-staging",
+      "name": "Multi -staging",
+      "diff": "E"
+     },
+     {
+      "id": "ae-propulsion--centrifugal-compressor-stage-dynamics-inducer-impeller-and-d",
+      "name": "Centrifugal compressor: stage dynamics, inducer, impeller and diffuser",
+      "diff": "M"
+     },
+     {
+      "id": "ae-propulsion--axial-turbines-stage-performance",
+      "name": "Axial turbines: stage performance",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "F",
+    "name": "Rockets",
+    "topics": [
+     {
+      "id": "ae-propulsion--thrust-equation-and-specific-impulse-rocket-performance",
+      "name": "Thrust equation and specific impulse, rocket performance",
+      "diff": "M"
+     },
+     {
+      "id": "ae-propulsion--multi-staging",
+      "name": "Multi-staging",
+      "diff": "E"
+     },
+     {
+      "id": "ae-propulsion--chemical-rockets",
+      "name": "Chemical rockets",
+      "diff": "E"
+     },
+     {
+      "id": "ae-propulsion--performance-of-solid-and-liquid-propellant-rockets",
+      "name": "Performance of solid and liquid propellant rockets",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "G",
+    "name": "Special Topics",
+    "topics": [
+     {
+      "id": "ae-propulsion--turbine-blade-cooling-compressor-turbine-matching",
+      "name": "Turbine blade cooling, compressor-turbine matching",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ }
+]

@@ -1,0 +1,1677 @@
+[
+ {
+  "id": "nm-engineering-mathematics",
+  "name": "Engineering Mathematics",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Engineering Mathematics",
+    "topics": [
+     {
+      "id": "nm-engineering-mathematics--determinants-and-matrices",
+      "name": "Determinants and matrices",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "nm-engineering-mathematics--systems-of-linear-equations",
+      "name": "Systems of linear equations",
+      "diff": "M"
+     },
+     {
+      "id": "nm-engineering-mathematics--eigen-values-and-eigen-vectors",
+      "name": "Eigen values and eigen vectors",
+      "diff": "H"
+     },
+     {
+      "id": "nm-engineering-mathematics--functions",
+      "name": "Functions",
+      "diff": "E"
+     },
+     {
+      "id": "nm-engineering-mathematics--gradient",
+      "name": "Gradient",
+      "diff": "E"
+     },
+     {
+      "id": "nm-engineering-mathematics--divergence",
+      "name": "Divergence",
+      "diff": "E"
+     },
+     {
+      "id": "nm-engineering-mathematics--curl",
+      "name": "Curl",
+      "diff": "E"
+     },
+     {
+      "id": "nm-engineering-mathematics--chain-rules",
+      "name": "Chain rules",
+      "diff": "E"
+     },
+     {
+      "id": "nm-engineering-mathematics--partial-derivatives",
+      "name": "Partial derivatives",
+      "diff": "M"
+     },
+     {
+      "id": "nm-engineering-mathematics--directional-derivatives",
+      "name": "Directional derivatives",
+      "diff": "M"
+     },
+     {
+      "id": "nm-engineering-mathematics--definite-and-indefinite-integrals",
+      "name": "Definite and indefinite integrals",
+      "diff": "M"
+     },
+     {
+      "id": "nm-engineering-mathematics--line-surface-and-volume-integrals",
+      "name": "Line surface and volume integrals",
+      "diff": "M"
+     },
+     {
+      "id": "nm-engineering-mathematics--theorems-of-stokes",
+      "name": "Theorems of Stokes",
+      "diff": "M"
+     },
+     {
+      "id": "nm-engineering-mathematics--gauss-and-green",
+      "name": "Gauss and Green",
+      "diff": "E"
+     },
+     {
+      "id": "nm-engineering-mathematics--linear",
+      "name": "Linear",
+      "diff": "E"
+     },
+     {
+      "id": "nm-engineering-mathematics--non-linear",
+      "name": "Non -linear",
+      "diff": "E"
+     },
+     {
+      "id": "nm-engineering-mathematics--first-and-higher-order-ordinary-and-partial-differential-equ",
+      "name": "First and higher order ordinary and partial differential equations",
+      "diff": "H"
+     },
+     {
+      "id": "nm-engineering-mathematics--separation-of-variables",
+      "name": "Separation of variables",
+      "diff": "M"
+     },
+     {
+      "id": "nm-engineering-mathematics--laplace-transformation",
+      "name": "Laplace transformation",
+      "diff": "H"
+     },
+     {
+      "id": "nm-engineering-mathematics--analytical-functions-of-complex-variables",
+      "name": "Analytical functions of complex variables",
+      "diff": "M"
+     },
+     {
+      "id": "nm-engineering-mathematics--fourier-series",
+      "name": "Fourier series",
+      "diff": "H"
+     },
+     {
+      "id": "nm-engineering-mathematics--numerical-methods-for-differentiation-and-integration",
+      "name": "Numerical methods for differentiation and integration",
+      "diff": "M"
+     },
+     {
+      "id": "nm-engineering-mathematics--complex-analysis",
+      "name": "Complex analysis",
+      "diff": "E"
+     },
+     {
+      "id": "nm-engineering-mathematics--probability-and-statistics",
+      "name": "Probability and statistics",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "nm-applied-mechanics-and-structur",
+  "name": "Applied Mechanics and Structures",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Engineering Mechanics",
+    "topics": [
+     {
+      "id": "nm-applied-mechanics-and-structur--free-body-diagrams-and-equilibrium",
+      "name": "Free-body diagrams and equilibrium",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "nm-applied-mechanics-and-structur--trusses-and-frames",
+      "name": "Trusses and frames",
+      "diff": "M"
+     },
+     {
+      "id": "nm-applied-mechanics-and-structur--virtual-work",
+      "name": "Virtual work",
+      "diff": "E"
+     },
+     {
+      "id": "nm-applied-mechanics-and-structur--kinematics-and-dynamics-of-particles-and-rigid-bodies-in-pla",
+      "name": "Kinematics and dynamics of particles and rigid bodies in plane motion",
+      "diff": "M"
+     },
+     {
+      "id": "nm-applied-mechanics-and-structur--impulse-and-momentum-linear-and-angular-and-energy-formulati",
+      "name": "Impulse and momentum (linear and angular) and energy formulations",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Mechanics of Materials",
+    "topics": [
+     {
+      "id": "nm-applied-mechanics-and-structur--stress-and-strain-elastic-constants-poissons-ratio",
+      "name": "Stress and strain, elastic constants, Poisson’s ratio",
+      "diff": "M"
+     },
+     {
+      "id": "nm-applied-mechanics-and-structur--mohrs-circle-for-plane-stress-and-plane-strain",
+      "name": "Mohr’s circle for plane stress and plane strain",
+      "diff": "M"
+     },
+     {
+      "id": "nm-applied-mechanics-and-structur--shear-force-and-bending-moment-diagrams",
+      "name": "Shear force and bending moment diagrams",
+      "diff": "M"
+     },
+     {
+      "id": "nm-applied-mechanics-and-structur--bending-and-shear-stresses",
+      "name": "Bending and shear stresses",
+      "diff": "M"
+     },
+     {
+      "id": "nm-applied-mechanics-and-structur--torsion",
+      "name": "Torsion",
+      "diff": "E"
+     },
+     {
+      "id": "nm-applied-mechanics-and-structur--eulers-theory-of-columns",
+      "name": "Euler’s theory of columns",
+      "diff": "M"
+     },
+     {
+      "id": "nm-applied-mechanics-and-structur--energy-methods",
+      "name": "Energy methods",
+      "diff": "E"
+     },
+     {
+      "id": "nm-applied-mechanics-and-structur--theories-and-failure-material-testing-methods",
+      "name": "Theories and failure, material testing methods",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "C",
+    "name": "Vibrations",
+    "topics": [
+     {
+      "id": "nm-applied-mechanics-and-structur--free-and-forced-vibration-of-damped-and-undamped-systems",
+      "name": "Free and forced vibration of damped and undamped systems",
+      "diff": "H"
+     },
+     {
+      "id": "nm-applied-mechanics-and-structur--single-and-multi-dof-systems",
+      "name": "Single and multi DOF systems",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "D",
+    "name": "Machine Design",
+    "topics": [
+     {
+      "id": "nm-applied-mechanics-and-structur--design-for-static-and-dynamic-loading",
+      "name": "Design for static and dynamic loading",
+      "diff": "M"
+     },
+     {
+      "id": "nm-applied-mechanics-and-structur--design-of-machine-elements-such-as-shafts",
+      "name": "Design of machine elements such as shafts",
+      "diff": "M"
+     },
+     {
+      "id": "nm-applied-mechanics-and-structur--gears",
+      "name": "Gears",
+      "diff": "E"
+     },
+     {
+      "id": "nm-applied-mechanics-and-structur--rolling-and-sliding-contact-bearings",
+      "name": "Rolling and sliding contact bearings",
+      "diff": "M"
+     },
+     {
+      "id": "nm-applied-mechanics-and-structur--joining-techniques-such-as-bolting-riveting-and-welding",
+      "name": "Joining techniques such as bolting, riveting and welding",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "nm-fluid-mechanics-and-marine-hyd",
+  "name": "Fluid Mechanics and Marine Hydrodynamics",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Fluid Mechanics",
+    "topics": [
+     {
+      "id": "nm-fluid-mechanics-and-marine-hyd--fluid-properties",
+      "name": "Fluid properties",
+      "diff": "E",
+      "sample": true
+     },
+     {
+      "id": "nm-fluid-mechanics-and-marine-hyd--fluid-statics-stability-of-floating-bodies",
+      "name": "Fluid statics, stability of floating bodies",
+      "diff": "H"
+     },
+     {
+      "id": "nm-fluid-mechanics-and-marine-hyd--conservation-laws-mass",
+      "name": "Conservation laws: Mass",
+      "diff": "M"
+     },
+     {
+      "id": "nm-fluid-mechanics-and-marine-hyd--momentum-and-energy-integral-and-differential-form",
+      "name": "Momentum and energy (Integral and differential form)",
+      "diff": "M"
+     },
+     {
+      "id": "nm-fluid-mechanics-and-marine-hyd--dimensional-analysis-and-dynamic-similarity",
+      "name": "Dimensional analysis and dynamic similarity",
+      "diff": "M"
+     },
+     {
+      "id": "nm-fluid-mechanics-and-marine-hyd--sources-sinks-doublets-line-vortex-and-their-superposition",
+      "name": "Sources, sinks, doublets, line vortex and their superposition",
+      "diff": "M"
+     },
+     {
+      "id": "nm-fluid-mechanics-and-marine-hyd--stoke-s-integral-theorem",
+      "name": "Stoke ’s integral theorem",
+      "diff": "M"
+     },
+     {
+      "id": "nm-fluid-mechanics-and-marine-hyd--generalised-bernoullis-equation",
+      "name": "Generalised Bernoulli’s equation",
+      "diff": "M"
+     },
+     {
+      "id": "nm-fluid-mechanics-and-marine-hyd--sources",
+      "name": "Sources",
+      "diff": "E"
+     },
+     {
+      "id": "nm-fluid-mechanics-and-marine-hyd--sinks",
+      "name": "Sinks",
+      "diff": "E"
+     },
+     {
+      "id": "nm-fluid-mechanics-and-marine-hyd--dipole",
+      "name": "Dipole",
+      "diff": "E"
+     },
+     {
+      "id": "nm-fluid-mechanics-and-marine-hyd--flow-with-circulation",
+      "name": "Flow with circulation",
+      "diff": "M"
+     },
+     {
+      "id": "nm-fluid-mechanics-and-marine-hyd--potential-flow-with-rotational-symmetry",
+      "name": "Potential flow with rotational symmetry",
+      "diff": "M"
+     },
+     {
+      "id": "nm-fluid-mechanics-and-marine-hyd--hydrodynamical-lift",
+      "name": "Hydrodynamical lift",
+      "diff": "M"
+     },
+     {
+      "id": "nm-fluid-mechanics-and-marine-hyd--kutta-joukowski-theorem",
+      "name": "Kutta -Joukowski theorem",
+      "diff": "M"
+     },
+     {
+      "id": "nm-fluid-mechanics-and-marine-hyd--vortex-motion-fundamental-concepts",
+      "name": "Vortex motion - Fundamental concepts",
+      "diff": "M"
+     },
+     {
+      "id": "nm-fluid-mechanics-and-marine-hyd--vortex-analogy-to-biot-savarts-law",
+      "name": "Vortex analogy to Biot -Savart’s law",
+      "diff": "M"
+     },
+     {
+      "id": "nm-fluid-mechanics-and-marine-hyd--straight-parallel-vortex-filaments",
+      "name": "Straight parallel vortex filaments",
+      "diff": "M"
+     },
+     {
+      "id": "nm-fluid-mechanics-and-marine-hyd--vortex-sheets",
+      "name": "Vortex sheets",
+      "diff": "E"
+     },
+     {
+      "id": "nm-fluid-mechanics-and-marine-hyd--viscous-flow-navier-stokes-equations",
+      "name": "Viscous flow - Navier-Stokes equations",
+      "diff": "M"
+     },
+     {
+      "id": "nm-fluid-mechanics-and-marine-hyd--couette-flow",
+      "name": "Couette flow",
+      "diff": "E"
+     },
+     {
+      "id": "nm-fluid-mechanics-and-marine-hyd--plane-poiseuille-flow",
+      "name": "Plane poiseuille flow",
+      "diff": "M"
+     },
+     {
+      "id": "nm-fluid-mechanics-and-marine-hyd--equation-of-continuity",
+      "name": "Equation of continuity",
+      "diff": "M"
+     },
+     {
+      "id": "nm-fluid-mechanics-and-marine-hyd--eulers-equation",
+      "name": "Euler’s equation",
+      "diff": "E"
+     },
+     {
+      "id": "nm-fluid-mechanics-and-marine-hyd--ber-noullis-equation",
+      "name": "Ber noulli’s equation",
+      "diff": "M"
+     },
+     {
+      "id": "nm-fluid-mechanics-and-marine-hyd--viscous-flow-of-incompressible-fluids",
+      "name": "Viscous flow of incompressible fluids",
+      "diff": "M"
+     },
+     {
+      "id": "nm-fluid-mechanics-and-marine-hyd--elementary-turbulent-flow",
+      "name": "Elementary turbulent flow",
+      "diff": "M"
+     },
+     {
+      "id": "nm-fluid-mechanics-and-marine-hyd--boundary-layer",
+      "name": "Boundary layer",
+      "diff": "E"
+     },
+     {
+      "id": "nm-fluid-mechanics-and-marine-hyd--flow-through-pipes",
+      "name": "Flow through pipes",
+      "diff": "M"
+     },
+     {
+      "id": "nm-fluid-mechanics-and-marine-hyd--boundary-layer-theory-prandtls-boundary-layer-equations",
+      "name": "Boundary layer theory- Prandtl’s boundary layer equations",
+      "diff": "M"
+     },
+     {
+      "id": "nm-fluid-mechanics-and-marine-hyd--criterion-for-separation",
+      "name": "Criterion for separation",
+      "diff": "M"
+     },
+     {
+      "id": "nm-fluid-mechanics-and-marine-hyd--blasius-solution",
+      "name": "Blasius solution",
+      "diff": "E"
+     },
+     {
+      "id": "nm-fluid-mechanics-and-marine-hyd--skin-friction",
+      "name": "Skin friction",
+      "diff": "E"
+     },
+     {
+      "id": "nm-fluid-mechanics-and-marine-hyd--displacement-thickness",
+      "name": "Displacement thickness",
+      "diff": "M"
+     },
+     {
+      "id": "nm-fluid-mechanics-and-marine-hyd--momentum-thickness",
+      "name": "Momentum thickness",
+      "diff": "M"
+     },
+     {
+      "id": "nm-fluid-mechanics-and-marine-hyd--turbulent-boundary-layer",
+      "name": "Turbulent boundary layer",
+      "diff": "M"
+     },
+     {
+      "id": "nm-fluid-mechanics-and-marine-hyd--boundary-layer-control",
+      "name": "Boundary layer control",
+      "diff": "M"
+     },
+     {
+      "id": "nm-fluid-mechanics-and-marine-hyd--airfoils-lift",
+      "name": "Airfoils - Lift",
+      "diff": "E"
+     },
+     {
+      "id": "nm-fluid-mechanics-and-marine-hyd--drag",
+      "name": "Drag",
+      "diff": "E"
+     },
+     {
+      "id": "nm-fluid-mechanics-and-marine-hyd--circulation",
+      "name": "Circulation",
+      "diff": "E"
+     },
+     {
+      "id": "nm-fluid-mechanics-and-marine-hyd--pressure-distribution-theory-of-thin-aerofoils",
+      "name": "Pressure distribution -theory of thin aerofoils",
+      "diff": "M"
+     },
+     {
+      "id": "nm-fluid-mechanics-and-marine-hyd--wings-of-infinite-and-finite-span",
+      "name": "Wings of infinite and finite span",
+      "diff": "M"
+     },
+     {
+      "id": "nm-fluid-mechanics-and-marine-hyd--circulation-distribution",
+      "name": "Circulation distribution",
+      "diff": "M"
+     },
+     {
+      "id": "nm-fluid-mechanics-and-marine-hyd--cavitation",
+      "name": "Cavitation",
+      "diff": "E"
+     },
+     {
+      "id": "nm-fluid-mechanics-and-marine-hyd--vorticity-and-kelvins-theorem",
+      "name": "Vorticity and Kelvin’s theorem",
+      "diff": "M"
+     },
+     {
+      "id": "nm-fluid-mechanics-and-marine-hyd--potential-flow-theory",
+      "name": "Potential flow theory",
+      "diff": "M"
+     },
+     {
+      "id": "nm-fluid-mechanics-and-marine-hyd--sinks-and-doublets",
+      "name": "Sinks and Doublets",
+      "diff": "M"
+     },
+     {
+      "id": "nm-fluid-mechanics-and-marine-hyd--hydrodynamic-forces-in-potential-flow",
+      "name": "Hydrodynamic forces in potential flow",
+      "diff": "M"
+     },
+     {
+      "id": "nm-fluid-mechanics-and-marine-hyd--dalemberts-paradox",
+      "name": "D’Alembert’s paradox",
+      "diff": "M"
+     },
+     {
+      "id": "nm-fluid-mechanics-and-marine-hyd--added-mass",
+      "name": "Added -mass",
+      "diff": "E"
+     },
+     {
+      "id": "nm-fluid-mechanics-and-marine-hyd--slender-body-theory",
+      "name": "Slender-body theory",
+      "diff": "M"
+     },
+     {
+      "id": "nm-fluid-mechanics-and-marine-hyd--hydrodynamic-model-testing",
+      "name": "Hydrodynamic model testing",
+      "diff": "M"
+     },
+     {
+      "id": "nm-fluid-mechanics-and-marine-hyd--scaling-laws",
+      "name": "Scaling laws",
+      "diff": "E"
+     },
+     {
+      "id": "nm-fluid-mechanics-and-marine-hyd--application-of-potential-theory-to-surface-waves",
+      "name": "Application of potential theory to surface waves",
+      "diff": "M"
+     },
+     {
+      "id": "nm-fluid-mechanics-and-marine-hyd--energy-transport",
+      "name": "Energy transport",
+      "diff": "E"
+     },
+     {
+      "id": "nm-fluid-mechanics-and-marine-hyd--wave-body-forces",
+      "name": "Wave/body forces",
+      "diff": "E"
+     },
+     {
+      "id": "nm-fluid-mechanics-and-marine-hyd--linearised-theory-of-lifting-surfaces",
+      "name": "Linearised theory of lifting surfaces",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "nm-naval-architecture-and-ocean-e",
+  "name": "Naval Architecture and Ocean Engineering",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Overview",
+    "topics": [
+     {
+      "id": "nm-naval-architecture-and-ocean-e--ship-geometry-and-physical-fundamentals-archimedes-principle",
+      "name": "Ship geometry and physical fundamentals - Archimedes’ principle",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "nm-naval-architecture-and-ocean-e--buoyancy-and-weight-of-ship",
+      "name": "Buoyancy and weight of ship",
+      "diff": "M"
+     },
+     {
+      "id": "nm-naval-architecture-and-ocean-e--laws-of-flotation",
+      "name": "Laws of flotation",
+      "diff": "E"
+     },
+     {
+      "id": "nm-naval-architecture-and-ocean-e--heel-and-trim",
+      "name": "Heel and trim",
+      "diff": "E"
+     },
+     {
+      "id": "nm-naval-architecture-and-ocean-e--stable-and-unstable-equilibrium-of-ships",
+      "name": "Stable and unstable equilibrium of ships",
+      "diff": "M"
+     },
+     {
+      "id": "nm-naval-architecture-and-ocean-e--importance-of-streamlined-hull-shape",
+      "name": "Importance of streamlined hull shape",
+      "diff": "M"
+     },
+     {
+      "id": "nm-naval-architecture-and-ocean-e--ship-main-particulars",
+      "name": "Ship main particulars",
+      "diff": "M"
+     },
+     {
+      "id": "nm-naval-architecture-and-ocean-e--hydrostatic-calculations",
+      "name": "Hydrostatic calculations",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Stability and Trim of Ships",
+    "topics": [
+     {
+      "id": "nm-naval-architecture-and-ocean-e--statical-stability-at-small-angles-of-heel-inclining-experim",
+      "name": "Statical stability at small angles of heel, Inclining experiment",
+      "diff": "H"
+     },
+     {
+      "id": "nm-naval-architecture-and-ocean-e--shift-of-centre-of-gravity-due-to-addition-or-removal-of-mas",
+      "name": "Shift of centre of gravity due to addition or removal of mass",
+      "diff": "M"
+     },
+     {
+      "id": "nm-naval-architecture-and-ocean-e--transverse-movement-of-mass-and-effect",
+      "name": "Transverse movement of mass and effect",
+      "diff": "M"
+     },
+     {
+      "id": "nm-naval-architecture-and-ocean-e--free-surface-effect",
+      "name": "Free surface effect",
+      "diff": "M"
+     },
+     {
+      "id": "nm-naval-architecture-and-ocean-e--effect-of-suspended-mass",
+      "name": "Effect of suspended mass",
+      "diff": "M"
+     },
+     {
+      "id": "nm-naval-architecture-and-ocean-e--stability-at-large-angles-of-heel",
+      "name": "Stability at large angles of heel",
+      "diff": "H"
+     },
+     {
+      "id": "nm-naval-architecture-and-ocean-e--angle-of-loll",
+      "name": "Angle of loll",
+      "diff": "E"
+     },
+     {
+      "id": "nm-naval-architecture-and-ocean-e--curves-of-statical-stability",
+      "name": "Curves of statical stability",
+      "diff": "H"
+     },
+     {
+      "id": "nm-naval-architecture-and-ocean-e--dynamical-stability",
+      "name": "Dynamical stability",
+      "diff": "H"
+     },
+     {
+      "id": "nm-naval-architecture-and-ocean-e--probabilistic-and-deterministic-damage-stability-different-c",
+      "name": "Probabilistic and deterministic Damage Stability Different Characteristic curves of dynamic stability",
+      "diff": "H"
+     },
+     {
+      "id": "nm-naval-architecture-and-ocean-e--floodable-length-calculations-and-curves",
+      "name": "Floodable length calculations and curves",
+      "diff": "M"
+     },
+     {
+      "id": "nm-naval-architecture-and-ocean-e--loss-of-stability-due-to-grounding-docking-stability",
+      "name": "Loss of stability due to grounding, docking stability",
+      "diff": "H"
+     }
+    ]
+   },
+   {
+    "letter": "C",
+    "name": "Resistance and Propulsion",
+    "topics": [
+     {
+      "id": "nm-naval-architecture-and-ocean-e--components-of-ship-resistance",
+      "name": "Components of ship resistance",
+      "diff": "M"
+     },
+     {
+      "id": "nm-naval-architecture-and-ocean-e--form-factor",
+      "name": "Form factor",
+      "diff": "E"
+     },
+     {
+      "id": "nm-naval-architecture-and-ocean-e--hull-roughness",
+      "name": "Hull roughness",
+      "diff": "E"
+     },
+     {
+      "id": "nm-naval-architecture-and-ocean-e--model-testing-and-ship-resistance-prediction-methods",
+      "name": "Model testing and ship resistance prediction methods",
+      "diff": "M"
+     },
+     {
+      "id": "nm-naval-architecture-and-ocean-e--tank-wall-effects",
+      "name": "Tank wall effects",
+      "diff": "E"
+     },
+     {
+      "id": "nm-naval-architecture-and-ocean-e--determination-of-ship-resistance-different-series-test-resul",
+      "name": "Determination of ship resistance different series test results",
+      "diff": "M"
+     },
+     {
+      "id": "nm-naval-architecture-and-ocean-e--resistance-of-advanced-vehicles",
+      "name": "Resistance of advanced vehicles",
+      "diff": "M"
+     },
+     {
+      "id": "nm-naval-architecture-and-ocean-e--appendage-and-added-resistance",
+      "name": "Appendage and added resistance",
+      "diff": "M"
+     },
+     {
+      "id": "nm-naval-architecture-and-ocean-e--geometry-of-screw-propeller",
+      "name": "Geometry of screw propeller",
+      "diff": "M"
+     },
+     {
+      "id": "nm-naval-architecture-and-ocean-e--propeller-theories",
+      "name": "Propeller theories",
+      "diff": "M"
+     },
+     {
+      "id": "nm-naval-architecture-and-ocean-e--hull-propeller-interactions",
+      "name": "Hull-propeller interactions",
+      "diff": "M"
+     },
+     {
+      "id": "nm-naval-architecture-and-ocean-e--different-propulsive-efficiency-definitions",
+      "name": "Different propulsive efficiency definitions",
+      "diff": "M"
+     },
+     {
+      "id": "nm-naval-architecture-and-ocean-e--propeller-cavitation-and-effects",
+      "name": "Propeller cavitation and effects",
+      "diff": "M"
+     },
+     {
+      "id": "nm-naval-architecture-and-ocean-e--propeller-design-and-series",
+      "name": "Propeller design and series",
+      "diff": "M"
+     },
+     {
+      "id": "nm-naval-architecture-and-ocean-e--open-water-and-self-propulsion-model-tests",
+      "name": "Open water and self -propulsion model tests",
+      "diff": "M"
+     },
+     {
+      "id": "nm-naval-architecture-and-ocean-e--different-types-of-propellers-and-their-working-principles",
+      "name": "Different types of propellers and their working principles",
+      "diff": "E"
+     },
+     {
+      "id": "nm-naval-architecture-and-ocean-e--propeller-material-strength-and-manufacturing",
+      "name": "Propeller material, strength and manufacturing",
+      "diff": "M"
+     },
+     {
+      "id": "nm-naval-architecture-and-ocean-e--unconventional-propellers",
+      "name": "Unconventional propellers",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "D",
+    "name": "Ship Manoeuvring and Motions",
+    "topics": [
+     {
+      "id": "nm-naval-architecture-and-ocean-e--ship-path-keeping-and-changing",
+      "name": "Ship path keeping and changing",
+      "diff": "M"
+     },
+     {
+      "id": "nm-naval-architecture-and-ocean-e--equations-of-motion",
+      "name": "Equations of motion",
+      "diff": "M"
+     },
+     {
+      "id": "nm-naval-architecture-and-ocean-e--linearised-equations-and-control-fixed-stability-indexes",
+      "name": "Linearised equations and control fixed stability indexes",
+      "diff": "H"
+     },
+     {
+      "id": "nm-naval-architecture-and-ocean-e--model-tests",
+      "name": "Model tests",
+      "diff": "E"
+     },
+     {
+      "id": "nm-naval-architecture-and-ocean-e--stability-and-control-in-the-horizontal-and-vertical-planes-",
+      "name": "Stability and control in the horizontal and vertical planes - definitive manoeuvres and sea trials",
+      "diff": "H"
+     },
+     {
+      "id": "nm-naval-architecture-and-ocean-e--rudder-hydrodynamics-design-and-operation",
+      "name": "Rudder hydrodynamics, design and operation",
+      "diff": "M"
+     },
+     {
+      "id": "nm-naval-architecture-and-ocean-e--influence-of-propeller-hull-appendages-etc",
+      "name": "Influence of propeller, hull, appendages etc",
+      "diff": "M"
+     },
+     {
+      "id": "nm-naval-architecture-and-ocean-e--on-rudder-performance",
+      "name": "On rudder performance",
+      "diff": "M"
+     },
+     {
+      "id": "nm-naval-architecture-and-ocean-e--experimental-methods-for-the-determination-of-hydrodynamic-d",
+      "name": "Experimental methods for the determination of hydrodynamic derivatives",
+      "diff": "M"
+     },
+     {
+      "id": "nm-naval-architecture-and-ocean-e--ocean-waves-regular-irregular-trochoidal",
+      "name": "Ocean waves - regular, irregular, trochoidal",
+      "diff": "M"
+     },
+     {
+      "id": "nm-naval-architecture-and-ocean-e--wave-spectrum-encounter-frequency",
+      "name": "Wave spectrum, encounter frequency",
+      "diff": "M"
+     },
+     {
+      "id": "nm-naval-architecture-and-ocean-e--types-of-ship-motions",
+      "name": "Types of ship motions",
+      "diff": "E"
+     },
+     {
+      "id": "nm-naval-architecture-and-ocean-e--coupled-and-non-coupled-motions",
+      "name": "Coupled and non-coupled motions",
+      "diff": "M"
+     },
+     {
+      "id": "nm-naval-architecture-and-ocean-e--dynamic-effects-of-ship-motion-in-seaway",
+      "name": "Dynamic effects of ship motion in seaway",
+      "diff": "M"
+     },
+     {
+      "id": "nm-naval-architecture-and-ocean-e--different-ship-motion-stabilisers-passive-and-active",
+      "name": "Different ship motion stabilisers - passive and active",
+      "diff": "M"
+     },
+     {
+      "id": "nm-naval-architecture-and-ocean-e--different-numerical-and-experimental-methods-to-determine-sh",
+      "name": "Different numerical and experimental methods to determine ship motions - strip theory",
+      "diff": "M"
+     },
+     {
+      "id": "nm-naval-architecture-and-ocean-e--bem",
+      "name": "BEM",
+      "diff": "E"
+     },
+     {
+      "id": "nm-naval-architecture-and-ocean-e--fem-seakeeping-features-of-high-performance-marine-vehicles",
+      "name": "FEM. Seakeeping features of high-performance marine vehicles",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "E",
+    "name": "Ship Structures and Strength",
+    "topics": [
+     {
+      "id": "nm-naval-architecture-and-ocean-e--shipbuilding-materials",
+      "name": "Shipbuilding materials",
+      "diff": "M"
+     },
+     {
+      "id": "nm-naval-architecture-and-ocean-e--joining-techniques",
+      "name": "Joining techniques",
+      "diff": "M"
+     },
+     {
+      "id": "nm-naval-architecture-and-ocean-e--ship-structural-and-framing-systems-bottom",
+      "name": "Ship structural and framing systems - bottom",
+      "diff": "M"
+     },
+     {
+      "id": "nm-naval-architecture-and-ocean-e--side",
+      "name": "Side",
+      "diff": "E"
+     },
+     {
+      "id": "nm-naval-architecture-and-ocean-e--deck",
+      "name": "Deck",
+      "diff": "E"
+     },
+     {
+      "id": "nm-naval-architecture-and-ocean-e--bulkhead",
+      "name": "Bulkhead",
+      "diff": "E"
+     },
+     {
+      "id": "nm-naval-architecture-and-ocean-e--end-structures",
+      "name": "End structures",
+      "diff": "E"
+     },
+     {
+      "id": "nm-naval-architecture-and-ocean-e--structural-connections",
+      "name": "Structural connections",
+      "diff": "M"
+     },
+     {
+      "id": "nm-naval-architecture-and-ocean-e--primary-and-secondary-structural-members",
+      "name": "Primary and secondary structural members",
+      "diff": "M"
+     },
+     {
+      "id": "nm-naval-architecture-and-ocean-e--superstructure",
+      "name": "Superstructure",
+      "diff": "E"
+     },
+     {
+      "id": "nm-naval-architecture-and-ocean-e--hatch-covers",
+      "name": "Hatch covers",
+      "diff": "E"
+     },
+     {
+      "id": "nm-naval-architecture-and-ocean-e--machinery-foundations",
+      "name": "Machinery foundations",
+      "diff": "M"
+     },
+     {
+      "id": "nm-naval-architecture-and-ocean-e--cargo-handling-systems-and-support-structures",
+      "name": "Cargo handling systems and support structures",
+      "diff": "M"
+     },
+     {
+      "id": "nm-naval-architecture-and-ocean-e--loads-acting-on-ships-in-seaway",
+      "name": "Loads acting on ships in seaway",
+      "diff": "M"
+     },
+     {
+      "id": "nm-naval-architecture-and-ocean-e--longitudinal-and-transverse-strength-considerations-and-esti",
+      "name": "Longitudinal and transverse strength considerations and estimation methods",
+      "diff": "M"
+     },
+     {
+      "id": "nm-naval-architecture-and-ocean-e--strength-of-hull-girder",
+      "name": "Strength of hull girder",
+      "diff": "M"
+     },
+     {
+      "id": "nm-naval-architecture-and-ocean-e--stiffened-plate-analysis",
+      "name": "Stiffened plate analysis",
+      "diff": "M"
+     },
+     {
+      "id": "nm-naval-architecture-and-ocean-e--torsion-of-hull-girder",
+      "name": "Torsion of hull girder",
+      "diff": "M"
+     },
+     {
+      "id": "nm-naval-architecture-and-ocean-e--deformation-and-stresses",
+      "name": "Deformation and stresses",
+      "diff": "M"
+     },
+     {
+      "id": "nm-naval-architecture-and-ocean-e--local-strength-analysis",
+      "name": "Local strength analysis",
+      "diff": "M"
+     },
+     {
+      "id": "nm-naval-architecture-and-ocean-e--reliability-analysis-and-ultimate-strength-of-hull-girder",
+      "name": "Reliability analysis and ultimate strength of hull girder",
+      "diff": "M"
+     },
+     {
+      "id": "nm-naval-architecture-and-ocean-e--structural-vibrations",
+      "name": "Structural vibrations",
+      "diff": "H"
+     },
+     {
+      "id": "nm-naval-architecture-and-ocean-e--fatigue-and-fracture",
+      "name": "Fatigue and fracture",
+      "diff": "H"
+     }
+    ]
+   },
+   {
+    "letter": "F",
+    "name": "Physical Oceanography",
+    "topics": [
+     {
+      "id": "nm-naval-architecture-and-ocean-e--physical-properties-of-seawater",
+      "name": "Physical properties of seawater",
+      "diff": "E"
+     },
+     {
+      "id": "nm-naval-architecture-and-ocean-e--different-types-of-ocean-waves-tides-and-wind-waves",
+      "name": "Different types of ocean waves - tides and wind waves",
+      "diff": "E"
+     },
+     {
+      "id": "nm-naval-architecture-and-ocean-e--their-importance",
+      "name": "Their importance",
+      "diff": "E"
+     }
+    ]
+   },
+   {
+    "letter": "G",
+    "name": "Offshore Structures",
+    "topics": [
+     {
+      "id": "nm-naval-architecture-and-ocean-e--fixed-offshore-platforms-jackets-gravity-platforms",
+      "name": "Fixed offshore platforms - Jackets, Gravity platforms",
+      "diff": "M"
+     },
+     {
+      "id": "nm-naval-architecture-and-ocean-e--floating-platforms-semi-submersibles-jack-ups-tlps-fpsos",
+      "name": "Floating platforms - semi-submersibles, jack-ups, TLPs, FPSOs",
+      "diff": "M"
+     },
+     {
+      "id": "nm-naval-architecture-and-ocean-e--mooring-station-keeping",
+      "name": "Mooring, station keeping",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "H",
+    "name": "Port and Harbour Engineering",
+    "topics": [
+     {
+      "id": "nm-naval-architecture-and-ocean-e--ports-and-harbours",
+      "name": "Ports and Harbours",
+      "diff": "M"
+     },
+     {
+      "id": "nm-naval-architecture-and-ocean-e--port-structures-jetties",
+      "name": "Port structures - Jetties",
+      "diff": "M"
+     },
+     {
+      "id": "nm-naval-architecture-and-ocean-e--dolphins",
+      "name": "Dolphins",
+      "diff": "E"
+     },
+     {
+      "id": "nm-naval-architecture-and-ocean-e--liquid-berths",
+      "name": "Liquid berths",
+      "diff": "E"
+     },
+     {
+      "id": "nm-naval-architecture-and-ocean-e--dredging",
+      "name": "Dredging",
+      "diff": "E"
+     },
+     {
+      "id": "nm-naval-architecture-and-ocean-e--navigation",
+      "name": "Navigation",
+      "diff": "E"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "nm-thermodynamics-and-marine-engi",
+  "name": "Thermodynamics and Marine Engineering",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Thermodynamics",
+    "topics": [
+     {
+      "id": "nm-thermodynamics-and-marine-engi--first-law-of-thermodynamics-closed-system-undergoing-a-cycle",
+      "name": "First law of thermodynamics - Closed system undergoing a cycle",
+      "diff": "H",
+      "sample": true
+     },
+     {
+      "id": "nm-thermodynamics-and-marine-engi--closed-system-undergoing-a-change-of-state",
+      "name": "Closed system undergoing a change of state",
+      "diff": "M"
+     },
+     {
+      "id": "nm-thermodynamics-and-marine-engi--internal-energy-of-a-system",
+      "name": "Internal energy of a system",
+      "diff": "M"
+     },
+     {
+      "id": "nm-thermodynamics-and-marine-engi--expansion-work",
+      "name": "Expansion work",
+      "diff": "E"
+     },
+     {
+      "id": "nm-thermodynamics-and-marine-engi--process-using-ideal-gas-constant-pressure",
+      "name": "Process using ideal gas - constant pressure",
+      "diff": "M"
+     },
+     {
+      "id": "nm-thermodynamics-and-marine-engi--constant-volume",
+      "name": "Constant volume",
+      "diff": "E"
+     },
+     {
+      "id": "nm-thermodynamics-and-marine-engi--isothermal",
+      "name": "Isothermal",
+      "diff": "E"
+     },
+     {
+      "id": "nm-thermodynamics-and-marine-engi--adiabatic-and-polytropic-pro-cess-work-done-and-heat-added-i",
+      "name": "Adiabatic and polytropic pro cess -work done and heat added in different process",
+      "diff": "M"
+     },
+     {
+      "id": "nm-thermodynamics-and-marine-engi--first-law-applied-to-one-dimensional-steady-flow-process",
+      "name": "First law applied to one - dimensional steady flow process",
+      "diff": "M"
+     },
+     {
+      "id": "nm-thermodynamics-and-marine-engi--flow-energy",
+      "name": "Flow energy",
+      "diff": "E"
+     },
+     {
+      "id": "nm-thermodynamics-and-marine-engi--steady-flow-energy-equation-id",
+      "name": "Steady flow energy equation (ID)",
+      "diff": "M"
+     },
+     {
+      "id": "nm-thermodynamics-and-marine-engi--second-law-of-thermodynamics-different-statements",
+      "name": "Second law of Thermodynamics - Different statements",
+      "diff": "H"
+     },
+     {
+      "id": "nm-thermodynamics-and-marine-engi--reversible-and-irreversible-process",
+      "name": "Reversible and irreversible process",
+      "diff": "M"
+     },
+     {
+      "id": "nm-thermodynamics-and-marine-engi--corollaries-of-second-law-absolute-temperature-scale",
+      "name": "Corollaries of second law - Absolute temperature scale",
+      "diff": "M"
+     },
+     {
+      "id": "nm-thermodynamics-and-marine-engi--carnot-cycle-carnot-engine-refrigerator-and-heat-pump",
+      "name": "Carnot cycle - Carnot engine, refrigerator and heat pump",
+      "diff": "M"
+     },
+     {
+      "id": "nm-thermodynamics-and-marine-engi--clausius-inequality-and-definition-of-entropy",
+      "name": "Clausius inequality and definition of entropy",
+      "diff": "E"
+     },
+     {
+      "id": "nm-thermodynamics-and-marine-engi--change-of-entropy-of-an-ideal-gas",
+      "name": "Change of entropy of an ideal gas",
+      "diff": "M"
+     },
+     {
+      "id": "nm-thermodynamics-and-marine-engi--gas-power-cycles-and-i-c-engines",
+      "name": "Gas power cycles and I.C.Engines",
+      "diff": "M"
+     },
+     {
+      "id": "nm-thermodynamics-and-marine-engi--gas-power-cycles-carnot-cycle",
+      "name": "Gas power cycles: Carnot cycle",
+      "diff": "M"
+     },
+     {
+      "id": "nm-thermodynamics-and-marine-engi--brayton-cycle",
+      "name": "Brayton cycle",
+      "diff": "E"
+     },
+     {
+      "id": "nm-thermodynamics-and-marine-engi--erricson-cycle",
+      "name": "Erricson cycle",
+      "diff": "E"
+     },
+     {
+      "id": "nm-thermodynamics-and-marine-engi--sterling-cycle-etc",
+      "name": "Sterling cycle etc",
+      "diff": "M"
+     },
+     {
+      "id": "nm-thermodynamics-and-marine-engi--air-standard-cycles-otto-diesel-dual-and-joule-cycle",
+      "name": "Air standard cycles - Otto- Diesel, Dual and Joule cycle",
+      "diff": "M"
+     },
+     {
+      "id": "nm-thermodynamics-and-marine-engi--evaluation-of-thermal-efficiency-and-mean-effective-pressure",
+      "name": "Evaluation of thermal efficiency and mean effective pressure",
+      "diff": "M"
+     },
+     {
+      "id": "nm-thermodynamics-and-marine-engi--internal-combustion-engine-classification-of-i-c-engines-pri",
+      "name": "Internal Combustion engine - Classification of I.C. engines -Principle of operation of spark Ignition and Compression Ignition engines both two stroke and four stroke",
+      "diff": "E"
+     },
+     {
+      "id": "nm-thermodynamics-and-marine-engi--stages-of-combustion-in-s-i-and-c-i-engines",
+      "name": "Stages of combustion in S.I. and C.I. engines",
+      "diff": "M"
+     },
+     {
+      "id": "nm-thermodynamics-and-marine-engi--knocking-and-detonation-factors-controlling-knock-and-detona",
+      "name": "Knocking and detonation- factors controlling knock and detonation",
+      "diff": "M"
+     },
+     {
+      "id": "nm-thermodynamics-and-marine-engi--methods-of-preventing-knocking-and-detonation",
+      "name": "Methods of preventing Knocking and detonation",
+      "diff": "M"
+     },
+     {
+      "id": "nm-thermodynamics-and-marine-engi--refrigeration-principle-of-operation-of-simple-vapour-compre",
+      "name": "Refrigeration - principle of operation of Simple vapour compression system",
+      "diff": "M"
+     },
+     {
+      "id": "nm-thermodynamics-and-marine-engi--comparison-with-vapour-compression-systems",
+      "name": "Comparison with vapour compression systems",
+      "diff": "M"
+     },
+     {
+      "id": "nm-thermodynamics-and-marine-engi--air-conditioning-principles-sensible-heating-and-cooling",
+      "name": "Air conditioning principles - Sensible heating and cooling",
+      "diff": "M"
+     },
+     {
+      "id": "nm-thermodynamics-and-marine-engi--humidification-and-dehumidification",
+      "name": "Humidification and dehumidification",
+      "diff": "M"
+     },
+     {
+      "id": "nm-thermodynamics-and-marine-engi--cooling-and-humidification",
+      "name": "Cooling and humidification",
+      "diff": "M"
+     },
+     {
+      "id": "nm-thermodynamics-and-marine-engi--cooling-and-dehumidification-heating-and-humidification",
+      "name": "Cooling and dehumidification - Heating and humidification",
+      "diff": "M"
+     },
+     {
+      "id": "nm-thermodynamics-and-marine-engi--heating-and-dehumidification",
+      "name": "Heating and dehumidification",
+      "diff": "M"
+     },
+     {
+      "id": "nm-thermodynamics-and-marine-engi--adiabatic-mixing-of-air-streams-cooling-and-heating-load-cal",
+      "name": "Adiabatic mixing of air streams -cooling and heating load calculation",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Marine Diesel Engines",
+    "topics": [
+     {
+      "id": "nm-thermodynamics-and-marine-engi--general-engine-principles",
+      "name": "General engine principles",
+      "diff": "M"
+     },
+     {
+      "id": "nm-thermodynamics-and-marine-engi--low-speed-and-medium-speed-diesel-engines",
+      "name": "Low speed and medium speed diesel engines",
+      "diff": "M"
+     },
+     {
+      "id": "nm-thermodynamics-and-marine-engi--two-and-four-stroke-engines",
+      "name": "Two and Four stroke engines",
+      "diff": "M"
+     },
+     {
+      "id": "nm-thermodynamics-and-marine-engi--scavenging-and-turbo-charging",
+      "name": "Scavenging and turbo charging",
+      "diff": "M"
+     },
+     {
+      "id": "nm-thermodynamics-and-marine-engi--fuel-oil-system",
+      "name": "Fuel oil system",
+      "diff": "E"
+     },
+     {
+      "id": "nm-thermodynamics-and-marine-engi--lubricating-oil-systems",
+      "name": "Lubricating oil systems",
+      "diff": "M"
+     },
+     {
+      "id": "nm-thermodynamics-and-marine-engi--cooling-systems",
+      "name": "Cooling systems",
+      "diff": "E"
+     },
+     {
+      "id": "nm-thermodynamics-and-marine-engi--torque-and-power-measurement",
+      "name": "Torque and power measurement",
+      "diff": "M"
+     },
+     {
+      "id": "nm-thermodynamics-and-marine-engi--starting-air-systems-and-reversing-systems",
+      "name": "Starting air systems and reversing systems",
+      "diff": "M"
+     },
+     {
+      "id": "nm-thermodynamics-and-marine-engi--controls-and-safety-devices",
+      "name": "Controls and safety devices",
+      "diff": "M"
+     },
+     {
+      "id": "nm-thermodynamics-and-marine-engi--couplings-and-gearboxes",
+      "name": "Couplings and Gearboxes",
+      "diff": "M"
+     },
+     {
+      "id": "nm-thermodynamics-and-marine-engi--specific-fuel-consumption",
+      "name": "Specific Fuel Consumption",
+      "diff": "M"
+     },
+     {
+      "id": "nm-thermodynamics-and-marine-engi--waste-heat-recovery-system",
+      "name": "Waste heat recovery system",
+      "diff": "M"
+     },
+     {
+      "id": "nm-thermodynamics-and-marine-engi--marpol-regulations-and-energy-efficiency-design-index-eedi",
+      "name": "MARPOL regulations and Energy Efficiency Design Index (EEDI)",
+      "diff": "M"
+     },
+     {
+      "id": "nm-thermodynamics-and-marine-engi--ship-energy-efficiency-management-plan-seemp",
+      "name": "Ship Energy Efficiency Management Plan (SEEMP)",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "C",
+    "name": "Marine Steam Turbines",
+    "topics": [
+     {
+      "id": "nm-thermodynamics-and-marine-engi--types-of-turbines",
+      "name": "Types of turbines",
+      "diff": "E"
+     },
+     {
+      "id": "nm-thermodynamics-and-marine-engi--compounding",
+      "name": "Compounding",
+      "diff": "E"
+     },
+     {
+      "id": "nm-thermodynamics-and-marine-engi--reheat",
+      "name": "Reheat",
+      "diff": "E"
+     },
+     {
+      "id": "nm-thermodynamics-and-marine-engi--turbine-construction",
+      "name": "Turbine construction",
+      "diff": "M"
+     },
+     {
+      "id": "nm-thermodynamics-and-marine-engi--rotors",
+      "name": "Rotors",
+      "diff": "E"
+     },
+     {
+      "id": "nm-thermodynamics-and-marine-engi--blades",
+      "name": "Blades",
+      "diff": "E"
+     },
+     {
+      "id": "nm-thermodynamics-and-marine-engi--casing",
+      "name": "Casing",
+      "diff": "E"
+     },
+     {
+      "id": "nm-thermodynamics-and-marine-engi--gland-sealing",
+      "name": "Gland sealing",
+      "diff": "E"
+     },
+     {
+      "id": "nm-thermodynamics-and-marine-engi--diaphragms",
+      "name": "Diaphragms",
+      "diff": "E"
+     },
+     {
+      "id": "nm-thermodynamics-and-marine-engi--nozzles",
+      "name": "Nozzles",
+      "diff": "E"
+     },
+     {
+      "id": "nm-thermodynamics-and-marine-engi--bearings-etc",
+      "name": "Bearings etc",
+      "diff": "E"
+     },
+     {
+      "id": "nm-thermodynamics-and-marine-engi--lubrication-systems-expansion-arrangements-gearings",
+      "name": "Lubrication systems, expansion arrangements, Gearings",
+      "diff": "M"
+     },
+     {
+      "id": "nm-thermodynamics-and-marine-engi--marine-gas-turbines-fundamentals-of-g-t",
+      "name": "Marine gas turbines - fundamentals of G.T",
+      "diff": "M"
+     },
+     {
+      "id": "nm-thermodynamics-and-marine-engi--structure-of-gas-turbines",
+      "name": "Structure of gas turbines",
+      "diff": "M"
+     },
+     {
+      "id": "nm-thermodynamics-and-marine-engi--gearing",
+      "name": "Gearing",
+      "diff": "E"
+     },
+     {
+      "id": "nm-thermodynamics-and-marine-engi--operational-features",
+      "name": "Operational features",
+      "diff": "M"
+     },
+     {
+      "id": "nm-thermodynamics-and-marine-engi--controls",
+      "name": "Controls",
+      "diff": "E"
+     },
+     {
+      "id": "nm-thermodynamics-and-marine-engi--combined-cycles",
+      "name": "Combined cycles",
+      "diff": "E"
+     },
+     {
+      "id": "nm-thermodynamics-and-marine-engi--nuclear-propulsion-physical-principles-of-the-operation-of-n",
+      "name": "Nuclear propulsion - physical principles of the operation of nuclear reactors - use of nuclear propulsion on seagoing vessels",
+      "diff": "M"
+     },
+     {
+      "id": "nm-thermodynamics-and-marine-engi--electrical-propulsion",
+      "name": "Electrical Propulsion",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "D",
+    "name": "Marine Boilers",
+    "topics": [
+     {
+      "id": "nm-thermodynamics-and-marine-engi--types-fire-tube",
+      "name": "Types - fire tube",
+      "diff": "E"
+     },
+     {
+      "id": "nm-thermodynamics-and-marine-engi--water-tube-boilers",
+      "name": "Water tube boilers",
+      "diff": "M"
+     },
+     {
+      "id": "nm-thermodynamics-and-marine-engi--package-boilers",
+      "name": "Package boilers",
+      "diff": "E"
+     },
+     {
+      "id": "nm-thermodynamics-and-marine-engi--cochran-boilers",
+      "name": "Cochran Boilers",
+      "diff": "E"
+     },
+     {
+      "id": "nm-thermodynamics-and-marine-engi--composite-boilers",
+      "name": "Composite boilers",
+      "diff": "E"
+     },
+     {
+      "id": "nm-thermodynamics-and-marine-engi--steam-to-steam-generators",
+      "name": "Steam to steam generators",
+      "diff": "M"
+     },
+     {
+      "id": "nm-thermodynamics-and-marine-engi--double-evaporation-boilers",
+      "name": "Double evaporation boilers",
+      "diff": "M"
+     },
+     {
+      "id": "nm-thermodynamics-and-marine-engi--exhaust-gas-heat-exchangers",
+      "name": "Exhaust gas heat exchangers",
+      "diff": "M"
+     },
+     {
+      "id": "nm-thermodynamics-and-marine-engi--auxiliary-steam-plant-systems",
+      "name": "Auxiliary steam plant systems",
+      "diff": "M"
+     },
+     {
+      "id": "nm-thermodynamics-and-marine-engi--exhaust-gas-boilers",
+      "name": "Exhaust gas boilers",
+      "diff": "M"
+     },
+     {
+      "id": "nm-thermodynamics-and-marine-engi--boiler-mounting-combustion-feed-system-feed-water-treatment",
+      "name": "Boiler mounting, combustion, feed system, feed water treatment",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "E",
+    "name": "Engine Dynamics",
+    "topics": [
+     {
+      "id": "nm-thermodynamics-and-marine-engi--torsional-vibration-of-engine-and-shafting",
+      "name": "Torsional vibration of engine and shafting",
+      "diff": "H"
+     },
+     {
+      "id": "nm-thermodynamics-and-marine-engi--axial-shaft-vibration",
+      "name": "Axial shaft vibration",
+      "diff": "H"
+     },
+     {
+      "id": "nm-thermodynamics-and-marine-engi--critical-speeds",
+      "name": "Critical speeds",
+      "diff": "E"
+     },
+     {
+      "id": "nm-thermodynamics-and-marine-engi--engine-rating",
+      "name": "Engine rating",
+      "diff": "E"
+     },
+     {
+      "id": "nm-thermodynamics-and-marine-engi--rating-corrections",
+      "name": "Rating corrections",
+      "diff": "M"
+     },
+     {
+      "id": "nm-thermodynamics-and-marine-engi--trial-tests-etc",
+      "name": "Trial tests etc",
+      "diff": "E"
+     },
+     {
+      "id": "nm-thermodynamics-and-marine-engi--relationship-of-engine-to-the-propeller-classification-socie",
+      "name": "Relationship of engine to the propeller classification society rules on engine construction",
+      "diff": "E"
+     },
+     {
+      "id": "nm-thermodynamics-and-marine-engi--engine-room-arrangement",
+      "name": "Engine room arrangement",
+      "diff": "M"
+     },
+     {
+      "id": "nm-thermodynamics-and-marine-engi--automation-of-ship-propulsion-plants",
+      "name": "Automation of ship propulsion plants",
+      "diff": "M"
+     },
+     {
+      "id": "nm-thermodynamics-and-marine-engi--maintenance-requirements-and-reliability-of-propulsion-plant",
+      "name": "Maintenance requirements and reliability of propulsion plants",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "F",
+    "name": "Marine Auxiliary Machinery & Systems",
+    "topics": [
+     {
+      "id": "nm-thermodynamics-and-marine-engi--different-types-of-pumps-and-piping-systems-in-ships-hot-wat",
+      "name": "Different types of pumps and piping systems in ships - hot water",
+      "diff": "E"
+     },
+     {
+      "id": "nm-thermodynamics-and-marine-engi--drinking-water",
+      "name": "Drinking water",
+      "diff": "E"
+     },
+     {
+      "id": "nm-thermodynamics-and-marine-engi--cooling-water-and-seawater",
+      "name": "Cooling water and seawater",
+      "diff": "M"
+     },
+     {
+      "id": "nm-thermodynamics-and-marine-engi--fuel-oil-systems",
+      "name": "Fuel oil systems",
+      "diff": "E"
+     },
+     {
+      "id": "nm-thermodynamics-and-marine-engi--lubricating-oil-system-filters",
+      "name": "Lubricating oil system filters",
+      "diff": "M"
+     },
+     {
+      "id": "nm-thermodynamics-and-marine-engi--coolers",
+      "name": "Coolers",
+      "diff": "E"
+     },
+     {
+      "id": "nm-thermodynamics-and-marine-engi--centrifuges",
+      "name": "Centrifuges",
+      "diff": "E"
+     },
+     {
+      "id": "nm-thermodynamics-and-marine-engi--purifiers-and-clarifiers",
+      "name": "Purifiers and clarifiers",
+      "diff": "M"
+     },
+     {
+      "id": "nm-thermodynamics-and-marine-engi--bilge-and-ballast-systems",
+      "name": "Bilge and ballast systems",
+      "diff": "M"
+     },
+     {
+      "id": "nm-thermodynamics-and-marine-engi--sewage-disposal",
+      "name": "Sewage disposal",
+      "diff": "E"
+     },
+     {
+      "id": "nm-thermodynamics-and-marine-engi--oily-water-separator",
+      "name": "Oily water separator",
+      "diff": "M"
+     },
+     {
+      "id": "nm-thermodynamics-and-marine-engi--air-compressors",
+      "name": "Air compressors",
+      "diff": "E"
+     },
+     {
+      "id": "nm-thermodynamics-and-marine-engi--boilers",
+      "name": "Boilers",
+      "diff": "E"
+     },
+     {
+      "id": "nm-thermodynamics-and-marine-engi--heat-exchangers",
+      "name": "Heat exchangers",
+      "diff": "E"
+     },
+     {
+      "id": "nm-thermodynamics-and-marine-engi--waste-heat-recovery-systems",
+      "name": "Waste heat recovery systems",
+      "diff": "M"
+     },
+     {
+      "id": "nm-thermodynamics-and-marine-engi--heat-ventilation-and-air-conditioning-systems",
+      "name": "Heat, ventilation and air conditioning systems",
+      "diff": "M"
+     },
+     {
+      "id": "nm-thermodynamics-and-marine-engi--dech-machinery-and-cargo-handling-systems",
+      "name": "Dech machinery and cargo handling systems",
+      "diff": "M"
+     },
+     {
+      "id": "nm-thermodynamics-and-marine-engi--propulsions-and-steering-gear-systems",
+      "name": "Propulsions and steering gear systems",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ }
+]

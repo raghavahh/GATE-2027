@@ -2434,5 +2434,1569 @@
    "title": "Application layer protocols | DNS | SMTP  | Data Communication | Lec-36 | Bhanu Priya",
    "channel": "Education 4u"
   }
+ ],
+ "da-prob--counting-axioms-of-probability-and-sample-spaces": [
+  {
+   "id": "ScdqInkKPEs",
+   "title": "Probability for GATE DA/CS: L2 | Axioms & Inclusion-Exclusion Principle | Sachin Mittal | Ex Amazon",
+   "channel": "GO Classes for GATE DA"
+  },
+  {
+   "id": "CdPtzOawM0s",
+   "title": "GATE DA | Probability & Statistics | Counting | Lec 1 | Rule of Sum and Product | RBR | Jay Bansal",
+   "channel": "Prof. Ravindrababu Ravula"
+  },
+  {
+   "id": "lE9CyvVJkwM",
+   "title": "Sample Space & Events | GATE DA (Probability & Statistics: Topic 02)",
+   "channel": "GATE Data Lab"
+  },
+  {
+   "id": "eTEEmAo7xuU",
+   "title": "Probability for GATE DA/CS: L1 | Introduction to Probability | Sachin Mittal | Ex Amazon",
+   "channel": "GO Classes for GATE DA"
+  }
+ ],
+ "da-prob--conditional-probability-independence-and-bayes-theorem": [
+  {
+   "id": "tor6Duhm1EA",
+   "title": "Probability & Stats 02 |  | Conditional Probability & Baye's theorem | GATE Crash Course",
+   "channel": "GeeksforGeeks GATE English"
+  },
+  {
+   "id": "SfVwSAQyGmk",
+   "title": "Bayes Theorem Probability | Engineering Mathematics | Probability for GATE 2024 | BYJU'S GATE",
+   "channel": "BYJU'S Exam Prep GATE & ESE: EE,EC,IN,CS"
+  },
+  {
+   "id": "gLSs0Bmymvg",
+   "title": "Probability for GATE DA/CS: L3 | Introduction to Conditional Probability | Sachin Mittal | Ex Amazon",
+   "channel": "GO Classes for GATE DA"
+  },
+  {
+   "id": "qgP_P4HorVc",
+   "title": "Engineering Mathematics 09 | Conditional Probability & Baye's theorem | GATE - For All Branches",
+   "channel": "GeeksforGeeks GATE"
+  }
+ ],
+ "da-prob--random-variables-pmf-pdf-and-cdf": [
+  {
+   "id": "2n1hapVMHL0",
+   "title": "Lec-15: Random Variable | Probability and Statistics",
+   "channel": "Gate Smashers"
+  },
+  {
+   "id": "3v9w79NhsfI",
+   "title": "Random variables | Probability and Statistics | Khan Academy",
+   "channel": "Khan Academy"
+  },
+  {
+   "id": "gby3Qn8PFGU",
+   "title": "Probability & Statistics 03 | Random Variable Part 1 | GATE Crash Course",
+   "channel": "GeeksforGeeks GATE English"
+  }
+ ],
+ "da-prob--expectation-variance-covariance-and-correlation": [
+  {
+   "id": "8CVvEtCtwNI",
+   "title": "Probability for GATE DA/CS: L44 | Intro to Conditional Expectation | Sachin Mittal | Ex Amazon",
+   "channel": "GO Classes for GATE DA"
+  },
+  {
+   "id": "qFPHs2vpyMM",
+   "title": "Multivariate functions II: Expectations; Covariance and correlation",
+   "channel": "Vidya-mitra"
+  },
+  {
+   "id": "KCUMS0KRORQ",
+   "title": "Lecture 13 - Covariance vs Correlation in Telugu || Statistics in Telugu || Machine Learning",
+   "channel": "Nerchuko Academy"
+  },
+  {
+   "id": "PdRmsqqNcBk",
+   "title": "Lec 5: Moments: variance and covariance",
+   "channel": "NPTEL IIT Guwahati"
+  }
+ ],
+ "da-prob--discrete-distributions-bernoulli-binomial-poisson-geometric": [
+  {
+   "id": "wwuhjBoaT_g",
+   "title": "Bernoulli Distribution with Example || Lesson 51 || Probability & Statistics || Learning Monkey ||",
+   "channel": "Wisdomers - Computer Science and Engineering "
+  },
+  {
+   "id": "IFhvaO_b5ds",
+   "title": "Lec-18: Binomial or Bernoulli Distribution | Probability and Statistics",
+   "channel": "Gate Smashers"
+  },
+  {
+   "id": "_Hjp6aFJO40",
+   "title": "PROBABILITY DISTRIBUTION|ONE SHOT|NORMAL|POISSON|BINOMIAL DISTRIBUTION|ENGINEERING|DIPLOMA",
+   "channel": "Pradeep Giri Academy"
+  },
+  {
+   "id": "zv7_EwPyzCo",
+   "title": "Lec-20: Poisson Distribution | Probability and Statistics",
+   "channel": "Gate Smashers"
+  }
+ ],
+ "da-prob--continuous-distributions-uniform-exponential-normal": [
+  {
+   "id": "uT8uy8ZuGpw",
+   "title": "Continuous Distribution Solved Problems (105–113) | Probability & Statistics | L.38",
+   "channel": "GateXAIML"
+  },
+  {
+   "id": "n_1Z-HVemP0",
+   "title": "Lec-26: Uniform Distribution | Probability and Statistics",
+   "channel": "Gate Smashers"
+  },
+  {
+   "id": "4WtOStmVz1Y",
+   "title": "GATE 2025 | Engineering Mathematics 02 | Continuous Probability Distribution One Shot For DA",
+   "channel": "Unacademy GATE CSIT & DA"
+  },
+  {
+   "id": "y7q9U35R9v8",
+   "title": "Lec-27: Exponential Distribution | Probability and Statistics",
+   "channel": "Gate Smashers"
+  }
+ ],
+ "da-prob--joint-marginal-and-conditional-distributions": [
+  {
+   "id": "W7mbDjdWGVI",
+   "title": "#46, Marginal, Joint and Conditional Probability | BUSINESS STATISTICS",
+   "channel": "Appar Academy"
+  },
+  {
+   "id": "I4doem0yz78",
+   "title": "Marginal & Conditional Expectation Explained | Probability & Statistics L.25",
+   "channel": "GateXAIML"
+  },
+  {
+   "id": "CAXQvTKP8sg",
+   "title": "Marginal distribution and conditional distribution | AP Statistics | Khan Academy",
+   "channel": "Khan Academy"
+  },
+  {
+   "id": "EqqUfIQ8948",
+   "title": "Lecture 06: Joint, Marginal, and Conditional Distributions",
+   "channel": "MIT OpenCourseWare"
+  }
+ ],
+ "da-prob--central-limit-theorem": [
+  {
+   "id": "NJsK7wvDk6E",
+   "title": "Lec-43: Central Limit Theorem | Probability and Statistics",
+   "channel": "Gate Smashers"
+  },
+  {
+   "id": "H9sKZUoTJOg",
+   "title": "Lecture 1 Introduction to Statistics| Sampling Distributions & Central Limit Theorem CLT",
+   "channel": "GO Classes for GATE DA"
+  },
+  {
+   "id": "1DO9NLe7hqU",
+   "title": "Central Limit Theorem Explained with Examples | Probability & Statistics L.39",
+   "channel": "GateXAIML"
+  },
+  {
+   "id": "ej6jrQykZbk",
+   "title": "Lecture 12 - Central Limit Theorem in Telugu || Statistics in Telugu || Machine Learning in Telugu",
+   "channel": "Nerchuko Academy"
+  }
+ ],
+ "da-prob--descriptive-statistics-mean-median-mode-standard-deviation": [
+  {
+   "id": "RALOqYe9JEI",
+   "title": "Statistics - Mean, Median & Mode for a grouped frequency data",
+   "channel": "Vectors Academy"
+  },
+  {
+   "id": "kzcC53_eOxs",
+   "title": "Lec-21: Mean, Median And Mode of Grouped Data | Probability and Statistics",
+   "channel": "Gate Smashers"
+  },
+  {
+   "id": "1jfHFNSPJO0",
+   "title": "Lec-16: Mean, Variance and Standard Deviation of Distribution | Probability and Statistics",
+   "channel": "Gate Smashers"
+  },
+  {
+   "id": "ecY2x1xU1mE",
+   "title": "Lec-19: Mean, Median & Mode | Probability and Statistics",
+   "channel": "Gate Smashers"
+  }
+ ],
+ "da-prob--sampling-confidence-intervals-and-standard-error": [
+  {
+   "id": "hlM7zdf7zwU",
+   "title": "Confidence intervals and margin of error | AP Statistics | Khan Academy",
+   "channel": "Khan Academy"
+  },
+  {
+   "id": "NJsK7wvDk6E",
+   "title": "Lec-43: Central Limit Theorem | Probability and Statistics",
+   "channel": "Gate Smashers"
+  },
+  {
+   "id": "soZv_KKax3E",
+   "title": "8. Sampling and Standard Error",
+   "channel": "MIT OpenCourseWare"
+  },
+  {
+   "id": "H9sKZUoTJOg",
+   "title": "Lecture 1 Introduction to Statistics| Sampling Distributions & Central Limit Theorem CLT",
+   "channel": "GO Classes for GATE DA"
+  }
+ ],
+ "da-prob--hypothesis-testing-z-test-t-test-chi-squared-test": [
+  {
+   "id": "eGblJ-VFwE8",
+   "title": "Lec-44: Chi Square Test | Probability and Statistics",
+   "channel": "Gate Smashers"
+  },
+  {
+   "id": "Q67Z9jfUcWQ",
+   "title": "Lec-39: Introduction to Z-Test | Probability and Statistics",
+   "channel": "Gate Smashers"
+  },
+  {
+   "id": "XfK5G9OkHys",
+   "title": "Lec-35: T-Test (Part-1) | Probability and Statistics",
+   "channel": "Gate Smashers"
+  },
+  {
+   "id": "cJBQU6965cw",
+   "title": "Testing of hypothesis |Null hypothesis | COSM |STATISTICS|testing hypothesis full basics|introductio",
+   "channel": "RS ACADEMY"
+  }
+ ],
+ "da-la--vector-spaces-subspaces-linear-independence-and-basis": [
+  {
+   "id": "SzMQzgQHIkg",
+   "title": "Engineering Mathematics 12 | Linear Span, Basis, Dimensions | GATE  All Branches",
+   "channel": "GATE Wallah"
+  },
+  {
+   "id": "OtxDAPLXnTg",
+   "title": "Module 2 Lecture 1 : Introduction to Vector Spaces  Subspaces  Basis  and Span | GO Classes",
+   "channel": "GO Classes for GATE DA"
+  },
+  {
+   "id": "0xOzJXQ5RDI",
+   "title": "1c. Linearly Independent and Linearly Dependent in Linear Algebra | GO Classes | Sachin Mittal",
+   "channel": "GO Classes for GATE CS"
+  },
+  {
+   "id": "LleouZmkoWs",
+   "title": "Linear Algebra 04 | Vector Space & Subspace | DA | GATE Crash Course",
+   "channel": "GeeksforGeeks GATE English"
+  }
+ ],
+ "da-la--linear-transformations-and-projections": [
+  {
+   "id": "g0-B-HV1uVA",
+   "title": "Lecture 7: Introduction to Linear Transformation | Treating matrix as Transformation | GATE DA",
+   "channel": "GO Classes for GATE DA"
+  },
+  {
+   "id": "rFYr4V3zFxQ",
+   "title": "Lecture 20: Projection Matrix | GATE DA |  Linear Algebra  | Sachin Mittal",
+   "channel": "GO Classes for GATE DA"
+  },
+  {
+   "id": "4PCktDZJH8E",
+   "title": "Linear transformations | Matrix transformations | Linear Algebra | Khan Academy",
+   "channel": "Khan Academy"
+  },
+  {
+   "id": "9-R5XOs73Lo",
+   "title": "Projection Matrix Formulation | Linear Algebra | GATE DA",
+   "channel": "Scholar ML - GATE DA"
+  }
+ ],
+ "da-la--orthogonality-and-gram-schmidt": [
+  {
+   "id": "0MtwqhIwdrI",
+   "title": "17. Orthogonal Matrices and Gram-Schmidt",
+   "channel": "MIT OpenCourseWare"
+  },
+  {
+   "id": "5ZukXVDD1gI",
+   "title": "Lecture 18: Orthogonal Projection | GATE DA |  Linear Algebra Sachin Mittal",
+   "channel": "GO Classes for GATE DA"
+  },
+  {
+   "id": "rFYr4V3zFxQ",
+   "title": "Lecture 20: Projection Matrix | GATE DA |  Linear Algebra  | Sachin Mittal",
+   "channel": "GO Classes for GATE DA"
+  },
+  {
+   "id": "TRktLuAktBQ",
+   "title": "Gram-Schmidt Orthogonalization | MIT 18.06SC Linear Algebra, Fall 2011",
+   "channel": "MIT OpenCourseWare"
+  }
+ ],
+ "da-la--rank-determinants-and-systems-of-linear-equations": [
+  {
+   "id": "zCw9VIkDpTo",
+   "title": "51 Most Expected Questions of Linear Algebra (Part-1) (Rank & Linear System of Equations)",
+   "channel": "BYJU'S Exam Prep GATE & ESE: EE,EC,IN,CS"
+  },
+  {
+   "id": "tUDr-4sVOf4",
+   "title": "Engineering Mathematics 4 | Linear Algebra Understand the RANK Like never Before | GATE All Branches",
+   "channel": "GATE Wallah"
+  },
+  {
+   "id": "E_SKSsUIwpc",
+   "title": "Linear Algebra - All Tricks, Formulas, Patterns, Techniques In One Video",
+   "channel": "GATE Wallah"
+  },
+  {
+   "id": "F7nmfBJqqFw",
+   "title": "Engineering Mathematics 04 | Linear Algebra Part 4 | Rank Of a matrix | GATE - For All Branches",
+   "channel": "GeeksforGeeks GATE English"
+  }
+ ],
+ "da-la--eigenvalues-and-eigenvectors": [
+  {
+   "id": "GRdSTBaAZMY",
+   "title": "Engineering Mathematics 08 | Linear Algebra: Eigen Value & Eigen Vector | GATE All Branches",
+   "channel": "GATE Wallah"
+  },
+  {
+   "id": "NpZJBYC7d_8",
+   "title": "Engineering Mathematics 11 | Linear Algebra Part 11 | Eigen Value & Eigen Vector Part 1 | GATE Exam",
+   "channel": "GeeksforGeeks GATE English"
+  },
+  {
+   "id": "IWPoTiDxFeY",
+   "title": "Eigen values & Eigen vectors Part - 1 I Linear Algebra I Engineering Maths by Priyanka sharma Ma'am",
+   "channel": "GATE Studify Plus"
+  },
+  {
+   "id": "2GIFuIVvdTk",
+   "title": "Engineering Mathematics 03 | Eigen Values and Eigen Vectors | GATE - For All Branches",
+   "channel": "GeeksforGeeks GATE"
+  }
+ ],
+ "da-la--quadratic-forms-and-positive-definite-matrices": [
+  {
+   "id": "cvG8W3Fncgw",
+   "title": "Lecture 24: Positive Definite Matrix And Quadratic Forms of Matrices|GATE DA Linear Algebra Module-2",
+   "channel": "GO Classes for GATE DA"
+  },
+  {
+   "id": "s-qRIsWlUp0",
+   "title": "Linear Algebra 05 | Quadratic Forms & Partition Matrics | DA | GATE Crash Course",
+   "channel": "GeeksforGeeks GATE English"
+  },
+  {
+   "id": "6t3NL8XBTj4",
+   "title": "Quadratic Form | Type & Matrix of Quadratic Form | Linear Algebra | MSQs Series by Gp sir",
+   "channel": "Dr.Gajendra Purohit - GATE / IIT JAM / CSIR NET"
+  },
+  {
+   "id": "xSlh9TYJnjA",
+   "title": "Linear Algebra | Quadratic Form in One Shot by GP Sir",
+   "channel": "Dr.Gajendra Purohit - GATE / IIT JAM / CSIR NET"
+  }
+ ],
+ "da-la--lu-decomposition": [
+  {
+   "id": "PAat5sF1shc",
+   "title": "Lecture 11a.  LU Decomposition | Shortcut to Find Decomposition | Linear Algebra | Sachin Mittal",
+   "channel": "GO Classes for GATE CS"
+  },
+  {
+   "id": "GguYHV8Xov0",
+   "title": "LU Decomposition | Linear Algebra | Engineering Mathematics for GATE 2023 Exam Prep | BYJU'S GATE",
+   "channel": "BYJU'S Exam Prep GATE & ESE: EE,EC,IN,CS"
+  },
+  {
+   "id": "IMglQFxMJck",
+   "title": "Engineering Mathematics 09 | Linear Algebra Part 9 | LU Decomposition Part 1 | GATE For All Branches",
+   "channel": "GeeksforGeeks GATE English"
+  },
+  {
+   "id": "tSHl9JG61YU",
+   "title": "Engineering Mathematics 10 | Linear Algebra Part 10 |LU Decomposition Part 2 | GATE For All Branches",
+   "channel": "GeeksforGeeks GATE English"
+  }
+ ],
+ "da-la--singular-value-decomposition": [
+  {
+   "id": "mBcLRGuAFUk",
+   "title": "Singular Value Decomposition (the SVD)",
+   "channel": "MIT OpenCourseWare"
+  },
+  {
+   "id": "s4V2sN3nduI",
+   "title": "Lecture 13: Introduction to Singular Value Decomposition (Part-1) |GO Classes Linear Algebra GATE DA",
+   "channel": "GO Classes for GATE DA"
+  },
+  {
+   "id": "2ubinT7LEp4",
+   "title": "Geometry of Singular Value Decomposition (SVD) | GO Classes DA",
+   "channel": "GO Classes for GATE DA"
+  },
+  {
+   "id": "bZZ2UfJMIuA",
+   "title": "Lecture 16: Geometry of Singular Value Decomposition | SVD | GATE DA |  Linear Algebra Sachin Mittal",
+   "channel": "GO Classes for GATE DA"
+  }
+ ],
+ "da-calc--limits-continuity-and-differentiability": [
+  {
+   "id": "IXft4RWtTlQ",
+   "title": "Continuity & Differentiability | GATE 2023 Engineering Mathematics | Complete Concept | BYJU'S GATE",
+   "channel": "BYJU'S Exam Prep GATE & ESE: EE,EC,IN,CS"
+  },
+  {
+   "id": "PwdZ-hayJLk",
+   "title": "GATE  Engineering Mathematics  Limit,  Continuity and differentiability Concept (Calculus) -  Part 1",
+   "channel": "JNFF Academy"
+  },
+  {
+   "id": "hA585QAk83s",
+   "title": "Limit and Continuity with ALL GATE PYQs | Revision and Practice | Calculus",
+   "channel": "GO Classes for GATE CS"
+  },
+  {
+   "id": "zmrNsI7U_1U",
+   "title": "GATE 2026 | Calculus & Optimization | PYQ's Series | DA | GATE PYQ",
+   "channel": "GeeksforGeeks GATE"
+  }
+ ],
+ "da-calc--taylor-series": [
+  {
+   "id": "AXqdLYIEtac",
+   "title": "GATE DA 2026 IIT Guwahati Calculus & Optimization  | Pattern, Questions, Concepts & GATE PYQs",
+   "channel": "GateXAIML"
+  },
+  {
+   "id": "cYYTkoOYFMM",
+   "title": "Taylor Series Explained with Solved Numerical in Hindi | Engineering Mathematics Series",
+   "channel": "5 Minutes Engineering"
+  },
+  {
+   "id": "5xp-ATpXLXE",
+   "title": "Taylor's series expansion|taylor theorem|write the taylor series for f(x)=e^x at x#btechmaths #btech",
+   "channel": "RS ACADEMY"
+  },
+  {
+   "id": "TVjEM9QvUmo",
+   "title": "Engineering Mathematics 03 | Taylor and Maclaurin Series | All Branches | GATE 2025 Series",
+   "channel": "GATE Wallah"
+  }
+ ],
+ "da-calc--functions-of-several-variables-and-partial-derivatives": [
+  {
+   "id": "m1nL-ns2dMk",
+   "title": "multivariable calculus|partial derivatives|basics|introduction|1st order 2nd order#btechmaths #btech",
+   "channel": "RS ACADEMY"
+  },
+  {
+   "id": "A5GtMC2fXIY",
+   "title": "🟡06 - First Order Partial Derivatives of functions of Several Variables",
+   "channel": "SkanCity Academy"
+  },
+  {
+   "id": "VIMZq5x4Wqk",
+   "title": "PARTIAL DIFFERENTIATION|ONE SHOT |ALL UNIVERSITY|ENGINEERING MATHEMATICS|PRADEEP GIRI SIR",
+   "channel": "Pradeep Giri Academy"
+  },
+  {
+   "id": "FK8yUzr_YuI",
+   "title": "Lecture 09 : Partial Derivatives of Function of Two Variable",
+   "channel": "NPTEL IIT Kharagpur"
+  }
+ ],
+ "da-calc--maxima-and-minima-of-a-single-variable": [
+  {
+   "id": "CyP9fgrx2Yg",
+   "title": "Maxima & Minima | GATE 2023 Engineering Mathematics | Free Online GATE Concept Class",
+   "channel": "BYJU'S Exam Prep GATE & ESE: EE,EC,IN,CS"
+  },
+  {
+   "id": "O58n1Dk0YzM",
+   "title": "maxima and minima engineering mathematics |maximum and minimum|multivariable calculus|basics| #btech",
+   "channel": "RS ACADEMY"
+  },
+  {
+   "id": "sxXuaDou83c",
+   "title": "Maxima and Minima | GATE Engineering Maths 2023 Exam | Free Online GATE Class - P1 | BYJU'S GATE",
+   "channel": "BYJU'S Exam Prep GATE & ESE: EE,EC,IN,CS"
+  },
+  {
+   "id": "BIUXnO7BWWI",
+   "title": "Engineering Maths| Maxima & Minima of single-variable function -1|Lec 10| GATE ESE 2021 All Branches",
+   "channel": "Kreatryx GATE - EE, ECE & IN by Unacademy"
+  }
+ ],
+ "da-calc--optimization-in-several-variables-and-gradient-descent": [
+  {
+   "id": "1ROTgo_Uwsw",
+   "title": "Lecture 8  Linear Regression and Gradient Descent | GO Classes | Sachin Mittal",
+   "channel": "GO Classes for GATE DA"
+  },
+  {
+   "id": "u1JV5CWQR3w",
+   "title": "Constrained Optimisation with Equality Constraints | Lagrangian Method | Calculus for GATE DA|Sachin",
+   "channel": "GO Classes for GATE DA"
+  },
+  {
+   "id": "zmrNsI7U_1U",
+   "title": "GATE 2026 | Calculus & Optimization | PYQ's Series | DA | GATE PYQ",
+   "channel": "GeeksforGeeks GATE"
+  },
+  {
+   "id": "vtOI7NgXMQQ",
+   "title": "Introduction to Gradient Descent | How Models Minimize Loss",
+   "channel": "Gate Smashers"
+  }
+ ],
+ "da-prog--programming-in-python": [
+  {
+   "id": "cklAK_i-dKU",
+   "title": "GATE 2026: DA | Basics & Programing in Python | Score Booster Series | NAT & MSQ Question Solving",
+   "channel": "ACE Engineering Academy"
+  },
+  {
+   "id": "e2pgkbQvpk0",
+   "title": "for loop | Lecture 8 | Python Complete Course | GATE DA | Puneet Kansal",
+   "channel": "GATE DA"
+  },
+  {
+   "id": "Nx1N5xpxk8A",
+   "title": "Python Operators | Lecture 3 | Python Complete Course | GATE DA | Puneet Kansal",
+   "channel": "GATE DA"
+  }
+ ],
+ "da-prog--recursion": [
+  {
+   "id": "7hk90LYUItw",
+   "title": "Recursion | Lecture 13 | Python Complete Course | GATE DA | Puneet Kansal",
+   "channel": "GATE DA"
+  },
+  {
+   "id": "JPAA1FbM7jk",
+   "title": "Recursion tree method | Solving Recurrences | Data Structure & Algorithm | Gate Applied Course",
+   "channel": "GATE Applied Course"
+  },
+  {
+   "id": "ix8Ue8EC8jw",
+   "title": "Recursion GATE Exercise 1",
+   "channel": "TutorialsPoint"
+  },
+  {
+   "id": "2y0HQGd1-nA",
+   "title": "Master theorem | Solving Recurrences | Data Structure & Algorithm | GATE APPLIED COURSE",
+   "channel": "GATE Applied Course"
+  }
+ ],
+ "da-prog--stacks-queues-and-linked-lists": [
+  {
+   "id": "4_xdaIsY2nk",
+   "title": "Data Structure 03 | Stack and Queue  | CS & IT | GATE Crash Course",
+   "channel": "GATE Wallah CSE & DA"
+  },
+  {
+   "id": "bxRVz8zklWM",
+   "title": "3.1 Stack in Data Structure | Introduction to Stack | Data Structures Tutorials",
+   "channel": "Jenny's Lectures CS IT"
+  },
+  {
+   "id": "T_UXDTy23DQ",
+   "title": "3.3 Stack implementation using Linked List | Data Structures and Algorithm Tutorials",
+   "channel": "Jenny's Lectures CS IT"
+  },
+  {
+   "id": "i7s1ZqsjPaM",
+   "title": "Data Structure with Python 03 | Stack Data Structure | DA | GATE Crash Course",
+   "channel": "GeeksforGeeks GATE English"
+  }
+ ],
+ "da-prog--trees-and-hash-tables": [
+  {
+   "id": "i-egOFQCW-8",
+   "title": "Data Structure with Python 09 | Hashing | DA | GATE Crash Course",
+   "channel": "GeeksforGeeks GATE English"
+  },
+  {
+   "id": "3_bPdv1b6fU",
+   "title": "Data Structures & Programming 08 : Hashing | CS & IT | GATE 2026 One Shot Series",
+   "channel": "GATE Wallah CSE & DA"
+  },
+  {
+   "id": "xJ1btG8C19o",
+   "title": "Data Structure Through Python 05 : Hashing | DA | GATE 2026 Crash Course",
+   "channel": "GATE Wallah CSE & DA"
+  },
+  {
+   "id": "97l1h3dgaIM",
+   "title": "Data Structure 07 | Hashing | CS & IT | GATE Crash Course",
+   "channel": "GATE Wallah CSE & DA"
+  }
+ ],
+ "da-prog--searching-linear-and-binary-search": [
+  {
+   "id": "C46QfTjVCNU",
+   "title": "7.1 Linear Search Algorithm | Linear Search in C | Data Structures Tutorials",
+   "channel": "Jenny's Lectures CS IT"
+  },
+  {
+   "id": "t9gErvSVid0",
+   "title": "Lec-14: Linear Search in Data Structure by #Naina Mam | Time Complexity",
+   "channel": "Gate Smashers"
+  },
+  {
+   "id": "V_T5NuccwRA",
+   "title": "7.2 What is Binary Search | Binary Search Algorithm with example | Data Structures Tutorials",
+   "channel": "Jenny's Lectures CS IT"
+  },
+  {
+   "id": "k4xVQhMERuQ",
+   "title": "linear and binary search with examples and algorithm  | pps | linear and binary search difference",
+   "channel": "NS lectures"
+  }
+ ],
+ "da-prog--sorting-selection-bubble-insertion-merge-and-quick-sort": [
+  {
+   "id": "m8QrJ8LDIHE",
+   "title": "insertion sort, selection sort, bubble sort, algorithm and examples |  pps | c language",
+   "channel": "NS lectures"
+  },
+  {
+   "id": "R37qrU8YW-c",
+   "title": "GATE 2027 - ALGORITHM 05- Sorting Algorithm - Imp Terminologies, Bubble & Selection Sort  | CSE & DA",
+   "channel": "GATE Wallah CSE & DA"
+  },
+  {
+   "id": "9oWd4VJOwr0",
+   "title": "7.5 Selection Sort in Data Structure | Selection Sort Algorithm with C Program",
+   "channel": "Jenny's Lectures CS IT"
+  },
+  {
+   "id": "UlYs7tvyErk",
+   "title": "Algorithms 03 : Sorting Algorithms | CS / DA | GATE 2026 Crash Course",
+   "channel": "GATE Wallah CSE & DA"
+  }
+ ],
+ "da-prog--divide-and-conquer": [
+  {
+   "id": "y6kXaeOmgWM",
+   "title": "Introduction to Divide and Conquer Algorithm | General Method | Control Abstraction |Time Complexity",
+   "channel": "Sudhakar Atchala"
+  },
+  {
+   "id": "QPZjMPWgL20",
+   "title": "GATE 2027 - ALGORITHM 09 | Divide and Conquer - Masters Method and Important Questions | CSE & DA",
+   "channel": "GATE Wallah CSE & DA"
+  },
+  {
+   "id": "gQ-3TMwMZfQ",
+   "title": "Algorithms 04 : Divide and Conquer | CS / DA | GATE 2026 Crash Course",
+   "channel": "GATE Wallah CSE & DA"
+  },
+  {
+   "id": "2Rr2tW9zvRg",
+   "title": "2 Divide And Conquer",
+   "channel": "Abdul Bari"
+  }
+ ],
+ "da-prog--graph-traversals-and-shortest-path": [
+  {
+   "id": "N2P7w22tN9c",
+   "title": "L-4.15: BFS & DFS | Breadth First Search | Depth First Search | Graph Traversing | DAA",
+   "channel": "Gate Smashers"
+  },
+  {
+   "id": "pcKY4hjDrxk",
+   "title": "5.1 Graph Traversals - BFS & DFS -Breadth First Search and Depth First Search",
+   "channel": "Abdul Bari"
+  },
+  {
+   "id": "vf-cxgUXcMk",
+   "title": "6.2 BFS and DFS Graph Traversals| Breadth First Search and Depth First Search | Data structures",
+   "channel": "Jenny's Lectures CS IT"
+  },
+  {
+   "id": "mRKDEUO_uCk",
+   "title": "Dijkstra Proof, BFS, and DAG Shortest Path Analysis and Proof of working | Interesting | With NOTES",
+   "channel": "GO Classes for GATE CS"
+  }
+ ],
+ "da-db--er-model-and-relational-model": [
+  {
+   "id": "PpT3Hh66nAM",
+   "title": "ER Model in DBMS || Entity || Attribute || Entity Set || Types of Attributes || Relationship || Degr",
+   "channel": "Sudhakar Atchala"
+  },
+  {
+   "id": "DeO_hHqUWi8",
+   "title": "Database Management System 08 | ER And Relational Model (Part-1) | DS / AI | GATE 2025 Crash Course",
+   "channel": "GATE Wallah"
+  },
+  {
+   "id": "gbVev8RuZLg",
+   "title": "Lec-16: Introduction to ER model | ER Model क्या है",
+   "channel": "Gate Smashers"
+  },
+  {
+   "id": "wOD02sezmX8",
+   "title": "Basic Concepts of Entity-Relationship Model",
+   "channel": "Neso Academy"
+  }
+ ],
+ "da-db--relational-algebra-and-tuple-calculus": [
+  {
+   "id": "qnMrtgyDa08",
+   "title": "Concepts of Tuple Relational Calculus | DBMS for GATE 2024 | Computer Science Engineering | BYJU'S",
+   "channel": "BYJU'S Exam Prep GATE & ESE: EE,EC,IN,CS"
+  },
+  {
+   "id": "4YilEjkNPrQ",
+   "title": "Lec-50: Introduction to Relational Algebra | Database Management System",
+   "channel": "Gate Smashers"
+  },
+  {
+   "id": "ryeGFOMZhK4",
+   "title": "relational algebra complete topic in dbms, various operations, various operators, relational algebra",
+   "channel": "NS lectures"
+  },
+  {
+   "id": "x-ck_MdpnUw",
+   "title": "GATE DA | DBMS & WAREHOUSING - Introduction and Course Overview | Mindspan Education | Rajeev Kumar",
+   "channel": "MindSpan Education - GATE DA"
+  }
+ ],
+ "da-db--sql-queries": [
+  {
+   "id": "LVavVZDRyM4",
+   "title": "Data Warehousing One Shot | Most Asked Questions | DA | Target GATE 2026 Maha Revision",
+   "channel": "GATE Wallah CSE & DA"
+  },
+  {
+   "id": "x-ck_MdpnUw",
+   "title": "GATE DA | DBMS & WAREHOUSING - Introduction and Course Overview | Mindspan Education | Rajeev Kumar",
+   "channel": "MindSpan Education - GATE DA"
+  },
+  {
+   "id": "756yid3gmAc",
+   "title": "SQL Query 5 | lecture-88 | GATE CS & DA | Prof. Ravindrababu Ravula",
+   "channel": "Prof. Ravindrababu Ravula"
+  },
+  {
+   "id": "ze-7mffZJ-0",
+   "title": "SQL Query 8 | Lecture-91 | GATE CS & DA | Prof. Ravindrababu Ravula",
+   "channel": "Prof. Ravindrababu Ravula"
+  }
+ ],
+ "da-db--integrity-constraints-and-normal-forms": [
+  {
+   "id": "YTJdBA9wZro",
+   "title": "Lec-8: Integrity Constraints in Database with Examples",
+   "channel": "Gate Smashers"
+  },
+  {
+   "id": "eK7gL-lGpjU",
+   "title": "Integrity Constraints in DBMS || Data Base Management Systems || DBMS || Relational Model",
+   "channel": "Sudhakar Atchala"
+  },
+  {
+   "id": "IBEuwmYsMKI",
+   "title": "normalization in dbms | normal forms | 1nf, 2nf, 3nf, bcnf, 4nf, 5nf normal forms with examples",
+   "channel": "NS lectures"
+  },
+  {
+   "id": "5GDTIUVlHB8",
+   "title": "Lec-24: Introduction to Normalization | Insertion, Deletion & Updation Anomaly",
+   "channel": "Gate Smashers"
+  }
+ ],
+ "da-db--file-organisation-and-indexing": [
+  {
+   "id": "w8J7X1h6kDo",
+   "title": "Database Management System 11 | File Organization & Indexing | CS & IT | GATE 2024 FastTrack Batch",
+   "channel": "GATE Wallah CSE & DA"
+  },
+  {
+   "id": "E--yzX05_k8",
+   "title": "Lec-107: Why Indexing is used | Indexing Beginning | DBMS",
+   "channel": "Gate Smashers"
+  },
+  {
+   "id": "S_P2yyQuB8M",
+   "title": "File organization in database | importance | Part -1/2 | DBMS | Lec-69 | Bhanu Priya",
+   "channel": "Education 4u"
+  },
+  {
+   "id": "uLb9MJnQf08",
+   "title": "File Organization & Indexing | Lecture-1 | DBMS | GATE CS & DA | Anshul Sharma | MindMatrix Learning",
+   "channel": "MindMatrix Learning - GATE CS & GATE DA"
+  }
+ ],
+ "da-db--data-types-transformation-normalisation-and-discretisation": [
+  {
+   "id": "lggqjmQzsGI",
+   "title": "Lec - 9 : Normalization in Data Transformation | Min-Max & Z-score Techniques with example",
+   "channel": "Gate Smashers"
+  },
+  {
+   "id": "_IQRU6ZrPoI",
+   "title": "Lec - 14: Types of Data | Real life example | Data Warehouse",
+   "channel": "Gate Smashers"
+  },
+  {
+   "id": "IBEuwmYsMKI",
+   "title": "normalization in dbms | normal forms | 1nf, 2nf, 3nf, bcnf, 4nf, 5nf normal forms with examples",
+   "channel": "NS lectures"
+  },
+  {
+   "id": "y-6KQ4n88ik",
+   "title": "Warehousing 02 : Data Normalization & Compression, Concept Hierarchy | DS & AI | GATE 2026 One Shot",
+   "channel": "GATE Wallah CSE & DA"
+  }
+ ],
+ "da-db--data-warehouse-modelling-schemas-hierarchies-and-measures": [
+  {
+   "id": "kLpGBy6Q5BA",
+   "title": "Lec -15 : Star vs Snowflake Schema | Data Warehouse",
+   "channel": "Gate Smashers"
+  },
+  {
+   "id": "KGu8tXykC40",
+   "title": "Dimensional Modeling  || Star Schema || Schemas in Data Warehouse",
+   "channel": "Computer Science Concepts"
+  },
+  {
+   "id": "SzLwkYH6vmA",
+   "title": "Lec - 22 : Concept Hierarchy, Categorization & Computation | Data Warehouse",
+   "channel": "Gate Smashers"
+  },
+  {
+   "id": "NphMcnU8ymU",
+   "title": "Lec - 2: Introduction to Data Warehouse🏺 with Examples",
+   "channel": "Gate Smashers"
+  }
+ ],
+ "da-ml--regression-simple-multiple-and-ridge": [
+  {
+   "id": "cHT-qLnRm0E",
+   "title": "Lec-3: Introduction to Regression with Real Life Examples",
+   "channel": "Gate Smashers"
+  },
+  {
+   "id": "EHNPWLK2hxE",
+   "title": "Machine Learning 02 | Linear Regression | DA | GATE Crash Course",
+   "channel": "GeeksforGeeks GATE English"
+  },
+  {
+   "id": "9hU2RZ_Y3DA",
+   "title": "Lec-37: Ridge and Lasso Regression | Machine Learning",
+   "channel": "Gate Smashers"
+  },
+  {
+   "id": "zUQr6HAAKp4",
+   "title": "Lec-4: Linear Regression📈 with Real life examples & Calculations | Easiest Explanation",
+   "channel": "Gate Smashers"
+  }
+ ],
+ "da-ml--logistic-regression": [
+  {
+   "id": "kxqgbmBxnF4",
+   "title": "Supervised Learning - Logistic Regression | Machine Learning Series | GATE 2025 | GeeksforGeeks",
+   "channel": "GeeksforGeeks GATE"
+  },
+  {
+   "id": "PJ_zuEcYUAg",
+   "title": "Machine Learning 03 | Logistic Regression | DA | GATE Crash Course",
+   "channel": "GeeksforGeeks GATE English"
+  },
+  {
+   "id": "r8OjlgWpAI0",
+   "title": "Lec-5: Logistic Regression with Simplest & Easiest Example | Machine Learning",
+   "channel": "Gate Smashers"
+  },
+  {
+   "id": "EO5qMmT9QGg",
+   "title": "Machine Learning 04 | Logistic Regression & Decision Tree | DA | GATE Crash Course",
+   "channel": "GeeksforGeeks GATE English"
+  }
+ ],
+ "da-ml--k-nearest-neighbours": [
+  {
+   "id": "O1nWXTXcCwI",
+   "title": "Lec-7: kNN Classification with Real Life Example | Movie Imdb Example | Supervised Learning",
+   "channel": "Gate Smashers"
+  },
+  {
+   "id": "hlHn7ZH8j8E",
+   "title": "KNN Algorithm in Machine Learning | K Nearest Neighbor | KNN Algorithm Example |Tutorialspoint",
+   "channel": "TutorialsPoint"
+  },
+  {
+   "id": "iCJmTYu6Inw",
+   "title": "k nearest neighbor algorithm | k nearest neighbor classifier  | data mining | knn algorithm",
+   "channel": "NS lectures"
+  },
+  {
+   "id": "CJjSPCslxqQ",
+   "title": "K-Nearest Neighbor Classification ll KNN Classification Explained with Solved Example in Hindi",
+   "channel": "5 Minutes Engineering"
+  }
+ ],
+ "da-ml--naive-bayes-classifier": [
+  {
+   "id": "1XuhLd_ct7Y",
+   "title": "Machine Learning 04 : Naive Bayes One Shot | DS & AI | GATE 2026 One Shot Series",
+   "channel": "GATE Wallah CSE & DA"
+  },
+  {
+   "id": "HTV6JPzqrRU",
+   "title": "GATE CLASS 2025-2026 - MACHINE LEARNING - NAIVE BAYES CLASSIFIER - Dr.K.SUBHA - S.A. ENGG. COLLEGE.",
+   "channel": "S.A. Engineering College (Autonomous)"
+  },
+  {
+   "id": "OW8HqIxNPUw",
+   "title": "Machine Learning 04 | Naive Bayes Classifier | GATE 2026 Machine Learning Crash Course",
+   "channel": "Unacademy GATE CSIT & DA"
+  },
+  {
+   "id": "GBMMtXRiQX0",
+   "title": "Lec-8: Naive Bayes Classification Full Explanation with examples | Supervised Learning",
+   "channel": "Gate Smashers"
+  }
+ ],
+ "da-ml--linear-discriminant-analysis": [
+  {
+   "id": "9LO-bj1jyz4",
+   "title": "Lec-42: Linear Discriminant Analysis (LDA) | Machine Learning",
+   "channel": "Gate Smashers"
+  },
+  {
+   "id": "PHptsjtlbUg",
+   "title": "Machine Learning 10 | Linear Discriminant Analysis | DA | GATE Crash Course",
+   "channel": "GeeksforGeeks GATE English"
+  },
+  {
+   "id": "N1-wysytkMo",
+   "title": "1.17 Linear Discriminant Analysis (LDA) | LDA vs PCA | Dimensionality Reduction | Machine Learning",
+   "channel": "Ritika's Tutorials for CS & IT"
+  },
+  {
+   "id": "8ee6-HSKwQY",
+   "title": "Linear Discriminant Analysis Explained with Example | Machine Learning From Zero | L.23",
+   "channel": "GateXAIML"
+  }
+ ],
+ "da-ml--support-vector-machines": [
+  {
+   "id": "G8pzpPvEfow",
+   "title": "Support Vector Machine | Machine Learning Series | GATE 2025 | GeeksforGeeks",
+   "channel": "GeeksforGeeks GATE"
+  },
+  {
+   "id": "NDqACjz5j8g",
+   "title": "Lec-40: Support Vector Machines (SVMs) | Machine Learning",
+   "channel": "Gate Smashers"
+  },
+  {
+   "id": "Legthy9H604",
+   "title": "Lec 43: Support vector machines",
+   "channel": "NPTEL IIT Guwahati"
+  },
+  {
+   "id": "_PwhiWxHK8o",
+   "title": "16. Learning: Support Vector Machines",
+   "channel": "MIT OpenCourseWare"
+  }
+ ],
+ "da-ml--decision-trees": [
+  {
+   "id": "bEpyPy-fHTc",
+   "title": "Decision Trees | Part 1 | Machine Learning Series | GATE 2025 | GeeksforGeeks",
+   "channel": "GeeksforGeeks GATE"
+  },
+  {
+   "id": "agPOI_4R_pw",
+   "title": "Machine Learning 03 | Decision Tree in Machine Learning | GATE 2026 Machine Learning Crash Course",
+   "channel": "Unacademy GATE CSIT & DA"
+  },
+  {
+   "id": "mvveVcbHynE",
+   "title": "Lec-9: Introduction to Decision Tree 🌲 with Real life examples",
+   "channel": "Gate Smashers"
+  },
+  {
+   "id": "ZIJUfGbc-KM",
+   "title": "Machine Learning 04 | Decision Tree | DS & AI | GATE 2025 Crash Course",
+   "channel": "GATE Wallah"
+  }
+ ],
+ "da-ml--bias-variance-trade-off-and-cross-validation": [
+  {
+   "id": "O-qONAxkvK0",
+   "title": "Lec-43: Bias & Variance Tradeoff Explained: How to Fix Overfitting & Underfitting?",
+   "channel": "Gate Smashers"
+  },
+  {
+   "id": "g5gH7rXBBCw",
+   "title": "GATE CLASS 2025-2026 - MACHINE LEARNING - BIAS-VARIENCE TRADE-OFF - Mr.S.NIRMAL SAM - S.A.E.C.",
+   "channel": "S.A. Engineering College (Autonomous)"
+  },
+  {
+   "id": "7P8Hxf5OYcE",
+   "title": "Bias, Variance, Overfitting, and Underfitting in Telugu || Machine Learning in Telugu || Nerchuko",
+   "channel": "Nerchuko Academy"
+  },
+  {
+   "id": "v6DtYYafrWQ",
+   "title": "Lec-26: Cross Validation in Machine Learning with Examples",
+   "channel": "Gate Smashers"
+  }
+ ],
+ "da-ml--neural-networks-perceptron-and-multi-layer-perceptron": [
+  {
+   "id": "rvxd13IHx1Y",
+   "title": "Lec-48: Perceptron Learning in ANN | Single Layer Perceptron Model",
+   "channel": "Gate Smashers"
+  },
+  {
+   "id": "BPOl4_vN3IM",
+   "title": "Lec-49: What is Multilayer Perceptron (MLP)? | How It Works in Machine Learning",
+   "channel": "Gate Smashers"
+  }
+ ],
+ "da-ml--clustering-k-means-and-k-medoids": [
+  {
+   "id": "FosEwkYIGmU",
+   "title": "Lec-17: K-medoids Clustering with Numerical Example | Machine Learning",
+   "channel": "Gate Smashers"
+  },
+  {
+   "id": "8_Cq7YuC7YI",
+   "title": "Machine Learning 08 | Clustering Part 1 | DA | GATE Crash Course",
+   "channel": "GeeksforGeeks GATE English"
+  },
+  {
+   "id": "5FpsGnkbEpM",
+   "title": "Lec-13: K-mean Clustering with Numerical Example | Unsupervised Learning | Machine🖥️ Learning 🙇‍♂️🙇",
+   "channel": "Gate Smashers"
+  },
+  {
+   "id": "2PHC4djQlsA",
+   "title": "ML 22 : K-means Clustering Algorithm with Solved Examples | Clustering",
+   "channel": "CS & IT Tutorials by Vrushali 👩‍🎓"
+  }
+ ],
+ "da-ml--hierarchical-clustering": [
+  {
+   "id": "zxQF8Rmpk1M",
+   "title": "Lec-14: Hierarchical Clustering | Agglomerative vs Divisive with examples",
+   "channel": "Gate Smashers"
+  },
+  {
+   "id": "8_Cq7YuC7YI",
+   "title": "Machine Learning 08 | Clustering Part 1 | DA | GATE Crash Course",
+   "channel": "GeeksforGeeks GATE English"
+  },
+  {
+   "id": "bjlIf0zb0Zs",
+   "title": "Hierarchical Clustering | Machine Learning Series | GATE 2025 | GeeksforGeeks",
+   "channel": "GeeksforGeeks GATE"
+  },
+  {
+   "id": "ruYIctYykk8",
+   "title": "Machine Learning 09 | Clustering Part 2 | DA | GATE Crash Course",
+   "channel": "GeeksforGeeks GATE English"
+  }
+ ],
+ "da-ml--dimensionality-reduction-principal-component-analysis": [
+  {
+   "id": "Dv-Kk7PDEas",
+   "title": "Lec-46: Principal Component Analysis (PCA) Explained | Machine Learning",
+   "channel": "Gate Smashers"
+  },
+  {
+   "id": "7kzNmJtTKX0",
+   "title": "Machine Learning 11 | Principal Component Analysis | DA | GATE Crash Course",
+   "channel": "GeeksforGeeks GATE English"
+  },
+  {
+   "id": "Up46jS_Tb1s",
+   "title": "Lec 45: Principle component analysis",
+   "channel": "NPTEL IIT Guwahati"
+  },
+  {
+   "id": "nh4dXjSKO20",
+   "title": "Lec 26: Dimensionality Problem and Principal Component Analysis",
+   "channel": "NPTEL IIT Guwahati"
+  }
+ ],
+ "da-ai--uninformed-search-bfs-dfs-uniform-cost": [
+  {
+   "id": "XB2vTcscQHs",
+   "title": "Breadth First Search (BFS) with example || Uninformed Search || Artificial Intelligence",
+   "channel": "Sudhakar Atchala"
+  },
+  {
+   "id": "mcgqWMurfks",
+   "title": "Uniform Cost Search Algorithm | UCS Search Algorithm in Artificial Intelligence | Uninformed Search",
+   "channel": "Sudhakar Atchala"
+  },
+  {
+   "id": "qul0f79gxGs",
+   "title": "Lec-7: Breadth First Search (BFS) with example | Uninformed Search | Artificial Intelligence",
+   "channel": "Gate Smashers"
+  },
+  {
+   "id": "RNW8iRVIoD0",
+   "title": "Artificial Intelligence 01 : Uninformed Search BFS, DFS Basics | DS & AI | GATE 2026 One Shot",
+   "channel": "GATE Wallah CSE & DA"
+  }
+ ],
+ "da-ai--informed-search-greedy-and-a": [
+  {
+   "id": "sW3RaJLIe1s",
+   "title": "Artificial Intelligence 03: Informed Search Heuristic & Greedy Best First Search | GATE 2026 DS & AI",
+   "channel": "GATE Wallah CSE & DA"
+  },
+  {
+   "id": "UCYLJQfZg9c",
+   "title": "Artificial Intelligence 04 |  Informed Search Algorithms | DA | GATE Crash Course",
+   "channel": "GeeksforGeeks GATE English"
+  },
+  {
+   "id": "tvAh0JZF2YE",
+   "title": "Lec-20: A* algorithm in AI (artificial intelligence) in HINDI | A* algorithm with example",
+   "channel": "Gate Smashers"
+  },
+  {
+   "id": "3jBH7uTegQ4",
+   "title": "A* algorithm in AI (artificial intelligence) with example || A Star algorithm || Informed search",
+   "channel": "Sudhakar Atchala"
+  }
+ ],
+ "da-ai--adversarial-search-minimax-and-alpha-beta-pruning": [
+  {
+   "id": "Emea4wE_KZU",
+   "title": "Alpha Beta Pruning  Search Algorithm with Solved Example in Artificial Intelligence || Game Playing",
+   "channel": "Sudhakar Atchala"
+  },
+  {
+   "id": "dEs_kbvu_0s",
+   "title": "Lec-25: Alpha Beta Pruning in Hindi with Example | Artificial Intelligence",
+   "channel": "Gate Smashers"
+  },
+  {
+   "id": "Ntu8nNBL28o",
+   "title": "Lec-24: Minimax Algorithm in Game Playing | Artificial Intelligence",
+   "channel": "Gate Smashers"
+  },
+  {
+   "id": "kaJSgcqKbJQ",
+   "title": "Artificial Intelligence 04 | Advesarial Search | DS & AI | GATE 2025 Crash Course",
+   "channel": "GATE Wallah"
+  }
+ ],
+ "da-ai--propositional-logic": [
+  {
+   "id": "mSM5HIZ50Ew",
+   "title": "Artificial Intelligence 06 | Propositional Logic | DA | GATE Crash Course",
+   "channel": "GeeksforGeeks GATE English"
+  },
+  {
+   "id": "A1vkdbpZ05g",
+   "title": "Artificial Intelligence 07 | Predicate Logic  | DA | GATE Crash Course",
+   "channel": "GeeksforGeeks GATE English"
+  },
+  {
+   "id": "hItFkl_B-wI",
+   "title": "Propositional Logic in Artificial Intelligence || Knowledge Representation Technique",
+   "channel": "Sudhakar Atchala"
+  },
+  {
+   "id": "6490tKrGEic",
+   "title": "Lec-27: Propositional Logic in Artificial Intelligence | Knowledge Representation | All Imp Points",
+   "channel": "Gate Smashers"
+  }
+ ],
+ "da-ai--predicate-logic": [
+  {
+   "id": "A1vkdbpZ05g",
+   "title": "Artificial Intelligence 07 | Predicate Logic  | DA | GATE Crash Course",
+   "channel": "GeeksforGeeks GATE English"
+  },
+  {
+   "id": "cOXT86_KZGI",
+   "title": "Predicate Logic in Artificial Intelligence |First Order Predicate Logic FOL|Knowledge Representation",
+   "channel": "Sudhakar Atchala"
+  },
+  {
+   "id": "FpGeg27Ffk8",
+   "title": "Lec-44: Predicate Logic | Artificial Intelligence",
+   "channel": "Gate Smashers"
+  },
+  {
+   "id": "8GTzWhqF69U",
+   "title": "Artificial Intelligence 05 | Propositional And Predictate Logic | DS & AI | GATE 2025 Crash Course",
+   "channel": "GATE Wallah"
+  }
+ ],
+ "da-ai--conditional-independence-and-bayesian-networks": [
+  {
+   "id": "lhVoUaqFsdM",
+   "title": "Artificial Intelligence 09 | Conditional Independence Representation | DA | GATE Crash Course",
+   "channel": "GeeksforGeeks GATE English"
+  },
+  {
+   "id": "DVnubVOjZtg",
+   "title": "Lec-49 : Network with Examples | Easiest Explanation",
+   "channel": "Gate Smashers"
+  },
+  {
+   "id": "ErsUGYWC_ME",
+   "title": "Conditional Independence using Bayesian Network of given Joint Distribution |GATE DA Solution",
+   "channel": "EECS Academy"
+  },
+  {
+   "id": "7B3cDe39lwY",
+   "title": "L03.5 Conditional Independence",
+   "channel": "MIT OpenCourseWare"
+  }
+ ],
+ "da-ai--exact-inference-variable-elimination": [
+  {
+   "id": "GLWmxUkvjIU",
+   "title": "Artificial Intelligence 08 | Exact Inference through variable Elimination | DA | GATE Crash Course",
+   "channel": "GeeksforGeeks GATE English"
+  },
+  {
+   "id": "PsvLsdfZ57w",
+   "title": "Exact Inference using Variable Elimination Algorithm | Lec-7 AI | Anshul Sir | MindMatrix Learning",
+   "channel": "MindMatrix Learning - GATE CS & GATE DA"
+  },
+  {
+   "id": "dkeUDOzoC30",
+   "title": "Bayesian Networks: Inference using Variable Elimination",
+   "channel": "NPTEL IIT Delhi"
+  },
+  {
+   "id": "vxryKGwZtcA",
+   "title": "Artificial Intelligence 10 | Approximate Inference through Sampling | DA | GATE Crash Course",
+   "channel": "GeeksforGeeks GATE English"
+  }
+ ],
+ "da-ai--approximate-inference-through-sampling": [
+  {
+   "id": "vxryKGwZtcA",
+   "title": "Artificial Intelligence 10 | Approximate Inference through Sampling | DA | GATE Crash Course",
+   "channel": "GeeksforGeeks GATE English"
+  },
+  {
+   "id": "wU0oJtaexUw",
+   "title": "Approximate Inference || Sampling Part-1|| Lec-8 AI || GATE DA || Anshul Sir || MindMatrix Learning",
+   "channel": "MindMatrix Learning - GATE CS & GATE DA"
+  },
+  {
+   "id": "ilmJD8tRg-Q",
+   "title": "Lec-55: Rejection Sampling | Probabilistic Inference | Sampling | Artificial Intelligence",
+   "channel": "Gate Smashers"
+  },
+  {
+   "id": "kkEPZnk8p_0",
+   "title": "Sampling Part-2 || Lec-9 AI || GATE DA || Anshul Sir || MindMatrix Learning",
+   "channel": "MindMatrix Learning - GATE CS & GATE DA"
+  }
+ ],
+ "ec-maths--matrices-rank-and-systems-of-equations": [
+  {
+   "id": "4amPR2YtzXs",
+   "title": "Rank of Matrix - Linear Algebra I Engineering Mathematics for GATE by Priyanka Sharma Ma'am",
+   "channel": "GATE Studify Plus"
+  },
+  {
+   "id": "F7nmfBJqqFw",
+   "title": "Engineering Mathematics 04 | Linear Algebra Part 4 | Rank Of a matrix | GATE - For All Branches",
+   "channel": "GeeksforGeeks GATE English"
+  },
+  {
+   "id": "tUDr-4sVOf4",
+   "title": "Engineering Mathematics 4 | Linear Algebra Understand the RANK Like never Before | GATE All Branches",
+   "channel": "GATE Wallah"
+  },
+  {
+   "id": "8rRE5QBRN8c",
+   "title": "Engineering Mathematics 02 | Rank & System Of Equations | All Branch | GATE 2027 Preparation",
+   "channel": "GATE Wallah"
+  }
+ ],
+ "ec-maths--eigenvalues-and-eigenvectors": [
+  {
+   "id": "EXeKxTuDZ68",
+   "title": "Most Powerful Trick of Eigen Values | Engineering Mathematics for GATE 2024 | GATE Maths | BYJU'S",
+   "channel": "BYJU'S Exam Prep GATE & ESE: EE,EC,IN,CS"
+  },
+  {
+   "id": "GRdSTBaAZMY",
+   "title": "Engineering Mathematics 08 | Linear Algebra: Eigen Value & Eigen Vector | GATE All Branches",
+   "channel": "GATE Wallah"
+  },
+  {
+   "id": "2GIFuIVvdTk",
+   "title": "Engineering Mathematics 03 | Eigen Values and Eigen Vectors | GATE - For All Branches",
+   "channel": "GeeksforGeeks GATE"
+  },
+  {
+   "id": "OMLyGn7NIO4",
+   "title": "Engineering Mathematics 03 | Eigen Values & Eigen Vectors | All Branch | GATE 2027 Preparation",
+   "channel": "GATE Wallah"
+  }
+ ],
+ "ec-maths--limits-mean-value-theorems-and-series": [
+  {
+   "id": "UawXU1TEI7o",
+   "title": "Mean Value Theorems | GATE 2023 Engineering Mathematics | Rakesh Talreja | BYJU'S GATE",
+   "channel": "BYJU'S Exam Prep GATE & ESE: EE,EC,IN,CS"
+  },
+  {
+   "id": "kvwRt3Teq5Y",
+   "title": "Engineering Mathematics 04 | Mean Value Theorems | GATE 2025 Series | All Branches",
+   "channel": "GATE Wallah"
+  },
+  {
+   "id": "vaahfC5e6BA",
+   "title": "UNIT 3 CALCULUS 🔥 Mean Value Theorems | Rolle’s, Lagrange’s & Cauchy’s Theorem | B.Tech Maths",
+   "channel": "Rama Reddy Maths Academy"
+  },
+  {
+   "id": "oCJA-oTJldc",
+   "title": "One Shot Series - Rolle's & Lagranges Mean Value For CSIR-NET / IIT-JAM / GATE | Concepts  By Gp Sir",
+   "channel": "Dr.Gajendra Purohit - GATE / IIT JAM / CSIR NET"
+  }
+ ],
+ "ec-maths--vector-calculus-gradient-divergence-curl": [
+  {
+   "id": "VRWntcf3row",
+   "title": "Vector Calculus GATE Lecture | Calculus  6 | Gradient, Divergence, Curl",
+   "channel": "BYJU'S Exam Prep GATE & ESE: EE,EC,IN,CS"
+  },
+  {
+   "id": "UXjZjzkBGZs",
+   "title": "Vector Calculus - Gradient, Curl and Divergence | Engineering Mathematics for GATE & ESE 2023 Exam",
+   "channel": "BYJU'S Exam Prep GATE & ESE: CE, ME & XE"
+  },
+  {
+   "id": "kZV3ef-TuVQ",
+   "title": "Vector Calculus || Gradient || Part - 1 || GATE || Engineering Maths || In Telugu ||",
+   "channel": "GATE ELECTRONICS (Telugu)"
+  },
+  {
+   "id": "h_0cJrlTFiY",
+   "title": "btech m2 unit-4 important question|gradient|divergence| curl#btech_maths #gradient #divergence #curl",
+   "channel": "RS ACADEMY"
+  }
+ ],
+ "ec-maths--first-and-higher-order-linear-odes": [
+  {
+   "id": "DzsRagjTovE",
+   "title": "GATE 2023 Engineering Mathematics | Differential Equations in One Shot | GATE & ESE 2023 Preparation",
+   "channel": "BYJU'S Exam Prep GATE & ESE: EE,EC,IN,CS"
+  },
+  {
+   "id": "rmFr1J6M2Ho",
+   "title": "Btech Ordinary differential equations of higher order Engineering Mathematics|btech m2|unit-2",
+   "channel": "RS ACADEMY"
+  },
+  {
+   "id": "Wal1EA_rYhE",
+   "title": "Engineering Mathematics 28 | Differential Equation - Differential Equation - Episode 1 | GATE",
+   "channel": "GATE Wallah"
+  },
+  {
+   "id": "hLs59P97TBI",
+   "title": "Engineering Mathematics 10 | Differential Equation (Part 01) | All Branches | GATE 2025 Crash Course",
+   "channel": "GATE Wallah"
+  }
+ ],
+ "ec-maths--partial-differential-equations": [
+  {
+   "id": "plYOgUGu3jM",
+   "title": "GATE 2024 | Engineering Mathematics | Partial Differential Equations | BYJU'S GATE",
+   "channel": "BYJU'S Exam Prep GATE & ESE: EE,EC,IN,CS"
+  },
+  {
+   "id": "Ce0bWSbD0K8",
+   "title": "Partial Differential Equations | Engineering Mathematics | GATE 2023 Exam Preparation | BYJU'S GATE",
+   "channel": "BYJU'S Exam Prep GATE & ESE: EE,EC,IN,CS"
+  },
+  {
+   "id": "Uh2n-hX8iCE",
+   "title": "Partial Differential Equation || Engineering Mathematics || PrepFusion",
+   "channel": "PrepFusion - GATE"
+  },
+  {
+   "id": "DzsRagjTovE",
+   "title": "GATE 2023 Engineering Mathematics | Differential Equations in One Shot | GATE & ESE 2023 Preparation",
+   "channel": "BYJU'S Exam Prep GATE & ESE: EE,EC,IN,CS"
+  }
+ ],
+ "ec-maths--analytic-functions-and-cauchy-integral-theorem": [
+  {
+   "id": "1XFdsajh5aE",
+   "title": "COMPLEX INTEGRATION | LECTURE 03 | Cauchy's Integral Theorem | Part 1 | PRADEEP GIRI SIR",
+   "channel": "Pradeep Giri Academy"
+  },
+  {
+   "id": "x6X1P8rGXXs",
+   "title": "Cauchy Integral Theorem Concept with Examples - Complex Integration - Engineering Mathematics 4",
+   "channel": "Ekeeda"
+  },
+  {
+   "id": "jIqBxXEn7o0",
+   "title": "Complex Variables for GATE | Analytic Function, Cauchy Integral, Residue Theorem, Taylor Series",
+   "channel": "BYJU'S Exam Prep GATE & ESE: EE,EC,IN,CS"
+  },
+  {
+   "id": "lkRAw_ckfLA",
+   "title": "Complex Variables | Lecture 01 | Analytic Functions|Cauchy Riemann Equation | Part 1 | PRADEEP SIR",
+   "channel": "Pradeep Giri Academy"
+  }
+ ],
+ "ec-maths--residue-theorem": [
+  {
+   "id": "H8qD7vM5VPs",
+   "title": "Residue Theorem Explained: Essential GATE Concepts In Engineering Mathematics",
+   "channel": "Ekeeda GATE & ESE"
+  },
+  {
+   "id": "FCXcJptZnmQ",
+   "title": "Residue Theorem Explained: GATE Engineering Mathematics Solving Question 1",
+   "channel": "Ekeeda GATE & ESE"
+  },
+  {
+   "id": "oFg5uobFsiM",
+   "title": "RESIDUE THEOREM -2 | L:58 | Engineering Mathematics | GATE/ESE Exam",
+   "channel": "Unacademy GATE - ME, PI, XE"
+  },
+  {
+   "id": "CHWN0dapgq8",
+   "title": "RESIDUE THEOREM | L:57 | Engineering Mathematics | GATE/ESE Exam",
+   "channel": "Unacademy GATE - ME, PI, XE"
+  }
+ ],
+ "ec-maths--probability-random-variables-and-distributions": [
+  {
+   "id": "K3vEUXiPNbA",
+   "title": "Probability Distributions || Engineering Mathematics || PrepFusion",
+   "channel": "PrepFusion - GATE"
+  },
+  {
+   "id": "gGzklL88YI8",
+   "title": "Engineering Mathematics 35 | Random Variable : Random Variable -Episode 1 | GATE All Branches",
+   "channel": "GATE Wallah"
+  },
+  {
+   "id": "6tfqPShRjvo",
+   "title": "Engineering Mathematics 06 | Discrete Random Variable | All Branch | GATE 2027 Preparation",
+   "channel": "GATE Wallah"
+  },
+  {
+   "id": "2n1hapVMHL0",
+   "title": "Lec-15: Random Variable | Probability and Statistics",
+   "channel": "Gate Smashers"
+  }
+ ],
+ "ec-maths--mean-variance-and-correlation": [
+  {
+   "id": "mEvcQMqYmno",
+   "title": "Engineering Mathematics 09 l Mean / Variance / Standard Deviation | GATE 2024 For All Branches",
+   "channel": "GATE Wallah"
+  },
+  {
+   "id": "1jfHFNSPJO0",
+   "title": "Lec-16: Mean, Variance and Standard Deviation of Distribution | Probability and Statistics",
+   "channel": "Gate Smashers"
+  },
+  {
+   "id": "dEKzlYKbogo",
+   "title": "Correlation and Regression | Engineering Mathematic for GATE | GATE 2023 Exam | BYJU'S GATE",
+   "channel": "BYJU'S Exam Prep GATE & ESE: EE,EC,IN,CS"
+  },
+  {
+   "id": "SOko32q-ls8",
+   "title": "MATHEMATICAL  EXPECTATION|LECTURE 05|MEAN ,VARIANCE OF DICRETE AND CONTINUOUS RANDOM VARIABLE",
+   "channel": "Pradeep Giri Academy"
+  }
+ ],
+ "ec-maths--numerical-solution-of-equations-and-integration": [
+  {
+   "id": "bV-r372AUlw",
+   "title": "Engineering Mathematics 12 | Numerical Techniques | All Branches | GATE 2025 Crash Course",
+   "channel": "GATE Wallah"
+  },
+  {
+   "id": "GQteTRIbZII",
+   "title": "Engineering Mathematics 18 | Numerical Methods | All Branches | GATE 2024 Crash Course",
+   "channel": "GATE Wallah"
+  },
+  {
+   "id": "d7zBAYcFeuw",
+   "title": "Numerical Methods Complete Revision | Engineering Mathematics for GATE 2023 | Part-1 | BYJU'S GATE",
+   "channel": "BYJU'S Exam Prep GATE & ESE: EE,EC,IN,CS"
+  },
+  {
+   "id": "YUA8MyqsD_k",
+   "title": "GATE EXPRESS SERIES | Numerical Methods | Engineering Mathematics | Gate BT 2025 | Archi",
+   "channel": "GATE BIOTECHNOLOGY, GATE-XL, GATE-EY: TLS Online"
+  }
+ ],
+ "cs-engineering-mathematics--propositional-and-first-order-logic": [
+  {
+   "id": "1txRUu-TwsI",
+   "title": "Discrete Mathematics 06 : Propositional Logic | CS & IT | GATE 2026 Crash Course",
+   "channel": "GATE Wallah CSE & DA"
+  },
+  {
+   "id": "B6xo-2A8ano",
+   "title": "Propositional Logic - GATE PYQs Part 1 | Discrete Mathematics | GO Classes | Deepak Poonia",
+   "channel": "GO Classes for GATE CS"
+  },
+  {
+   "id": "JKx2Wz3wpIY",
+   "title": "GATE 2024 Computer Science Engineering | Discrete Mathematics | Proposition Logic | BYJU'S GATE",
+   "channel": "BYJU'S Exam Prep GATE & ESE: EE,EC,IN,CS"
+  },
+  {
+   "id": "JnsT3ezRzuo",
+   "title": "Propositional Logic - Complete Summary Part 1 | Discrete Mathematics | With NOTES | Deepak Poonia",
+   "channel": "GO Classes for GATE CS"
+  }
+ ],
+ "cs-engineering-mathematics--sets-relations-functions-partial-orders-and-lattices": [
+  {
+   "id": "68zilHEUULk",
+   "title": "Discrete Mathematics 08 | Sets, Relations, Functions | CS & IT | GATE Crash Course",
+   "channel": "GATE Wallah CSE & DA"
+  },
+  {
+   "id": "3chjsP_NNnY",
+   "title": "Lattice, POSET - GATE PYQs - Part 1 | Set Theory | Discrete Mathematics | Deepak Poonia",
+   "channel": "GO Classes for GATE CS"
+  },
+  {
+   "id": "gD-ecvw2ZvU",
+   "title": "Discrete Mathematics 04 | Partial Order Relation | Gate 2025 series | CS & IT",
+   "channel": "GATE Wallah (English)"
+  },
+  {
+   "id": "_MvUUNve6l4",
+   "title": "Partial Order relation in discrete mathematics || Partial Order Set || POSET || DMS || MFCS || GATE",
+   "channel": "Sudhakar Atchala"
+  }
  ]
 }

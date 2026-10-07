@@ -15,7 +15,7 @@ TRUSTED = ["gate smashers", "knowledge gate", "neso academy", "abdul bari", "npt
            "sudhakar atchala", "ravindrababu", "unacademy computer science", "gate wallah", "made easy", "ace academy",
            "techtud", "go classes", "gate cse", "computer science", "chirag", "william fiset", "mit opencourseware",
            "easy engineering classes", "5 minutes engineering", "vidya-mitra", "gate academy", "byju's exam prep",
-           "careerwill", "rbr", "learn with sumit", "university academy", "edutech learning", "physics wallah"]
+           "careerwill", "rbr", "gate", "ekeeda", "engineering", "academy", "classes", "tutorial", "lectures", "unacademy", "learn with sumit", "university academy", "edutech learning", "physics wallah"]
 MAX_PER_TOPIC, MIN_SEC, MAX_SEC = 4, 120, 3 * 3600
 
 
@@ -26,6 +26,9 @@ def slug(s):
 
 
 def topics_from_catalog(path):
+    if str(path).endswith(".json"):
+        subs = json.loads(pathlib.Path(path).read_text(encoding="utf-8"))
+        return [(tp["id"], tp["name"], s["name"]) for s in subs for m in s["modules"] for tp in m["topics"]]
     src = pathlib.Path(path).read_text(encoding="utf-8")
     out, subject, sname = [], None, None
     for line in src.splitlines():
@@ -87,9 +90,9 @@ def embeddable(vid):
         return None
 
 
-def pick(name, subject):
+def pick(name, subject, paper):
     seen, picks = set(), []
-    for q in (f"{name} {subject} GATE", f"{name} GATE CSE lecture"):
+    for q in (f"{name} {subject} GATE {paper}", f"{name} GATE {paper} lecture"):
         for v in search(q):
             if v["id"] in seen:
                 continue
@@ -111,14 +114,16 @@ def pick(name, subject):
 
 
 def main():
+    global PAPER
     cat = sys.argv[1] if len(sys.argv) > 1 else str(ROOT / "src/catalog/cs.ts")
+    PAPER = {"cs": "CSE"}.get(pathlib.Path(cat).stem, pathlib.Path(cat).stem.upper())
     data = json.loads(OUT.read_text(encoding="utf-8")) if OUT.exists() else {}
     topics = topics_from_catalog(cat)
     for i, (tid, name, subject) in enumerate(topics, 1):
         if len(data.get(tid, [])) >= 3:
             continue
         try:
-            data[tid] = pick(name, subject)
+            data[tid] = pick(name, subject, PAPER)
         except Exception as e:
             print("  error", e)
         print(f"{i}/{len(topics)} {len(data.get(tid, []))} videos  {name}", flush=True)

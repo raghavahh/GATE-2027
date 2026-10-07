@@ -1,0 +1,899 @@
+[
+ {
+  "id": "ch-engineering-mathematics",
+  "name": "Engineering Mathematics",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Linear Algebra",
+    "topics": [
+     {
+      "id": "ch-engineering-mathematics--matrix-algebra",
+      "name": "Matrix algebra",
+      "diff": "E",
+      "sample": true
+     },
+     {
+      "id": "ch-engineering-mathematics--systems-of-linear-equations",
+      "name": "Systems of linear equations",
+      "diff": "M"
+     },
+     {
+      "id": "ch-engineering-mathematics--eigenvalues-and-eigenvectors",
+      "name": "Eigenvalues and eigenvectors",
+      "diff": "H"
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Calculus",
+    "topics": [
+     {
+      "id": "ch-engineering-mathematics--functions-of-single-variable",
+      "name": "Functions of single variable",
+      "diff": "M"
+     },
+     {
+      "id": "ch-engineering-mathematics--limit-continuity-and-differentiability",
+      "name": "Limit, continuity and differentiability",
+      "diff": "M"
+     },
+     {
+      "id": "ch-engineering-mathematics--taylor-series",
+      "name": "Taylor series",
+      "diff": "E"
+     },
+     {
+      "id": "ch-engineering-mathematics--mean-value-theorem",
+      "name": "Mean value theorem",
+      "diff": "M"
+     },
+     {
+      "id": "ch-engineering-mathematics--evaluation-of-definite-and-improper-integrals",
+      "name": "Evaluation of definite and improper integrals",
+      "diff": "M"
+     },
+     {
+      "id": "ch-engineering-mathematics--partial-derivatives",
+      "name": "Partial derivatives",
+      "diff": "M"
+     },
+     {
+      "id": "ch-engineering-mathematics--total-derivative",
+      "name": "Total derivative",
+      "diff": "E"
+     },
+     {
+      "id": "ch-engineering-mathematics--maxima-and-minima",
+      "name": "Maxima and minima",
+      "diff": "E"
+     },
+     {
+      "id": "ch-engineering-mathematics--gradient-divergence-and-curl",
+      "name": "Gradient, divergence, and curl",
+      "diff": "M"
+     },
+     {
+      "id": "ch-engineering-mathematics--vector-identities",
+      "name": "Vector identities",
+      "diff": "E"
+     },
+     {
+      "id": "ch-engineering-mathematics--directional-derivatives",
+      "name": "Directional derivatives",
+      "diff": "M"
+     },
+     {
+      "id": "ch-engineering-mathematics--line-surface-and-volume-integrals",
+      "name": "Line, surface, and volume integrals",
+      "diff": "M"
+     },
+     {
+      "id": "ch-engineering-mathematics--stokes-gauss-and-greens-theorems",
+      "name": "Stokes, Gauss, and Green’s theorems",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "C",
+    "name": "Differential Equations",
+    "topics": [
+     {
+      "id": "ch-engineering-mathematics--first-order-equations-linear-and-nonlinear",
+      "name": "First order equations (linear and nonlinear)",
+      "diff": "H"
+     },
+     {
+      "id": "ch-engineering-mathematics--higher-order-linear-differential-equations-with-constant-coe",
+      "name": "Higher order linear differential equations with constant coefficients",
+      "diff": "M"
+     },
+     {
+      "id": "ch-engineering-mathematics--cauchys-and-eulers-equations",
+      "name": "Cauchy’s and Euler’s equations",
+      "diff": "M"
+     },
+     {
+      "id": "ch-engineering-mathematics--initial-and-boundary-value-problems",
+      "name": "Initial and boundary value problems",
+      "diff": "M"
+     },
+     {
+      "id": "ch-engineering-mathematics--laplace-transforms",
+      "name": "Laplace transforms",
+      "diff": "H"
+     },
+     {
+      "id": "ch-engineering-mathematics--solutions-of-one-dimensional-heat-equation",
+      "name": "Solutions of one-dimensional heat equation",
+      "diff": "M"
+     },
+     {
+      "id": "ch-engineering-mathematics--wave-equation",
+      "name": "Wave equation",
+      "diff": "E"
+     },
+     {
+      "id": "ch-engineering-mathematics--laplace-equation",
+      "name": "Laplace equation",
+      "diff": "H"
+     }
+    ]
+   },
+   {
+    "letter": "D",
+    "name": "Complex Variables",
+    "topics": [
+     {
+      "id": "ch-engineering-mathematics--complex-number",
+      "name": "Complex number",
+      "diff": "E"
+     },
+     {
+      "id": "ch-engineering-mathematics--polar-form-of-complex-number",
+      "name": "Polar form of complex number",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "E",
+    "name": "Probability and Statistics",
+    "topics": [
+     {
+      "id": "ch-engineering-mathematics--definitions-of-probability-and-sampling-theorems",
+      "name": "Definitions of probability and sampling theorems",
+      "diff": "M"
+     },
+     {
+      "id": "ch-engineering-mathematics--conditional-probability",
+      "name": "Conditional probability",
+      "diff": "M"
+     },
+     {
+      "id": "ch-engineering-mathematics--mean-median-mode-and-standard-deviation",
+      "name": "Mean, median, mode, and standard deviation",
+      "diff": "M"
+     },
+     {
+      "id": "ch-engineering-mathematics--random-variables",
+      "name": "Random variables",
+      "diff": "E"
+     },
+     {
+      "id": "ch-engineering-mathematics--poisson-normal-and-binomial-distributions",
+      "name": "Poisson, Normal, and Binomial distributions",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "F",
+    "name": "Fundamentals of AI/ML",
+    "topics": [
+     {
+      "id": "ch-engineering-mathematics--linear-regression",
+      "name": "Linear Regression",
+      "diff": "E"
+     },
+     {
+      "id": "ch-engineering-mathematics--principal-component-analysis-pca",
+      "name": "Principal Component Analysis (PCA)",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "G",
+    "name": "Numerical Methods",
+    "topics": [
+     {
+      "id": "ch-engineering-mathematics--numerical-solutions-of-linear-and-non-linear-algebraic-equat",
+      "name": "Numerical solutions of linear and non-linear algebraic equations",
+      "diff": "M"
+     },
+     {
+      "id": "ch-engineering-mathematics--integration-by-trapezoidal-and-simpsons-rule",
+      "name": "Integration by trapezoidal and Simpson’s rule",
+      "diff": "M"
+     },
+     {
+      "id": "ch-engineering-mathematics--single-and-multi-step-methods-for-numerical-solution-of-ordi",
+      "name": "Single and multi-step methods for numerical solution of ordinary differential equations",
+      "diff": "M"
+     },
+     {
+      "id": "ch-engineering-mathematics--finite-difference-method-for-partial-differential-equations",
+      "name": "Finite-difference method for partial differential equations",
+      "diff": "H"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "ch-process-calculations",
+  "name": "Process Calculations",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Process Calculations",
+    "topics": [
+     {
+      "id": "ch-process-calculations--steady-and-unsteady-state-mass-and-energy-balances-including",
+      "name": "Steady and unsteady state mass and energy balances including multiphase",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "ch-process-calculations--multi-component",
+      "name": "Multi -component",
+      "diff": "E"
+     },
+     {
+      "id": "ch-process-calculations--reacting-and-non-reacting-systems",
+      "name": "Reacting and non-reacting systems",
+      "diff": "M"
+     },
+     {
+      "id": "ch-process-calculations--use-of-tie-components",
+      "name": "Use of tie components",
+      "diff": "M"
+     },
+     {
+      "id": "ch-process-calculations--recycle-bypass-and-purge-calculations",
+      "name": "Recycle, bypass and purge calculations",
+      "diff": "M"
+     },
+     {
+      "id": "ch-process-calculations--gibbs-phase-rule-and-degree-of-freedom-analysis",
+      "name": "Gibbs phase rule and degree of freedom analysis",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "ch-thermodynamics",
+  "name": "Thermodynamics",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Thermodynamics",
+    "topics": [
+     {
+      "id": "ch-thermodynamics--laws-of-thermodynamics",
+      "name": "Laws of thermodynamics",
+      "diff": "H",
+      "sample": true
+     },
+     {
+      "id": "ch-thermodynamics--open-and-closed-systems",
+      "name": "Open and closed systems",
+      "diff": "M"
+     },
+     {
+      "id": "ch-thermodynamics--entropy-and-chemical-potential",
+      "name": "Entropy and chemical potential",
+      "diff": "M"
+     },
+     {
+      "id": "ch-thermodynamics--thermodynamic-properties-of-pure-substances-equations-of-sta",
+      "name": "Thermodynamic properties of pure substances: equations of state and residual properties",
+      "diff": "H"
+     },
+     {
+      "id": "ch-thermodynamics--thermodynamic-properties-of-mixtures-partial-molar-propertie",
+      "name": "Thermodynamic properties of mixtures: partial molar properties",
+      "diff": "H"
+     },
+     {
+      "id": "ch-thermodynamics--fugacity",
+      "name": "Fugacity",
+      "diff": "E"
+     },
+     {
+      "id": "ch-thermodynamics--excess-properties",
+      "name": "Excess properties",
+      "diff": "E"
+     },
+     {
+      "id": "ch-thermodynamics--activity-coefficients",
+      "name": "Activity coefficients",
+      "diff": "M"
+     },
+     {
+      "id": "ch-thermodynamics--phase-equilibria-predicting-vle-of-systems",
+      "name": "Phase equilibria: predicting VLE of systems",
+      "diff": "M"
+     },
+     {
+      "id": "ch-thermodynamics--chemical-reaction-equilibrium",
+      "name": "Chemical reaction equilibrium",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "ch-fluid-mechanics-and-mechanical",
+  "name": "Fluid Mechanics and Mechanical Operations",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Fluid Mechanics and Mechanical Operations",
+    "topics": [
+     {
+      "id": "ch-fluid-mechanics-and-mechanical--newtonian-and-non-newtonian-fluids",
+      "name": "Newtonian and non-Newtonian fluids",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "ch-fluid-mechanics-and-mechanical--fluid-statics",
+      "name": "Fluid statics",
+      "diff": "E"
+     },
+     {
+      "id": "ch-fluid-mechanics-and-mechanical--surface-tension",
+      "name": "Surface Tension",
+      "diff": "E"
+     },
+     {
+      "id": "ch-fluid-mechanics-and-mechanical--fluid-kinematics",
+      "name": "Fluid kinematics",
+      "diff": "E"
+     },
+     {
+      "id": "ch-fluid-mechanics-and-mechanical--equation-of-continuity",
+      "name": "Equation of continuity",
+      "diff": "M"
+     },
+     {
+      "id": "ch-fluid-mechanics-and-mechanical--equation-of-motion",
+      "name": "Equation of motion",
+      "diff": "M"
+     },
+     {
+      "id": "ch-fluid-mechanics-and-mechanical--equation-of-mechanical-energy",
+      "name": "Equation of mechanical energy",
+      "diff": "M"
+     },
+     {
+      "id": "ch-fluid-mechanics-and-mechanical--macroscopic-friction-factors",
+      "name": "Macroscopic friction factors",
+      "diff": "M"
+     },
+     {
+      "id": "ch-fluid-mechanics-and-mechanical--dimensional-analysis-and-similitude",
+      "name": "Dimensional analysis and similitude",
+      "diff": "M"
+     },
+     {
+      "id": "ch-fluid-mechanics-and-mechanical--inviscid-flows-euler-equation",
+      "name": "Inviscid flows: Euler equation",
+      "diff": "M"
+     },
+     {
+      "id": "ch-fluid-mechanics-and-mechanical--flow-through-pipes-velocity-profile",
+      "name": "Flow through pipes: velocity profile",
+      "diff": "M"
+     },
+     {
+      "id": "ch-fluid-mechanics-and-mechanical--pressure-drop",
+      "name": "Pressure drop",
+      "diff": "E"
+     },
+     {
+      "id": "ch-fluid-mechanics-and-mechanical--bernoulli-equation",
+      "name": "Bernoulli equation",
+      "diff": "M"
+     },
+     {
+      "id": "ch-fluid-mechanics-and-mechanical--flow-meters",
+      "name": "Flow meters",
+      "diff": "E"
+     },
+     {
+      "id": "ch-fluid-mechanics-and-mechanical--pumps",
+      "name": "Pumps",
+      "diff": "E"
+     },
+     {
+      "id": "ch-fluid-mechanics-and-mechanical--turbulent-flow-fluctuating-velocity",
+      "name": "Turbulent flow: fluctuating velocity",
+      "diff": "M"
+     },
+     {
+      "id": "ch-fluid-mechanics-and-mechanical--universal-velocity-profile",
+      "name": "Universal velocity profile",
+      "diff": "M"
+     },
+     {
+      "id": "ch-fluid-mechanics-and-mechanical--elementary-boundary-layer-theory",
+      "name": "Elementary boundary layer theory",
+      "diff": "M"
+     },
+     {
+      "id": "ch-fluid-mechanics-and-mechanical--flow-past-immersed-bodies-including-packed-and-fluidized-bed",
+      "name": "Flow past immersed bodies including packed and fluidized beds",
+      "diff": "M"
+     },
+     {
+      "id": "ch-fluid-mechanics-and-mechanical--particle-size-and-shape",
+      "name": "Particle size and shape",
+      "diff": "M"
+     },
+     {
+      "id": "ch-fluid-mechanics-and-mechanical--particle-size-distribution",
+      "name": "Particle size distribution",
+      "diff": "M"
+     },
+     {
+      "id": "ch-fluid-mechanics-and-mechanical--size-reduction-and-classification-of-solid-particles",
+      "name": "Size reduction and classification of solid particles",
+      "diff": "E"
+     },
+     {
+      "id": "ch-fluid-mechanics-and-mechanical--free-and-hindered-settling",
+      "name": "Free and hindered settling",
+      "diff": "M"
+     },
+     {
+      "id": "ch-fluid-mechanics-and-mechanical--centrifuge-and-cyclones",
+      "name": "Centrifuge and cyclones",
+      "diff": "M"
+     },
+     {
+      "id": "ch-fluid-mechanics-and-mechanical--thickening-and-clarification",
+      "name": "Thickening and clarification",
+      "diff": "M"
+     },
+     {
+      "id": "ch-fluid-mechanics-and-mechanical--filtration-agitation-and-mixing",
+      "name": "Filtration, agitation and mixing",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "ch-heat-transfer",
+  "name": "Heat Transfer",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Heat Transfer",
+    "topics": [
+     {
+      "id": "ch-heat-transfer--equation-of-energy",
+      "name": "Equation of energy",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "ch-heat-transfer--steady-and-unsteady-heat-conduction-convection-and-radiation",
+      "name": "Steady and unsteady heat conduction, convection, and radiation",
+      "diff": "M"
+     },
+     {
+      "id": "ch-heat-transfer--thermal-boundary-layer-and-heat-transfer-coefficients",
+      "name": "Thermal boundary layer and heat transfer coefficients",
+      "diff": "M"
+     },
+     {
+      "id": "ch-heat-transfer--boiling-condensation-and-evaporation",
+      "name": "Boiling, condensation, and evaporation",
+      "diff": "M"
+     },
+     {
+      "id": "ch-heat-transfer--types-of-heat-exchangers-and-evaporators-and-their-process-c",
+      "name": "Types of heat exchangers and evaporators and their process calculations",
+      "diff": "E"
+     },
+     {
+      "id": "ch-heat-transfer--design-of-double-pipe",
+      "name": "Design of double pipe",
+      "diff": "M"
+     },
+     {
+      "id": "ch-heat-transfer--shell-and-tube-heat-exchangers",
+      "name": "Shell and tube heat exchangers",
+      "diff": "M"
+     },
+     {
+      "id": "ch-heat-transfer--single-and-multiple-effect-evaporators",
+      "name": "Single and multiple effect evaporators",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "ch-mass-transfer",
+  "name": "Mass Transfer",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Overview",
+    "topics": [
+     {
+      "id": "ch-mass-transfer--ficks-laws",
+      "name": "Fick’s laws",
+      "diff": "E",
+      "sample": true
+     },
+     {
+      "id": "ch-mass-transfer--molecular-diffusion-in-fluids",
+      "name": "Molecular diffusion in fluids",
+      "diff": "M"
+     },
+     {
+      "id": "ch-mass-transfer--mass-transfer-coefficients",
+      "name": "Mass transfer coefficients",
+      "diff": "M"
+     },
+     {
+      "id": "ch-mass-transfer--film-penetration-and-surface-renewal-theories",
+      "name": "Film, penetration and surface renewal theories",
+      "diff": "M"
+     },
+     {
+      "id": "ch-mass-transfer--momentum-heat-and-mass-transfer-analogies",
+      "name": "Momentum, heat and mass transfer analogies",
+      "diff": "M"
+     },
+     {
+      "id": "ch-mass-transfer--stage-wise-and-continuous-contacting-and-stage-efficiencies",
+      "name": "Stage-wise and continuous contacting and stage efficiencies",
+      "diff": "M"
+     },
+     {
+      "id": "ch-mass-transfer--htu-and-ntu-concepts",
+      "name": "HTU & NTU concepts",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Fundamentals concepts and design of mass transfer operations",
+    "topics": [
+     {
+      "id": "ch-mass-transfer--distillation",
+      "name": "Distillation",
+      "diff": "E"
+     },
+     {
+      "id": "ch-mass-transfer--absorption",
+      "name": "Absorption",
+      "diff": "E"
+     },
+     {
+      "id": "ch-mass-transfer--leaching",
+      "name": "Leaching",
+      "diff": "E"
+     },
+     {
+      "id": "ch-mass-transfer--liquid-liquid-extraction",
+      "name": "Liquid-liquid extraction",
+      "diff": "M"
+     },
+     {
+      "id": "ch-mass-transfer--drying",
+      "name": "Drying",
+      "diff": "E"
+     },
+     {
+      "id": "ch-mass-transfer--humidification",
+      "name": "Humidification",
+      "diff": "E"
+     },
+     {
+      "id": "ch-mass-transfer--dehumidification-and-adsorption",
+      "name": "Dehumidification and adsorption",
+      "diff": "M"
+     },
+     {
+      "id": "ch-mass-transfer--membrane-separations",
+      "name": "Membrane separations",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "ch-chemical-reaction-engineering",
+  "name": "Chemical Reaction Engineering",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Chemical Reaction Engineering",
+    "topics": [
+     {
+      "id": "ch-chemical-reaction-engineering--theories-of-reaction-rates",
+      "name": "Theories of reaction rates",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "ch-chemical-reaction-engineering--kinetics-of-homogeneous-reactions",
+      "name": "Kinetics of homogeneous reactions",
+      "diff": "H"
+     },
+     {
+      "id": "ch-chemical-reaction-engineering--interpretation-of-kinetic-data",
+      "name": "Interpretation of kinetic data",
+      "diff": "M"
+     },
+     {
+      "id": "ch-chemical-reaction-engineering--single-and-multiple-reactions-in-ideal-reactors",
+      "name": "Single and multiple reactions in ideal reactors",
+      "diff": "M"
+     },
+     {
+      "id": "ch-chemical-reaction-engineering--kinetics-of-enzyme-reactions-michaelis-menten-and-monod-mode",
+      "name": "Kinetics of enzyme reactions (Michaelis-Menten and Monod models)",
+      "diff": "H"
+     },
+     {
+      "id": "ch-chemical-reaction-engineering--non-ideal-reactors-residence-time-distribution",
+      "name": "Non-ideal reactors: residence time distribution",
+      "diff": "M"
+     },
+     {
+      "id": "ch-chemical-reaction-engineering--single-parameter-model",
+      "name": "Single parameter model",
+      "diff": "M"
+     },
+     {
+      "id": "ch-chemical-reaction-engineering--non-isothermal-reactors",
+      "name": "Non-isothermal reactors",
+      "diff": "M"
+     },
+     {
+      "id": "ch-chemical-reaction-engineering--kinetics-of-heterogeneous-catalytic-reactions",
+      "name": "Kinetics of heterogeneous catalytic reactions",
+      "diff": "H"
+     },
+     {
+      "id": "ch-chemical-reaction-engineering--diffusion-effects-in-catalysis",
+      "name": "Diffusion effects in catalysis",
+      "diff": "M"
+     },
+     {
+      "id": "ch-chemical-reaction-engineering--catalyst-deactivation",
+      "name": "Catalyst deactivation",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "ch-instrumentation-and-process-co",
+  "name": "Instrumentation and Process Control",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Instrumentation and Process Control",
+    "topics": [
+     {
+      "id": "ch-instrumentation-and-process-co--measurement-of-process-variables",
+      "name": "Measurement of process variables",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "ch-instrumentation-and-process-co--sensors-and-transducers",
+      "name": "Sensors and transducers",
+      "diff": "M"
+     },
+     {
+      "id": "ch-instrumentation-and-process-co--pandid-equipment-symbols",
+      "name": "P&ID equipment symbols",
+      "diff": "M"
+     },
+     {
+      "id": "ch-instrumentation-and-process-co--process-modeling-and-linearization",
+      "name": "Process modeling and linearization",
+      "diff": "M"
+     },
+     {
+      "id": "ch-instrumentation-and-process-co--state-space-models",
+      "name": "State-space models",
+      "diff": "H"
+     },
+     {
+      "id": "ch-instrumentation-and-process-co--transfer-functions-and-dynamic-responses-of-various-systems",
+      "name": "Transfer functions and dynamic responses of various systems",
+      "diff": "M"
+     },
+     {
+      "id": "ch-instrumentation-and-process-co--systems-with-inverse-response",
+      "name": "Systems with inverse response",
+      "diff": "M"
+     },
+     {
+      "id": "ch-instrumentation-and-process-co--process-reaction-curve",
+      "name": "Process reaction curve",
+      "diff": "M"
+     },
+     {
+      "id": "ch-instrumentation-and-process-co--controller-modes-p-pi-and-pid",
+      "name": "Controller modes (P, PI, and PID)",
+      "diff": "M"
+     },
+     {
+      "id": "ch-instrumentation-and-process-co--control-valves",
+      "name": "Control valves",
+      "diff": "E"
+     },
+     {
+      "id": "ch-instrumentation-and-process-co--analysis-of-closed-loop-systems-including-stability",
+      "name": "Analysis of closed loop systems including stability",
+      "diff": "H"
+     },
+     {
+      "id": "ch-instrumentation-and-process-co--frequency-response",
+      "name": "Frequency response",
+      "diff": "M"
+     },
+     {
+      "id": "ch-instrumentation-and-process-co--controller-tuning",
+      "name": "Controller tuning",
+      "diff": "E"
+     },
+     {
+      "id": "ch-instrumentation-and-process-co--cascade-and-feed-forward-control",
+      "name": "Cascade and feed forward control",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "ch-plant-design-and-economics",
+  "name": "Plant Design and Economics",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Plant Design and Economics",
+    "topics": [
+     {
+      "id": "ch-plant-design-and-economics--principles-of-process-economics-and-cost-estimation-includin",
+      "name": "Principles of process economics and cost estimation including depreciation and total annualized cost",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "ch-plant-design-and-economics--cost-indices",
+      "name": "Cost indices",
+      "diff": "E"
+     },
+     {
+      "id": "ch-plant-design-and-economics--rate-of-return",
+      "name": "Rate of return",
+      "diff": "E"
+     },
+     {
+      "id": "ch-plant-design-and-economics--payback-period",
+      "name": "Payback period",
+      "diff": "E"
+     },
+     {
+      "id": "ch-plant-design-and-economics--discounted-cash-flow",
+      "name": "Discounted cash flow",
+      "diff": "M"
+     },
+     {
+      "id": "ch-plant-design-and-economics--optimization-in-process-design-and-sizing-of-chemical-engine",
+      "name": "Optimization in process design and sizing of chemical engineering equipment such as heat exchangers and multistage contactors",
+      "diff": "H"
+     },
+     {
+      "id": "ch-plant-design-and-economics--batch-plant-scheduling",
+      "name": "Batch plant scheduling",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "ch-chemical-technology",
+  "name": "Chemical Technology",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Chemical Technology",
+    "topics": [
+     {
+      "id": "ch-chemical-technology--overview-of-raw-materials",
+      "name": "Overview of raw materials",
+      "diff": "E",
+      "sample": true
+     },
+     {
+      "id": "ch-chemical-technology--unit-operations",
+      "name": "Unit operations",
+      "diff": "E"
+     },
+     {
+      "id": "ch-chemical-technology--processes-involved-in-inorganic-chemical-industries-synthesi",
+      "name": "Processes involved in inorganic chemical industries (synthesis gas, sulfuric acid, phosphoric acid, chlor-alkali industry)",
+      "diff": "M"
+     },
+     {
+      "id": "ch-chemical-technology--fertilizers-ammonia-urea",
+      "name": "Fertilizers (ammonia, urea)",
+      "diff": "M"
+     },
+     {
+      "id": "ch-chemical-technology--natural-products-industries-pulp-and-paper-sugar-and-ethanol",
+      "name": "Natural products industries (pulp and paper, sugar and ethanol)",
+      "diff": "M"
+     },
+     {
+      "id": "ch-chemical-technology--petroleum-refining-and-petrochemicals-ethyl-benzene-styrene-",
+      "name": "Petroleum refining and petrochemicals (ethyl benzene, styrene, ethylene oxide)",
+      "diff": "M"
+     },
+     {
+      "id": "ch-chemical-technology--polymerization-industries-polyethylene-and-polyester",
+      "name": "Polymerization industries (polyethylene and polyester)",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ }
+]

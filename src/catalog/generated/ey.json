@@ -1,0 +1,772 @@
+[
+ {
+  "id": "ey-ecology",
+  "name": "Ecology",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Fundamental Concepts",
+    "topics": [
+     {
+      "id": "ey-ecology--abiotic-and-biotic-components-of-ecosystems",
+      "name": "Abiotic and biotic components of ecosystems",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "ey-ecology--levels-of-biological-organization-individuals-population-spe",
+      "name": "Levels of biological organization (individuals, population, species, community, ecosystems, biomes)",
+      "diff": "M"
+     },
+     {
+      "id": "ey-ecology--niches",
+      "name": "Niches",
+      "diff": "E"
+     },
+     {
+      "id": "ey-ecology--habitats",
+      "name": "Habitats",
+      "diff": "E"
+     },
+     {
+      "id": "ey-ecology--functional-traits",
+      "name": "Functional traits",
+      "diff": "E"
+     },
+     {
+      "id": "ey-ecology--ecophysiology-e-g",
+      "name": "Ecophysiology (e.g",
+      "diff": "M"
+     },
+     {
+      "id": "ey-ecology--physiological-adaptations-homeostasis-acclimation",
+      "name": "Physiological adaptations, homeostasis, acclimation)",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Population Ecology",
+    "topics": [
+     {
+      "id": "ey-ecology--population-dynamics-and-growth-density-dependent-independent",
+      "name": "Population dynamics and growth (density dependent/independent)",
+      "diff": "M"
+     },
+     {
+      "id": "ey-ecology--meta-population-ecology",
+      "name": "Meta-population ecology",
+      "diff": "M"
+     },
+     {
+      "id": "ey-ecology--age-structured-populations",
+      "name": "Age-structured populations",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "C",
+    "name": "Interactions",
+    "topics": [
+     {
+      "id": "ey-ecology--types-of-interactions-mutualism-symbiosis-commensalism-compe",
+      "name": "Types of interactions (mutualism, symbiosis, commensalism, competition, parasitism, predation, etc.)",
+      "diff": "E"
+     },
+     {
+      "id": "ey-ecology--two-species-population-models-lotka-voltera-equations",
+      "name": "Two species population models (Lotka -Voltera equations)",
+      "diff": "M"
+     },
+     {
+      "id": "ey-ecology--trophic-levels-and-their-direct-and-indirect-interactions",
+      "name": "Trophic levels and their direct and indirect interactions",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "D",
+    "name": "Community Ecolog y",
+    "topics": [
+     {
+      "id": "ey-ecology--community-assembly-structure-and-succession",
+      "name": "Community assembly, structure and succession",
+      "diff": "M"
+     },
+     {
+      "id": "ey-ecology--role-of-dispersal-and-habitat-environmental-filtering",
+      "name": "Role of dispersal and habitat/environmental filtering",
+      "diff": "M"
+     },
+     {
+      "id": "ey-ecology--levels-of-diversity-alpha-beta-gamma",
+      "name": "Levels of diversity (alpha, beta, gamma)",
+      "diff": "M"
+     },
+     {
+      "id": "ey-ecology--species-richness-evenness-and-diversity-indices",
+      "name": "Species richness, Evenness and diversity indices",
+      "diff": "M"
+     },
+     {
+      "id": "ey-ecology--relative-abundance",
+      "name": "Relative abundance",
+      "diff": "M"
+     },
+     {
+      "id": "ey-ecology--species-area-relationships",
+      "name": "Species-area relationships",
+      "diff": "M"
+     },
+     {
+      "id": "ey-ecology--diversity-gradients-e-g",
+      "name": "Diversity gradients (e.g",
+      "diff": "M"
+     },
+     {
+      "id": "ey-ecology--latitudinal-and-altitudinal-gradients",
+      "name": "Latitudinal and altitudinal gradients)",
+      "diff": "M"
+     },
+     {
+      "id": "ey-ecology--theory-of-island-biogeography",
+      "name": "Theory of island biogeography",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "E",
+    "name": "Ecosystem Structure and Function",
+    "topics": [
+     {
+      "id": "ey-ecology--primary-and-secondary-productivity",
+      "name": "Primary and secondary productivity",
+      "diff": "M"
+     },
+     {
+      "id": "ey-ecology--food-web-energy-flow-and-biogeochemical-cycles-e-g",
+      "name": "Food web, energy flow, and biogeochemical cycles (e.g",
+      "diff": "M"
+     },
+     {
+      "id": "ey-ecology--carbon-and-nitrogen",
+      "name": "Carbon and nitrogen)",
+      "diff": "M"
+     },
+     {
+      "id": "ey-ecology--ecosystem-properties-e-g",
+      "name": "Ecosystem properties (e.g",
+      "diff": "M"
+     },
+     {
+      "id": "ey-ecology--stability-resilience",
+      "name": "Stability, resilience)",
+      "diff": "H"
+     },
+     {
+      "id": "ey-ecology--global-biomes-and-biogeographic-zones",
+      "name": "Global biomes and biogeographic zones",
+      "diff": "M"
+     },
+     {
+      "id": "ey-ecology--flora-and-fauna-of-india",
+      "name": "Flora and fauna of India",
+      "diff": "M"
+     },
+     {
+      "id": "ey-ecology--biogeography-of-india",
+      "name": "Biogeography of India",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "ey-evolution",
+  "name": "Evolution",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Fundamentals",
+    "topics": [
+     {
+      "id": "ey-evolution--lamarckism",
+      "name": "Lamarckism",
+      "diff": "E",
+      "sample": true
+     },
+     {
+      "id": "ey-evolution--darwinism",
+      "name": "Darwinism",
+      "diff": "E"
+     },
+     {
+      "id": "ey-evolution--modern-synthesis",
+      "name": "Modern Synthesis",
+      "diff": "E"
+     },
+     {
+      "id": "ey-evolution--variation",
+      "name": "Variation",
+      "diff": "E"
+     },
+     {
+      "id": "ey-evolution--heritability",
+      "name": "Heritability",
+      "diff": "E"
+     },
+     {
+      "id": "ey-evolution--natural-selection",
+      "name": "Natural selection",
+      "diff": "E"
+     },
+     {
+      "id": "ey-evolution--fitness-and-adaptation",
+      "name": "Fitness and adaptation",
+      "diff": "M"
+     },
+     {
+      "id": "ey-evolution--types-of-selection-e-g",
+      "name": "Types of selection (e.g",
+      "diff": "E"
+     },
+     {
+      "id": "ey-evolution--stabilizing-directional-disruptive",
+      "name": "Stabilizing, directional, disruptive)",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Diversity of Life",
+    "topics": [
+     {
+      "id": "ey-evolution--origin-and-history-of-life-on-earth",
+      "name": "Origin and history of life on earth",
+      "diff": "M"
+     },
+     {
+      "id": "ey-evolution--paleobiological-evidence",
+      "name": "Paleobiological evidence",
+      "diff": "M"
+     },
+     {
+      "id": "ey-evolution--diversity-and-classification-of-life",
+      "name": "Diversity and classification of life",
+      "diff": "E"
+     },
+     {
+      "id": "ey-evolution--classical-taxonomy-vs-systematics-cladistics",
+      "name": "Classical taxonomy vs systematics (cladistics)",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "C",
+    "name": "Life History Theory",
+    "topics": [
+     {
+      "id": "ey-evolution--allocation-of-resources",
+      "name": "Allocation of resources",
+      "diff": "M"
+     },
+     {
+      "id": "ey-evolution--tradeoffs",
+      "name": "Tradeoffs",
+      "diff": "E"
+     },
+     {
+      "id": "ey-evolution--r-k-selection",
+      "name": "R/K selection",
+      "diff": "E"
+     },
+     {
+      "id": "ey-evolution--strategies-e-g",
+      "name": "Strategies (e.g",
+      "diff": "E"
+     },
+     {
+      "id": "ey-evolution--semelparity-and-iteroparity",
+      "name": "Semelparity and iteroparity)",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "D",
+    "name": "Interactions",
+    "topics": [
+     {
+      "id": "ey-evolution--co-evolution-e-g",
+      "name": "Co-evolution (e.g",
+      "diff": "E"
+     },
+     {
+      "id": "ey-evolution--mutualism-arms-race-co-speciation",
+      "name": "Mutualism, arms race, co-speciation)",
+      "diff": "M"
+     },
+     {
+      "id": "ey-evolution--prey-predator-interactions-e-g",
+      "name": "Prey-predator interactions (e.g",
+      "diff": "M"
+     },
+     {
+      "id": "ey-evolution--mimicry-crypsis",
+      "name": "Mimicry, crypsis)",
+      "diff": "E"
+     },
+     {
+      "id": "ey-evolution--host-parasite-interactions",
+      "name": "Host-parasite interactions",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "E",
+    "name": "Population and Quantitative Genetics",
+    "topics": [
+     {
+      "id": "ey-evolution--origins-of-genetic-variation",
+      "name": "Origins of genetic variation",
+      "diff": "M"
+     },
+     {
+      "id": "ey-evolution--mendelian-genetics",
+      "name": "Mendelian genetics",
+      "diff": "M"
+     },
+     {
+      "id": "ey-evolution--hardy-weinberg-equilibrium",
+      "name": "Hardy -Weinberg equilibrium",
+      "diff": "M"
+     },
+     {
+      "id": "ey-evolution--drift",
+      "name": "Drift",
+      "diff": "E"
+     },
+     {
+      "id": "ey-evolution--selection-one-locus-two-alleles-model",
+      "name": "Selection (one-locus two-alleles model)",
+      "diff": "M"
+     },
+     {
+      "id": "ey-evolution--population-genetic-structure-panmixia-gene-flow-fst",
+      "name": "Population genetic structure (panmixia, gene flow, FST)",
+      "diff": "M"
+     },
+     {
+      "id": "ey-evolution--polygenic-traits",
+      "name": "Polygenic traits",
+      "diff": "E"
+     },
+     {
+      "id": "ey-evolution--gene-environment-interactions-phenotypic-plasticity",
+      "name": "Gene-environment interactions (phenotypic plasticity)",
+      "diff": "H"
+     },
+     {
+      "id": "ey-evolution--heritability",
+      "name": "Heritability",
+      "diff": "E"
+     },
+     {
+      "id": "ey-evolution--epistasis-and-epigenetic-inheritance",
+      "name": "Epistasis and epigenetic inheritance",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "F",
+    "name": "Molecular Evolution and Phylogenetics",
+    "topics": [
+     {
+      "id": "ey-evolution--mutation-rates",
+      "name": "Mutation rates",
+      "diff": "E"
+     },
+     {
+      "id": "ey-evolution--molecular-clocks",
+      "name": "Molecular clocks",
+      "diff": "E"
+     },
+     {
+      "id": "ey-evolution--neutral-processes",
+      "name": "Neutral processes",
+      "diff": "E"
+     },
+     {
+      "id": "ey-evolution--rates-of-evolution",
+      "name": "Rates of evolution",
+      "diff": "M"
+     },
+     {
+      "id": "ey-evolution--chromosomal-and-genome-evolution-e-g",
+      "name": "Chromosomal and genome evolution (e.g",
+      "diff": "M"
+     },
+     {
+      "id": "ey-evolution--hybridization-ploidy-introgression",
+      "name": "Hybridization, ploidy, introgression)",
+      "diff": "M"
+     },
+     {
+      "id": "ey-evolution--phylogenetic-methods-parsimony",
+      "name": "Phylogenetic methods (parsimony",
+      "diff": "M"
+     },
+     {
+      "id": "ey-evolution--maximum-likelihood-bayesian-etc",
+      "name": "Maximum likelihood, Bayesian, etc)",
+      "diff": "H"
+     },
+     {
+      "id": "ey-evolution--phylogeography",
+      "name": "Phylogeography",
+      "diff": "E"
+     }
+    ]
+   },
+   {
+    "letter": "G",
+    "name": "Macroevolution",
+    "topics": [
+     {
+      "id": "ey-evolution--species-concepts",
+      "name": "Species concepts",
+      "diff": "E"
+     },
+     {
+      "id": "ey-evolution--speciation-and-extinction",
+      "name": "Speciation and extinction",
+      "diff": "M"
+     },
+     {
+      "id": "ey-evolution--adaptive-radiation",
+      "name": "Adaptive radiation",
+      "diff": "M"
+     },
+     {
+      "id": "ey-evolution--convergence",
+      "name": "Convergence",
+      "diff": "E"
+     },
+     {
+      "id": "ey-evolution--biogeographic-processes",
+      "name": "Biogeographic processes",
+      "diff": "M"
+     },
+     {
+      "id": "ey-evolution--continental-drift",
+      "name": "Continental drift",
+      "diff": "E"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "ey-mathematics-and-quantitative-e",
+  "name": "Mathematics and Quantitative Ecology",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Mathematics and Statistics in Ecology",
+    "topics": [
+     {
+      "id": "ey-mathematics-and-quantitative-e--simple-functions-linear-quadratic-exponential-logarithmic-et",
+      "name": "Simple functions (linear, quadratic, exponential, logarithmic, etc)",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "ey-mathematics-and-quantitative-e--concept-of-derivatives-and-slope-of-a-function",
+      "name": "Concept of derivatives and slope of a function",
+      "diff": "M"
+     },
+     {
+      "id": "ey-mathematics-and-quantitative-e--permutations-and-combinations",
+      "name": "Permutations and combinations",
+      "diff": "M"
+     },
+     {
+      "id": "ey-mathematics-and-quantitative-e--basic-probability-probability-of-random-events",
+      "name": "Basic probability (probability of random events",
+      "diff": "E"
+     },
+     {
+      "id": "ey-mathematics-and-quantitative-e--sequences-of-events-conditional-probability-etc",
+      "name": "Sequences of events, conditional probability, etc)",
+      "diff": "M"
+     },
+     {
+      "id": "ey-mathematics-and-quantitative-e--probability-distributions-e-g",
+      "name": "Probability distributions (e.g",
+      "diff": "M"
+     },
+     {
+      "id": "ey-mathematics-and-quantitative-e--binomial-normal-poisson",
+      "name": "Binomial, normal, Poisson)",
+      "diff": "M"
+     },
+     {
+      "id": "ey-mathematics-and-quantitative-e--descriptive-statistics-mean-variance-coefficient-of-variatio",
+      "name": "Descriptive statistics (mean, variance, coefficient of variation, confidence intervals, etc.)",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Study design and Statistical methods",
+    "topics": [
+     {
+      "id": "ey-mathematics-and-quantitative-e--statistical-hypothesis-testing",
+      "name": "Statistical hypothesis testing",
+      "diff": "M"
+     },
+     {
+      "id": "ey-mathematics-and-quantitative-e--concept-of-p-value",
+      "name": "Concept of p-value",
+      "diff": "M"
+     },
+     {
+      "id": "ey-mathematics-and-quantitative-e--type-i-and-type-ii-error-statistical-tests-e-g",
+      "name": "Type I and Type II error, Statistical tests (e.g",
+      "diff": "M"
+     },
+     {
+      "id": "ey-mathematics-and-quantitative-e--t-test-chi-square-test",
+      "name": "T- test, Chi-square test)",
+      "diff": "M"
+     },
+     {
+      "id": "ey-mathematics-and-quantitative-e--correlation-linear-regression-and-anova",
+      "name": "Correlation, linear regression and ANOVA",
+      "diff": "M"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "ey-behavioural-ecology",
+  "name": "Behavioural Ecology",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Classical Ethology and Sensory Ecology",
+    "topics": [
+     {
+      "id": "ey-behavioural-ecology--proximate-and-ultimate-explanations-for-behaviour",
+      "name": "Proximate and ultimate explanations for behaviour",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "ey-behavioural-ecology--innate-and-learnt-behavior",
+      "name": "Innate and learnt behavior",
+      "diff": "M"
+     },
+     {
+      "id": "ey-behavioural-ecology--basic-mechanisms-e-g-neuroethology-behavioural-endocrinology",
+      "name": "Basic mechanisms (e.g., neuroethology, behavioural endocrinology)",
+      "diff": "E"
+     },
+     {
+      "id": "ey-behavioural-ecology--modes-of-communication-chemical-visual-etc",
+      "name": "Modes of communication (chemical, visual, etc)",
+      "diff": "M"
+     },
+     {
+      "id": "ey-behavioural-ecology--movement-e-g",
+      "name": "Movement (e.g",
+      "diff": "E"
+     },
+     {
+      "id": "ey-behavioural-ecology--navigation",
+      "name": "Navigation)",
+      "diff": "E"
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Foraging and Reproduction",
+    "topics": [
+     {
+      "id": "ey-behavioural-ecology--optimal-foraging-theory",
+      "name": "Optimal foraging theory",
+      "diff": "M"
+     },
+     {
+      "id": "ey-behavioural-ecology--space-use-e-g",
+      "name": "Space use (e.g",
+      "diff": "E"
+     },
+     {
+      "id": "ey-behavioural-ecology--territoriality",
+      "name": "Territoriality)",
+      "diff": "E"
+     },
+     {
+      "id": "ey-behavioural-ecology--mating-systems",
+      "name": "Mating systems",
+      "diff": "E"
+     },
+     {
+      "id": "ey-behavioural-ecology--sexual-selection-and-sexual-conflict-runaway-selection-good-",
+      "name": "Sexual selection and sexual conflict (runaway selection, good-genes, handicap principle, etc)",
+      "diff": "M"
+     },
+     {
+      "id": "ey-behavioural-ecology--parental-care",
+      "name": "Parental care",
+      "diff": "E"
+     }
+    ]
+   },
+   {
+    "letter": "C",
+    "name": "Social Behaviour",
+    "topics": [
+     {
+      "id": "ey-behavioural-ecology--costs-and-benefits-of-group-living",
+      "name": "Costs and benefits of group-living",
+      "diff": "M"
+     },
+     {
+      "id": "ey-behavioural-ecology--intraspecific-competition-e-g",
+      "name": "Intraspecific competition (e.g",
+      "diff": "M"
+     },
+     {
+      "id": "ey-behavioural-ecology--scramble-and-contest",
+      "name": "Scramble and contest)",
+      "diff": "M"
+     },
+     {
+      "id": "ey-behavioural-ecology--kin-selection",
+      "name": "Kin selection",
+      "diff": "E"
+     },
+     {
+      "id": "ey-behavioural-ecology--altruism",
+      "name": "Altruism",
+      "diff": "E"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "ey-applied-ecology-and-evolution",
+  "name": "Applied Ecology & Evolution",
+  "marks": "",
+  "focus": "",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Biodiversity and Conservation",
+    "topics": [
+     {
+      "id": "ey-applied-ecology-and-evolution--biodiversity-ecosystem-function-relationships",
+      "name": "Biodiversity-ecosystem function relationships",
+      "diff": "M",
+      "sample": true
+     },
+     {
+      "id": "ey-applied-ecology-and-evolution--ecosystem-services",
+      "name": "Ecosystem services",
+      "diff": "M"
+     },
+     {
+      "id": "ey-applied-ecology-and-evolution--conservation-endemism-biodiversity-hotspots-protected-areas",
+      "name": "Conservation (endemism, biodiversity hotspots, protected areas)",
+      "diff": "M"
+     },
+     {
+      "id": "ey-applied-ecology-and-evolution--global-conservation-initiatives-e-g",
+      "name": "Global conservation initiatives (e.g",
+      "diff": "M"
+     },
+     {
+      "id": "ey-applied-ecology-and-evolution--cop-iucn-cbd-cites",
+      "name": "COP, IUCN, CBD, CITES)",
+      "diff": "M"
+     },
+     {
+      "id": "ey-applied-ecology-and-evolution--conservation-genetics-and-methods-genetic-diversity-inbreedi",
+      "name": "Conservation genetics and methods (genetic diversity, inbreeding depression, DNA fingerprinting and DNA barcoding)",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Disease Ecology and Evolution",
+    "topics": [
+     {
+      "id": "ey-applied-ecology-and-evolution--epidemiology",
+      "name": "Epidemiology",
+      "diff": "E"
+     },
+     {
+      "id": "ey-applied-ecology-and-evolution--zoonotic-diseases",
+      "name": "Zoonotic diseases",
+      "diff": "E"
+     },
+     {
+      "id": "ey-applied-ecology-and-evolution--antibiotic-resistance",
+      "name": "Antibiotic resistance",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "C",
+    "name": "Global Change",
+    "topics": [
+     {
+      "id": "ey-applied-ecology-and-evolution--causes-consequences-adaptation-and-mitigation-of-climate-cha",
+      "name": "Causes, consequences, adaptation and mitigation of climate change",
+      "diff": "M"
+     },
+     {
+      "id": "ey-applied-ecology-and-evolution--threats-to-biodiversity-e-g",
+      "name": "Threats to biodiversity (e.g",
+      "diff": "M"
+     },
+     {
+      "id": "ey-applied-ecology-and-evolution--pollution-habitat-loss-and-change",
+      "name": "Pollution, habitat loss and change)",
+      "diff": "M"
+     },
+     {
+      "id": "ey-applied-ecology-and-evolution--invasive-species",
+      "name": "Invasive species",
+      "diff": "E"
+     }
+    ]
+   }
+  ]
+ }
+]
