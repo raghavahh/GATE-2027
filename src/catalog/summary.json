@@ -1,0 +1,147 @@
+{
+ "ae": {
+  "subjects": 9,
+  "topics": 172,
+  "videos": 0
+ },
+ "ag": {
+  "subjects": 11,
+  "topics": 244,
+  "videos": 0
+ },
+ "ar": {
+  "subjects": 20,
+  "topics": 348,
+  "videos": 0
+ },
+ "bm": {
+  "subjects": 14,
+  "topics": 193,
+  "videos": 0
+ },
+ "bt": {
+  "subjects": 10,
+  "topics": 246,
+  "videos": 0
+ },
+ "ce": {
+  "subjects": 12,
+  "topics": 259,
+  "videos": 0
+ },
+ "ch": {
+  "subjects": 14,
+  "topics": 170,
+  "videos": 0
+ },
+ "cs": {
+  "subjects": 14,
+  "topics": 107,
+  "videos": 312
+ },
+ "cy": {
+  "subjects": 7,
+  "topics": 364,
+  "videos": 0
+ },
+ "da": {
+  "subjects": 11,
+  "topics": 137,
+  "videos": 428
+ },
+ "ec": {
+  "subjects": 12,
+  "topics": 201,
+  "videos": 674
+ },
+ "ee": {
+  "subjects": 14,
+  "topics": 210,
+  "videos": 719
+ },
+ "es": {
+  "subjects": 13,
+  "topics": 284,
+  "videos": 0
+ },
+ "ey": {
+  "subjects": 9,
+  "topics": 150,
+  "videos": 0
+ },
+ "ge": {
+  "subjects": 7,
+  "topics": 106,
+  "videos": 0
+ },
+ "gg": {
+  "subjects": 7,
+  "topics": 420,
+  "videos": 0
+ },
+ "in": {
+  "subjects": 7,
+  "topics": 119,
+  "videos": 0
+ },
+ "ma": {
+  "subjects": 15,
+  "topics": 203,
+  "videos": 0
+ },
+ "me": {
+  "subjects": 8,
+  "topics": 244,
+  "videos": 256
+ },
+ "mn": {
+  "subjects": 10,
+  "topics": 156,
+  "videos": 0
+ },
+ "mt": {
+  "subjects": 12,
+  "topics": 209,
+  "videos": 0
+ },
+ "nm": {
+  "subjects": 9,
+  "topics": 331,
+  "videos": 0
+ },
+ "pe": {
+  "subjects": 15,
+  "topics": 212,
+  "videos": 0
+ },
+ "ph": {
+  "subjects": 15,
+  "topics": 191,
+  "videos": 0
+ },
+ "pi": {
+  "subjects": 11,
+  "topics": 252,
+  "videos": 0
+ },
+ "st": {
+  "subjects": 16,
+  "topics": 206,
+  "videos": 0
+ },
+ "xe": {
+  "subjects": 47,
+  "topics": 741,
+  "videos": 0
+ },
+ "xh": {
+  "subjects": 46,
+  "topics": 986,
+  "videos": 0
+ },
+ "xl": {
+  "subjects": 44,
+  "topics": 582,
+  "videos": 0
+ }
+}

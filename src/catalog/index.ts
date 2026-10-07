@@ -1,19 +1,43 @@
+import { useEffect, useState } from 'react';
 import { PAPERS } from './papers';
 import type { CatSubject, CatTopic, Paper, Video } from './types';
-import videosJson from './videos.json';
+import summaryJson from './summary.json';
 
 export * from './types';
 export { PAPERS, PRICE_INR, EDITION } from './papers';
 
-/** Sheets generated from the official GATE 2027 syllabus PDFs (scripts/build_syllabus.py). */
-const files = import.meta.glob<CatSubject[]>('./generated/*.json', { eager: true, import: 'default' });
-const byCode: Record<string, CatSubject[]> = {};
-for (const [path, subs] of Object.entries(files)) byCode[path.replace(/^.*\/(\w+)\.json$/, '$1')] = subs;
-
-const GA = byCode.ga ?? [];
+/**
+ * Sheets come from the official GATE 2027 syllabus PDFs (scripts/build_syllabus.py) and are
+ * downloaded per paper, only when that paper is opened (keeps the first load small).
+ */
+const sheetLoaders = import.meta.glob<CatSubject[]>('./generated/*.json', { import: 'default' });
+const videoLoaders = import.meta.glob<Record<string, Video[]>>('./videos/*.json', { import: 'default' });
 const SUBJECTS: Record<string, CatSubject[]> = {};
-for (const p of PAPERS) if (byCode[p.slug]?.length) SUBJECTS[p.slug] = [...GA, ...byCode[p.slug]];
-const VIDEOS = videosJson as Record<string, Video[]>;
+const VIDEOS: Record<string, Video[]> = {};
+const SUMMARY = summaryJson as Record<string, { subjects: number; topics: number; videos: number }>;
+const pending: Record<string, Promise<void>> = {};
+
+export function loadPaper(slug: string): Promise<void> {
+  if (SUBJECTS[slug]) return Promise.resolve();
+  pending[slug] ??= (async () => {
+    const [ga, own, vids] = await Promise.all([
+      sheetLoaders['./generated/ga.json']?.(),
+      sheetLoaders[`./generated/${slug}.json`]?.(),
+      videoLoaders[`./videos/${slug}.json`]?.(),
+    ]);
+    Object.assign(VIDEOS, vids ?? {});
+    SUBJECTS[slug] = own?.length ? [...(ga ?? []), ...own] : [];
+  })();
+  return pending[slug];
+}
+
+/** Loads a paper's sheet; returns true once it is ready. */
+export function usePaper(slug: string): boolean {
+  const [, bump] = useState(0);
+  const ready = !!SUBJECTS[slug] || !getPaper(slug);
+  useEffect(() => { if (!ready) loadPaper(slug).then(() => bump(x => x + 1)); }, [slug, ready]);
+  return ready;
+}
 
 export const getPaper = (slug?: string): Paper | undefined => PAPERS.find(p => p.slug === slug);
 export const getSubjects = (slug?: string): CatSubject[] => (slug ? SUBJECTS[slug] ?? [] : []);
@@ -43,6 +67,7 @@ export function findTopic(paperSlug: string, topicId: string): TopicHit | undefi
 }
 
 export function paperStats(slug: string) {
+  if (!SUBJECTS[slug]) return SUMMARY[slug] ?? { subjects: 0, topics: 0, videos: 0 };
   const subs = getSubjects(slug);
   const topics = subs.flatMap(s => s.modules.flatMap(m => m.topics));
   const videos = topics.reduce((n, t) => n + getVideos(t.id).length, 0);

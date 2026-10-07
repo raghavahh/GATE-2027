@@ -1,14 +1,14 @@
 import { useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import { ArrowLeft, ArrowRight, Lock } from 'lucide-react';
-import { findTopic, getVideos, paperStats } from '../catalog';
+import { findTopic, getVideos, paperStats, usePaper } from '../catalog';
 import { getLessonById } from '../data/syllabus';
 import { isUnlocked, setStatus, useStore, type Status } from '../lib/store';
 import { DiffBadge } from '../ui/bits';
 import { BuyModal } from '../ui/BuyModal';
 import { useAuth } from '../lib/auth';
 import { YouTubePlayer } from '../ui/YouTubePlayer';
-import { NotFound } from './Static';
+import { Loading, NotFound } from './Static';
 
 const STATUS: { s: Status; label: string }[] = [
   { s: 'todo', label: 'Not started' },
@@ -18,11 +18,13 @@ const STATUS: { s: Status; label: string }[] = [
 
 export function TopicPage() {
   const { paper: slug = '', topic: id = '' } = useParams();
-  const hit = findTopic(slug, id);
+  const ready = usePaper(slug);
+  const hit = ready ? findTopic(slug, id) : undefined;
   const { progress } = useStore();
   const { papers } = useAuth();
   const owned = isUnlocked(slug) || papers.includes(slug);
   const [buy, setBuy] = useState(false);
+  if (!ready) return <Loading />;
   if (!hit) return <NotFound />;
 
   const { paper, subject, topic, moduleName, moduleLetter, flat, index } = hit;

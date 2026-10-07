@@ -1,12 +1,12 @@
 import { useMemo, useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import { ChevronDown, Lock, PlayCircle, Search } from 'lucide-react';
-import { EDITION, PRICE_INR, getPaper, getSubjects, getVideos, paperStats, type CatSubject, type CatTopic, type Diff } from '../catalog';
+import { EDITION, PRICE_INR, getPaper, usePaper, getSubjects, getVideos, paperStats, type CatSubject, type CatTopic, type Diff } from '../catalog';
 import { isUnlocked, setStatus, useStore, type Status } from '../lib/store';
 import { Bar, DiffText, StatusBox } from '../ui/bits';
 import { BuyModal } from '../ui/BuyModal';
 import { useAuth } from '../lib/auth';
-import { NotFound } from './Static';
+import { Loading, NotFound } from './Static';
 
 const nextStatus: Record<Status, Status> = { todo: 'doing', doing: 'done', done: 'todo' };
 type Filter = 'all' | Diff;
@@ -14,6 +14,7 @@ type Filter = 'all' | Diff;
 export function PaperPage() {
   const { paper: slug = '' } = useParams();
   const paper = getPaper(slug);
+  const ready = usePaper(slug);
   const subjects = getSubjects(slug);
   const { progress } = useStore();
   const { papers } = useAuth();
@@ -29,6 +30,7 @@ export function PaperPage() {
   const done = allTopics.filter(t => progress[t.id] === 'done').length;
 
   if (!paper) return <NotFound />;
+  if (!ready) return <Loading />;
 
   if (!subjects.length) {
     return (
