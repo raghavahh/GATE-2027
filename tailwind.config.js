@@ -1,46 +1,34 @@
 /** @type {import('tailwindcss').Config} */
+const v = (name) => `rgb(var(--${name}) / <alpha-value>)`;
+
 export default {
-  content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
-  ],
+  content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   darkMode: 'class',
   theme: {
     extend: {
       colors: {
-        dark: {
-          bg: '#090909',
-          surface: '#101010',
-          elevated: '#161616',
-          highlight: '#1C1C1C',
-          border: '#202020',
-          borderSubtle: '#1B1B1B',
-          borderActive: '#333333',
-        },
-        accent: {
-          DEFAULT: '#3B82F6',
-          hover: '#2563EB',
-          subtle: 'rgba(59, 130, 246, 0.12)',
-        },
-        gate: {
-          primary: '#F5F5F5',
-          secondary: '#8A8A8A',
-          muted: '#5A5A5A',
-          dim: '#383838',
-        },
-        status: {
-          notStarted: '#404040',
-          learning: '#3B82F6',
-          practicing: '#F59E0B',
-          strong: '#8B5CF6',
-          mastered: '#10B981',
-        }
+        page: v('page'),
+        surface: v('surface'),
+        raised: v('raised'),
+        line: v('line'),
+        ink: v('ink'),
+        sub: v('sub'),
+        mute: v('mute'),
+        brand: v('brand'),
+        'on-brand': v('on-brand'),
+        easy: v('easy'),
+        medium: v('medium'),
+        hard: v('hard'),
+        ok: v('ok'),
       },
       fontFamily: {
-        sans: ['Geist', 'Inter', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'sans-serif'],
-        mono: ['JetBrains Mono', 'Fira Code', 'Consolas', 'monospace'],
+        sans: ['"IBM Plex Sans"', 'system-ui', '-apple-system', 'Segoe UI', 'Roboto', 'sans-serif'],
+        serif: ['"IBM Plex Serif"', 'Georgia', 'serif'],
+        mono: ['"JetBrains Mono"', 'ui-monospace', 'Consolas', 'monospace'],
       },
+      borderRadius: { card: '12px' },
+      maxWidth: { shell: '1200px', read: '720px' },
     },
   },
   plugins: [],
-}
+};

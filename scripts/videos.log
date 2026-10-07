@@ -1,0 +1,114 @@
+1/113 3 videos  Grammar: articles, prepositions, tenses
+2/113 2 videos  Subject–verb agreement and sentence correction
+3/113 4 videos  Vocabulary, idioms and word usage
+4/113 2 videos  Reading comprehension and inference
+5/113 4 videos  Numbers, divisibility and remainders
+6/113 4 videos  Percentages, ratio and proportion
+7/113 4 videos  Time and work, speed and distance
+8/113 4 videos  Profit, loss and interest
+9/113 2 videos  Permutations, combinations and probability
+10/113 4 videos  Data interpretation: tables and charts
+11/113 3 videos  Logical reasoning and deduction
+12/113 4 videos  Seating and arrangements
+13/113 4 videos  Number and letter series
+14/113 4 videos  Spatial reasoning: cubes, folding, rotation
+15/113 4 videos  Propositional logic and equivalences
+16/113 4 videos  First-order logic and quantifiers
+17/113 4 videos  Sets, relations and their properties
+18/113 4 videos  Partial orders, lattices and Hasse diagrams
+19/113 4 videos  Functions and countability
+20/113 4 videos  Groups and monoids
+21/113 3 videos  Counting, permutations and combinations
+22/113 4 videos  Recurrence relations and generating functions
+23/113 4 videos  Pigeonhole and inclusion–exclusion
+24/113 4 videos  Graph basics, connectivity and trees
+25/113 4 videos  Matching and colouring
+26/113 4 videos  Euler and Hamiltonian graphs, planarity
+27/113 4 videos  Matrix operations, determinants and rank
+28/113 4 videos  Systems of linear equations
+29/113 4 videos  Eigenvalues and eigenvectors
+30/113 4 videos  LU decomposition
+31/113 4 videos  Limits, continuity and differentiability
+32/113 4 videos  Maxima and minima
+33/113 4 videos  Mean value theorem
+34/113 4 videos  Integration
+35/113 4 videos  Conditional probability and Bayes theorem
+36/113 4 videos  Random variables, mean and variance
+37/113 4 videos  Distributions: uniform, binomial, Poisson, normal, exponential
+38/113 4 videos  Mean, median, mode and standard deviation
+39/113 4 videos  Correlation and regression
+40/113 3 videos  Number systems and complements
+41/113 4 videos  Fixed and floating point (IEEE 754)
+42/113 4 videos  Boolean algebra and minimisation (K-maps)
+43/113 4 videos  Combinational circuits: mux, decoder, adders
+44/113 4 videos  Sequential circuits: latches and flip-flops
+45/113 4 videos  Counters and registers
+46/113 4 videos  Machine instructions and addressing modes
+47/113 4 videos  ALU, data path and control unit
+48/113 4 videos  Instruction pipelining and hazards
+49/113 4 videos  Cache memory: mapping and AMAT
+50/113 4 videos  Main memory and secondary storage
+51/113 4 videos  I/O interface: interrupt and DMA
+52/113 4 videos  C basics, operators and control flow
+53/113 4 videos  Recursion and function calls
+54/113 4 videos  Pointers, arrays and strings
+55/113 4 videos  Scope, storage classes and parameter passing
+56/113 4 videos  Arrays and linked lists
+57/113 4 videos  Stacks and queues
+58/113 4 videos  Binary trees, BST and traversals
+59/113 4 videos  Binary heaps
+60/113 4 videos  AVL trees and balancing
+61/113 4 videos  Graph representations
+62/113 4 videos  Hashing and collision resolution
+63/113 4 videos  Asymptotic notation and complexity
+64/113 4 videos  Recurrences and master theorem
+65/113 4 videos  Searching and sorting algorithms
+66/113 4 videos  Divide and conquer
+67/113 4 videos  Greedy algorithms
+68/113 4 videos  Dynamic programming
+69/113 4 videos  Graph traversals: BFS and DFS
+70/113 4 videos  Minimum spanning trees
+71/113 4 videos  Shortest paths: Dijkstra and Bellman–Ford
+72/113 4 videos  Regular expressions and finite automata
+73/113 4 videos  DFA minimisation and closure properties
+74/113 4 videos  Pumping lemma for regular languages
+75/113 4 videos  Context-free grammars
+76/113 4 videos  Pushdown automata
+77/113 4 videos  Pumping lemma for CFLs
+78/113 4 videos  Turing machines and recursively enumerable languages
+79/113 4 videos  Undecidability and reductions
+80/113 4 videos  Lexical analysis
+81/113 4 videos  Parsing: LL(1) and LR
+82/113 4 videos  Syntax-directed translation
+83/113 4 videos  Runtime environments
+84/113 4 videos  Intermediate code generation
+85/113 4 videos  Local optimisation
+86/113 4 videos  Data-flow analysis: liveness and constant propagation
+87/113 4 videos  Processes, threads and system calls
+88/113 4 videos  CPU scheduling
+89/113 4 videos  Inter-process communication
+90/113 4 videos  Concurrency and synchronisation: semaphores
+91/113 4 videos  Deadlock and Banker's algorithm
+92/113 4 videos  Main memory management
+93/113 4 videos  Paging and page tables
+94/113 4 videos  Virtual memory and page replacement
+95/113 4 videos  File systems
+96/113 4 videos  Disk scheduling
+97/113 4 videos  ER model
+98/113 4 videos  Relational model and relational algebra
+99/113 4 videos  Tuple relational calculus
+100/113 4 videos  SQL queries
+101/113 4 videos  Integrity constraints and normal forms
+102/113 4 videos  File organisation and indexing: B and B+ trees
+103/113 4 videos  Transactions and concurrency control
+104/113 4 videos  Layering: OSI and TCP/IP
+105/113 4 videos  Switching: circuit, packet and message
+106/113 4 videos  Framing, error detection and MAC
+107/113 4 videos  Ethernet bridging and flow control
+108/113 4 videos  IPv4 addressing, CIDR and subnetting
+109/113 4 videos  Routing: shortest path, flooding, distance vector, link state
+110/113 4 videos  Fragmentation, ARP, DHCP and ICMP
+111/113 4 videos  UDP, TCP and congestion control
+112/113 4 videos  Sockets
+113/113 4 videos  Application layer: DNS, SMTP, HTTP, FTP, email
+done. topics with fewer than 3 videos: 3

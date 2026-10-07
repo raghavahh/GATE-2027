@@ -2,38 +2,66 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Design tokens (RGB channels). Dark is default; .light switches. */
+:root {
+  --page: 14 15 17;
+  --surface: 22 24 27;
+  --raised: 30 33 37;
+  --line: 40 44 49;
+  --ink: 236 237 238;
+  --sub: 160 166 172;
+  --mute: 112 118 126;
+  --brand: 245 165 36;
+  --on-brand: 20 16 8;
+  --easy: 0 184 163;
+  --medium: 255 192 30;
+  --hard: 255 79 109;
+  --ok: 34 197 94;
+  color-scheme: dark;
+}
+
+:root.light {
+  --page: 247 247 245;
+  --surface: 255 255 255;
+  --raised: 242 242 239;
+  --line: 228 228 224;
+  --ink: 26 27 30;
+  --sub: 84 89 97;
+  --mute: 120 125 132;
+  --brand: 180 83 9;
+  --on-brand: 255 255 255;
+  --easy: 13 128 112;
+  --medium: 161 98 7;
+  --hard: 204 34 68;
+  --ok: 21 128 61;
+  color-scheme: light;
+}
+
 @layer base {
-  :root {
-    color-scheme: dark;
-  }
-  
+  html { -webkit-text-size-adjust: 100%; }
   body {
-    background-color: #090909;
-    color: #F5F5F5;
-    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    @apply bg-page text-ink font-sans antialiased;
+    font-size: 15px;
+    line-height: 1.6;
   }
+  h1, h2, h3 { @apply text-ink; letter-spacing: -0.01em; }
+  :focus-visible { outline: 2px solid rgb(var(--brand)); outline-offset: 2px; border-radius: 6px; }
+  ::selection { background: rgb(var(--brand) / 0.25); }
 }
 
-/* Custom minimal scrollbar */
-::-webkit-scrollbar {
-  width: 6px;
-  height: 6px;
+@layer components {
+  .btn { @apply inline-flex items-center justify-center gap-2 h-10 px-4 rounded-lg text-sm font-medium transition-colors duration-150 cursor-pointer select-none whitespace-nowrap shrink-0; }
+  .btn-primary { @apply btn bg-brand text-on-brand hover:brightness-110; }
+  .btn-ghost { @apply btn border border-line text-ink hover:bg-raised; }
+  .card { @apply bg-surface border border-line rounded-card; }
+  .chip { @apply inline-flex items-center h-6 px-2 rounded-md text-xs font-medium whitespace-nowrap; }
+  .tnum { font-variant-numeric: tabular-nums; }
 }
 
-::-webkit-scrollbar-track {
-  background: transparent;
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { transition: none !important; animation: none !important; scroll-behavior: auto !important; }
 }
 
-::-webkit-scrollbar-thumb {
-  background: #222222;
-  border-radius: 3px;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: #333333;
-}
-
-/* Code and formula styling */
-code, kbd, pre, samp {
-  font-family: 'JetBrains Mono', Consolas, Menlo, Monaco, monospace;
-}
+::-webkit-scrollbar { width: 8px; height: 8px; }
+::-webkit-scrollbar-thumb { background: rgb(var(--line)); border-radius: 8px; }
+::-webkit-scrollbar-track { background: transparent; }
