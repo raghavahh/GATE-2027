@@ -13,6 +13,7 @@ interface AuthState {
   signInGoogle: () => Promise<void>;
   signInEmail: (email: string) => Promise<string | null>;
   verifyEmail: (email: string, code: string) => Promise<string | null>;
+  signInPassword: (email: string, password: string) => Promise<string | null>;
   signOut: () => Promise<void>;
   refresh: () => Promise<void>;
 }
@@ -80,6 +81,10 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     },
     verifyEmail: async (email, code) => {
       const { error } = await supabase.auth.verifyOtp({ email, token: code, type: 'email' });
+      return error?.message ?? null;
+    },
+    signInPassword: async (email, password) => {
+      const { error } = await supabase.auth.signInWithPassword({ email, password });
       return error?.message ?? null;
     },
     signOut: async () => { await supabase.auth.signOut(); },
