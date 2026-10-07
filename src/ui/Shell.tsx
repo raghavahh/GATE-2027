@@ -40,6 +40,7 @@ export function Shell() {
               {theme === 'dark' ? <Sun size={17} /> : <Moon size={17} />}
             </button>
             {isAdmin && <Link to="/admin" className="hidden rounded-md px-3 py-1.5 text-sm text-sub hover:text-ink sm:block">Admin</Link>}
+            {session && <Link to="/me" className="rounded-md px-3 py-1.5 text-sm text-sub hover:text-ink">My papers</Link>}
             {session ? (
               <button type="button" className="btn-ghost h-9 px-3" onClick={signOut} title={session.user.email ?? ''}>Sign out</button>
             ) : (

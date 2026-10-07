@@ -7,6 +7,7 @@ import { GuidePage, NotFound, PapersPage, PyqPage } from './pages/Static';
 import { devUnlockFromUrl } from './lib/store';
 import { AuthProvider } from './lib/auth';
 import { AdminPage } from './pages/AdminPage';
+import { MePage } from './pages/MePage';
 import { ContactPage, PrivacyPage, RefundPage, TermsPage } from './pages/Legal';
 
 devUnlockFromUrl();
@@ -22,6 +23,7 @@ export default function App() {
           <Route path="pyq" element={<PyqPage />} />
           <Route path="guide" element={<GuidePage />} />
           <Route path="admin" element={<AdminPage />} />
+          <Route path="me" element={<MePage />} />
           <Route path="terms" element={<TermsPage />} />
           <Route path="privacy" element={<PrivacyPage />} />
           <Route path="refund" element={<RefundPage />} />
