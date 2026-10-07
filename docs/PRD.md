@@ -7,7 +7,7 @@
 | Date | 7 October 2026 |
 | Owner | Founder — contact `raghavendrapithani1@gmail.com` |
 | Repo | `github.com/raghavahh/GATE-2027` (React 19 + Vite + TypeScript + Tailwind) |
-| Live (staging) | `https://raghavahh.github.io/GATE-2027/` |
+| Live | `https://gate-az.pages.dev` (Cloudflare Pages, auto-deploys from main) |
 | Backend | Supabase project `gate-az` (Mumbai, ap-south-1) |
 
 **Legend:** **[DONE]** shipped · **[NEXT]** next build step · **[LATER]** after launch · **[DECIDED]** founder decision · **[OPEN]** needs founder input.
