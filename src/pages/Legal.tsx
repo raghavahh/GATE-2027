@@ -69,8 +69,22 @@ export const RefundPage = () => (
   </Page>
 );
 
+export const DeliveryPage = () => (
+  <Page title="Shipping and delivery policy">
+    <p>GATE A–Z sells digital access only. Nothing is shipped to a physical address.</p>
+    <h2>When you get access</h2>
+    <ul>
+      <li>Your paper unlocks on your account right after the payment succeeds, usually within a few seconds.</li>
+      <li>If it hasn't unlocked within 30 minutes of a successful payment, email <Mail /> with your Razorpay payment ID and we will unlock it within 24 hours.</li>
+    </ul>
+    <h2>How long access lasts</h2>
+    <p>Access to a purchased paper lasts until 30 days after that year's GATE exam, as shown on the paper page before you buy.</p>
+  </Page>
+);
+
 export const ContactPage = () => (
   <Page title="Contact">
+    <p>GATE A–Z is run by Pithani Raghavendra, India.</p>
     <p>For support, payment issues or content corrections, email <Mail />. We usually reply within 24 hours.</p>
     <p>Include your registered email and, for payments, your Razorpay payment ID.</p>
   </Page>

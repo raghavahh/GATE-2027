@@ -69,7 +69,7 @@ export function Shell() {
         <div className="mx-auto flex max-w-shell flex-col gap-4 px-4 py-8 text-sm text-sub sm:flex-row sm:items-center sm:justify-between sm:px-6">
           <Logo small />
           <nav className="flex flex-wrap gap-x-5 gap-y-2" aria-label="Legal">
-            {[['/terms', 'Terms'], ['/privacy', 'Privacy'], ['/refund', 'Refunds'], ['/contact', 'Contact']].map(([to, l]) => <Link key={to} to={to} className="hover:text-ink">{l}</Link>)}
+            {[['/terms', 'Terms'], ['/privacy', 'Privacy'], ['/refund', 'Refunds'], ['/delivery', 'Delivery'], ['/contact', 'Contact']].map(([to, l]) => <Link key={to} to={to} className="hover:text-ink">{l}</Link>)}
           </nav>
           <p className="max-w-md text-xs text-mute">Not affiliated with IISc, the IITs or the GATE organisers. Videos belong to their creators and play through YouTube's official player.</p>
         </div>
