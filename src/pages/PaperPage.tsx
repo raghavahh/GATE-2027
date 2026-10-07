@@ -1,7 +1,7 @@
 import { useMemo, useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import { ChevronDown, Lock, PlayCircle, Search } from 'lucide-react';
-import { EDITION, PRICE_INR, getPaper, usePaper, getSubjects, getVideos, paperStats, type CatSubject, type CatTopic, type Diff } from '../catalog';
+import { EDITION, PRICE_INR, getPaper, usePaper, getSubjects, getVideoCount, paperStats, type CatSubject, type CatTopic, type Diff } from '../catalog';
 import { isUnlocked, setStatus, useStore, type Status } from '../lib/store';
 import { Bar, DiffText, StatusBox } from '../ui/bits';
 import { BuyModal } from '../ui/BuyModal';
@@ -157,7 +157,7 @@ function SubjectBlock({ s, idx, isOpen, toggle, progress, canSee, match, unlocke
                 <ul>
                   {visible.map(({ t }) => {
                     const st = progress[t.id] ?? 'todo';
-                    const vids = getVideos(t.id).length;
+                    const vids = getVideoCount(t.id);
                     const open = unlocked || t.sample;
                     return (
                       <li key={t.id} className="flex items-center gap-3 border-t border-line px-4 py-2.5 sm:px-5">

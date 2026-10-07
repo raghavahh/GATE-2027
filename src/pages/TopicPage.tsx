@@ -1,7 +1,9 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
+import { supabase } from '../lib/supabase';
+import type { Video } from '../catalog';
 import { Link, useParams } from 'react-router-dom';
 import { ArrowLeft, ArrowRight, Lock } from 'lucide-react';
-import { findTopic, getVideos, paperStats, usePaper } from '../catalog';
+import { findTopic, getVideoCount, getVideos, paperStats, usePaper } from '../catalog';
 import { getLessonById } from '../data/syllabus';
 import { isUnlocked, setStatus, useStore, type Status } from '../lib/store';
 import { DiffBadge } from '../ui/bits';
@@ -24,12 +26,25 @@ export function TopicPage() {
   const { papers } = useAuth();
   const owned = isUnlocked(slug) || papers.includes(slug);
   const [buy, setBuy] = useState(false);
+  const [paid, setPaid] = useState<Video[] | null>(null);
+  const [vErr, setVErr] = useState('');
+  const paperOwned = isUnlocked(slug) || papers.includes(slug);
+  const isSample = !!hit?.topic.sample;
+  useEffect(() => {
+    setPaid(null); setVErr('');
+    if (!hit || isSample || !paperOwned) return;
+    supabase.rpc('get_topic_videos', { p_paper: slug, p_topic: hit.topic.id }).then(({ data, error }) => {
+      if (error) setVErr(error.message.includes('elsewhere') ? 'Your account is signed in on another device.' : 'Could not load videos. Refresh to try again.');
+      else setPaid((data ?? []) as Video[]);
+    });
+  }, [slug, hit?.topic.id, isSample, paperOwned]);
   if (!ready) return <Loading />;
   if (!hit) return <NotFound />;
 
   const { paper, subject, topic, moduleName, moduleLetter, flat, index } = hit;
   const open = owned || !!topic.sample;
-  const videos = getVideos(topic.id);
+  const videos = topic.sample ? getVideos(topic.id) : paid ?? [];
+  const videoCount = getVideoCount(topic.id);
   const lesson = topic.lesson ? getLessonById(topic.lesson)?.lesson : undefined;
   const st = progress[topic.id] ?? 'todo';
   const prev = flat[index - 1];
@@ -68,14 +83,14 @@ export function TopicPage() {
         <div className="mx-auto mt-10 max-w-lg text-center">
           <span className="mx-auto grid h-12 w-12 place-items-center rounded-full bg-brand/15 text-brand"><Lock size={20} /></span>
           <h2 className="mt-4 text-xl font-semibold">This topic is part of {paper.code}</h2>
-          <p className="mt-2 text-sub">{videos.length ? `${videos.length} videos, ` : ''}key-point notes and PYQs for this topic unlock with the full paper.</p>
+          <p className="mt-2 text-sub">{videoCount ? `${videoCount} videos, ` : ''}key-point notes and PYQs for this topic unlock with the full paper.</p>
           <button type="button" className="btn-primary mt-6" onClick={() => setBuy(true)}>Unlock {paper.code}</button>
         </div>
       ) : (
         <div className="mt-6 space-y-10">
           <section aria-labelledby="v-h">
-            <h2 id="v-h" className="mb-4 text-lg font-semibold">Watch <span className="font-normal text-mute">· {videos.length} videos</span></h2>
-            {videos.length ? <YouTubePlayer videos={videos} /> : <p className="card p-6 text-sub">Videos for this topic are being verified and will appear soon.</p>}
+            <h2 id="v-h" className="mb-4 text-lg font-semibold">Watch <span className="font-normal text-mute">· {videoCount} videos</span></h2>
+            {vErr ? <p className="card p-6 text-hard">{vErr}</p> : videos.length ? <YouTubePlayer videos={videos} /> : !topic.sample && paid === null && videoCount ? <div className="aspect-video animate-pulse rounded-card bg-surface" /> : <p className="card p-6 text-sub">Videos for this topic are being verified and will appear soon.</p>}
           </section>
 
           <section aria-labelledby="n-h" className="max-w-read">

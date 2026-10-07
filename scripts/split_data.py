@@ -19,6 +19,10 @@ def topic_ids(subjects):
     return [t["id"] for s in subjects for m in s["modules"] for t in m["topics"]]
 
 
+def sample_ids(subjects):
+    return {t["id"] for s in subjects for m in s["modules"] for t in m["topics"] if t.get("sample")}
+
+
 summary = {}
 for f in sorted(GEN.glob("*.json")):
     if f.stem == "ga":
@@ -27,7 +31,9 @@ for f in sorted(GEN.glob("*.json")):
     subs = ga + own
     ids = topic_ids(subs)
     vids = {i: videos[i] for i in ids if videos.get(i)}
-    (VID_OUT / f"{f.stem}.json").write_text(json.dumps(vids, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
+    samples = sample_ids(subs)
+    public = {i: (v if i in samples else len(v)) for i, v in vids.items()}  # paid lists live in the DB
+    (VID_OUT / f"{f.stem}.json").write_text(json.dumps(public, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
     summary[f.stem] = {"subjects": len(subs), "topics": len(ids), "videos": sum(len(v) for v in vids.values())}
 
 (CAT / "summary.json").write_text(json.dumps(summary, indent=1), encoding="utf-8")

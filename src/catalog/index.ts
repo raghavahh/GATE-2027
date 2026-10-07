@@ -11,9 +11,10 @@ export { PAPERS, PRICE_INR, EDITION } from './papers';
  * downloaded per paper, only when that paper is opened (keeps the first load small).
  */
 const sheetLoaders = import.meta.glob<CatSubject[]>('./generated/*.json', { import: 'default' });
-const videoLoaders = import.meta.glob<Record<string, Video[]>>('./videos/*.json', { import: 'default' });
+const videoLoaders = import.meta.glob<Record<string, Video[] | number>>('./videos/*.json', { import: 'default' });
 const SUBJECTS: Record<string, CatSubject[]> = {};
-const VIDEOS: Record<string, Video[]> = {};
+/** Sample topics: full list. Paid topics: just the count (lists come from the DB). */
+const VIDEOS: Record<string, Video[] | number> = {};
 const SUMMARY = summaryJson as Record<string, { subjects: number; topics: number; videos: number }>;
 const pending: Record<string, Promise<void>> = {};
 
@@ -41,7 +42,8 @@ export function usePaper(slug: string): boolean {
 
 export const getPaper = (slug?: string): Paper | undefined => PAPERS.find(p => p.slug === slug);
 export const getSubjects = (slug?: string): CatSubject[] => (slug ? SUBJECTS[slug] ?? [] : []);
-export const getVideos = (topicId: string): Video[] => VIDEOS[topicId] ?? [];
+export const getVideos = (topicId: string): Video[] => { const v = VIDEOS[topicId]; return Array.isArray(v) ? v : []; };
+export const getVideoCount = (topicId: string): number => { const v = VIDEOS[topicId]; return Array.isArray(v) ? v.length : v ?? 0; };
 
 export interface TopicHit {
   paper: Paper;
@@ -70,6 +72,6 @@ export function paperStats(slug: string) {
   if (!SUBJECTS[slug]) return SUMMARY[slug] ?? { subjects: 0, topics: 0, videos: 0 };
   const subs = getSubjects(slug);
   const topics = subs.flatMap(s => s.modules.flatMap(m => m.topics));
-  const videos = topics.reduce((n, t) => n + getVideos(t.id).length, 0);
+  const videos = topics.reduce((n, t) => n + getVideoCount(t.id), 0);
   return { subjects: subs.length, topics: topics.length, videos };
 }
