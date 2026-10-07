@@ -5,6 +5,7 @@ import { EDITION, PRICE_INR, getPaper, getSubjects, getVideos, paperStats, type 
 import { isUnlocked, setStatus, useStore, type Status } from '../lib/store';
 import { Bar, DiffText, StatusBox } from '../ui/bits';
 import { BuyModal } from '../ui/BuyModal';
+import { useAuth } from '../lib/auth';
 import { NotFound } from './Static';
 
 const nextStatus: Record<Status, Status> = { todo: 'doing', doing: 'done', done: 'todo' };
@@ -15,7 +16,9 @@ export function PaperPage() {
   const paper = getPaper(slug);
   const subjects = getSubjects(slug);
   const { progress } = useStore();
-  const unlocked = isUnlocked(slug);
+  const { papers } = useAuth();
+  const owned = isUnlocked(slug) || papers.includes(slug);
+  const unlocked = owned;
   const stats = paperStats(slug);
   const [buyFor, setBuyFor] = useState<string | null>(null);
   const [filter, setFilter] = useState<Filter>('all');

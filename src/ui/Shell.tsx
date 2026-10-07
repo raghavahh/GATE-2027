@@ -1,5 +1,7 @@
 import { Link, NavLink, Outlet, useLocation } from 'react-router-dom';
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
+import { useAuth } from '../lib/auth';
+import { SignInModal } from './SignInModal';
 import { Moon, Sun } from 'lucide-react';
 import { Logo } from './bits';
 import { toggleTheme, useStore } from '../lib/store';
@@ -12,6 +14,8 @@ const nav = [
 
 export function Shell() {
   const { theme } = useStore();
+  const { session, signOut, kicked, isAdmin } = useAuth();
+  const [signIn, setSignIn] = useState(false);
   const { pathname } = useLocation();
   useEffect(() => { window.scrollTo(0, 0); }, [pathname]);
 
@@ -35,7 +39,12 @@ export function Shell() {
             <button type="button" onClick={toggleTheme} className="grid h-9 w-9 place-items-center rounded-lg text-sub hover:bg-raised hover:text-ink" aria-label={theme === 'dark' ? 'Switch to light theme' : 'Switch to dark theme'}>
               {theme === 'dark' ? <Sun size={17} /> : <Moon size={17} />}
             </button>
-            <button type="button" className="btn-ghost h-9 px-3" onClick={() => alert('Sign in with Google opens with payments.')}>Sign in</button>
+            {isAdmin && <Link to="/admin" className="hidden rounded-md px-3 py-1.5 text-sm text-sub hover:text-ink sm:block">Admin</Link>}
+            {session ? (
+              <button type="button" className="btn-ghost h-9 px-3" onClick={signOut} title={session.user.email ?? ''}>Sign out</button>
+            ) : (
+              <button type="button" className="btn-ghost h-9 px-3" onClick={() => setSignIn(true)}>Sign in</button>
+            )}
           </div>
         </div>
         <nav className="flex gap-1 overflow-x-auto px-3 pb-2 md:hidden" aria-label="Main">
@@ -47,7 +56,13 @@ export function Shell() {
         </nav>
       </header>
 
+      {kicked && (
+        <div role="alert" className="border-b border-hard/30 bg-hard/10 px-4 py-2.5 text-center text-sm">
+          You were signed out because your account was used on another device. <button type="button" className="font-medium underline" onClick={() => setSignIn(true)}>Sign in again</button>
+        </div>
+      )}
       <main className="flex-1"><Outlet /></main>
+      {signIn && <SignInModal onClose={() => setSignIn(false)} />}
 
       <footer className="border-t border-line">
         <div className="mx-auto flex max-w-shell flex-col gap-4 px-4 py-8 text-sm text-sub sm:flex-row sm:items-center sm:justify-between sm:px-6">

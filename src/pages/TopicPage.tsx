@@ -6,6 +6,7 @@ import { getLessonById } from '../data/syllabus';
 import { isUnlocked, setStatus, useStore, type Status } from '../lib/store';
 import { DiffBadge } from '../ui/bits';
 import { BuyModal } from '../ui/BuyModal';
+import { useAuth } from '../lib/auth';
 import { YouTubePlayer } from '../ui/YouTubePlayer';
 import { NotFound } from './Static';
 
@@ -19,11 +20,13 @@ export function TopicPage() {
   const { paper: slug = '', topic: id = '' } = useParams();
   const hit = findTopic(slug, id);
   const { progress } = useStore();
+  const { papers } = useAuth();
+  const owned = isUnlocked(slug) || papers.includes(slug);
   const [buy, setBuy] = useState(false);
   if (!hit) return <NotFound />;
 
   const { paper, subject, topic, moduleName, moduleLetter, flat, index } = hit;
-  const open = isUnlocked(slug) || !!topic.sample;
+  const open = owned || !!topic.sample;
   const videos = getVideos(topic.id);
   const lesson = topic.lesson ? getLessonById(topic.lesson)?.lesson : undefined;
   const st = progress[topic.id] ?? 'todo';
@@ -44,7 +47,7 @@ export function TopicPage() {
           <div className="mt-3 flex flex-wrap items-center gap-2">
             <DiffBadge d={topic.diff} />
             <span className="chip bg-raised text-sub">{subject.marks} marks · {subject.name}</span>
-            {topic.sample && !isUnlocked(slug) && <span className="chip bg-ok/10 text-ok">Free sample</span>}
+            {topic.sample && !owned && <span className="chip bg-ok/10 text-ok">Free sample</span>}
           </div>
         </div>
         {open && (
