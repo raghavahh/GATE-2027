@@ -40,11 +40,13 @@ export function BuyModal({ paper, topicName, counts, onClose }: Props) {
       await loadCheckout();
       const { data, error } = await supabase.functions.invoke('create-order', { body: { paper: paper.slug } });
       if (error || !data?.orderId) throw new Error(data?.error ?? 'Could not start payment. Try again.');
+      // Until Razorpay approves live keys, checkout runs in test mode: real UPI apps can't pay a test QR.
+      const test = String(data.keyId).startsWith('rzp_test_');
       const rzp = new window.Razorpay!({
         key: data.keyId, order_id: data.orderId, amount: data.amount, currency: 'INR',
-        name: 'GATE A–Z', description: `${paper.code} · ${EDITION}`,
+        name: 'GATE A–Z', description: test ? 'TEST MODE · no real money · UPI ID: success@razorpay' : `${paper.code} · ${EDITION}`,
         prefill: { email: data.email }, theme: { color: '#F5A524' },
-        modal: { ondismiss: () => setBusy(false) },
+        modal: { ondismiss: () => { setBusy(false); if (test) setMsg('Payments are in test mode until launch: real UPI apps and QR codes won’t work yet. To try it, pick UPI and enter success@razorpay.'); } },
         handler: async (r: Record<string, string>) => {
           setMsg('Confirming your payment…');
           const v = await supabase.functions.invoke('verify-payment', { body: r });
