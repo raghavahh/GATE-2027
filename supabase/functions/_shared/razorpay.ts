@@ -8,7 +8,7 @@ export const EDITION = 'GATE 2027';
 export const SEASON_END = Deno.env.get('SEASON_END') ?? '2027-03-31T23:59:59+05:30';
 export const PAPERS = new Set(['cs','da','ec','ee','me','ce','in','ch','pi','bt','ae','ag','bm','es','ge','mn','mt','nm','pe','tf','xe','ar','cy','ey','gg','ma','ph','st','xl','xh']);
 
-const ALLOWED = (Deno.env.get('ALLOWED_ORIGINS') ?? 'https://raghavahh.github.io,http://localhost:5173,http://localhost:4173').split(',');
+const ALLOWED = (Deno.env.get('ALLOWED_ORIGINS') ?? 'https://gate-az.pages.dev,https://raghavahh.github.io,http://localhost:5173,http://localhost:4173').split(',');
 
 export function cors(req: Request): Record<string, string> {
   const origin = req.headers.get('origin') ?? '';
