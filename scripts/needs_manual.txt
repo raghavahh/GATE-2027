@@ -24,3 +24,10 @@ me	me-engineering-mathematics--definitions-of-probability
 me	me-engineering-mathematics--single-and-multi-step-methods-for-ordinary-differential-equa
 me	me-materials-manufacturing-and-in--quality-and-reliability-concepts-for-product-lifecycle-analy
 da	da-database-management-and-wareho--measures-categorization-and-computations
+cs	cs-programming-and-data-structure--programming-in-c
+da	da-database-management-and-wareho--measures-categorization-and-computations
+me	me-engineering-mathematics--taylor-series-in-one-and-two-variables
+me	me-engineering-mathematics--solutions-of-heat-wave-and-laplaces-equations
+me	me-engineering-mathematics--definitions-of-probability
+me	me-engineering-mathematics--single-and-multi-step-methods-for-ordinary-differential-equa
+me	me-materials-manufacturing-and-in--quality-and-reliability-concepts-for-product-lifecycle-analy
