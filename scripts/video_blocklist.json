@@ -262,5 +262,352 @@
  ],
  "ee-power-electronics--single-phase-and-three-phase-voltage-and-current-source-inve": [
   "nRMHB_LOl-I"
+ ],
+ "cs-engineering-mathematics--recurrence-relations": [
+  "NW-naslChdo",
+  "icS-e8RaCyo"
+ ],
+ "cs-engineering-mathematics--determinants": [
+  "F7nmfBJqqFw",
+  "LbFYYU0Bs00"
+ ],
+ "cs-engineering-mathematics--continuity-and-differentiability": [
+  "nRv1lPqrx3k"
+ ],
+ "cs-digital-logic--design-of-combinational-circuits": [
+  "liVyMpk4C4U"
+ ],
+ "cs-digital-logic--fixed-point-number-representation-and-arithmetic": [
+  "yvdtwKF87Ts"
+ ],
+ "cs-computer-organization-and-arch--instruction-set-and-addressing-modes": [
+  "GZz9nz7Vgb0"
+ ],
+ "cs-computer-organization-and-arch--design-of-arithmetic-and-logic-unit-alu": [
+  "zGpoKJqEj6I"
+ ],
+ "cs-computer-organization-and-arch--memory-interfacing": [
+  "w00HX4avFrM"
+ ],
+ "cs-programming-and-data-structure--arrays": [
+  "XDt516dhPn8"
+ ],
+ "cs-programming-and-data-structure--queues": [
+  "QBrDsG3MTkw"
+ ],
+ "cs-programming-and-data-structure--binary-search-trees": [
+  "YPfMFsetBqQ",
+  "z0Vnno96_MA"
+ ],
+ "cs-programming-and-data-structure--binary-heaps": [
+  "twwuv-Ss33Q"
+ ],
+ "cs-algorithms--sorting": [
+  "19N3gWGBh5E"
+ ],
+ "cs-theory-of-computation--context-free-languages-closure-properties-and-pumping-lemma": [
+  "2k8r4HGdxBw"
+ ],
+ "cs-compiler-design--local-optimisation": [
+  "8IiDKaNVZYM"
+ ],
+ "cs-compiler-design--common-sub-expression-elimination": [
+  "clb4tnEm8l4"
+ ],
+ "cs-compiler-design--constant-propagation": [
+  "TLmcTXtOBKA",
+  "w6We9GzY8Ew"
+ ],
+ "cs-operating-system--system-calls": [
+  "ITc09gOrqZk",
+  "YxFuiyzQrvU"
+ ],
+ "cs-operating-system--inter-process-communication": [
+  "ITc09gOrqZk",
+  "RGM2R9bGdIY"
+ ],
+ "cs-operating-system--deadlock": [
+  "k8BHyy6gBls"
+ ],
+ "cs-operating-system--cpu-scheduling": [
+  "sCpdv8H6bnQ"
+ ],
+ "cs-operating-system--memory-management-paging-segmentation-and-tlb": [
+  "o2_iCzS9-ZQ"
+ ],
+ "cs-computer-networks--principles-of-layering": [
+  "9CKpCHUYxco",
+  "XJasQKX2fsY"
+ ],
+ "cs-computer-networks--ethernet": [
+  "U7-h2hyM1Dc"
+ ],
+ "cs-computer-networks--network-address-translation-nat": [
+  "8dUh3oOhtqs"
+ ],
+ "cs-computer-networks--dns": [
+  "BZISxpdl4lQ"
+ ],
+ "da-probability-and-statistics--counting-permutation-and-combinations": [
+  "Gv1rdoF-C7E"
+ ],
+ "da-probability-and-statistics--events": [
+  "dQ6RL8qe320"
+ ],
+ "da-probability-and-statistics--independent-events": [
+  "LF5Jh4IMjcU"
+ ],
+ "da-probability-and-statistics--mutually-exclusive-events": [
+  "HMH6a2iYzkY"
+ ],
+ "da-probability-and-statistics--conditional-and-joint-probability": [
+  "8CVvEtCtwNI"
+ ],
+ "da-probability-and-statistics--binomial-distribution": [
+  "zv7_EwPyzCo"
+ ],
+ "da-probability-and-statistics--continuous-uniform-distribution": [
+  "H_k1w3cfny8"
+ ],
+ "da-probability-and-statistics--standard-normal": [
+  "cXwtz7Gj5TA"
+ ],
+ "da-probability-and-statistics--t-distribution": [
+  "acWcNrJtNJM"
+ ],
+ "da-probability-and-statistics--conditional-pdf": [
+  "bAmIAdhCUzg",
+  "dQ6RL8qe320"
+ ],
+ "da-linear-algebra--orthogonal-matrix": [
+  "5ZukXVDD1gI",
+  "rFYr4V3zFxQ"
+ ],
+ "da-linear-algebra--partition-matrix-and-their-properties": [
+  "Bl7Lm6EnX6Y",
+  "TP7IUxEzx1U"
+ ],
+ "da-calculus-and-optimization--optimization-involving-a-single-variable": [
+  "7K1sB05pE0A",
+  "kRHvyIzwjG4"
+ ],
+ "da-programming-data-structures-an--programming-in-python": [
+  "xQC8dh-t-uM"
+ ],
+ "da-programming-data-structures-an--stacks": [
+  "QBrDsG3MTkw"
+ ],
+ "da-programming-data-structures-an--trees": [
+  "I_JuQ5ayPmc"
+ ],
+ "da-programming-data-structures-an--search-algorithms-linear-search-and-binary-search": [
+  "sXABdGalFNg"
+ ],
+ "da-programming-data-structures-an--divide-and-conquer-quicksort": [
+  "TnEHm4FSbeo"
+ ],
+ "da-programming-data-structures-an--introduction-to-graph-theory": [
+  "vf-cxgUXcMk"
+ ],
+ "da-database-management-and-wareho--file-organization": [
+  "ZtVw2iuFI2w"
+ ],
+ "da-database-management-and-wareho--discretization": [
+  "tDu_KIlXaB0"
+ ],
+ "da-database-management-and-wareho--sampling": [
+  "KfC7VfDfn8I",
+  "lggqjmQzsGI"
+ ],
+ "da-database-management-and-wareho--compression": [
+  "KfC7VfDfn8I",
+  "Tq8oCFjP6kQ",
+  "bb72oxHgOHw"
+ ],
+ "da-database-management-and-wareho--concept-hierarchies": [
+  "NphMcnU8ymU",
+  "ot-2GXJXYMM"
+ ],
+ "da-machine-learning--regression-and-classification-problems": [
+  "9hU2RZ_Y3DA"
+ ],
+ "da-machine-learning--simple-linear-regression": [
+  "5nJHkOePfcA"
+ ],
+ "da-machine-learning--multiple-linear-regression": [
+  "zUQr6HAAKp4"
+ ],
+ "da-machine-learning--ridge-regression": [
+  "PJ_zuEcYUAg",
+  "cHT-qLnRm0E",
+  "zUQr6HAAKp4"
+ ],
+ "da-machine-learning--logistic-regression": [
+  "cHT-qLnRm0E"
+ ],
+ "da-machine-learning--naive-bayes-classifier": [
+  "2BjUSLmZ1Fs",
+  "a84GFSVngRM"
+ ],
+ "da-ai--informed-search": [
+  "C6HQErATEQA"
+ ],
+ "da-ai--predicate-logic": [
+  "519FvcUQqYU",
+  "6490tKrGEic"
+ ],
+ "da-ai--reasoning-under-uncertainty-topics-conditional-independence-": [
+  "xDyMuT9BliI"
+ ],
+ "da-ai--approximate-inference-through-sampling": [
+  "dkeUDOzoC30"
+ ],
+ "me-engineering-mathematics--matrix-algebra": [
+  "lUUte2o2Sn8"
+ ],
+ "me-engineering-mathematics--partial-derivatives": [
+  "ly4S0oi3Yz8",
+  "plYOgUGu3jM"
+ ],
+ "me-engineering-mathematics--total-derivative": [
+  "Ce0bWSbD0K8",
+  "pyS8sNkE8mc"
+ ],
+ "me-engineering-mathematics--sampling-theorems": [
+  "SfVwSAQyGmk"
+ ],
+ "me-engineering-mathematics--numerical-solutions-of-linear-and-non-linear-algebraic-equat": [
+  "zCw9VIkDpTo"
+ ],
+ "me-engineering-mathematics--single-and-multi-step-methods-for-ordinary-differential-equa": [
+  "uH1xZ_-bTQE"
+ ],
+ "me-applied-mechanics-and-design--stress-and-strain-components-transformations-in-2d": [
+  "ZkN4P8foKn0"
+ ],
+ "me-applied-mechanics-and-design--thin-walled-pressure-vessels": [
+  "h3aozMMx4K8",
+  "jYSmDgYrfp0"
+ ],
+ "me-applied-mechanics-and-design--eulers-theory-of-columns": [
+  "prDP4XVvVCA"
+ ],
+ "me-applied-mechanics-and-design--displacement-velocity-and-acceleration-analysis-of-plane-mec": [
+  "f2SHkjlm0UM"
+ ],
+ "me-applied-mechanics-and-design--dynamic-analysis-of-linkages": [
+  "huqqMacJhBc"
+ ],
+ "me-applied-mechanics-and-design--gears-and-gear-trains": [
+  "eLpYFDJIZSw"
+ ],
+ "me-applied-mechanics-and-design--free-and-forced-vibration-of-single-degree-of-freedom-system": [
+  "p1S-Ohvdvxk"
+ ],
+ "me-applied-mechanics-and-design--free-and-forced-vibration-of-two-degree-of-freedom-systems": [
+  "tJNaPt5aPmg"
+ ],
+ "me-applied-mechanics-and-design--shafts": [
+  "Fm5aChFkXJQ"
+ ],
+ "me-applied-mechanics-and-design--belt-drives": [
+  "sM_czNVBjhI"
+ ],
+ "me-fluid-mechanics-and-thermal-sc--forces-on-submerged-bodies": [
+  "H0gCGwIiW-c"
+ ],
+ "me-fluid-mechanics-and-thermal-sc--concept-of-velocity-potential": [
+  "NpZKxxDJofo"
+ ],
+ "me-fluid-mechanics-and-thermal-sc--one-dimensional-heat-conduction": [
+  "M1NeTUZagPM",
+  "UNSSbfl1Avg"
+ ],
+ "me-fluid-mechanics-and-thermal-sc--heat-transfer-through-fins": [
+  "35KH3BI7W1U"
+ ],
+ "me-fluid-mechanics-and-thermal-sc--thermal-boundary-layer": [
+  "6etrvv3gcQY"
+ ],
+ "me-fluid-mechanics-and-thermal-sc--dimensionless-parameters-in-free-and-forced-convective-heat-": [
+  "fqkb_u0LZig"
+ ],
+ "me-fluid-mechanics-and-thermal-sc--effect-of-turbulence": [
+  "YgXjoVIx-AM"
+ ],
+ "me-fluid-mechanics-and-thermal-sc--wiens-displacement-law": [
+  "aPc7RVEbBMs"
+ ],
+ "me-fluid-mechanics-and-thermal-sc--thermodynamic-systems-and-processes": [
+  "LacuBVY5_28"
+ ],
+ "me-fluid-mechanics-and-thermal-sc--basics-of-combustion": [
+  "gtSpxcYIaqM"
+ ],
+ "me-fluid-mechanics-and-thermal-sc--basics-of-combustion-air-fuel-ratio-equivalence-ratio": [
+  "jXMQV4rEL8o"
+ ],
+ "me-fluid-mechanics-and-thermal-sc--velocity-diagrams": [
+  "PCZ5g_XFpPM"
+ ],
+ "me-fluid-mechanics-and-thermal-sc--steam-and-gas-turbines": [
+  "cI32tY8Z5J8"
+ ],
+ "me-fluid-mechanics-and-thermal-sc--pumps-and-pump-characteristics": [
+  "pfGohW6SaFY"
+ ],
+ "me-materials-manufacturing-and-in--plastic-deformation-and-yield-criteria": [
+  "lawJQ6mfWcA"
+ ],
+ "me-materials-manufacturing-and-in--hot-working-and-cold-working": [
+  "SM0fRzxhZDY"
+ ],
+ "me-materials-manufacturing-and-in--principles-of-welding-brazing-soldering": [
+  "bziWwcjllx4"
+ ],
+ "me-materials-manufacturing-and-in--non-destructive-testing-methods": [
+  "AybP_Hw1YEQ",
+  "mHxWLOV0QIM",
+  "pblvdy71cEo"
+ ],
+ "me-materials-manufacturing-and-in--single-point-and-multipoint-cutting-tools": [
+  "L3wFScdecng",
+  "LW5IbyqcL1M"
+ ],
+ "me-materials-manufacturing-and-in--abrasive-machining-processes": [
+  "NI8M6p_ziyc"
+ ],
+ "me-materials-manufacturing-and-in--principles-of-work-holding-jigs-and-fixtures": [
+  "awZjiBKBZMM"
+ ],
+ "me-materials-manufacturing-and-in--principles-of-different-types-of-additive-manufacturing-proc": [
+  "THwt9VzWpwU",
+  "VwU7qscvS-c"
+ ],
+ "me-materials-manufacturing-and-in--linear-and-angular-measurements": [
+  "D7RbsB34eUU"
+ ],
+ "me-materials-manufacturing-and-in--comparators": [
+  "QvdEKvbXwIY"
+ ],
+ "me-materials-manufacturing-and-in--alignment-and-testing-methods": [
+  "AN7_LTfjD7k",
+  "a63zbTso2ao"
+ ],
+ "me-materials-manufacturing-and-in--basic-concepts-of-cad-cam-and-their-integration-tools": [
+  "Bd8vbPN_5LU"
+ ],
+ "me-materials-manufacturing-and-in--forecasting-models": [
+  "zB4nuPKCRmI",
+  "zapp8smQKhg"
+ ],
+ "me-materials-manufacturing-and-in--inventory-control-deterministic-models": [
+  "FDczO1iGa_s"
+ ],
+ "me-materials-manufacturing-and-in--simplex-method": [
+  "eZOBSX7u84A"
+ ],
+ "me-materials-manufacturing-and-in--network-flow-models": [
+  "Xtfi6w1IMgg"
  ]
 }
