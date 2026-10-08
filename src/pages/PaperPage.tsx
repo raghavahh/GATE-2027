@@ -1,7 +1,7 @@
 import { useMemo, useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import { ChevronDown, Lock, PlayCircle, Search } from 'lucide-react';
-import { EDITION, PRICE_INR, getPaper, usePaper, getSubjects, getVideoCount, paperStats, type CatSubject, type CatTopic, type Diff } from '../catalog';
+import { EDITION, PRICE_INR, getPaper, isSellable, usePaper, getSubjects, getVideoCount, paperStats, type CatSubject, type CatTopic, type Diff } from '../catalog';
 import { isUnlocked, setStatus, useStore, type Status } from '../lib/store';
 import { Bar, DiffText, StatusBox } from '../ui/bits';
 import { BuyModal } from '../ui/BuyModal';
@@ -19,7 +19,9 @@ export function PaperPage() {
   const { progress } = useStore();
   const { papers, ready: authReady } = useAuth();
   const owned = isUnlocked(slug) || papers.includes(slug);
-  const unlocked = owned;
+  const sellable = isSellable(slug);
+  // Not on sale yet: the syllabus sheet is free to browse in full.
+  const unlocked = owned || !sellable;
   const stats = paperStats(slug);
   const [buyFor, setBuyFor] = useState<string | null>(null);
   const [filter, setFilter] = useState<Filter>('all');
@@ -55,7 +57,12 @@ export function PaperPage() {
           <p className="mt-2 text-sub tnum">{stats.subjects} subjects · {stats.topics} topics · {stats.videos} videos</p>
         </div>
         <div className="w-full md:w-80">
-          {unlocked ? (
+          {!sellable ? (
+            <div className="card p-4">
+              <p className="text-sm font-medium">Videos for {paper.code} are being curated</p>
+              <p className="mt-1 text-xs text-sub">The full syllabus sheet is free. Buying opens once every topic has its videos.</p>
+            </div>
+          ) : unlocked ? (
             <div className="card p-4">
               <div className="flex justify-between text-sm"><span className="text-sub">Your progress</span><span className="font-mono tnum">{done}/{allTopics.length}</span></div>
               <Bar value={done} total={allTopics.length} className="mt-2" />
@@ -136,7 +143,7 @@ function SubjectBlock({ s, idx, isOpen, toggle, progress, canSee, match, unlocke
           <span className="mt-0.5 block truncate text-[13px] text-sub">{s.focus}</span>
         </span>
         <span className="hidden text-right sm:block">
-          <span className="block font-mono text-sm tnum">{s.marks} <span className="text-mute">marks</span></span>
+          {s.marks && <span className="block font-mono text-sm tnum">{s.marks} <span className="text-mute">marks</span></span>}
           <span className="block font-mono text-xs text-mute tnum">{done}/{topics.length} done</span>
         </span>
         <ChevronDown size={18} className={`shrink-0 text-mute transition-transform duration-200 ${isOpen ? 'rotate-180' : ''}`} />

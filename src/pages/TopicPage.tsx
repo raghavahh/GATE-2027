@@ -3,7 +3,7 @@ import { CONTACT_EMAIL, supabase } from '../lib/supabase';
 import type { Video } from '../catalog';
 import { Link, useParams } from 'react-router-dom';
 import { ArrowLeft, ArrowRight, Lock } from 'lucide-react';
-import { findTopic, getVideoCount, getVideos, paperStats, usePaper } from '../catalog';
+import { findTopic, getVideoCount, getVideos, isSellable, paperStats, usePaper } from '../catalog';
 import { getLessonById } from '../data/syllabus';
 import { isUnlocked, setStatus, useStore, type Status } from '../lib/store';
 import { DiffBadge } from '../ui/bits';
@@ -45,7 +45,7 @@ export function TopicPage() {
   // Each effect ignores a reply that arrives after the user has moved to another topic.
   useEffect(() => {
     setNotes(undefined); setNErr('');
-    if (!topicId || (!isSample && !paperOwned)) return;
+    if (!topicId || (!isSample && !paperOwned)) { setNotes(null); return; }
     let live = true;
     supabase.rpc('get_topic_notes', { p_paper: slug, p_topic: topicId }).then(({ data, error }) => {
       if (!live) return;
@@ -68,7 +68,7 @@ export function TopicPage() {
   if (!hit) return <NotFound />;
 
   const { paper, subject, topic, moduleName, moduleLetter, flat, index } = hit;
-  const open = owned || !!topic.sample;
+  const open = owned || !!topic.sample || !isSellable(slug); // unsold papers: free syllabus browsing
   const videos = topic.sample ? getVideos(topic.id) : paid ?? [];
   const videoCount = getVideoCount(topic.id);
   const lesson = topic.lesson ? getLessonById(topic.lesson)?.lesson : undefined;
@@ -89,7 +89,7 @@ export function TopicPage() {
           <h1 className="text-[26px] font-semibold leading-tight sm:text-[32px]">{topic.name}</h1>
           <div className="mt-3 flex flex-wrap items-center gap-2">
             <DiffBadge d={topic.diff} />
-            <span className="chip bg-raised text-sub">{subject.marks} marks · {subject.name}</span>
+            <span className="chip bg-raised text-sub">{subject.marks ? `${subject.marks} marks · ` : ''}{subject.name}</span>
             {topic.sample && !owned && <span className="chip bg-ok/10 text-ok">Free sample</span>}
           </div>
         </div>

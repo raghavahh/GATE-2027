@@ -72,6 +72,9 @@ export function findTopic(paperSlug: string, topicId: string): TopicHit | undefi
   return undefined;
 }
 
+/** On sale only once its videos are curated (matches SELLABLE_PAPERS in the create-order function). */
+export const isSellable = (slug: string) => (SUMMARY[slug]?.videos ?? 0) > 0;
+
 export function paperStats(slug: string) {
   if (!SUBJECTS[slug]) return SUMMARY[slug] ?? { subjects: 0, topics: 0, videos: 0 };
   const subs = getSubjects(slug);

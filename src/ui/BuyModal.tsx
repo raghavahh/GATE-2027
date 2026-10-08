@@ -117,12 +117,13 @@ export function BuyModal({ paper, topicName, counts, onClose }: Props) {
   }, []);
   const close = () => { if (!lock.current) onClose(); };
 
+  // Only promise what exists today: people are paying for exactly this list.
   const items = [
-    `All ${counts.topics} topics across ${counts.subjects} subjects, in order`,
-    '3–4 hand-picked videos per topic, playing right here',
-    'Key-point notes, formulas and common mistakes',
-    'Previous-year questions mapped to every topic',
-    'Easy / Medium / Hard tags and a focus plan',
+    `All ${counts.topics} topics across ${counts.subjects} subjects, in syllabus order`,
+    `${counts.videos} hand-picked videos, playing right here`,
+    'Key-point notes, formulas and common mistakes, added topic by topic through the season',
+    'Easy / Medium / Hard tag on every topic and progress tracking',
+    'Free previous-year papers in the PYQ hub',
   ];
 
   return (

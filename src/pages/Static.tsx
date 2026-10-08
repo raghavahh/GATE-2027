@@ -1,19 +1,20 @@
 import { Link } from 'react-router-dom';
 import { ArrowUpRight } from 'lucide-react';
-import { PAPERS, paperStats, type Paper } from '../catalog';
+import { PAPERS, isSellable, paperStats, type Paper } from '../catalog';
 
-const STATUS_CHIP: Record<Paper['status'], [string, string]> = {
-  live: ['Live', 'bg-ok/10 text-ok'],
-  building: ['Building', 'bg-medium/10 text-medium'],
+const STATUS_CHIP: Record<'live' | 'syllabus' | 'soon', [string, string]> = {
+  live: ['Videos live', 'bg-ok/10 text-ok'],
+  syllabus: ['Free syllabus · videos soon', 'bg-raised text-sub'],
   soon: ['Coming soon', 'bg-raised text-mute'],
 };
+const chipFor = (p: Paper) => (isSellable(p.slug) ? 'live' : p.status === 'soon' ? 'soon' : 'syllabus');
 
 export function PaperGrid({ limit }: { limit?: number }) {
   const list = limit ? PAPERS.slice(0, limit) : PAPERS;
   return (
     <ul className="mt-6 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
       {list.map(p => {
-        const [label, cls] = STATUS_CHIP[p.status];
+        const [label, cls] = STATUS_CHIP[chipFor(p)];
         const n = paperStats(p.slug).topics;
         return (
           <li key={p.code}>
@@ -36,7 +37,7 @@ export function PapersPage() {
   return (
     <div className="mx-auto max-w-shell px-4 py-10 sm:px-6">
       <h1 className="text-3xl font-semibold">All GATE papers</h1>
-      <p className="mt-2 text-sub">Each paper is a separate ₹310 sheet. CS is live; more are added every week.</p>
+      <p className="mt-2 text-sub">Each paper is a separate ₹310 sheet. Papers marked “Videos live” can be bought now; the rest are free to browse while their videos are curated.</p>
       <PaperGrid />
     </div>
   );

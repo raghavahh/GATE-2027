@@ -10,7 +10,7 @@ Deno.serve(async req => {
     if (!user) return json(req, { error: 'Please sign in first.' }, 401);
 
     const { paper } = await req.json().catch(() => ({}));
-    if (typeof paper !== 'string' || !PAPERS.has(paper)) return json(req, { error: 'Unknown paper.' }, 400);
+    if (typeof paper !== 'string' || !PAPERS.has(paper)) return json(req, { error: 'This paper is not on sale yet.' }, 400);
 
     // Access ends at SEASON_END, so a payment after it would buy nothing.
     if (Date.now() > Date.parse(SEASON_END)) return json(req, { error: `${EDITION} sales have closed.` }, 410);
