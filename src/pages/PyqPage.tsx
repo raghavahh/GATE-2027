@@ -3,6 +3,7 @@ import { Link, useSearchParams } from 'react-router-dom';
 import { FileCheck2, FileText } from 'lucide-react';
 import { PAPERS } from '../catalog';
 import { Loading } from './Static';
+import { useTitle } from '../lib/title';
 
 interface PyqSet { label: string; qp: string; key: string | null }
 type Pyq = Record<string, { year: number; sets: PyqSet[] }[]>;
@@ -15,6 +16,7 @@ export function PyqPage() {
   useEffect(() => { import('../catalog/pyq.json').then(m => setData(m.default as Pyq)); }, []);
 
   const paper = PAPERS.find(p => p.slug === slug);
+  useTitle(`GATE ${paper?.code ?? ''} previous year papers 2019–2026`);
   const years = data?.[slug] ?? [];
 
   return (

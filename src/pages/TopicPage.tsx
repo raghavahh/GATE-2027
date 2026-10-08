@@ -10,6 +10,7 @@ import { BuyModal } from '../ui/BuyModal';
 import { useAuth } from '../lib/auth';
 import { YouTubePlayer } from '../ui/YouTubePlayer';
 import { Loading, NotFound } from './Static';
+import { useTitle } from '../lib/title';
 
 /** Topic notes from get_topic_notes: summary, points, formulas [formula, note], mistakes, how GATE asks it. */
 interface Notes { s: string; p: string[]; f?: [string, string][]; m?: string[]; q?: string }
@@ -42,6 +43,7 @@ export function TopicPage() {
   const [notes, setNotes] = useState<Notes | null | undefined>(undefined);
   const [nErr, setNErr] = useState('');
   const topicId = hit?.topic.id;
+  useTitle(hit ? `${hit.topic.name} · ${hit.paper.code}` : undefined);
   // Each effect ignores a reply that arrives after the user has moved to another topic.
   useEffect(() => {
     setNotes(undefined); setNErr('');
@@ -57,11 +59,19 @@ export function TopicPage() {
     setPaid(null); setVErr('');
     if (!topicId || isSample || !paperOwned) return;
     let live = true;
-    supabase.rpc('get_topic_videos', { p_paper: slug, p_topic: topicId }).then(({ data, error }) => {
+    const fetchVideos = (id: string) => supabase.rpc('get_topic_videos', { p_paper: slug, p_topic: id });
+    (async () => {
+      let { data, error } = await fetchVideos(topicId);
+      // Renamed/split topics: until the lists are re-uploaded under the new id, use the old topic's list.
+      if (!error && !(data as Video[] | null)?.length) {
+        const map = (await import('../catalog/idmap.json')).default as Record<string, string | string[]>;
+        const old = Object.keys(map).find(o => [map[o]].flat().includes(topicId));
+        if (old) ({ data, error } = await fetchVideos(old));
+      }
       if (!live) return;
       if (error) setVErr(contentError(error.message));
       else setPaid((data ?? []) as Video[]);
-    });
+    })();
     return () => { live = false; };
   }, [slug, topicId, isSample, paperOwned]);
   if (!ready || !authReady) return <Loading />;
@@ -146,7 +156,7 @@ export function TopicPage() {
             ) : notes === undefined ? (
               <div className="h-40 animate-pulse rounded-card bg-surface" />
             ) : (
-              <p className="card p-6 text-sub">Key-point notes for this topic are being written. The videos above cover it fully.</p>
+              <p className="card p-6 text-sub">Key-point notes for this topic are being written.{videos.length > 0 && ' The videos above cover it fully.'}</p>
             )}
           </section>
         </div>

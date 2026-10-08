@@ -2,6 +2,8 @@ import { useEffect, useState } from 'react';
 import { PAPERS } from './papers';
 import type { CatSubject, CatTopic, Paper, Video } from './types';
 import summaryJson from './summary.json';
+/** Papers on sale. Keep in sync with the SELLABLE_PAPERS secret of the create-order function. */
+import SELLABLE from './sellable.json';
 
 export * from './types';
 export { PAPERS, PRICE_INR, EDITION } from './papers';
@@ -74,7 +76,7 @@ export function findTopic(paperSlug: string, topicId: string): TopicHit | undefi
 }
 
 /** On sale only once its videos are curated (matches SELLABLE_PAPERS in the create-order function). */
-export const isSellable = (slug: string) => (SUMMARY[slug]?.videos ?? 0) > 0;
+export const isSellable = (slug: string) => SELLABLE.includes(slug);
 
 export function paperStats(slug: string) {
   if (!SUBJECTS[slug]) return SUMMARY[slug] ?? { subjects: 0, topics: 0, videos: 0 };

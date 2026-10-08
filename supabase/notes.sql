@@ -17,7 +17,8 @@ begin
   if not found then return null; end if;
   if r.sample then return r.notes; end if;
   if auth.uid() is null then raise exception 'sign in required'; end if;
-  if not (p_topic like p_paper || '-%' or p_topic like 'ga-%') then raise exception 'wrong paper'; end if;
+  -- Plain prefix comparison (no LIKE wildcards): a topic belongs to its paper, GA topics to every paper.
+  if not (starts_with(p_topic, p_paper || '-') or starts_with(p_topic, 'ga-')) then raise exception 'wrong paper'; end if;
   if not exists (
     select 1 from public.entitlements e
     where e.user_id = auth.uid() and e.paper = p_paper and e.expires_at > now()

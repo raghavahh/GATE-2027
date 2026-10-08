@@ -1,6 +1,13 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { Mail, X } from 'lucide-react';
 import { useAuth } from '../lib/auth';
+
+/** Supabase's own messages are technical; say what to do instead. */
+const friendly = (m: string) =>
+  /rate|too many|security purposes/i.test(m) ? 'Too many codes asked for. Wait a minute, then try again.'
+  : /fetch|network/i.test(m) ? 'Network problem. Check your connection and try again.'
+  : /expired|invalid/i.test(m) ? 'That code is wrong or has expired. Ask for a new one.'
+  : m;
 
 // Google sign-in shows only once the Google provider is switched on in Supabase.
 const GOOGLE = import.meta.env.VITE_GOOGLE_AUTH === 'on';
@@ -13,29 +20,38 @@ export function SignInModal({ onClose, reason }: { onClose: () => void; reason?:
   const [step, setStep] = useState<'start' | 'code' | 'password'>('start');
   const [err, setErr] = useState('');
   const [busy, setBusy] = useState(false);
+  /** Seconds until another code may be sent (protects the email quota from repeated taps). */
+  const [wait, setWait] = useState(0);
+  useEffect(() => {
+    if (wait <= 0) return;
+    const t = setTimeout(() => setWait(w => w - 1), 1000);
+    return () => clearTimeout(t);
+  }, [wait]);
 
-  const sendCode = async () => {
+  const run = async (f: () => Promise<string | null>, ok: () => void) => {
+    setBusy(true); setErr('');
+    try {
+      const e = await f();
+      if (e) setErr(friendly(e)); else ok();
+    } catch (e) {
+      setErr(friendly((e as Error).message));
+    } finally {
+      setBusy(false);
+    }
+  };
+  const sendCode = () => {
     if (!/^\S+@\S+\.\S+$/.test(email)) return setErr('Enter a valid email address.');
-    setBusy(true); setErr('');
-    const e = await signInEmail(email.trim());
-    setBusy(false);
-    e ? setErr(e) : setStep('code');
+    if (wait > 0) return;
+    return run(() => signInEmail(email.trim()), () => { setStep('code'); setCode(''); setWait(60); });
   };
-  const check = async () => {
+  const check = () => {
     if (!/^\d{6,10}$/.test(code.trim())) return setErr('Enter the code from your email.');
-    setBusy(true); setErr('');
-    const e = await verifyEmail(email.trim(), code.trim());
-    setBusy(false);
-    e ? setErr(e) : onClose();
+    return run(() => verifyEmail(email.trim(), code.trim()), onClose);
   };
-
-  const withPassword = async () => {
+  const withPassword = () => {
     if (!/^\S+@\S+\.\S+$/.test(email)) return setErr('Enter a valid email address.');
     if (!password) return setErr('Enter your password.');
-    setBusy(true); setErr('');
-    const e = await signInPassword(email.trim(), password);
-    setBusy(false);
-    e ? setErr(e) : onClose();
+    return run(() => signInPassword(email.trim(), password), onClose);
   };
 
   return (
@@ -71,7 +87,7 @@ export function SignInModal({ onClose, reason }: { onClose: () => void; reason?:
               </>
             ) : (
               <>
-                <button type="button" disabled={busy} onClick={sendCode} className="btn-primary mt-3 h-11 w-full"><Mail size={16} />{busy ? 'Sending…' : 'Email me a code'}</button>
+                <button type="button" disabled={busy || wait > 0} onClick={sendCode} className="btn-primary mt-3 h-11 w-full"><Mail size={16} />{busy ? 'Sending…' : wait > 0 ? `Email me a code (${wait}s)` : 'Email me a code'}</button>
                 <button type="button" onClick={() => { setStep('password'); setErr(''); }} className="mt-3 w-full text-sm text-sub hover:text-ink">Sign in with password</button>
               </>
             )}
@@ -83,7 +99,10 @@ export function SignInModal({ onClose, reason }: { onClose: () => void; reason?:
             <input id="si-code" inputMode="numeric" autoComplete="one-time-code" maxLength={10} value={code} onChange={e => { setCode(e.target.value.replace(/\D/g, '')); setErr(''); }}
               className="mt-1.5 h-11 w-full rounded-lg border border-line bg-page px-3 font-mono tracking-[0.4em] outline-none focus:border-brand/60" />
             <button type="button" disabled={busy} onClick={check} className="btn-primary mt-3 h-11 w-full">{busy ? 'Checking…' : 'Sign in'}</button>
-            <button type="button" onClick={() => setStep('start')} className="mt-3 w-full text-sm text-sub hover:text-ink">Use a different email</button>
+            <div className="mt-3 flex justify-between gap-3 text-sm">
+              <button type="button" onClick={() => setStep('start')} className="text-sub hover:text-ink">Use a different email</button>
+              <button type="button" disabled={wait > 0 || busy} onClick={sendCode} className="text-sub hover:text-ink disabled:text-mute">{wait > 0 ? `Resend in ${wait}s` : 'Resend code'}</button>
+            </div>
           </>
         )}
         {err && <p role="alert" className="mt-3 text-sm text-hard">{err}</p>}

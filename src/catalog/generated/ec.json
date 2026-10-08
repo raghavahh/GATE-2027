@@ -1,1120 +1,1308 @@
 [
- {
-  "id": "ec-engineering-mathematics",
-  "name": "Engineering Mathematics",
-  "marks": "",
-  "focus": "",
-  "modules": [
-   {
-    "letter": "A",
-    "name": "Linear Algebra",
-    "topics": [
-     {
-      "id": "ec-engineering-mathematics--vector-space",
-      "name": "Vector space",
-      "diff": "E",
-      "sample": true
-     },
-     {
-      "id": "ec-engineering-mathematics--basis",
-      "name": "Basis",
-      "diff": "E"
-     },
-     {
-      "id": "ec-engineering-mathematics--linear-dependence-and-independence",
-      "name": "Linear dependence and independence",
-      "diff": "M"
-     },
-     {
-      "id": "ec-engineering-mathematics--matrix-algebra",
-      "name": "Matrix algebra",
-      "diff": "E"
-     },
-     {
-      "id": "ec-engineering-mathematics--eigen-values-and-eigen-vectors",
-      "name": "Eigen values and eigen vectors",
-      "diff": "H"
-     },
-     {
-      "id": "ec-engineering-mathematics--rank",
-      "name": "Rank",
-      "diff": "E"
-     },
-     {
-      "id": "ec-engineering-mathematics--solution-of-linear-equations-existence-and-uniqueness",
-      "name": "Solution of linear equations - existence and uniqueness",
-      "diff": "M"
-     }
+  {
+    "id": "ec-engineering-mathematics",
+    "name": "Engineering Mathematics",
+    "marks": "12–14",
+    "focus": "Linear algebra, complex analysis and probability give dependable marks.",
+    "modules": [
+      {
+        "letter": "A",
+        "name": "Linear algebra",
+        "topics": [
+          {
+            "id": "ec-engineering-mathematics--vector-space",
+            "name": "Vector space",
+            "diff": "E",
+            "q": "vector space linear algebra engineering mathematics",
+            "sample": true
+          },
+          {
+            "id": "ec-engineering-mathematics--basis",
+            "name": "Basis of a vector space",
+            "diff": "E",
+            "q": "basis of a vector space linear algebra"
+          },
+          {
+            "id": "ec-engineering-mathematics--linear-dependence-and-independence",
+            "name": "Linear dependence and independence of vectors",
+            "diff": "M"
+          },
+          {
+            "id": "ec-engineering-mathematics--matrix-algebra",
+            "name": "Matrix algebra",
+            "diff": "E",
+            "q": "matrix algebra engineering mathematics"
+          },
+          {
+            "id": "ec-engineering-mathematics--rank",
+            "name": "Rank of a matrix",
+            "diff": "E"
+          },
+          {
+            "id": "ec-engineering-mathematics--solution-of-linear-equations-existence-and-uniqueness",
+            "name": "Solution of linear equations: existence and uniqueness",
+            "diff": "M"
+          },
+          {
+            "id": "ec-engineering-mathematics--eigen-values-and-eigen-vectors",
+            "name": "Eigenvalues and eigenvectors",
+            "diff": "M"
+          }
+        ]
+      },
+      {
+        "letter": "B",
+        "name": "Calculus",
+        "topics": [
+          {
+            "id": "ec-engineering-mathematics--mean-value-theorems",
+            "name": "Mean value theorems",
+            "diff": "M",
+            "q": "mean value theorems calculus engineering mathematics"
+          },
+          {
+            "id": "ec-engineering-mathematics--theorems-of-integral-calculus",
+            "name": "Theorems of integral calculus",
+            "diff": "M"
+          },
+          {
+            "id": "ec-engineering-mathematics--evaluation-of-definite-and-improper-integrals",
+            "name": "Evaluation of definite and improper integrals",
+            "diff": "M"
+          },
+          {
+            "id": "ec-engineering-mathematics--partial-derivatives",
+            "name": "Partial derivatives",
+            "diff": "M",
+            "q": "partial derivatives calculus engineering mathematics"
+          },
+          {
+            "id": "ec-engineering-mathematics--maxima-and-minima",
+            "name": "Maxima and minima",
+            "diff": "E",
+            "q": "maxima and minima calculus engineering mathematics"
+          },
+          {
+            "id": "ec-engineering-mathematics--multiple-integrals",
+            "name": "Multiple integrals",
+            "diff": "M",
+            "q": "multiple integrals double triple integrals engineering mathematics"
+          },
+          {
+            "id": "ec-engineering-mathematics--line-surface-and-volume-integrals",
+            "name": "Line, surface and volume integrals",
+            "diff": "M"
+          },
+          {
+            "id": "ec-engineering-mathematics--taylor-series",
+            "name": "Taylor series",
+            "diff": "E",
+            "q": "taylor series calculus engineering mathematics"
+          }
+        ]
+      },
+      {
+        "letter": "C",
+        "name": "Differential equations",
+        "topics": [
+          {
+            "id": "ec-engineering-mathematics--linear-differential-equations",
+            "name": "Linear differential equations",
+            "diff": "M"
+          },
+          {
+            "id": "ec-engineering-mathematics--euler-cauchy-equation",
+            "name": "Euler-Cauchy equation",
+            "diff": "M"
+          },
+          {
+            "id": "ec-engineering-mathematics--nonhomogeneous-equations",
+            "name": "Nonhomogeneous equations",
+            "diff": "M",
+            "q": "nonhomogeneous linear differential equations"
+          },
+          {
+            "id": "ec-engineering-mathematics--complementary-function-and-particular-integral",
+            "name": "Complementary function and particular integral",
+            "diff": "M"
+          },
+          {
+            "id": "ec-engineering-mathematics--methods-of-solution-using-variation-of-parameters",
+            "name": "Method of variation of parameters",
+            "diff": "M",
+            "q": "method of solution using variation of parameters differential equations"
+          },
+          {
+            "id": "ec-engineering-mathematics--partial-differential-equations",
+            "name": "Partial differential equations",
+            "diff": "H"
+          },
+          {
+            "id": "ec-engineering-mathematics--variable-separable-method",
+            "name": "Variable separable method",
+            "diff": "M",
+            "q": "variable separable method differential equations"
+          },
+          {
+            "id": "ec-engineering-mathematics--initial-and-boundary-value-problems",
+            "name": "Initial and boundary value problems",
+            "diff": "M",
+            "q": "initial and boundary value problems differential equations"
+          }
+        ]
+      },
+      {
+        "letter": "D",
+        "name": "Vector analysis",
+        "topics": [
+          {
+            "id": "ec-engineering-mathematics--vectors-in-plane-and-space",
+            "name": "Vectors in plane and space",
+            "diff": "E",
+            "q": "vectors in plane and space vector analysis"
+          },
+          {
+            "id": "ec-engineering-mathematics--vector-operations",
+            "name": "Vector operations",
+            "diff": "E",
+            "q": "vector operations dot cross product vector analysis"
+          },
+          {
+            "id": "ec-engineering-mathematics--gradient",
+            "name": "Gradient of a scalar field",
+            "diff": "E",
+            "q": "gradient vector calculus engineering mathematics"
+          },
+          {
+            "id": "ec-engineering-mathematics--divergence-and-curl",
+            "name": "Divergence and curl",
+            "diff": "M"
+          },
+          {
+            "id": "ec-engineering-mathematics--gausss-greens-and-stokes-theorems",
+            "name": "Gauss's, Green's and Stokes' theorems",
+            "diff": "M"
+          }
+        ]
+      },
+      {
+        "letter": "E",
+        "name": "Complex analysis",
+        "topics": [
+          {
+            "id": "ec-engineering-mathematics--analytic-functions",
+            "name": "Analytic functions",
+            "diff": "M",
+            "q": "analytic functions cauchy riemann complex analysis"
+          },
+          {
+            "id": "ec-engineering-mathematics--cauchys-integral-theorem",
+            "name": "Cauchy's integral theorem",
+            "diff": "M"
+          },
+          {
+            "id": "ec-engineering-mathematics--cauchys-integral-formula",
+            "name": "Cauchy's integral formula",
+            "diff": "M"
+          },
+          {
+            "id": "ec-engineering-mathematics--sequences-and-series-complex-analysis",
+            "name": "Sequences and series (complex analysis)",
+            "diff": "E",
+            "q": "sequences and series complex analysis engineering mathematics"
+          },
+          {
+            "id": "ec-engineering-mathematics--convergence-tests",
+            "name": "Convergence tests for series",
+            "diff": "E",
+            "q": "convergence tests for series engineering mathematics"
+          },
+          {
+            "id": "ec-engineering-mathematics--taylor-and-laurent-series",
+            "name": "Taylor and Laurent series",
+            "diff": "M"
+          },
+          {
+            "id": "ec-engineering-mathematics--residue-theorem",
+            "name": "Residue theorem",
+            "diff": "M"
+          }
+        ]
+      },
+      {
+        "letter": "F",
+        "name": "Probability and statistics",
+        "topics": [
+          {
+            "id": "ec-engineering-mathematics--mean-median-and-mode-statistics",
+            "name": "Mean, median and mode (statistics)",
+            "diff": "E",
+            "q": "mean median mode statistics engineering mathematics"
+          },
+          {
+            "id": "ec-engineering-mathematics--standard-deviation",
+            "name": "Standard deviation",
+            "diff": "E",
+            "q": "standard deviation variance statistics engineering mathematics"
+          },
+          {
+            "id": "ec-engineering-mathematics--combinatorial-probability",
+            "name": "Combinatorial probability",
+            "diff": "M"
+          },
+          {
+            "id": "ec-engineering-mathematics--joint-and-conditional-probability",
+            "name": "Joint and conditional probability",
+            "diff": "M"
+          },
+          {
+            "id": "ec-engineering-mathematics--probability-distributions",
+            "name": "Probability distributions",
+            "diff": "M",
+            "q": "probability distributions random variables pdf cdf"
+          },
+          {
+            "id": "ec-engineering-mathematics--binomial-distribution",
+            "name": "Binomial distribution",
+            "diff": "M"
+          },
+          {
+            "id": "ec-engineering-mathematics--poisson-distribution",
+            "name": "Poisson distribution",
+            "diff": "M"
+          },
+          {
+            "id": "ec-engineering-mathematics--exponential-distribution",
+            "name": "Exponential distribution",
+            "diff": "M"
+          },
+          {
+            "id": "ec-engineering-mathematics--normal-distribution",
+            "name": "Normal distribution",
+            "diff": "M"
+          },
+          {
+            "id": "ec-engineering-mathematics--correlation-and-regression-analysis",
+            "name": "Correlation and regression analysis",
+            "diff": "M"
+          }
+        ]
+      }
     ]
-   },
-   {
-    "letter": "B",
-    "name": "Calculus",
-    "topics": [
-     {
-      "id": "ec-engineering-mathematics--mean-value-theorems",
-      "name": "Mean value theorems",
-      "diff": "M"
-     },
-     {
-      "id": "ec-engineering-mathematics--theorems-of-integral-calculus",
-      "name": "Theorems of integral calculus",
-      "diff": "M"
-     },
-     {
-      "id": "ec-engineering-mathematics--evaluation-of-definite-and-improper-integrals",
-      "name": "Evaluation of definite and improper integrals",
-      "diff": "M"
-     },
-     {
-      "id": "ec-engineering-mathematics--partial-derivatives",
-      "name": "Partial derivatives",
-      "diff": "M"
-     },
-     {
-      "id": "ec-engineering-mathematics--maxima-and-minima",
-      "name": "Maxima and minima",
-      "diff": "E"
-     },
-     {
-      "id": "ec-engineering-mathematics--multiple-integrals",
-      "name": "Multiple integrals",
-      "diff": "M"
-     },
-     {
-      "id": "ec-engineering-mathematics--line",
-      "name": "Line",
-      "diff": "E"
-     },
-     {
-      "id": "ec-engineering-mathematics--surface-and-volume-integrals",
-      "name": "Surface and volume integrals",
-      "diff": "M"
-     },
-     {
-      "id": "ec-engineering-mathematics--taylor-series",
-      "name": "Taylor series",
-      "diff": "E"
-     }
+  },
+  {
+    "id": "ec-networks-signals-and-systems",
+    "name": "Networks, Signals and Systems",
+    "marks": "13–18",
+    "focus": "Biggest core block: network theorems, LTI/convolution, Fourier, z-transform.",
+    "modules": [
+      {
+        "letter": "A",
+        "name": "Circuit analysis and network theorems",
+        "topics": [
+          {
+            "id": "ec-networks-signals-and-systems--node-and-mesh-analysis",
+            "name": "Node and mesh analysis",
+            "diff": "M",
+            "sample": true
+          },
+          {
+            "id": "ec-networks-signals-and-systems--wye-delta-transformation",
+            "name": "Wye-delta transformation",
+            "diff": "E",
+            "q": "star delta wye delta transformation network analysis"
+          },
+          {
+            "id": "ec-networks-signals-and-systems--superposition",
+            "name": "Superposition theorem",
+            "diff": "E",
+            "q": "superposition theorem network analysis"
+          },
+          {
+            "id": "ec-networks-signals-and-systems--thevenins-theorem",
+            "name": "Thevenin's theorem",
+            "diff": "M"
+          },
+          {
+            "id": "ec-networks-signals-and-systems--nortons-theorem",
+            "name": "Norton's theorem",
+            "diff": "E"
+          },
+          {
+            "id": "ec-networks-signals-and-systems--reciprocity",
+            "name": "Reciprocity theorem",
+            "diff": "E",
+            "q": "reciprocity theorem network analysis"
+          }
+        ]
+      },
+      {
+        "letter": "B",
+        "name": "Sinusoidal steady-state analysis",
+        "topics": [
+          {
+            "id": "ec-networks-signals-and-systems--phasors-and-sinusoidal-steady-state-analysis",
+            "name": "Phasors and sinusoidal steady-state analysis",
+            "diff": "M"
+          },
+          {
+            "id": "ec-networks-signals-and-systems--complex-power",
+            "name": "Complex power",
+            "diff": "M",
+            "q": "complex power ac circuits network analysis"
+          },
+          {
+            "id": "ec-networks-signals-and-systems--maximum-power-transfer-theorem",
+            "name": "Maximum power transfer theorem",
+            "diff": "M"
+          }
+        ]
+      },
+      {
+        "letter": "C",
+        "name": "Transient analysis, Laplace transform and two-port networks",
+        "topics": [
+          {
+            "id": "ec-networks-signals-and-systems--rc-and-rlc-circuits",
+            "name": "RL, RC and RLC circuits",
+            "diff": "M",
+            "q": "transient analysis RL RC RLC circuits"
+          },
+          {
+            "id": "ec-networks-signals-and-systems--solution-of-network-equations-using-laplace-transform",
+            "name": "Solution of network equations using Laplace transform",
+            "diff": "M"
+          },
+          {
+            "id": "ec-networks-signals-and-systems--linear-two-port-network-parameters",
+            "name": "Linear two-port network parameters",
+            "diff": "M",
+            "q": "two port network parameters z y h abcd"
+          }
+        ]
+      },
+      {
+        "letter": "D",
+        "name": "LTI systems",
+        "topics": [
+          {
+            "id": "ec-networks-signals-and-systems--definition-and-properties",
+            "name": "LTI systems: definition and properties",
+            "diff": "E",
+            "q": "LTI system properties linearity time invariance"
+          },
+          {
+            "id": "ec-networks-signals-and-systems--causality",
+            "name": "Causality of LTI systems",
+            "diff": "E"
+          },
+          {
+            "id": "ec-networks-signals-and-systems--stability",
+            "name": "BIBO stability of LTI systems",
+            "diff": "E"
+          },
+          {
+            "id": "ec-networks-signals-and-systems--impulse-response",
+            "name": "Impulse response of LTI systems",
+            "diff": "E"
+          },
+          {
+            "id": "ec-networks-signals-and-systems--convolution",
+            "name": "Convolution",
+            "diff": "M",
+            "q": "convolution signals and systems continuous discrete"
+          },
+          {
+            "id": "ec-networks-signals-and-systems--poles-and-zeroes",
+            "name": "Poles and zeros",
+            "diff": "E",
+            "q": "poles and zeros transfer function signals and systems"
+          },
+          {
+            "id": "ec-networks-signals-and-systems--frequency-response",
+            "name": "Frequency response of LTI systems",
+            "diff": "M"
+          },
+          {
+            "id": "ec-networks-signals-and-systems--group-delay",
+            "name": "Group delay",
+            "diff": "M",
+            "q": "group delay signals and systems"
+          },
+          {
+            "id": "ec-networks-signals-and-systems--phase-delay",
+            "name": "Phase delay",
+            "diff": "M",
+            "q": "phase delay signals and systems"
+          }
+        ]
+      },
+      {
+        "letter": "E",
+        "name": "Continuous-time signals",
+        "topics": [
+          {
+            "id": "ec-networks-signals-and-systems--fourier-series-and-fourier-transform",
+            "name": "Fourier series and Fourier transform",
+            "diff": "M"
+          },
+          {
+            "id": "ec-networks-signals-and-systems--nyquist-sampling-theorem",
+            "name": "Nyquist sampling theorem",
+            "diff": "M"
+          },
+          {
+            "id": "ec-networks-signals-and-systems--sampling-and-reconstruction",
+            "name": "Sampling and reconstruction",
+            "diff": "M",
+            "q": "sampling and reconstruction of signals signals and systems"
+          }
+        ]
+      },
+      {
+        "letter": "F",
+        "name": "Discrete-time signals and digital filters",
+        "topics": [
+          {
+            "id": "ec-networks-signals-and-systems--discrete-time-fourier-transform-dtft",
+            "name": "Discrete-time Fourier transform (DTFT)",
+            "diff": "M"
+          },
+          {
+            "id": "ec-networks-signals-and-systems--discrete-fourier-transform-dft",
+            "name": "Discrete Fourier transform (DFT)",
+            "diff": "M"
+          },
+          {
+            "id": "ec-networks-signals-and-systems--z-transform",
+            "name": "z-transform",
+            "diff": "M",
+            "q": "z transform signals and systems"
+          },
+          {
+            "id": "ec-networks-signals-and-systems--fir-and-iir-filter-design",
+            "name": "FIR and IIR filter design",
+            "diff": "H",
+            "q": "FIR and IIR digital filter design DSP"
+          }
+        ]
+      }
     ]
-   },
-   {
-    "letter": "C",
-    "name": "Differential Equations",
-    "topics": [
-     {
-      "id": "ec-engineering-mathematics--linear-differential-equations",
-      "name": "Linear differential equations",
-      "diff": "M"
-     },
-     {
-      "id": "ec-engineering-mathematics--euler-cauchy-equation",
-      "name": "Euler -Cauchy equation",
-      "diff": "M"
-     },
-     {
-      "id": "ec-engineering-mathematics--nonhomogeneous-equations",
-      "name": "Nonhomogeneous equations",
-      "diff": "M"
-     },
-     {
-      "id": "ec-engineering-mathematics--methods-of-solution-using-variation-of-parameters",
-      "name": "Methods of solution using variation of parameters",
-      "diff": "M"
-     },
-     {
-      "id": "ec-engineering-mathematics--complementary-function-and-particular-integral",
-      "name": "Complementary function and particular integral",
-      "diff": "M"
-     },
-     {
-      "id": "ec-engineering-mathematics--partial-differential-equations",
-      "name": "Partial differential equations",
-      "diff": "H"
-     },
-     {
-      "id": "ec-engineering-mathematics--variable-separable-method",
-      "name": "Variable separable method",
-      "diff": "M"
-     },
-     {
-      "id": "ec-engineering-mathematics--initial-and-boundary-value-problems",
-      "name": "Initial and boundary value problems",
-      "diff": "M"
-     }
+  },
+  {
+    "id": "ec-electronic-devices",
+    "name": "Electronic Devices",
+    "marks": "7–10",
+    "focus": "Carrier concentration, PN junction and MOS capacitor/MOSFET numericals.",
+    "modules": [
+      {
+        "letter": "A",
+        "name": "Semiconductor fundamentals",
+        "topics": [
+          {
+            "id": "ec-electronic-devices--formation-of-energy-bands-in-solids",
+            "name": "Formation of energy bands in solids",
+            "diff": "E",
+            "sample": true
+          },
+          {
+            "id": "ec-electronic-devices--energy-bands-in-intrinsic-and-extrinsic-semiconductors",
+            "name": "Energy bands in intrinsic and extrinsic semiconductors",
+            "diff": "M"
+          },
+          {
+            "id": "ec-electronic-devices--equilibrium-carrier-concentration",
+            "name": "Equilibrium carrier concentration",
+            "diff": "M"
+          },
+          {
+            "id": "ec-electronic-devices--direct-and-indirect-band-gap-semiconductors",
+            "name": "Direct and indirect band-gap semiconductors",
+            "diff": "E"
+          }
+        ]
+      },
+      {
+        "letter": "B",
+        "name": "Carrier transport",
+        "topics": [
+          {
+            "id": "ec-electronic-devices--drift-current",
+            "name": "Drift current",
+            "diff": "E",
+            "q": "drift current semiconductor carrier transport"
+          },
+          {
+            "id": "ec-electronic-devices--diffusion-current",
+            "name": "Diffusion current",
+            "diff": "E",
+            "q": "diffusion current semiconductor carrier transport"
+          },
+          {
+            "id": "ec-electronic-devices--mobility-and-resistivity",
+            "name": "Mobility and resistivity",
+            "diff": "M",
+            "q": "mobility and resistivity semiconductor"
+          },
+          {
+            "id": "ec-electronic-devices--generation-and-recombination-of-carriers",
+            "name": "Generation and recombination of carriers",
+            "diff": "M"
+          },
+          {
+            "id": "ec-electronic-devices--poisson-and-continuity-equations",
+            "name": "Poisson and continuity equations",
+            "diff": "H",
+            "q": "poisson and continuity equations semiconductor"
+          }
+        ]
+      },
+      {
+        "letter": "C",
+        "name": "Devices",
+        "topics": [
+          {
+            "id": "ec-electronic-devices--p-n-junction",
+            "name": "P-N junction",
+            "diff": "M",
+            "q": "pn junction diode physics depletion region"
+          },
+          {
+            "id": "ec-electronic-devices--zener-diode",
+            "name": "Zener diode",
+            "diff": "E",
+            "q": "zener diode breakdown device physics"
+          },
+          {
+            "id": "ec-electronic-devices--bjt",
+            "name": "Bipolar junction transistor (BJT)",
+            "diff": "M",
+            "q": "BJT device physics bipolar junction transistor"
+          },
+          {
+            "id": "ec-electronic-devices--mos-capacitor",
+            "name": "MOS capacitor",
+            "diff": "H",
+            "q": "MOS capacitor threshold voltage CV characteristics"
+          },
+          {
+            "id": "ec-electronic-devices--mosfet",
+            "name": "MOSFET",
+            "diff": "M",
+            "q": "MOSFET device physics characteristics"
+          },
+          {
+            "id": "ec-electronic-devices--scaling-in-mosfets",
+            "name": "Scaling in MOSFETs",
+            "diff": "M",
+            "q": "MOSFET scaling short channel effects"
+          },
+          {
+            "id": "ec-electronic-devices--led",
+            "name": "Light-emitting diode (LED)",
+            "diff": "E",
+            "q": "LED light emitting diode semiconductor device"
+          },
+          {
+            "id": "ec-electronic-devices--photo-diode-and-solar-cell",
+            "name": "Photodiode and solar cell",
+            "diff": "M"
+          }
+        ]
+      }
     ]
-   },
-   {
-    "letter": "D",
-    "name": "Vector Analysis",
-    "topics": [
-     {
-      "id": "ec-engineering-mathematics--vectors-in-plane-and-space",
-      "name": "Vectors in plane and space",
-      "diff": "M"
-     },
-     {
-      "id": "ec-engineering-mathematics--vector-operations",
-      "name": "Vector operations",
-      "diff": "E"
-     },
-     {
-      "id": "ec-engineering-mathematics--gradient",
-      "name": "Gradient",
-      "diff": "E"
-     },
-     {
-      "id": "ec-engineering-mathematics--divergence-and-curl",
-      "name": "Divergence and curl",
-      "diff": "M"
-     },
-     {
-      "id": "ec-engineering-mathematics--gausss",
-      "name": "Gauss's",
-      "diff": "E"
-     },
-     {
-      "id": "ec-engineering-mathematics--greens-and-stokes-theorems",
-      "name": "Green's and Stokes’ theorems",
-      "diff": "M"
-     }
+  },
+  {
+    "id": "ec-analog-circuits",
+    "name": "Analog Circuits",
+    "marks": "8–12",
+    "focus": "Small-signal BJT/MOSFET amplifiers and op-amp circuits.",
+    "modules": [
+      {
+        "letter": "A",
+        "name": "Diode circuits",
+        "topics": [
+          {
+            "id": "ec-analog-circuits--clipping-clamping-and-rectifiers",
+            "name": "Clipping, clamping and rectifier circuits",
+            "diff": "M",
+            "q": "diode clipper clamper rectifier circuits",
+            "sample": true
+          }
+        ]
+      },
+      {
+        "letter": "B",
+        "name": "BJT and MOSFET amplifiers",
+        "topics": [
+          {
+            "id": "ec-analog-circuits--biasing-of-bjt-and-mosfet-amplifiers",
+            "name": "Biasing of BJT and MOSFET amplifiers",
+            "diff": "M"
+          },
+          {
+            "id": "ec-analog-circuits--ac-coupling-in-amplifiers",
+            "name": "AC coupling in amplifiers",
+            "diff": "E",
+            "q": "AC coupling capacitor BJT MOSFET amplifier"
+          },
+          {
+            "id": "ec-analog-circuits--small-signal-analysis-of-bjt-and-mosfet-amplifiers",
+            "name": "Small-signal analysis of BJT and MOSFET amplifiers",
+            "diff": "M"
+          },
+          {
+            "id": "ec-analog-circuits--frequency-response-of-bjt-and-mosfet-amplifiers",
+            "name": "Frequency response of BJT and MOSFET amplifiers",
+            "diff": "H"
+          },
+          {
+            "id": "ec-analog-circuits--current-mirrors-and-differential-amplifiers",
+            "name": "Current mirrors and differential amplifiers",
+            "diff": "M"
+          }
+        ]
+      },
+      {
+        "letter": "C",
+        "name": "Op-amp circuits",
+        "topics": [
+          {
+            "id": "ec-analog-circuits--amplifiers",
+            "name": "Op-amp amplifiers (inverting and non-inverting)",
+            "diff": "E",
+            "q": "op-amp inverting non-inverting amplifier"
+          },
+          {
+            "id": "ec-analog-circuits--summers",
+            "name": "Op-amp summing amplifier (summer)",
+            "diff": "E"
+          },
+          {
+            "id": "ec-analog-circuits--differentiators",
+            "name": "Op-amp differentiator",
+            "diff": "E"
+          },
+          {
+            "id": "ec-analog-circuits--integrators",
+            "name": "Op-amp integrator",
+            "diff": "E"
+          },
+          {
+            "id": "ec-analog-circuits--active-filters",
+            "name": "Op-amp active filters",
+            "diff": "M"
+          },
+          {
+            "id": "ec-analog-circuits--schmitt-trigger-and-oscillators",
+            "name": "Schmitt trigger and oscillators",
+            "diff": "M",
+            "q": "op-amp schmitt trigger and oscillators"
+          },
+          {
+            "id": "ec-analog-circuits--dominant-pole-miller-compensation",
+            "name": "Dominant-pole (Miller) compensation",
+            "diff": "M",
+            "q": "dominant pole miller compensation op-amp"
+          },
+          {
+            "id": "ec-analog-circuits--phase-margin",
+            "name": "Phase margin of op-amp feedback amplifiers",
+            "diff": "M",
+            "q": "phase margin op-amp frequency compensation"
+          }
+        ]
+      }
     ]
-   },
-   {
-    "letter": "E",
-    "name": "Complex Analysis",
-    "topics": [
-     {
-      "id": "ec-engineering-mathematics--analytic-functions",
-      "name": "Analytic functions",
-      "diff": "M"
-     },
-     {
-      "id": "ec-engineering-mathematics--cauchys-integral-theorem",
-      "name": "Cauchy’s integral theorem",
-      "diff": "M"
-     },
-     {
-      "id": "ec-engineering-mathematics--cauchys-integral-formula",
-      "name": "Cauchy’s integral formula",
-      "diff": "M"
-     },
-     {
-      "id": "ec-engineering-mathematics--sequences",
-      "name": "Sequences",
-      "diff": "E"
-     },
-     {
-      "id": "ec-engineering-mathematics--series",
-      "name": "Series",
-      "diff": "E"
-     },
-     {
-      "id": "ec-engineering-mathematics--convergence-tests",
-      "name": "Convergence tests",
-      "diff": "E"
-     },
-     {
-      "id": "ec-engineering-mathematics--taylor-and-laurent-series",
-      "name": "Taylor and Laurent series",
-      "diff": "M"
-     },
-     {
-      "id": "ec-engineering-mathematics--residue-theorem",
-      "name": "Residue theorem",
-      "diff": "E"
-     }
+  },
+  {
+    "id": "ec-digital-circuits",
+    "name": "Digital Circuits",
+    "marks": "7–9",
+    "focus": "Combinational/sequential design, CMOS logic and timing (setup/hold, critical path).",
+    "modules": [
+      {
+        "letter": "A",
+        "name": "Number representations",
+        "topics": [
+          {
+            "id": "ec-digital-circuits--binary-integer-and-floating-point-numbers",
+            "name": "Binary, integer and floating-point numbers",
+            "diff": "M",
+            "q": "number representation binary signed integer floating point IEEE 754",
+            "sample": true
+          }
+        ]
+      },
+      {
+        "letter": "B",
+        "name": "Combinational circuits",
+        "topics": [
+          {
+            "id": "ec-digital-circuits--boolean-algebra",
+            "name": "Boolean algebra",
+            "diff": "E"
+          },
+          {
+            "id": "ec-digital-circuits--minimization-of-functions-using-boolean-identities-and-karna",
+            "name": "Minimization of functions using Boolean identities and Karnaugh map",
+            "diff": "M"
+          },
+          {
+            "id": "ec-digital-circuits--logic-gates-and-their-static-cmos-implementations",
+            "name": "Logic gates and their static CMOS implementations",
+            "diff": "M"
+          },
+          {
+            "id": "ec-digital-circuits--arithmetic-circuits",
+            "name": "Arithmetic circuits",
+            "diff": "M",
+            "q": "arithmetic circuits adders subtractors digital electronics"
+          },
+          {
+            "id": "ec-digital-circuits--code-converters",
+            "name": "Code converters",
+            "diff": "E",
+            "q": "code converters digital electronics"
+          },
+          {
+            "id": "ec-digital-circuits--multiplexers",
+            "name": "Multiplexers",
+            "diff": "E",
+            "q": "multiplexers digital electronics"
+          },
+          {
+            "id": "ec-digital-circuits--decoders",
+            "name": "Decoders",
+            "diff": "E",
+            "q": "decoders digital electronics"
+          }
+        ]
+      },
+      {
+        "letter": "C",
+        "name": "Sequential circuits",
+        "topics": [
+          {
+            "id": "ec-digital-circuits--latches-and-flip-flops",
+            "name": "Latches and flip-flops",
+            "diff": "M"
+          },
+          {
+            "id": "ec-digital-circuits--counters",
+            "name": "Counters",
+            "diff": "E",
+            "q": "counters sequential circuits digital electronics"
+          },
+          {
+            "id": "ec-digital-circuits--shift-registers",
+            "name": "Shift registers",
+            "diff": "E",
+            "q": "shift registers digital electronics"
+          },
+          {
+            "id": "ec-digital-circuits--finite-state-machines",
+            "name": "Finite state machines",
+            "diff": "M",
+            "q": "finite state machines digital circuits mealy moore"
+          },
+          {
+            "id": "ec-digital-circuits--propagation-delay",
+            "name": "Propagation delay",
+            "diff": "E",
+            "q": "propagation delay digital circuits"
+          },
+          {
+            "id": "ec-digital-circuits--setup-and-hold-time",
+            "name": "Setup and hold time",
+            "diff": "M",
+            "q": "setup and hold time digital circuits timing"
+          },
+          {
+            "id": "ec-digital-circuits--critical-path-delay",
+            "name": "Critical path delay",
+            "diff": "M",
+            "q": "critical path delay digital circuits maximum clock frequency"
+          }
+        ]
+      },
+      {
+        "letter": "D",
+        "name": "Data converters",
+        "topics": [
+          {
+            "id": "ec-digital-circuits--sample-and-hold-circuits-adcs-and-dacs",
+            "name": "Sample and hold circuits, ADCs and DACs",
+            "diff": "M"
+          }
+        ]
+      },
+      {
+        "letter": "E",
+        "name": "Semiconductor memories",
+        "topics": [
+          {
+            "id": "ec-digital-circuits--rom-sram-dram",
+            "name": "ROM, SRAM and DRAM",
+            "diff": "E",
+            "q": "semiconductor memories ROM SRAM DRAM"
+          }
+        ]
+      },
+      {
+        "letter": "F",
+        "name": "Computer organization",
+        "topics": [
+          {
+            "id": "ec-digital-circuits--machine-instructions-and-addressing-modes",
+            "name": "Machine instructions and addressing modes",
+            "diff": "M"
+          },
+          {
+            "id": "ec-digital-circuits--alu",
+            "name": "Arithmetic logic unit (ALU)",
+            "diff": "E",
+            "q": "ALU arithmetic logic unit computer organization"
+          },
+          {
+            "id": "ec-digital-circuits--data-path-and-control-unit",
+            "name": "Data path and control unit",
+            "diff": "E",
+            "q": "datapath and control unit computer organization"
+          },
+          {
+            "id": "ec-digital-circuits--instruction-pipelining",
+            "name": "Instruction pipelining",
+            "diff": "M"
+          }
+        ]
+      }
     ]
-   },
-   {
-    "letter": "F",
-    "name": "Probability and Statistics",
-    "topics": [
-     {
-      "id": "ec-engineering-mathematics--mean",
-      "name": "Mean",
-      "diff": "E"
-     },
-     {
-      "id": "ec-engineering-mathematics--median",
-      "name": "Median",
-      "diff": "E"
-     },
-     {
-      "id": "ec-engineering-mathematics--mode",
-      "name": "Mode",
-      "diff": "E"
-     },
-     {
-      "id": "ec-engineering-mathematics--standard-deviation",
-      "name": "Standard deviation",
-      "diff": "M"
-     },
-     {
-      "id": "ec-engineering-mathematics--combinatorial-probability",
-      "name": "Combinatorial probability",
-      "diff": "M"
-     },
-     {
-      "id": "ec-engineering-mathematics--probability-distributions",
-      "name": "Probability distributions",
-      "diff": "M"
-     },
-     {
-      "id": "ec-engineering-mathematics--binomial-distribution",
-      "name": "Binomial distribution",
-      "diff": "M"
-     },
-     {
-      "id": "ec-engineering-mathematics--poisson-distribution",
-      "name": "Poisson distribution",
-      "diff": "M"
-     },
-     {
-      "id": "ec-engineering-mathematics--exponential-distribution",
-      "name": "Exponential distribution",
-      "diff": "M"
-     },
-     {
-      "id": "ec-engineering-mathematics--normal-distribution",
-      "name": "Normal distribution",
-      "diff": "M"
-     },
-     {
-      "id": "ec-engineering-mathematics--joint-and-conditional-probability",
-      "name": "Joint and conditional probability",
-      "diff": "M"
-     },
-     {
-      "id": "ec-engineering-mathematics--correlation-and-regression-analysis",
-      "name": "Correlation and regression analysis",
-      "diff": "M"
-     }
-    ]
-   }
-  ]
- },
- {
-  "id": "ec-networks-signals-and-systems",
-  "name": "Networks, Signals and Systems",
-  "marks": "",
-  "focus": "",
-  "modules": [
-   {
-    "letter": "A",
-    "name": "Circuit Analysis",
-    "topics": [
-     {
-      "id": "ec-networks-signals-and-systems--node-and-mesh-analysis",
-      "name": "Node and mesh analysis",
-      "diff": "M",
-      "sample": true
-     },
-     {
-      "id": "ec-networks-signals-and-systems--superposition",
-      "name": "Superposition",
-      "diff": "E"
-     },
-     {
-      "id": "ec-networks-signals-and-systems--thevenins-theorem",
-      "name": "Thevenin's theorem",
-      "diff": "M"
-     },
-     {
-      "id": "ec-networks-signals-and-systems--nortons-theorem",
-      "name": "Norton’s theorem",
-      "diff": "E"
-     },
-     {
-      "id": "ec-networks-signals-and-systems--reciprocity",
-      "name": "Reciprocity",
-      "diff": "E"
-     }
-    ]
-   },
-   {
-    "letter": "B",
-    "name": "Sinusoidal steady state analysis",
-    "topics": [
-     {
-      "id": "ec-networks-signals-and-systems--phasors-complex-power-maximum-power-transfer",
-      "name": "Phasors, complex power, maximum power transfer",
-      "diff": "M"
-     }
-    ]
-   },
-   {
-    "letter": "C",
-    "name": "Time and frequency domain analysis of linear circuits",
-    "topics": [
-     {
-      "id": "ec-networks-signals-and-systems--rc-and-rlc-circuits",
-      "name": "RC and RLC circuits",
-      "diff": "M"
-     },
-     {
-      "id": "ec-networks-signals-and-systems--solution-of-network-equations-using-laplace-transform",
-      "name": "Solution of network equations using Laplace transform",
-      "diff": "H"
-     },
-     {
-      "id": "ec-networks-signals-and-systems--linear-2-port-network-parameters-wye-delta-transformation",
-      "name": "Linear 2-port network parameters, wye-delta transformation",
-      "diff": "H"
-     }
-    ]
-   },
-   {
-    "letter": "D",
-    "name": "LTI systems",
-    "topics": [
-     {
-      "id": "ec-networks-signals-and-systems--definition-and-properties",
-      "name": "Definition and properties",
-      "diff": "E"
-     },
-     {
-      "id": "ec-networks-signals-and-systems--causality",
-      "name": "Causality",
-      "diff": "E"
-     },
-     {
-      "id": "ec-networks-signals-and-systems--stability",
-      "name": "Stability",
-      "diff": "H"
-     },
-     {
-      "id": "ec-networks-signals-and-systems--impulse-response",
-      "name": "Impulse response",
-      "diff": "E"
-     },
-     {
-      "id": "ec-networks-signals-and-systems--convolution",
-      "name": "Convolution",
-      "diff": "E"
-     },
-     {
-      "id": "ec-networks-signals-and-systems--poles-and-zeroes",
-      "name": "Poles and zeroes",
-      "diff": "E"
-     },
-     {
-      "id": "ec-networks-signals-and-systems--frequency-response",
-      "name": "Frequency response",
-      "diff": "M"
-     },
-     {
-      "id": "ec-networks-signals-and-systems--group-delay",
-      "name": "Group delay",
-      "diff": "E"
-     },
-     {
-      "id": "ec-networks-signals-and-systems--phase-delay",
-      "name": "Phase delay",
-      "diff": "E"
-     }
-    ]
-   },
-   {
-    "letter": "E",
-    "name": "Continuous-time Signals",
-    "topics": [
-     {
-      "id": "ec-networks-signals-and-systems--fourier-series-and-fourier-transform",
-      "name": "Fourier series and Fourier transform",
-      "diff": "H"
-     },
-     {
-      "id": "ec-networks-signals-and-systems--nyquist-sampling-theorem",
-      "name": "Nyquist sampling theorem",
-      "diff": "H"
-     },
-     {
-      "id": "ec-networks-signals-and-systems--sampling-and-reconstruction",
-      "name": "Sampling and reconstruction",
-      "diff": "M"
-     }
-    ]
-   },
-   {
-    "letter": "F",
-    "name": "Discrete-time Signals",
-    "topics": [
-     {
-      "id": "ec-networks-signals-and-systems--dtft-dft-z-transform-fir-and-iir-filter-design",
-      "name": "DTFT, DFT, z-transform, FIR and IIR filter design",
-      "diff": "H"
-     }
-    ]
-   }
-  ]
- },
- {
-  "id": "ec-electronic-devices",
-  "name": "Electronic Devices",
-  "marks": "",
-  "focus": "",
-  "modules": [
-   {
-    "letter": "A",
-    "name": "Overview",
-    "topics": [
-     {
-      "id": "ec-electronic-devices--formation-of-energy-bands-in-solids",
-      "name": "Formation of energy bands in solids",
-      "diff": "M",
-      "sample": true
-     },
-     {
-      "id": "ec-electronic-devices--energy-bands-in-intrinsic-and-extrinsic-semiconductors",
-      "name": "Energy bands in intrinsic and extrinsic semiconductors",
-      "diff": "M"
-     },
-     {
-      "id": "ec-electronic-devices--equilibrium-carrier-concentration",
-      "name": "Equilibrium carrier concentration",
-      "diff": "M"
-     },
-     {
-      "id": "ec-electronic-devices--direct-and-indirect-band-gap-semiconductors",
-      "name": "Direct and indirect band-gap semiconductors",
-      "diff": "M"
-     }
-    ]
-   },
-   {
-    "letter": "B",
-    "name": "Carrier Transport",
-    "topics": [
-     {
-      "id": "ec-electronic-devices--diffusion-current",
-      "name": "Diffusion current",
-      "diff": "E"
-     },
-     {
-      "id": "ec-electronic-devices--drift-current",
-      "name": "Drift current",
-      "diff": "E"
-     },
-     {
-      "id": "ec-electronic-devices--mobility-and-resistivity",
-      "name": "Mobility and resistivity",
-      "diff": "M"
-     },
-     {
-      "id": "ec-electronic-devices--generation-and-recombination-of-carriers",
-      "name": "Generation and recombination of carriers",
-      "diff": "M"
-     },
-     {
-      "id": "ec-electronic-devices--poisson-and-continuity-equations",
-      "name": "Poisson and continuity equations",
-      "diff": "M"
-     },
-     {
-      "id": "ec-electronic-devices--p-n-junction",
-      "name": "P-N junction",
-      "diff": "E"
-     },
-     {
-      "id": "ec-electronic-devices--zener-diode",
-      "name": "Zener diode",
-      "diff": "E"
-     },
-     {
-      "id": "ec-electronic-devices--bjt",
-      "name": "BJT",
-      "diff": "E"
-     },
-     {
-      "id": "ec-electronic-devices--mos-capacitor",
-      "name": "MOS capacitor",
-      "diff": "E"
-     },
-     {
-      "id": "ec-electronic-devices--mosfet",
-      "name": "MOSFET",
-      "diff": "E"
-     },
-     {
-      "id": "ec-electronic-devices--scaling-in-mosfets",
-      "name": "Scaling in MOSFETs",
-      "diff": "M"
-     },
-     {
-      "id": "ec-electronic-devices--led",
-      "name": "LED",
-      "diff": "E"
-     },
-     {
-      "id": "ec-electronic-devices--photo-diode-and-solar-cell",
-      "name": "Photo diode and solar cell",
-      "diff": "M"
-     }
-    ]
-   }
-  ]
- },
- {
-  "id": "ec-analog-circuits",
-  "name": "Analog Circuits",
-  "marks": "",
-  "focus": "",
-  "modules": [
-   {
-    "letter": "A",
-    "name": "Diode Circuits",
-    "topics": [
-     {
-      "id": "ec-analog-circuits--clipping-clamping-and-rectifiers",
-      "name": "Clipping, clamping and rectifiers",
-      "diff": "M",
-      "sample": true
-     }
-    ]
-   },
-   {
-    "letter": "B",
-    "name": "BJT and MOSFET Amplifiers",
-    "topics": [
-     {
-      "id": "ec-analog-circuits--biasing-ac-coupling-small-signal-analysis-frequency-response",
-      "name": "Biasing, AC coupling, small signal analysis, frequency response",
-      "diff": "M"
-     },
-     {
-      "id": "ec-analog-circuits--current-mirrors-and-differential-amplifiers",
-      "name": "Current mirrors and differential amplifiers",
-      "diff": "M"
-     }
-    ]
-   },
-   {
-    "letter": "C",
-    "name": "Op-amp Circuits",
-    "topics": [
-     {
-      "id": "ec-analog-circuits--amplifiers",
-      "name": "Amplifiers",
-      "diff": "E"
-     },
-     {
-      "id": "ec-analog-circuits--summers",
-      "name": "Summers",
-      "diff": "E"
-     },
-     {
-      "id": "ec-analog-circuits--differentiators",
-      "name": "Differentiators",
-      "diff": "E"
-     },
-     {
-      "id": "ec-analog-circuits--integrators",
-      "name": "Integrators",
-      "diff": "E"
-     },
-     {
-      "id": "ec-analog-circuits--active-filters",
-      "name": "Active filters",
-      "diff": "E"
-     },
-     {
-      "id": "ec-analog-circuits--schmitt-trigger-and-oscillators",
-      "name": "Schmitt trigger and oscillators",
-      "diff": "M"
-     },
-     {
-      "id": "ec-analog-circuits--dominant-pole-miller-compensation",
-      "name": "Dominant-pole (Miller) compensation",
-      "diff": "M"
-     },
-     {
-      "id": "ec-analog-circuits--phase-margin",
-      "name": "Phase margin",
-      "diff": "E"
-     }
-    ]
-   }
-  ]
- },
- {
-  "id": "ec-digital-circuits",
-  "name": "Digital Circuits",
-  "marks": "",
-  "focus": "",
-  "modules": [
-   {
-    "letter": "A",
-    "name": "Number Representations",
-    "topics": [
-     {
-      "id": "ec-digital-circuits--binary-integer-and-floating-point-numbers",
-      "name": "Binary, integer and floating-point- numbers",
-      "diff": "M",
-      "sample": true
-     }
-    ]
-   },
-   {
-    "letter": "B",
-    "name": "Combinatorial circuits",
-    "topics": [
-     {
-      "id": "ec-digital-circuits--boolean-algebra",
-      "name": "Boolean algebra",
-      "diff": "E"
-     },
-     {
-      "id": "ec-digital-circuits--minimization-of-functions-using-boolean-identities-and-karna",
-      "name": "Minimization of functions using Boolean identities and Karnaugh map",
-      "diff": "M"
-     },
-     {
-      "id": "ec-digital-circuits--logic-gates-and-their-static-cmos-implementations",
-      "name": "Logic gates and their static CMOS implementations",
-      "diff": "M"
-     },
-     {
-      "id": "ec-digital-circuits--arithmetic-circuits",
-      "name": "Arithmetic circuits",
-      "diff": "M"
-     },
-     {
-      "id": "ec-digital-circuits--code-converters",
-      "name": "Code converters",
-      "diff": "E"
-     },
-     {
-      "id": "ec-digital-circuits--multiplexers",
-      "name": "Multiplexers",
-      "diff": "E"
-     },
-     {
-      "id": "ec-digital-circuits--decoders",
-      "name": "Decoders",
-      "diff": "E"
-     }
-    ]
-   },
-   {
-    "letter": "C",
-    "name": "Sequential Circuits",
-    "topics": [
-     {
-      "id": "ec-digital-circuits--latches-and-flip-flops",
-      "name": "Latches and flip -flops",
-      "diff": "M"
-     },
-     {
-      "id": "ec-digital-circuits--counters",
-      "name": "Counters",
-      "diff": "E"
-     },
-     {
-      "id": "ec-digital-circuits--shift-registers",
-      "name": "Shift -registers",
-      "diff": "E"
-     },
-     {
-      "id": "ec-digital-circuits--finite-state-machines",
-      "name": "Finite state machines",
-      "diff": "M"
-     },
-     {
-      "id": "ec-digital-circuits--propagation-delay",
-      "name": "Propagation delay",
-      "diff": "E"
-     },
-     {
-      "id": "ec-digital-circuits--setup-and-hold-time",
-      "name": "Setup and hold time",
-      "diff": "M"
-     },
-     {
-      "id": "ec-digital-circuits--critical-path-delay",
-      "name": "Critical path delay",
-      "diff": "M"
-     }
-    ]
-   },
-   {
-    "letter": "D",
-    "name": "Data Converters",
-    "topics": [
-     {
-      "id": "ec-digital-circuits--sample-and-hold-circuits-adcs-and-dacs",
-      "name": "Sample and hold circuits, ADCs and DACs",
-      "diff": "M"
-     }
-    ]
-   },
-   {
-    "letter": "E",
-    "name": "Semiconductor Memories",
-    "topics": [
-     {
-      "id": "ec-digital-circuits--rom-sram-dram",
-      "name": "ROM, SRAM, DRAM",
-      "diff": "E"
-     }
-    ]
-   },
-   {
-    "letter": "F",
-    "name": "Computer Organization",
-    "topics": [
-     {
-      "id": "ec-digital-circuits--machine-instructions-and-addressing-modes",
-      "name": "Machine instructions and addressing modes",
-      "diff": "M"
-     },
-     {
-      "id": "ec-digital-circuits--alu",
-      "name": "ALU",
-      "diff": "E"
-     },
-     {
-      "id": "ec-digital-circuits--data-path-and-control-unit",
-      "name": "Data-path and control unit",
-      "diff": "E"
-     },
-     {
-      "id": "ec-digital-circuits--instruction-pipelining",
-      "name": "Instruction pipelining",
-      "diff": "M"
-     }
-    ]
-   }
-  ]
- },
- {
-  "id": "ec-control-systems",
-  "name": "Control Systems",
-  "marks": "",
-  "focus": "",
-  "modules": [
-   {
-    "letter": "A",
+  },
+  {
+    "id": "ec-control-systems",
     "name": "Control Systems",
-    "topics": [
-     {
-      "id": "ec-control-systems--basic-control-system-components",
-      "name": "Basic control system components",
-      "diff": "E",
-      "sample": true
-     },
-     {
-      "id": "ec-control-systems--feedback-principle",
-      "name": "Feedback principle",
-      "diff": "M"
-     },
-     {
-      "id": "ec-control-systems--transfer-function",
-      "name": "Transfer function",
-      "diff": "E"
-     },
-     {
-      "id": "ec-control-systems--block-diagram-representation",
-      "name": "Block diagram representation",
-      "diff": "M"
-     },
-     {
-      "id": "ec-control-systems--signal-flow-graph",
-      "name": "Signal flow graph",
-      "diff": "E"
-     },
-     {
-      "id": "ec-control-systems--transient-and-steady-state-analysis-of-lti-systems",
-      "name": "Transient and steady-state analysis of LTI systems",
-      "diff": "M"
-     },
-     {
-      "id": "ec-control-systems--frequency-response",
-      "name": "Frequency response",
-      "diff": "M"
-     },
-     {
-      "id": "ec-control-systems--routh-hurwitz-and-nyquist-stability-criteria",
-      "name": "Routh-Hurwitz and Nyquist stability criteria",
-      "diff": "H"
-     },
-     {
-      "id": "ec-control-systems--bode-and-root-locus-plots",
-      "name": "Bode and root-locus plots",
-      "diff": "M"
-     },
-     {
-      "id": "ec-control-systems--compensators-pid-controller",
-      "name": "Compensators, PID controller",
-      "diff": "M"
-     },
-     {
-      "id": "ec-control-systems--state-variable-model-and-solution-of-state-equation-of-lti-s",
-      "name": "State variable model and solution of state equation of LTI systems",
-      "diff": "M"
-     }
+    "marks": "7–10",
+    "focus": "Routh, root locus, Bode/Nyquist and steady-state error; trending up.",
+    "modules": [
+      {
+        "letter": "A",
+        "name": "Modelling",
+        "topics": [
+          {
+            "id": "ec-control-systems--basic-control-system-components",
+            "name": "Basic control system components",
+            "diff": "E",
+            "sample": true
+          },
+          {
+            "id": "ec-control-systems--feedback-principle",
+            "name": "Feedback principle",
+            "diff": "M",
+            "q": "feedback principle control systems"
+          },
+          {
+            "id": "ec-control-systems--transfer-function",
+            "name": "Transfer function",
+            "diff": "E",
+            "q": "transfer function control systems"
+          },
+          {
+            "id": "ec-control-systems--block-diagram-representation",
+            "name": "Block diagram representation",
+            "diff": "M",
+            "q": "block diagram reduction control systems"
+          },
+          {
+            "id": "ec-control-systems--signal-flow-graph",
+            "name": "Signal flow graph",
+            "diff": "M",
+            "q": "signal flow graph mason gain formula"
+          }
+        ]
+      },
+      {
+        "letter": "B",
+        "name": "Time response",
+        "topics": [
+          {
+            "id": "ec-control-systems--transient-response-of-lti-systems",
+            "name": "Transient response of LTI systems",
+            "diff": "M",
+            "q": "transient response first second order systems control systems"
+          },
+          {
+            "id": "ec-control-systems--steady-state-error-analysis",
+            "name": "Steady-state error analysis",
+            "diff": "M",
+            "q": "steady state error control systems"
+          }
+        ]
+      },
+      {
+        "letter": "C",
+        "name": "Stability and root locus",
+        "topics": [
+          {
+            "id": "ec-control-systems--routh-hurwitz-stability-criterion",
+            "name": "Routh-Hurwitz stability criterion",
+            "diff": "M"
+          },
+          {
+            "id": "ec-control-systems--root-locus-plots",
+            "name": "Root-locus plots",
+            "diff": "H",
+            "q": "root locus control systems"
+          }
+        ]
+      },
+      {
+        "letter": "D",
+        "name": "Frequency response",
+        "topics": [
+          {
+            "id": "ec-control-systems--frequency-response",
+            "name": "Frequency response",
+            "diff": "M",
+            "q": "frequency response analysis control systems"
+          },
+          {
+            "id": "ec-control-systems--bode-plots",
+            "name": "Bode plots",
+            "diff": "M",
+            "q": "bode plot control systems"
+          },
+          {
+            "id": "ec-control-systems--nyquist-stability-criterion",
+            "name": "Nyquist stability criterion",
+            "diff": "H"
+          }
+        ]
+      },
+      {
+        "letter": "E",
+        "name": "Controller design",
+        "topics": [
+          {
+            "id": "ec-control-systems--compensators",
+            "name": "Compensators",
+            "diff": "M",
+            "q": "compensators control systems"
+          },
+          {
+            "id": "ec-control-systems--pid-controller",
+            "name": "PID controller",
+            "diff": "M",
+            "q": "PID controller control systems"
+          }
+        ]
+      },
+      {
+        "letter": "F",
+        "name": "State-space analysis",
+        "topics": [
+          {
+            "id": "ec-control-systems--state-variable-model-and-solution-of-state-equation-of-lti-s",
+            "name": "State variable model and solution of state equation of LTI systems",
+            "diff": "M"
+          }
+        ]
+      }
     ]
-   }
-  ]
- },
- {
-  "id": "ec-communications",
-  "name": "Communications",
-  "marks": "",
-  "focus": "",
-  "modules": [
-   {
-    "letter": "A",
-    "name": "Random Processes",
-    "topics": [
-     {
-      "id": "ec-communications--autocorrelation-and-power-spectral-density",
-      "name": "Autocorrelation and power spectral density",
-      "diff": "M",
-      "sample": true
-     },
-     {
-      "id": "ec-communications--properties-of-white-noise",
-      "name": "Properties of white noise",
-      "diff": "E"
-     },
-     {
-      "id": "ec-communications--filtering-of-random-signals-through-lti-systems",
-      "name": "Filtering of random signals through LTI systems",
-      "diff": "M"
-     }
+  },
+  {
+    "id": "ec-communications",
+    "name": "Communications",
+    "marks": "10–14",
+    "focus": "Random processes, AM/FM and digital modulation BER; rising weightage.",
+    "modules": [
+      {
+        "letter": "A",
+        "name": "Random processes",
+        "topics": [
+          {
+            "id": "ec-communications--autocorrelation-and-power-spectral-density",
+            "name": "Autocorrelation and power spectral density",
+            "diff": "M",
+            "q": "autocorrelation power spectral density random process",
+            "sample": true
+          },
+          {
+            "id": "ec-communications--properties-of-white-noise",
+            "name": "Properties of white noise",
+            "diff": "E"
+          },
+          {
+            "id": "ec-communications--filtering-of-random-signals-through-lti-systems",
+            "name": "Filtering of random signals through LTI systems",
+            "diff": "M"
+          }
+        ]
+      },
+      {
+        "letter": "B",
+        "name": "Analog communications",
+        "topics": [
+          {
+            "id": "ec-communications--amplitude-modulation-and-demodulation",
+            "name": "Amplitude modulation and demodulation",
+            "diff": "M"
+          },
+          {
+            "id": "ec-communications--angle-modulation-and-demodulation",
+            "name": "Angle modulation and demodulation",
+            "diff": "M"
+          },
+          {
+            "id": "ec-communications--spectra-of-am-and-fm",
+            "name": "Spectra of AM and FM",
+            "diff": "M"
+          },
+          {
+            "id": "ec-communications--super-heterodyne-receivers",
+            "name": "Superheterodyne receivers",
+            "diff": "M"
+          }
+        ]
+      },
+      {
+        "letter": "C",
+        "name": "Information theory",
+        "topics": [
+          {
+            "id": "ec-communications--entropy",
+            "name": "Entropy",
+            "diff": "E",
+            "q": "entropy information theory communication"
+          },
+          {
+            "id": "ec-communications--source-coding",
+            "name": "Source coding",
+            "diff": "M",
+            "q": "source coding huffman information theory"
+          },
+          {
+            "id": "ec-communications--mutual-information-and-channel-capacity-theorem",
+            "name": "Mutual information and channel capacity theorem",
+            "diff": "M"
+          }
+        ]
+      },
+      {
+        "letter": "D",
+        "name": "Digital modulation",
+        "topics": [
+          {
+            "id": "ec-communications--pcm",
+            "name": "Pulse code modulation (PCM)",
+            "diff": "M"
+          },
+          {
+            "id": "ec-communications--dpcm",
+            "name": "Differential PCM (DPCM)",
+            "diff": "E",
+            "q": "DPCM differential pulse code modulation"
+          },
+          {
+            "id": "ec-communications--digital-modulation-schemes-ask-psk-fsk-qam",
+            "name": "Digital modulation schemes (ASK, PSK, FSK, QAM)",
+            "diff": "M"
+          },
+          {
+            "id": "ec-communications--bandwidth",
+            "name": "Bandwidth of digital modulation schemes",
+            "diff": "E"
+          },
+          {
+            "id": "ec-communications--intersymbol-interference",
+            "name": "Intersymbol interference (ISI)",
+            "diff": "M"
+          }
+        ]
+      },
+      {
+        "letter": "E",
+        "name": "Detection and error performance",
+        "topics": [
+          {
+            "id": "ec-communications--map-and-ml-detection",
+            "name": "MAP and ML detection",
+            "diff": "H",
+            "q": "MAP ML detection digital communication"
+          },
+          {
+            "id": "ec-communications--matched-filter-receiver",
+            "name": "Matched filter receiver",
+            "diff": "M"
+          },
+          {
+            "id": "ec-communications--snr-and-ber-of-digital-modulation",
+            "name": "SNR and BER of digital modulation",
+            "diff": "H",
+            "q": "SNR and BER bit error rate digital communication"
+          }
+        ]
+      },
+      {
+        "letter": "F",
+        "name": "Error-control coding",
+        "topics": [
+          {
+            "id": "ec-communications--fundamentals-of-error-correction",
+            "name": "Fundamentals of error correction",
+            "diff": "E",
+            "q": "error correction coding fundamentals digital communication"
+          },
+          {
+            "id": "ec-communications--hamming-codes",
+            "name": "Hamming codes",
+            "diff": "M"
+          },
+          {
+            "id": "ec-communications--crc",
+            "name": "Cyclic redundancy check (CRC)",
+            "diff": "E"
+          }
+        ]
+      }
     ]
-   },
-   {
-    "letter": "B",
-    "name": "Analog Communications",
-    "topics": [
-     {
-      "id": "ec-communications--amplitude-modulation-and-demodulation",
-      "name": "Amplitude modulation and demodulation",
-      "diff": "M"
-     },
-     {
-      "id": "ec-communications--angle-modulation-and-demodulation",
-      "name": "Angle modulation and demodulation",
-      "diff": "M"
-     },
-     {
-      "id": "ec-communications--spectra-of-am-and-fm",
-      "name": "Spectra of AM and FM",
-      "diff": "M"
-     },
-     {
-      "id": "ec-communications--super-heterodyne-receivers",
-      "name": "Super heterodyne receivers",
-      "diff": "M"
-     }
+  },
+  {
+    "id": "ec-electromagnetics",
+    "name": "Electromagnetics",
+    "marks": "6–10",
+    "focus": "Plane waves, transmission lines/Smith chart and waveguide cutoff.",
+    "modules": [
+      {
+        "letter": "A",
+        "name": "Maxwell's equations",
+        "topics": [
+          {
+            "id": "ec-electromagnetics--differential-and-integral-forms-and-their-interpretation",
+            "name": "Maxwell's equations: differential and integral forms",
+            "diff": "M",
+            "q": "maxwell equations differential and integral form interpretation",
+            "sample": true
+          },
+          {
+            "id": "ec-electromagnetics--boundary-conditions",
+            "name": "Boundary conditions",
+            "diff": "M",
+            "q": "electromagnetic boundary conditions maxwell equations"
+          },
+          {
+            "id": "ec-electromagnetics--wave-equation",
+            "name": "Wave equation",
+            "diff": "E",
+            "q": "electromagnetic wave equation"
+          },
+          {
+            "id": "ec-electromagnetics--poynting-vector",
+            "name": "Poynting vector",
+            "diff": "E"
+          }
+        ]
+      },
+      {
+        "letter": "B",
+        "name": "Plane waves and properties",
+        "topics": [
+          {
+            "id": "ec-electromagnetics--propagation-through-various-media",
+            "name": "Propagation through various media",
+            "diff": "M",
+            "q": "uniform plane wave propagation lossy lossless media"
+          },
+          {
+            "id": "ec-electromagnetics--skin-depth",
+            "name": "Skin depth",
+            "diff": "E"
+          },
+          {
+            "id": "ec-electromagnetics--polarization",
+            "name": "Polarization of plane waves",
+            "diff": "E",
+            "q": "polarization of electromagnetic waves"
+          },
+          {
+            "id": "ec-electromagnetics--phase-and-group-velocity",
+            "name": "Phase and group velocity",
+            "diff": "M",
+            "q": "phase velocity group velocity electromagnetic waves"
+          },
+          {
+            "id": "ec-electromagnetics--reflection-and-refraction",
+            "name": "Reflection and refraction of plane waves",
+            "diff": "M"
+          }
+        ]
+      },
+      {
+        "letter": "C",
+        "name": "Transmission lines",
+        "topics": [
+          {
+            "id": "ec-electromagnetics--equations",
+            "name": "Transmission line equations",
+            "diff": "E"
+          },
+          {
+            "id": "ec-electromagnetics--characteristic-impedance",
+            "name": "Characteristic impedance",
+            "diff": "M",
+            "q": "characteristic impedance transmission line"
+          },
+          {
+            "id": "ec-electromagnetics--impedance-transformation",
+            "name": "Impedance transformation",
+            "diff": "M",
+            "q": "impedance transformation transmission line"
+          },
+          {
+            "id": "ec-electromagnetics--impedance-matching",
+            "name": "Impedance matching",
+            "diff": "M",
+            "q": "impedance matching transmission line"
+          },
+          {
+            "id": "ec-electromagnetics--sparameters",
+            "name": "S-parameters",
+            "diff": "E",
+            "q": "S parameters scattering matrix microwave"
+          },
+          {
+            "id": "ec-electromagnetics--smith-chart",
+            "name": "Smith chart",
+            "diff": "M"
+          }
+        ]
+      },
+      {
+        "letter": "D",
+        "name": "Waveguides, optical fibres & antennas",
+        "topics": [
+          {
+            "id": "ec-electromagnetics--rectangular-and-circular-waveguides",
+            "name": "Rectangular and circular waveguides",
+            "diff": "M"
+          },
+          {
+            "id": "ec-electromagnetics--light-propagation-in-optical-fibers",
+            "name": "Light propagation in optical fibers",
+            "diff": "M"
+          },
+          {
+            "id": "ec-electromagnetics--dipole-and-monopole-antennas",
+            "name": "Dipole and monopole antennas",
+            "diff": "M"
+          },
+          {
+            "id": "ec-electromagnetics--linear-antenna-arrays",
+            "name": "Linear antenna arrays",
+            "diff": "M"
+          }
+        ]
+      }
     ]
-   },
-   {
-    "letter": "C",
-    "name": "Information Theory",
-    "topics": [
-     {
-      "id": "ec-communications--entropy",
-      "name": "Entropy",
-      "diff": "E"
-     },
-     {
-      "id": "ec-communications--source-coding",
-      "name": "Source coding",
-      "diff": "E"
-     },
-     {
-      "id": "ec-communications--mutual-information-and-channel-capacity-theorem",
-      "name": "Mutual information and channel capacity theorem",
-      "diff": "M"
-     }
-    ]
-   },
-   {
-    "letter": "D",
-    "name": "Digital Communications",
-    "topics": [
-     {
-      "id": "ec-communications--pcm",
-      "name": "PCM",
-      "diff": "E"
-     },
-     {
-      "id": "ec-communications--dpcm",
-      "name": "DPCM",
-      "diff": "E"
-     },
-     {
-      "id": "ec-communications--digital-modulation-schemes-ask-psk-fsk-qam",
-      "name": "Digital modulation schemes (ASK, PSK, FSK, QAM)",
-      "diff": "M"
-     },
-     {
-      "id": "ec-communications--bandwidth",
-      "name": "Bandwidth",
-      "diff": "E"
-     },
-     {
-      "id": "ec-communications--intersymbol-interference",
-      "name": "Intersymbol interference",
-      "diff": "M"
-     },
-     {
-      "id": "ec-communications--map",
-      "name": "MAP",
-      "diff": "E"
-     },
-     {
-      "id": "ec-communications--ml-detection",
-      "name": "ML detection",
-      "diff": "E"
-     },
-     {
-      "id": "ec-communications--matched-filter-receiver",
-      "name": "Matched filter receiver",
-      "diff": "M"
-     },
-     {
-      "id": "ec-communications--snr-and-ber-fundamentals-of-error-correction",
-      "name": "SNR and BER. Fundamentals of error correction",
-      "diff": "M"
-     },
-     {
-      "id": "ec-communications--hamming-codes",
-      "name": "Hamming codes",
-      "diff": "E"
-     },
-     {
-      "id": "ec-communications--crc",
-      "name": "CRC",
-      "diff": "E"
-     }
-    ]
-   }
-  ]
- },
- {
-  "id": "ec-electromagnetics",
-  "name": "Electromagnetics",
-  "marks": "",
-  "focus": "",
-  "modules": [
-   {
-    "letter": "A",
-    "name": "Maxwell's Equations",
-    "topics": [
-     {
-      "id": "ec-electromagnetics--differential-and-integral-forms-and-their-interpretation",
-      "name": "Differential and integral forms and their interpretation",
-      "diff": "M",
-      "sample": true
-     },
-     {
-      "id": "ec-electromagnetics--boundary-conditions",
-      "name": "Boundary conditions",
-      "diff": "M"
-     },
-     {
-      "id": "ec-electromagnetics--wave-equation",
-      "name": "Wave equation",
-      "diff": "E"
-     },
-     {
-      "id": "ec-electromagnetics--poynting-vector",
-      "name": "Poynting vector",
-      "diff": "E"
-     }
-    ]
-   },
-   {
-    "letter": "B",
-    "name": "Plane Waves and Properties",
-    "topics": [
-     {
-      "id": "ec-electromagnetics--reflection-and-refraction",
-      "name": "Reflection and refraction",
-      "diff": "M"
-     },
-     {
-      "id": "ec-electromagnetics--polarization",
-      "name": "Polarization",
-      "diff": "E"
-     },
-     {
-      "id": "ec-electromagnetics--phase-and-group-velocity",
-      "name": "Phase and group velocity",
-      "diff": "M"
-     },
-     {
-      "id": "ec-electromagnetics--propagation-through-various-media",
-      "name": "Propagation through various media",
-      "diff": "M"
-     },
-     {
-      "id": "ec-electromagnetics--skin-depth",
-      "name": "Skin depth",
-      "diff": "E"
-     }
-    ]
-   },
-   {
-    "letter": "C",
-    "name": "Transmission Lines",
-    "topics": [
-     {
-      "id": "ec-electromagnetics--equations",
-      "name": "Equations",
-      "diff": "E"
-     },
-     {
-      "id": "ec-electromagnetics--characteristic-impedance",
-      "name": "Characteristic impedance",
-      "diff": "M"
-     },
-     {
-      "id": "ec-electromagnetics--impedance-matching",
-      "name": "Impedance matching",
-      "diff": "M"
-     },
-     {
-      "id": "ec-electromagnetics--impedance-transformation",
-      "name": "Impedance transformation",
-      "diff": "H"
-     },
-     {
-      "id": "ec-electromagnetics--sparameters",
-      "name": "Sparameters",
-      "diff": "E"
-     },
-     {
-      "id": "ec-electromagnetics--smith-chart",
-      "name": "Smith chart",
-      "diff": "E"
-     },
-     {
-      "id": "ec-electromagnetics--rectangular-and-circular-waveguides",
-      "name": "Rectangular and circular waveguides",
-      "diff": "M"
-     },
-     {
-      "id": "ec-electromagnetics--light-propagation-in-optical-fibers",
-      "name": "Light propagation in optical fibers",
-      "diff": "M"
-     },
-     {
-      "id": "ec-electromagnetics--dipole-and-monopole-antennas",
-      "name": "Dipole and monopole antennas",
-      "diff": "M"
-     },
-     {
-      "id": "ec-electromagnetics--linear-antenna-arrays",
-      "name": "Linear antenna arrays",
-      "diff": "M"
-     }
-    ]
-   }
-  ]
- }
+  }
 ]

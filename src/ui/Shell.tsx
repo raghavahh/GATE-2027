@@ -50,20 +50,22 @@ export function Shell() {
             {isAdmin && <Link to="/admin" className="hidden rounded-md px-3 py-1.5 text-sm text-sub hover:text-ink sm:block">Admin</Link>}
             {session && <Link to="/me" className="rounded-md px-3 py-1.5 text-sm text-sub hover:text-ink">My papers</Link>}
             {session ? (
-              <button type="button" className="btn-ghost h-9 px-3" onClick={signOut} title={session.user.email ?? ''}>Sign out</button>
+              // On phones sign-out lives on "My papers", keeping this bar to one short row.
+              <button type="button" className="btn-ghost hidden h-9 px-3 sm:inline-flex" onClick={signOut} title={session.user.email ?? ''}>Sign out</button>
             ) : (
               <button type="button" className="btn-ghost h-9 px-3" onClick={() => setSignIn(true)}>Sign in</button>
             )}
           </div>
         </div>
-        <nav className="flex gap-1 overflow-x-auto px-3 pb-2 md:hidden" aria-label="Main">
-          {nav.map(n => (
-            <NavLink key={n.to} to={n.to} className={({ isActive }) => `whitespace-nowrap rounded-md px-3 py-1.5 text-sm ${isActive ? 'bg-raised text-ink' : 'text-sub'}`}>
-              {n.label}
-            </NavLink>
-          ))}
-        </nav>
       </header>
+      {/* Phone links scroll away with the page instead of taking sticky space over videos and notes. */}
+      <nav className="flex gap-1 overflow-x-auto border-b border-line px-3 py-2 md:hidden" aria-label="Main">
+        {nav.map(n => (
+          <NavLink key={n.to} to={n.to} className={({ isActive }) => `whitespace-nowrap rounded-md px-3 py-1.5 text-sm ${isActive ? 'bg-raised text-ink' : 'text-sub'}`}>
+            {n.label}
+          </NavLink>
+        ))}
+      </nav>
 
       {kicked && (
         <div role="alert" className="border-b border-hard/30 bg-hard/10 px-4 py-2.5 text-center text-sm">

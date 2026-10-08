@@ -2,8 +2,8 @@
  {
   "id": "me-engineering-mathematics",
   "name": "Engineering Mathematics",
-  "marks": "",
-  "focus": "",
+  "marks": "12–14",
+  "focus": "Calculus, linear algebra and ODEs; numerical methods give easy NATs.",
   "modules": [
    {
     "letter": "A",
@@ -23,28 +23,19 @@
      {
       "id": "me-engineering-mathematics--eigen-values-and-eigen-vectors",
       "name": "Eigen values and eigen vectors",
-      "diff": "H"
+      "diff": "M"
      }
     ]
    },
    {
     "letter": "B",
-    "name": "Calculus",
+    "name": "Single-variable Calculus",
     "topics": [
      {
-      "id": "me-engineering-mathematics--functions-of-single-variable",
-      "name": "Functions of single variable",
-      "diff": "M"
-     },
-     {
-      "id": "me-engineering-mathematics--limit",
-      "name": "Limit",
-      "diff": "E"
-     },
-     {
       "id": "me-engineering-mathematics--continuity-and-differentiability",
-      "name": "Continuity and differentiability",
-      "diff": "M"
+      "name": "Limit, continuity and differentiability",
+      "diff": "M",
+      "q": "limits continuity differentiability calculus GATE"
      },
      {
       "id": "me-engineering-mathematics--mean-value-theorems",
@@ -54,7 +45,8 @@
      {
       "id": "me-engineering-mathematics--indeterminate-forms",
       "name": "Indeterminate forms",
-      "diff": "H"
+      "diff": "E",
+      "q": "indeterminate forms L'Hospital rule GATE"
      },
      {
       "id": "me-engineering-mathematics--evaluation-of-definite-and-improper-integrals",
@@ -62,10 +54,16 @@
       "diff": "M"
      },
      {
-      "id": "me-engineering-mathematics--double-and-triple-integrals",
-      "name": "Double and triple integrals",
+      "id": "me-engineering-mathematics--fourier-series",
+      "name": "Fourier series",
       "diff": "M"
-     },
+     }
+    ]
+   },
+   {
+    "letter": "C",
+    "name": "Multivariable Calculus",
+    "topics": [
      {
       "id": "me-engineering-mathematics--partial-derivatives",
       "name": "Partial derivatives",
@@ -74,7 +72,8 @@
      {
       "id": "me-engineering-mathematics--total-derivative",
       "name": "Total derivative",
-      "diff": "E"
+      "diff": "E",
+      "q": "total derivative partial differentiation GATE"
      },
      {
       "id": "me-engineering-mathematics--taylor-series-in-one-and-two-variables",
@@ -84,27 +83,30 @@
      {
       "id": "me-engineering-mathematics--maxima-and-minima",
       "name": "Maxima and minima",
-      "diff": "E"
+      "diff": "E",
+      "q": "maxima and minima calculus GATE mechanical"
      },
      {
-      "id": "me-engineering-mathematics--fourier-series",
-      "name": "Fourier series",
-      "diff": "H"
-     },
-     {
-      "id": "me-engineering-mathematics--gradient",
-      "name": "Gradient",
-      "diff": "E"
-     },
+      "id": "me-engineering-mathematics--double-and-triple-integrals",
+      "name": "Double and triple integrals",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "D",
+    "name": "Vector Calculus",
+    "topics": [
      {
       "id": "me-engineering-mathematics--divergence-and-curl",
-      "name": "Divergence and curl",
+      "name": "Gradient, divergence and curl",
       "diff": "M"
      },
      {
       "id": "me-engineering-mathematics--vector-identities",
       "name": "Vector identities",
-      "diff": "E"
+      "diff": "E",
+      "q": "vector identities vector calculus GATE"
      },
      {
       "id": "me-engineering-mathematics--directional-derivatives",
@@ -112,35 +114,27 @@
       "diff": "M"
      },
      {
-      "id": "me-engineering-mathematics--line",
-      "name": "Line",
-      "diff": "E"
-     },
-     {
       "id": "me-engineering-mathematics--surface-and-volume-integrals",
-      "name": "Surface and volume integrals",
-      "diff": "M"
-     },
-     {
-      "id": "me-engineering-mathematics--applications-of-gauss",
-      "name": "Applications of Gauss",
-      "diff": "M"
+      "name": "Line, surface and volume integrals",
+      "diff": "M",
+      "q": "line surface volume integrals vector calculus GATE"
      },
      {
       "id": "me-engineering-mathematics--stokes-and-greens-theorems",
-      "name": "Stokes and Green’s theorems",
+      "name": "Applications of Gauss, Stokes and Green's theorems",
       "diff": "M"
      }
     ]
    },
    {
-    "letter": "C",
+    "letter": "E",
     "name": "Differential Equations",
     "topics": [
      {
       "id": "me-engineering-mathematics--first-order-equations-linear-and-nonlinear",
       "name": "First order equations (linear and nonlinear)",
-      "diff": "H"
+      "diff": "E",
+      "q": "first order differential equations GATE"
      },
      {
       "id": "me-engineering-mathematics--higher-order-linear-differential-equations-with-constant-coe",
@@ -155,28 +149,31 @@
      {
       "id": "me-engineering-mathematics--initial-and-boundary-value-problems",
       "name": "Initial and boundary value problems",
-      "diff": "M"
+      "diff": "M",
+      "q": "initial and boundary value problems differential equations GATE"
      },
      {
       "id": "me-engineering-mathematics--laplace-transforms",
       "name": "Laplace transforms",
-      "diff": "H"
+      "diff": "M"
      },
      {
       "id": "me-engineering-mathematics--solutions-of-heat-wave-and-laplaces-equations",
       "name": "Solutions of heat, wave and Laplace's equations",
-      "diff": "H"
+      "diff": "H",
+      "q": "heat wave Laplace equation PDE solution GATE"
      }
     ]
    },
    {
-    "letter": "D",
+    "letter": "F",
     "name": "Complex Variables",
     "topics": [
      {
       "id": "me-engineering-mathematics--analytic-functions",
       "name": "Analytic functions",
-      "diff": "M"
+      "diff": "M",
+      "q": "analytic functions complex variables GATE"
      },
      {
       "id": "me-engineering-mathematics--cauchy-riemann-equations",
@@ -185,50 +182,70 @@
      },
      {
       "id": "me-engineering-mathematics--cauchys-integral-theorem-and-contour-integral-formula",
-      "name": "Cauchy’s integral theorem and contour integral formula",
+      "name": "Cauchy's integral theorem and contour integral formula",
       "diff": "M"
      },
      {
       "id": "me-engineering-mathematics--taylor-and-laurent-series",
       "name": "Taylor and Laurent series",
-      "diff": "M"
+      "diff": "M",
+      "q": "Taylor and Laurent series complex variables GATE"
      }
     ]
    },
    {
-    "letter": "E",
+    "letter": "G",
     "name": "Probability and Statistics",
     "topics": [
      {
-      "id": "me-engineering-mathematics--definitions-of-probability-sampling-theorems-conditional-pro",
-      "name": "Definitions of probability, sampling theorems, conditional probability",
-      "diff": "M"
+      "id": "me-engineering-mathematics--definitions-of-probability",
+      "name": "Definitions of probability",
+      "diff": "E",
+      "q": "probability basics definitions GATE mechanical"
+     },
+     {
+      "id": "me-engineering-mathematics--sampling-theorems",
+      "name": "Sampling theorems",
+      "diff": "M",
+      "q": "sampling theorems probability GATE mechanical"
+     },
+     {
+      "id": "me-engineering-mathematics--conditional-probability",
+      "name": "Conditional probability",
+      "diff": "M",
+      "q": "conditional probability GATE engineering mathematics"
      },
      {
       "id": "me-engineering-mathematics--mean-median-mode-and-standard-deviation",
       "name": "Mean, median, mode and standard deviation",
-      "diff": "M"
+      "diff": "E"
      },
      {
-      "id": "me-engineering-mathematics--random-variables-binomial-poisson-and-normal-distributions",
-      "name": "Random variables, binomial, Poisson and normal distributions",
+      "id": "me-engineering-mathematics--random-variables",
+      "name": "Random variables",
+      "diff": "M",
+      "q": "random variables probability GATE mechanical"
+     },
+     {
+      "id": "me-engineering-mathematics--binomial-poisson-and-normal-distributions",
+      "name": "Binomial, Poisson and normal distributions",
       "diff": "M"
      }
     ]
    },
    {
-    "letter": "F",
+    "letter": "H",
     "name": "Numerical Methods",
     "topics": [
      {
       "id": "me-engineering-mathematics--numerical-solutions-of-linear-and-non-linear-algebraic-equat",
-      "name": "Numerical solutions of linear and non -linear algebraic equations",
+      "name": "Numerical solutions of linear and non-linear algebraic equations",
       "diff": "M"
      },
      {
       "id": "me-engineering-mathematics--integration-by-trapezoidal-and-simpsons-rules",
-      "name": "Integration by trapezoidal and Simpson’s rules",
-      "diff": "M"
+      "name": "Integration by trapezoidal and Simpson's rules",
+      "diff": "E"
      },
      {
       "id": "me-engineering-mathematics--single-and-multi-step-methods-for-ordinary-differential-equa",
@@ -242,8 +259,8 @@
  {
   "id": "me-applied-mechanics-and-design",
   "name": "Applied Mechanics and Design",
-  "marks": "",
-  "focus": "",
+  "marks": "25–30",
+  "focus": "Strength of materials and Theory of Machines/Vibrations lead; new in 2027: PID/transfer function, 2-DOF vibration.",
   "modules": [
    {
     "letter": "A",
@@ -257,43 +274,15 @@
      },
      {
       "id": "me-applied-mechanics-and-design--friction-and-its-applications-including-rolling-resistance",
-      "name": "Friction and its applications including rolling resistance",
-      "diff": "M"
+      "name": "Friction",
+      "diff": "M",
+      "q": "friction engineering mechanics GATE mechanical"
      },
      {
-      "id": "me-applied-mechanics-and-design--belt-pulley",
-      "name": "Belt-pulley",
-      "diff": "E"
-     },
-     {
-      "id": "me-applied-mechanics-and-design--brakes",
-      "name": "Brakes",
-      "diff": "E"
-     },
-     {
-      "id": "me-applied-mechanics-and-design--clutches",
-      "name": "Clutches",
-      "diff": "E"
-     },
-     {
-      "id": "me-applied-mechanics-and-design--screw-jack",
-      "name": "Screw jack",
-      "diff": "E"
-     },
-     {
-      "id": "me-applied-mechanics-and-design--wedge",
-      "name": "Wedge",
-      "diff": "E"
-     },
-     {
-      "id": "me-applied-mechanics-and-design--vehicles",
-      "name": "Vehicles",
-      "diff": "E"
-     },
-     {
-      "id": "me-applied-mechanics-and-design--etc",
-      "name": "Etc",
-      "diff": "E"
+      "id": "me-applied-mechanics-and-design--friction-applications-rolling-resistance-belt-pulley-brakes",
+      "name": "Friction applications: rolling resistance, belt-pulley, brakes, clutches, screw jack, wedge, vehicles",
+      "diff": "M",
+      "q": "friction applications belt screw jack wedge engineering mechanics GATE"
      },
      {
       "id": "me-applied-mechanics-and-design--plane-trusses-and-frames",
@@ -303,7 +292,8 @@
      {
       "id": "me-applied-mechanics-and-design--virtual-work",
       "name": "Virtual work",
-      "diff": "E"
+      "diff": "E",
+      "q": "principle of virtual work engineering mechanics GATE"
      },
      {
       "id": "me-applied-mechanics-and-design--kinematics-and-dynamics-of-rigid-bodies-in-plane-motion",
@@ -328,17 +318,18 @@
      },
      {
       "id": "me-applied-mechanics-and-design--stress-and-strain-components-transformations-in-2d",
-      "name": "Stress and strain components transformations in 2D",
-      "diff": "H"
+      "name": "Stress and strain transformations in 2D",
+      "diff": "M",
+      "q": "stress transformation plane stress strength of materials GATE"
      },
      {
       "id": "me-applied-mechanics-and-design--mohrs-circle-for-plane-stress-and-plane-strain",
-      "name": "Mohr’s circle for plane stress and plane strain",
+      "name": "Mohr's circle for plane stress and plane strain",
       "diff": "M"
      },
      {
       "id": "me-applied-mechanics-and-design--thin-walled-pressure-vessels",
-      "name": "Thin -walled pressure vessels",
+      "name": "Thin-walled pressure vessels",
       "diff": "M"
      },
      {
@@ -349,7 +340,8 @@
      {
       "id": "me-applied-mechanics-and-design--bending-and-shear-stresses",
       "name": "Bending and shear stresses",
-      "diff": "M"
+      "diff": "M",
+      "q": "bending stress shear stress in beams GATE"
      },
      {
       "id": "me-applied-mechanics-and-design--concept-of-shear-centre",
@@ -368,13 +360,14 @@
      },
      {
       "id": "me-applied-mechanics-and-design--eulers-theory-of-columns",
-      "name": "Euler’s theory of columns",
+      "name": "Euler's theory of columns",
       "diff": "M"
      },
      {
       "id": "me-applied-mechanics-and-design--energy-methods",
       "name": "Energy methods",
-      "diff": "E"
+      "diff": "E",
+      "q": "strain energy methods Castigliano strength of materials GATE"
      },
      {
       "id": "me-applied-mechanics-and-design--thermal-stresses",
@@ -388,22 +381,7 @@
      },
      {
       "id": "me-applied-mechanics-and-design--mechanical-properties-of-materials",
-      "name": "Mechanical properties of materials",
-      "diff": "E"
-     },
-     {
-      "id": "me-applied-mechanics-and-design--toughness",
-      "name": "Toughness",
-      "diff": "E"
-     },
-     {
-      "id": "me-applied-mechanics-and-design--hardness",
-      "name": "Hardness",
-      "diff": "E"
-     },
-     {
-      "id": "me-applied-mechanics-and-design--impact-strength",
-      "name": "Impact strength",
+      "name": "Mechanical properties of materials: toughness, hardness, impact strength",
       "diff": "E"
      }
     ]
@@ -425,7 +403,8 @@
      {
       "id": "me-applied-mechanics-and-design--cams",
       "name": "Cams",
-      "diff": "E"
+      "diff": "E",
+      "q": "cams and followers theory of machines GATE"
      },
      {
       "id": "me-applied-mechanics-and-design--gears-and-gear-trains",
@@ -445,7 +424,8 @@
      {
       "id": "me-applied-mechanics-and-design--gyroscope",
       "name": "Gyroscope",
-      "diff": "E"
+      "diff": "E",
+      "q": "gyroscope theory of machines GATE"
      }
     ]
    },
@@ -454,9 +434,9 @@
     "name": "Vibrations",
     "topics": [
      {
-      "id": "me-applied-mechanics-and-design--free-and-forced-vibration-of-linear-systems-with-single-and-",
-      "name": "Free and forced vibration of linear systems with single and two degrees of freedom",
-      "diff": "H"
+      "id": "me-applied-mechanics-and-design--free-and-forced-vibration-of-single-degree-of-freedom-system",
+      "name": "Free and forced vibration of single degree of freedom systems",
+      "diff": "M"
      },
      {
       "id": "me-applied-mechanics-and-design--damping-estimation-and-effects",
@@ -464,14 +444,20 @@
       "diff": "M"
      },
      {
-      "id": "me-applied-mechanics-and-design--vibration-isolation-transmissibility-ratio",
-      "name": "Vibration isolation, transmissibility ratio",
-      "diff": "H"
-     },
-     {
       "id": "me-applied-mechanics-and-design--resonance",
       "name": "Resonance",
-      "diff": "E"
+      "diff": "E",
+      "q": "resonance mechanical vibrations GATE"
+     },
+     {
+      "id": "me-applied-mechanics-and-design--vibration-isolation-transmissibility-ratio",
+      "name": "Vibration isolation and transmissibility ratio",
+      "diff": "M"
+     },
+     {
+      "id": "me-applied-mechanics-and-design--free-and-forced-vibration-of-two-degree-of-freedom-systems",
+      "name": "Free and forced vibration of two degree of freedom systems",
+      "diff": "H"
      },
      {
       "id": "me-applied-mechanics-and-design--critical-speeds-of-shafts",
@@ -479,9 +465,16 @@
       "diff": "M"
      },
      {
-      "id": "me-applied-mechanics-and-design--control-system-pid-controller-transfer-function",
-      "name": "Control system, PID controller, transfer function",
-      "diff": "M"
+      "id": "me-applied-mechanics-and-design--transfer-function-and-control-system-basics",
+      "name": "Transfer function and control system basics",
+      "diff": "M",
+      "q": "transfer function control systems GATE mechanical"
+     },
+     {
+      "id": "me-applied-mechanics-and-design--pid-controller",
+      "name": "PID controller",
+      "diff": "M",
+      "q": "PID controller control systems GATE mechanical"
      }
     ]
    },
@@ -497,37 +490,36 @@
      {
       "id": "me-applied-mechanics-and-design--failure-theories",
       "name": "Failure theories",
-      "diff": "E"
+      "diff": "M",
+      "q": "theories of failure machine design GATE"
      },
      {
       "id": "me-applied-mechanics-and-design--fatigue-strength-and-the-s-n-diagram",
-      "name": "Fatigue strength and the S -N diagram",
+      "name": "Fatigue strength and the S-N diagram",
       "diff": "H"
      },
      {
-      "id": "me-applied-mechanics-and-design--principles-and-design-of-machine-elements-such-as-bolted",
-      "name": "Principles and design of machine elements such as bolted",
-      "diff": "M"
-     },
-     {
       "id": "me-applied-mechanics-and-design--riveted-and-welded-joints",
-      "name": "Riveted and welded joints",
+      "name": "Bolted, riveted and welded joints",
       "diff": "M"
      },
      {
       "id": "me-applied-mechanics-and-design--shafts",
-      "name": "Shafts",
-      "diff": "E"
+      "name": "Design of shafts",
+      "diff": "E",
+      "q": "design of shafts machine design GATE"
      },
      {
       "id": "me-applied-mechanics-and-design--gears",
-      "name": "Gears",
-      "diff": "E"
+      "name": "Design of gears",
+      "diff": "E",
+      "q": "gear design machine design GATE mechanical"
      },
      {
       "id": "me-applied-mechanics-and-design--belt-drives",
       "name": "Belt drives",
-      "diff": "E"
+      "diff": "E",
+      "q": "belt drives machine design GATE"
      },
      {
       "id": "me-applied-mechanics-and-design--rolling-and-sliding-contact-bearings",
@@ -536,13 +528,14 @@
      },
      {
       "id": "me-applied-mechanics-and-design--brakes-and-clutches",
-      "name": "Brakes and clutches",
+      "name": "Design of brakes and clutches",
       "diff": "M"
      },
      {
       "id": "me-applied-mechanics-and-design--springs",
-      "name": "Springs",
-      "diff": "E"
+      "name": "Design of springs",
+      "diff": "E",
+      "q": "design of springs machine design GATE"
      }
     ]
    }
@@ -551,8 +544,8 @@
  {
   "id": "me-fluid-mechanics-and-thermal-sc",
   "name": "Fluid Mechanics and Thermal Sciences",
-  "marks": "",
-  "focus": "",
+  "marks": "22–26",
+  "focus": "Thermodynamics & applications (9–12), Fluid Mechanics (7–9), Heat Transfer (5–8).",
   "modules": [
    {
     "letter": "A",
@@ -562,12 +555,14 @@
       "id": "me-fluid-mechanics-and-thermal-sc--fluid-properties",
       "name": "Fluid properties",
       "diff": "E",
+      "q": "fluid properties fluid mechanics GATE",
       "sample": true
      },
      {
       "id": "me-fluid-mechanics-and-thermal-sc--fluid-statics",
       "name": "Fluid statics",
-      "diff": "E"
+      "diff": "E",
+      "q": "fluid statics pressure fluid mechanics GATE"
      },
      {
       "id": "me-fluid-mechanics-and-thermal-sc--forces-on-submerged-bodies",
@@ -577,7 +572,7 @@
      {
       "id": "me-fluid-mechanics-and-thermal-sc--stability-of-floating-bodies",
       "name": "Stability of floating bodies",
-      "diff": "H"
+      "diff": "M"
      },
      {
       "id": "me-fluid-mechanics-and-thermal-sc--control-volume-analysis-of-mass-momentum-and-energy",
@@ -587,7 +582,8 @@
      {
       "id": "me-fluid-mechanics-and-thermal-sc--fluid-acceleration",
       "name": "Fluid acceleration",
-      "diff": "M"
+      "diff": "M",
+      "q": "fluid kinematics acceleration GATE"
      },
      {
       "id": "me-fluid-mechanics-and-thermal-sc--differential-equations-of-continuity-and-momentum",
@@ -601,13 +597,14 @@
      },
      {
       "id": "me-fluid-mechanics-and-thermal-sc--bernoullis-equation",
-      "name": "Bernoulli’s equation",
+      "name": "Bernoulli's equation",
       "diff": "M"
      },
      {
       "id": "me-fluid-mechanics-and-thermal-sc--dimensional-analysis",
       "name": "Dimensional analysis",
-      "diff": "M"
+      "diff": "M",
+      "q": "dimensional analysis fluid mechanics GATE"
      },
      {
       "id": "me-fluid-mechanics-and-thermal-sc--viscous-flow-of-incompressible-fluids",
@@ -617,7 +614,8 @@
      {
       "id": "me-fluid-mechanics-and-thermal-sc--boundary-layer",
       "name": "Boundary layer",
-      "diff": "E"
+      "diff": "M",
+      "q": "boundary layer theory fluid mechanics GATE"
      },
      {
       "id": "me-fluid-mechanics-and-thermal-sc--elementary-turbulent-flow",
@@ -631,17 +629,12 @@
      },
      {
       "id": "me-fluid-mechanics-and-thermal-sc--head-losses-in-pipes",
-      "name": "Head losses in pipes",
-      "diff": "M"
-     },
-     {
-      "id": "me-fluid-mechanics-and-thermal-sc--bends-and-fittings",
-      "name": "Bends and fittings",
+      "name": "Head losses in pipes, bends and fittings",
       "diff": "M"
      },
      {
       "id": "me-fluid-mechanics-and-thermal-sc--one-dimensional-high-speed-compressible-fluid-flow",
-      "name": "One dimensional high speed compressible fluid flow",
+      "name": "One-dimensional high-speed compressible flow",
       "diff": "M"
      },
      {
@@ -658,17 +651,18 @@
      {
       "id": "me-fluid-mechanics-and-thermal-sc--modes-of-heat-transfer",
       "name": "Modes of heat transfer",
-      "diff": "M"
+      "diff": "E"
      },
      {
       "id": "me-fluid-mechanics-and-thermal-sc--one-dimensional-heat-conduction",
-      "name": "One dimensional heat conduction",
+      "name": "One-dimensional heat conduction",
       "diff": "M"
      },
      {
       "id": "me-fluid-mechanics-and-thermal-sc--resistance-concept-and-electrical-analogy",
       "name": "Resistance concept and electrical analogy",
-      "diff": "M"
+      "diff": "M",
+      "q": "thermal resistance electrical analogy heat transfer GATE"
      },
      {
       "id": "me-fluid-mechanics-and-thermal-sc--heat-transfer-through-fins",
@@ -683,7 +677,8 @@
      {
       "id": "me-fluid-mechanics-and-thermal-sc--lumped-parameter-system",
       "name": "Lumped parameter system",
-      "diff": "M"
+      "diff": "M",
+      "q": "lumped parameter analysis heat transfer GATE"
      },
      {
       "id": "me-fluid-mechanics-and-thermal-sc--thermal-boundary-layer",
@@ -701,13 +696,14 @@
       "diff": "M"
      },
      {
-      "id": "me-fluid-mechanics-and-thermal-sc--boiling-and-condensation",
-      "name": "Boiling and condensation",
-      "diff": "M"
-     },
-     {
       "id": "me-fluid-mechanics-and-thermal-sc--effect-of-turbulence",
       "name": "Effect of turbulence",
+      "diff": "M",
+      "q": "effect of turbulence on convective heat transfer GATE"
+     },
+     {
+      "id": "me-fluid-mechanics-and-thermal-sc--boiling-and-condensation",
+      "name": "Boiling and condensation",
       "diff": "M"
      },
      {
@@ -718,27 +714,29 @@
      {
       "id": "me-fluid-mechanics-and-thermal-sc--radiative-heat-transfer",
       "name": "Radiative heat transfer",
-      "diff": "M"
+      "diff": "E"
      },
      {
       "id": "me-fluid-mechanics-and-thermal-sc--stefan-boltzmann-law",
-      "name": "Stefan- Boltzmann law",
-      "diff": "M"
+      "name": "Stefan-Boltzmann law",
+      "diff": "E"
      },
      {
       "id": "me-fluid-mechanics-and-thermal-sc--wiens-displacement-law",
       "name": "Wien's displacement law",
-      "diff": "M"
+      "diff": "E"
      },
      {
       "id": "me-fluid-mechanics-and-thermal-sc--black-and-grey-surfaces",
       "name": "Black and grey surfaces",
-      "diff": "M"
+      "diff": "M",
+      "q": "black body grey body radiation heat transfer GATE"
      },
      {
       "id": "me-fluid-mechanics-and-thermal-sc--view-factors",
       "name": "View factors",
-      "diff": "E"
+      "diff": "M",
+      "q": "radiation view factor shape factor GATE"
      },
      {
       "id": "me-fluid-mechanics-and-thermal-sc--radiation-network-analysis",
@@ -754,7 +752,7 @@
      {
       "id": "me-fluid-mechanics-and-thermal-sc--thermodynamic-systems-and-processes",
       "name": "Thermodynamic systems and processes",
-      "diff": "H"
+      "diff": "E"
      },
      {
       "id": "me-fluid-mechanics-and-thermal-sc--properties-of-pure-substances-behaviour-of-ideal-and-real-ga",
@@ -762,29 +760,16 @@
       "diff": "E"
      },
      {
-      "id": "me-fluid-mechanics-and-thermal-sc--zeroth",
-      "name": "Zeroth",
-      "diff": "E"
-     },
-     {
       "id": "me-fluid-mechanics-and-thermal-sc--first-and-second-laws-of-thermodynamics",
-      "name": "First and second laws of thermodynamics",
-      "diff": "H"
+      "name": "Zeroth, first and second laws of thermodynamics",
+      "diff": "M",
+      "q": "laws of thermodynamics GATE mechanical"
      },
      {
       "id": "me-fluid-mechanics-and-thermal-sc--calculation-of-work",
-      "name": "Calculation of work",
-      "diff": "M"
-     },
-     {
-      "id": "me-fluid-mechanics-and-thermal-sc--heat",
-      "name": "Heat",
-      "diff": "E"
-     },
-     {
-      "id": "me-fluid-mechanics-and-thermal-sc--energy-changes-and-entropy-changes-in-various-processes",
-      "name": "Energy changes and entropy changes in various processes",
-      "diff": "M"
+      "name": "Calculation of work, heat, energy and entropy changes in processes",
+      "diff": "M",
+      "q": "work heat entropy change thermodynamic processes GATE"
      },
      {
       "id": "me-fluid-mechanics-and-thermal-sc--application-of-first-and-second-laws-for-analysis-of-closed-",
@@ -794,7 +779,7 @@
      {
       "id": "me-fluid-mechanics-and-thermal-sc--thermodynamic-property-charts-and-tables",
       "name": "Thermodynamic property charts and tables",
-      "diff": "H"
+      "diff": "M"
      },
      {
       "id": "me-fluid-mechanics-and-thermal-sc--availability-and-irreversibility",
@@ -804,34 +789,32 @@
      {
       "id": "me-fluid-mechanics-and-thermal-sc--thermodynamic-relations",
       "name": "Thermodynamic relations",
-      "diff": "H"
+      "diff": "H",
+      "q": "thermodynamic relations Maxwell relations GATE"
      }
     ]
    },
    {
     "letter": "D",
-    "name": "Applications",
+    "name": "Power Engineering",
     "topics": [
      {
       "id": "me-fluid-mechanics-and-thermal-sc--power-engineering-vapour-and-gas-power-cycles",
-      "name": "Power Engineering: vapour and gas power cycles",
-      "diff": "M"
+      "name": "Vapour and gas power cycles",
+      "diff": "M",
+      "q": "Rankine Brayton power cycles GATE mechanical"
      },
      {
       "id": "me-fluid-mechanics-and-thermal-sc--concepts-of-regeneration-and-reheat",
-      "name": "Concepts of regeneration and reheat",
-      "diff": "M"
-     },
-     {
-      "id": "me-fluid-mechanics-and-thermal-sc--i-c",
-      "name": "I.C",
-      "diff": "E"
+      "name": "Regeneration and reheat",
+      "diff": "M",
+      "q": "regeneration and reheat power cycle GATE"
      }
     ]
    },
    {
     "letter": "E",
-    "name": "Engines",
+    "name": "IC Engines and Combustion",
     "topics": [
      {
       "id": "me-fluid-mechanics-and-thermal-sc--air-standard-otto-diesel-and-dual-cycles",
@@ -839,13 +822,26 @@
       "diff": "M"
      },
      {
-      "id": "me-fluid-mechanics-and-thermal-sc--basics-of-combustion-air-fuel-ratio-equivalence-ratio",
-      "name": "Basics of Combustion: Air- Fuel Ratio, Equivalence Ratio",
-      "diff": "M"
+      "id": "me-fluid-mechanics-and-thermal-sc--basics-of-combustion",
+      "name": "Basics of combustion",
+      "diff": "E",
+      "q": "basics of combustion IC engines GATE mechanical"
      },
      {
+      "id": "me-fluid-mechanics-and-thermal-sc--basics-of-combustion-air-fuel-ratio-equivalence-ratio",
+      "name": "Air-fuel ratio and equivalence ratio",
+      "diff": "M",
+      "q": "air fuel ratio equivalence ratio combustion GATE"
+     }
+    ]
+   },
+   {
+    "letter": "F",
+    "name": "Refrigeration and Air-conditioning",
+    "topics": [
+     {
       "id": "me-fluid-mechanics-and-thermal-sc--refrigeration-and-air-conditioning-vapour-and-gas-refrigerat",
-      "name": "Refrigeration and air-conditioning: Vapour and gas refrigeration and heat pump cycles",
+      "name": "Vapour and gas refrigeration and heat pump cycles",
       "diff": "M"
      },
      {
@@ -855,27 +851,30 @@
      },
      {
       "id": "me-fluid-mechanics-and-thermal-sc--psychrometric-chart",
-      "name": "Psychrometric chart",
+      "name": "Psychrometric chart and basic psychrometric processes",
       "diff": "M"
-     },
-     {
-      "id": "me-fluid-mechanics-and-thermal-sc--basic-psychrometric-processes",
-      "name": "Basic psychrometric processes",
-      "diff": "E"
-     },
+     }
+    ]
+   },
+   {
+    "letter": "G",
+    "name": "Turbomachinery",
+    "topics": [
      {
       "id": "me-fluid-mechanics-and-thermal-sc--turbomachinery-impulse-and-reaction-principles",
-      "name": "Turbomachinery: Impulse and reaction principles",
-      "diff": "M"
+      "name": "Impulse and reaction principles",
+      "diff": "M",
+      "q": "impulse and reaction turbines turbomachinery GATE"
      },
      {
       "id": "me-fluid-mechanics-and-thermal-sc--velocity-diagrams",
       "name": "Velocity diagrams",
-      "diff": "E"
+      "diff": "M",
+      "q": "velocity triangles turbomachinery GATE mechanical"
      },
      {
       "id": "me-fluid-mechanics-and-thermal-sc--pelton-wheel",
-      "name": "Pelton-wheel",
+      "name": "Pelton wheel",
       "diff": "E"
      },
      {
@@ -905,33 +904,36 @@
  {
   "id": "me-materials-manufacturing-and-in",
   "name": "Materials, Manufacturing and Industrial Engineering",
-  "marks": "",
-  "focus": "",
+  "marks": "20–24",
+  "focus": "Casting/forming/welding and machining plus IE/OR; new in 2027: additive manufacturing, CAM/PLC.",
   "modules": [
    {
     "letter": "A",
     "name": "Engineering Materials",
     "topics": [
      {
-      "id": "me-materials-manufacturing-and-in--crystal-structure-of-common-metals-phase-diagrams-heat-treat",
-      "name": "Crystal structure of common metals, phase diagrams, heat treatment",
-      "diff": "M",
+      "id": "me-materials-manufacturing-and-in--crystal-structure-of-common-metals",
+      "name": "Crystal structure of common metals",
+      "diff": "E",
       "sample": true
      },
      {
+      "id": "me-materials-manufacturing-and-in--phase-diagrams",
+      "name": "Phase diagrams",
+      "diff": "M",
+      "q": "phase diagrams engineering materials GATE mechanical"
+     },
+     {
+      "id": "me-materials-manufacturing-and-in--heat-treatment",
+      "name": "Heat treatment",
+      "diff": "M",
+      "q": "heat treatment of steels engineering materials GATE"
+     },
+     {
       "id": "me-materials-manufacturing-and-in--properties-and-applications-of-engineering-materials-metals-",
-      "name": "Properties and applications of engineering materials - metals and alloys",
-      "diff": "M"
-     },
-     {
-      "id": "me-materials-manufacturing-and-in--polymers",
-      "name": "Polymers",
-      "diff": "E"
-     },
-     {
-      "id": "me-materials-manufacturing-and-in--composites-and-ceramics",
-      "name": "Composites and ceramics",
-      "diff": "M"
+      "name": "Properties and applications of metals and alloys, polymers, composites and ceramics",
+      "diff": "E",
+      "q": "engineering materials metals polymers composites ceramics GATE"
      },
      {
       "id": "me-materials-manufacturing-and-in--engineering-and-true-stress-strain-diagrams",
@@ -946,53 +948,71 @@
     "topics": [
      {
       "id": "me-materials-manufacturing-and-in--different-types-of-casting-processes",
-      "name": "Different types of casting processes",
+      "name": "Types of casting processes",
       "diff": "E"
      },
      {
       "id": "me-materials-manufacturing-and-in--patterns-moulds-and-core",
-      "name": "Patterns, moulds and core",
+      "name": "Patterns, moulds and cores",
       "diff": "M"
      },
      {
-      "id": "me-materials-manufacturing-and-in--solidification-and-cooling-riser-and-gating-design-casting-d",
-      "name": "Solidification and cooling, riser and gating design, casting defects",
+      "id": "me-materials-manufacturing-and-in--solidification-and-cooling",
+      "name": "Solidification and cooling",
+      "diff": "M",
+      "q": "solidification time casting GATE mechanical"
+     },
+     {
+      "id": "me-materials-manufacturing-and-in--riser-and-gating-design",
+      "name": "Riser and gating design",
       "diff": "M"
+     },
+     {
+      "id": "me-materials-manufacturing-and-in--casting-defects",
+      "name": "Casting defects",
+      "diff": "E"
      },
      {
       "id": "me-materials-manufacturing-and-in--plastic-deformation-and-yield-criteria",
       "name": "Plastic deformation and yield criteria",
-      "diff": "H"
+      "diff": "M"
      },
      {
       "id": "me-materials-manufacturing-and-in--hot-working-and-cold-working",
       "name": "Hot working and cold working",
-      "diff": "M"
+      "diff": "E"
      },
      {
-      "id": "me-materials-manufacturing-and-in--principles-of-bulk-forming-and-sheet-forming-processes-and-e",
-      "name": "Principles of bulk forming and sheet forming processes and estimation of load in these processes",
-      "diff": "M"
+      "id": "me-materials-manufacturing-and-in--bulk-forming-processes-and-estimation-of-load",
+      "name": "Bulk forming processes and estimation of load",
+      "diff": "M",
+      "q": "bulk forming load estimation metal forming GATE"
+     },
+     {
+      "id": "me-materials-manufacturing-and-in--sheet-forming-processes-and-estimation-of-load",
+      "name": "Sheet forming processes and estimation of load",
+      "diff": "M",
+      "q": "sheet metal forming force GATE mechanical"
      },
      {
       "id": "me-materials-manufacturing-and-in--fundamentals-of-powder-metallurgy-and-its-applications",
-      "name": "Fundamentals of powder metallurgy and its applications",
-      "diff": "M"
+      "name": "Powder metallurgy: fundamentals and applications",
+      "diff": "E"
      },
      {
       "id": "me-materials-manufacturing-and-in--principles-of-welding-brazing-soldering",
-      "name": "Principles of welding, brazing, soldering",
+      "name": "Principles of welding, brazing and soldering",
       "diff": "M"
      },
      {
       "id": "me-materials-manufacturing-and-in--solid-state-welding-processes-adhesive-bonding",
-      "name": "Solid-state welding processes, adhesive bonding",
-      "diff": "M"
+      "name": "Solid-state welding processes and adhesive bonding",
+      "diff": "E"
      },
      {
       "id": "me-materials-manufacturing-and-in--non-destructive-testing-methods",
       "name": "Non-destructive testing methods",
-      "diff": "M"
+      "diff": "E"
      }
     ]
    },
@@ -1012,13 +1032,14 @@
      },
      {
       "id": "me-materials-manufacturing-and-in--geometry-of-single-point-turning-tools-asa-and-ors-systems",
-      "name": "Geometry of single -point turning tools - ASA and ORS systems",
+      "name": "Geometry of single-point turning tools: ASA and ORS systems",
       "diff": "M"
      },
      {
       "id": "me-materials-manufacturing-and-in--mechanics-of-machining",
       "name": "Mechanics of machining",
-      "diff": "M"
+      "diff": "M",
+      "q": "mechanics of machining Merchant circle GATE"
      },
      {
       "id": "me-materials-manufacturing-and-in--cutting-tool-materials-tool-life-and-tool-wear",
@@ -1037,13 +1058,13 @@
      },
      {
       "id": "me-materials-manufacturing-and-in--principles-and-applications-of-non-traditional-machining-pro",
-      "name": "Principles and applications of non -traditional machining processes",
+      "name": "Non-traditional machining processes: principles and applications",
       "diff": "M"
      },
      {
       "id": "me-materials-manufacturing-and-in--principles-of-work-holding-jigs-and-fixtures",
       "name": "Principles of work holding, jigs and fixtures",
-      "diff": "M"
+      "diff": "E"
      }
     ]
    },
@@ -1053,22 +1074,12 @@
     "topics": [
      {
       "id": "me-materials-manufacturing-and-in--principles-of-different-types-of-additive-manufacturing-proc",
-      "name": "Principles of different types of additive manufacturing processes for engineering materials",
+      "name": "Principles of additive manufacturing processes for engineering materials",
       "diff": "E"
      },
      {
       "id": "me-materials-manufacturing-and-in--additively-manufactured-products-advantages",
-      "name": "Additively manufactured products - advantages",
-      "diff": "M"
-     },
-     {
-      "id": "me-materials-manufacturing-and-in--limitations",
-      "name": "Limitations",
-      "diff": "E"
-     },
-     {
-      "id": "me-materials-manufacturing-and-in--applications",
-      "name": "Applications",
+      "name": "Additively manufactured products: advantages, limitations and applications",
       "diff": "E"
      }
     ]
@@ -1085,27 +1096,32 @@
      {
       "id": "me-materials-manufacturing-and-in--linear-and-angular-measurements",
       "name": "Linear and angular measurements",
-      "diff": "M"
+      "diff": "M",
+      "q": "linear and angular measurement metrology GATE"
      },
      {
       "id": "me-materials-manufacturing-and-in--comparators",
       "name": "Comparators",
-      "diff": "E"
+      "diff": "E",
+      "q": "comparators metrology GATE mechanical"
      },
      {
       "id": "me-materials-manufacturing-and-in--interferometry",
       "name": "Interferometry",
-      "diff": "E"
+      "diff": "E",
+      "q": "interferometry metrology GATE mechanical"
      },
      {
       "id": "me-materials-manufacturing-and-in--form-and-finish-measurement",
       "name": "Form and finish measurement",
-      "diff": "M"
+      "diff": "M",
+      "q": "surface finish measurement metrology GATE"
      },
      {
       "id": "me-materials-manufacturing-and-in--alignment-and-testing-methods",
       "name": "Alignment and testing methods",
-      "diff": "M"
+      "diff": "E",
+      "q": "alignment testing machine tools metrology GATE"
      },
      {
       "id": "me-materials-manufacturing-and-in--tolerance-analysis-in-manufacturing-and-assembly",
@@ -1114,8 +1130,8 @@
      },
      {
       "id": "me-materials-manufacturing-and-in--principle-of-coordinate-measuring-machine-cmm",
-      "name": "Principle of coordinate- measuring machine (CMM)",
-      "diff": "M"
+      "name": "Principle of coordinate measuring machine (CMM)",
+      "diff": "E"
      }
     ]
    },
@@ -1135,7 +1151,7 @@
      },
      {
       "id": "me-materials-manufacturing-and-in--pneumatic-electro-pneumatic-and-hydraulic-actuators-for-auto",
-      "name": "Pneumatic, electro -pneumatic, and hydraulic actuators for automation",
+      "name": "Pneumatic, electro-pneumatic and hydraulic actuators for automation",
       "diff": "M"
      },
      {
@@ -1152,12 +1168,14 @@
      {
       "id": "me-materials-manufacturing-and-in--work-study",
       "name": "Work study",
-      "diff": "E"
+      "diff": "E",
+      "q": "work study time study industrial engineering GATE"
      },
      {
       "id": "me-materials-manufacturing-and-in--productivity",
       "name": "Productivity",
-      "diff": "E"
+      "diff": "E",
+      "q": "productivity industrial engineering GATE mechanical"
      },
      {
       "id": "me-materials-manufacturing-and-in--forecasting-models",
@@ -1172,7 +1190,8 @@
      {
       "id": "me-materials-manufacturing-and-in--scheduling",
       "name": "Scheduling",
-      "diff": "E"
+      "diff": "E",
+      "q": "production scheduling sequencing GATE mechanical"
      },
      {
       "id": "me-materials-manufacturing-and-in--materials-requirement-planning",
@@ -1182,27 +1201,13 @@
      {
       "id": "me-materials-manufacturing-and-in--six-sigma",
       "name": "Six sigma",
-      "diff": "E"
+      "diff": "E",
+      "q": "six sigma quality industrial engineering GATE"
      },
      {
       "id": "me-materials-manufacturing-and-in--lean-manufacturing",
       "name": "Lean manufacturing",
-      "diff": "M"
-     },
-     {
-      "id": "me-materials-manufacturing-and-in--inventory-control-deterministic-models",
-      "name": "Inventory Control - deterministic models",
-      "diff": "M"
-     },
-     {
-      "id": "me-materials-manufacturing-and-in--safety-stock",
-      "name": "Safety stock",
       "diff": "E"
-     },
-     {
-      "id": "me-materials-manufacturing-and-in--inventory-control-systems",
-      "name": "Inventory control systems",
-      "diff": "M"
      },
      {
       "id": "me-materials-manufacturing-and-in--quality-and-reliability-concepts-for-product-lifecycle-analy",
@@ -1213,32 +1218,59 @@
    },
    {
     "letter": "H",
+    "name": "Inventory Control",
+    "topics": [
+     {
+      "id": "me-materials-manufacturing-and-in--inventory-control-deterministic-models",
+      "name": "Inventory control: deterministic models",
+      "diff": "M",
+      "q": "EOQ deterministic inventory models GATE"
+     },
+     {
+      "id": "me-materials-manufacturing-and-in--safety-stock",
+      "name": "Safety stock",
+      "diff": "E",
+      "q": "safety stock inventory control GATE"
+     },
+     {
+      "id": "me-materials-manufacturing-and-in--inventory-control-systems",
+      "name": "Inventory control systems",
+      "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "I",
     "name": "Operations Research",
     "topics": [
      {
       "id": "me-materials-manufacturing-and-in--linear-programming",
       "name": "Linear programming",
-      "diff": "M"
+      "diff": "M",
+      "q": "linear programming operations research GATE mechanical"
      },
      {
       "id": "me-materials-manufacturing-and-in--simplex-method",
       "name": "Simplex method",
-      "diff": "E"
+      "diff": "M"
      },
      {
       "id": "me-materials-manufacturing-and-in--transportation",
-      "name": "Transportation",
-      "diff": "E"
+      "name": "Transportation problem",
+      "diff": "E",
+      "q": "transportation problem operations research GATE"
      },
      {
       "id": "me-materials-manufacturing-and-in--assignment",
-      "name": "Assignment",
-      "diff": "E"
+      "name": "Assignment problem",
+      "diff": "E",
+      "q": "assignment problem operations research GATE"
      },
      {
       "id": "me-materials-manufacturing-and-in--network-flow-models",
       "name": "Network flow models",
-      "diff": "M"
+      "diff": "M",
+      "q": "network flow models operations research GATE"
      },
      {
       "id": "me-materials-manufacturing-and-in--simple-queuing-models",

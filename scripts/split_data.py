@@ -13,6 +13,8 @@ VID_OUT.mkdir(exist_ok=True)
 
 videos = json.loads((CAT / "videos.json").read_text(encoding="utf-8"))
 ga = json.loads((GEN / "ga.json").read_text(encoding="utf-8"))
+# Only papers on sale show their own videos; the rest show just General Aptitude until their lists are verified.
+SELLABLE = set(json.loads((CAT / "sellable.json").read_text(encoding="utf-8")))
 
 
 def topic_ids(subjects):
@@ -30,7 +32,8 @@ for f in sorted(GEN.glob("*.json")):
     own = json.loads(f.read_text(encoding="utf-8"))
     subs = ga + own
     ids = topic_ids(subs)
-    vids = {i: videos[i] for i in ids if videos.get(i)}
+    shown = set(ids) if f.stem in SELLABLE else set(topic_ids(ga))
+    vids = {i: videos[i] for i in ids if videos.get(i) and i in shown}
     samples = sample_ids(subs)
     public = {i: (v if i in samples else len(v)) for i, v in vids.items()}  # paid lists live in the DB
     (VID_OUT / f"{f.stem}.json").write_text(json.dumps(public, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")

@@ -14,8 +14,15 @@ alter table public.orders enable row level security;
 drop policy if exists "own orders" on public.orders;
 create policy "own orders" on public.orders for select using ((select auth.uid()) = user_id);
 alter table public.orders drop constraint if exists orders_status_chk;
-alter table public.orders add constraint orders_status_chk check (status in ('created', 'paid', 'duplicate', 'refunded'));
+alter table public.orders add constraint orders_status_chk check (status in ('created', 'expired', 'paid', 'duplicate', 'refunded'));
 create unique index if not exists orders_payment_id_uniq on public.orders(payment_id) where payment_id is not null;
+-- At most one open order per person and paper: two tabs or a double tap share it instead of charging twice.
+-- (Marks older duplicates first so the index can be created on existing data.)
+update public.orders o set status = 'expired'
+where o.status = 'created' and exists (
+  select 1 from public.orders n where n.user_id = o.user_id and n.paper = o.paper and n.edition = o.edition
+    and n.status = 'created' and n.created_at > o.created_at);
+create unique index if not exists orders_one_open on public.orders(user_id, paper, edition) where status = 'created';
 create index if not exists orders_user_id_idx on public.orders(user_id);
 
 create table if not exists public.webhook_events (
@@ -30,7 +37,8 @@ create or replace function public.grant_paper(p_order text, p_payment text, p_am
 returns boolean language plpgsql security definer set search_path = '' as $$
 declare o public.orders%rowtype;
 begin
-  if p_expires <= now() then raise exception 'SEASON_END is in the past'; end if;
+  -- Money was already taken, so never fail here: a past or wrong SEASON_END still gives at least 30 days.
+  p_expires := greatest(p_expires, now() + interval '30 days');
   select * into o from public.orders where id = p_order for update;
   if not found or o.amount_paise <> p_amount or o.status = 'refunded' then return false; end if;
   if o.status = 'paid' then return true; end if;   -- already granted (verify-payment and webhook both call this)

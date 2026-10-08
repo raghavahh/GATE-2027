@@ -2,8 +2,8 @@
  {
   "id": "ee-engineering-mathematics",
   "name": "Engineering Mathematics",
-  "marks": "",
-  "focus": "",
+  "marks": "11–13",
+  "focus": "Linear algebra, calculus and probability are reliable quick marks.",
   "modules": [
    {
     "letter": "A",
@@ -11,24 +11,28 @@
     "topics": [
      {
       "id": "ee-engineering-mathematics--matrix-algebra",
-      "name": "Matrix Algebra",
+      "name": "Matrix algebra",
       "diff": "E",
+      "q": "matrix algebra rank engineering mathematics",
       "sample": true
      },
      {
       "id": "ee-engineering-mathematics--systems-of-linear-equations",
       "name": "Systems of linear equations",
-      "diff": "M"
+      "diff": "M",
+      "q": "systems of linear equations linear algebra"
      },
      {
       "id": "ee-engineering-mathematics--eigen-values",
       "name": "Eigen values",
-      "diff": "H"
+      "diff": "M",
+      "q": "eigen values linear algebra"
      },
      {
       "id": "ee-engineering-mathematics--eigen-vectors",
       "name": "Eigen vectors",
-      "diff": "H"
+      "diff": "M",
+      "q": "eigen vectors linear algebra"
      }
     ]
    },
@@ -39,7 +43,8 @@
      {
       "id": "ee-engineering-mathematics--mean-value-theorems",
       "name": "Mean value theorems",
-      "diff": "M"
+      "diff": "M",
+      "q": "mean value theorems Rolle Lagrange calculus"
      },
      {
       "id": "ee-engineering-mathematics--theorems-of-integral-calculus",
@@ -53,79 +58,93 @@
      },
      {
       "id": "ee-engineering-mathematics--partial-derivatives",
-      "name": "Partial Derivatives",
-      "diff": "M"
+      "name": "Partial derivatives",
+      "diff": "M",
+      "q": "partial derivatives calculus"
      },
      {
       "id": "ee-engineering-mathematics--maxima-and-minima",
       "name": "Maxima and minima",
-      "diff": "E"
+      "diff": "E",
+      "q": "maxima and minima calculus engineering mathematics"
      },
      {
       "id": "ee-engineering-mathematics--multiple-integrals",
       "name": "Multiple integrals",
-      "diff": "M"
+      "diff": "M",
+      "q": "double and triple integrals calculus"
      },
      {
       "id": "ee-engineering-mathematics--fourier-series",
       "name": "Fourier series",
-      "diff": "H"
-     },
-     {
-      "id": "ee-engineering-mathematics--vector-identities",
-      "name": "Vector identities",
-      "diff": "E"
-     },
-     {
-      "id": "ee-engineering-mathematics--directional-derivatives",
-      "name": "Directional derivatives",
-      "diff": "M"
-     },
-     {
-      "id": "ee-engineering-mathematics--line-integral",
-      "name": "Line integral",
-      "diff": "E"
-     },
-     {
-      "id": "ee-engineering-mathematics--surface-integral",
-      "name": "Surface integral",
-      "diff": "E"
-     },
-     {
-      "id": "ee-engineering-mathematics--volume-integral",
-      "name": "Volume integral",
-      "diff": "E"
-     },
-     {
-      "id": "ee-engineering-mathematics--stokes-s-theorem",
-      "name": "Stokes ’s theorem",
-      "diff": "E"
-     },
-     {
-      "id": "ee-engineering-mathematics--gauss-s-theorem",
-      "name": "Gauss ’s theorem",
-      "diff": "E"
-     },
-     {
-      "id": "ee-engineering-mathematics--divergence-theorem",
-      "name": "Divergence theorem",
-      "diff": "M"
-     },
-     {
-      "id": "ee-engineering-mathematics--greens-theorem",
-      "name": "Green’s theorem",
-      "diff": "E"
+      "diff": "M",
+      "q": "Fourier series engineering mathematics"
      }
     ]
    },
    {
     "letter": "C",
+    "name": "Vector Calculus",
+    "topics": [
+     {
+      "id": "ee-engineering-mathematics--vector-identities",
+      "name": "Vector identities",
+      "diff": "E",
+      "q": "vector identities gradient divergence curl"
+     },
+     {
+      "id": "ee-engineering-mathematics--directional-derivatives",
+      "name": "Directional derivatives",
+      "diff": "M",
+      "q": "directional derivative vector calculus"
+     },
+     {
+      "id": "ee-engineering-mathematics--line-integral",
+      "name": "Line integral",
+      "diff": "E",
+      "q": "line integral vector calculus"
+     },
+     {
+      "id": "ee-engineering-mathematics--surface-integral",
+      "name": "Surface integral",
+      "diff": "E",
+      "q": "surface integral vector calculus"
+     },
+     {
+      "id": "ee-engineering-mathematics--volume-integral",
+      "name": "Volume integral",
+      "diff": "E",
+      "q": "volume integral vector calculus"
+     },
+     {
+      "id": "ee-engineering-mathematics--stokes-s-theorem",
+      "name": "Stokes's theorem",
+      "diff": "E",
+      "q": "Stokes theorem vector calculus"
+     },
+     {
+      "id": "ee-engineering-mathematics--divergence-theorem",
+      "name": "Gauss's divergence theorem",
+      "diff": "M",
+      "q": "Gauss divergence theorem vector calculus"
+     },
+     {
+      "id": "ee-engineering-mathematics--greens-theorem",
+      "name": "Green's theorem",
+      "diff": "E",
+      "q": "Green's theorem vector calculus"
+     }
+    ]
+   },
+   {
+    "letter": "D",
     "name": "Differential Equations",
     "topics": [
      {
       "id": "ee-engineering-mathematics--first-order-equations-linear-and-nonlinear",
       "name": "First order equations (linear and nonlinear)",
-      "diff": "H"
+      "diff": "E",
+      "q": "first order differential equations"
      },
      {
       "id": "ee-engineering-mathematics--higher-order-linear-differential-equations-with-constant-coe",
@@ -135,118 +154,120 @@
      {
       "id": "ee-engineering-mathematics--method-of-variation-of-parameters",
       "name": "Method of variation of parameters",
-      "diff": "M"
+      "diff": "M",
+      "q": "variation of parameters differential equations"
      },
      {
       "id": "ee-engineering-mathematics--cauchys-equation",
-      "name": "Cauchy’s equation",
-      "diff": "E"
-     },
-     {
-      "id": "ee-engineering-mathematics--eulers-equation",
-      "name": "Euler’s equation",
-      "diff": "E"
+      "name": "Cauchy's and Euler's equations",
+      "diff": "E",
+      "q": "Cauchy Euler differential equation"
      },
      {
       "id": "ee-engineering-mathematics--initial-and-boundary-value-problems",
       "name": "Initial and boundary value problems",
-      "diff": "M"
+      "diff": "M",
+      "q": "initial and boundary value problems differential equations"
      },
      {
       "id": "ee-engineering-mathematics--partial-differential-equations",
-      "name": "Partial Differential Equations",
-      "diff": "H"
+      "name": "Partial differential equations",
+      "diff": "M",
+      "q": "partial differential equations engineering mathematics"
      },
      {
       "id": "ee-engineering-mathematics--method-of-separation-of-variables",
       "name": "Method of separation of variables",
-      "diff": "M"
-     }
-    ]
-   },
-   {
-    "letter": "D",
-    "name": "Complex Variables",
-    "topics": [
-     {
-      "id": "ee-engineering-mathematics--analytic-functions",
-      "name": "Analytic functions",
-      "diff": "M"
-     },
-     {
-      "id": "ee-engineering-mathematics--cauchy-s-integral-theorem",
-      "name": "Cauchy ’s integral theorem",
-      "diff": "M"
-     },
-     {
-      "id": "ee-engineering-mathematics--cauchy-s-integral-formula",
-      "name": "Cauchy ’s integral formula",
-      "diff": "M"
-     },
-     {
-      "id": "ee-engineering-mathematics--taylor-series",
-      "name": "Taylor series",
-      "diff": "E"
-     },
-     {
-      "id": "ee-engineering-mathematics--laurent-series",
-      "name": "Laurent series",
-      "diff": "E"
-     },
-     {
-      "id": "ee-engineering-mathematics--residue-theorem",
-      "name": "Residue theorem",
-      "diff": "E"
-     },
-     {
-      "id": "ee-engineering-mathematics--solution-integrals",
-      "name": "Solution integrals",
-      "diff": "M"
+      "diff": "M",
+      "q": "separation of variables partial differential equations"
      }
     ]
    },
    {
     "letter": "E",
+    "name": "Complex Variables",
+    "topics": [
+     {
+      "id": "ee-engineering-mathematics--analytic-functions",
+      "name": "Analytic functions",
+      "diff": "M",
+      "q": "analytic functions complex variables Cauchy-Riemann"
+     },
+     {
+      "id": "ee-engineering-mathematics--cauchy-s-integral-theorem",
+      "name": "Cauchy's integral theorem",
+      "diff": "M",
+      "q": "Cauchy integral theorem complex variables"
+     },
+     {
+      "id": "ee-engineering-mathematics--cauchy-s-integral-formula",
+      "name": "Cauchy's integral formula",
+      "diff": "M",
+      "q": "Cauchy integral formula complex variables"
+     },
+     {
+      "id": "ee-engineering-mathematics--taylor-series",
+      "name": "Taylor series",
+      "diff": "E",
+      "q": "Taylor series complex variables"
+     },
+     {
+      "id": "ee-engineering-mathematics--laurent-series",
+      "name": "Laurent series",
+      "diff": "M",
+      "q": "Laurent series complex variables"
+     },
+     {
+      "id": "ee-engineering-mathematics--residue-theorem",
+      "name": "Residue theorem",
+      "diff": "M",
+      "q": "residue theorem complex variables"
+     },
+     {
+      "id": "ee-engineering-mathematics--solution-integrals",
+      "name": "Evaluation of real integrals using residues",
+      "diff": "M",
+      "q": "evaluation of real integrals using residue theorem"
+     }
+    ]
+   },
+   {
+    "letter": "F",
     "name": "Probability and Statistics",
     "topics": [
      {
-      "id": "ee-engineering-mathematics--sampling-theorems",
-      "name": "Sampling theorems",
-      "diff": "E"
+      "id": "ee-engineering-mathematics--mean",
+      "name": "Mean, median and mode",
+      "diff": "E",
+      "q": "mean median mode statistics engineering mathematics"
+     },
+     {
+      "id": "ee-engineering-mathematics--standard-deviation",
+      "name": "Standard deviation",
+      "diff": "M",
+      "q": "standard deviation variance statistics"
      },
      {
       "id": "ee-engineering-mathematics--conditional-probability",
       "name": "Conditional probability",
-      "diff": "M"
-     },
-     {
-      "id": "ee-engineering-mathematics--mean",
-      "name": "Mean",
-      "diff": "E"
-     },
-     {
-      "id": "ee-engineering-mathematics--median",
-      "name": "Median",
-      "diff": "E"
-     },
-     {
-      "id": "ee-engineering-mathematics--mode",
-      "name": "Mode",
-      "diff": "E"
-     },
-     {
-      "id": "ee-engineering-mathematics--standard-deviation",
-      "name": "Standard Deviation",
-      "diff": "M"
+      "diff": "M",
+      "q": "conditional probability Bayes theorem"
      },
      {
       "id": "ee-engineering-mathematics--random-variables",
       "name": "Random variables",
-      "diff": "E"
+      "diff": "E",
+      "q": "random variables probability"
      },
      {
       "id": "ee-engineering-mathematics--discrete-and-continuous-distributions",
-      "name": "Discrete and Continuous distributions",
+      "name": "Discrete and continuous distributions",
+      "diff": "M",
+      "q": "discrete and continuous probability distributions"
+     },
+     {
+      "id": "ee-engineering-mathematics--binomial-distribution",
+      "name": "Binomial distribution",
       "diff": "M"
      },
      {
@@ -260,19 +281,22 @@
       "diff": "M"
      },
      {
-      "id": "ee-engineering-mathematics--binomial-distribution",
-      "name": "Binomial distribution",
-      "diff": "M"
+      "id": "ee-engineering-mathematics--sampling-theorems",
+      "name": "Sampling theorems",
+      "diff": "M",
+      "q": "sampling theorems sampling distribution probability statistics"
      },
      {
       "id": "ee-engineering-mathematics--correlation-analysis",
       "name": "Correlation analysis",
-      "diff": "M"
+      "diff": "M",
+      "q": "correlation coefficient statistics"
      },
      {
       "id": "ee-engineering-mathematics--regression-analysis",
       "name": "Regression analysis",
-      "diff": "M"
+      "diff": "M",
+      "q": "linear regression lines statistics"
      }
     ]
    }
@@ -281,8 +305,8 @@
  {
   "id": "ee-electric-circuits",
   "name": "Electric circuits",
-  "marks": "",
-  "focus": "",
+  "marks": "8–11",
+  "focus": "Network theorems, transients and three-phase power.",
   "modules": [
    {
     "letter": "A",
@@ -291,73 +315,128 @@
      {
       "id": "ee-electric-circuits--ideal-voltage-and-current-sources",
       "name": "Ideal voltage and current sources",
-      "diff": "M",
+      "diff": "E",
+      "q": "ideal voltage and current sources network theory",
       "sample": true
      },
      {
       "id": "ee-electric-circuits--dependent-sources",
       "name": "Dependent sources",
-      "diff": "E"
+      "diff": "M",
+      "q": "dependent sources circuit analysis network theory"
      },
      {
       "id": "ee-electric-circuits--m-elements",
-      "name": "M elements",
-      "diff": "E"
-     },
+      "name": "R, L, C, M elements",
+      "diff": "E",
+      "q": "R L C mutual inductance circuit elements network theory"
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Network Solution Methods",
+    "topics": [
      {
       "id": "ee-electric-circuits--network-solution-methods-kcl-kvl-node-and-mesh-analysis",
-      "name": "Network solution methods: KCL, KVL, Node and Mesh analysis",
-      "diff": "M"
-     },
-     {
-      "id": "ee-electric-circuits--network-theorems-thevenins",
-      "name": "Network Theorems: Thevenin’s",
-      "diff": "M"
-     },
-     {
-      "id": "ee-electric-circuits--nortons",
-      "name": "Norton’s",
-      "diff": "E"
-     },
-     {
-      "id": "ee-electric-circuits--superposition-and-maximum-power-transfer-theorem",
-      "name": "Superposition and Maximum Power Transfer theorem",
-      "diff": "M"
-     },
-     {
-      "id": "ee-electric-circuits--transient-response-of-dc-and-ac-networks",
-      "name": "Transient response of DC and AC networks",
-      "diff": "M"
-     },
-     {
-      "id": "ee-electric-circuits--sinusoidal-steady-state-analysis",
-      "name": "Sinusoidal steady-state analysis",
-      "diff": "M"
-     },
-     {
-      "id": "ee-electric-circuits--resonance",
-      "name": "Resonance",
-      "diff": "E"
-     },
-     {
-      "id": "ee-electric-circuits--two-port-networks",
-      "name": "Two port networks",
-      "diff": "E"
-     },
-     {
-      "id": "ee-electric-circuits--balanced-three-phase-circuits",
-      "name": "Balanced three phase circuits",
-      "diff": "M"
+      "name": "KCL, KVL, node and mesh analysis",
+      "diff": "M",
+      "q": "KCL KVL nodal and mesh analysis"
      },
      {
       "id": "ee-electric-circuits--star-delta-transformation",
       "name": "Star-delta transformation",
-      "diff": "H"
+      "diff": "E",
+      "q": "star delta transformation network theory"
+     }
+    ]
+   },
+   {
+    "letter": "C",
+    "name": "Network Theorems",
+    "topics": [
+     {
+      "id": "ee-electric-circuits--network-theorems-thevenins",
+      "name": "Thevenin's theorem",
+      "diff": "M",
+      "q": "Thevenin theorem network theory"
+     },
+     {
+      "id": "ee-electric-circuits--nortons",
+      "name": "Norton's theorem",
+      "diff": "E",
+      "q": "Norton theorem network theory"
+     },
+     {
+      "id": "ee-electric-circuits--superposition-theorem",
+      "name": "Superposition theorem",
+      "diff": "E",
+      "q": "superposition theorem network theory"
+     },
+     {
+      "id": "ee-electric-circuits--maximum-power-transfer-theorem",
+      "name": "Maximum power transfer theorem",
+      "diff": "M",
+      "q": "maximum power transfer theorem network theory"
+     }
+    ]
+   },
+   {
+    "letter": "D",
+    "name": "Transients",
+    "topics": [
+     {
+      "id": "ee-electric-circuits--transient-response-of-dc-and-ac-networks",
+      "name": "Transient response of DC and AC networks",
+      "diff": "M",
+      "q": "transient response RL RC RLC circuits"
+     }
+    ]
+   },
+   {
+    "letter": "E",
+    "name": "AC Steady State",
+    "topics": [
+     {
+      "id": "ee-electric-circuits--sinusoidal-steady-state-analysis",
+      "name": "Sinusoidal steady-state analysis",
+      "diff": "M",
+      "q": "sinusoidal steady state analysis phasors AC circuits"
+     },
+     {
+      "id": "ee-electric-circuits--resonance",
+      "name": "Resonance",
+      "diff": "E",
+      "q": "series and parallel resonance RLC circuit"
      },
      {
       "id": "ee-electric-circuits--complex-power-and-power-factor-in-ac-circuits",
       "name": "Complex power and power factor in AC circuits",
       "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "F",
+    "name": "Three-Phase Circuits",
+    "topics": [
+     {
+      "id": "ee-electric-circuits--balanced-three-phase-circuits",
+      "name": "Balanced three-phase circuits",
+      "diff": "M",
+      "q": "balanced three phase circuits star delta line phase"
+     }
+    ]
+   },
+   {
+    "letter": "G",
+    "name": "Two-Port Networks",
+    "topics": [
+     {
+      "id": "ee-electric-circuits--two-port-networks",
+      "name": "Two-port networks",
+      "diff": "M",
+      "q": "two port network parameters Z Y h ABCD"
      }
     ]
    }
@@ -366,113 +445,133 @@
  {
   "id": "ee-electromagnetic-fields",
   "name": "Electromagnetic Fields",
-  "marks": "",
-  "focus": "",
+  "marks": "3–6",
+  "focus": "Gauss/Biot-Savart applications and capacitance/inductance of simple shapes.",
   "modules": [
    {
     "letter": "A",
-    "name": "Electromagnetic Fields",
+    "name": "Electrostatics",
     "topics": [
      {
       "id": "ee-electromagnetic-fields--coulombs-law",
-      "name": "Coulomb's Law",
+      "name": "Coulomb's law",
       "diff": "E",
+      "q": "Coulomb's law electromagnetic fields",
       "sample": true
      },
      {
       "id": "ee-electromagnetic-fields--electric-field-intensity",
-      "name": "Electric Field Intensity",
-      "diff": "M"
+      "name": "Electric field intensity",
+      "diff": "M",
+      "q": "electric field intensity electromagnetic fields"
      },
      {
       "id": "ee-electromagnetic-fields--electric-flux-density",
-      "name": "Electric Flux Density",
-      "diff": "M"
+      "name": "Electric flux density",
+      "diff": "M",
+      "q": "electric flux density electromagnetic fields"
      },
      {
       "id": "ee-electromagnetic-fields--gausss-law",
-      "name": "Gauss's Law",
-      "diff": "E"
+      "name": "Gauss's law",
+      "diff": "E",
+      "q": "Gauss's law electrostatics"
      },
      {
       "id": "ee-electromagnetic-fields--divergence",
       "name": "Divergence",
-      "diff": "E"
+      "diff": "E",
+      "q": "divergence of a vector field electromagnetic fields"
      },
      {
       "id": "ee-electromagnetic-fields--electric-field-and-potential-due-to-point",
-      "name": "Electric field and potential due to point",
-      "diff": "M"
-     },
-     {
-      "id": "ee-electromagnetic-fields--line",
-      "name": "Line",
-      "diff": "E"
-     },
-     {
-      "id": "ee-electromagnetic-fields--plane-and-spherical-charge-distributions",
-      "name": "Plane and spherical charge distributions",
-      "diff": "M"
+      "name": "Electric field and potential due to point, line, plane and spherical charge distributions",
+      "diff": "M",
+      "q": "electric field and potential due to point line plane spherical charge"
      },
      {
       "id": "ee-electromagnetic-fields--effect-of-dielectric-medium",
       "name": "Effect of dielectric medium",
-      "diff": "M"
+      "diff": "M",
+      "q": "dielectric medium boundary conditions electromagnetic fields"
      },
      {
       "id": "ee-electromagnetic-fields--capacitance-of-simple-configurations",
       "name": "Capacitance of simple configurations",
-      "diff": "M"
-     },
+      "diff": "M",
+      "q": "capacitance parallel plate coaxial spherical capacitor"
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Magnetostatics",
+    "topics": [
      {
       "id": "ee-electromagnetic-fields--biot-savarts-law",
-      "name": "Biot-Savart’s law",
-      "diff": "E"
+      "name": "Biot-Savart's law",
+      "diff": "E",
+      "q": "Biot Savart law magnetic field"
      },
      {
       "id": "ee-electromagnetic-fields--amperes-law",
-      "name": "Ampere’s law",
-      "diff": "E"
+      "name": "Ampere's law",
+      "diff": "E",
+      "q": "Ampere's circuital law magnetic field"
      },
      {
       "id": "ee-electromagnetic-fields--curl",
       "name": "Curl",
-      "diff": "E"
-     },
-     {
-      "id": "ee-electromagnetic-fields--faradays-law",
-      "name": "Faraday’s law",
-      "diff": "E"
+      "diff": "E",
+      "q": "curl of a vector field electromagnetic fields"
      },
      {
       "id": "ee-electromagnetic-fields--lorentz-force",
       "name": "Lorentz force",
-      "diff": "E"
-     },
+      "diff": "E",
+      "q": "Lorentz force electromagnetic fields"
+     }
+    ]
+   },
+   {
+    "letter": "C",
+    "name": "Induction and Magnetic Circuits",
+    "topics": [
      {
-      "id": "ee-electromagnetic-fields--inductance",
-      "name": "Inductance",
-      "diff": "E"
+      "id": "ee-electromagnetic-fields--faradays-law",
+      "name": "Faraday's law",
+      "diff": "E",
+      "q": "Faraday's law electromagnetic induction"
      },
      {
       "id": "ee-electromagnetic-fields--magnetomotive-force",
       "name": "Magnetomotive force",
-      "diff": "M"
+      "diff": "E",
+      "q": "magnetomotive force MMF magnetic circuits"
      },
      {
       "id": "ee-electromagnetic-fields--reluctance",
       "name": "Reluctance",
-      "diff": "E"
+      "diff": "E",
+      "q": "reluctance magnetic circuits"
      },
      {
       "id": "ee-electromagnetic-fields--magnetic-circuits",
       "name": "Magnetic circuits",
-      "diff": "E"
+      "diff": "M",
+      "q": "magnetic circuits air gap electromagnetic fields"
+     },
+     {
+      "id": "ee-electromagnetic-fields--inductance",
+      "name": "Inductance",
+      "diff": "E",
+      "q": "inductance electromagnetic fields"
      },
      {
       "id": "ee-electromagnetic-fields--self-and-mutual-inductance-of-simple-configurations",
-      "name": "Self and Mutual inductance of simple configurations",
-      "diff": "M"
+      "name": "Self and mutual inductance of simple configurations",
+      "diff": "M",
+      "q": "self and mutual inductance coaxial cable solenoid"
      }
     ]
    }
@@ -481,12 +580,12 @@
  {
   "id": "ee-signals-and-systems",
   "name": "Signals and Systems",
-  "marks": "",
-  "focus": "",
+  "marks": "6–9",
+  "focus": "LTI properties, Fourier/Laplace/z-transform and sampling.",
   "modules": [
    {
     "letter": "A",
-    "name": "Signals and Systems",
+    "name": "Signals and LTI Systems",
     "topics": [
      {
       "id": "ee-signals-and-systems--representation-of-continuous-and-discrete-time-signals",
@@ -497,42 +596,56 @@
      {
       "id": "ee-signals-and-systems--shifting-and-scaling-properties",
       "name": "Shifting and scaling properties",
-      "diff": "M"
+      "diff": "M",
+      "q": "time shifting and scaling of signals"
+     },
+     {
+      "id": "ee-signals-and-systems--r-m-s-value",
+      "name": "RMS and average value of general periodic waveforms",
+      "diff": "E",
+      "q": "RMS and average value of periodic waveforms"
      },
      {
       "id": "ee-signals-and-systems--linear-time-invariant-and-causal-systems",
       "name": "Linear time invariant and causal systems",
-      "diff": "M"
-     },
+      "diff": "M",
+      "q": "LTI systems causality stability signals and systems"
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Fourier Analysis and Sampling",
+    "topics": [
      {
       "id": "ee-signals-and-systems--fourier-series-representation-of-continuous-and-discrete-tim",
-      "name": "Fourier series representation of continuous and discrete time periodic signals",
-      "diff": "H"
+      "name": "Fourier series of continuous and discrete time periodic signals",
+      "diff": "M",
+      "q": "Fourier series signals and systems"
+     },
+     {
+      "id": "ee-signals-and-systems--applications-of-fourier-transform-for-continuous-and-discret",
+      "name": "Fourier transform of continuous and discrete time signals",
+      "diff": "M",
+      "q": "Fourier transform DTFT signals and systems"
      },
      {
       "id": "ee-signals-and-systems--sampling-theorem",
       "name": "Sampling theorem",
-      "diff": "E"
-     },
-     {
-      "id": "ee-signals-and-systems--applications-of-fourier-transform-for-continuous-and-discret",
-      "name": "Applications of Fourier Transform for continuous and discrete time signals",
-      "diff": "H"
-     },
+      "diff": "M",
+      "q": "Nyquist sampling theorem signals and systems"
+     }
+    ]
+   },
+   {
+    "letter": "C",
+    "name": "Laplace and Z Transforms",
+    "topics": [
      {
       "id": "ee-signals-and-systems--laplace-transform-and-z-transform",
-      "name": "Laplace Transform and Z transform",
-      "diff": "H"
-     },
-     {
-      "id": "ee-signals-and-systems--r-m-s-value",
-      "name": "R.M.S. value",
-      "diff": "E"
-     },
-     {
-      "id": "ee-signals-and-systems--average-value-calculation-for-any-general-periodic-waveform",
-      "name": "Average value calculation for any general periodic waveform",
-      "diff": "M"
+      "name": "Laplace transform and Z transform",
+      "diff": "M",
+      "q": "Laplace transform and z transform signals and systems"
      }
     ]
    }
@@ -541,138 +654,204 @@
  {
   "id": "ee-electrical-machines",
   "name": "Electrical Machines",
-  "marks": "",
-  "focus": "",
+  "marks": "9–12",
+  "focus": "Transformer tests/efficiency and induction motor torque-slip; highest core weight.",
   "modules": [
    {
     "letter": "A",
-    "name": "Single phase transformer",
+    "name": "Single-Phase Transformer",
     "topics": [
      {
       "id": "ee-electrical-machines--equivalent-circuit",
-      "name": "Equivalent circuit",
+      "name": "Equivalent circuit of a single-phase transformer",
       "diff": "M",
+      "q": "single phase transformer equivalent circuit",
       "sample": true
      },
      {
       "id": "ee-electrical-machines--phasor-diagram",
-      "name": "Phasor diagram",
-      "diff": "E"
+      "name": "Phasor diagram of a single-phase transformer",
+      "diff": "E",
+      "q": "transformer phasor diagram"
      },
      {
       "id": "ee-electrical-machines--open-circuit-and-short-circuit-tests",
       "name": "Open circuit and short circuit tests",
-      "diff": "M"
+      "diff": "M",
+      "q": "transformer open circuit and short circuit test"
      },
      {
       "id": "ee-electrical-machines--regulation-and-efficiency",
-      "name": "Regulation and efficiency",
-      "diff": "M"
-     },
+      "name": "Regulation and efficiency of transformers",
+      "diff": "M",
+      "q": "transformer voltage regulation and efficiency"
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Three-Phase Transformers and Auto-Transformer",
+    "topics": [
      {
       "id": "ee-electrical-machines--three-phase-transformers-connections",
-      "name": "Three -phase transformers: connections",
-      "diff": "H"
+      "name": "Three-phase transformer connections",
+      "diff": "M",
+      "q": "three phase transformer connections star delta"
      },
      {
       "id": "ee-electrical-machines--vector-groups",
-      "name": "Vector groups",
-      "diff": "E"
+      "name": "Vector groups of three-phase transformers",
+      "diff": "M",
+      "q": "transformer vector groups phase shift"
      },
      {
       "id": "ee-electrical-machines--parallel-operation",
-      "name": "Parallel operation",
-      "diff": "M"
+      "name": "Parallel operation of transformers",
+      "diff": "M",
+      "q": "parallel operation of transformers load sharing"
      },
      {
-      "id": "ee-electrical-machines--auto-transformer-electromechanical-energy-conversion-princip",
-      "name": "Auto -transformer, Electromechanical energy conversion principles",
-      "diff": "H"
-     },
+      "id": "ee-electrical-machines--auto-transformer",
+      "name": "Auto-transformer",
+      "diff": "M",
+      "q": "auto transformer electrical machines"
+     }
+    ]
+   },
+   {
+    "letter": "C",
+    "name": "Electromechanical Energy Conversion",
+    "topics": [
+     {
+      "id": "ee-electrical-machines--electromechanical-energy-conversion-principles",
+      "name": "Electromechanical energy conversion principles",
+      "diff": "M",
+      "q": "electromechanical energy conversion co-energy"
+     }
+    ]
+   },
+   {
+    "letter": "D",
+    "name": "DC Machines",
+    "topics": [
      {
       "id": "ee-electrical-machines--dc-machines-separately-excited",
-      "name": "DC machines: separately excited",
-      "diff": "M"
+      "name": "Separately excited DC machines",
+      "diff": "M",
+      "q": "separately excited DC machine"
      },
      {
       "id": "ee-electrical-machines--series-and-shunt",
-      "name": "Series and shunt",
-      "diff": "E"
+      "name": "Series and shunt DC machines",
+      "diff": "E",
+      "q": "DC series and shunt motor generator"
      },
      {
       "id": "ee-electrical-machines--motoring-and-generating-mode-of-operation-and-their-characte",
-      "name": "Motoring and generating mode of operation and their characteristics",
-      "diff": "M"
+      "name": "Motoring and generating modes of DC machines and their characteristics",
+      "diff": "M",
+      "q": "DC motor and generator characteristics"
      },
      {
       "id": "ee-electrical-machines--speed-control-of-dc-motors",
-      "name": "Speed control of dc motors",
+      "name": "Speed control of DC motors",
       "diff": "M"
-     },
+     }
+    ]
+   },
+   {
+    "letter": "E",
+    "name": "Three-Phase and Single-Phase Induction Machines",
+    "topics": [
      {
       "id": "ee-electrical-machines--three-phase-induction-machines-principle-of-operation",
-      "name": "Three -phase induction machines: principle of operation",
-      "diff": "M"
+      "name": "Three-phase induction machines: principle of operation",
+      "diff": "E",
+      "q": "three phase induction motor working principle"
      },
      {
       "id": "ee-electrical-machines--types",
-      "name": "Types",
-      "diff": "E"
+      "name": "Types of three-phase induction machines",
+      "diff": "E",
+      "q": "squirrel cage and slip ring induction motor"
+     },
+     {
+      "id": "ee-electrical-machines--equivalent-circuit-of-a-three-phase-induction-machine",
+      "name": "Equivalent circuit of a three-phase induction machine",
+      "diff": "M",
+      "q": "induction motor equivalent circuit"
      },
      {
       "id": "ee-electrical-machines--performance",
-      "name": "Performance",
-      "diff": "E"
+      "name": "Performance of three-phase induction machines",
+      "diff": "M",
+      "q": "induction motor performance power flow slip"
      },
      {
       "id": "ee-electrical-machines--torque-speed-characteristics",
-      "name": "Torque-speed characteristics",
-      "diff": "M"
+      "name": "Torque-speed characteristics of induction machines",
+      "diff": "M",
+      "q": "induction motor torque slip characteristics"
      },
      {
       "id": "ee-electrical-machines--no-load-and-blocked-rotor-tests",
       "name": "No-load and blocked-rotor tests",
-      "diff": "M"
+      "diff": "M",
+      "q": "induction motor no load and blocked rotor test"
      },
      {
       "id": "ee-electrical-machines--starting-and-speed-control",
-      "name": "Starting and speed control",
-      "diff": "M"
+      "name": "Starting and speed control of induction motors",
+      "diff": "M",
+      "q": "induction motor starting and speed control"
      },
      {
       "id": "ee-electrical-machines--operating-principle-of-single-phase-induction-motors",
       "name": "Operating principle of single-phase induction motors",
-      "diff": "M"
-     },
+      "diff": "E",
+      "q": "single phase induction motor double revolving field"
+     }
+    ]
+   },
+   {
+    "letter": "F",
+    "name": "Synchronous Machines",
+    "topics": [
      {
       "id": "ee-electrical-machines--synchronous-machines-cylindrical-and-salient-pole-machines",
-      "name": "Synchronous machines: cylindrical and salient pole machines",
-      "diff": "M"
+      "name": "Cylindrical and salient pole synchronous machines",
+      "diff": "M",
+      "q": "cylindrical rotor and salient pole synchronous machine"
      },
      {
       "id": "ee-electrical-machines--performance-and-characteristics",
-      "name": "Performance and characteristics",
-      "diff": "M"
+      "name": "Performance and characteristics of synchronous machines",
+      "diff": "M",
+      "q": "synchronous machine performance V curves power angle"
      },
      {
       "id": "ee-electrical-machines--regulation-and-parallel-operation-of-generators",
-      "name": "Regulation and parallel operation of generators",
-      "diff": "M"
+      "name": "Regulation and parallel operation of synchronous generators",
+      "diff": "M",
+      "q": "alternator voltage regulation and parallel operation"
      },
      {
       "id": "ee-electrical-machines--starting-of-synchronous-motors",
       "name": "Starting of synchronous motors",
-      "diff": "M"
-     },
+      "diff": "E",
+      "q": "starting methods of synchronous motor"
+     }
+    ]
+   },
+   {
+    "letter": "G",
+    "name": "Losses and Efficiency",
+    "topics": [
      {
       "id": "ee-electrical-machines--types-of-losses-and-efficiency-calculations-of-electric-mach",
       "name": "Types of losses and efficiency calculations of electric machines",
-      "diff": "E"
-     },
-     {
-      "id": "ee-electrical-machines--gate-2027-iit-madras-organizing-institute",
-      "name": "GATE 2027 IIT Madras | Organizing Institute",
-      "diff": "M"
+      "diff": "M",
+      "q": "losses and efficiency of electrical machines"
      }
     ]
    }
@@ -681,103 +860,151 @@
  {
   "id": "ee-power-systems",
   "name": "Power Systems",
-  "marks": "",
-  "focus": "",
+  "marks": "7–11",
+  "focus": "Per-unit, load flow, fault analysis and the equal-area criterion.",
   "modules": [
    {
     "letter": "A",
-    "name": "Power Systems",
+    "name": "Generation and Transmission",
     "topics": [
      {
       "id": "ee-power-systems--basic-concepts-of-electrical-power-generation",
       "name": "Basic concepts of electrical power generation",
       "diff": "E",
+      "q": "power generation concepts power systems",
       "sample": true
      },
      {
       "id": "ee-power-systems--ac-and-dc-transmission-concepts",
       "name": "AC and DC transmission concepts",
-      "diff": "M"
+      "diff": "M",
+      "q": "AC and HVDC transmission concepts"
      },
      {
       "id": "ee-power-systems--models-and-performance-of-transmission-lines-and-cables",
       "name": "Models and performance of transmission lines and cables",
-      "diff": "M"
-     },
-     {
-      "id": "ee-power-systems--economic-load-dispatch-with-and-without-considering-transmis",
-      "name": "Economic Load Dispatch (with and without considering transmission losses)",
-      "diff": "M"
+      "diff": "M",
+      "q": "transmission line models ABCD performance"
      },
      {
       "id": "ee-power-systems--series-and-shunt-compensation",
       "name": "Series and shunt compensation",
-      "diff": "M"
+      "diff": "M",
+      "q": "series and shunt compensation transmission lines"
      },
      {
       "id": "ee-power-systems--electric-field-distribution-and-insulators",
       "name": "Electric field distribution and insulators",
-      "diff": "M"
+      "diff": "M",
+      "q": "string insulator efficiency electric field distribution"
      },
      {
       "id": "ee-power-systems--distribution-systems",
       "name": "Distribution systems",
-      "diff": "M"
-     },
+      "diff": "E",
+      "q": "distribution systems power systems"
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Per-Unit and Load Flow",
+    "topics": [
      {
       "id": "ee-power-systems--per-unit-quantities",
       "name": "Per-unit quantities",
-      "diff": "E"
+      "diff": "E",
+      "q": "per unit system power systems"
      },
      {
       "id": "ee-power-systems--bus-admittance-matrix",
       "name": "Bus admittance matrix",
-      "diff": "M"
+      "diff": "M",
+      "q": "bus admittance matrix Ybus formation"
      },
      {
       "id": "ee-power-systems--gauss-seidel-and-newton-raphson-load-flow-methods",
-      "name": "Gauss- Seidel and Newton-Raphson load flow methods",
-      "diff": "M"
+      "name": "Gauss-Seidel and Newton-Raphson load flow methods",
+      "diff": "M",
+      "q": "load flow Gauss Seidel Newton Raphson"
+     }
+    ]
+   },
+   {
+    "letter": "C",
+    "name": "Operation and Control",
+    "topics": [
+     {
+      "id": "ee-power-systems--economic-load-dispatch-with-and-without-considering-transmis",
+      "name": "Economic load dispatch (with and without transmission losses)",
+      "diff": "M",
+      "q": "economic load dispatch with transmission losses"
      },
      {
       "id": "ee-power-systems--v-oltage-and-frequency-control",
-      "name": "V oltage and Frequency control",
-      "diff": "M"
+      "name": "Voltage and frequency control",
+      "diff": "M",
+      "q": "voltage and frequency control power systems load frequency"
      },
      {
       "id": "ee-power-systems--power-factor-correction",
       "name": "Power factor correction",
-      "diff": "M"
-     },
+      "diff": "M",
+      "q": "power factor correction power systems"
+     }
+    ]
+   },
+   {
+    "letter": "D",
+    "name": "Fault Analysis",
+    "topics": [
      {
       "id": "ee-power-systems--symmetrical-components",
       "name": "Symmetrical components",
-      "diff": "M"
+      "diff": "M",
+      "q": "symmetrical components power systems"
      },
      {
       "id": "ee-power-systems--symmetrical-and-unsymmetrical-fault-analysis",
       "name": "Symmetrical and unsymmetrical fault analysis",
-      "diff": "M"
-     },
+      "diff": "M",
+      "q": "symmetrical and unsymmetrical fault analysis LG LL LLG"
+     }
+    ]
+   },
+   {
+    "letter": "E",
+    "name": "Protection",
+    "topics": [
      {
       "id": "ee-power-systems--principles-of-overcurrent",
-      "name": "Principles of overcurrent",
-      "diff": "M"
+      "name": "Over-current, differential, directional and distance protection",
+      "diff": "M",
+      "q": "overcurrent differential directional distance relay protection"
      },
      {
-      "id": "ee-power-systems--differential",
-      "name": "Differential",
-      "diff": "E"
+      "id": "ee-power-systems--circuit-breakers",
+      "name": "Circuit breakers",
+      "diff": "E",
+      "q": "circuit breakers power system protection"
+     }
+    ]
+   },
+   {
+    "letter": "F",
+    "name": "Stability",
+    "topics": [
+     {
+      "id": "ee-power-systems--system-stability-concepts",
+      "name": "System stability concepts",
+      "diff": "M",
+      "q": "power system stability swing equation"
      },
      {
-      "id": "ee-power-systems--directional-and-distance-protection",
-      "name": "Directional and distance protection",
-      "diff": "M"
-     },
-     {
-      "id": "ee-power-systems--circuit-breakers-system-stability-concepts-equal-area-criter",
-      "name": "Circuit breakers, System stability concepts, Equal area criterion",
-      "diff": "H"
+      "id": "ee-power-systems--equal-area-criterion",
+      "name": "Equal area criterion",
+      "diff": "H",
+      "q": "equal area criterion power system stability"
      }
     ]
    }
@@ -786,73 +1013,109 @@
  {
   "id": "ee-control-systems",
   "name": "Control Systems",
-  "marks": "",
-  "focus": "",
+  "marks": "7–10",
+  "focus": "Time response, Routh/Nyquist/Bode and state-space.",
   "modules": [
    {
     "letter": "A",
-    "name": "Control Systems",
+    "name": "Modelling and Representation",
     "topics": [
      {
       "id": "ee-control-systems--mathematical-modelling-and-representation-of-systems",
       "name": "Mathematical modelling and representation of systems",
       "diff": "M",
+      "q": "mathematical modelling of systems control systems",
       "sample": true
      },
      {
       "id": "ee-control-systems--feedback-principle",
       "name": "Feedback principle",
-      "diff": "M"
+      "diff": "E",
+      "q": "feedback principle control systems"
      },
      {
       "id": "ee-control-systems--transfer-function",
       "name": "Transfer function",
-      "diff": "E"
+      "diff": "E",
+      "q": "transfer function control systems"
      },
      {
       "id": "ee-control-systems--block-diagrams-and-signal-flow-graphs",
-      "name": "Block diagrams and Signal flow graphs",
-      "diff": "M"
-     },
+      "name": "Block diagrams and signal flow graphs",
+      "diff": "M",
+      "q": "block diagram reduction signal flow graph Mason gain"
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Time-Domain Analysis",
+    "topics": [
      {
       "id": "ee-control-systems--transient-and-steady-state-analysis-of-linear-time-invariant",
-      "name": "Transient and Steady-state analysis of linear time invariant systems",
-      "diff": "M"
-     },
+      "name": "Transient and steady-state analysis of LTI systems",
+      "diff": "M",
+      "q": "time response steady state error control systems"
+     }
+    ]
+   },
+   {
+    "letter": "C",
+    "name": "Stability and Frequency Response",
+    "topics": [
      {
-      "id": "ee-control-systems--stability-analysis-using-routh-hurwitz-and-nyquist-criteria",
-      "name": "Stability analysis using Routh-Hurwitz and Nyquist criteria",
-      "diff": "H"
-     },
-     {
-      "id": "ee-control-systems--bode-plots",
-      "name": "Bode plots",
-      "diff": "E"
+      "id": "ee-control-systems--routh-hurwitz-stability-criterion",
+      "name": "Routh-Hurwitz stability criterion",
+      "diff": "M",
+      "q": "Routh Hurwitz criterion control systems"
      },
      {
       "id": "ee-control-systems--root-loci",
       "name": "Root loci",
-      "diff": "E"
+      "diff": "M",
+      "q": "root locus control systems"
      },
+     {
+      "id": "ee-control-systems--bode-plots",
+      "name": "Bode plots",
+      "diff": "M",
+      "q": "Bode plot gain margin phase margin control systems"
+     },
+     {
+      "id": "ee-control-systems--nyquist-stability-criterion",
+      "name": "Nyquist stability criterion",
+      "diff": "H",
+      "q": "Nyquist plot stability criterion control systems"
+     }
+    ]
+   },
+   {
+    "letter": "D",
+    "name": "Compensators and Controllers",
+    "topics": [
      {
       "id": "ee-control-systems--lag",
-      "name": "Lag",
-      "diff": "E"
-     },
-     {
-      "id": "ee-control-systems--lead-and-lead-lag-compensators",
-      "name": "Lead and Lead-Lag compensators",
-      "diff": "M"
+      "name": "Lag, lead and lead-lag compensators",
+      "diff": "M",
+      "q": "lag lead compensator control systems"
      },
      {
       "id": "ee-control-systems--p-pi-and-pid-controllers",
       "name": "P, PI and PID controllers",
-      "diff": "M"
-     },
+      "diff": "M",
+      "q": "P PI PID controllers control systems"
+     }
+    ]
+   },
+   {
+    "letter": "E",
+    "name": "State-Space Analysis",
+    "topics": [
      {
       "id": "ee-control-systems--state-space-model-solution-of-state-equations-of-lti-systems",
-      "name": "State space model, Solution of state equations of LTI systems",
-      "diff": "H"
+      "name": "State-space model and solution of state equations of LTI systems",
+      "diff": "H",
+      "q": "state space analysis state transition matrix"
      }
     ]
    }
@@ -861,63 +1124,85 @@
  {
   "id": "ee-electrical-and-electronic-meas",
   "name": "Electrical and Electronic Measurements",
-  "marks": "",
-  "focus": "",
+  "marks": "4–6",
+  "focus": "Bridges, wattmeter/energy meter connections and error analysis.",
   "modules": [
    {
     "letter": "A",
-    "name": "Electrical and Electronic Measurements",
+    "name": "Bridges, Potentiometers and Errors",
     "topics": [
      {
       "id": "ee-electrical-and-electronic-meas--bridges-and-potentiometers",
-      "name": "Bridges and Potentiometers",
+      "name": "Bridges and potentiometers",
       "diff": "M",
+      "q": "AC bridges DC bridges potentiometer measurements",
       "sample": true
      },
      {
+      "id": "ee-electrical-and-electronic-meas--error-analysis",
+      "name": "Error analysis",
+      "diff": "M",
+      "q": "error analysis limiting error electrical measurements"
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Measurement of Electrical Quantities",
+    "topics": [
+     {
       "id": "ee-electrical-and-electronic-meas--measurement-of-voltage",
       "name": "Measurement of voltage",
-      "diff": "M"
+      "diff": "M",
+      "q": "voltmeter measurement of voltage electrical measurements"
      },
      {
       "id": "ee-electrical-and-electronic-meas--current",
-      "name": "Current",
-      "diff": "E"
+      "name": "Measurement of current",
+      "diff": "E",
+      "q": "ammeter shunt measurement of current electrical measurements"
      },
      {
       "id": "ee-electrical-and-electronic-meas--power",
-      "name": "Power",
-      "diff": "E"
+      "name": "Measurement of power",
+      "diff": "M",
+      "q": "wattmeter measurement of power two wattmeter method"
      },
      {
       "id": "ee-electrical-and-electronic-meas--energy-and-power-factor",
-      "name": "Energy and power factor",
-      "diff": "M"
+      "name": "Measurement of energy and power factor",
+      "diff": "M",
+      "q": "energy meter power factor meter measurements"
      },
      {
       "id": "ee-electrical-and-electronic-meas--instrument-transformers",
       "name": "Instrument transformers",
-      "diff": "H"
-     },
+      "diff": "M",
+      "q": "current transformer potential transformer instrument transformers"
+     }
+    ]
+   },
+   {
+    "letter": "C",
+    "name": "Digital Instruments and Oscilloscopes",
+    "topics": [
      {
       "id": "ee-electrical-and-electronic-meas--digital-voltmeters-and-multi-meters",
-      "name": "Digital voltmeters and multi-meters",
-      "diff": "M"
+      "name": "Digital voltmeters and multimeters",
+      "diff": "E",
+      "q": "digital voltmeter multimeter measurements"
      },
      {
       "id": "ee-electrical-and-electronic-meas--phase",
-      "name": "Phase",
-      "diff": "E"
+      "name": "Phase, time and frequency measurement",
+      "diff": "M",
+      "q": "phase time frequency measurement Lissajous"
      },
      {
-      "id": "ee-electrical-and-electronic-meas--time-and-frequency-measurement",
-      "name": "Time and Frequency measurement",
-      "diff": "M"
-     },
-     {
-      "id": "ee-electrical-and-electronic-meas--oscilloscopes-error-analysis",
-      "name": "Oscilloscopes, Error analysis",
-      "diff": "M"
+      "id": "ee-electrical-and-electronic-meas--oscilloscopes",
+      "name": "Oscilloscopes",
+      "diff": "E",
+      "q": "cathode ray oscilloscope CRO measurements"
      }
     ]
    }
@@ -926,83 +1211,115 @@
  {
   "id": "ee-analog-and-digital-electronics",
   "name": "Analog and Digital Electronics",
-  "marks": "",
-  "focus": "",
+  "marks": "6–9",
+  "focus": "Op-amp circuits, diode circuits and combinational/sequential logic.",
   "modules": [
    {
     "letter": "A",
-    "name": "Simple diode circuits",
+    "name": "Diode Circuits",
     "topics": [
      {
       "id": "ee-analog-and-digital-electronics--clipping-clamping-rectifiers",
-      "name": "Clipping, clamping, rectifiers",
+      "name": "Clipping, clamping and rectifier circuits",
       "diff": "M",
+      "q": "diode clipper clamper rectifier circuits",
       "sample": true
-     },
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Amplifiers and Oscillators",
+    "topics": [
      {
       "id": "ee-analog-and-digital-electronics--amplifiers-biasing-equivalent-circuit-and-frequency-response",
       "name": "Amplifiers: biasing, equivalent circuit and frequency response",
-      "diff": "M"
+      "diff": "M",
+      "q": "transistor amplifier biasing small signal frequency response"
      },
      {
       "id": "ee-analog-and-digital-electronics--oscillators-and-feedback-amplifiers",
       "name": "Oscillators and feedback amplifiers",
-      "diff": "M"
-     },
+      "diff": "M",
+      "q": "feedback amplifiers oscillators Barkhausen"
+     }
+    ]
+   },
+   {
+    "letter": "C",
+    "name": "Op-Amps and Filters",
+    "topics": [
      {
       "id": "ee-analog-and-digital-electronics--operational-amplifiers-characteristics-and-applications",
       "name": "Operational amplifiers: characteristics and applications",
-      "diff": "M"
+      "diff": "M",
+      "q": "op amp characteristics and applications"
      },
      {
       "id": "ee-analog-and-digital-electronics--single-stage-active-filters",
       "name": "Single stage active filters",
-      "diff": "M"
+      "diff": "M",
+      "q": "first order active filters op amp"
      },
      {
       "id": "ee-analog-and-digital-electronics--active-filters-sallen-key",
-      "name": "Active Filters: Sallen Key",
-      "diff": "M"
-     },
-     {
-      "id": "ee-analog-and-digital-electronics--butterworth",
-      "name": "Butterworth",
-      "diff": "E"
-     },
-     {
-      "id": "ee-analog-and-digital-electronics--vcos-and-timers",
-      "name": "VCOs and timers",
-      "diff": "E"
-     },
-     {
-      "id": "ee-analog-and-digital-electronics--combinatorial-and-sequential-logic-circuits",
-      "name": "Combinatorial and sequential logic circuits",
-      "diff": "M"
-     },
-     {
-      "id": "ee-analog-and-digital-electronics--multiplexers",
-      "name": "Multiplexers",
-      "diff": "E"
-     },
-     {
-      "id": "ee-analog-and-digital-electronics--demultiplexers",
-      "name": "Demultiplexers",
-      "diff": "E"
+      "name": "Active filters: Sallen-Key and Butterworth",
+      "diff": "M",
+      "q": "Sallen Key Butterworth active filter"
      },
      {
       "id": "ee-analog-and-digital-electronics--schmitt-triggers",
       "name": "Schmitt triggers",
-      "diff": "E"
+      "diff": "E",
+      "q": "Schmitt trigger op amp"
      },
+     {
+      "id": "ee-analog-and-digital-electronics--vcos-and-timers",
+      "name": "VCOs and timers",
+      "diff": "E",
+      "q": "555 timer voltage controlled oscillator"
+     }
+    ]
+   },
+   {
+    "letter": "D",
+    "name": "Digital Logic",
+    "topics": [
+     {
+      "id": "ee-analog-and-digital-electronics--combinatorial-and-sequential-logic-circuits",
+      "name": "Combinational and sequential logic circuits",
+      "diff": "M",
+      "q": "combinational and sequential logic circuits flip flops counters"
+     },
+     {
+      "id": "ee-analog-and-digital-electronics--multiplexers",
+      "name": "Multiplexers",
+      "diff": "E",
+      "q": "multiplexer digital electronics"
+     },
+     {
+      "id": "ee-analog-and-digital-electronics--demultiplexers",
+      "name": "Demultiplexers",
+      "diff": "E",
+      "q": "demultiplexer digital electronics"
+     }
+    ]
+   },
+   {
+    "letter": "E",
+    "name": "Data Converters",
+    "topics": [
      {
       "id": "ee-analog-and-digital-electronics--sample-and-hold-circuits",
       "name": "Sample and hold circuits",
-      "diff": "M"
+      "diff": "E",
+      "q": "sample and hold circuit"
      },
      {
       "id": "ee-analog-and-digital-electronics--a-d-and-d-a-converters",
       "name": "A/D and D/A converters",
-      "diff": "M"
+      "diff": "M",
+      "q": "ADC DAC converters digital electronics"
      }
     ]
    }
@@ -1011,68 +1328,91 @@
  {
   "id": "ee-power-electronics",
   "name": "Power Electronics",
-  "marks": "",
-  "focus": "",
+  "marks": "8–11",
+  "focus": "Converter waveforms, DC-DC converters and harmonics/power factor; scoring.",
   "modules": [
    {
     "letter": "A",
-    "name": "Power Electronics",
+    "name": "Power Semiconductor Devices",
     "topics": [
      {
       "id": "ee-power-electronics--static-v-i-characteristics-and-firing-gating-circuits-for-th",
-      "name": "Static V-I characteristics and firing/gating circuits for Thyristor",
+      "name": "Static V-I characteristics and firing/gating circuits for thyristor, MOSFET and IGBT",
       "diff": "M",
+      "q": "thyristor MOSFET IGBT V-I characteristics gate drive",
       "sample": true
-     },
-     {
-      "id": "ee-power-electronics--mosfet",
-      "name": "MOSFET",
-      "diff": "E"
-     },
-     {
-      "id": "ee-power-electronics--igbt",
-      "name": "IGBT",
-      "diff": "E"
-     },
-     {
-      "id": "ee-power-electronics--dc-to-dc-conversion-buck-boost-and-buck-boost-converters",
-      "name": "DC to DC conversion: Buck, Boost and Buck -Boost Converters",
-      "diff": "M"
-     },
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "AC-DC Converters",
+    "topics": [
      {
       "id": "ee-power-electronics--single-and-three-phase-configuration-of-uncontrolled-rectifi",
-      "name": "Single and three -phase configuration of uncontrolled rectifiers",
-      "diff": "M"
+      "name": "Single- and three-phase uncontrolled rectifiers",
+      "diff": "M",
+      "q": "single phase three phase diode rectifier"
      },
      {
       "id": "ee-power-electronics--v-oltage-and-current-commutated-thyristor-based-converters",
-      "name": "V oltage and Current commutated Thyristor based converters",
-      "diff": "M"
+      "name": "Voltage and current commutated thyristor-based converters",
+      "diff": "M",
+      "q": "thyristor phase controlled converter commutation"
      },
      {
       "id": "ee-power-electronics--bidirectional-ac-to-dc-voltage-source-converters",
-      "name": "Bidirectional ac to dc voltage source converters",
-      "diff": "M"
-     },
+      "name": "Bidirectional AC to DC voltage source converters",
+      "diff": "H",
+      "q": "bidirectional AC DC voltage source converter PWM rectifier"
+     }
+    ]
+   },
+   {
+    "letter": "C",
+    "name": "Harmonics and Power Factor",
+    "topics": [
      {
       "id": "ee-power-electronics--magnitude-and-phase-of-line-current-harmonics-for-uncontroll",
-      "name": "Magnitude and Phase of line current harmonics for uncontrolled and thyristor based converters",
-      "diff": "M"
+      "name": "Magnitude and phase of line current harmonics for uncontrolled and thyristor-based converters",
+      "diff": "M",
+      "q": "line current harmonics rectifier converter"
      },
      {
       "id": "ee-power-electronics--power-factor-and-distortion-factor-of-ac-to-dc-converters",
-      "name": "Power factor and Distortion Factor of AC to DC converters",
-      "diff": "M"
-     },
+      "name": "Power factor and distortion factor of AC to DC converters",
+      "diff": "M",
+      "q": "power factor distortion factor displacement factor converter"
+     }
+    ]
+   },
+   {
+    "letter": "D",
+    "name": "DC-DC Converters",
+    "topics": [
+     {
+      "id": "ee-power-electronics--dc-to-dc-conversion-buck-boost-and-buck-boost-converters",
+      "name": "Buck, boost and buck-boost converters",
+      "diff": "M",
+      "q": "buck boost buck-boost DC DC converter"
+     }
+    ]
+   },
+   {
+    "letter": "E",
+    "name": "Inverters",
+    "topics": [
      {
       "id": "ee-power-electronics--single-phase-and-three-phase-voltage-and-current-source-inve",
       "name": "Single-phase and three-phase voltage and current source inverters",
-      "diff": "M"
+      "diff": "M",
+      "q": "voltage source and current source inverter"
      },
      {
       "id": "ee-power-electronics--sinusoidal-pulse-width-modulation",
       "name": "Sinusoidal pulse width modulation",
-      "diff": "M"
+      "diff": "M",
+      "q": "sinusoidal PWM inverter"
      }
     ]
    }

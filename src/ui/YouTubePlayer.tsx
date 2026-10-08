@@ -42,9 +42,10 @@ export function YouTubePlayer({ videos }: { videos: Video[] }) {
         <p className="text-sm text-sub">{v.channel}</p>
       </div>
 
-      <ol className="flex flex-col gap-1.5" aria-label="Videos for this topic">
+      {/* Phones: a swipeable row, so the notes below stay close. Large screens: a list beside the player. */}
+      <ol className="-mx-4 flex snap-x gap-2 overflow-x-auto px-4 pb-1 lg:mx-0 lg:flex-col lg:gap-1.5 lg:overflow-visible lg:px-0" aria-label="Videos for this topic">
         {videos.map((x, i) => (
-          <li key={x.id}>
+          <li key={x.id} className="w-64 shrink-0 snap-start lg:w-auto">
             <button
               type="button"
               onClick={() => { setActive(i); setPlaying(true); }}

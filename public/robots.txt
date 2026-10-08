@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /admin
+Disallow: /me
+Disallow: /auth
+Sitemap: https://gate-az.pages.dev/sitemap.xml

@@ -4,5 +4,6 @@ import { defineConfig } from 'vite'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: './',
+  // Absolute asset paths: pages live at real URLs like /cs/<topic>, not under #/.
+  base: '/',
 })

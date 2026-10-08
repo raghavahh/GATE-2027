@@ -7,12 +7,14 @@ import { Bar, DiffText, StatusBox } from '../ui/bits';
 import { BuyModal } from '../ui/BuyModal';
 import { useAuth } from '../lib/auth';
 import { Loading, NotFound } from './Static';
+import { useTitle } from '../lib/title';
 
 type Filter = 'all' | Diff;
 
 export function PaperPage() {
   const { paper: slug = '' } = useParams();
   const paper = getPaper(slug);
+  useTitle(paper ? `${paper.code} ${paper.name} · GATE 2027 syllabus` : undefined);
   const ready = usePaper(slug);
   const subjects = getSubjects(slug);
   const { progress } = useStore();

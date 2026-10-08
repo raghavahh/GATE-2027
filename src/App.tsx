@@ -1,23 +1,33 @@
-import { HashRouter, Route, Routes } from 'react-router-dom';
+import { lazy, Suspense } from 'react';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import { Shell } from './ui/Shell';
 import { Home } from './pages/Home';
 import { PaperPage } from './pages/PaperPage';
 import { TopicPage } from './pages/TopicPage';
-import { GuidePage, NotFound, PapersPage } from './pages/Static';
-import { PyqPage } from './pages/PyqPage';
+import { GuidePage, Loading, NotFound, PapersPage } from './pages/Static';
 import { devUnlockFromUrl } from './lib/store';
 import { AuthProvider } from './lib/auth';
-import { AdminPage } from './pages/AdminPage';
-import { MePage } from './pages/MePage';
-import { AuthPage } from './pages/AuthPage';
-import { ContactPage, DeliveryPage, PrivacyPage, RefundPage, TermsPage } from './pages/Legal';
+
+// Pages most visitors never open are downloaded only when visited (smaller first load on phones).
+const named = <K extends string>(load: () => Promise<Record<K, React.ComponentType>>, name: K) =>
+  lazy(() => load().then(m => ({ default: m[name] })));
+const PyqPage = named(() => import('./pages/PyqPage'), 'PyqPage');
+const AdminPage = named(() => import('./pages/AdminPage'), 'AdminPage');
+const MePage = named(() => import('./pages/MePage'), 'MePage');
+const AuthPage = named(() => import('./pages/AuthPage'), 'AuthPage');
+const TermsPage = named(() => import('./pages/Legal'), 'TermsPage');
+const PrivacyPage = named(() => import('./pages/Legal'), 'PrivacyPage');
+const RefundPage = named(() => import('./pages/Legal'), 'RefundPage');
+const DeliveryPage = named(() => import('./pages/Legal'), 'DeliveryPage');
+const ContactPage = named(() => import('./pages/Legal'), 'ContactPage');
 
 devUnlockFromUrl();
 
 export default function App() {
   return (
     <AuthProvider>
-    <HashRouter>
+    <BrowserRouter>
+      <Suspense fallback={<Loading />}>
       <Routes>
         <Route element={<Shell />}>
           <Route index element={<Home />} />
@@ -37,7 +47,8 @@ export default function App() {
           <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>
-    </HashRouter>
+      </Suspense>
+    </BrowserRouter>
     </AuthProvider>
   );
 }

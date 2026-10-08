@@ -3,7 +3,7 @@ import { Link, useNavigate, useSearchParams } from 'react-router-dom';
 import type { EmailOtpType } from '@supabase/supabase-js';
 import { supabase } from '../lib/supabase';
 
-/** Landing page for the sign-in link in the email (#/auth?token_hash=…&type=email).
+/** Landing page for the sign-in link in the email (/auth?token_hash=…&type=email).
  *  Verifies the token itself, so the link works on any device or browser. */
 export function AuthPage() {
   const [params] = useSearchParams();

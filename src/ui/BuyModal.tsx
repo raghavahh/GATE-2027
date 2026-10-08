@@ -128,7 +128,8 @@ export function BuyModal({ paper, topicName, counts, onClose }: Props) {
 
   return (
     <>
-    <div className="fixed inset-0 z-50 flex items-end justify-center bg-black/60 sm:items-center sm:p-4" onClick={close}>
+    {/* Hidden (not closed) while the sign-in dialog is up, so only one backdrop shows; it returns to finish the payment. */}
+    <div className={`fixed inset-0 z-50 items-end justify-center bg-black/60 sm:items-center sm:p-4 ${needSignIn ? 'hidden' : 'flex'}`} onClick={close}>
       <div
         ref={panel}
         tabIndex={-1}

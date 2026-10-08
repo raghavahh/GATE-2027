@@ -13,7 +13,7 @@ interface Ent { paper: string; edition: string; expires_at: string; payment_id: 
 const EXAM = new Date('2027-02-06T09:00:00+05:30'); // update when official dates are announced
 
 export function MePage() {
-  const { session, ready } = useAuth();
+  const { session, ready, signOut } = useAuth();
   const { progress } = useStore();
   const [ents, setEnts] = useState<Ent[] | null>(null);
   const [err, setErr] = useState(false);
@@ -107,6 +107,7 @@ export function MePage() {
       <p className="mt-2 text-xs text-mute">All purchases are final. <Link to="/refund" className="underline">Refund policy</Link></p>
 
       <div className="mt-12 flex flex-wrap gap-3 border-t border-line pt-6">
+        <button type="button" className="btn-ghost" onClick={signOut}>Sign out</button>
         <button type="button" className="btn-ghost" onClick={() => supabase.auth.signOut({ scope: 'global' })}>Sign out on all devices</button>
       </div>
     </div>

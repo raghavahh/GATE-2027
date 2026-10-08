@@ -21,21 +21,31 @@ Deno.serve(async req => {
     if (ownErr) throw ownErr;
     if (owned) return json(req, { error: 'You already own this paper.' }, 409);
 
-    // Reuse an unpaid order from the last 30 minutes, so repeated clicks or two tabs share one order
-    // (Razorpay accepts only one successful payment per order).
-    const { data: open } = await db.from('orders').select('id')
-      .eq('user_id', user.id).eq('paper', paper).eq('edition', EDITION).eq('status', 'created').eq('amount_paise', PRICE_PAISE)
-      .gt('created_at', new Date(Date.now() - 30 * 60_000).toISOString()).order('created_at', { ascending: false }).limit(1).maybeSingle();
-    if (open) return json(req, { orderId: open.id, amount: PRICE_PAISE, currency: 'INR', keyId: Deno.env.get('RAZORPAY_KEY_ID'), email: user.email });
+    const reply = (orderId: string) =>
+      json(req, { orderId, amount: PRICE_PAISE, currency: 'INR', keyId: Deno.env.get('RAZORPAY_KEY_ID'), email: user.email });
+    const openOrder = () => db.from('orders').select('id')
+      .eq('user_id', user.id).eq('paper', paper).eq('edition', EDITION).eq('status', 'created').maybeSingle();
+
+    // One open order per person and paper (unique index), so repeated clicks or two tabs share it:
+    // Razorpay accepts only one successful payment per order. Orders older than 30 minutes are retired first.
+    await db.from('orders').update({ status: 'expired' })
+      .eq('user_id', user.id).eq('paper', paper).eq('edition', EDITION).eq('status', 'created')
+      .or(`created_at.lt.${new Date(Date.now() - 30 * 60_000).toISOString()},amount_paise.neq.${PRICE_PAISE}`);
+    const { data: open } = await openOrder();
+    if (open) return reply(open.id);
 
     const order = await rzp('/orders', {
       method: 'POST',
       body: JSON.stringify({ amount: PRICE_PAISE, currency: 'INR', receipt: `${paper}-${user.id.slice(0, 8)}-${Date.now()}`, notes: { user_id: user.id, paper, edition: EDITION } }),
     });
     const { error } = await db.from('orders').insert({ id: order.id, user_id: user.id, paper, edition: EDITION, amount_paise: PRICE_PAISE });
+    if (error?.code === '23505') {
+      // A parallel request created the open order first; use that one (this Razorpay order is never shown, so never paid).
+      const { data: won } = await openOrder();
+      if (won) return reply(won.id);
+    }
     if (error) throw error;
-
-    return json(req, { orderId: order.id, amount: PRICE_PAISE, currency: 'INR', keyId: Deno.env.get('RAZORPAY_KEY_ID'), email: user.email });
+    return reply(order.id);
   } catch (e) {
     console.error(e);
     return json(req, { error: 'Could not start payment. Try again.' }, 500);

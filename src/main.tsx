@@ -3,9 +3,13 @@ import { createRoot } from 'react-dom/client'
 import './index.css'
 import App from './App'
 
+// Supabase reports failed/expired email links in the hash (#error=…): show them on the sign-in page.
 if (/^#(error|access_token)=/.test(location.hash)) {
   const p = new URLSearchParams(location.hash.slice(1));
-  location.replace(`${location.pathname}#/auth?error=${encodeURIComponent(p.get('error_description') ?? p.get('error') ?? 'sign-in failed')}`);
+  history.replaceState(null, '', `/auth?error=${encodeURIComponent(p.get('error_description') ?? p.get('error') ?? 'sign-in failed')}`);
+} else if (location.hash.startsWith('#/')) {
+  // Old #/ links (shared links, bookmarks, older email templates) move to the real path.
+  history.replaceState(null, '', location.hash.slice(1));
 }
 
 createRoot(document.getElementById('root')!).render(

@@ -25,9 +25,17 @@ begin
     where s.user_id = auth.uid() and s.session_id <> coalesce(auth.jwt() ->> 'session_id', '')
   ) then raise exception 'signed in elsewhere'; end if;
   select t.videos into v from public.topic_videos t where t.paper = p_paper and t.topic_id = p_topic;
-  insert into public.events (user_id, name, paper, topic) values (auth.uid(), 'topic_view', p_paper, p_topic);
+  -- One view per person and topic per 30 minutes, so repeated calls can't flood the table.
+  if not exists (
+    select 1 from public.events e
+    where e.user_id = auth.uid() and e.topic = p_topic and e.name = 'topic_view' and e.created_at > now() - interval '30 minutes'
+  ) then
+    insert into public.events (user_id, name, paper, topic) values (auth.uid(), 'topic_view', p_paper, p_topic);
+  end if;
   return coalesce(v, '[]'::jsonb);
 end $$;
+
+create index if not exists events_user_topic_idx on public.events(user_id, topic, created_at desc);
 
 revoke execute on function public.get_topic_videos(text, text) from public, anon;
 grant execute on function public.get_topic_videos(text, text) to authenticated;

@@ -32,7 +32,7 @@ export const TermsPage = () => (
     <h2>Not affiliated</h2>
     <p>GATE A–Z is an independent platform and is not affiliated with IISc, the IITs or the GATE organising committee.</p>
     <h2>Payments, refunds and cancellations</h2>
-    <p>Payments are processed by Razorpay. All purchases are final. See our <a className="text-brand underline" href="#/refund">Refund and cancellation policy</a>.</p>
+    <p>Payments are processed by Razorpay. All purchases are final. See our <a className="text-brand underline" href="/refund">Refund and cancellation policy</a>.</p>
     <h2>Changes and law</h2>
     <p>We may update these terms; the latest version is always on this page. These terms are governed by the laws of India.</p>
   </Page>

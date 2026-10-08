@@ -1,6 +1,7 @@
 import { createContext, useCallback, useContext, useEffect, useState, type ReactNode } from 'react';
 import type { Session } from '@supabase/supabase-js';
 import { supabase } from './supabase';
+import { startSync, stopSync } from './sync';
 
 interface AuthState {
   session: Session | null;
@@ -67,6 +68,14 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     });
     return () => sub.subscription.unsubscribe();
   }, [load]);
+
+  // Ticks follow the student across devices while signed in.
+  const uid = session?.user.id;
+  useEffect(() => {
+    if (!uid) return;
+    startSync(uid);
+    return stopSync;
+  }, [uid]);
 
   // One active login: check every 60s and on focus whether this session is still the active one.
   useEffect(() => {

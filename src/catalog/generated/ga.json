@@ -2,8 +2,8 @@
  {
   "id": "ga-verbal-aptitude",
   "name": "Verbal Aptitude",
-  "marks": "",
-  "focus": "",
+  "marks": "4–6",
+  "focus": "Grammar error-spotting and word-in-context questions appear every set; read the options carefully.",
   "modules": [
    {
     "letter": "A",
@@ -13,37 +13,44 @@
       "id": "ga-verbal-aptitude--tenses",
       "name": "Tenses",
       "diff": "E",
+      "q": "tenses english grammar GATE general aptitude",
       "sample": true
      },
      {
       "id": "ga-verbal-aptitude--articles",
       "name": "Articles",
-      "diff": "E"
+      "diff": "E",
+      "q": "articles a an the english grammar GATE general aptitude"
      },
      {
       "id": "ga-verbal-aptitude--adjectives",
       "name": "Adjectives",
-      "diff": "E"
+      "diff": "E",
+      "q": "adjectives degrees of comparison english grammar GATE general aptitude"
      },
      {
       "id": "ga-verbal-aptitude--prepositions",
       "name": "Prepositions",
-      "diff": "E"
+      "diff": "M",
+      "q": "prepositions english grammar GATE general aptitude"
      },
      {
       "id": "ga-verbal-aptitude--conjunctions",
       "name": "Conjunctions",
-      "diff": "E"
+      "diff": "E",
+      "q": "conjunctions english grammar GATE general aptitude"
      },
      {
       "id": "ga-verbal-aptitude--verb-noun-agreement",
       "name": "Verb-noun agreement",
-      "diff": "M"
+      "diff": "M",
+      "q": "subject verb agreement english grammar GATE general aptitude"
      },
      {
       "id": "ga-verbal-aptitude--other-parts-of-speech",
       "name": "Other parts of speech",
-      "diff": "M"
+      "diff": "M",
+      "q": "parts of speech pronouns adverbs error spotting GATE general aptitude"
      }
     ]
    },
@@ -53,13 +60,27 @@
     "topics": [
      {
       "id": "ga-verbal-aptitude--words-idioms-and-phrases-in-context",
-      "name": "Words, idioms, and phrases in context",
-      "diff": "M"
+      "name": "Words, idioms and phrases in context",
+      "diff": "M",
+      "q": "vocabulary idioms and phrases word in context GATE general aptitude"
+     }
+    ]
+   },
+   {
+    "letter": "C",
+    "name": "Reading & narrative",
+    "topics": [
+     {
+      "id": "ga-verbal-aptitude--reading-comprehension",
+      "name": "Reading comprehension",
+      "diff": "M",
+      "q": "reading comprehension passage inference GATE general aptitude"
      },
      {
-      "id": "ga-verbal-aptitude--reading-and-comprehension-narrative-sequencing",
-      "name": "Reading and comprehension, Narrative sequencing",
-      "diff": "M"
+      "id": "ga-verbal-aptitude--narrative-sequencing",
+      "name": "Narrative sequencing",
+      "diff": "M",
+      "q": "narrative sequencing sentence rearrangement para jumbles GATE general aptitude"
      }
     ]
    }
@@ -68,8 +89,8 @@
  {
   "id": "ga-quantitative-aptitude",
   "name": "Quantitative Aptitude",
-  "marks": "",
-  "focus": "",
+  "marks": "5–7",
+  "focus": "Percentages, ratios, P&C and data interpretation make up most 2-mark questions; practise speed.",
   "modules": [
    {
     "letter": "A",
@@ -77,24 +98,28 @@
     "topics": [
      {
       "id": "ga-quantitative-aptitude--data-graphs-bar-graphs-pie-charts-and-other-graphs-represent",
-      "name": "Data graphs (bar graphs, pie charts, and other graphs representing data)",
+      "name": "Data graphs: bar graphs, pie charts and other charts",
       "diff": "M",
+      "q": "data interpretation bar graph pie chart GATE general aptitude",
       "sample": true
      },
      {
       "id": "ga-quantitative-aptitude--2-and-3-dimensional-plots",
-      "name": "2-and 3-dimensional plots",
-      "diff": "M"
+      "name": "Data interpretation: 2D and 3D plots",
+      "diff": "M",
+      "q": "data interpretation 2D 3D plots graphs GATE general aptitude"
      },
      {
       "id": "ga-quantitative-aptitude--maps",
-      "name": "Maps",
-      "diff": "E"
+      "name": "Data interpretation: maps",
+      "diff": "E",
+      "q": "data interpretation maps directions GATE general aptitude"
      },
      {
       "id": "ga-quantitative-aptitude--tables",
-      "name": "Tables",
-      "diff": "E"
+      "name": "Data interpretation: tables",
+      "diff": "M",
+      "q": "data interpretation tables tabular data GATE general aptitude"
      }
     ]
    },
@@ -104,38 +129,57 @@
     "topics": [
      {
       "id": "ga-quantitative-aptitude--ratios",
-      "name": "Ratios",
-      "diff": "E"
+      "name": "Ratios and proportions",
+      "diff": "E",
+      "q": "ratio and proportion quantitative aptitude GATE general aptitude"
      },
      {
       "id": "ga-quantitative-aptitude--percentages",
       "name": "Percentages",
-      "diff": "E"
+      "diff": "E",
+      "q": "percentages profit loss quantitative aptitude GATE general aptitude"
      },
      {
       "id": "ga-quantitative-aptitude--powers",
-      "name": "Powers",
-      "diff": "E"
+      "name": "Powers and exponents",
+      "diff": "E",
+      "q": "powers exponents indices surds quantitative aptitude GATE general aptitude"
      },
      {
       "id": "ga-quantitative-aptitude--exponents-and-logarithms",
-      "name": "Exponents and logarithms",
-      "diff": "M"
+      "name": "Logarithms",
+      "diff": "M",
+      "q": "logarithms exponents quantitative aptitude GATE general aptitude"
      },
      {
       "id": "ga-quantitative-aptitude--permutations-and-combinations",
       "name": "Permutations and combinations",
-      "diff": "M"
+      "diff": "M",
+      "q": "permutations and combinations counting GATE general aptitude"
      },
      {
       "id": "ga-quantitative-aptitude--series",
-      "name": "Series",
-      "diff": "E"
+      "name": "Number series",
+      "diff": "E",
+      "q": "number series progressions AP GP quantitative aptitude GATE general aptitude"
+     }
+    ]
+   },
+   {
+    "letter": "C",
+    "name": "Mensuration, statistics and probability",
+    "topics": [
+     {
+      "id": "ga-quantitative-aptitude--mensuration-and-geometry",
+      "name": "Mensuration and geometry",
+      "diff": "M",
+      "q": "mensuration geometry area volume quantitative aptitude GATE general aptitude"
      },
      {
-      "id": "ga-quantitative-aptitude--mensuration-and-geometry-elementary-statistics-and-probabili",
-      "name": "Mensuration and geometry, Elementary statistics and probability",
-      "diff": "M"
+      "id": "ga-quantitative-aptitude--elementary-statistics-and-probability",
+      "name": "Elementary statistics and probability",
+      "diff": "M",
+      "q": "mean median mode basic probability quantitative aptitude GATE general aptitude"
      }
     ]
    }
@@ -144,18 +188,31 @@
  {
   "id": "ga-analytical-aptitude",
   "name": "Analytical Aptitude",
-  "marks": "",
-  "focus": "",
+  "marks": "2–4",
+  "focus": "Statement-conclusion logic and seating or number puzzles; draw a table first.",
   "modules": [
    {
     "letter": "A",
     "name": "Logic",
     "topics": [
      {
-      "id": "ga-analytical-aptitude--deduction-and-induction-analogy-numerical-relations-and-reas",
-      "name": "Deduction and induction, Analogy, Numerical relations and reasoning",
+      "id": "ga-analytical-aptitude--deduction-and-induction",
+      "name": "Deduction and induction",
       "diff": "M",
+      "q": "deductive inductive reasoning statement conclusion syllogism GATE general aptitude",
       "sample": true
+     },
+     {
+      "id": "ga-analytical-aptitude--analogy",
+      "name": "Analogy",
+      "diff": "E",
+      "q": "analogy verbal and number analogy reasoning GATE general aptitude"
+     },
+     {
+      "id": "ga-analytical-aptitude--numerical-relations-and-reasoning",
+      "name": "Numerical relations and reasoning",
+      "diff": "H",
+      "q": "numerical reasoning puzzles seating arrangement blood relations GATE general aptitude"
      }
     ]
    }
@@ -164,8 +221,8 @@
  {
   "id": "ga-spatial-aptitude",
   "name": "Spatial Aptitude",
-  "marks": "",
-  "focus": "",
+  "marks": "1–3",
+  "focus": "One rotation, mirror or paper-folding question per set; visualise, then eliminate options.",
   "modules": [
    {
     "letter": "A",
@@ -175,42 +232,62 @@
       "id": "ga-spatial-aptitude--translation",
       "name": "Translation",
       "diff": "E",
+      "q": "translation of shapes spatial reasoning GATE general aptitude",
       "sample": true
      },
      {
       "id": "ga-spatial-aptitude--rotation",
       "name": "Rotation",
-      "diff": "E"
+      "diff": "M",
+      "q": "rotation of figures 2D 3D spatial reasoning GATE general aptitude"
      },
      {
       "id": "ga-spatial-aptitude--scaling",
       "name": "Scaling",
-      "diff": "E"
+      "diff": "E",
+      "q": "scaling of shapes spatial reasoning GATE general aptitude"
      },
      {
       "id": "ga-spatial-aptitude--mirroring",
       "name": "Mirroring",
-      "diff": "E"
-     },
+      "diff": "E",
+      "q": "mirror image water image spatial reasoning GATE general aptitude"
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Assembling, folding, cutting and patterns",
+    "topics": [
      {
       "id": "ga-spatial-aptitude--assembling",
       "name": "Assembling",
-      "diff": "E"
+      "diff": "M",
+      "q": "assembling shapes figure completion spatial reasoning GATE general aptitude"
      },
      {
-      "id": "ga-spatial-aptitude--grouping-paper-folding",
-      "name": "Grouping paper folding",
-      "diff": "M"
+      "id": "ga-spatial-aptitude--grouping",
+      "name": "Grouping",
+      "diff": "M",
+      "q": "grouping of figures classification spatial reasoning GATE general aptitude"
+     },
+     {
+      "id": "ga-spatial-aptitude--paper-folding",
+      "name": "Paper folding",
+      "diff": "M",
+      "q": "paper folding punched hole spatial reasoning GATE general aptitude"
      },
      {
       "id": "ga-spatial-aptitude--cutting",
-      "name": "Cutting",
-      "diff": "E"
+      "name": "Paper cutting",
+      "diff": "M",
+      "q": "paper cutting spatial reasoning GATE general aptitude"
      },
      {
       "id": "ga-spatial-aptitude--patterns-in-2-and-3-dimensions",
-      "name": "Patterns in 2 and 3 dimensions",
-      "diff": "M"
+      "name": "Patterns in 2D and 3D",
+      "diff": "H",
+      "q": "2D 3D patterns cube nets counting spatial reasoning GATE general aptitude"
      }
     ]
    }

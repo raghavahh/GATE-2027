@@ -85,11 +85,27 @@ begin
   on conflict (user_id) do update set session_id = excluded.session_id, updated_at = now();
 end $$;
 
+-- Judged only from the caller's own token; the p_session argument is kept for old clients and ignored.
 create or replace function public.is_active_session(p_session text) returns boolean
 language sql stable security definer set search_path = '' as $$
-  select coalesce((select session_id = coalesce(auth.jwt() ->> 'session_id', p_session)
+  select coalesce((select session_id = (auth.jwt() ->> 'session_id')
                    from public.active_sessions where user_id = auth.uid()), true);
 $$;
+
+-- Study progress, synced across a student's devices.
+create table if not exists public.progress (
+  user_id uuid not null references auth.users(id) on delete cascade,
+  topic_id text not null,
+  status text not null check (status in ('todo', 'doing', 'done')),
+  updated_at timestamptz not null default now(),
+  primary key (user_id, topic_id)
+);
+alter table public.progress enable row level security;
+drop policy if exists "own progress" on public.progress;
+create policy "own progress" on public.progress for all
+  using ((select auth.uid()) = user_id) with check ((select auth.uid()) = user_id);
+grant select, insert, update, delete on public.progress to authenticated;
+revoke all on public.progress from anon;
 
 
 -- Admin dashboard numbers (admins only)
