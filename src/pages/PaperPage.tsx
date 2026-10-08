@@ -70,7 +70,7 @@ export function PaperPage() {
           ) : (
             <div className="card flex items-center justify-between gap-4 p-4">
               <div>
-                <p className="font-mono text-xl tnum">₹{PRICE_INR}</p>
+                <p className="text-xl font-semibold tnum">₹{PRICE_INR}</p>
                 <p className="text-xs text-sub">Full {paper.code} access till 30 days after the exam</p>
               </div>
               <button type="button" className="btn-primary" onClick={() => setBuyFor('')}>Unlock {paper.code}</button>
@@ -78,6 +78,8 @@ export function PaperPage() {
           )}
         </div>
       </section>
+
+      {unlocked && <UpNext slug={slug} topics={allTopics} progress={progress} />}
 
       <div className="-mx-4 flex items-center gap-2 border-b border-line bg-page/95 px-4 py-3 backdrop-blur sm:-mx-6 sm:px-6 md:sticky md:top-14 md:z-30">
         <label className="relative min-w-0 flex-1 sm:max-w-xs">
@@ -112,6 +114,30 @@ export function PaperPage() {
 
       {buyFor !== null && <BuyModal paper={paper} topicName={buyFor || undefined} counts={stats} onClose={() => setBuyFor(null)} />}
     </div>
+  );
+}
+
+/** Today's checklist: the next topics not yet done, in syllabus order, ticked off right here. */
+function UpNext({ slug, topics, progress }: { slug: string; topics: CatTopic[]; progress: Record<string, Status> }) {
+  const next = topics.filter(t => progress[t.id] !== 'done').slice(0, 5);
+  const left = topics.length - topics.filter(t => progress[t.id] === 'done').length;
+  if (!topics.length) return null;
+  return (
+    <section aria-labelledby="up-next" className="card mt-6 overflow-hidden">
+      <div className="flex items-baseline justify-between gap-3 border-b border-line px-4 py-3 sm:px-5">
+        <h2 id="up-next" className="font-semibold">Up next</h2>
+        <span className="text-xs text-sub tnum">{left ? `${left} topics to go` : 'Every topic done. Time for full mock tests.'}</span>
+      </div>
+      <ul>
+        {next.map(t => (
+          <li key={t.id} className="flex items-start gap-3 border-t border-line px-4 py-3 first:border-t-0 sm:px-5">
+            <StatusBox s={progress[t.id] ?? 'todo'} label={`Mark ${t.name} done`} onClick={() => setStatus(t.id, 'done')} />
+            <Link to={`/${slug}/${t.id}`} className="min-w-0 flex-1 text-[14px] leading-snug line-clamp-2 hover:text-brand">{t.name}</Link>
+            <span className="w-14 shrink-0 text-right"><DiffText d={t.diff} /></span>
+          </li>
+        ))}
+      </ul>
+    </section>
   );
 }
 
