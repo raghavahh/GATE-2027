@@ -1,0 +1,266 @@
+{
+ "ga-verbal-aptitude--narrative-sequencing": [
+  "FkAU1zXjbV0"
+ ],
+ "ga-quantitative-aptitude--2-and-3-dimensional-plots": [
+  "rxCbWsrvHJg"
+ ],
+ "ga-quantitative-aptitude--ratios": [
+  "cGi7MTZ16-8"
+ ],
+ "ga-quantitative-aptitude--powers": [
+  "N7zzJ-Hoq64"
+ ],
+ "ga-quantitative-aptitude--permutations-and-combinations": [
+  "R_qO7oFw9YQ"
+ ],
+ "ga-analytical-aptitude--analogy": [
+  "itFUDQ0DMww"
+ ],
+ "ga-spatial-aptitude--mirroring": [
+  "5B3dcG0t1lw"
+ ],
+ "ga-spatial-aptitude--paper-folding": [
+  "YPylmrpfJSA",
+  "d6dJC4zz3Wo"
+ ],
+ "ec-engineering-mathematics--rank": [
+  "2IdtqGM6KWU"
+ ],
+ "ec-engineering-mathematics--solution-of-linear-equations-existence-and-uniqueness": [
+  "_WpncZ3RkTg"
+ ],
+ "ec-engineering-mathematics--partial-derivatives": [
+  "Ce0bWSbD0K8"
+ ],
+ "ec-engineering-mathematics--partial-differential-equations": [
+  "Wal1EA_rYhE",
+  "gw_gnP1JJaI"
+ ],
+ "ec-engineering-mathematics--vectors-in-plane-and-space": [
+  "EP2ghkO0lSk",
+  "iMaEceOcBOM"
+ ],
+ "ec-engineering-mathematics--cauchys-integral-formula": [
+  "x6X1P8rGXXs"
+ ],
+ "ec-networks-signals-and-systems--stability": [
+  "xdxHuw7Rs8k"
+ ],
+ "ec-networks-signals-and-systems--group-delay": [
+  "H17wjh1Oi2c"
+ ],
+ "ec-networks-signals-and-systems--phase-delay": [
+  "_xFwa6erCvk",
+  "ctnk6xXaOQA"
+ ],
+ "ec-networks-signals-and-systems--sampling-and-reconstruction": [
+  "CbBqFt820zs",
+  "K8dAvkob4tw"
+ ],
+ "ec-networks-signals-and-systems--discrete-fourier-transform-dft": [
+  "spUNpyF58BY"
+ ],
+ "ec-networks-signals-and-systems--z-transform": [
+  "mhC-I8m4LG0"
+ ],
+ "ec-electronic-devices--equilibrium-carrier-concentration": [
+  "sKbVNB8vrDU"
+ ],
+ "ec-electronic-devices--p-n-junction": [
+  "uUc15h7BmNU"
+ ],
+ "ec-electronic-devices--zener-diode": [
+  "_A2JomQ7-50"
+ ],
+ "ec-electronic-devices--led": [
+  "4qaOFdyTY9o",
+  "du291tDMQ64"
+ ],
+ "ec-electronic-devices--photo-diode-and-solar-cell": [
+  "gFAwok5g_O4"
+ ],
+ "ec-analog-circuits--amplifiers": [
+  "goWVuZYoAQw"
+ ],
+ "ec-analog-circuits--differentiators": [
+  "BSMStbMyrE8"
+ ],
+ "ec-analog-circuits--dominant-pole-miller-compensation": [
+  "PuJmMjXdG0s",
+  "rnIHRzpYm_Q"
+ ],
+ "ec-digital-circuits--code-converters": [
+  "dJxLxlm_chI"
+ ],
+ "ec-digital-circuits--counters": [
+  "A-2_HzsPwHA"
+ ],
+ "ec-digital-circuits--finite-state-machines": [
+  "Qa6csfkK7_I"
+ ],
+ "ec-digital-circuits--sample-and-hold-circuits-adcs-and-dacs": [
+  "QnTcJ6bvQKI"
+ ],
+ "ec-communications--filtering-of-random-signals-through-lti-systems": [
+  "JFYrUXXhRhY",
+  "P5Ce9tbK86M",
+  "X20Xgl5DmnI"
+ ],
+ "ec-communications--super-heterodyne-receivers": [
+  "CaQtJRheqB4"
+ ],
+ "ec-communications--pcm": [
+  "GoNbuMcJf8U",
+  "XC06NBvfTxI"
+ ],
+ "ec-electromagnetics--boundary-conditions": [
+  "8kcvyoHsXrw",
+  "EZMXIZi381k",
+  "KMG_gwEhoEc"
+ ],
+ "ec-electromagnetics--characteristic-impedance": [
+  "57axhRZETp0"
+ ],
+ "ee-engineering-mathematics--partial-derivatives": [
+  "ChiM2-MV-qM"
+ ],
+ "ee-engineering-mathematics--maxima-and-minima": [
+  "r1p8pUd7AWs"
+ ],
+ "ee-engineering-mathematics--volume-integral": [
+  "VRWntcf3row"
+ ],
+ "ee-engineering-mathematics--partial-differential-equations": [
+  "Wal1EA_rYhE"
+ ],
+ "ee-engineering-mathematics--cauchy-s-integral-formula": [
+  "g4G2hNvCwRA"
+ ],
+ "ee-engineering-mathematics--correlation-analysis": [
+  "tAzl7iGsp-4"
+ ],
+ "ee-electric-circuits--network-solution-methods-kcl-kvl-node-and-mesh-analysis": [
+  "2Zu3ppq3n8I"
+ ],
+ "ee-electric-circuits--nortons": [
+  "luoj3MNfem0"
+ ],
+ "ee-electric-circuits--superposition-theorem": [
+  "hEKJCRnxLXU",
+  "w7pdGP2ydqw"
+ ],
+ "ee-electromagnetic-fields--coulombs-law": [
+  "MsINeZMeTMQ"
+ ],
+ "ee-electromagnetic-fields--electric-field-intensity": [
+  "vIXHuGIX0vQ"
+ ],
+ "ee-electromagnetic-fields--divergence": [
+  "p0e3uuVNtuA"
+ ],
+ "ee-electromagnetic-fields--effect-of-dielectric-medium": [
+  "5u-xDWpRULA"
+ ],
+ "ee-electromagnetic-fields--amperes-law": [
+  "PMD8bolr3Ow"
+ ],
+ "ee-electromagnetic-fields--curl": [
+  "OEPztx5mU0k"
+ ],
+ "ee-electromagnetic-fields--magnetic-circuits": [
+  "Pf5xDrU7wXw"
+ ],
+ "ee-electromagnetic-fields--inductance": [
+  "WxT5ub6vbUg",
+  "Xca6r2s2Q_A"
+ ],
+ "ee-electromagnetic-fields--self-and-mutual-inductance-of-simple-configurations": [
+  "lRA_eQWKUMc",
+  "p4OJSGHpKGU",
+  "yNhxDusgdJY"
+ ],
+ "ee-electrical-machines--equivalent-circuit": [
+  "ZFEAax4hLe4"
+ ],
+ "ee-electrical-machines--phasor-diagram": [
+  "IteJDgQT1WA"
+ ],
+ "ee-electrical-machines--open-circuit-and-short-circuit-tests": [
+  "R_nFJUg0bxM"
+ ],
+ "ee-electrical-machines--series-and-shunt": [
+  "mQj1HHT79ds"
+ ],
+ "ee-electrical-machines--motoring-and-generating-mode-of-operation-and-their-characte": [
+  "5W1lKtbiE9U",
+  "jx4aEwfMmcg"
+ ],
+ "ee-electrical-machines--speed-control-of-dc-motors": [
+  "Jo9YRdH4HZs"
+ ],
+ "ee-electrical-machines--three-phase-induction-machines-principle-of-operation": [
+  "ONf5a1QS0_0"
+ ],
+ "ee-electrical-machines--equivalent-circuit-of-a-three-phase-induction-machine": [
+  "5QWVyG-6MGo",
+  "gSLJK_k4qEQ",
+  "rZPRZp3nmKQ"
+ ],
+ "ee-power-systems--ac-and-dc-transmission-concepts": [
+  "k87p7yD6rls"
+ ],
+ "ee-power-systems--series-and-shunt-compensation": [
+  "RmbSMW0BHGQ",
+  "TFDPvaNm9qk",
+  "YICEl-CMEMA"
+ ],
+ "ee-power-systems--distribution-systems": [
+  "XqPKifid5wc"
+ ],
+ "ee-power-systems--v-oltage-and-frequency-control": [
+  "nhvU9pK2DZc"
+ ],
+ "ee-power-systems--symmetrical-components": [
+  "344iaf3yDBE"
+ ],
+ "ee-control-systems--bode-plots": [
+  "8XERPLmVzOk"
+ ],
+ "ee-control-systems--nyquist-stability-criterion": [
+  "lmB42yw8dWc"
+ ],
+ "ee-control-systems--p-pi-and-pid-controllers": [
+  "OYPXiC7QjUM"
+ ],
+ "ee-electrical-and-electronic-meas--current": [
+  "6ijbkCzN364"
+ ],
+ "ee-electrical-and-electronic-meas--power": [
+  "dO6HDZgpfrw"
+ ],
+ "ee-analog-and-digital-electronics--operational-amplifiers-characteristics-and-applications": [
+  "f2iA4htTE_4"
+ ],
+ "ee-analog-and-digital-electronics--demultiplexers": [
+  "YSrKa8t8LMI",
+  "p6yPvw88BJk"
+ ],
+ "ee-analog-and-digital-electronics--sample-and-hold-circuits": [
+  "qx5pWNmWYDM"
+ ],
+ "ee-power-electronics--single-and-three-phase-configuration-of-uncontrolled-rectifi": [
+  "ZYQsgwUJ0zY",
+  "o7b4GZKq1Ps"
+ ],
+ "ee-power-electronics--bidirectional-ac-to-dc-voltage-source-converters": [
+  "N8lVstao7YQ"
+ ],
+ "ee-power-electronics--power-factor-and-distortion-factor-of-ac-to-dc-converters": [
+  "GgqEEPgxp_A",
+  "oGC3NFBe5Hg"
+ ],
+ "ee-power-electronics--single-phase-and-three-phase-voltage-and-current-source-inve": [
+  "nRMHB_LOl-I"
+ ]
+}

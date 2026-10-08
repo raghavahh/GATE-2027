@@ -51,6 +51,11 @@ PYQ_TITLE = re.compile(r"\bpyqs?\b|previous year|gate (19|20)\d\d\b|one[- ]?shot
                        r"questions?\b|solution", re.I)
 INTRO_TITLE = re.compile(r"intro|introduction|basics?|fundamental|overview of|part[- ]?0?1\b|lec(ture)?[- ]?0?1\b|\bl-?0?1\b", re.I)
 OLD_PYQ = re.compile(r"gate (19\d\d|200\d|201[0-5])\b", re.I)
+# Titles in Indic scripts are regional-language lectures; the site serves English/Hinglish GATE teaching.
+NON_LATIN = re.compile(r"[ऀ-෿]")
+# Aimed at other exams; fine only if the title also says GATE.
+OTHER_EXAM = re.compile(r"\bssc\b|\bbank|\bibps|\bsbi\b|\bcuet\b|\bcat\b|afcat|tcs nqt|upsc|\bcds\b|\bcpo\b|chsl|\bcgl\b|"
+                        r"railway|\brrb\b|class \d+(th)?\b|cbse|quiz|challenge|test your", re.I)
 # Words that make a search land on the wrong thing for these topics.
 HOMONYM = {
     "uniform": r"cost search|continuity|circular|convergence", "mean": r"value theorem", "rank": r"\bmarks?\b|\bair\b|score", "bernoulli": r"equation|pump",
@@ -59,6 +64,9 @@ HOMONYM = {
     "series": r"series compensation|differential", "phase": r"phase (diagram|transition)", "equations": r"maxwell",
 }
 STOP = set("a an the and or of in on for to with by its their using via from as at is are be into vs".split())
+# Videos a reviewer rejected for a topic (scripts/review_videos.py apply): never picked again for it.
+_BL = ROOT / "scripts" / "video_blocklist.json"
+BLOCKED = {k: set(v) for k, v in json.loads(_BL.read_text(encoding="utf-8")).items()} if _BL.exists() else {}
 # Too generic to prove a title is about the topic.
 GENERIC = set("principle concept basic introduction method methods theory analysis application applications "
               "gate lecture engineering topic types type properties property problem problems design".split())
@@ -163,14 +171,16 @@ def pick(topic, module, subject, paper, used, prior):
         except ValueError:
             continue
         t, ch = v["title"], v["channel"]
-        if not (MIN_SEC <= ln <= MAX_SEC) or BAD_TITLE.search(t) or BAD_CHANNEL.search(ch) or OLD_PYQ.search(t):
+        if not (MIN_SEC <= ln <= MAX_SEC) or BAD_TITLE.search(t) or BAD_CHANNEL.search(ch) or OLD_PYQ.search(t) or NON_LATIN.search(t):
             continue
-        if homonym_clash(topic["name"], t) or used.get(v["id"], 0) >= MAX_REUSE:
+        if homonym_clash(topic["name"], t) or used.get(v["id"], 0) >= MAX_REUSE or v["id"] in BLOCKED.get(topic["id"], ()):
             continue
         rel = relevance(t, keys)
         if rel < (0.5 if len(keys) > 1 else 1):
             continue
-        score = rel * 3 + (2 if ch.lower() in GOOD else 0) + min(1.5, math.log10(v["views"] + 1) / 4) - (1 if PYQ_TITLE.search(t) else 0)
+        gate = bool(re.search(r"\bgate\b", t + " " + ch, re.I))
+        score = (rel * 3 + (2.5 if ch.lower() in GOOD else 0) + (1.5 if gate else 0) + min(1.5, math.log10(v["views"] + 1) / 4)
+                 - (1 if PYQ_TITLE.search(t) else 0) - (2.5 if OTHER_EXAM.search(t) and not gate else 0))
         scored.append((score, v))
     scored.sort(key=lambda x: -x[0])
     picks, pyqs = [], 0
@@ -183,7 +193,8 @@ def pick(topic, module, subject, paper, used, prior):
         if any(p["channel"] == v["channel"] and re.sub(r"\b20\d\d\b|batch|\d+", "", p["title"].lower())[:40] == stem for p in picks):
             continue
         ok = embeddable(v["id"])
-        if not ok:
+        # Search results can show auto-translated titles; check the real title (from oEmbed) as well.
+        if not ok or BAD_TITLE.search(ok[0]) or NON_LATIN.search(ok[0]) or BAD_CHANNEL.search(ok[1] or ""):
             continue
         picks.append({"id": v["id"], "title": ok[0], "channel": ok[1]})
         pyqs += is_pyq

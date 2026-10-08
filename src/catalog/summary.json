@@ -2,146 +2,146 @@
  "ae": {
   "subjects": 9,
   "topics": 177,
-  "videos": 135
+  "videos": 149
  },
  "ag": {
   "subjects": 11,
   "topics": 249,
-  "videos": 135
+  "videos": 149
  },
  "ar": {
   "subjects": 20,
   "topics": 353,
-  "videos": 135
+  "videos": 149
  },
  "bm": {
   "subjects": 14,
   "topics": 198,
-  "videos": 135
+  "videos": 149
  },
  "bt": {
   "subjects": 10,
   "topics": 251,
-  "videos": 135
+  "videos": 149
  },
  "ce": {
   "subjects": 12,
   "topics": 264,
-  "videos": 135
+  "videos": 149
  },
  "ch": {
   "subjects": 14,
   "topics": 175,
-  "videos": 135
+  "videos": 149
  },
  "cs": {
   "subjects": 14,
   "topics": 143,
-  "videos": 559
+  "videos": 690
  },
  "cy": {
   "subjects": 7,
   "topics": 369,
-  "videos": 135
+  "videos": 149
  },
  "da": {
   "subjects": 11,
   "topics": 151,
-  "videos": 587
+  "videos": 731
  },
  "ec": {
   "subjects": 12,
   "topics": 214,
-  "videos": 846
+  "videos": 1009
  },
  "ee": {
   "subjects": 14,
   "topics": 207,
-  "videos": 818
+  "videos": 966
  },
  "es": {
   "subjects": 13,
   "topics": 289,
-  "videos": 135
+  "videos": 149
  },
  "ey": {
   "subjects": 9,
   "topics": 155,
-  "videos": 135
+  "videos": 149
  },
  "ge": {
   "subjects": 7,
   "topics": 111,
-  "videos": 135
+  "videos": 149
  },
  "gg": {
   "subjects": 7,
   "topics": 425,
-  "videos": 135
+  "videos": 149
  },
  "in": {
   "subjects": 7,
   "topics": 124,
-  "videos": 135
+  "videos": 149
  },
  "ma": {
   "subjects": 15,
   "topics": 208,
-  "videos": 135
+  "videos": 149
  },
  "me": {
   "subjects": 8,
   "topics": 235,
-  "videos": 924
+  "videos": 1119
  },
  "mn": {
   "subjects": 10,
   "topics": 161,
-  "videos": 135
+  "videos": 149
  },
  "mt": {
   "subjects": 12,
   "topics": 214,
-  "videos": 135
+  "videos": 149
  },
  "nm": {
   "subjects": 9,
   "topics": 336,
-  "videos": 135
+  "videos": 149
  },
  "pe": {
   "subjects": 15,
   "topics": 217,
-  "videos": 135
+  "videos": 149
  },
  "ph": {
   "subjects": 15,
   "topics": 196,
-  "videos": 135
+  "videos": 149
  },
  "pi": {
   "subjects": 11,
   "topics": 257,
-  "videos": 135
+  "videos": 149
  },
  "st": {
   "subjects": 16,
   "topics": 211,
-  "videos": 135
+  "videos": 149
  },
  "xe": {
   "subjects": 47,
   "topics": 746,
-  "videos": 135
+  "videos": 149
  },
  "xh": {
   "subjects": 46,
   "topics": 991,
-  "videos": 135
+  "videos": 149
  },
  "xl": {
   "subjects": 44,
   "topics": 587,
-  "videos": 135
+  "videos": 149
  }
 }

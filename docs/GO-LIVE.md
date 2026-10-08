@@ -3,6 +3,18 @@
 Site: https://gate-az.pages.dev (Cloudflare Pages, deploys from `main`) · Supabase project `ddrnwwbtlyayvgoloion`.
 Do the steps in order. Anything marked **you** happens in a dashboard and can't be done from code.
 
+## 0. After the overnight content update (you, about 10 minutes)
+
+1. **Re-run the 4 SQL files** (section 1 below). They add progress sync, the one-open-order rule, the safer
+   session check, view throttling and notes access. All are safe to re-run.
+2. **Redeploy the order function** (it now shares one open order between tabs):
+   `npx supabase functions deploy create-order --project-ref ddrnwwbtlyayvgoloion --use-api`
+3. **Upload the new videos and notes** (secret key: Supabase → Settings → API Keys; never paste it anywhere else):
+   PowerShell: `$env:SUPABASE_SERVICE_ROLE_KEY="..." ; python scripts/upload_videos.py`
+   Until this runs, renamed topics fall back to their old video lists and notes stay "being written".
+4. **Email template**: links no longer need `#/` (old ones still work). Use the template in section 3.
+5. **Google Search Console** (optional, free): add `https://gate-az.pages.dev`, submit `/sitemap.xml`.
+
 ## 1. Database (you, 2 minutes)
 
 Supabase → SQL Editor → paste each file → Run, in this order. All four are safe to re-run.
@@ -36,7 +48,7 @@ Running it again makes a new webhook secret, so re-paste it into Razorpay every 
 
   ```html
   <p>Your GATE A–Z sign-in code: <strong>{{ .Token }}</strong></p>
-  <p><a href="{{ .SiteURL }}/#/auth?token_hash={{ .TokenHash }}&type=email">Or tap here to sign in</a></p>
+  <p><a href="{{ .SiteURL }}/auth?token_hash={{ .TokenHash }}&type=email">Or tap here to sign in</a></p>
   ```
 - **Reviewer account** for Razorpay: Authentication → Users → Add user, with a strong password and **Auto Confirm** ticked.
   Delete it after approval.
@@ -45,7 +57,7 @@ Running it again makes a new webhook secret, so re-paste it into Razorpay every 
 ## 4. Razorpay (you)
 
 1. **Activation/KYC**: business details, PAN, bank account. Under Business website, give `https://gate-az.pages.dev` and the policy pages
-   `/#/terms`, `/#/privacy`, `/#/refund`, `/#/delivery`, `/#/contact`. Answer "login required: yes" and give the reviewer account.
+   `/terms`, `/privacy`, `/refund`, `/delivery`, `/contact`. Answer "login required: yes" and give the reviewer account.
 2. **Payment capture**: Automatic (the default).
 3. **Webhook** (in the same mode as your keys, Test or Live):
    - URL: `https://ddrnwwbtlyayvgoloion.supabase.co/functions/v1/razorpay-webhook`
