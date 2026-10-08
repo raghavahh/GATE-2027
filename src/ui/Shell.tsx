@@ -4,6 +4,7 @@ import { useAuth } from '../lib/auth';
 import { SignInModal } from './SignInModal';
 import { Moon, Sun } from 'lucide-react';
 import { Logo } from './bits';
+import { ErrorBoundary } from './ErrorBoundary';
 import { toggleTheme, useStore } from '../lib/store';
 
 const nav = [
@@ -62,7 +63,7 @@ export function Shell() {
           You were signed out because your account was used on another device. <button type="button" className="font-medium underline" onClick={() => setSignIn(true)}>Sign in again</button>
         </div>
       )}
-      <main className="flex-1"><Outlet /></main>
+      <main className="flex-1"><ErrorBoundary key={pathname}><Outlet /></ErrorBoundary></main>
       {signIn && <SignInModal onClose={() => setSignIn(false)} />}
 
       <footer className="border-t border-line">

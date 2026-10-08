@@ -36,7 +36,7 @@ def finish(webhook_secret):
 
    Webhook URL:    https://{REF}.supabase.co/functions/v1/razorpay-webhook
    Secret:         already COPIED - just press Ctrl+V in the Secret box
-   Active events:  payment.captured  and  order.paid
+   Active events:  payment.captured, order.paid  and  refund.processed
 
  Save it. Don't paste the secret anywhere else (not in chat).
 ==============================================================

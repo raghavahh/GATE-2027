@@ -61,11 +61,12 @@ alter table public.events enable row level security;
 alter table public.admins enable row level security;
 
 drop policy if exists "own profile" on public.profiles;
-create policy "own profile" on public.profiles for select using (auth.uid() = id);
+create policy "own profile" on public.profiles for select using ((select auth.uid()) = id);
 drop policy if exists "own entitlements" on public.entitlements;
-create policy "own entitlements" on public.entitlements for select using (auth.uid() = user_id);
+create policy "own entitlements" on public.entitlements for select using ((select auth.uid()) = user_id);
+-- events are written only by server functions (get_topic_videos); the browser can't insert.
 drop policy if exists "insert own events" on public.events;
-create policy "insert own events" on public.events for insert with check (user_id is null or auth.uid() = user_id);
+create index if not exists events_user_id_idx on public.events(user_id);
 
 -- Functions the browser may call
 create or replace function public.is_admin() returns boolean
@@ -73,20 +74,23 @@ language sql stable security definer set search_path = '' as $$
   select exists (select 1 from public.admins where user_id = auth.uid());
 $$;
 
+-- The session id is read from the caller's own token, never trusted from the browser.
 create or replace function public.claim_session(p_session text) returns void
-language sql security definer set search_path = '' as $$
+language plpgsql security definer set search_path = '' as $$
+declare sid text := auth.jwt() ->> 'session_id';
+begin
+  if auth.uid() is null or sid is null then return; end if;
   insert into public.active_sessions (user_id, session_id, updated_at)
-  values (auth.uid(), p_session, now())
+  values (auth.uid(), sid, now())
   on conflict (user_id) do update set session_id = excluded.session_id, updated_at = now();
-$$;
+end $$;
 
 create or replace function public.is_active_session(p_session text) returns boolean
 language sql stable security definer set search_path = '' as $$
-  select coalesce((select session_id = p_session from public.active_sessions where user_id = auth.uid()), true);
+  select coalesce((select session_id = coalesce(auth.jwt() ->> 'session_id', p_session)
+                   from public.active_sessions where user_id = auth.uid()), true);
 $$;
 
-revoke all on function public.claim_session(text) from anon;
-revoke all on function public.is_active_session(text) from anon;
 
 -- Admin dashboard numbers (admins only)
 create or replace function public.admin_stats() returns json
@@ -96,13 +100,26 @@ begin
   return json_build_object(
     'users', (select count(*) from public.profiles),
     'users_today', (select count(*) from public.profiles where created_at > now() - interval '1 day'),
-    'sales', (select count(*) from public.entitlements where payment_id is not null),
-    'revenue_paise', (select coalesce(sum(amount_paise), 0) from public.entitlements where payment_id is not null),
+    'sales', (select count(*) from public.orders where status = 'paid'),
+    'revenue_paise', (select coalesce(sum(amount_paise), 0) from public.orders where status = 'paid'),
     'sales_by_paper', (select coalesce(json_object_agg(paper, n), '{}'::json) from (select paper, count(*) n from public.entitlements group by paper) x),
     'logins_today', (select count(*) from public.active_sessions where updated_at > now() - interval '1 day'),
     'recent', (select coalesce(json_agg(r), '[]'::json) from (
-      select p.email, e.paper, e.amount_paise, e.payment_id, e.created_at
-      from public.entitlements e join public.profiles p on p.id = e.user_id
-      order by e.created_at desc limit 50) r)
+      select u.email, o.paper, o.amount_paise, o.payment_id, o.created_at
+      from public.orders o join auth.users u on u.id = o.user_id
+      where o.status = 'paid'
+      order by o.created_at desc limit 50) r)
   );
 end $$;
+
+-- Postgres lets PUBLIC (so also anon) execute every new function by default. Only signed-in users may call these.
+revoke execute on function public.claim_session(text), public.is_active_session(text), public.is_admin(), public.admin_stats() from public, anon;
+grant execute on function public.claim_session(text), public.is_active_session(text), public.is_admin(), public.admin_stats() to authenticated;
+revoke execute on function public.handle_new_user() from public, anon, authenticated;
+
+-- RLS already blocks browser writes; also remove the table-level write grants as a second lock.
+revoke insert, update, delete, truncate on public.profiles, public.entitlements, public.events, public.admins from anon, authenticated;
+revoke all on public.active_sessions, public.admins from anon, authenticated;
+
+-- Profiles for accounts created before the trigger existed.
+insert into public.profiles (id, email) select id, email from auth.users on conflict do nothing;

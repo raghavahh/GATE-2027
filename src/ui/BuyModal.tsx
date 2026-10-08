@@ -18,6 +18,15 @@ function loadCheckout(): Promise<void> {
   });
 }
 
+/** Calls an Edge Function. On a non-2xx reply supabase-js drops the body, so read our { error } message from it. */
+async function call(name: string, body: Record<string, unknown>): Promise<{ data?: Record<string, string> & { ok?: boolean }; error?: string }> {
+  const { data, error } = await supabase.functions.invoke(name, { body });
+  if (!error) return { data };
+  const ctx = (error as { context?: Response }).context;
+  const msg = await ctx?.json?.().then((j: { error?: string }) => j.error).catch(() => undefined);
+  return { error: msg ?? 'Network problem. Check your connection and try again.' };
+}
+
 interface Props {
   paper: Paper;
   topicName?: string;
@@ -27,48 +36,86 @@ interface Props {
 
 export function BuyModal({ paper, topicName, counts, onClose }: Props) {
   const panel = useRef<HTMLDivElement>(null);
-  const { session, refresh } = useAuth();
+  const { session, papers, refresh } = useAuth();
   const [needSignIn, setNeedSignIn] = useState(false);
   const [busy, setBusy] = useState(false);
   const [msg, setMsg] = useState('');
   const [done, setDone] = useState(false);
+  /** Payment ID that Razorpay took but we couldn't confirm yet: keep checking instead of offering Pay again. */
+  const [pending, setPending] = useState('');
+  const wantPay = useRef(false);
+  const lock = useRef(false); // no closing while signing in or confirming a payment
+  const closeRef = useRef(onClose);
+  const refreshRef = useRef(refresh);
+  useEffect(() => { lock.current = needSignIn || busy; closeRef.current = onClose; refreshRef.current = refresh; });
 
   async function pay() {
-    if (!session) return setNeedSignIn(true);
+    if (!session) { wantPay.current = true; return setNeedSignIn(true); }
     setBusy(true); setMsg('');
     try {
       await loadCheckout();
-      const { data, error } = await supabase.functions.invoke('create-order', { body: { paper: paper.slug } });
-      if (error || !data?.orderId) throw new Error(data?.error ?? 'Could not start payment. Try again.');
+      const { data, error } = await call('create-order', { paper: paper.slug });
+      if (error || !data?.orderId) throw new Error(error ?? 'Could not start payment. Try again.');
       // Until Razorpay approves live keys, checkout runs in test mode: real UPI apps can't pay a test QR.
       const test = String(data.keyId).startsWith('rzp_test_');
+      let paid = false;
       const rzp = new window.Razorpay!({
         key: data.keyId, order_id: data.orderId, amount: data.amount, currency: 'INR',
         name: 'GATE A–Z', description: test ? 'TEST MODE · no real money · UPI ID: success@razorpay' : `${paper.code} · ${EDITION}`,
         prefill: { email: data.email }, theme: { color: '#F5A524' },
-        modal: { ondismiss: () => { setBusy(false); if (test) setMsg('Payments are in test mode until launch: real UPI apps and QR codes won’t work yet. To try it, pick UPI and enter success@razorpay.'); } },
+        modal: { ondismiss: () => { if (paid) return; setBusy(false); if (test) setMsg('Payments are in test mode until launch: real UPI apps and QR codes won’t work yet. To try it, pick UPI and enter success@razorpay.'); } },
         handler: async (r: Record<string, string>) => {
+          paid = true;
           setMsg('Confirming your payment…');
-          const v = await supabase.functions.invoke('verify-payment', { body: r });
-          if (v.error || !v.data?.ok) { setMsg(v.data?.error ?? 'If money was deducted, your paper will unlock automatically within a few minutes.'); setBusy(false); return; }
-          await refresh(); setDone(true); setBusy(false);
+          try {
+            let v = await call('verify-payment', r);
+            if (!v.data?.ok) { await new Promise(t => setTimeout(t, 3000)); v = await call('verify-payment', r); } // one retry for a flaky network
+            await refresh();
+            if (v.data?.ok) { setDone(true); setMsg(''); return; }
+            setMsg(`${v.error ?? 'We could not confirm the payment yet.'} Checking again automatically. Payment ID: ${r.razorpay_payment_id}`);
+          } catch {
+            setMsg(`Checking your payment… Payment ID: ${r.razorpay_payment_id}`);
+          }
+          setPending(r.razorpay_payment_id);
+          setBusy(false);
         },
       });
-      rzp.on('payment.failed', () => { setMsg("Payment didn't go through. You can try again."); setBusy(false); });
+      rzp.on('payment.failed', (r: unknown) => {
+        const reason = (r as { error?: { description?: string } })?.error?.description;
+        setMsg(`Payment didn't go through${reason ? `: ${reason}` : ''}. You can try again.`); setBusy(false);
+      });
       rzp.open();
     } catch (e) {
       setMsg((e as Error).message); setBusy(false);
     }
   }
 
+  // Signed in from the prompt: carry on to payment.
+  useEffect(() => {
+    if (session && wantPay.current) { wantPay.current = false; setNeedSignIn(false); pay(); }
+  }, [session]); // eslint-disable-line react-hooks/exhaustive-deps
+
+  // Payment taken but not confirmed: the webhook will grant it; re-check every 5 s for 2 minutes.
+  useEffect(() => {
+    if (!pending) return;
+    if (papers.includes(paper.slug)) { setDone(true); setPending(''); setMsg(''); return; }
+    let n = 0;
+    const t = setInterval(() => {
+      if (++n > 24) { clearInterval(t); setMsg(`Still confirming. Refresh this page in a few minutes, or email us with Payment ID ${pending}.`); return; }
+      refreshRef.current();
+    }, 5000);
+    return () => clearInterval(t);
+  }, [pending, papers, paper.slug]);
+
   useEffect(() => {
     const prev = document.activeElement as HTMLElement | null;
     panel.current?.focus();
-    const onKey = (e: KeyboardEvent) => e.key === 'Escape' && onClose();
+    const onKey = (e: KeyboardEvent) => { if (e.key === 'Escape' && !lock.current) closeRef.current(); };
     document.addEventListener('keydown', onKey);
     document.body.style.overflow = 'hidden';
     return () => { document.removeEventListener('keydown', onKey); document.body.style.overflow = ''; prev?.focus(); };
-  }, [onClose]);
+  }, []);
+  const close = () => { if (!lock.current) onClose(); };
 
   const items = [
     `All ${counts.topics} topics across ${counts.subjects} subjects, in order`,
@@ -80,8 +127,7 @@ export function BuyModal({ paper, topicName, counts, onClose }: Props) {
 
   return (
     <>
-    {needSignIn && <SignInModal reason={`Sign in to buy ${paper.code}.`} onClose={() => setNeedSignIn(false)} />}
-    <div className="fixed inset-0 z-50 flex items-end justify-center bg-black/60 sm:items-center sm:p-4" onClick={onClose}>
+    <div className="fixed inset-0 z-50 flex items-end justify-center bg-black/60 sm:items-center sm:p-4" onClick={close}>
       <div
         ref={panel}
         tabIndex={-1}
@@ -100,7 +146,7 @@ export function BuyModal({ paper, topicName, counts, onClose }: Props) {
               <p className="text-sm text-sub">{topicName ? `You tapped: ${topicName}` : paper.name}</p>
             </div>
           </div>
-          <button type="button" onClick={onClose} className="grid h-9 w-9 place-items-center rounded-lg text-sub hover:bg-raised" aria-label="Close">
+          <button type="button" onClick={close} className="grid h-9 w-9 place-items-center rounded-lg text-sub hover:bg-raised" aria-label="Close">
             <X size={18} />
           </button>
         </div>
@@ -117,8 +163,8 @@ export function BuyModal({ paper, topicName, counts, onClose }: Props) {
         </div>
         <p className="mt-1 text-xs text-mute">One account, one active login. Each branch is bought separately. No refunds or cancellations after purchase.</p>
 
-        <button type="button" className="btn-primary mt-5 h-11 w-full text-[15px]" disabled={busy} onClick={done ? onClose : pay}>
-          {done ? `${paper.code} unlocked · Start studying` : busy ? 'Opening payment…' : `Pay ₹${PRICE_INR} with UPI`}
+        <button type="button" className="btn-primary mt-5 h-11 w-full text-[15px]" disabled={busy || !!pending} onClick={done ? onClose : pay}>
+          {done ? `${paper.code} unlocked · Start studying` : pending ? 'Confirming payment…' : busy ? 'Opening payment…' : `Pay ₹${PRICE_INR} with UPI`}
         </button>
         {msg && <p role="status" className="mt-3 text-center text-sm text-sub">{msg}</p>}
         <p className="mt-3 flex items-center justify-center gap-1.5 text-xs text-mute">
@@ -126,6 +172,11 @@ export function BuyModal({ paper, topicName, counts, onClose }: Props) {
         </p>
       </div>
     </div>
+    {needSignIn && <SignInModal reason={`Sign in to buy ${paper.code}.`} onClose={() => {
+      setNeedSignIn(false);
+      // Closed without signing in: forget the pending purchase. (After a sign-in the effect above carries on.)
+      supabase.auth.getSession().then(({ data }) => { if (!data.session) wantPay.current = false; });
+    }} />}
     </>
   );
 }

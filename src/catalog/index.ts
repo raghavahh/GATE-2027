@@ -28,15 +28,19 @@ export function loadPaper(slug: string): Promise<void> {
     ]);
     Object.assign(VIDEOS, vids ?? {});
     SUBJECTS[slug] = own?.length ? [...(ga ?? []), ...own] : [];
-  })();
+  })().catch(e => { delete pending[slug]; throw e; }); // don't cache a failure: the next visit retries
   return pending[slug];
 }
 
-/** Loads a paper's sheet; returns true once it is ready. */
+/** Loads a paper's sheet; returns true once it is ready. A failed download is thrown to the ErrorBoundary. */
 export function usePaper(slug: string): boolean {
   const [, bump] = useState(0);
+  const [err, setErr] = useState<Error | null>(null);
   const ready = !!SUBJECTS[slug] || !getPaper(slug);
-  useEffect(() => { if (!ready) loadPaper(slug).then(() => bump(x => x + 1)); }, [slug, ready]);
+  useEffect(() => {
+    if (!ready) loadPaper(slug).then(() => bump(x => x + 1), e => setErr(e as Error));
+  }, [slug, ready]);
+  if (err) throw err;
   return ready;
 }
 

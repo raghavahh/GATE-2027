@@ -17,7 +17,7 @@ export function PaperPage() {
   const ready = usePaper(slug);
   const subjects = getSubjects(slug);
   const { progress } = useStore();
-  const { papers } = useAuth();
+  const { papers, ready: authReady } = useAuth();
   const owned = isUnlocked(slug) || papers.includes(slug);
   const unlocked = owned;
   const stats = paperStats(slug);
@@ -30,7 +30,7 @@ export function PaperPage() {
   const done = allTopics.filter(t => progress[t.id] === 'done').length;
 
   if (!paper) return <NotFound />;
-  if (!ready) return <Loading />;
+  if (!ready || !authReady) return <Loading />;
 
   if (!subjects.length) {
     return (

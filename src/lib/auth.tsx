@@ -20,6 +20,7 @@ interface AuthState {
 
 const Ctx = createContext<AuthState | null>(null);
 const redirect = () => `${location.origin}${location.pathname}`;
+const CLAIMED = 'gate27:claimed';
 
 /** Session id claim inside the access token (used for one-active-login). */
 function sessionIdOf(s: Session | null): string | null {
@@ -39,23 +40,30 @@ export function AuthProvider({ children }: { children: ReactNode }) {
 
   const load = useCallback(async (s: Session | null) => {
     if (!s) { setPapers([]); setIsAdmin(false); return; }
-    const [{ data: ent }, { data: adm }] = await Promise.all([
+    const [ent, adm] = await Promise.all([
       supabase.from('entitlements').select('paper, expires_at').gt('expires_at', new Date().toISOString()),
       supabase.rpc('is_admin'),
     ]);
-    setPapers((ent ?? []).map(e => e.paper));
-    setIsAdmin(!!adm);
+    if (ent.error) console.error('entitlements', ent.error); // keep the last known papers rather than locking a buyer out
+    else setPapers(ent.data.map(e => e.paper));
+    setIsAdmin(!!adm.data);
   }, []);
 
   useEffect(() => {
     supabase.auth.getSession().then(({ data }) => { setSession(data.session); load(data.session).finally(() => setReady(true)); });
-    const { data: sub } = supabase.auth.onAuthStateChange(async (event, s) => {
+    const { data: sub } = supabase.auth.onAuthStateChange((event, s) => {
       setSession(s);
-      if (event === 'SIGNED_IN' && s) {
-        await supabase.rpc('claim_session', { p_session: sessionIdOf(s) });
-        setKicked(false);
-      }
-      load(s);
+      // Supabase calls made inside this callback can deadlock the auth lock, so run them on the next tick.
+      setTimeout(async () => {
+        // SIGNED_IN also fires when a tab regains focus. Claim only once per login (session id),
+        // otherwise two devices would keep taking the session back from each other.
+        const sid = sessionIdOf(s);
+        if (event === 'SIGNED_IN' && sid && localStorage.getItem(CLAIMED) !== sid) {
+          const { error } = await supabase.rpc('claim_session', { p_session: sid });
+          if (!error) { localStorage.setItem(CLAIMED, sid); setKicked(false); }
+        }
+        load(s);
+      }, 0);
     });
     return () => sub.subscription.unsubscribe();
   }, [load]);
@@ -65,7 +73,8 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     if (!session) return;
     const check = async () => {
       const { data } = await supabase.rpc('is_active_session', { p_session: sessionIdOf(session) });
-      if (data === false) { setKicked(true); await supabase.auth.signOut(); }
+      // 'local': end only this browser's session. The default ('global') would also sign out the new device.
+      if (data === false) { setKicked(true); await supabase.auth.signOut({ scope: 'local' }); }
     };
     const t = setInterval(check, 60_000);
     window.addEventListener('focus', check);
@@ -87,7 +96,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
       const { error } = await supabase.auth.signInWithPassword({ email, password });
       return error?.message ?? null;
     },
-    signOut: async () => { await supabase.auth.signOut(); },
+    signOut: async () => { await supabase.auth.signOut({ scope: 'local' }); }, // this device only; MePage has 'all devices'
     refresh: () => load(session),
   };
   return <Ctx.Provider value={value}>{children}</Ctx.Provider>;

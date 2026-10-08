@@ -14,13 +14,18 @@ export function AuthPage() {
   useEffect(() => {
     if (ran.current) return;
     ran.current = true;
+    const failed = params.get('error');
+    if (failed) { setErr(/expired|invalid/i.test(failed) ? 'This sign-in link has expired or was already used.' : failed); return; }
     const token_hash = params.get('token_hash');
-    const type = (params.get('type') ?? 'email') as EmailOtpType;
+    // Only sign-in link types; anything else in the URL is ignored.
+    const t = params.get('type');
+    const type: EmailOtpType = t === 'magiclink' || t === 'signup' ? t : 'email';
     if (!token_hash) { setErr('This sign-in link is incomplete.'); return; }
     supabase.auth.verifyOtp({ token_hash, type }).then(({ error }) => {
-      if (error) setErr('This sign-in link has expired or was already used.');
-      else navigate('/me', { replace: true });
-    });
+      if (!error) navigate('/me', { replace: true });
+      else if (error.name === 'AuthRetryableFetchError' || error.status === 0) setErr('Network problem. Check your connection and open the link again.');
+      else setErr('This sign-in link has expired or was already used.');
+    }, () => setErr('Network problem. Check your connection and open the link again.'));
   }, [params, navigate]);
 
   return (

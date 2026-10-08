@@ -12,15 +12,20 @@ interface Ent { paper: string; edition: string; expires_at: string; payment_id: 
 const EXAM = new Date('2027-02-06T09:00:00+05:30'); // update when official dates are announced
 
 export function MePage() {
-  const { session, ready, signOut } = useAuth();
+  const { session, ready } = useAuth();
   const { progress } = useStore();
   const [ents, setEnts] = useState<Ent[]>([]);
+  const [err, setErr] = useState(false);
+  const uid = session?.user.id;
 
   useEffect(() => {
-    if (!session) return;
+    setEnts([]); setErr(false);
+    if (!uid) return;
+    let live = true;
     supabase.from('entitlements').select('paper, edition, expires_at, payment_id, amount_paise, created_at').order('created_at', { ascending: false })
-      .then(({ data }) => setEnts((data ?? []) as Ent[]));
-  }, [session]);
+      .then(({ data, error }) => { if (!live) return; if (error) setErr(true); else setEnts(data as Ent[]); });
+    return () => { live = false; };
+  }, [uid]);
 
   if (!ready) return null;
   if (!session) {
@@ -43,7 +48,8 @@ export function MePage() {
         </div>
       </div>
 
-      {ents.length === 0 ? (
+      {err && <p role="alert" className="card mt-8 p-4 text-hard">Couldn't load your papers. Check your connection and refresh. Your purchases are safe.</p>}
+      {err ? null : ents.length === 0 ? (
         <div className="card mt-8 flex flex-col items-start gap-4 p-6 sm:flex-row sm:items-center sm:justify-between">
           <div className="flex gap-3"><BookOpen className="shrink-0 text-brand" /><div><p className="font-medium">No papers yet</p><p className="text-sub">Pick your GATE paper and start with its free sample topics.</p></div></div>
           <Link to="/papers" className="btn-primary">Choose your paper</Link>
@@ -93,7 +99,7 @@ export function MePage() {
       <p className="mt-2 text-xs text-mute">All purchases are final. <Link to="/refund" className="underline">Refund policy</Link></p>
 
       <div className="mt-12 flex flex-wrap gap-3 border-t border-line pt-6">
-        <button type="button" className="btn-ghost" onClick={async () => { await supabase.auth.signOut({ scope: 'global' }); await signOut(); }}>Sign out on all devices</button>
+        <button type="button" className="btn-ghost" onClick={() => supabase.auth.signOut({ scope: 'global' })}>Sign out on all devices</button>
       </div>
     </div>
   );

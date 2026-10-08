@@ -1,0 +1,4 @@
+# Per-function settings used by `supabase functions deploy`.
+# Razorpay can't send a Supabase login token, so the webhook must skip JWT checks (its signature check protects it).
+[functions.razorpay-webhook]
+verify_jwt = false

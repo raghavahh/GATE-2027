@@ -30,7 +30,8 @@ export const admin = () =>
 export async function userFrom(req: Request) {
   const token = (req.headers.get('authorization') ?? '').replace(/^Bearer\s+/i, '');
   if (!token) return null;
-  const { data } = await admin().auth.getUser(token);
+  const { data, error } = await admin().auth.getUser(token);
+  if (error && error.status !== 401 && error.status !== 403) console.error('getUser', error);
   return data.user ?? null;
 }
 
@@ -53,8 +54,9 @@ export async function rzp(path: string, init: RequestInit = {}) {
   const auth = btoa(`${Deno.env.get('RAZORPAY_KEY_ID')}:${Deno.env.get('RAZORPAY_KEY_SECRET')}`);
   const res = await fetch(`https://api.razorpay.com/v1${path}`, {
     ...init,
+    signal: AbortSignal.timeout(10_000),
     headers: { Authorization: `Basic ${auth}`, 'Content-Type': 'application/json', ...(init.headers ?? {}) },
   });
-  if (!res.ok) throw new Error(`Razorpay ${path} ${res.status}`);
+  if (!res.ok) throw new Error(`Razorpay ${path} ${res.status} ${await res.text()}`);
   return res.json();
 }

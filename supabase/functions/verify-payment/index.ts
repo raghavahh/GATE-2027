@@ -18,15 +18,19 @@ Deno.serve(async req => {
     if (!safeEqual(expected, sig)) return json(req, { error: 'Payment could not be verified.' }, 400);
 
     const db = admin();
-    const { data: order } = await db.from('orders').select('user_id').eq('id', orderId).maybeSingle();
+    const { data: order, error: oErr } = await db.from('orders').select('user_id').eq('id', orderId).maybeSingle();
+    if (oErr) throw oErr;
     if (!order || order.user_id !== user.id) return json(req, { error: 'Order not found.' }, 404);
 
     const pay = await rzp(`/payments/${paymentId}`);
     if (pay.order_id !== orderId || pay.amount !== PRICE_PAISE || !['captured', 'authorized'].includes(pay.status)) {
+      console.warn('verify: not payable', { orderId, paymentId, status: pay.status, amount: pay.amount });
       return json(req, { error: 'Payment not completed yet.' }, 402);
     }
     if (pay.status === 'authorized') {
-      await rzp(`/payments/${paymentId}/capture`, { method: 'POST', body: JSON.stringify({ amount: PRICE_PAISE, currency: 'INR' }) });
+      // Razorpay's auto-capture may win the race; only fail if the payment still isn't captured afterwards.
+      await rzp(`/payments/${paymentId}/capture`, { method: 'POST', body: JSON.stringify({ amount: PRICE_PAISE, currency: 'INR' }) })
+        .catch(async e => { if ((await rzp(`/payments/${paymentId}`)).status !== 'captured') throw e; });
     }
 
     const { data: ok, error } = await db.rpc('grant_paper', { p_order: orderId, p_payment: paymentId, p_amount: PRICE_PAISE, p_expires: SEASON_END });

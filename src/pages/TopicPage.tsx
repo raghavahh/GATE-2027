@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { supabase } from '../lib/supabase';
+import { CONTACT_EMAIL, supabase } from '../lib/supabase';
 import type { Video } from '../catalog';
 import { Link, useParams } from 'react-router-dom';
 import { ArrowLeft, ArrowRight, Lock } from 'lucide-react';
@@ -12,6 +12,15 @@ import { useAuth } from '../lib/auth';
 import { YouTubePlayer } from '../ui/YouTubePlayer';
 import { Loading, NotFound } from './Static';
 
+/** Topic notes from get_topic_notes: summary, points, formulas [formula, note], mistakes, how GATE asks it. */
+interface Notes { s: string; p: string[]; f?: [string, string][]; m?: string[]; q?: string }
+
+const contentError = (m: string) =>
+  m.includes('elsewhere') ? 'Your account is signed in on another device. Sign in again here to continue.'
+  : m.includes('sign in') ? 'Sign in to see this topic.'
+  : m.includes('not purchased') ? 'This topic unlocks with the full paper.'
+  : 'Could not load this. Check your connection and refresh.';
+
 const STATUS: { s: Status; label: string }[] = [
   { s: 'todo', label: 'Not started' },
   { s: 'doing', label: 'Learning' },
@@ -23,22 +32,39 @@ export function TopicPage() {
   const ready = usePaper(slug);
   const hit = ready ? findTopic(slug, id) : undefined;
   const { progress } = useStore();
-  const { papers } = useAuth();
+  const { papers, ready: authReady } = useAuth();
   const owned = isUnlocked(slug) || papers.includes(slug);
   const [buy, setBuy] = useState(false);
   const [paid, setPaid] = useState<Video[] | null>(null);
   const [vErr, setVErr] = useState('');
   const paperOwned = isUnlocked(slug) || papers.includes(slug);
   const isSample = !!hit?.topic.sample;
+  const [notes, setNotes] = useState<Notes | null | undefined>(undefined);
+  const [nErr, setNErr] = useState('');
+  const topicId = hit?.topic.id;
+  // Each effect ignores a reply that arrives after the user has moved to another topic.
+  useEffect(() => {
+    setNotes(undefined); setNErr('');
+    if (!topicId || (!isSample && !paperOwned)) return;
+    let live = true;
+    supabase.rpc('get_topic_notes', { p_paper: slug, p_topic: topicId }).then(({ data, error }) => {
+      if (!live) return;
+      if (error) { setNotes(null); setNErr(contentError(error.message)); } else setNotes(data as Notes | null);
+    });
+    return () => { live = false; };
+  }, [slug, topicId, isSample, paperOwned]);
   useEffect(() => {
     setPaid(null); setVErr('');
-    if (!hit || isSample || !paperOwned) return;
-    supabase.rpc('get_topic_videos', { p_paper: slug, p_topic: hit.topic.id }).then(({ data, error }) => {
-      if (error) setVErr(error.message.includes('elsewhere') ? 'Your account is signed in on another device.' : 'Could not load videos. Refresh to try again.');
+    if (!topicId || isSample || !paperOwned) return;
+    let live = true;
+    supabase.rpc('get_topic_videos', { p_paper: slug, p_topic: topicId }).then(({ data, error }) => {
+      if (!live) return;
+      if (error) setVErr(contentError(error.message));
       else setPaid((data ?? []) as Video[]);
     });
-  }, [slug, hit?.topic.id, isSample, paperOwned]);
-  if (!ready) return <Loading />;
+    return () => { live = false; };
+  }, [slug, topicId, isSample, paperOwned]);
+  if (!ready || !authReady) return <Loading />;
   if (!hit) return <NotFound />;
 
   const { paper, subject, topic, moduleName, moduleLetter, flat, index } = hit;
@@ -90,12 +116,32 @@ export function TopicPage() {
         <div className="mt-6 space-y-10">
           <section aria-labelledby="v-h">
             <h2 id="v-h" className="mb-4 text-lg font-semibold">Watch <span className="font-normal text-mute">· {videoCount} videos</span></h2>
-            {vErr ? <p className="card p-6 text-hard">{vErr}</p> : videos.length ? <YouTubePlayer videos={videos} /> : !topic.sample && paid === null && videoCount ? <div className="aspect-video animate-pulse rounded-card bg-surface" /> : <p className="card p-6 text-sub">Videos for this topic are being verified and will appear soon.</p>}
+            {vErr ? <p className="card p-6 text-hard">{vErr}</p> : videos.length ? <YouTubePlayer key={topic.id} videos={videos} /> : !topic.sample && paid === null && videoCount ? <div className="aspect-video animate-pulse rounded-card bg-surface" /> : <p className="card p-6 text-sub">Videos for this topic are being verified and will appear soon.</p>}
           </section>
 
           <section aria-labelledby="n-h" className="max-w-read">
             <h2 id="n-h" className="mb-4 text-lg font-semibold">Key points</h2>
-            {lesson ? (
+            {notes ? (
+              <div className="space-y-6 font-serif text-[17px] leading-[1.75]">
+                <p>{notes.s}</p>
+                <ul className="list-disc space-y-1.5 pl-5">{notes.p.map(x => <li key={x}>{x}</li>)}</ul>
+                {!!notes.f?.length && (
+                  <div className="card p-4 font-sans">
+                    <h3 className="text-sm font-semibold">Formulas and rules</h3>
+                    <ul className="mt-2 space-y-2 text-[14px]">
+                      {notes.f.map(([f, n]) => <li key={f}><span className="font-mono text-brand">{f}</span>{n && <span className="block text-sub">{n}</span>}</li>)}
+                    </ul>
+                  </div>
+                )}
+                {notes.m?.map(m => (
+                  <div key={m} className="border-l-2 border-hard/70 pl-4 font-sans text-[15px]">
+                    <p><span className="font-medium">Common mistake:</span> <span className="text-sub">{m}</span></p>
+                  </div>
+                ))}
+                {notes.q && <p className="rounded-lg bg-brand/10 p-4 font-sans text-[15px]"><span className="font-semibold">How GATE asks this:</span> {notes.q}</p>}
+                <p className="font-sans text-xs text-mute">Spotted a mistake? Email {CONTACT_EMAIL} and we'll fix it.</p>
+              </div>
+            ) : lesson ? (
               <div className="space-y-6 font-serif text-[17px] leading-[1.75]">
                 <p>{lesson.overview.whyItMatters}</p>
                 <div>
@@ -119,6 +165,10 @@ export function TopicPage() {
                 ))}
                 <p className="rounded-lg bg-brand/10 p-4 font-sans text-[15px]"><span className="font-semibold">Key takeaway:</span> {lesson.explanation.keyTakeaway}</p>
               </div>
+            ) : nErr ? (
+              <p className="card p-6 text-hard">{nErr}</p>
+            ) : notes === undefined ? (
+              <div className="h-40 animate-pulse rounded-card bg-surface" />
             ) : (
               <p className="card p-6 text-sub">Key-point notes for this topic are being written.</p>
             )}

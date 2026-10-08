@@ -10,8 +10,9 @@ alter table public.topic_videos enable row level security;   -- no policies: nev
 
 -- Returns a topic's videos only if the caller owns the paper (not expired)
 -- AND this request comes from their one active login.
+-- Not STABLE: it records a topic_view event, and Postgres forbids INSERT inside STABLE functions.
 create or replace function public.get_topic_videos(p_paper text, p_topic text) returns jsonb
-language plpgsql stable security definer set search_path = '' as $$
+language plpgsql volatile security definer set search_path = '' as $$
 declare v jsonb;
 begin
   if auth.uid() is null then raise exception 'sign in required'; end if;
@@ -28,4 +29,6 @@ begin
   return coalesce(v, '[]'::jsonb);
 end $$;
 
-revoke all on function public.get_topic_videos(text, text) from anon;
+revoke execute on function public.get_topic_videos(text, text) from public, anon;
+grant execute on function public.get_topic_videos(text, text) to authenticated;
+revoke all on public.topic_videos from anon, authenticated;

@@ -45,7 +45,8 @@ export function toggleTheme() {
   set({ theme });
 }
 
-export const isUnlocked = (paper: string) => state.unlocked.includes(paper);
+/** Dev preview only: in production, access comes solely from server entitlements. */
+export const isUnlocked = (paper: string) => import.meta.env.DEV && Array.isArray(state.unlocked) && state.unlocked.includes(paper);
 
 /** Dev-only preview unlock (?unlock=cs). Real unlocks come from Razorpay + server. */
 export function devUnlockFromUrl() {
