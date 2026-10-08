@@ -20,7 +20,7 @@ export const TermsPage = () => (
   <Page title="Terms of use">
     <p>By creating an account or buying a paper on GATE A–Z ("we", "the platform") you agree to these terms.</p>
     <h2>What you buy</h2>
-    <p>Each GATE paper (for example CS or EC) is sold separately for ₹{PRICE_INR}. A purchase gives one person access to that paper's sheet, notes, video playlists and PYQ mapping for the current exam season: from the date of purchase until 30 days after that year's GATE exam. A new edition is published for each GATE year.</p>
+    <p>Each GATE paper (for example CS or EC) is sold separately for ₹{PRICE_INR}. A purchase gives one person access to that paper's sheet, video playlists and topic notes (added through the season) for the current exam season: from the date of purchase until 30 days after that year's GATE exam. A new edition is published for each GATE year.</p>
     <h2>One person, one login</h2>
     <ul>
       <li>An account is for a single person. Sharing your account or reselling access is not allowed.</li>

@@ -6,6 +6,7 @@ import { useAuth } from '../lib/auth';
 import { supabase } from '../lib/supabase';
 import { useStore } from '../lib/store';
 import { Bar } from '../ui/bits';
+import { Loading } from './Static';
 
 interface Ent { paper: string; edition: string; expires_at: string; payment_id: string | null; amount_paise: number; created_at: string }
 
@@ -14,12 +15,12 @@ const EXAM = new Date('2027-02-06T09:00:00+05:30'); // update when official date
 export function MePage() {
   const { session, ready } = useAuth();
   const { progress } = useStore();
-  const [ents, setEnts] = useState<Ent[]>([]);
+  const [ents, setEnts] = useState<Ent[] | null>(null);
   const [err, setErr] = useState(false);
   const uid = session?.user.id;
 
   useEffect(() => {
-    setEnts([]); setErr(false);
+    setEnts(null); setErr(false);
     if (!uid) return;
     let live = true;
     supabase.from('entitlements').select('paper, edition, expires_at, payment_id, amount_paise, created_at').order('created_at', { ascending: false })
@@ -27,10 +28,17 @@ export function MePage() {
     return () => { live = false; };
   }, [uid]);
 
-  if (!ready) return null;
+  if (!ready) return <Loading />;
   if (!session) {
-    return <div className="mx-auto max-w-shell px-4 py-24 text-center sm:px-6"><h1 className="text-xl font-semibold">Sign in to see your papers</h1></div>;
+    return (
+      <div className="mx-auto max-w-shell px-4 py-24 text-center sm:px-6">
+        <h1 className="text-xl font-semibold">Sign in to see your papers</h1>
+        <button type="button" className="btn-primary mt-6" onClick={() => window.dispatchEvent(new Event('open-signin'))}>Sign in</button>
+      </div>
+    );
   }
+  if (!ents && !err) return <Loading />;
+  const list = ents ?? [];
 
   const days = Math.max(0, Math.ceil((EXAM.getTime() - Date.now()) / 86_400_000));
   const doneIn = (slug: string) => Object.entries(progress).filter(([id, s]) => s === 'done' && id.startsWith(`${slug}-`)).length;
@@ -44,19 +52,19 @@ export function MePage() {
         </div>
         <div className="card px-4 py-3 text-right">
           <p className="font-mono text-2xl tnum">{days}</p>
-          <p className="text-xs text-mute">days to {EDITION} (approx.)</p>
+          <p className="text-xs text-sub">days to {EDITION} (6 Feb 2027)</p>
         </div>
       </div>
 
       {err && <p role="alert" className="card mt-8 p-4 text-hard">Couldn't load your papers. Check your connection and refresh. Your purchases are safe.</p>}
-      {err ? null : ents.length === 0 ? (
+      {err ? null : list.length === 0 ? (
         <div className="card mt-8 flex flex-col items-start gap-4 p-6 sm:flex-row sm:items-center sm:justify-between">
           <div className="flex gap-3"><BookOpen className="shrink-0 text-brand" /><div><p className="font-medium">No papers yet</p><p className="text-sub">Pick your GATE paper and start with its free sample topics.</p></div></div>
           <Link to="/papers" className="btn-primary">Choose your paper</Link>
         </div>
       ) : (
         <ul className="mt-8 grid gap-3 md:grid-cols-2">
-          {ents.map(e => {
+          {list.map(e => {
             const p = getPaper(e.paper);
             const total = paperStats(e.paper).topics;
             const done = doneIn(e.paper);
@@ -84,7 +92,7 @@ export function MePage() {
         <table className="w-full text-sm">
           <thead className="text-left text-xs text-mute"><tr>{['Date', 'Paper', 'Amount', 'Payment ID'].map(h => <th key={h} className="px-4 py-3 font-medium">{h}</th>)}</tr></thead>
           <tbody>
-            {ents.map(e => (
+            {list.map(e => (
               <tr key={'p' + e.paper + e.edition} className="border-t border-line">
                 <td className="px-4 py-2.5 text-sub">{new Date(e.created_at).toLocaleDateString('en-IN')}</td>
                 <td className="px-4 py-2.5 font-mono">{e.paper.toUpperCase()}</td>
@@ -92,7 +100,7 @@ export function MePage() {
                 <td className="px-4 py-2.5 font-mono text-xs text-sub">{e.payment_id ?? '—'}</td>
               </tr>
             ))}
-            {!ents.length && <tr><td colSpan={4} className="px-4 py-6 text-center text-sub">No purchases yet.</td></tr>}
+            {!list.length && <tr><td colSpan={4} className="px-4 py-6 text-center text-sub">No purchases yet.</td></tr>}
           </tbody>
         </table>
       </div>

@@ -1,5 +1,4 @@
 import { Link } from 'react-router-dom';
-import { ArrowUpRight } from 'lucide-react';
 import { PAPERS, isSellable, paperStats, type Paper } from '../catalog';
 
 const STATUS_CHIP: Record<'live' | 'syllabus' | 'soon', [string, string]> = {
@@ -39,31 +38,6 @@ export function PapersPage() {
       <h1 className="text-3xl font-semibold">All GATE papers</h1>
       <p className="mt-2 text-sub">Each paper is a separate ₹310 sheet. Papers marked “Videos live” can be bought now; the rest are free to browse while their videos are curated.</p>
       <PaperGrid />
-    </div>
-  );
-}
-
-const OFFICIAL = [
-  { y: '2026', label: 'GATE 2026 papers and answer keys', url: 'https://gate2026.iitg.ac.in/QPs-answer-keys.html' },
-  { y: '2007–2025', label: 'Previous papers archive (IIT Kharagpur)', url: 'https://gate.iitkgp.ac.in/old_question_papers.html' },
-];
-
-export function PyqPage() {
-  return (
-    <div className="mx-auto max-w-read px-4 py-10 sm:px-6">
-      <h1 className="text-3xl font-semibold">Previous-year papers</h1>
-      <p className="mt-2 text-sub">Free for every branch. These links open the official IIT-hosted papers and answer keys. Topic-wise PYQs are inside each paper's sheet.</p>
-      <ul className="mt-6 space-y-3">
-        {OFFICIAL.map(o => (
-          <li key={o.url}>
-            <a href={o.url} target="_blank" rel="noopener noreferrer" className="card flex items-center justify-between gap-4 p-4 hover:border-mute">
-              <span><span className="block font-mono text-sm text-brand">{o.y}</span><span className="block">{o.label}</span></span>
-              <ArrowUpRight size={18} className="shrink-0 text-mute" />
-            </a>
-          </li>
-        ))}
-      </ul>
-      <p className="mt-6 text-xs text-mute">Year-by-year tables for all 30 papers are being added here.</p>
     </div>
   );
 }

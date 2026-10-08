@@ -32,16 +32,13 @@ export function StatusBox({ s, onClick, label }: { s: Status; onClick?: () => vo
   const done = s === 'done';
   const doing = s === 'doing';
   return (
-    <button
-      type="button"
-      onClick={onClick}
-      aria-label={label}
-      className={`grid h-6 w-6 shrink-0 place-items-center rounded-md border transition-colors duration-150 ${
-        done ? 'border-ok bg-ok text-page' : doing ? 'border-medium bg-medium/15' : 'border-line hover:border-mute'
-      }`}
-    >
-      {done && <Check size={14} strokeWidth={3} />}
-      {doing && <span className="h-2 w-2 rounded-full bg-medium" />}
+    <button type="button" onClick={onClick} aria-label={label} aria-pressed={done} className="-m-2.5 grid h-11 w-11 shrink-0 place-items-center">
+      <span className={`grid h-6 w-6 place-items-center rounded-md border transition-colors duration-150 ${
+        done ? 'border-ok bg-ok text-page' : doing ? 'border-medium bg-medium/15' : 'border-line-strong hover:border-sub'
+      }`}>
+        {done && <Check size={14} strokeWidth={3} />}
+        {doing && <span className="h-2 w-2 rounded-full bg-medium" />}
+      </span>
     </button>
   );
 }

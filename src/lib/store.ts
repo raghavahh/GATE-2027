@@ -7,6 +7,8 @@ interface State {
   /** Paper slugs unlocked. Replaced by server entitlements once payments go live. */
   unlocked: string[];
   theme: 'dark' | 'light';
+  /** Last topic opened, for "Continue where you left off". */
+  last?: { paper: string; topic: string; name: string };
 }
 
 const KEY = 'gate27:v1';
@@ -37,6 +39,10 @@ export function useStore() {
 
 export function setStatus(topicId: string, s: Status) {
   set({ progress: { ...state.progress, [topicId]: s } });
+}
+
+export function setLast(paper: string, topic: string, name: string) {
+  if (state.last?.topic !== topic) set({ last: { paper, topic, name } });
 }
 
 export function toggleTheme() {

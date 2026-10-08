@@ -4,6 +4,7 @@ import { useAuth } from '../lib/auth';
 import { SignInModal } from './SignInModal';
 import { Moon, Sun } from 'lucide-react';
 import { Logo } from './bits';
+import { CONTACT_EMAIL } from '../lib/supabase';
 import { ErrorBoundary } from './ErrorBoundary';
 import { toggleTheme, useStore } from '../lib/store';
 
@@ -19,6 +20,12 @@ export function Shell() {
   const [signIn, setSignIn] = useState(false);
   const { pathname } = useLocation();
   useEffect(() => { window.scrollTo(0, 0); }, [pathname]);
+  // Any page can ask for the sign-in dialog: window.dispatchEvent(new Event('open-signin')).
+  useEffect(() => {
+    const open = () => setSignIn(true);
+    window.addEventListener('open-signin', open);
+    return () => window.removeEventListener('open-signin', open);
+  }, []);
 
   return (
     <div className="flex min-h-dvh flex-col">
@@ -72,7 +79,10 @@ export function Shell() {
           <nav className="flex flex-wrap gap-x-5 gap-y-2" aria-label="Legal">
             {[['/terms', 'Terms'], ['/privacy', 'Privacy'], ['/refund', 'Refunds'], ['/delivery', 'Delivery'], ['/contact', 'Contact']].map(([to, l]) => <Link key={to} to={to} className="hover:text-ink">{l}</Link>)}
           </nav>
-          <p className="max-w-md text-xs text-mute">Not affiliated with IISc, the IITs or the GATE organisers. Videos belong to their creators and play through YouTube's official player.</p>
+          <div className="max-w-md space-y-1 text-xs text-sub">
+            <p>Run by Pithani Raghavendra, India · <a href={`mailto:${CONTACT_EMAIL}`} className="underline hover:text-ink">{CONTACT_EMAIL}</a> · Payments by Razorpay</p>
+            <p>Not affiliated with IISc, the IITs or the GATE organisers. Videos belong to their creators and play through YouTube's official player.</p>
+          </div>
         </div>
       </footer>
     </div>

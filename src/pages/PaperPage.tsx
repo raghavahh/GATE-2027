@@ -8,7 +8,6 @@ import { BuyModal } from '../ui/BuyModal';
 import { useAuth } from '../lib/auth';
 import { Loading, NotFound } from './Static';
 
-const nextStatus: Record<Status, Status> = { todo: 'doing', doing: 'done', done: 'todo' };
 type Filter = 'all' | Diff;
 
 export function PaperPage() {
@@ -45,7 +44,6 @@ export function PaperPage() {
     );
   }
 
-  const canSee = (t: CatTopic, i: number) => unlocked || t.sample || i % 3 === 0;
   const match = (t: CatTopic) => (filter === 'all' || t.diff === filter) && (!q || t.name.toLowerCase().includes(q.toLowerCase()));
 
   return (
@@ -79,15 +77,15 @@ export function PaperPage() {
         </div>
       </section>
 
-      <div className="sticky top-14 z-30 -mx-4 flex flex-wrap items-center gap-2 border-b border-line bg-page/95 px-4 py-3 backdrop-blur sm:-mx-6 sm:px-6">
-        <label className="relative min-w-[200px] flex-1 sm:max-w-xs">
+      <div className="-mx-4 flex items-center gap-2 border-b border-line bg-page/95 px-4 py-3 backdrop-blur sm:-mx-6 sm:px-6 md:sticky md:top-14 md:z-30">
+        <label className="relative min-w-0 flex-1 sm:max-w-xs">
           <Search size={15} className="pointer-events-none absolute left-3 top-1/2 -translate-y-1/2 text-mute" />
           <input value={q} onChange={e => setQ(e.target.value)} placeholder="Search topics" aria-label="Search topics" className="h-9 w-full rounded-lg border border-line bg-surface pl-9 pr-3 text-sm outline-none placeholder:text-mute focus:border-brand/60" />
         </label>
-        <div className="flex gap-1 rounded-lg border border-line bg-surface p-1" role="group" aria-label="Difficulty">
+        <div className="flex shrink-0 gap-1 rounded-lg border border-line bg-surface p-1" role="group" aria-label="Difficulty">
           {(['all', 'E', 'M', 'H'] as Filter[]).map(f => (
-            <button key={f} type="button" onClick={() => setFilter(f)} className={`h-7 rounded-md px-3 text-xs font-medium transition-colors duration-150 ${filter === f ? 'bg-raised text-ink' : 'text-sub hover:text-ink'}`}>
-              {f === 'all' ? 'All' : f === 'E' ? 'Easy' : f === 'M' ? 'Medium' : 'Hard'}
+            <button key={f} type="button" onClick={() => setFilter(f)} className={`h-7 rounded-md px-2 text-xs font-medium sm:px-3 transition-colors duration-150 ${filter === f ? 'bg-raised text-ink' : 'text-sub hover:text-ink'}`}>
+              {f === 'all' ? 'All' : f === 'E' ? 'Easy' : f === 'M' ? 'Med' : 'Hard'}
             </button>
           ))}
         </div>
@@ -99,10 +97,9 @@ export function PaperPage() {
             key={s.id}
             s={s}
             idx={si}
-            isOpen={open[s.id] ?? si < 2}
-            toggle={() => setOpen(o => ({ ...o, [s.id]: !(o[s.id] ?? si < 2) }))}
+            isOpen={open[s.id] ?? (si === 0 || !!q || filter !== 'all')}
+            toggle={() => setOpen(o => ({ ...o, [s.id]: !(o[s.id] ?? (si === 0 || !!q || filter !== 'all')) }))}
             progress={progress}
-            canSee={canSee}
             match={match}
             unlocked={unlocked}
             paperSlug={slug}
@@ -122,17 +119,15 @@ interface BlockProps {
   isOpen: boolean;
   toggle: () => void;
   progress: Record<string, Status>;
-  canSee: (t: CatTopic, i: number) => boolean;
   match: (t: CatTopic) => boolean;
   unlocked: boolean;
   paperSlug: string;
   onLocked: (name?: string) => void;
 }
 
-function SubjectBlock({ s, idx, isOpen, toggle, progress, canSee, match, unlocked, paperSlug, onLocked }: BlockProps) {
+function SubjectBlock({ s, idx, isOpen, toggle, progress, match, unlocked, paperSlug, onLocked }: BlockProps) {
   const topics = s.modules.flatMap(m => m.topics);
   const done = topics.filter(t => progress[t.id] === 'done').length;
-  let counter = 0;
 
   return (
     <section className="card overflow-hidden">
@@ -140,7 +135,8 @@ function SubjectBlock({ s, idx, isOpen, toggle, progress, canSee, match, unlocke
         <span className="grid h-9 w-9 shrink-0 place-items-center rounded-lg bg-raised font-mono text-sm text-sub tnum">{String(idx + 1).padStart(2, '0')}</span>
         <span className="min-w-0 flex-1">
           <span className="block text-[16px] font-semibold">{s.name}</span>
-          <span className="mt-0.5 block truncate text-[13px] text-sub">{s.focus}</span>
+          {s.focus && <span className="mt-0.5 block text-[13px] leading-snug text-sub line-clamp-2">{s.focus}</span>}
+          <span className="mt-0.5 block font-mono text-xs text-sub tnum sm:hidden">{s.marks ? `${s.marks} marks · ` : ''}{done}/{topics.length} done</span>
         </span>
         <span className="hidden text-right sm:block">
           {s.marks && <span className="block font-mono text-sm tnum">{s.marks} <span className="text-mute">marks</span></span>}
@@ -152,13 +148,12 @@ function SubjectBlock({ s, idx, isOpen, toggle, progress, canSee, match, unlocke
       {isOpen && (
         <div className="border-t border-line">
           {s.modules.map(m => {
-            const rows = m.topics.map(t => ({ t, i: counter++ })).filter(({ t }) => match(t));
-            const visible = rows.filter(({ t, i }) => canSee(t, i));
-            const hidden = rows.length - visible.length;
-            if (!rows.length) return null;
+            // Every topic is listed even when locked: the syllabus is public; the lectures and notes are what's paid.
+            const visible = m.topics.filter(match).map(t => ({ t }));
+            if (!visible.length) return null;
             return (
               <div key={m.letter}>
-                <div className="flex items-center gap-2 bg-raised/40 px-4 py-2 text-xs font-medium uppercase tracking-wider text-mute sm:px-5">
+                <div className="flex items-center gap-2 bg-raised/40 px-4 py-2 text-xs font-medium uppercase tracking-wider text-sub sm:px-5">
                   <span className="font-mono text-brand">{m.letter}</span>{m.name}
                 </div>
                 <ul>
@@ -167,31 +162,23 @@ function SubjectBlock({ s, idx, isOpen, toggle, progress, canSee, match, unlocke
                     const vids = getVideoCount(t.id);
                     const open = unlocked || t.sample;
                     return (
-                      <li key={t.id} className="flex items-center gap-3 border-t border-line px-4 py-2.5 sm:px-5">
+                      <li key={t.id} className="flex items-start gap-3 border-t border-line px-4 py-3 sm:px-5">
                         {open ? (
-                          <StatusBox s={st} label={`Status of ${t.name}: ${st}`} onClick={() => setStatus(t.id, nextStatus[st])} />
+                          <StatusBox s={st} label={`Mark ${t.name} ${st === 'done' ? 'not done' : 'done'}`} onClick={() => setStatus(t.id, st === 'done' ? 'todo' : 'done')} />
                         ) : (
-                          <span className="grid h-6 w-6 shrink-0 place-items-center rounded-md border border-line text-mute"><Lock size={12} /></span>
+                          <span className="grid h-6 w-6 shrink-0 place-items-center rounded-md border border-line text-sub"><Lock size={12} /></span>
                         )}
                         {open ? (
-                          <Link to={`/${paperSlug}/${t.id}`} className="min-w-0 flex-1 truncate text-[14px] hover:text-brand">{t.name}</Link>
+                          <Link to={`/${paperSlug}/${t.id}`} className={`min-w-0 flex-1 text-[14px] leading-snug line-clamp-2 hover:text-brand ${st === 'done' ? 'text-sub' : ''}`}>{t.name}</Link>
                         ) : (
-                          <button type="button" onClick={() => onLocked(t.name)} className="min-w-0 flex-1 truncate text-left text-[14px] text-sub hover:text-ink">{t.name}</button>
+                          <button type="button" onClick={() => onLocked(t.name)} className="min-w-0 flex-1 text-left text-[14px] leading-snug text-sub line-clamp-2 hover:text-ink">{t.name}</button>
                         )}
                         {t.sample && !unlocked && <span className="chip bg-ok/10 text-ok">Free</span>}
-                        <span className="hidden w-20 items-center gap-1 text-xs text-mute sm:flex tnum"><PlayCircle size={13} />{vids || '–'}</span>
-                        <span className="w-16 text-right"><DiffText d={t.diff} /></span>
+                        <span className="flex w-10 shrink-0 items-center gap-1 text-xs text-sub tnum sm:w-14" title={`${vids} videos`}><PlayCircle size={13} />{vids || '–'}</span>
+                        <span className="w-14 shrink-0 text-right"><DiffText d={t.diff} /></span>
                       </li>
                     );
                   })}
-                  {hidden > 0 && (
-                    <li className="border-t border-line">
-                      <button type="button" onClick={() => onLocked()} className="flex w-full items-center gap-3 px-4 py-2.5 text-left text-[13px] text-mute hover:bg-raised/50 sm:px-5">
-                        <span className="grid h-6 w-6 place-items-center rounded-md border border-dashed border-line"><Lock size={12} /></span>
-                        {hidden} more topic{hidden > 1 ? 's' : ''} in this module, unlock to see
-                      </button>
-                    </li>
-                  )}
                 </ul>
               </div>
             );

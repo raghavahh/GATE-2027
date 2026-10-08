@@ -144,7 +144,7 @@ export function BuyModal({ paper, topicName, counts, onClose }: Props) {
             <span className="grid h-10 w-10 place-items-center rounded-full bg-brand/15 text-brand"><Lock size={18} /></span>
             <div>
               <h2 id="buy-title" className="text-lg font-semibold">Unlock {paper.code} · {EDITION}</h2>
-              <p className="text-sm text-sub">{topicName ? `You tapped: ${topicName}` : paper.name}</p>
+              <p className="text-sm text-sub">{topicName ? `${topicName} is in ${paper.code}` : paper.name}</p>
             </div>
           </div>
           <button type="button" onClick={close} className="grid h-9 w-9 place-items-center rounded-lg text-sub hover:bg-raised" aria-label="Close">
@@ -159,16 +159,16 @@ export function BuyModal({ paper, topicName, counts, onClose }: Props) {
         </ul>
 
         <div className="mt-6 flex items-baseline gap-2">
-          <span className="font-mono text-3xl font-medium tnum">₹{PRICE_INR}</span>
+          <span className="text-3xl font-semibold tnum">₹{PRICE_INR}</span>
           <span className="text-sm text-sub">one payment · access till 30 days after the exam</span>
         </div>
-        <p className="mt-1 text-xs text-mute">One account, one active login. Each branch is bought separately. No refunds or cancellations after purchase.</p>
+        <p className="mt-1 text-xs text-sub">One account, one active login. Each branch is bought separately. No refunds or cancellations after purchase.</p>
 
         <button type="button" className="btn-primary mt-5 h-11 w-full text-[15px]" disabled={busy || !!pending} onClick={done ? onClose : pay}>
           {done ? `${paper.code} unlocked · Start studying` : pending ? 'Confirming payment…' : busy ? 'Opening payment…' : `Pay ₹${PRICE_INR} with UPI`}
         </button>
         {msg && <p role="status" className="mt-3 text-center text-sm text-sub">{msg}</p>}
-        <p className="mt-3 flex items-center justify-center gap-1.5 text-xs text-mute">
+        <p className="mt-3 flex items-center justify-center gap-1.5 text-xs text-sub">
           <ShieldCheck size={14} /> Secure payment by Razorpay · UPI, cards, netbanking
         </p>
       </div>

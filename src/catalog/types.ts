@@ -12,8 +12,6 @@ export interface CatTopic {
   diff: Diff;
   /** Fully open without purchase (one per subject). */
   sample?: boolean;
-  /** Old repo lesson id with full notes, if any. */
-  lesson?: string;
 }
 
 export interface CatModule {

@@ -11,6 +11,7 @@ export default {
         surface: v('surface'),
         raised: v('raised'),
         line: v('line'),
+        'line-strong': v('line-strong'),
         ink: v('ink'),
         sub: v('sub'),
         mute: v('mute'),

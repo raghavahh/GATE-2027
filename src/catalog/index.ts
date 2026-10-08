@@ -27,7 +27,7 @@ export function loadPaper(slug: string): Promise<void> {
       videoLoaders[`./videos/${slug}.json`]?.(),
     ]);
     Object.assign(VIDEOS, vids ?? {});
-    SUBJECTS[slug] = own?.length ? [...(ga ?? []), ...own] : [];
+    SUBJECTS[slug] = own?.length ? [...own, ...(ga ?? [])] : []; // core subjects first, General Aptitude last
   })().catch(e => { delete pending[slug]; throw e; }); // don't cache a failure: the next visit retries
   return pending[slug];
 }
@@ -62,8 +62,9 @@ export interface TopicHit {
 export function findTopic(paperSlug: string, topicId: string): TopicHit | undefined {
   const paper = getPaper(paperSlug);
   if (!paper) return undefined;
+  // Prev/next run through the whole paper, so the last topic of a subject leads into the next subject.
+  const flat = getSubjects(paperSlug).flatMap(s => s.modules.flatMap(m => m.topics));
   for (const subject of getSubjects(paperSlug)) {
-    const flat = subject.modules.flatMap(m => m.topics);
     for (const m of subject.modules) {
       const topic = m.topics.find(t => t.id === topicId);
       if (topic) return { paper, subject, moduleName: m.name, moduleLetter: m.letter, topic, index: flat.indexOf(topic), flat };

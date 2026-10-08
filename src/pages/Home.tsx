@@ -1,16 +1,28 @@
 import { Link } from 'react-router-dom';
-import { ArrowRight, BookOpenCheck, Layers, PlayCircle, Target } from 'lucide-react';
-import { CS_SUBJECTS } from '../catalog/cs';
-import { EDITION, PAPERS, PRICE_INR, paperStats } from '../catalog';
+import { ArrowRight, BookOpenCheck, Check, Layers, PlayCircle, Target } from 'lucide-react';
+import { EDITION, PAPERS, PRICE_INR, getSubjects, getVideoCount, isSellable, paperStats, usePaper } from '../catalog';
+import { useStore } from '../lib/store';
 import { DiffText } from '../ui/bits';
 import { PaperGrid } from './Static';
 
-const preview = CS_SUBJECTS.find(s => s.id === 'os')!.modules[2].topics;
-
 export function Home() {
   const cs = paperStats('cs');
+  const { last } = useStore();
+  // Preview the real CS sheet: its Operating System subject, first module.
+  usePaper('cs');
+  const os = getSubjects('cs').find(s => s.id === 'cs-operating-system');
+  const preview = os?.modules[0];
   return (
     <>
+      {last && (
+        <div className="mx-auto max-w-shell px-4 pt-6 sm:px-6">
+          <Link to={`/${last.paper}/${last.topic}`} className="card flex items-center gap-3 p-4 hover:border-sub">
+            <PlayCircle size={20} className="shrink-0 text-brand" />
+            <span className="min-w-0 flex-1"><span className="block text-xs text-sub">Continue where you left off · {last.paper.toUpperCase()}</span><span className="block truncate font-medium">{last.name}</span></span>
+            <ArrowRight size={16} className="shrink-0 text-sub" />
+          </Link>
+        </div>
+      )}
       <section className="mx-auto grid max-w-shell items-center gap-12 px-4 py-14 sm:px-6 lg:grid-cols-[1.05fr_.95fr] lg:py-20">
         <div>
           <p className="font-mono text-sm text-brand">{EDITION} · all {PAPERS.length} papers</p>
@@ -18,33 +30,34 @@ export function Home() {
             Every GATE topic,<br />in the right order.
           </h1>
           <p className="mt-5 max-w-lg text-[17px] leading-relaxed text-sub">
-            Your paper's full syllabus as an A–Z sheet. Each topic has the 3–4 best videos playing right here, key-point notes and previous-year questions. Tick it off and move on.
+            Your paper's official {EDITION} syllabus as an A–Z sheet. Hand-picked lectures for each topic play right here; tick it off and move to the next. Official previous-year papers are free.
           </p>
           <div className="mt-8 flex flex-wrap gap-3">
             <Link to="/cs" className="btn-primary h-11 px-5 text-[15px]">Open the CS sheet <ArrowRight size={16} /></Link>
             <Link to="/papers" className="btn-ghost h-11 px-5 text-[15px]">Choose your paper</Link>
           </div>
           <dl className="mt-10 grid max-w-md grid-cols-3 gap-6 border-t border-line pt-6">
-            {[[cs.topics, 'CS topics'], [cs.videos || '–', 'verified videos'], [`₹${PRICE_INR}`, 'per paper']].map(([n, l]) => (
-              <div key={l as string}><dt className="text-xs text-mute">{l}</dt><dd className="mt-1 font-mono text-2xl tnum">{n}</dd></div>
+            {[[cs.topics, 'CS topics'], [cs.videos || '–', 'CS lectures'], [`₹${PRICE_INR}`, 'per paper']].map(([n, l]) => (
+              <div key={l as string}><dt className="text-xs text-sub">{l}</dt><dd className="mt-1 text-2xl font-semibold tnum">{n}</dd></div>
             ))}
           </dl>
         </div>
 
-        <div className="card overflow-hidden" aria-label="Example of a sheet">
+        <div className="card overflow-hidden" aria-label="A real part of the CS sheet">
           <div className="flex items-center justify-between border-b border-line px-5 py-3.5">
-            <div><p className="text-sm font-semibold">Operating Systems</p><p className="text-xs text-sub">C · Memory management</p></div>
-            <span className="font-mono text-xs text-mute">8–10 marks</span>
+            <div><p className="text-sm font-semibold">{os?.name ?? 'Operating System'}</p><p className="text-xs text-sub">From the real CS sheet{os?.marks ? ` · ${os.marks} marks` : ''}</p></div>
+            <Link to="/cs" className="text-xs text-brand hover:underline">Open</Link>
           </div>
           <ul>
-            {preview.map((t, i) => (
+            {(preview?.topics ?? []).slice(0, 6).map((t, i) => (
               <li key={t.id} className="flex items-center gap-3 border-b border-line px-5 py-3 last:border-0">
-                <span className={`grid h-6 w-6 place-items-center rounded-md border ${i === 0 ? 'border-ok bg-ok text-page' : 'border-line'}`}>{i === 0 && <span className="text-[11px]">✓</span>}</span>
+                <span className={`grid h-6 w-6 shrink-0 place-items-center rounded-md border ${i === 0 ? 'border-ok bg-ok text-page' : 'border-line-strong'}`}>{i === 0 && <Check size={14} strokeWidth={3} />}</span>
                 <span className="flex-1 truncate text-[14px]">{t.name}</span>
-                <PlayCircle size={14} className="text-mute" />
-                <span className="w-16 text-right"><DiffText d={t.diff} /></span>
+                <span className="flex items-center gap-1 text-xs text-sub tnum"><PlayCircle size={13} />{getVideoCount(t.id) || '–'}</span>
+                <span className="w-14 text-right"><DiffText d={t.diff} /></span>
               </li>
             ))}
+            {!preview && [0, 1, 2, 3, 4].map(i => <li key={i} className="h-12 animate-pulse border-b border-line bg-surface last:border-0" />)}
           </ul>
         </div>
       </section>
@@ -52,9 +65,9 @@ export function Home() {
       <section className="border-y border-line bg-surface/40">
         <div className="mx-auto grid max-w-shell gap-8 px-4 py-14 sm:px-6 md:grid-cols-3">
           {[
-            { i: Layers, t: 'One sheet, no guesswork', d: 'Every subject split into A–Z modules, ordered the way toppers study them, with typical marks per subject.' },
-            { i: PlayCircle, t: 'Best videos, played here', d: 'We pick 3–4 trusted lectures per topic and play them inside the sheet. No YouTube rabbit holes.' },
-            { i: Target, t: 'Know what to focus on', d: 'Easy, Medium and Hard tags plus marks per subject, so the highest-return topics come first.' },
+            { i: Layers, t: 'The official syllabus, nothing missed', d: `Every topic of the ${EDITION} syllabus, grouped subject by subject and module by module.` },
+            { i: PlayCircle, t: 'Best lectures, played here', d: 'Hand-picked lectures from trusted GATE teachers, played inside the sheet. No YouTube rabbit holes.' },
+            { i: Target, t: 'Always know what\'s next', d: 'Easy, Medium and Hard tags, a tick for every topic and a one-tap “next topic”, so you never lose your place.' },
           ].map(({ i: I, t, d }) => (
             <div key={t}>
               <I size={22} className="text-brand" />
@@ -67,7 +80,7 @@ export function Home() {
 
       <section className="mx-auto max-w-shell px-4 py-16 sm:px-6">
         <div className="flex flex-wrap items-end justify-between gap-4">
-          <div><h2 className="text-2xl font-semibold">Pick your paper</h2><p className="mt-1 text-sub">₹{PRICE_INR} per paper, one payment, access till 30 days after the exam.</p></div>
+          <div><h2 className="text-2xl font-semibold">Pick your paper</h2><p className="mt-1 text-sub">₹{PRICE_INR} per paper, one payment, access till 30 days after the exam. {PAPERS.filter(p => isSellable(p.slug)).map(p => p.code).join(', ')} have lectures now.</p></div>
           <Link to="/papers" className="text-sm text-brand hover:underline">All {PAPERS.length} papers</Link>
         </div>
         <PaperGrid limit={8} />
