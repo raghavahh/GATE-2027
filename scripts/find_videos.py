@@ -23,7 +23,8 @@ OUT = pathlib.Path(os.environ.get("VIDEOS_OUT", ROOT / "src" / "catalog" / "vide
 MANUAL = ROOT / "scripts" / "needs_manual.txt"
 UA = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/124 Safari/537.36",
       "Accept-Language": "en-IN,en;q=0.9"}
-MIN_PICK, MAX_PICK, MIN_SEC, MAX_SEC, MAX_REUSE = 3, 5, 300, 4 * 3600, 2
+MAX_PICK = int(os.environ.get("MAX_PICK", 5))  # newer papers use 2 hand-checked lectures per topic
+MIN_PICK, MIN_SEC, MAX_SEC, MAX_REUSE = min(3, MAX_PICK), 300, 4 * 3600, 2
 
 # Exact (lower-case) channel names known for clear GATE teaching.
 GOOD = {

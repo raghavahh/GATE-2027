@@ -2,8 +2,8 @@
  {
   "id": "ce-engineering-mathematics",
   "name": "Engineering Mathematics",
-  "marks": "",
-  "focus": "",
+  "marks": "11–13",
+  "focus": "Linear algebra, calculus and probability give quick marks; numerical methods are easy NATs.",
   "modules": [
    {
     "letter": "A",
@@ -23,7 +23,7 @@
      {
       "id": "ce-engineering-mathematics--eigenvalues-and-eigenvectors",
       "name": "Eigenvalues and eigenvectors",
-      "diff": "H"
+      "diff": "M"
      }
     ]
    },
@@ -34,7 +34,8 @@
      {
       "id": "ce-engineering-mathematics--functions-of-single-variable",
       "name": "Functions of single variable",
-      "diff": "M"
+      "diff": "E",
+      "q": "functions of single variable calculus GATE"
      },
      {
       "id": "ce-engineering-mathematics--limit-continuity-and-differentiability",
@@ -49,7 +50,8 @@
      {
       "id": "ce-engineering-mathematics--taylor-series",
       "name": "Taylor series",
-      "diff": "E"
+      "diff": "E",
+      "q": "Taylor series expansion calculus GATE"
      },
      {
       "id": "ce-engineering-mathematics--evaluation-of-definite-and-indefinite-integrals",
@@ -58,48 +60,52 @@
      },
      {
       "id": "ce-engineering-mathematics--application-of-definite-integral-to-obtain-area-and-volume",
-      "name": "Application of definite integral to obtain area and volume",
-      "diff": "M"
+      "name": "Definite integrals: area and volume",
+      "diff": "M",
+      "q": "application of definite integral area and volume GATE"
      },
      {
       "id": "ce-engineering-mathematics--partial-derivatives",
       "name": "Partial derivatives",
-      "diff": "M"
+      "diff": "E"
      },
      {
       "id": "ce-engineering-mathematics--total-derivative",
       "name": "Total derivative",
-      "diff": "E"
+      "diff": "E",
+      "q": "total derivative partial differentiation GATE"
      },
      {
       "id": "ce-engineering-mathematics--gradient-divergence-and-curl-vector-identities",
-      "name": "Gradient, Divergence and Curl, Vector identities",
+      "name": "Gradient, divergence, curl and vector identities",
       "diff": "M"
      },
      {
       "id": "ce-engineering-mathematics--directional-derivatives",
       "name": "Directional derivatives",
-      "diff": "M"
+      "diff": "E"
      },
      {
       "id": "ce-engineering-mathematics--line-surface-and-volume-integrals",
-      "name": "Line, Surface and Volume integrals",
-      "diff": "M"
+      "name": "Line, surface and volume integrals",
+      "diff": "M",
+      "q": "line surface volume integrals Green Gauss Stokes theorem GATE"
      }
     ]
    },
    {
     "letter": "C",
-    "name": "Ordinary Differential Equation (ODE)",
+    "name": "Ordinary Differential Equations (ODE)",
     "topics": [
      {
       "id": "ce-engineering-mathematics--first-order-linear-and-non-linear-equations",
-      "name": "First order (linear and non-linear) equations",
-      "diff": "M"
+      "name": "First order equations (linear and non-linear)",
+      "diff": "E",
+      "q": "first order differential equations GATE"
      },
      {
       "id": "ce-engineering-mathematics--higher-order-linear-equations-with-constant-coefficients",
-      "name": "Higher order linear equations with constant coefficients",
+      "name": "Higher order linear ODEs with constant coefficients",
       "diff": "M"
      },
      {
@@ -110,33 +116,44 @@
      {
       "id": "ce-engineering-mathematics--initial-and-boundary-value-problems",
       "name": "Initial and boundary value problems",
-      "diff": "M"
+      "diff": "M",
+      "q": "initial and boundary value problems differential equations GATE"
      }
     ]
    },
    {
     "letter": "D",
-    "name": "Partial Differential Equation (PDE)",
+    "name": "Partial Differential Equations (PDE)",
     "topics": [
      {
       "id": "ce-engineering-mathematics--fourier-series",
       "name": "Fourier series",
-      "diff": "H"
+      "diff": "M",
+      "q": "Fourier series engineering mathematics GATE"
      },
      {
       "id": "ce-engineering-mathematics--separation-of-variables",
       "name": "Separation of variables",
-      "diff": "M"
+      "diff": "M",
+      "q": "separation of variables partial differential equations GATE"
      },
      {
       "id": "ce-engineering-mathematics--solutions-of-one-dimensional-diffusion-equation",
-      "name": "Solutions of one -dimensional diffusion equation",
-      "diff": "M"
+      "name": "One-dimensional diffusion equation",
+      "diff": "M",
+      "q": "one dimensional heat diffusion equation PDE solution GATE"
      },
      {
-      "id": "ce-engineering-mathematics--first-and-second-order-one-dimensional-wave-equation-and-two",
-      "name": "First and second order one-dimensional wave equation and two-dimensional Laplace equation",
-      "diff": "H"
+      "id": "ce-engineering-mathematics--one-dimensional-wave-equation-first-and-second-order",
+      "name": "One-dimensional wave equation (first and second order)",
+      "diff": "H",
+      "q": "one dimensional wave equation PDE GATE"
+     },
+     {
+      "id": "ce-engineering-mathematics--two-dimensional-laplace-equation",
+      "name": "Two-dimensional Laplace equation",
+      "diff": "H",
+      "q": "two dimensional Laplace equation PDE GATE"
      }
     ]
    },
@@ -146,27 +163,29 @@
     "topics": [
      {
       "id": "ce-engineering-mathematics--basic-concepts-of-probability-axioms-and-theorems",
-      "name": "Basic concepts of probability - axioms and theorems",
-      "diff": "E"
+      "name": "Axioms and theorems of probability",
+      "diff": "E",
+      "q": "probability axioms and theorems GATE"
      },
      {
       "id": "ce-engineering-mathematics--statistical-independence",
       "name": "Statistical independence",
-      "diff": "M"
+      "diff": "E",
+      "q": "independent events probability GATE"
      },
      {
       "id": "ce-engineering-mathematics--conditional-probability",
-      "name": "Conditional probability",
+      "name": "Conditional probability and Bayes' theorem",
       "diff": "M"
      },
      {
       "id": "ce-engineering-mathematics--descriptive-statistics-mean-median-mode-and-standard-deviati",
-      "name": "Descriptive statistics - Mean, median, mode and standard deviation",
-      "diff": "M"
+      "name": "Descriptive statistics: mean, median, mode and standard deviation",
+      "diff": "E"
      },
      {
       "id": "ce-engineering-mathematics--random-variables-probability-mass-function",
-      "name": "Random Variables - Probability mass function",
+      "name": "Random variables and probability mass function",
       "diff": "M"
      },
      {
@@ -181,13 +200,14 @@
      },
      {
       "id": "ce-engineering-mathematics--poisson-and-normal-distribution",
-      "name": "Poisson and Normal Distribution",
+      "name": "Poisson and normal distributions",
       "diff": "M"
      },
      {
       "id": "ce-engineering-mathematics--linear-regression",
       "name": "Linear regression",
-      "diff": "E"
+      "diff": "M",
+      "q": "linear regression least squares statistics GATE"
      }
     ]
    },
@@ -198,32 +218,36 @@
      {
       "id": "ce-engineering-mathematics--error-analysis",
       "name": "Error analysis",
-      "diff": "E"
+      "diff": "E",
+      "q": "error analysis numerical methods GATE"
      },
      {
       "id": "ce-engineering-mathematics--numerical-solutions-of-linear-and-nonlinear-algebraic-equati",
-      "name": "Numerical solutions of linear and nonlinear algebraic equations",
-      "diff": "H"
+      "name": "Numerical solution of linear and nonlinear algebraic equations",
+      "diff": "M",
+      "q": "Newton Raphson bisection Gauss Seidel numerical methods GATE"
      },
      {
       "id": "ce-engineering-mathematics--newtons-and-lagrange-polynomials",
-      "name": "Newton’s and Lagrange polynomials",
+      "name": "Newton's and Lagrange interpolation polynomials",
       "diff": "M"
      },
      {
       "id": "ce-engineering-mathematics--numerical-differentiation",
       "name": "Numerical differentiation",
-      "diff": "M"
+      "diff": "E"
      },
      {
       "id": "ce-engineering-mathematics--integration-by-trapezoidal-and-simpsons-rule",
-      "name": "Integration by trapezoidal and Simpson’s rule",
-      "diff": "M"
+      "name": "Trapezoidal and Simpson's rules",
+      "diff": "E",
+      "q": "trapezoidal Simpson's rule numerical integration GATE"
      },
      {
       "id": "ce-engineering-mathematics--single-and-multi-step-methods-for-firstorder-differential-eq",
-      "name": "Single and multi-step methods for firstorder differential equations",
-      "diff": "M"
+      "name": "Single-step and multi-step methods for first-order ODEs",
+      "diff": "M",
+      "q": "Euler Runge Kutta method first order ODE numerical GATE"
      }
     ]
    }
@@ -232,8 +256,8 @@
  {
   "id": "ce-structural-engineering",
   "name": "Structural Engineering",
-  "marks": "",
-  "focus": "",
+  "marks": "17–20",
+  "focus": "Solid mechanics and structural analysis dominate; RCC and steel design are formula/code-clause questions.",
   "modules": [
    {
     "letter": "A",
@@ -241,24 +265,27 @@
     "topics": [
      {
       "id": "ce-structural-engineering--system-of-forces-free-body-diagrams-equilibrium-equations",
-      "name": "System of forces, free -body diagrams, equilibrium equations",
-      "diff": "M",
+      "name": "System of forces, free-body diagrams and equilibrium",
+      "diff": "E",
       "sample": true
      },
      {
       "id": "ce-structural-engineering--internal-forces-in-structures",
       "name": "Internal forces in structures",
-      "diff": "M"
+      "diff": "M",
+      "q": "internal forces trusses frames engineering mechanics GATE civil"
      },
      {
       "id": "ce-structural-engineering--frictions-and-its-applications",
-      "name": "Frictions and its applications",
-      "diff": "M"
+      "name": "Friction and its applications",
+      "diff": "M",
+      "q": "friction engineering mechanics GATE civil"
      },
      {
       "id": "ce-structural-engineering--centre-of-mass",
       "name": "Centre of mass",
-      "diff": "E"
+      "diff": "E",
+      "q": "centre of mass centroid engineering mechanics GATE"
      }
     ]
    },
@@ -268,38 +295,54 @@
     "topics": [
      {
       "id": "ce-structural-engineering--bending-moment-and-shear-force-in-statically-determinate-bea",
-      "name": "Bending moment and shear force in statically determinate beams",
-      "diff": "M"
+      "name": "Bending moment and shear force in determinate beams",
+      "diff": "M",
+      "q": "shear force bending moment diagram GATE civil"
      },
      {
       "id": "ce-structural-engineering--transformation-of-stress-mohrs-circle",
-      "name": "Transformation of stress (Mohr’s circle)",
-      "diff": "H"
+      "name": "Transformation of stress and Mohr's circle",
+      "diff": "M",
+      "q": "Mohr's circle principal stresses strength of materials GATE"
      },
      {
       "id": "ce-structural-engineering--simple-stress-and-strain-relationships",
       "name": "Simple stress and strain relationships",
+      "diff": "E"
+     },
+     {
+      "id": "ce-structural-engineering--simple-bending-theory-and-flexural-stresses",
+      "name": "Simple bending theory and flexural stresses",
       "diff": "M"
      },
      {
-      "id": "ce-structural-engineering--simple-bending-theory-flexural-and-shear-stresses-shear-cent",
-      "name": "Simple bending theory, flexural and shear stresses, shear centre",
-      "diff": "M"
+      "id": "ce-structural-engineering--shear-stresses-in-beams",
+      "name": "Shear stresses in beams",
+      "diff": "M",
+      "q": "shear stress distribution in beams GATE civil"
+     },
+     {
+      "id": "ce-structural-engineering--shear-centre",
+      "name": "Shear centre",
+      "diff": "H",
+      "q": "shear centre strength of materials GATE"
      },
      {
       "id": "ce-structural-engineering--uniform-torsion",
-      "name": "Uniform torsion",
-      "diff": "E"
+      "name": "Uniform torsion of shafts",
+      "diff": "M",
+      "q": "torsion of circular shafts strength of materials GATE"
      },
      {
       "id": "ce-structural-engineering--combined-stresses",
       "name": "Combined stresses",
-      "diff": "E"
+      "diff": "M",
+      "q": "combined bending and torsion stresses strength of materials GATE"
      },
      {
       "id": "ce-structural-engineering--column-buckling",
-      "name": "Column buckling",
-      "diff": "E"
+      "name": "Column buckling (Euler's theory)",
+      "diff": "M"
      }
     ]
    },
@@ -310,12 +353,14 @@
      {
       "id": "ce-structural-engineering--principle-of-superposition",
       "name": "Principle of superposition",
-      "diff": "M"
+      "diff": "E",
+      "q": "principle of superposition structural analysis GATE civil"
      },
      {
       "id": "ce-structural-engineering--work-and-energy-methods-principle-of-virtual-work",
-      "name": "Work and energy methods: Principle of virtual work",
-      "diff": "M"
+      "name": "Principle of virtual work",
+      "diff": "M",
+      "q": "work and energy methods principle of virtual work unit load method GATE"
      },
      {
       "id": "ce-structural-engineering--castiglianos-second-theorem",
@@ -324,28 +369,46 @@
      },
      {
       "id": "ce-structural-engineering--deflections-of-statically-determinate-beams-frames-and-truss",
-      "name": "Deflections of statically determinate beams, frames, and trusses",
+      "name": "Deflections of determinate beams, frames and trusses",
       "diff": "M"
      },
      {
       "id": "ce-structural-engineering--analysis-of-statically-indeterminate-structures-by-force-and",
-      "name": "Analysis of statically indeterminate structures by force and displacement methods (method of consistent deformations, slopedeflection method, moment distribution method)",
+      "name": "Indeterminate structures: force and displacement methods",
+      "diff": "M",
+      "q": "static kinematic indeterminacy force method displacement method GATE civil"
+     },
+     {
+      "id": "ce-structural-engineering--method-of-consistent-deformations",
+      "name": "Method of consistent deformations",
+      "diff": "H"
+     },
+     {
+      "id": "ce-structural-engineering--slope-deflection-method",
+      "name": "Slope-deflection method",
+      "diff": "H"
+     },
+     {
+      "id": "ce-structural-engineering--moment-distribution-method",
+      "name": "Moment distribution method",
       "diff": "H"
      },
      {
       "id": "ce-structural-engineering--influence-lines-and-moving-loads",
       "name": "Influence lines and moving loads",
-      "diff": "M"
+      "diff": "H"
      },
      {
       "id": "ce-structural-engineering--stiffness-matrix-method",
       "name": "Stiffness matrix method",
-      "diff": "H"
+      "diff": "H",
+      "q": "stiffness matrix method structural analysis GATE civil"
      },
      {
       "id": "ce-structural-engineering--analysis-of-determinate-arches-and-cables",
       "name": "Analysis of determinate arches and cables",
-      "diff": "M"
+      "diff": "M",
+      "q": "three hinged arch cables structural analysis GATE"
      }
     ]
    },
@@ -355,18 +418,39 @@
     "topics": [
      {
       "id": "ce-structural-engineering--working-stress-and-limit-state-design-concepts",
-      "name": "Working stress and limit state design concepts",
-      "diff": "M"
+      "name": "Working stress and limit state design concepts (RCC)",
+      "diff": "M",
+      "q": "working stress limit state method RCC design GATE civil"
      },
      {
-      "id": "ce-structural-engineering--design-and-detailing-of-beams-slabs-columns-and-isolated-foo",
-      "name": "Design and detailing of beams, slabs, columns, and isolated footings",
-      "diff": "M"
+      "id": "ce-structural-engineering--design-and-detailing-of-rc-beams",
+      "name": "Design and detailing of RC beams",
+      "diff": "H",
+      "q": "design of RCC beams limit state flexure shear IS 456 GATE"
+     },
+     {
+      "id": "ce-structural-engineering--design-and-detailing-of-rc-slabs",
+      "name": "Design and detailing of RC slabs",
+      "diff": "M",
+      "q": "design of RCC slabs one way two way IS 456 GATE"
+     },
+     {
+      "id": "ce-structural-engineering--design-and-detailing-of-rc-columns",
+      "name": "Design and detailing of RC columns",
+      "diff": "M",
+      "q": "design of RCC columns IS 456 GATE civil"
+     },
+     {
+      "id": "ce-structural-engineering--design-of-isolated-footings",
+      "name": "Design of isolated footings",
+      "diff": "M",
+      "q": "design of isolated footing RCC IS 456 GATE"
      },
      {
       "id": "ce-structural-engineering--bond-and-development-length",
       "name": "Bond and development length",
-      "diff": "M"
+      "diff": "E",
+      "q": "bond and development length RCC IS 456 GATE"
      }
     ]
    },
@@ -375,34 +459,52 @@
     "name": "Steel Structures",
     "topics": [
      {
-      "id": "ce-structural-engineering--working-stress-and-limit-state-design-concepts",
-      "name": "Working stress and limit state design concepts",
-      "diff": "M"
+      "id": "ce-structural-engineering--working-stress-and-limit-state-design-concepts-steel",
+      "name": "Working stress and limit state design concepts (steel)",
+      "diff": "M",
+      "q": "limit state design of steel structures IS 800 GATE civil"
      },
      {
-      "id": "ce-structural-engineering--design-of-tension-and-compression-members",
-      "name": "Design of tension and compression members",
-      "diff": "M"
+      "id": "ce-structural-engineering--design-of-tension-members",
+      "name": "Design of tension members",
+      "diff": "M",
+      "q": "design of tension members steel IS 800 GATE"
+     },
+     {
+      "id": "ce-structural-engineering--design-of-compression-members",
+      "name": "Design of compression members",
+      "diff": "M",
+      "q": "design of compression members steel IS 800 GATE"
      },
      {
       "id": "ce-structural-engineering--beams-and-beam-columns",
-      "name": "Beams and beam -columns",
-      "diff": "M"
+      "name": "Steel beams and beam-columns",
+      "diff": "M",
+      "q": "design of steel beams beam-columns IS 800 GATE"
      },
      {
       "id": "ce-structural-engineering--column-bases",
       "name": "Column bases",
-      "diff": "E"
+      "diff": "E",
+      "q": "slab base gusseted base steel column GATE civil"
      },
      {
       "id": "ce-structural-engineering--connections-simple-and-eccentric-beam-column-connections",
-      "name": "Connections - simple and eccentric, beam -column connections",
-      "diff": "M"
+      "name": "Simple and eccentric connections",
+      "diff": "H",
+      "q": "bolted welded eccentric connections steel structures GATE"
+     },
+     {
+      "id": "ce-structural-engineering--beam-column-connections",
+      "name": "Beam-column connections",
+      "diff": "M",
+      "q": "beam column connections steel structures GATE"
      },
      {
       "id": "ce-structural-engineering--concept-of-plastic-analysis-beams-and-portal-frames",
-      "name": "Concept of plastic analysis - beams and portal frames",
-      "diff": "H"
+      "name": "Plastic analysis of beams and portal frames",
+      "diff": "H",
+      "q": "plastic analysis collapse load beams portal frames GATE"
      }
     ]
    }
@@ -411,59 +513,84 @@
  {
   "id": "ce-geotechnical-engineering",
   "name": "Geotechnical Engineering",
-  "marks": "",
-  "focus": "",
+  "marks": "13–16",
+  "focus": "Consolidation, shear strength, seepage and bearing capacity are numerical-heavy; piles and earth pressure recur yearly.",
   "modules": [
    {
     "letter": "A",
-    "name": "Geotechnical Engineering",
+    "name": "Soil Properties and Classification",
     "topics": [
      {
-      "id": "ce-geotechnical-engineering--three-phase-system-and-phase-relationships-index-properties",
-      "name": "Three-phase system and phase relationships, index properties",
+      "id": "ce-geotechnical-engineering--three-phase-system-and-phase-relationships",
+      "name": "Three-phase system and phase relationships",
       "diff": "M",
-      "sample": true
+      "sample": true,
+      "q": "three phase diagram soil void ratio porosity GATE"
+     },
+     {
+      "id": "ce-geotechnical-engineering--index-properties-of-soils",
+      "name": "Index properties of soils",
+      "diff": "E",
+      "q": "index properties of soil Atterberg limits GATE"
      },
      {
       "id": "ce-geotechnical-engineering--unified-and-indian-standard-soil-classification-system",
-      "name": "Unified and Indian standard soil classification system",
+      "name": "Unified and Indian standard soil classification systems",
       "diff": "E"
-     },
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Permeability and Seepage",
+    "topics": [
      {
       "id": "ce-geotechnical-engineering--permeability-one-dimensional-flow",
-      "name": "Permeability - one dimensional flow",
-      "diff": "M"
+      "name": "Permeability: one-dimensional flow",
+      "diff": "M",
+      "q": "permeability of soil Darcy's law GATE"
      },
      {
       "id": "ce-geotechnical-engineering--seepage-through-soils-two-dimensional-flow",
-      "name": "Seepage through soils - two-dimensional flow",
+      "name": "Seepage through soils: two-dimensional flow",
       "diff": "M"
      },
      {
       "id": "ce-geotechnical-engineering--flow-nets",
       "name": "Flow nets",
-      "diff": "E"
+      "diff": "M",
+      "q": "flow nets seepage soil mechanics GATE"
      },
      {
       "id": "ce-geotechnical-engineering--uplift-pressure",
       "name": "Uplift pressure",
-      "diff": "E"
+      "diff": "M",
+      "q": "uplift pressure seepage flow net soil mechanics"
      },
      {
       "id": "ce-geotechnical-engineering--piping",
       "name": "Piping",
-      "diff": "E"
+      "diff": "E",
+      "q": "piping failure seepage soil mechanics GATE"
      },
      {
       "id": "ce-geotechnical-engineering--capillarity",
-      "name": "Capillarity",
-      "diff": "E"
+      "name": "Capillarity in soils",
+      "diff": "E",
+      "q": "capillarity capillary rise in soils soil mechanics"
      },
      {
       "id": "ce-geotechnical-engineering--seepage-force",
       "name": "Seepage force",
-      "diff": "E"
-     },
+      "diff": "M",
+      "q": "seepage force soil mechanics GATE"
+     }
+    ]
+   },
+   {
+    "letter": "C",
+    "name": "Effective Stress, Compaction and Consolidation",
+    "topics": [
      {
       "id": "ce-geotechnical-engineering--principle-of-effective-stress-and-quicksand-condition",
       "name": "Principle of effective stress and quicksand condition",
@@ -472,91 +599,159 @@
      {
       "id": "ce-geotechnical-engineering--compaction-of-soils",
       "name": "Compaction of soils",
-      "diff": "M"
+      "diff": "E",
+      "q": "compaction of soil Proctor test GATE"
      },
      {
-      "id": "ce-geotechnical-engineering--one-dimensional-consolidation-time-rate-of-consolidation",
-      "name": "One-dimensional consolidation, time rate of consolidation",
-      "diff": "H"
+      "id": "ce-geotechnical-engineering--one-dimensional-consolidation",
+      "name": "One-dimensional consolidation",
+      "diff": "M",
+      "q": "Terzaghi one dimensional consolidation theory GATE"
      },
+     {
+      "id": "ce-geotechnical-engineering--time-rate-of-consolidation",
+      "name": "Time rate of consolidation",
+      "diff": "H",
+      "q": "time rate of consolidation coefficient of consolidation GATE"
+     }
+    ]
+   },
+   {
+    "letter": "D",
+    "name": "Shear Strength",
+    "topics": [
      {
       "id": "ce-geotechnical-engineering--shear-strength",
-      "name": "Shear Strength",
-      "diff": "E"
+      "name": "Shear strength and Mohr-Coulomb failure criterion",
+      "diff": "M",
+      "q": "shear strength of soil Mohr Coulomb GATE"
      },
      {
       "id": "ce-geotechnical-engineering--mohrs-circle",
-      "name": "Mohr’s circle",
-      "diff": "E"
+      "name": "Mohr's circle in soil mechanics",
+      "diff": "M",
+      "q": "Mohr's circle soil mechanics shear strength GATE"
      },
      {
       "id": "ce-geotechnical-engineering--effective-and-total-shear-strength-parameters",
       "name": "Effective and total shear strength parameters",
-      "diff": "M"
+      "diff": "M",
+      "q": "UU CU CD triaxial test shear strength parameters GATE"
      },
      {
       "id": "ce-geotechnical-engineering--stress-strain-characteristics-of-clays-and-sand",
-      "name": "Stress-strain characteristics of clays and sand",
+      "name": "Stress-strain characteristics of clays and sands",
       "diff": "M"
      },
      {
       "id": "ce-geotechnical-engineering--stress-paths",
       "name": "Stress paths",
-      "diff": "E"
-     },
+      "diff": "M",
+      "q": "stress paths soil mechanics p-q diagram"
+     }
+    ]
+   },
+   {
+    "letter": "E",
+    "name": "Sub-surface Investigations",
+    "topics": [
      {
       "id": "ce-geotechnical-engineering--sub-surface-investigations-drilling-bore-holes",
-      "name": "Sub-surface investigations - Drilling bore holes",
-      "diff": "M"
+      "name": "Drilling bore holes",
+      "diff": "E",
+      "q": "soil exploration boring methods subsurface investigation GATE"
      },
      {
       "id": "ce-geotechnical-engineering--sampling",
-      "name": "Sampling",
-      "diff": "E"
+      "name": "Soil sampling",
+      "diff": "E",
+      "q": "soil sampling samplers area ratio soil exploration"
      },
      {
       "id": "ce-geotechnical-engineering--plate-load-test",
       "name": "Plate load test",
-      "diff": "E"
+      "diff": "M",
+      "q": "plate load test foundation engineering GATE"
      },
      {
       "id": "ce-geotechnical-engineering--standard-penetration-and-cone-penetration-tests",
       "name": "Standard penetration and cone penetration tests",
       "diff": "M"
+     }
+    ]
+   },
+   {
+    "letter": "F",
+    "name": "Earth Pressure, Slopes and Sheet Piles",
+    "topics": [
+     {
+      "id": "ce-geotechnical-engineering--rankines-earth-pressure-theory",
+      "name": "Rankine's earth pressure theory",
+      "diff": "M",
+      "q": "Rankine earth pressure theory active passive GATE"
      },
      {
-      "id": "ce-geotechnical-engineering--earth-pressure-theories-rankine-and-coulomb",
-      "name": "Earth pressure theories - Rankine and Coulomb",
-      "diff": "M"
+      "id": "ce-geotechnical-engineering--coulombs-earth-pressure-theory",
+      "name": "Coulomb's earth pressure theory",
+      "diff": "H",
+      "q": "Coulomb wedge theory earth pressure GATE"
      },
      {
-      "id": "ce-geotechnical-engineering--stability-of-slopes-finite-and-infinite-slopes-bishops-metho",
-      "name": "Stability of slopes - Finite and infinite slopes, Bishop’s method",
-      "diff": "H"
+      "id": "ce-geotechnical-engineering--stability-of-infinite-slopes",
+      "name": "Stability of infinite slopes",
+      "diff": "M",
+      "q": "infinite slope stability factor of safety GATE"
+     },
+     {
+      "id": "ce-geotechnical-engineering--stability-of-finite-slopes",
+      "name": "Stability of finite slopes",
+      "diff": "H",
+      "q": "finite slope stability Swedish circle method GATE"
+     },
+     {
+      "id": "ce-geotechnical-engineering--bishops-method-of-slices",
+      "name": "Bishop's method of slices",
+      "diff": "H",
+      "q": "Bishop's simplified method of slices slope stability"
      },
      {
       "id": "ce-geotechnical-engineering--sheet-piles",
-      "name": "Sheet Piles",
-      "diff": "E"
-     },
+      "name": "Sheet piles",
+      "diff": "M",
+      "q": "cantilever anchored sheet pile walls geotechnical"
+     }
+    ]
+   },
+   {
+    "letter": "G",
+    "name": "Stress Distribution and Shallow Foundations",
+    "topics": [
      {
       "id": "ce-geotechnical-engineering--stress-distribution-in-soils-boussinesqs-theory",
-      "name": "Stress distribution in soils - Boussinesq’s theory",
+      "name": "Boussinesq's theory of stress distribution",
       "diff": "M"
      },
      {
       "id": "ce-geotechnical-engineering--pressure-bulbs",
       "name": "Pressure bulbs",
-      "diff": "E"
+      "diff": "E",
+      "q": "pressure bulb stress distribution in soil"
      },
      {
-      "id": "ce-geotechnical-engineering--shallow-foundations-terzaghis-and-meyerhofs-bearing-capacity",
-      "name": "Shallow foundations - Terzaghi’s and Meyerhof’s bearing capacity theories",
-      "diff": "M"
+      "id": "ce-geotechnical-engineering--terzaghis-bearing-capacity-theory",
+      "name": "Terzaghi's bearing capacity theory",
+      "diff": "M",
+      "q": "Terzaghi bearing capacity theory shallow foundation GATE"
+     },
+     {
+      "id": "ce-geotechnical-engineering--meyerhofs-bearing-capacity-theory",
+      "name": "Meyerhof's bearing capacity theory",
+      "diff": "M",
+      "q": "Meyerhof bearing capacity shallow foundation"
      },
      {
       "id": "ce-geotechnical-engineering--effect-of-water-table",
-      "name": "Effect of water table",
+      "name": "Effect of water table on bearing capacity",
       "diff": "M"
      },
      {
@@ -567,17 +762,25 @@
      {
       "id": "ce-geotechnical-engineering--contact-pressure",
       "name": "Contact pressure",
-      "diff": "E"
+      "diff": "E",
+      "q": "contact pressure distribution under footings rigid flexible"
      },
      {
       "id": "ce-geotechnical-engineering--settlement-analysis-in-sands-and-clays",
       "name": "Settlement analysis in sands and clays",
       "diff": "M"
-     },
+     }
+    ]
+   },
+   {
+    "letter": "H",
+    "name": "Deep Foundations and Ground Improvement",
+    "topics": [
      {
       "id": "ce-geotechnical-engineering--deep-foundations-static-formulae",
-      "name": "Deep foundations - static formulae",
-      "diff": "M"
+      "name": "Pile capacity by static formulae",
+      "diff": "M",
+      "q": "pile load capacity static formula deep foundation GATE"
      },
      {
       "id": "ce-geotechnical-engineering--axial-load-capacity-of-piles-in-sands-and-clays",
@@ -587,12 +790,14 @@
      {
       "id": "ce-geotechnical-engineering--pile-load-test",
       "name": "Pile load test",
-      "diff": "E"
+      "diff": "E",
+      "q": "pile load test deep foundation"
      },
      {
       "id": "ce-geotechnical-engineering--pile-under-lateral-loading",
-      "name": "Pile under lateral loading",
-      "diff": "M"
+      "name": "Piles under lateral loading",
+      "diff": "M",
+      "q": "laterally loaded piles deep foundation"
      },
      {
       "id": "ce-geotechnical-engineering--pile-group-efficiency",
@@ -602,12 +807,13 @@
      {
       "id": "ce-geotechnical-engineering--negative-skin-friction",
       "name": "Negative skin friction",
-      "diff": "M"
+      "diff": "M",
+      "q": "negative skin friction piles GATE"
      },
      {
       "id": "ce-geotechnical-engineering--ground-improvement-techniques",
       "name": "Ground improvement techniques",
-      "diff": "M"
+      "diff": "E"
      }
     ]
    }
@@ -616,43 +822,78 @@
  {
   "id": "ce-water-resources-engineering",
   "name": "Water Resources Engineering",
-  "marks": "",
-  "focus": "",
+  "marks": "12–14",
+  "focus": "Open-channel flow, pipe flow and hydrographs carry most marks; irrigation questions are short and formula-based.",
   "modules": [
    {
     "letter": "A",
     "name": "Fluid Mechanics",
     "topics": [
      {
-      "id": "ce-water-resources-engineering--properties-of-fluids-fluid-statics",
-      "name": "Properties of fluids, fluid statics",
+      "id": "ce-water-resources-engineering--properties-of-fluids",
+      "name": "Properties of fluids",
       "diff": "E",
-      "sample": true
+      "sample": true,
+      "q": "properties of fluids viscosity surface tension fluid mechanics GATE"
      },
      {
-      "id": "ce-water-resources-engineering--continuity-momentum-and-energy-equations-and-their-applicati",
-      "name": "Continuity, momentum and energy equations and their applications",
-      "diff": "M"
+      "id": "ce-water-resources-engineering--fluid-statics",
+      "name": "Fluid statics",
+      "diff": "M",
+      "q": "fluid statics hydrostatic forces buoyancy GATE civil"
      },
      {
-      "id": "ce-water-resources-engineering--potential-flow-laminar-and-turbulent-flow",
-      "name": "Potential flow, Laminar and turbulent flow",
-      "diff": "M"
+      "id": "ce-water-resources-engineering--continuity-equation",
+      "name": "Continuity equation",
+      "diff": "E",
+      "q": "continuity equation fluid mechanics GATE"
      },
      {
-      "id": "ce-water-resources-engineering--flow-in-pipes-pipe-networks",
-      "name": "Flow in pipes, pipe networks",
-      "diff": "M"
+      "id": "ce-water-resources-engineering--momentum-equation-and-its-applications",
+      "name": "Momentum equation and its applications",
+      "diff": "M",
+      "q": "momentum equation applications fluid mechanics GATE"
+     },
+     {
+      "id": "ce-water-resources-engineering--energy-equation-bernoulli-and-its-applications",
+      "name": "Energy equation (Bernoulli) and its applications",
+      "diff": "M",
+      "q": "Bernoulli energy equation applications fluid mechanics GATE"
+     },
+     {
+      "id": "ce-water-resources-engineering--potential-flow",
+      "name": "Potential flow",
+      "diff": "M",
+      "q": "potential flow stream function velocity potential GATE"
+     },
+     {
+      "id": "ce-water-resources-engineering--laminar-and-turbulent-flow",
+      "name": "Laminar and turbulent flow",
+      "diff": "M",
+      "q": "laminar and turbulent flow fluid mechanics GATE civil"
+     },
+     {
+      "id": "ce-water-resources-engineering--flow-in-pipes",
+      "name": "Flow in pipes",
+      "diff": "M",
+      "q": "flow through pipes Darcy Weisbach head loss GATE"
+     },
+     {
+      "id": "ce-water-resources-engineering--pipe-networks",
+      "name": "Pipe networks",
+      "diff": "H",
+      "q": "pipe networks pipes in series parallel Hardy Cross GATE"
      },
      {
       "id": "ce-water-resources-engineering--concept-of-boundary-layer-and-its-growth",
-      "name": "Concept of boundary layer and its growth",
+      "name": "Boundary layer and its growth",
       "diff": "M"
      },
      {
       "id": "ce-water-resources-engineering--concept-of-lift-and-drag",
-      "name": "Concept of lift and drag",
-      "diff": "M"
+      "name": "Lift and drag",
+      "diff": "E",
+      "q": "lift and drag fluid mechanics GATE"
      }
     ]
    },
@@ -668,7 +909,8 @@
      {
       "id": "ce-water-resources-engineering--flow-measurement-in-channels-and-pipes",
       "name": "Flow measurement in channels and pipes",
-      "diff": "M"
+      "diff": "M",
+      "q": "venturimeter orifice meter flow measurement GATE civil"
      },
      {
       "id": "ce-water-resources-engineering--dimensional-analysis-and-hydraulic-similitude",
@@ -676,59 +918,74 @@
       "diff": "M"
      },
      {
-      "id": "ce-water-resources-engineering--channel-hydraulics-energy-depth-relationships",
-      "name": "Channel Hydraulics - Energy-depth relationships",
-      "diff": "M"
-     },
-     {
-      "id": "ce-water-resources-engineering--specific-energy",
-      "name": "Specific energy",
-      "diff": "E"
-     },
-     {
-      "id": "ce-water-resources-engineering--critical-flow",
-      "name": "Critical flow",
-      "diff": "E"
-     },
-     {
-      "id": "ce-water-resources-engineering--hydraulic-jump",
-      "name": "Hydraulic jump",
-      "diff": "E"
-     },
-     {
-      "id": "ce-water-resources-engineering--uniform-flow",
-      "name": "Uniform flow",
-      "diff": "E"
-     },
-     {
-      "id": "ce-water-resources-engineering--gradually-varied-flow-and-water-surface-profiles",
-      "name": "Gradually varied flow and water surface profiles",
-      "diff": "M"
-     },
-     {
-      "id": "ce-water-resources-engineering--prismatic-and-mobile-channels",
-      "name": "Prismatic and mobile channels",
-      "diff": "M"
-     },
-     {
-      "id": "ce-water-resources-engineering--steady-and-unsteady-flows",
-      "name": "Steady and unsteady flows",
-      "diff": "M"
-     },
-     {
-      "id": "ce-water-resources-engineering--rapidly-varied-flow-and-hydraulic-jump",
-      "name": "Rapidly varied flow and hydraulic jump",
-      "diff": "M"
-     },
-     {
       "id": "ce-water-resources-engineering--flow-past-sharp-crested-weirs",
-      "name": "Flow past sharp crested weirs",
-      "diff": "M"
+      "name": "Flow past sharp-crested weirs",
+      "diff": "M",
+      "q": "sharp crested weir notch discharge fluid mechanics"
      }
     ]
    },
    {
     "letter": "C",
+    "name": "Channel Hydraulics",
+    "topics": [
+     {
+      "id": "ce-water-resources-engineering--channel-hydraulics-energy-depth-relationships",
+      "name": "Energy-depth relationships",
+      "diff": "M",
+      "q": "energy depth relationship open channel flow GATE"
+     },
+     {
+      "id": "ce-water-resources-engineering--specific-energy",
+      "name": "Specific energy",
+      "diff": "M",
+      "q": "specific energy open channel flow GATE"
+     },
+     {
+      "id": "ce-water-resources-engineering--critical-flow",
+      "name": "Critical flow",
+      "diff": "M",
+      "q": "critical flow critical depth open channel GATE"
+     },
+     {
+      "id": "ce-water-resources-engineering--hydraulic-jump",
+      "name": "Hydraulic jump",
+      "diff": "M",
+      "q": "hydraulic jump open channel flow GATE"
+     },
+     {
+      "id": "ce-water-resources-engineering--uniform-flow",
+      "name": "Uniform flow",
+      "diff": "M",
+      "q": "uniform flow Manning Chezy open channel GATE"
+     },
+     {
+      "id": "ce-water-resources-engineering--gradually-varied-flow-and-water-surface-profiles",
+      "name": "Gradually varied flow and water surface profiles",
+      "diff": "H"
+     },
+     {
+      "id": "ce-water-resources-engineering--prismatic-and-mobile-channels",
+      "name": "Prismatic and mobile channels",
+      "diff": "M",
+      "q": "prismatic channels mobile boundary channels open channel flow"
+     },
+     {
+      "id": "ce-water-resources-engineering--steady-and-unsteady-flows",
+      "name": "Steady and unsteady flows in channels",
+      "diff": "E",
+      "q": "steady unsteady flow open channel classification"
+     },
+     {
+      "id": "ce-water-resources-engineering--rapidly-varied-flow-and-hydraulic-jump",
+      "name": "Rapidly varied flow",
+      "diff": "M",
+      "q": "rapidly varied flow open channel GATE"
+     }
+    ]
+   },
+   {
+    "letter": "D",
     "name": "Hydrology",
     "topics": [
      {
@@ -739,72 +996,91 @@
      {
       "id": "ce-water-resources-engineering--precipitation",
       "name": "Precipitation",
-      "diff": "E"
+      "diff": "E",
+      "q": "precipitation rain gauge hydrology GATE"
      },
      {
       "id": "ce-water-resources-engineering--evaporation",
       "name": "Evaporation",
-      "diff": "E"
+      "diff": "E",
+      "q": "evaporation hydrology GATE civil"
      },
      {
       "id": "ce-water-resources-engineering--evapo-transpiration",
-      "name": "Evapo -transpiration",
-      "diff": "M"
+      "name": "Evapotranspiration",
+      "diff": "E",
+      "q": "evapotranspiration hydrology GATE"
      },
      {
       "id": "ce-water-resources-engineering--watershed",
       "name": "Watershed",
-      "diff": "E"
+      "diff": "E",
+      "q": "watershed catchment hydrology"
      },
      {
       "id": "ce-water-resources-engineering--infiltration",
       "name": "Infiltration",
-      "diff": "E"
+      "diff": "M",
+      "q": "infiltration indices Horton phi index hydrology GATE"
      },
      {
       "id": "ce-water-resources-engineering--streamflow-measurements",
-      "name": "Streamflow measurements",
-      "diff": "M"
+      "name": "Streamflow measurement",
+      "diff": "M",
+      "q": "stream flow measurement hydrology GATE"
      },
      {
       "id": "ce-water-resources-engineering--unit-hydrographs",
       "name": "Unit hydrographs",
-      "diff": "E"
+      "diff": "M",
+      "q": "unit hydrograph S-curve hydrology GATE"
      },
      {
       "id": "ce-water-resources-engineering--hydrograph-analysis",
       "name": "Hydrograph analysis",
-      "diff": "M"
+      "diff": "M",
+      "q": "hydrograph analysis base flow separation hydrology"
      },
      {
       "id": "ce-water-resources-engineering--reservoir-capacity",
       "name": "Reservoir capacity",
-      "diff": "M"
+      "diff": "M",
+      "q": "reservoir capacity mass curve hydrology GATE"
      },
      {
       "id": "ce-water-resources-engineering--flood-estimation-and-routing",
       "name": "Flood estimation and routing",
-      "diff": "M"
+      "diff": "M",
+      "q": "flood estimation flood routing Muskingum hydrology GATE"
      },
      {
       "id": "ce-water-resources-engineering--surface-runoff-models",
       "name": "Surface runoff models",
-      "diff": "M"
+      "diff": "M",
+      "q": "surface runoff models rational method hydrology"
      },
      {
-      "id": "ce-water-resources-engineering--ground-water-hydrology-steady-state-well-hydraulics-and-aqui",
-      "name": "Ground water hydrology - steady state well hydraulics and aquifers",
-      "diff": "M"
+      "id": "ce-water-resources-engineering--aquifers-and-groundwater-hydrology",
+      "name": "Aquifers and groundwater hydrology",
+      "diff": "E",
+      "q": "aquifers groundwater hydrology GATE civil"
+     },
+     {
+      "id": "ce-water-resources-engineering--steady-state-well-hydraulics",
+      "name": "Steady-state well hydraulics",
+      "diff": "H",
+      "q": "steady state well hydraulics Dupuit Thiem confined unconfined GATE"
      },
      {
       "id": "ce-water-resources-engineering--application-of-darcys-law",
-      "name": "Application of Darcy’s Law",
-      "diff": "M"
+      "name": "Application of Darcy's law",
+      "diff": "M",
+      "q": "Darcy's law groundwater flow hydrology"
      }
     ]
    },
    {
-    "letter": "D",
+    "letter": "E",
     "name": "Irrigation",
     "topics": [
      {
@@ -814,43 +1090,61 @@
      },
      {
       "id": "ce-water-resources-engineering--crop-water-requirements-duty-delta-evapo-transpiration",
-      "name": "Crop water requirements - Duty, delta, evapo-transpiration",
-      "diff": "M"
+      "name": "Crop water requirements: duty, delta and evapotranspiration",
+      "diff": "M",
+      "q": "duty delta crop water requirement irrigation GATE"
      },
      {
-      "id": "ce-water-resources-engineering--gravity-dams-and-spillways",
-      "name": "Gravity dams and spillways",
-      "diff": "M"
+      "id": "ce-water-resources-engineering--gravity-dams",
+      "name": "Gravity dams",
+      "diff": "M",
+      "q": "gravity dam forces stability irrigation GATE"
      },
      {
-      "id": "ce-water-resources-engineering--lined-and-unlined-canals-design-of-weirs-on-permeable-founda",
-      "name": "Lined and unlined canals, Design of weirs on permeable foundation",
-      "diff": "M"
+      "id": "ce-water-resources-engineering--spillways",
+      "name": "Spillways",
+      "diff": "E",
+      "q": "spillways types irrigation engineering"
+     },
+     {
+      "id": "ce-water-resources-engineering--lined-and-unlined-canals",
+      "name": "Lined and unlined canals",
+      "diff": "M",
+      "q": "lined unlined canal design Kennedy Lacey regime theory GATE"
+     },
+     {
+      "id": "ce-water-resources-engineering--design-of-weirs-on-permeable-foundation",
+      "name": "Design of weirs on permeable foundation",
+      "diff": "H",
+      "q": "Bligh Khosla theory weirs on permeable foundation GATE"
      },
      {
       "id": "ce-water-resources-engineering--cross-drainage-structures",
       "name": "Cross drainage structures",
-      "diff": "M"
+      "diff": "E"
      },
      {
       "id": "ce-water-resources-engineering--river-training-structures",
       "name": "River training structures",
-      "diff": "M"
+      "diff": "E"
      },
      {
       "id": "ce-water-resources-engineering--earthen-dams",
       "name": "Earthen dams",
-      "diff": "E"
+      "diff": "E",
+      "q": "earthen dams irrigation engineering"
      },
      {
       "id": "ce-water-resources-engineering--seepage-through-dams",
-      "name": "Seepage through dams",
-      "diff": "M"
+      "name": "Seepage through earthen dams",
+      "diff": "M",
+      "q": "seepage through earth dams phreatic line"
      },
      {
       "id": "ce-water-resources-engineering--well-irrigation",
       "name": "Well irrigation",
-      "diff": "E"
+      "diff": "E",
+      "q": "well irrigation tube wells open wells"
      }
     ]
    }
@@ -859,38 +1153,48 @@
  {
   "id": "ce-environmental-engineering",
   "name": "Environmental Engineering",
-  "marks": "",
-  "focus": "",
+  "marks": "9–11",
+  "focus": "Water/wastewater treatment design numbers and BOD kinetics lead; air pollution and solid waste are short conceptual marks.",
   "modules": [
    {
     "letter": "A",
-    "name": "Water and Waste Water Quality and Treatment",
+    "name": "Water Quality and Treatment",
     "topics": [
      {
       "id": "ce-environmental-engineering--basics-of-water-quality-standards-physical",
-      "name": "Basics of water quality standards - Physical",
-      "diff": "M",
-      "sample": true
+      "name": "Water quality standards and physical parameters",
+      "diff": "E",
+      "sample": true,
+      "q": "physical parameters water quality standards environmental engineering GATE"
      },
      {
-      "id": "ce-environmental-engineering--chemical-and-biological-parameters",
-      "name": "Chemical and biological parameters",
-      "diff": "M"
+      "id": "ce-environmental-engineering--chemical-parameters-of-water-quality",
+      "name": "Chemical parameters of water quality",
+      "diff": "M",
+      "q": "chemical parameters water quality hardness alkalinity GATE"
+     },
+     {
+      "id": "ce-environmental-engineering--biological-parameters-of-water-quality",
+      "name": "Biological parameters of water quality",
+      "diff": "E",
+      "q": "biological parameters water quality coliform MPN GATE"
      },
      {
       "id": "ce-environmental-engineering--water-quality-index",
       "name": "Water quality index",
-      "diff": "M"
+      "diff": "E"
      },
      {
       "id": "ce-environmental-engineering--unit-processes-and-operations",
       "name": "Unit processes and operations",
-      "diff": "E"
+      "diff": "E",
+      "q": "unit operations unit processes water treatment"
      },
      {
       "id": "ce-environmental-engineering--water-requirement",
-      "name": "Water requirement",
-      "diff": "E"
+      "name": "Water requirement and population forecasting",
+      "diff": "M",
+      "q": "water demand population forecasting environmental engineering GATE"
      },
      {
       "id": "ce-environmental-engineering--water-distribution-system",
@@ -898,34 +1202,68 @@
       "diff": "M"
      },
      {
-      "id": "ce-environmental-engineering--drinking-water-treatment",
-      "name": "Drinking water treatment",
-      "diff": "M"
+      "id": "ce-environmental-engineering--sedimentation",
+      "name": "Sedimentation",
+      "diff": "M",
+      "q": "sedimentation tank design drinking water treatment GATE"
      },
+     {
+      "id": "ce-environmental-engineering--coagulation-and-flocculation",
+      "name": "Coagulation and flocculation",
+      "diff": "M",
+      "q": "coagulation flocculation water treatment GATE"
+     },
+     {
+      "id": "ce-environmental-engineering--filtration",
+      "name": "Filtration",
+      "diff": "M",
+      "q": "slow sand rapid sand filter water treatment GATE"
+     },
+     {
+      "id": "ce-environmental-engineering--disinfection",
+      "name": "Disinfection",
+      "diff": "E",
+      "q": "disinfection chlorination water treatment GATE"
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Wastewater Quality and Treatment",
+    "topics": [
      {
       "id": "ce-environmental-engineering--sewerage-system-design",
       "name": "Sewerage system design",
-      "diff": "M"
+      "diff": "M",
+      "q": "sewer design sewerage system environmental engineering GATE"
      },
      {
       "id": "ce-environmental-engineering--quantity-of-domestic-wastewater",
       "name": "Quantity of domestic wastewater",
-      "diff": "M"
-     },
-     {
-      "id": "ce-environmental-engineering--primary",
-      "name": "Primary",
       "diff": "E"
      },
      {
-      "id": "ce-environmental-engineering--secondary-and-tertiary-treatment",
-      "name": "Secondary and tertiary treatment",
-      "diff": "M"
+      "id": "ce-environmental-engineering--primary",
+      "name": "Primary treatment of wastewater",
+      "diff": "E",
+      "q": "primary treatment wastewater screening grit chamber"
+     },
+     {
+      "id": "ce-environmental-engineering--secondary-treatment-activated-sludge-and-trickling-filters",
+      "name": "Secondary treatment: activated sludge and trickling filters",
+      "diff": "H",
+      "q": "activated sludge process trickling filter secondary treatment GATE"
+     },
+     {
+      "id": "ce-environmental-engineering--tertiary-treatment-of-wastewater",
+      "name": "Tertiary treatment of wastewater",
+      "diff": "E",
+      "q": "tertiary treatment advanced wastewater treatment"
      },
      {
       "id": "ce-environmental-engineering--effluent-discharge-standards",
       "name": "Effluent discharge standards",
-      "diff": "M"
+      "diff": "E"
      },
      {
       "id": "ce-environmental-engineering--sludge-treatment-and-disposal",
@@ -934,70 +1272,91 @@
      },
      {
       "id": "ce-environmental-engineering--reuse-of-treated-sewage-for-different-applications",
-      "name": "Reuse of treated sewage for different applications",
-      "diff": "M"
-     }
-    ]
-   },
-   {
-    "letter": "B",
-    "name": "Air Pollution",
-    "topics": [
-     {
-      "id": "ce-environmental-engineering--types-of-pollutants",
-      "name": "Types of pollutants",
-      "diff": "E"
-     },
-     {
-      "id": "ce-environmental-engineering--their-sources-and-impacts",
-      "name": "Their sources and impacts",
-      "diff": "M"
-     },
-     {
-      "id": "ce-environmental-engineering--air-pollution-control",
-      "name": "Air pollution control",
-      "diff": "M"
-     },
-     {
-      "id": "ce-environmental-engineering--air-quality-standards",
-      "name": "Air quality standards",
-      "diff": "M"
-     },
-     {
-      "id": "ce-environmental-engineering--air-quality-index-and-limits",
-      "name": "Air quality index and limits",
-      "diff": "M"
+      "name": "Reuse of treated sewage",
+      "diff": "E",
+      "q": "reuse of treated wastewater applications"
      }
     ]
    },
    {
     "letter": "C",
+    "name": "Air Pollution",
+    "topics": [
+     {
+      "id": "ce-environmental-engineering--types-of-pollutants",
+      "name": "Types of air pollutants",
+      "diff": "E",
+      "q": "types of air pollutants environmental engineering GATE"
+     },
+     {
+      "id": "ce-environmental-engineering--their-sources-and-impacts",
+      "name": "Sources and impacts of air pollutants",
+      "diff": "E",
+      "q": "sources and effects of air pollutants"
+     },
+     {
+      "id": "ce-environmental-engineering--air-pollution-control",
+      "name": "Air pollution control",
+      "diff": "M",
+      "q": "air pollution control equipment cyclone ESP GATE"
+     },
+     {
+      "id": "ce-environmental-engineering--air-quality-standards",
+      "name": "Air quality standards",
+      "diff": "E",
+      "q": "national ambient air quality standards NAAQS"
+     },
+     {
+      "id": "ce-environmental-engineering--air-quality-index-and-limits",
+      "name": "Air quality index and limits",
+      "diff": "E"
+     }
+    ]
+   },
+   {
+    "letter": "D",
     "name": "Municipal Solid Wastes",
     "topics": [
      {
       "id": "ce-environmental-engineering--characteristics",
-      "name": "Characteristics",
-      "diff": "E"
+      "name": "Characteristics of municipal solid waste",
+      "diff": "E",
+      "q": "characteristics of municipal solid waste"
      },
      {
       "id": "ce-environmental-engineering--generation",
-      "name": "Generation",
-      "diff": "E"
+      "name": "Generation of solid waste",
+      "diff": "E",
+      "q": "municipal solid waste generation rate"
      },
      {
       "id": "ce-environmental-engineering--collection-and-transportation-of-solid-wastes",
       "name": "Collection and transportation of solid wastes",
-      "diff": "M"
+      "diff": "E"
      },
      {
-      "id": "ce-environmental-engineering--engineered-systems-for-solid-waste-management-reuse-recycle-",
-      "name": "Engineered systems for solid waste management (reuse/recycle, energy recovery, treatment and disposal)",
-      "diff": "M"
+      "id": "ce-environmental-engineering--reuse-and-recycling-of-solid-waste",
+      "name": "Reuse and recycling of solid waste",
+      "diff": "E",
+      "q": "reuse recycling solid waste management"
+     },
+     {
+      "id": "ce-environmental-engineering--energy-recovery-from-solid-waste",
+      "name": "Energy recovery from solid waste",
+      "diff": "M",
+      "q": "energy recovery incineration solid waste calorific value"
+     },
+     {
+      "id": "ce-environmental-engineering--treatment-and-disposal-of-solid-waste",
+      "name": "Treatment and disposal of solid waste",
+      "diff": "E",
+      "q": "composting treatment disposal municipal solid waste"
      },
      {
       "id": "ce-environmental-engineering--basics-of-landfill-design-and-operation",
-      "name": "Basics of landfill design and operation",
-      "diff": "M"
+      "name": "Landfill design and operation",
+      "diff": "M",
+      "q": "sanitary landfill design operation solid waste"
      }
     ]
    }
@@ -1006,8 +1365,8 @@
  {
   "id": "ce-transportation-engineering",
   "name": "Transportation Engineering",
-  "marks": "",
-  "focus": "",
+  "marks": "8–10",
+  "focus": "Geometric design (SSD, superelevation), pavement design and traffic flow/Webster numericals score reliably.",
   "modules": [
    {
     "letter": "A",
@@ -1015,44 +1374,57 @@
     "topics": [
      {
       "id": "ce-transportation-engineering--geometric-design-of-roadways-using-irc-codes-crosssectional-",
-      "name": "Geometric design of roadways using IRC codes - crosssectional elements",
+      "name": "Cross-sectional elements of roadways (IRC)",
       "diff": "M",
-      "sample": true
+      "sample": true,
+      "q": "cross sectional elements highway geometric design IRC GATE"
      },
      {
       "id": "ce-transportation-engineering--sight-distances",
       "name": "Sight distances",
-      "diff": "E"
+      "diff": "M",
+      "q": "stopping overtaking sight distance highway GATE"
      },
      {
       "id": "ce-transportation-engineering--classifications-of-roadways",
-      "name": "Classifications of roadways",
-      "diff": "M"
+      "name": "Classification of roadways",
+      "diff": "E",
+      "q": "classification of roads highway engineering IRC"
      },
      {
       "id": "ce-transportation-engineering--design-vehicle",
       "name": "Design vehicle",
-      "diff": "E"
+      "diff": "E",
+      "q": "design vehicle dimensions highway geometric design IRC"
      },
      {
-      "id": "ce-transportation-engineering--horizontal-and-vertical-alignments",
-      "name": "Horizontal and vertical alignments",
-      "diff": "M"
+      "id": "ce-transportation-engineering--horizontal-alignment",
+      "name": "Horizontal alignment",
+      "diff": "M",
+      "q": "horizontal alignment superelevation transition curve GATE"
+     },
+     {
+      "id": "ce-transportation-engineering--vertical-alignment",
+      "name": "Vertical alignment",
+      "diff": "M",
+      "q": "vertical alignment gradients summit valley curves GATE"
      },
      {
       "id": "ce-transportation-engineering--geometric-design-of-railway-track-speed-and-cant",
-      "name": "Geometric design of railway Track - Speed and cant",
-      "diff": "M"
+      "name": "Geometric design of railway track: speed and cant",
+      "diff": "M",
+      "q": "railway cant superelevation speed geometric design GATE"
      },
      {
       "id": "ce-transportation-engineering--concept-of-airport-runway-length-calculations-and-correction",
-      "name": "Concept of airport runway length, calculations and corrections",
-      "diff": "M"
+      "name": "Airport runway length and corrections",
+      "diff": "M",
+      "q": "runway length corrections elevation temperature gradient GATE"
      },
      {
       "id": "ce-transportation-engineering--taxiway-and-exit-taxiway-design",
       "name": "Taxiway and exit taxiway design",
-      "diff": "M"
+      "diff": "E"
      }
     ]
    },
@@ -1062,13 +1434,15 @@
     "topics": [
      {
       "id": "ce-transportation-engineering--highway-materials-desirable-properties-and-tests",
-      "name": "Highway materials - desirable properties and tests",
-      "diff": "M"
+      "name": "Highway materials: desirable properties and tests",
+      "diff": "M",
+      "q": "aggregate bitumen tests highway materials GATE"
      },
      {
       "id": "ce-transportation-engineering--desirable-properties-of-bituminous-paving-mixes",
-      "name": "Desirable properties of bituminous paving mixes",
-      "diff": "E"
+      "name": "Bituminous paving mixes",
+      "diff": "M",
+      "q": "bituminous mix design Marshall method GATE"
      },
      {
       "id": "ce-transportation-engineering--design-factors-for-flexible-and-rigid-pavements",
@@ -1076,9 +1450,16 @@
       "diff": "M"
      },
      {
-      "id": "ce-transportation-engineering--design-of-flexible-and-rigid-pavement-using-irc-codes",
-      "name": "Design of flexible and rigid pavement using IRC codes",
-      "diff": "M"
+      "id": "ce-transportation-engineering--design-of-flexible-pavements-irc",
+      "name": "Design of flexible pavements (IRC)",
+      "diff": "H",
+      "q": "flexible pavement design IRC 37 GATE"
+     },
+     {
+      "id": "ce-transportation-engineering--design-of-rigid-pavements-irc",
+      "name": "Design of rigid pavements (IRC)",
+      "diff": "H",
+      "q": "rigid pavement design Westergaard IRC 58 GATE"
      }
     ]
    },
@@ -1089,17 +1470,20 @@
      {
       "id": "ce-transportation-engineering--traffic-studies-on-flow-and-speed",
       "name": "Traffic studies on flow and speed",
-      "diff": "M"
+      "diff": "M",
+      "q": "traffic volume spot speed study traffic engineering GATE"
      },
      {
       "id": "ce-transportation-engineering--peak-hour-factor",
       "name": "Peak hour factor",
-      "diff": "E"
+      "diff": "E",
+      "q": "peak hour factor traffic engineering"
      },
      {
       "id": "ce-transportation-engineering--accident-study",
-      "name": "Accident study",
-      "diff": "E"
+      "name": "Accident studies",
+      "diff": "E",
+      "q": "accident studies traffic engineering"
      },
      {
       "id": "ce-transportation-engineering--statistical-analysis-of-traffic-data",
@@ -1108,22 +1492,24 @@
      },
      {
       "id": "ce-transportation-engineering--microscopic-and-macroscopic-parameters-of-traffic-flow",
-      "name": "Microscopic and macroscopic parameters of traffic flow",
+      "name": "Microscopic and macroscopic traffic flow parameters",
       "diff": "M"
      },
      {
       "id": "ce-transportation-engineering--fundamental-relationships",
-      "name": "Fundamental relationships",
-      "diff": "M"
+      "name": "Fundamental relationships of traffic flow",
+      "diff": "M",
+      "q": "fundamental relationship speed flow density Greenshields GATE"
      },
      {
       "id": "ce-transportation-engineering--traffic-signs",
       "name": "Traffic signs",
-      "diff": "E"
+      "diff": "E",
+      "q": "traffic signs IRC traffic engineering"
      },
      {
       "id": "ce-transportation-engineering--signal-design-by-websters-method",
-      "name": "Signal design by Webster’s method",
+      "name": "Signal design by Webster's method",
       "diff": "M"
      },
      {
@@ -1144,23 +1530,27 @@
     "topics": [
      {
       "id": "ce-transportation-engineering--four-step-travel-demand-modelling-trip-generation",
-      "name": "Four step travel demand modelling - trip generation",
-      "diff": "M"
+      "name": "Trip generation",
+      "diff": "E",
+      "q": "trip generation four step travel demand model"
      },
      {
       "id": "ce-transportation-engineering--trip-distribution",
       "name": "Trip distribution",
-      "diff": "E"
+      "diff": "M",
+      "q": "trip distribution gravity model transportation planning"
      },
      {
       "id": "ce-transportation-engineering--mode-choice",
       "name": "Mode choice",
-      "diff": "E"
+      "diff": "M",
+      "q": "mode choice logit model transportation planning"
      },
      {
       "id": "ce-transportation-engineering--traffic-assignment-and-its-applications",
       "name": "Traffic assignment and its applications",
-      "diff": "M"
+      "diff": "E",
+      "q": "traffic assignment transportation planning four step"
      }
     ]
    }
@@ -1169,103 +1559,141 @@
  {
   "id": "ce-geomatics-engineering",
   "name": "Geomatics Engineering",
-  "marks": "",
-  "focus": "",
+  "marks": "3–5",
+  "focus": "Levelling, traversing and photogrammetry scale/parallax give short numericals.",
   "modules": [
    {
     "letter": "A",
-    "name": "Geomatics Engineering",
+    "name": "Surveying",
     "topics": [
      {
       "id": "ce-geomatics-engineering--principles-of-surveying",
       "name": "Principles of surveying",
-      "diff": "M",
-      "sample": true
+      "diff": "E",
+      "sample": true,
+      "q": "principles of surveying basics GATE civil"
      },
      {
       "id": "ce-geomatics-engineering--plane-and-geodetic-surveying",
       "name": "Plane and geodetic surveying",
-      "diff": "M"
+      "diff": "E"
      },
      {
       "id": "ce-geomatics-engineering--gnss-surveying",
       "name": "GNSS surveying",
-      "diff": "E"
+      "diff": "E",
+      "q": "GNSS GPS surveying"
      },
      {
       "id": "ce-geomatics-engineering--errors-and-their-adjustment",
       "name": "Errors and their adjustment",
-      "diff": "M"
+      "diff": "M",
+      "q": "theory of errors adjustment surveying GATE"
      },
      {
       "id": "ce-geomatics-engineering--maps-scale-coordinate-system",
-      "name": "Maps - Scale, coordinate system",
-      "diff": "M"
+      "name": "Maps: scale and coordinate system",
+      "diff": "E",
+      "q": "map scale coordinate systems surveying"
      },
      {
-      "id": "ce-geomatics-engineering--distance-and-angle-measurement-levelling-and-trigonometric-l",
-      "name": "Distance and angle measurement - Levelling and trigonometric levelling",
-      "diff": "M"
+      "id": "ce-geomatics-engineering--distance-and-angle-measurement",
+      "name": "Distance and angle measurement",
+      "diff": "E",
+      "q": "distance and angle measurement surveying EDM theodolite"
      },
      {
-      "id": "ce-geomatics-engineering--traversing-and-triangulation-survey",
-      "name": "Traversing and triangulation survey",
-      "diff": "M"
+      "id": "ce-geomatics-engineering--levelling",
+      "name": "Levelling",
+      "diff": "M",
+      "q": "levelling reduced level surveying GATE"
+     },
+     {
+      "id": "ce-geomatics-engineering--trigonometric-levelling",
+      "name": "Trigonometric levelling",
+      "diff": "M",
+      "q": "trigonometric levelling surveying GATE"
+     },
+     {
+      "id": "ce-geomatics-engineering--traversing",
+      "name": "Traversing",
+      "diff": "M",
+      "q": "traverse survey latitude departure closing error GATE"
+     },
+     {
+      "id": "ce-geomatics-engineering--triangulation-survey",
+      "name": "Triangulation survey",
+      "diff": "E",
+      "q": "triangulation survey"
      },
      {
       "id": "ce-geomatics-engineering--total-station",
       "name": "Total station",
-      "diff": "E"
+      "diff": "E",
+      "q": "total station surveying"
      },
      {
       "id": "ce-geomatics-engineering--principles-of-topographic-cadastral-engineering",
-      "name": "Principles of topographic, cadastral, engineering",
-      "diff": "M"
+      "name": "Principles of topographic, cadastral and engineering surveys",
+      "diff": "E",
+      "q": "topographic cadastral engineering surveying"
      },
      {
       "id": "ce-geomatics-engineering--introduction-to-cartography-map-projections",
-      "name": "Introduction to cartography, map projections",
+      "name": "Cartography and map projections",
       "diff": "E"
-     },
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Photogrammetry",
+    "topics": [
      {
       "id": "ce-geomatics-engineering--photogrammetry-introduction-to-photogrammetry",
-      "name": "Photogrammetry - Introduction to photogrammetry",
+      "name": "Introduction to photogrammetry",
       "diff": "E"
      },
      {
       "id": "ce-geomatics-engineering--digital-photogrammetry",
       "name": "Digital photogrammetry",
-      "diff": "M"
+      "diff": "E"
      },
      {
       "id": "ce-geomatics-engineering--photographic-scale",
       "name": "Photographic scale",
-      "diff": "M"
+      "diff": "M",
+      "q": "scale of vertical photograph photogrammetry GATE"
      },
      {
       "id": "ce-geomatics-engineering--flying-height",
       "name": "Flying height",
-      "diff": "E"
+      "diff": "M",
+      "q": "flying height photogrammetry"
      },
      {
       "id": "ce-geomatics-engineering--space-resection",
       "name": "Space resection",
-      "diff": "E"
+      "diff": "E",
+      "q": "space resection photogrammetry"
      },
      {
       "id": "ce-geomatics-engineering--parallax-equations",
       "name": "Parallax equations",
-      "diff": "M"
+      "diff": "M",
+      "q": "parallax equations photogrammetry"
      },
      {
       "id": "ce-geomatics-engineering--elevations-by-parallax-differences",
       "name": "Elevations by parallax differences",
-      "diff": "M"
+      "diff": "M",
+      "q": "height from parallax difference photogrammetry GATE"
      },
      {
       "id": "ce-geomatics-engineering--camera-calibration",
       "name": "Camera calibration",
-      "diff": "M"
+      "diff": "E",
+      "q": "camera calibration photogrammetry"
      }
     ]
    }
@@ -1274,8 +1702,8 @@
  {
   "id": "ce-construction-materials-and-man",
   "name": "Construction Materials and Management",
-  "marks": "",
-  "focus": "",
+  "marks": "4–6",
+  "focus": "Cement/concrete properties and CPM/PERT network questions are near-certain marks.",
   "modules": [
    {
     "letter": "A",
@@ -1283,39 +1711,45 @@
     "topics": [
      {
       "id": "ce-construction-materials-and-man--steel-composition-material-properties-and-behaviour",
-      "name": "Steel - Composition, material properties and behaviour",
-      "diff": "M",
-      "sample": true
+      "name": "Steel: composition, material properties and behaviour",
+      "diff": "E",
+      "sample": true,
+      "q": "structural steel composition properties construction materials"
      },
      {
       "id": "ce-construction-materials-and-man--cement-composition",
-      "name": "Cement - composition",
-      "diff": "M"
+      "name": "Cement: composition",
+      "diff": "E",
+      "q": "cement composition Bogue compounds construction materials"
      },
      {
       "id": "ce-construction-materials-and-man--hydration-and-microstructure",
-      "name": "Hydration and microstructure",
-      "diff": "M"
+      "name": "Cement hydration and microstructure",
+      "diff": "M",
+      "q": "hydration of cement microstructure"
      },
      {
       "id": "ce-construction-materials-and-man--chemical-and-mineral-admixtures",
       "name": "Chemical and mineral admixtures",
-      "diff": "M"
-     },
-     {
-      "id": "ce-construction-materials-and-man--concrete-constituents",
-      "name": "Concrete - Constituents",
-      "diff": "M"
-     },
-     {
-      "id": "ce-construction-materials-and-man--mix-design",
-      "name": "Mix design",
       "diff": "E"
      },
      {
+      "id": "ce-construction-materials-and-man--concrete-constituents",
+      "name": "Concrete: constituents",
+      "diff": "E",
+      "q": "concrete constituents aggregates water cement"
+     },
+     {
+      "id": "ce-construction-materials-and-man--mix-design",
+      "name": "Concrete mix design",
+      "diff": "M",
+      "q": "concrete mix design IS 10262"
+     },
+     {
       "id": "ce-construction-materials-and-man--short-term-and-long-term-properties",
-      "name": "Short-term and long-term properties",
-      "diff": "M"
+      "name": "Short-term and long-term properties of concrete",
+      "diff": "M",
+      "q": "properties of fresh hardened concrete creep shrinkage"
      }
     ]
    },
@@ -1330,23 +1764,39 @@
      },
      {
       "id": "ce-construction-materials-and-man--estimation-and-costing-quantity-estimation-using-long-wall-a",
-      "name": "Estimation and costing - Quantity estimation using long wall and short wall method",
-      "diff": "M"
+      "name": "Quantity estimation: long wall and short wall method",
+      "diff": "M",
+      "q": "long wall short wall method estimation"
      },
      {
       "id": "ce-construction-materials-and-man--center-line-method",
-      "name": "Center line method",
-      "diff": "M"
+      "name": "Quantity estimation: centre line method",
+      "diff": "M",
+      "q": "centre line method estimation quantity"
      },
      {
       "id": "ce-construction-materials-and-man--analysis-of-rates",
       "name": "Analysis of rates",
-      "diff": "E"
+      "diff": "E",
+      "q": "analysis of rates estimation costing"
      },
      {
-      "id": "ce-construction-materials-and-man--project-planning-and-scheduling-aoa-and-aon-network-analysis",
-      "name": "Project planning and scheduling: AOA and AON network analysis - PERT and CPM",
-      "diff": "M"
+      "id": "ce-construction-materials-and-man--aoa-and-aon-network-analysis",
+      "name": "AOA and AON network analysis",
+      "diff": "M",
+      "q": "project planning and scheduling AOA AON network analysis"
+     },
+     {
+      "id": "ce-construction-materials-and-man--cpm-critical-path-and-floats",
+      "name": "CPM: critical path and floats",
+      "diff": "M",
+      "q": "CPM critical path float construction management GATE"
+     },
+     {
+      "id": "ce-construction-materials-and-man--pert-probabilistic-time-estimates",
+      "name": "PERT: probabilistic time estimates",
+      "diff": "M",
+      "q": "PERT network analysis probability GATE civil"
      },
      {
       "id": "ce-construction-materials-and-man--project-updating-and-monitoring",
@@ -1355,23 +1805,27 @@
      },
      {
       "id": "ce-construction-materials-and-man--construction-equipment-equipment-for-earthwork",
-      "name": "Construction equipment - Equipment for earthwork",
-      "diff": "M"
+      "name": "Earthwork equipment",
+      "diff": "M",
+      "q": "earthwork equipment productivity construction management"
      },
      {
       "id": "ce-construction-materials-and-man--concreting",
-      "name": "Concreting",
-      "diff": "E"
+      "name": "Concreting equipment",
+      "diff": "E",
+      "q": "concreting equipment construction management"
      },
      {
       "id": "ce-construction-materials-and-man--hoisting-and-transportation-of-materials",
-      "name": "Hoisting and transportation of materials",
-      "diff": "M"
+      "name": "Hoisting and material transportation equipment",
+      "diff": "E",
+      "q": "hoisting equipment cranes construction"
      },
      {
       "id": "ce-construction-materials-and-man--types-of-contracts",
       "name": "Types of contracts",
-      "diff": "E"
+      "diff": "E",
+      "q": "types of contracts construction management"
      }
     ]
    }
