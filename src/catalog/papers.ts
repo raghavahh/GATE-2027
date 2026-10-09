@@ -24,8 +24,9 @@ export const PAPERS: Paper[] = [
   p('MT', 'Metallurgical Engineering', 'Engineering', 'live'),
   p('NM', 'Naval Architecture & Marine Engineering', 'Engineering', 'live'),
   p('PE', 'Petroleum Engineering', 'Engineering', 'live'),
-  p('TF', 'Textile Engineering & Fibre Science', 'Engineering'),
-  p('XE', 'Engineering Sciences', 'Engineering', 'live', 'Maths + any two sections'),
+  // GATE 2027: Robotics & Automation is a new paper; Textile (TF) became section XE9 of Engineering Sciences.
+  p('RA', 'Robotics & Automation', 'Engineering', 'soon', 'New in GATE 2027'),
+  p('XE', 'Engineering Sciences', 'Engineering', 'live', 'Maths + any two sections (Textile is now XE9)'),
   p('AR', 'Architecture & Planning', 'Other', 'live'),
   p('CY', 'Chemistry', 'Science', 'live'),
   p('EY', 'Ecology & Evolution', 'Science', 'live'),
