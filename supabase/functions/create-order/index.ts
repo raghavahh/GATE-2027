@@ -1,6 +1,6 @@
 // POST { paper } with the user's Supabase token → creates a Razorpay order for ₹310.
 // The amount is set here on the server; the browser never chooses the price.
-import { admin, cors, EDITION, json, PAPERS, PRICE_PAISE, rzp, SEASON_END, userFrom } from '../_shared/razorpay.ts';
+import { admin, cors, EDITION, json, PAPERS, PRICE_PAISE, rzp, userFrom } from '../_shared/razorpay.ts';
 
 Deno.serve(async req => {
   if (req.method === 'OPTIONS') return new Response('ok', { headers: cors(req) });
@@ -12,8 +12,6 @@ Deno.serve(async req => {
     const { paper } = await req.json().catch(() => ({}));
     if (typeof paper !== 'string' || !PAPERS.has(paper)) return json(req, { error: 'This paper is not on sale yet.' }, 400);
 
-    // Access ends at SEASON_END, so a payment after it would buy nothing.
-    if (Date.now() > Date.parse(SEASON_END)) return json(req, { error: `${EDITION} sales have closed.` }, 410);
 
     const db = admin();
     const { data: owned, error: ownErr } = await db.from('entitlements').select('id')

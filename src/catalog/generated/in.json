@@ -1,130 +1,1628 @@
 [
  {
-  "id": "in-digital-electronics",
-  "name": "Digital Electronics",
-  "marks": "",
-  "focus": "",
+  "id": "in-engineering-mathematics",
+  "name": "Engineering Mathematics",
+  "marks": "10–13",
+  "focus": "Eigenvalues, calculus, complex integration and probability give quick, reliable marks; numerical methods appear every year.",
   "modules": [
    {
     "letter": "A",
-    "name": "Overview",
+    "name": "Linear Algebra",
     "topics": [
      {
-      "id": "in-digital-electronics--basics-of-number-systems",
-      "name": "Basics of number systems",
-      "diff": "M",
+      "id": "in-engineering-mathematics--matrix-algebra",
+      "name": "Matrix algebra",
+      "diff": "E",
+      "q": "matrix algebra engineering mathematics",
       "sample": true
      },
      {
-      "id": "in-digital-electronics--combinational-logic-circuits",
-      "name": "Combinational logic circuits",
-      "diff": "M"
+      "id": "in-engineering-mathematics--systems-of-linear-equations",
+      "name": "Systems of linear equations",
+      "diff": "M",
+      "q": "systems of linear equations linear algebra"
      },
      {
-      "id": "in-digital-electronics--multiplexer-and-demultiplexer",
-      "name": "Multiplexer and demultiplexer",
-      "diff": "M"
+      "id": "in-engineering-mathematics--consistency-and-rank-of-a-system",
+      "name": "Consistency and rank of a system",
+      "diff": "M",
+      "q": "rank of matrix consistency of linear equations"
      },
      {
-      "id": "in-digital-electronics--truth-table",
-      "name": "Truth table",
-      "diff": "E"
+      "id": "in-engineering-mathematics--eigenvalues-and-eigenvectors",
+      "name": "Eigenvalues and eigenvectors",
+      "diff": "M",
+      "q": "eigenvalues and eigenvectors linear algebra"
      },
      {
-      "id": "in-digital-electronics--minimization-of-boolean-functions",
-      "name": "Minimization of Boolean functions",
-      "diff": "M"
-     },
-     {
-      "id": "in-digital-electronics--ic-families-ecl-ttl-and-cmos-cmos-implementation-of-logic-ga",
-      "name": "IC families: ECL, TTL and CMOS , CMOS implementation of logic gates",
-      "diff": "M"
-     },
-     {
-      "id": "in-digital-electronics--arithmetic-circuits",
-      "name": "Arithmetic circuits",
-      "diff": "M"
-     },
-     {
-      "id": "in-digital-electronics--sequential-circuits",
-      "name": "Sequential circuits",
-      "diff": "M"
-     },
-     {
-      "id": "in-digital-electronics--finite-state-machines",
-      "name": "Finite state machines",
-      "diff": "M"
-     },
-     {
-      "id": "in-digital-electronics--flipflops",
-      "name": "Flipflops",
-      "diff": "E"
-     },
-     {
-      "id": "in-digital-electronics--shift-registers",
-      "name": "Shift registers",
-      "diff": "E"
-     },
-     {
-      "id": "in-digital-electronics--timers-and-counters",
-      "name": "Timers and counters",
-      "diff": "M"
+      "id": "in-engineering-mathematics--tensors",
+      "name": "Tensors",
+      "diff": "M",
+      "q": "tensors basics engineering mathematics"
      }
     ]
    },
    {
     "letter": "B",
-    "name": "Analog front end",
+    "name": "Calculus",
+    "topics": [
+     {
+      "id": "in-engineering-mathematics--functions-limits-and-continuity",
+      "name": "Functions, limits and continuity",
+      "diff": "E",
+      "q": "functions limits continuity calculus"
+     },
+     {
+      "id": "in-engineering-mathematics--differentiation-and-differentiability",
+      "name": "Differentiation and differentiability",
+      "diff": "E",
+      "q": "differentiation differentiability calculus"
+     },
+     {
+      "id": "in-engineering-mathematics--partial-derivatives",
+      "name": "Partial derivatives",
+      "diff": "M",
+      "q": "partial derivatives calculus"
+     },
+     {
+      "id": "in-engineering-mathematics--maxima-and-minima",
+      "name": "Maxima and minima",
+      "diff": "E",
+      "q": "maxima and minima calculus engineering mathematics"
+     },
+     {
+      "id": "in-engineering-mathematics--integration",
+      "name": "Integration",
+      "diff": "E",
+      "q": "integration definite integrals calculus engineering mathematics"
+     },
+     {
+      "id": "in-engineering-mathematics--multiple-integrals",
+      "name": "Multiple integrals",
+      "diff": "M",
+      "q": "double and triple integrals calculus"
+     }
+    ]
+   },
+   {
+    "letter": "C",
+    "name": "Vector Calculus",
+    "topics": [
+     {
+      "id": "in-engineering-mathematics--vector-algebra",
+      "name": "Vector algebra",
+      "diff": "E",
+      "q": "vector algebra dot cross product engineering mathematics"
+     },
+     {
+      "id": "in-engineering-mathematics--line-surface-and-volume-integrals",
+      "name": "Line, surface and volume integrals",
+      "diff": "M",
+      "q": "line surface volume integrals vector calculus"
+     },
+     {
+      "id": "in-engineering-mathematics--stokess-theorem",
+      "name": "Stokes's theorem",
+      "diff": "M",
+      "q": "Stokes theorem vector calculus"
+     },
+     {
+      "id": "in-engineering-mathematics--gausss-divergence-theorem",
+      "name": "Gauss's divergence theorem",
+      "diff": "M",
+      "q": "Gauss divergence theorem vector calculus"
+     },
+     {
+      "id": "in-engineering-mathematics--greens-theorem",
+      "name": "Green's theorem",
+      "diff": "E",
+      "q": "Green's theorem vector calculus"
+     }
+    ]
+   },
+   {
+    "letter": "D",
+    "name": "Differential Equations",
+    "topics": [
+     {
+      "id": "in-engineering-mathematics--ordinary-differential-equations-basics",
+      "name": "Ordinary differential equations: basics",
+      "diff": "E",
+      "q": "ordinary differential equations order degree"
+     },
+     {
+      "id": "in-engineering-mathematics--first-order-linear-differential-equations",
+      "name": "First order linear differential equations",
+      "diff": "E",
+      "q": "first order linear differential equations"
+     },
+     {
+      "id": "in-engineering-mathematics--second-order-linear-odes-with-constant-coefficients",
+      "name": "Second order linear ODEs with constant coefficients",
+      "diff": "M",
+      "q": "second order linear differential equations constant coefficients"
+     },
+     {
+      "id": "in-engineering-mathematics--method-of-variation-of-parameters",
+      "name": "Method of variation of parameters",
+      "diff": "M",
+      "q": "variation of parameters differential equations"
+     },
+     {
+      "id": "in-engineering-mathematics--cauchys-and-eulers-equations",
+      "name": "Cauchy's and Euler's equations",
+      "diff": "M",
+      "q": "Cauchy Euler differential equation"
+     },
+     {
+      "id": "in-engineering-mathematics--initial-and-boundary-value-problems",
+      "name": "Initial and boundary value problems",
+      "diff": "M",
+      "q": "initial and boundary value problems differential equations"
+     },
+     {
+      "id": "in-engineering-mathematics--partial-differential-equations-variable-separable-method",
+      "name": "Partial differential equations: variable separable method",
+      "diff": "M",
+      "q": "separation of variables partial differential equations"
+     }
+    ]
+   },
+   {
+    "letter": "E",
+    "name": "Complex Variables",
+    "topics": [
+     {
+      "id": "in-engineering-mathematics--analytic-functions",
+      "name": "Analytic functions",
+      "diff": "M",
+      "q": "analytic functions complex variables Cauchy-Riemann"
+     },
+     {
+      "id": "in-engineering-mathematics--cauchys-integral-theorem",
+      "name": "Cauchy's integral theorem",
+      "diff": "M",
+      "q": "Cauchy integral theorem complex variables"
+     },
+     {
+      "id": "in-engineering-mathematics--cauchys-integral-formula",
+      "name": "Cauchy's integral formula",
+      "diff": "M",
+      "q": "Cauchy integral formula complex variables"
+     },
+     {
+      "id": "in-engineering-mathematics--taylors-series",
+      "name": "Taylor's series",
+      "diff": "E",
+      "q": "Taylor series complex variables"
+     },
+     {
+      "id": "in-engineering-mathematics--laurents-series",
+      "name": "Laurent's series",
+      "diff": "M",
+      "q": "Laurent series complex variables"
+     },
+     {
+      "id": "in-engineering-mathematics--residue-theorem",
+      "name": "Residue theorem",
+      "diff": "M",
+      "q": "residue theorem complex variables"
+     },
+     {
+      "id": "in-engineering-mathematics--solution-of-integrals-using-residues",
+      "name": "Solution of integrals using residues",
+      "diff": "M",
+      "q": "evaluation of real integrals using residue theorem"
+     }
+    ]
+   },
+   {
+    "letter": "F",
+    "name": "Probability and Statistics",
+    "topics": [
+     {
+      "id": "in-engineering-mathematics--mean-median-and-mode",
+      "name": "Mean, median and mode",
+      "diff": "E",
+      "q": "mean median mode statistics engineering mathematics"
+     },
+     {
+      "id": "in-engineering-mathematics--standard-deviation-and-variance",
+      "name": "Standard deviation and variance",
+      "diff": "E",
+      "q": "standard deviation variance statistics"
+     },
+     {
+      "id": "in-engineering-mathematics--conditional-probability-and-bayes-theorem",
+      "name": "Conditional probability and Bayes' theorem",
+      "diff": "M",
+      "q": "conditional probability Bayes theorem"
+     },
+     {
+      "id": "in-engineering-mathematics--random-variables",
+      "name": "Random variables",
+      "diff": "E",
+      "q": "random variables probability"
+     },
+     {
+      "id": "in-engineering-mathematics--discrete-and-continuous-distributions",
+      "name": "Discrete and continuous distributions",
+      "diff": "M",
+      "q": "discrete and continuous probability distributions"
+     },
+     {
+      "id": "in-engineering-mathematics--binomial-distribution",
+      "name": "Binomial distribution",
+      "diff": "M",
+      "q": "binomial distribution probability"
+     },
+     {
+      "id": "in-engineering-mathematics--poisson-distribution",
+      "name": "Poisson distribution",
+      "diff": "M",
+      "q": "Poisson distribution probability"
+     },
+     {
+      "id": "in-engineering-mathematics--normal-distribution",
+      "name": "Normal distribution",
+      "diff": "M",
+      "q": "normal distribution probability"
+     },
+     {
+      "id": "in-engineering-mathematics--sampling-from-distributions",
+      "name": "Sampling from distributions",
+      "diff": "M",
+      "q": "sampling distributions statistics"
+     }
+    ]
+   },
+   {
+    "letter": "G",
+    "name": "Numerical Methods",
+    "topics": [
+     {
+      "id": "in-engineering-mathematics--numerical-solution-of-matrix-equations",
+      "name": "Numerical solution of matrix equations",
+      "diff": "M",
+      "q": "numerical solution of linear systems Gauss elimination Gauss-Seidel"
+     },
+     {
+      "id": "in-engineering-mathematics--solution-of-non-linear-algebraic-equations",
+      "name": "Solution of non-linear algebraic equations",
+      "diff": "M",
+      "q": "Newton Raphson bisection method non-linear equations"
+     },
+     {
+      "id": "in-engineering-mathematics--iterative-methods-for-solving-differential-equations",
+      "name": "Iterative methods for solving differential equations",
+      "diff": "M",
+      "q": "Euler Runge-Kutta method numerical differential equations"
+     },
+     {
+      "id": "in-engineering-mathematics--numerical-integration",
+      "name": "Numerical integration",
+      "diff": "E",
+      "q": "numerical integration trapezoidal Simpson's rule"
+     },
+     {
+      "id": "in-engineering-mathematics--regression-and-correlation-analysis",
+      "name": "Regression and correlation analysis",
+      "diff": "M",
+      "q": "regression and correlation analysis statistics"
+     },
+     {
+      "id": "in-engineering-mathematics--backpropagation-for-neural-networks",
+      "name": "Backpropagation for neural networks",
+      "diff": "M",
+      "q": "backpropagation neural network explained"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "in-electricity-and-magnetism",
+  "name": "Electricity and Magnetism",
+  "marks": "3–5",
+  "focus": "Gauss's law, Biot-Savart/Ampere problems, capacitance and inductance of simple geometries, and magnetic circuits.",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Electrostatics",
+    "topics": [
+     {
+      "id": "in-electricity-and-magnetism--coulombs-law",
+      "name": "Coulomb's law",
+      "diff": "E",
+      "q": "Coulomb's law electromagnetic fields",
+      "sample": true
+     },
+     {
+      "id": "in-electricity-and-magnetism--electric-field-intensity",
+      "name": "Electric field intensity",
+      "diff": "M",
+      "q": "electric field intensity electromagnetic fields"
+     },
+     {
+      "id": "in-electricity-and-magnetism--electric-flux-density",
+      "name": "Electric flux density",
+      "diff": "E",
+      "q": "electric flux density electromagnetic fields"
+     },
+     {
+      "id": "in-electricity-and-magnetism--gausss-law",
+      "name": "Gauss's law",
+      "diff": "M",
+      "q": "Gauss's law electrostatics"
+     },
+     {
+      "id": "in-electricity-and-magnetism--field-and-potential-of-point-line-plane-and-spherical-charge",
+      "name": "Field and potential of point, line, plane and spherical charges",
+      "diff": "M",
+      "q": "electric field and potential due to line plane spherical charge distributions"
+     },
+     {
+      "id": "in-electricity-and-magnetism--effect-of-dielectric-medium-and-permittivity",
+      "name": "Effect of dielectric medium and permittivity",
+      "diff": "E",
+      "q": "dielectric medium permittivity electrostatics"
+     },
+     {
+      "id": "in-electricity-and-magnetism--capacitance",
+      "name": "Capacitance",
+      "diff": "M",
+      "q": "capacitance calculation electromagnetic fields"
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Magnetostatics",
+    "topics": [
+     {
+      "id": "in-electricity-and-magnetism--magnetic-field-intensity",
+      "name": "Magnetic field intensity",
+      "diff": "M",
+      "q": "magnetic field intensity electromagnetic fields"
+     },
+     {
+      "id": "in-electricity-and-magnetism--magnetic-flux-density",
+      "name": "Magnetic flux density",
+      "diff": "E",
+      "q": "magnetic flux density electromagnetic fields"
+     },
+     {
+      "id": "in-electricity-and-magnetism--biot-savarts-law",
+      "name": "Biot-Savart's law",
+      "diff": "M",
+      "q": "Biot Savart law magnetostatics"
+     },
+     {
+      "id": "in-electricity-and-magnetism--amperes-law",
+      "name": "Ampere's law",
+      "diff": "M",
+      "q": "Ampere circuital law magnetostatics"
+     },
+     {
+      "id": "in-electricity-and-magnetism--lorentz-force",
+      "name": "Lorentz force",
+      "diff": "E",
+      "q": "Lorentz force law electromagnetics"
+     },
+     {
+      "id": "in-electricity-and-magnetism--permeability",
+      "name": "Permeability",
+      "diff": "E",
+      "q": "magnetic permeability electromagnetics"
+     },
+     {
+      "id": "in-electricity-and-magnetism--electric-and-magnetic-dipoles",
+      "name": "Electric and magnetic dipoles",
+      "diff": "E",
+      "q": "electric dipole magnetic dipole moment electromagnetics"
+     }
+    ]
+   },
+   {
+    "letter": "C",
+    "name": "Electromagnetic Induction and Magnetic Circuits",
+    "topics": [
+     {
+      "id": "in-electricity-and-magnetism--faradays-law-and-electromagnetic-induction",
+      "name": "Faraday's law and electromagnetic induction",
+      "diff": "M",
+      "q": "Faraday's law electromagnetic induction"
+     },
+     {
+      "id": "in-electricity-and-magnetism--self-and-mutual-inductance",
+      "name": "Self and mutual inductance",
+      "diff": "M",
+      "q": "self and mutual inductance calculation"
+     },
+     {
+      "id": "in-electricity-and-magnetism--magnetomotive-force-and-reluctance",
+      "name": "Magnetomotive force and reluctance",
+      "diff": "E",
+      "q": "magnetomotive force reluctance magnetic circuit"
+     },
+     {
+      "id": "in-electricity-and-magnetism--magnetic-circuits",
+      "name": "Magnetic circuits",
+      "diff": "M",
+      "q": "magnetic circuits analysis air gap"
+     },
+     {
+      "id": "in-electricity-and-magnetism--b-h-curve",
+      "name": "B-H curve",
+      "diff": "E",
+      "q": "B-H curve hysteresis magnetic materials"
+     }
+    ]
+   },
+   {
+    "letter": "D",
+    "name": "Maxwell's Equations",
+    "topics": [
+     {
+      "id": "in-electricity-and-magnetism--maxwells-equations-vector-differential-and-integral-forms",
+      "name": "Maxwell's equations: vector, differential and integral forms",
+      "diff": "M",
+      "q": "Maxwell's equations differential and integral forms"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "in-electrical-circuits-and-machin",
+  "name": "Electrical Circuits and Machines",
+  "marks": "8–10",
+  "focus": "Network theorems, RLC transients, AC power and resonance, two-port parameters, plus converter basics and transformers.",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Sources and Circuit Elements",
+    "topics": [
+     {
+      "id": "in-electrical-circuits-and-machin--independent-and-dependent-sources",
+      "name": "Independent and dependent sources",
+      "diff": "E",
+      "q": "independent and dependent sources network theory",
+      "sample": true
+     },
+     {
+      "id": "in-electrical-circuits-and-machin--v-i-characteristics-of-ideal-and-practical-sources",
+      "name": "V-I characteristics of ideal and practical sources",
+      "diff": "E",
+      "q": "ideal and practical voltage current sources V-I characteristics"
+     },
+     {
+      "id": "in-electrical-circuits-and-machin--battery-and-solar-cell-characteristics",
+      "name": "Battery and solar cell characteristics",
+      "diff": "M",
+      "q": "battery and solar cell V-I characteristics equivalent circuit"
+     },
+     {
+      "id": "in-electrical-circuits-and-machin--resistor-inductor-and-capacitor",
+      "name": "Resistor, inductor and capacitor",
+      "diff": "E",
+      "q": "resistor inductor capacitor circuit elements V-I relation"
+     },
+     {
+      "id": "in-electrical-circuits-and-machin--coupled-inductors",
+      "name": "Coupled inductors",
+      "diff": "M",
+      "q": "coupled inductors mutual inductance dot convention"
+     },
+     {
+      "id": "in-electrical-circuits-and-machin--power-and-energy-power-rating-of-components-efficiency-and-l",
+      "name": "Power and energy, power rating of components, efficiency and losses",
+      "diff": "E",
+      "q": "power and energy consumption power rating efficiency losses circuits"
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Network Analysis and Theorems",
+    "topics": [
+     {
+      "id": "in-electrical-circuits-and-machin--kirchhoffs-laws",
+      "name": "Kirchhoff's laws",
+      "diff": "E",
+      "q": "Kirchhoff's current and voltage laws KCL KVL"
+     },
+     {
+      "id": "in-electrical-circuits-and-machin--mesh-and-nodal-analysis",
+      "name": "Mesh and nodal analysis",
+      "diff": "M",
+      "q": "mesh and nodal analysis network theory"
+     },
+     {
+      "id": "in-electrical-circuits-and-machin--star-delta-transformation",
+      "name": "Star-delta transformation",
+      "diff": "E",
+      "q": "star delta transformation network theory"
+     },
+     {
+      "id": "in-electrical-circuits-and-machin--superposition-theorem",
+      "name": "Superposition theorem",
+      "diff": "E",
+      "q": "superposition theorem network theory"
+     },
+     {
+      "id": "in-electrical-circuits-and-machin--thevenins-theorem",
+      "name": "Thevenin's theorem",
+      "diff": "M",
+      "q": "Thevenin theorem network theory"
+     },
+     {
+      "id": "in-electrical-circuits-and-machin--nortons-theorem",
+      "name": "Norton's theorem",
+      "diff": "E",
+      "q": "Norton theorem network theory"
+     },
+     {
+      "id": "in-electrical-circuits-and-machin--millers-theorem",
+      "name": "Miller's theorem",
+      "diff": "M",
+      "q": "Miller theorem network theory"
+     },
+     {
+      "id": "in-electrical-circuits-and-machin--maximum-power-transfer-theorem",
+      "name": "Maximum power transfer theorem",
+      "diff": "M",
+      "q": "maximum power transfer theorem network theory"
+     },
+     {
+      "id": "in-electrical-circuits-and-machin--reciprocity-theorem",
+      "name": "Reciprocity theorem",
+      "diff": "E",
+      "q": "reciprocity theorem network theory"
+     }
+    ]
+   },
+   {
+    "letter": "C",
+    "name": "AC Circuit Analysis",
+    "topics": [
+     {
+      "id": "in-electrical-circuits-and-machin--peak-average-and-rms-values-of-ac-quantities",
+      "name": "Peak, average and RMS values of AC quantities",
+      "diff": "E",
+      "q": "peak average rms value AC waveforms"
+     },
+     {
+      "id": "in-electrical-circuits-and-machin--phasor-analysis",
+      "name": "Phasor analysis",
+      "diff": "M",
+      "q": "phasor analysis AC circuits"
+     },
+     {
+      "id": "in-electrical-circuits-and-machin--impedance-and-admittance",
+      "name": "Impedance and admittance",
+      "diff": "E",
+      "q": "impedance and admittance AC circuits"
+     },
+     {
+      "id": "in-electrical-circuits-and-machin--apparent-active-and-reactive-power-power-factor",
+      "name": "Apparent, active and reactive power; power factor",
+      "diff": "M",
+      "q": "apparent active reactive power power factor AC circuits"
+     },
+     {
+      "id": "in-electrical-circuits-and-machin--series-and-parallel-resonance",
+      "name": "Series and parallel resonance",
+      "diff": "M",
+      "q": "series and parallel resonance RLC circuit"
+     },
+     {
+      "id": "in-electrical-circuits-and-machin--locus-diagrams",
+      "name": "Locus diagrams",
+      "diff": "M",
+      "q": "locus diagrams AC circuits"
+     },
+     {
+      "id": "in-electrical-circuits-and-machin--realization-of-basic-filters-with-r-l-and-c",
+      "name": "Realization of basic filters with R, L and C",
+      "diff": "M",
+      "q": "passive RC RL LC filters low pass high pass"
+     }
+    ]
+   },
+   {
+    "letter": "D",
+    "name": "Transient Analysis",
+    "topics": [
+     {
+      "id": "in-electrical-circuits-and-machin--transient-analysis-of-rc-and-rl-circuits",
+      "name": "Transient analysis of RC and RL circuits",
+      "diff": "M",
+      "q": "transient response RC RL circuits"
+     },
+     {
+      "id": "in-electrical-circuits-and-machin--transient-analysis-of-lc-and-rlc-circuits",
+      "name": "Transient analysis of LC and RLC circuits",
+      "diff": "H",
+      "q": "transient response LC RLC circuits"
+     },
+     {
+      "id": "in-electrical-circuits-and-machin--transient-analysis-of-rlc-circuits-with-ac-excitation",
+      "name": "Transient analysis of RLC circuits with AC excitation",
+      "diff": "H",
+      "q": "transient response RLC circuit sinusoidal excitation"
+     }
+    ]
+   },
+   {
+    "letter": "E",
+    "name": "One-Port and Two-Port Networks",
+    "topics": [
+     {
+      "id": "in-electrical-circuits-and-machin--one-port-and-two-port-networks-with-controlled-sources",
+      "name": "One-port and two-port networks with controlled sources",
+      "diff": "M",
+      "q": "two port network with dependent sources"
+     },
+     {
+      "id": "in-electrical-circuits-and-machin--driving-point-impedance-and-admittance",
+      "name": "Driving point impedance and admittance",
+      "diff": "M",
+      "q": "driving point impedance admittance network functions"
+     },
+     {
+      "id": "in-electrical-circuits-and-machin--open-circuit-and-short-circuit-parameters",
+      "name": "Open circuit and short circuit parameters",
+      "diff": "M",
+      "q": "open circuit Z parameters short circuit Y parameters two port"
+     }
+    ]
+   },
+   {
+    "letter": "F",
+    "name": "Electrical Machines",
+    "topics": [
+     {
+      "id": "in-electrical-circuits-and-machin--single-phase-transformers",
+      "name": "Single phase transformers",
+      "diff": "M",
+      "q": "single phase transformer equivalent circuit efficiency"
+     },
+     {
+      "id": "in-electrical-circuits-and-machin--permanent-magnet-synchronous-machines",
+      "name": "Permanent magnet synchronous machines",
+      "diff": "M",
+      "q": "permanent magnet synchronous motor PMSM"
+     }
+    ]
+   },
+   {
+    "letter": "G",
+    "name": "Power Converters",
+    "topics": [
+     {
+      "id": "in-electrical-circuits-and-machin--rectifiers",
+      "name": "Rectifiers",
+      "diff": "M",
+      "q": "single phase rectifier power electronics"
+     },
+     {
+      "id": "in-electrical-circuits-and-machin--buck-and-boost-converters",
+      "name": "Buck and boost converters",
+      "diff": "M",
+      "q": "buck and boost converter DC-DC power electronics"
+     },
+     {
+      "id": "in-electrical-circuits-and-machin--single-phase-inverters",
+      "name": "Single phase inverters",
+      "diff": "M",
+      "q": "single phase inverter power electronics"
+     }
+    ]
+   },
+   {
+    "letter": "H",
+    "name": "Sensing and PWM Control",
+    "topics": [
+     {
+      "id": "in-electrical-circuits-and-machin--rotor-position-and-speed-sensing",
+      "name": "Rotor position and speed sensing",
+      "diff": "M",
+      "q": "rotor position and speed sensing encoder resolver motor"
+     },
+     {
+      "id": "in-electrical-circuits-and-machin--current-sensing",
+      "name": "Current sensing",
+      "diff": "E",
+      "q": "current sensing motor drive shunt Hall sensor"
+     },
+     {
+      "id": "in-electrical-circuits-and-machin--pulse-width-modulation-pwm-control",
+      "name": "Pulse width modulation (PWM) control",
+      "diff": "M",
+      "q": "pulse width modulation PWM control power electronics"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "in-signals-and-systems",
+  "name": "Signals and Systems",
+  "marks": "5–8",
+  "focus": "Convolution, LTI properties, Fourier/Laplace/z-transforms and DFT computations are tested every year.",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Signals and Sampling",
+    "topics": [
+     {
+      "id": "in-signals-and-systems--periodic-aperiodic-and-impulse-signals",
+      "name": "Periodic, aperiodic and impulse signals",
+      "diff": "E",
+      "q": "periodic aperiodic impulse signals signals and systems",
+      "sample": true
+     },
+     {
+      "id": "in-signals-and-systems--sampling",
+      "name": "Sampling",
+      "diff": "M",
+      "q": "sampling theorem aliasing signals and systems"
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Systems",
+    "topics": [
+     {
+      "id": "in-signals-and-systems--continuous-time-and-discrete-time-systems",
+      "name": "Continuous-time and discrete-time systems",
+      "diff": "E",
+      "q": "continuous time discrete time systems properties"
+     },
+     {
+      "id": "in-signals-and-systems--linear-time-invariant-systems",
+      "name": "Linear time invariant systems",
+      "diff": "M",
+      "q": "LTI systems signals and systems"
+     },
+     {
+      "id": "in-signals-and-systems--impulse-response",
+      "name": "Impulse response",
+      "diff": "M",
+      "q": "impulse response LTI system"
+     },
+     {
+      "id": "in-signals-and-systems--convolution",
+      "name": "Convolution",
+      "diff": "M",
+      "q": "convolution signals and systems"
+     },
+     {
+      "id": "in-signals-and-systems--correlation",
+      "name": "Correlation",
+      "diff": "M",
+      "q": "autocorrelation cross correlation signals and systems"
+     }
+    ]
+   },
+   {
+    "letter": "C",
+    "name": "Transforms",
+    "topics": [
+     {
+      "id": "in-signals-and-systems--fourier-series",
+      "name": "Fourier series",
+      "diff": "M",
+      "q": "Fourier series signals and systems"
+     },
+     {
+      "id": "in-signals-and-systems--fourier-transform",
+      "name": "Fourier transform",
+      "diff": "M",
+      "q": "Fourier transform signals and systems"
+     },
+     {
+      "id": "in-signals-and-systems--laplace-transform",
+      "name": "Laplace transform",
+      "diff": "M",
+      "q": "Laplace transform signals and systems"
+     },
+     {
+      "id": "in-signals-and-systems--z-transform",
+      "name": "z-transform",
+      "diff": "M",
+      "q": "z transform signals and systems"
+     },
+     {
+      "id": "in-signals-and-systems--discrete-fourier-transform-dft",
+      "name": "Discrete Fourier transform (DFT)",
+      "diff": "M",
+      "q": "discrete Fourier transform DFT"
+     },
+     {
+      "id": "in-signals-and-systems--fast-fourier-transform-fft",
+      "name": "Fast Fourier transform (FFT)",
+      "diff": "M",
+      "q": "fast Fourier transform FFT butterfly"
+     }
+    ]
+   },
+   {
+    "letter": "D",
+    "name": "Transfer Function and Frequency Response",
+    "topics": [
+     {
+      "id": "in-signals-and-systems--transfer-function",
+      "name": "Transfer function",
+      "diff": "E",
+      "q": "transfer function signals and systems"
+     },
+     {
+      "id": "in-signals-and-systems--frequency-response",
+      "name": "Frequency response",
+      "diff": "M",
+      "q": "frequency response LTI system signals and systems"
+     },
+     {
+      "id": "in-signals-and-systems--pulse-transfer-function",
+      "name": "Pulse transfer function",
+      "diff": "M",
+      "q": "pulse transfer function sampled data system"
+     }
+    ]
+   },
+   {
+    "letter": "E",
+    "name": "Digital Filters",
+    "topics": [
+     {
+      "id": "in-signals-and-systems--basics-of-iir-filters",
+      "name": "Basics of IIR filters",
+      "diff": "M",
+      "q": "IIR filter basics digital signal processing"
+     },
+     {
+      "id": "in-signals-and-systems--basics-of-fir-filters",
+      "name": "Basics of FIR filters",
+      "diff": "M",
+      "q": "FIR filter basics linear phase digital signal processing"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "in-control-systems",
+  "name": "Control Systems",
+  "marks": "8–10",
+  "focus": "Root locus, Bode/Nyquist margins, steady-state error and PID/compensator design dominate; process-control items appear regularly.",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Feedback Principles",
+    "topics": [
+     {
+      "id": "in-control-systems--feedback-principles",
+      "name": "Feedback principles",
+      "diff": "E",
+      "q": "feedback principles control systems",
+      "sample": true
+     },
+     {
+      "id": "in-control-systems--role-of-sensing-in-feedback",
+      "name": "Role of sensing in feedback",
+      "diff": "E",
+      "q": "role of sensor in feedback control system"
+     },
+     {
+      "id": "in-control-systems--signal-flow-graphs",
+      "name": "Signal flow graphs",
+      "diff": "M",
+      "q": "signal flow graph Mason gain formula"
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Time Response",
+    "topics": [
+     {
+      "id": "in-control-systems--transient-response",
+      "name": "Transient response",
+      "diff": "M",
+      "q": "transient response second order system control systems"
+     },
+     {
+      "id": "in-control-systems--steady-state-error",
+      "name": "Steady state error",
+      "diff": "M",
+      "q": "steady state error control systems"
+     }
+    ]
+   },
+   {
+    "letter": "C",
+    "name": "Stability",
+    "topics": [
+     {
+      "id": "in-control-systems--routh-criterion",
+      "name": "Routh criterion",
+      "diff": "M",
+      "q": "Routh Hurwitz stability criterion"
+     },
+     {
+      "id": "in-control-systems--root-loci",
+      "name": "Root loci",
+      "diff": "H",
+      "q": "root locus control systems"
+     },
+     {
+      "id": "in-control-systems--nyquist-criterion",
+      "name": "Nyquist criterion",
+      "diff": "H",
+      "q": "Nyquist stability criterion control systems"
+     }
+    ]
+   },
+   {
+    "letter": "D",
+    "name": "Frequency Response Analysis",
+    "topics": [
+     {
+      "id": "in-control-systems--bode-plot",
+      "name": "Bode plot",
+      "diff": "M",
+      "q": "Bode plot control systems"
+     },
+     {
+      "id": "in-control-systems--phase-and-gain-margins",
+      "name": "Phase and gain margins",
+      "diff": "M",
+      "q": "gain margin phase margin control systems"
+     }
+    ]
+   },
+   {
+    "letter": "E",
+    "name": "State Space and Time Delay",
+    "topics": [
+     {
+      "id": "in-control-systems--state-space-representation-of-systems",
+      "name": "State-space representation of systems",
+      "diff": "M",
+      "q": "state space representation control systems"
+     },
+     {
+      "id": "in-control-systems--time-delay-systems",
+      "name": "Time-delay systems",
+      "diff": "M",
+      "q": "time delay systems control transport lag"
+     }
+    ]
+   },
+   {
+    "letter": "F",
+    "name": "Actuators for Control Systems",
+    "topics": [
+     {
+      "id": "in-control-systems--control-valves",
+      "name": "Control valves",
+      "diff": "M",
+      "q": "control valve characteristics process control"
+     },
+     {
+      "id": "in-control-systems--servo-valves",
+      "name": "Servo valves",
+      "diff": "E",
+      "q": "servo valve control systems"
+     },
+     {
+      "id": "in-control-systems--servo-motors",
+      "name": "Servo motors",
+      "diff": "E",
+      "q": "AC DC servo motor control systems"
+     },
+     {
+      "id": "in-control-systems--stepper-motors",
+      "name": "Stepper motors",
+      "diff": "E",
+      "q": "stepper motor control systems"
+     }
+    ]
+   },
+   {
+    "letter": "G",
+    "name": "Controllers",
+    "topics": [
+     {
+      "id": "in-control-systems--on-off-controllers",
+      "name": "On-off controllers",
+      "diff": "E",
+      "q": "on-off controller process control"
+     },
+     {
+      "id": "in-control-systems--p-pi-and-pid-controllers",
+      "name": "P, PI and PID controllers",
+      "diff": "M",
+      "q": "P PI PID controller control systems"
+     },
+     {
+      "id": "in-control-systems--tuning-of-pid-controllers",
+      "name": "Tuning of PID controllers",
+      "diff": "M",
+      "q": "PID tuning Ziegler Nichols"
+     },
+     {
+      "id": "in-control-systems--cascade-controllers",
+      "name": "Cascade controllers",
+      "diff": "M",
+      "q": "cascade control process control"
+     },
+     {
+      "id": "in-control-systems--feed-forward-controllers",
+      "name": "Feed forward controllers",
+      "diff": "M",
+      "q": "feedforward control process control"
+     },
+     {
+      "id": "in-control-systems--ratio-controllers",
+      "name": "Ratio controllers",
+      "diff": "E",
+      "q": "ratio control process control"
+     }
+    ]
+   },
+   {
+    "letter": "H",
+    "name": "Compensator Design",
+    "topics": [
+     {
+      "id": "in-control-systems--lead-compensator-design",
+      "name": "Lead compensator design",
+      "diff": "M",
+      "q": "lead compensator design control systems"
+     },
+     {
+      "id": "in-control-systems--lag-compensator-design",
+      "name": "Lag compensator design",
+      "diff": "M",
+      "q": "lag compensator design control systems"
+     },
+     {
+      "id": "in-control-systems--lead-lag-compensator-design",
+      "name": "Lead-lag compensator design",
+      "diff": "H",
+      "q": "lead lag compensator design control systems"
+     }
+    ]
+   },
+   {
+    "letter": "I",
+    "name": "Industrial Control Systems",
+    "topics": [
+     {
+      "id": "in-control-systems--basic-concept-of-supervisory-control",
+      "name": "Basic concept of supervisory control",
+      "diff": "E",
+      "q": "supervisory control SCADA basics"
+     },
+     {
+      "id": "in-control-systems--basics-of-distributed-control-system-dcs",
+      "name": "Basics of distributed control system (DCS)",
+      "diff": "E",
+      "q": "distributed control system DCS basics"
+     },
+     {
+      "id": "in-control-systems--basics-of-programmable-logic-controller-plc",
+      "name": "Basics of programmable logic controller (PLC)",
+      "diff": "E",
+      "q": "programmable logic controller PLC basics ladder logic"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "in-analog-electronics",
+  "name": "Analog Electronics",
+  "marks": "9–11",
+  "focus": "Op-amp circuits (instrumentation amplifier, active filters, Schmitt trigger, oscillators) and transistor biasing/small-signal carry most marks.",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Diodes",
+    "topics": [
+     {
+      "id": "in-analog-electronics--types-of-diodes",
+      "name": "Types of diodes",
+      "diff": "E",
+      "q": "types of diodes zener schottky LED photodiode",
+      "sample": true
+     },
+     {
+      "id": "in-analog-electronics--diode-applications",
+      "name": "Diode applications",
+      "diff": "M",
+      "q": "diode applications rectifier clipper clamper"
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Transistor Circuits",
+    "topics": [
+     {
+      "id": "in-analog-electronics--bjt-circuits",
+      "name": "BJT circuits",
+      "diff": "M",
+      "q": "BJT circuits analog electronics"
+     },
+     {
+      "id": "in-analog-electronics--mosfet-circuits",
+      "name": "MOSFET circuits",
+      "diff": "M",
+      "q": "MOSFET circuits analog electronics"
+     },
+     {
+      "id": "in-analog-electronics--transistor-biasing",
+      "name": "Transistor biasing",
+      "diff": "M",
+      "q": "BJT MOSFET biasing analog electronics"
+     },
+     {
+      "id": "in-analog-electronics--dc-analysis-of-transistor-circuits",
+      "name": "DC analysis of transistor circuits",
+      "diff": "M",
+      "q": "DC analysis BJT MOSFET circuits"
+     },
+     {
+      "id": "in-analog-electronics--power-dissipation-in-transistor-circuits",
+      "name": "Power dissipation in transistor circuits",
+      "diff": "E",
+      "q": "transistor power dissipation analog electronics"
+     },
+     {
+      "id": "in-analog-electronics--small-signal-analysis",
+      "name": "Small signal analysis",
+      "diff": "M",
+      "q": "small signal analysis BJT MOSFET amplifier"
+     },
+     {
+      "id": "in-analog-electronics--frequency-response-of-transistor-circuits",
+      "name": "Frequency response of transistor circuits",
+      "diff": "H",
+      "q": "frequency response of transistor amplifiers"
+     },
+     {
+      "id": "in-analog-electronics--feedback-amplifiers",
+      "name": "Feedback amplifiers",
+      "diff": "M",
+      "q": "feedback amplifiers topologies analog electronics"
+     },
+     {
+      "id": "in-analog-electronics--amplifier-design",
+      "name": "Amplifier design",
+      "diff": "M",
+      "q": "transistor amplifier design analog electronics"
+     }
+    ]
+   },
+   {
+    "letter": "C",
+    "name": "Operational Amplifiers",
+    "topics": [
+     {
+      "id": "in-analog-electronics--characteristics-of-ideal-op-amps",
+      "name": "Characteristics of ideal op-amps",
+      "diff": "E",
+      "q": "ideal op amp characteristics"
+     },
+     {
+      "id": "in-analog-electronics--characteristics-of-practical-op-amps",
+      "name": "Characteristics of practical op-amps",
+      "diff": "M",
+      "q": "practical op amp offset bias current slew rate gain bandwidth"
+     }
+    ]
+   },
+   {
+    "letter": "D",
+    "name": "Op-Amp Linear Applications",
+    "topics": [
+     {
+      "id": "in-analog-electronics--adder-and-subtractor",
+      "name": "Adder and subtractor",
+      "diff": "E",
+      "q": "op amp adder subtractor summing amplifier"
+     },
+     {
+      "id": "in-analog-electronics--integrator-and-differentiator",
+      "name": "Integrator and differentiator",
+      "diff": "M",
+      "q": "op amp integrator and differentiator"
+     },
+     {
+      "id": "in-analog-electronics--difference-amplifier",
+      "name": "Difference amplifier",
+      "diff": "M",
+      "q": "op amp difference amplifier"
+     },
+     {
+      "id": "in-analog-electronics--instrumentation-amplifier",
+      "name": "Instrumentation amplifier",
+      "diff": "M",
+      "q": "instrumentation amplifier three op amp"
+     },
+     {
+      "id": "in-analog-electronics--precision-rectifier",
+      "name": "Precision rectifier",
+      "diff": "M",
+      "q": "precision rectifier op amp"
+     },
+     {
+      "id": "in-analog-electronics--active-filters",
+      "name": "Active filters",
+      "diff": "M",
+      "q": "active filters op amp Sallen Key"
+     }
+    ]
+   },
+   {
+    "letter": "E",
+    "name": "Op-Amp Nonlinear Circuits and Oscillators",
+    "topics": [
+     {
+      "id": "in-analog-electronics--comparators",
+      "name": "Comparators",
+      "diff": "E",
+      "q": "op amp comparator"
+     },
+     {
+      "id": "in-analog-electronics--schmitt-trigger",
+      "name": "Schmitt trigger",
+      "diff": "M",
+      "q": "Schmitt trigger op amp hysteresis"
+     },
+     {
+      "id": "in-analog-electronics--multivibrators",
+      "name": "Multivibrators",
+      "diff": "M",
+      "q": "astable monostable multivibrator op amp"
+     },
+     {
+      "id": "in-analog-electronics--oscillators",
+      "name": "Oscillators",
+      "diff": "M",
+      "q": "op amp oscillators Wien bridge RC phase shift"
+     },
+     {
+      "id": "in-analog-electronics--signal-generators",
+      "name": "Signal generators",
+      "diff": "E",
+      "q": "function generator signal generator op amp"
+     },
+     {
+      "id": "in-analog-electronics--voltage-controlled-oscillators",
+      "name": "Voltage-controlled oscillators",
+      "diff": "M",
+      "q": "voltage controlled oscillator VCO"
+     },
+     {
+      "id": "in-analog-electronics--phase-locked-loop",
+      "name": "Phase-locked loop",
+      "diff": "M",
+      "q": "phase locked loop PLL"
+     }
+    ]
+   },
+   {
+    "letter": "F",
+    "name": "Noise and Interference",
+    "topics": [
+     {
+      "id": "in-analog-electronics--sources-and-effects-of-noise-and-interference",
+      "name": "Sources and effects of noise and interference",
+      "diff": "E",
+      "q": "noise and interference in electronic circuits"
+     },
+     {
+      "id": "in-analog-electronics--conductive-capacitive-and-inductive-coupled-interference",
+      "name": "Conductive, capacitive and inductive coupled interference",
+      "diff": "M",
+      "q": "conductive capacitive inductive coupling interference EMI"
+     },
+     {
+      "id": "in-analog-electronics--noise-generated-by-electronic-components",
+      "name": "Noise generated by electronic components",
+      "diff": "E",
+      "q": "noise in electronic components"
+     },
+     {
+      "id": "in-analog-electronics--thermal-noise",
+      "name": "Thermal noise",
+      "diff": "M",
+      "q": "thermal noise Johnson noise"
+     },
+     {
+      "id": "in-analog-electronics--shot-noise",
+      "name": "Shot noise",
+      "diff": "M",
+      "q": "shot noise electronics"
+     },
+     {
+      "id": "in-analog-electronics--flicker-noise",
+      "name": "Flicker noise",
+      "diff": "E",
+      "q": "flicker noise 1/f noise"
+     },
+     {
+      "id": "in-analog-electronics--shielding-and-grounding",
+      "name": "Shielding and grounding",
+      "diff": "E",
+      "q": "shielding and grounding electronic circuits"
+     }
+    ]
+   },
+   {
+    "letter": "G",
+    "name": "Circuit Realization",
+    "topics": [
+     {
+      "id": "in-analog-electronics--principles-of-component-selection-based-on-specifications",
+      "name": "Principles of component selection based on specifications",
+      "diff": "E",
+      "q": "electronic component selection datasheet specifications"
+     },
+     {
+      "id": "in-analog-electronics--circuit-board-realization-and-testing",
+      "name": "Circuit board realization and testing",
+      "diff": "E",
+      "q": "PCB design and testing basics"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "in-digital-electronics",
+  "name": "Digital Electronics",
+  "marks": "8–10",
+  "focus": "Boolean minimization, counters/flip-flops and ADC/DAC resolution and specs are staple questions; microcontroller basics appear occasionally.",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Number Systems and Combinational Logic",
+    "topics": [
+     {
+      "id": "in-digital-electronics--basics-of-number-systems",
+      "name": "Basics of number systems",
+      "diff": "E",
+      "q": "number systems binary octal hexadecimal conversion",
+      "sample": true
+     },
+     {
+      "id": "in-digital-electronics--truth-table",
+      "name": "Truth table",
+      "diff": "E",
+      "q": "truth table logic gates digital electronics"
+     },
+     {
+      "id": "in-digital-electronics--minimization-of-boolean-functions",
+      "name": "Minimization of Boolean functions",
+      "diff": "M",
+      "q": "Boolean function minimization K-map"
+     },
+     {
+      "id": "in-digital-electronics--combinational-logic-circuits",
+      "name": "Combinational logic circuits",
+      "diff": "M",
+      "q": "combinational logic circuits digital electronics"
+     },
+     {
+      "id": "in-digital-electronics--multiplexer-and-demultiplexer",
+      "name": "Multiplexer and demultiplexer",
+      "diff": "M",
+      "q": "multiplexer demultiplexer digital electronics"
+     },
+     {
+      "id": "in-digital-electronics--arithmetic-circuits",
+      "name": "Arithmetic circuits",
+      "diff": "M",
+      "q": "arithmetic circuits adder subtractor digital electronics"
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Logic Families",
+    "topics": [
+     {
+      "id": "in-digital-electronics--ic-families-ecl-ttl-and-cmos",
+      "name": "IC families: ECL, TTL and CMOS",
+      "diff": "M",
+      "q": "logic families ECL TTL CMOS"
+     },
+     {
+      "id": "in-digital-electronics--cmos-implementation-of-logic-gates",
+      "name": "CMOS implementation of logic gates",
+      "diff": "M",
+      "q": "CMOS implementation of logic gates"
+     }
+    ]
+   },
+   {
+    "letter": "C",
+    "name": "Sequential Circuits",
+    "topics": [
+     {
+      "id": "in-digital-electronics--sequential-circuits",
+      "name": "Sequential circuits",
+      "diff": "M",
+      "q": "sequential circuits digital electronics"
+     },
+     {
+      "id": "in-digital-electronics--flipflops",
+      "name": "Flip-flops",
+      "diff": "E",
+      "q": "flip flops SR JK D T digital electronics"
+     },
+     {
+      "id": "in-digital-electronics--shift-registers",
+      "name": "Shift registers",
+      "diff": "E",
+      "q": "shift registers digital electronics"
+     },
+     {
+      "id": "in-digital-electronics--timers-and-counters",
+      "name": "Timers and counters",
+      "diff": "M",
+      "q": "counters and 555 timer digital electronics"
+     },
+     {
+      "id": "in-digital-electronics--finite-state-machines",
+      "name": "Finite state machines",
+      "diff": "M",
+      "q": "finite state machine Mealy Moore digital electronics"
+     }
+    ]
+   },
+   {
+    "letter": "D",
+    "name": "Analog Front End",
     "topics": [
      {
       "id": "in-digital-electronics--analog-multiplexer",
       "name": "Analog multiplexer",
-      "diff": "M"
+      "diff": "E",
+      "q": "analog multiplexer data acquisition"
      },
      {
       "id": "in-digital-electronics--programmable-gain-amplifier",
       "name": "Programmable gain amplifier",
-      "diff": "M"
+      "diff": "M",
+      "q": "programmable gain amplifier PGA"
      },
      {
       "id": "in-digital-electronics--sample-and-hold-circuit",
-      "name": "Sample -and-hold circuit",
-      "diff": "M"
+      "name": "Sample-and-hold circuit",
+      "diff": "M",
+      "q": "sample and hold circuit"
+     }
+    ]
+   },
+   {
+    "letter": "E",
+    "name": "ADC and DAC: Types, Characteristics and Specifications",
+    "topics": [
+     {
+      "id": "in-digital-electronics--successive-approximation-adc",
+      "name": "Successive approximation ADC",
+      "diff": "M",
+      "q": "successive approximation ADC"
      },
      {
-      "id": "in-digital-electronics--analog-to-digital-converters-adc-successive-approximation-in",
-      "name": "Analog-to-digital converters (ADC) (successive approximation, integrating, flash and sigma-delta) and digital-to-analog converters (DAC) (weighted R, R-2R ladder and current steering logic)",
-      "diff": "M"
+      "id": "in-digital-electronics--integrating-adc",
+      "name": "Integrating ADC",
+      "diff": "M",
+      "q": "integrating dual slope ADC"
      },
      {
-      "id": "in-digital-electronics--characteristics-and-specifications-of-adc-and-dac-dynamic-ra",
-      "name": "Characteristics and specifications of ADC and DAC (dynamic range, resolution, quantization, significant bits, conversion/settling time, INL, DNL, ENOB)",
-      "diff": "M"
+      "id": "in-digital-electronics--flash-adc",
+      "name": "Flash ADC",
+      "diff": "E",
+      "q": "flash ADC parallel comparator"
      },
+     {
+      "id": "in-digital-electronics--sigma-delta-adc",
+      "name": "Sigma-delta ADC",
+      "diff": "M",
+      "q": "sigma delta ADC"
+     },
+     {
+      "id": "in-digital-electronics--weighted-r-and-r-2r-ladder-dac",
+      "name": "Weighted R and R-2R ladder DAC",
+      "diff": "M",
+      "q": "binary weighted resistor and R-2R ladder DAC"
+     },
+     {
+      "id": "in-digital-electronics--current-steering-dac",
+      "name": "Current steering DAC",
+      "diff": "M",
+      "q": "current steering DAC"
+     },
+     {
+      "id": "in-digital-electronics--adc-dac-specs-dynamic-range-resolution-quantization",
+      "name": "ADC/DAC specs: dynamic range, resolution, quantization",
+      "diff": "M",
+      "q": "ADC DAC resolution dynamic range quantization error"
+     },
+     {
+      "id": "in-digital-electronics--adc-dac-specs-significant-bits-conversion-and-settling-time",
+      "name": "ADC/DAC specs: significant bits, conversion and settling time",
+      "diff": "M",
+      "q": "ADC conversion time DAC settling time significant bits"
+     },
+     {
+      "id": "in-digital-electronics--adc-dac-specs-inl-dnl-and-enob",
+      "name": "ADC/DAC specs: INL, DNL and ENOB",
+      "diff": "H",
+      "q": "INL DNL ENOB ADC specifications"
+     }
+    ]
+   },
+   {
+    "letter": "F",
+    "name": "Embedded Systems",
+    "topics": [
      {
       "id": "in-digital-electronics--embedded-systems-common-microprocessors-and-microcontrollers",
-      "name": "Embedded systems: common microprocessors and microcontrollers",
-      "diff": "M"
+      "name": "Common microprocessors and microcontrollers",
+      "diff": "M",
+      "q": "microprocessors and microcontrollers basics 8051"
      },
      {
       "id": "in-digital-electronics--memory-and-input-output-interfacing",
-      "name": "Memory and input -output interfacing",
-      "diff": "M"
+      "name": "Memory and input-output interfacing",
+      "diff": "M",
+      "q": "memory and I/O interfacing microprocessor"
      },
      {
       "id": "in-digital-electronics--embedded-systems-programming",
       "name": "Embedded systems programming",
-      "diff": "M"
+      "diff": "M",
+      "q": "embedded systems programming basics"
+     }
+    ]
+   },
+   {
+    "letter": "G",
+    "name": "Data Acquisition, Virtual Instrumentation and AI",
+    "topics": [
+     {
+      "id": "in-digital-electronics--basics-of-data-acquisition-systems",
+      "name": "Basics of data acquisition systems",
+      "diff": "E",
+      "q": "data acquisition system basics"
      },
      {
-      "id": "in-digital-electronics--basics-of-data-acquisition-systems-virtual-instrumentation-i",
-      "name": "Basics of data acquisition systems, virtual instrumentation, IoT",
-      "diff": "M"
+      "id": "in-digital-electronics--virtual-instrumentation",
+      "name": "Virtual instrumentation",
+      "diff": "E",
+      "q": "virtual instrumentation LabVIEW basics"
+     },
+     {
+      "id": "in-digital-electronics--iot-in-instrumentation",
+      "name": "IoT in instrumentation",
+      "diff": "E",
+      "q": "IoT in instrumentation sensors"
      },
      {
       "id": "in-digital-electronics--basic-ai-applications-in-instrumentation-sensor-linearizatio",
-      "name": "Basic AI applications in instrumentation (sensor linearization, system calibration and tuning, signal classification)",
-      "diff": "E"
+      "name": "Basic AI applications in instrumentation",
+      "diff": "E",
+      "q": "AI machine learning sensor linearization system calibration and tuning signal classification instrumentation"
      }
     ]
    }
@@ -133,168 +1631,211 @@
  {
   "id": "in-measurements",
   "name": "Measurements",
-  "marks": "",
-  "focus": "",
+  "marks": "8–11",
+  "focus": "Error propagation, bridge balance equations, wattmeter/three-phase power and instrument transformers are the usual scorers.",
   "modules": [
    {
     "letter": "A",
-    "name": "Measurements",
+    "name": "Units, Standards and Errors",
     "topics": [
      {
       "id": "in-measurements--si-units",
       "name": "SI units",
       "diff": "E",
+      "q": "SI units and standards measurements",
       "sample": true
      },
      {
       "id": "in-measurements--standards-of-basic-electrical-quantities-r-l-c-voltage-curre",
-      "name": "Standards of basic electrical quantities (R, L, C, voltage, current and frequency)",
-      "diff": "E"
-     },
-     {
-      "id": "in-measurements--systematic-and-random-errors-in-measurement",
-      "name": "Systematic and random errors in measurement",
-      "diff": "M"
-     },
-     {
-      "id": "in-measurements--expression-of-uncertainty",
-      "name": "Expression of uncertainty",
-      "diff": "M"
+      "name": "Standards of R, L, C, voltage, current and frequency",
+      "diff": "E",
+      "q": "standards of electrical quantities resistance voltage frequency"
      },
      {
       "id": "in-measurements--accuracy-and-precision",
       "name": "Accuracy and precision",
-      "diff": "M"
+      "diff": "E",
+      "q": "accuracy and precision measurements"
+     },
+     {
+      "id": "in-measurements--systematic-and-random-errors-in-measurement",
+      "name": "Systematic and random errors in measurement",
+      "diff": "M",
+      "q": "systematic and random errors measurements"
+     },
+     {
+      "id": "in-measurements--expression-of-uncertainty",
+      "name": "Expression of uncertainty",
+      "diff": "M",
+      "q": "expression of uncertainty measurement"
      },
      {
       "id": "in-measurements--propagation-of-errors",
       "name": "Propagation of errors",
-      "diff": "M"
+      "diff": "M",
+      "q": "propagation of errors limiting error measurements"
      },
      {
       "id": "in-measurements--linear-and-weighted-regression",
       "name": "Linear and weighted regression",
-      "diff": "M"
-     },
+      "diff": "M",
+      "q": "linear and weighted least squares regression"
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Bridges and Q-Meter",
+    "topics": [
      {
       "id": "in-measurements--bridges-wheatstone",
-      "name": "Bridges: Wheatstone",
-      "diff": "M"
+      "name": "Wheatstone bridge",
+      "diff": "E",
+      "q": "Wheatstone bridge measurements"
      },
      {
       "id": "in-measurements--kelvin",
-      "name": "Kelvin",
-      "diff": "E"
+      "name": "Kelvin double bridge",
+      "diff": "M",
+      "q": "Kelvin double bridge low resistance"
      },
      {
       "id": "in-measurements--maxwell",
-      "name": "Maxwell",
-      "diff": "E"
+      "name": "Maxwell bridge",
+      "diff": "M",
+      "q": "Maxwell inductance bridge"
      },
      {
       "id": "in-measurements--anderson",
-      "name": "Anderson",
-      "diff": "E"
+      "name": "Anderson bridge",
+      "diff": "M",
+      "q": "Anderson bridge inductance measurement"
      },
      {
-      "id": "in-measurements--schering-and-wien-bridges-for-measurement-of-r",
-      "name": "Schering and Wien bridges for measurement of R",
-      "diff": "M"
+      "id": "in-measurements--schering-bridge",
+      "name": "Schering bridge",
+      "diff": "M",
+      "q": "Schering bridge capacitance measurement"
      },
      {
-      "id": "in-measurements--c-and-frequency",
-      "name": "C and frequency",
-      "diff": "E"
+      "id": "in-measurements--wien-bridge",
+      "name": "Wien bridge",
+      "diff": "M",
+      "q": "Wien bridge frequency measurement"
      },
      {
       "id": "in-measurements--typical-applications-of-bridges",
       "name": "Typical applications of bridges",
-      "diff": "M"
+      "diff": "M",
+      "q": "AC bridges applications measurement of R L C frequency"
      },
      {
       "id": "in-measurements--q-meter",
-      "name": "Q -meter",
-      "diff": "E"
+      "name": "Q-meter",
+      "diff": "E",
+      "q": "Q meter measurements"
      },
      {
       "id": "in-measurements--megohm-measurement",
       "name": "Megohm measurement",
-      "diff": "M"
-     },
+      "diff": "M",
+      "q": "high resistance megohm measurement guard"
+     }
+    ]
+   },
+   {
+    "letter": "C",
+    "name": "Voltage, Current and Power Measurement",
+    "topics": [
      {
       "id": "in-measurements--measurement-of-voltage",
-      "name": "Measurement of voltage",
-      "diff": "M"
+      "name": "Measurement of voltage and current",
+      "diff": "E",
+      "q": "measurement of voltage and current ammeter voltmeter"
      },
      {
       "id": "in-measurements--current-and-power-in-dc",
-      "name": "Current and power in DC",
-      "diff": "M"
+      "name": "Power measurement in DC circuits",
+      "diff": "E",
+      "q": "DC power measurement"
      },
      {
       "id": "in-measurements--single-and-three-phase-ac-circuits",
-      "name": "Single and three phase AC circuits",
-      "diff": "M"
+      "name": "Power measurement in single and three phase AC circuits",
+      "diff": "M",
+      "q": "single and three phase power measurement two wattmeter method"
      },
      {
       "id": "in-measurements--contact-and-noncontact-type-ac-and-dc-current-and-voltage-pr",
-      "name": "Contact and noncontact type AC and DC current and voltage probes",
-      "diff": "M"
+      "name": "Contact and noncontact AC and DC current and voltage probes",
+      "diff": "M",
+      "q": "current probe voltage probe clamp meter Hall effect"
      },
      {
       "id": "in-measurements--true-rms-meters",
       "name": "True rms meters",
-      "diff": "E"
+      "diff": "M",
+      "q": "true rms meter"
      },
      {
       "id": "in-measurements--voltage-and-current-scaling",
       "name": "Voltage and current scaling",
-      "diff": "M"
+      "diff": "E",
+      "q": "voltage and current scaling shunt multiplier"
      },
      {
       "id": "in-measurements--instrument-transformers",
       "name": "Instrument transformers",
-      "diff": "H"
-     },
+      "diff": "M",
+      "q": "instrument transformers CT PT ratio and phase angle error"
+     }
+    ]
+   },
+   {
+    "letter": "D",
+    "name": "Digital Instruments and Time-Frequency Measurement",
+    "topics": [
      {
       "id": "in-measurements--timer-counter",
       "name": "Timer/counter",
-      "diff": "E"
-     },
-     {
-      "id": "in-measurements--time",
-      "name": "Time",
-      "diff": "E"
+      "diff": "E",
+      "q": "digital timer counter measurements"
      },
      {
       "id": "in-measurements--phase-and-frequency-measu-rements",
-      "name": "Phase and frequency measu rements",
-      "diff": "M"
+      "name": "Time, phase and frequency measurements",
+      "diff": "M",
+      "q": "time period phase frequency measurement digital counter"
      },
      {
       "id": "in-measurements--digital-voltmeter",
       "name": "Digital voltmeter",
-      "diff": "E"
+      "diff": "M",
+      "q": "digital voltmeter DVM types"
      },
      {
       "id": "in-measurements--digital-multimeter",
       "name": "Digital multimeter",
-      "diff": "M"
+      "diff": "E",
+      "q": "digital multimeter working"
      },
      {
       "id": "in-measurements--digital-energy-meter",
       "name": "Digital energy meter",
-      "diff": "M"
+      "diff": "E",
+      "q": "digital energy meter working"
      },
      {
       "id": "in-measurements--digital-storage-oscilloscope",
       "name": "Digital storage oscilloscope",
-      "diff": "M"
+      "diff": "M",
+      "q": "digital storage oscilloscope DSO"
      },
      {
       "id": "in-measurements--spectrum-analyzer",
       "name": "Spectrum analyzer",
-      "diff": "E"
+      "diff": "E",
+      "q": "spectrum analyzer working"
      }
     ]
    }
@@ -303,204 +1844,412 @@
  {
   "id": "in-sensors-and-industrial-instrum",
   "name": "Sensors and Industrial Instrumentation",
-  "marks": "",
-  "focus": "",
+  "marks": "10–12",
+  "focus": "Strain-gauge/LVDT/capacitive sensor circuits, thermocouple and RTD problems, and flowmeter calculations are the highest-weight IN topics.",
   "modules": [
    {
     "letter": "A",
-    "name": "Overview",
+    "name": "Sensors and Signal Conditioning",
     "topics": [
      {
       "id": "in-sensors-and-industrial-instrum--resistive",
-      "name": "Resistive",
-      "diff": "E",
+      "name": "Resistive sensors",
+      "diff": "M",
+      "q": "resistive sensors strain gauge potentiometer",
       "sample": true
      },
      {
       "id": "in-sensors-and-industrial-instrum--capacitive",
-      "name": "Capacitive",
-      "diff": "E"
+      "name": "Capacitive sensors",
+      "diff": "M",
+      "q": "capacitive sensors transducer"
      },
      {
       "id": "in-sensors-and-industrial-instrum--inductive",
-      "name": "Inductive",
-      "diff": "E"
+      "name": "Inductive sensors",
+      "diff": "M",
+      "q": "inductive sensors LVDT transducer"
      },
      {
       "id": "in-sensors-and-industrial-instrum--piezoelectric",
-      "name": "Piezoelectric",
-      "diff": "E"
+      "name": "Piezoelectric sensors",
+      "diff": "M",
+      "q": "piezoelectric sensor charge amplifier"
      },
      {
-      "id": "in-sensors-and-industrial-instrum--electromagnetic-and-hall-effect-sensors-and-associated-signa",
-      "name": "Electromagnetic and Hall effect sensors and associated signal conditioning circuits",
-      "diff": "M"
+      "id": "in-sensors-and-industrial-instrum--electromagnetic-sensors",
+      "name": "Electromagnetic sensors",
+      "diff": "E",
+      "q": "electromagnetic sensors tachogenerator transducer"
      },
      {
-      "id": "in-sensors-and-industrial-instrum--transducers-for-industrial-instrumentation-displacement",
-      "name": "Transducers for industrial instrumentation: displacement",
-      "diff": "M"
+      "id": "in-sensors-and-industrial-instrum--hall-effect-sensors",
+      "name": "Hall effect sensors",
+      "diff": "E",
+      "q": "Hall effect sensor"
      },
      {
-      "id": "in-sensors-and-industrial-instrum--velocity",
-      "name": "Velocity",
-      "diff": "E"
-     },
-     {
-      "id": "in-sensors-and-industrial-instrum--acceleration-linear-and-angular",
-      "name": "Acceleration (linear and angular)",
-      "diff": "M"
-     },
-     {
-      "id": "in-sensors-and-industrial-instrum--force",
-      "name": "Force",
-      "diff": "E"
-     },
-     {
-      "id": "in-sensors-and-industrial-instrum--torque",
-      "name": "Torque",
-      "diff": "E"
-     },
-     {
-      "id": "in-sensors-and-industrial-instrum--vibration",
-      "name": "Vibration",
-      "diff": "H"
-     },
-     {
-      "id": "in-sensors-and-industrial-instrum--shock",
-      "name": "Shock",
-      "diff": "E"
-     },
-     {
-      "id": "in-sensors-and-industrial-instrum--pressure-including-low-and-high-pressure",
-      "name": "Pressure (including low and high pressure)",
-      "diff": "M"
-     },
-     {
-      "id": "in-sensors-and-industrial-instrum--flow-variable-head-variable-area-electromagnetic-ultrasonic-",
-      "name": "Flow (variable head, variable area, electromagnetic, ultrasonic, turbine flowmeters)",
-      "diff": "M"
-     },
-     {
-      "id": "in-sensors-and-industrial-instrum--temperature-thermocouple-bolometer-2-3-4-wire-rtd-thermistor",
-      "name": "Temperature (thermocouple, bolometer, 2, 3, 4 wire RTD, thermistor, pyrometer and semiconductor sensor)",
-      "diff": "M"
-     },
-     {
-      "id": "in-sensors-and-industrial-instrum--liquid-level",
-      "name": "Liquid level",
-      "diff": "E"
-     },
-     {
-      "id": "in-sensors-and-industrial-instrum--conductivity-and-viscosity-measurement",
-      "name": "Conductivity and viscosity measurement",
-      "diff": "M"
-     },
-     {
-      "id": "in-sensors-and-industrial-instrum--section-10-communication-and-optical-instrumentation-amplitu",
-      "name": "Section 10 Communication and Optical Instrumentation Amplitude and frequency modulation and demodulation",
-      "diff": "M"
-     },
-     {
-      "id": "in-sensors-and-industrial-instrum--pulse-code-modulation",
-      "name": "Pulse code modulation",
-      "diff": "M"
-     },
-     {
-      "id": "in-sensors-and-industrial-instrum--frequency-and-time-division-multiplexing",
-      "name": "Frequency and time division multiplexing",
-      "diff": "M"
-     },
-     {
-      "id": "in-sensors-and-industrial-instrum--amplitude",
-      "name": "Amplitude",
-      "diff": "E"
-     },
-     {
-      "id": "in-sensors-and-industrial-instrum--phase",
-      "name": "Phase",
-      "diff": "E"
-     },
-     {
-      "id": "in-sensors-and-industrial-instrum--frequency",
-      "name": "Frequency",
-      "diff": "E"
-     },
-     {
-      "id": "in-sensors-and-industrial-instrum--quadrature-amplitude",
-      "name": "Quadrature amplitude",
-      "diff": "M"
-     },
-     {
-      "id": "in-sensors-and-industrial-instrum--pulse-shift-keying-for-digital-modulation-and-demodulation",
-      "name": "Pulse shift keying for digital modulation and demodulation",
-      "diff": "M"
-     },
-     {
-      "id": "in-sensors-and-industrial-instrum--functional-architectures-of-transmitters-and-receivers",
-      "name": "Functional architectures of transmitters and receivers",
-      "diff": "M"
-     },
-     {
-      "id": "in-sensors-and-industrial-instrum--instrument-and-sensor-networks-4-20-ma-two-wire-transmitter",
-      "name": "Instrument and sensor networks, 4 -20 mA two-wire transmitter",
-      "diff": "M"
+      "id": "in-sensors-and-industrial-instrum--signal-conditioning-circuits-for-sensors",
+      "name": "Signal conditioning circuits for sensors",
+      "diff": "M",
+      "q": "sensor signal conditioning circuits bridge amplifier"
      }
     ]
    },
    {
     "letter": "B",
-    "name": "Optical sources and detectors",
+    "name": "Industrial Transducers: Motion, Force and Vibration",
     "topics": [
      {
-      "id": "in-sensors-and-industrial-instrum--led",
+      "id": "in-sensors-and-industrial-instrum--transducers-for-industrial-instrumentation-displacement",
+      "name": "Displacement measurement",
+      "diff": "E",
+      "q": "displacement transducers measurement"
+     },
+     {
+      "id": "in-sensors-and-industrial-instrum--velocity",
+      "name": "Velocity measurement",
+      "diff": "E",
+      "q": "velocity measurement transducer"
+     },
+     {
+      "id": "in-sensors-and-industrial-instrum--acceleration-linear-and-angular",
+      "name": "Acceleration measurement (linear and angular)",
+      "diff": "M",
+      "q": "accelerometer linear and angular acceleration measurement"
+     },
+     {
+      "id": "in-sensors-and-industrial-instrum--force",
+      "name": "Force measurement",
+      "diff": "E",
+      "q": "force measurement load cell"
+     },
+     {
+      "id": "in-sensors-and-industrial-instrum--torque",
+      "name": "Torque measurement",
+      "diff": "E",
+      "q": "torque measurement transducer"
+     },
+     {
+      "id": "in-sensors-and-industrial-instrum--vibration",
+      "name": "Vibration measurement",
+      "diff": "M",
+      "q": "vibration measurement seismic transducer"
+     },
+     {
+      "id": "in-sensors-and-industrial-instrum--shock",
+      "name": "Shock measurement",
+      "diff": "E",
+      "q": "shock measurement transducer"
+     }
+    ]
+   },
+   {
+    "letter": "C",
+    "name": "Pressure Measurement",
+    "topics": [
+     {
+      "id": "in-sensors-and-industrial-instrum--pressure-including-low-and-high-pressure",
+      "name": "Pressure measurement",
+      "diff": "M",
+      "q": "pressure measurement transducers manometer bourdon"
+     },
+     {
+      "id": "in-sensors-and-industrial-instrum--low-pressure-vacuum-measurement",
+      "name": "Low pressure (vacuum) measurement",
+      "diff": "M",
+      "q": "low pressure vacuum measurement McLeod Pirani gauge"
+     },
+     {
+      "id": "in-sensors-and-industrial-instrum--high-pressure-measurement",
+      "name": "High pressure measurement",
+      "diff": "E",
+      "q": "high pressure measurement"
+     }
+    ]
+   },
+   {
+    "letter": "D",
+    "name": "Flow Measurement",
+    "topics": [
+     {
+      "id": "in-sensors-and-industrial-instrum--variable-head-flowmeters",
+      "name": "Variable head flowmeters",
+      "diff": "M",
+      "q": "variable head flow meter orifice venturi"
+     },
+     {
+      "id": "in-sensors-and-industrial-instrum--variable-area-flowmeters",
+      "name": "Variable area flowmeters",
+      "diff": "M",
+      "q": "variable area flowmeter rotameter"
+     },
+     {
+      "id": "in-sensors-and-industrial-instrum--electromagnetic-flowmeter",
+      "name": "Electromagnetic flowmeter",
+      "diff": "M",
+      "q": "electromagnetic flow meter"
+     },
+     {
+      "id": "in-sensors-and-industrial-instrum--ultrasonic-flowmeter",
+      "name": "Ultrasonic flowmeter",
+      "diff": "M",
+      "q": "ultrasonic flow meter transit time Doppler"
+     },
+     {
+      "id": "in-sensors-and-industrial-instrum--turbine-flowmeter",
+      "name": "Turbine flowmeter",
+      "diff": "E",
+      "q": "turbine flow meter"
+     }
+    ]
+   },
+   {
+    "letter": "E",
+    "name": "Temperature Measurement",
+    "topics": [
+     {
+      "id": "in-sensors-and-industrial-instrum--thermocouple",
+      "name": "Thermocouple",
+      "diff": "M",
+      "q": "thermocouple laws cold junction compensation"
+     },
+     {
+      "id": "in-sensors-and-industrial-instrum--2-3-and-4-wire-rtd",
+      "name": "2, 3 and 4 wire RTD",
+      "diff": "M",
+      "q": "RTD 2 wire 3 wire 4 wire configuration"
+     },
+     {
+      "id": "in-sensors-and-industrial-instrum--thermistor",
+      "name": "Thermistor",
+      "diff": "M",
+      "q": "thermistor temperature measurement"
+     },
+     {
+      "id": "in-sensors-and-industrial-instrum--bolometer",
+      "name": "Bolometer",
+      "diff": "E",
+      "q": "bolometer temperature measurement"
+     },
+     {
+      "id": "in-sensors-and-industrial-instrum--pyrometer",
+      "name": "Pyrometer",
+      "diff": "E",
+      "q": "radiation optical pyrometer"
+     },
+     {
+      "id": "in-sensors-and-industrial-instrum--semiconductor-temperature-sensor",
+      "name": "Semiconductor temperature sensor",
+      "diff": "E",
+      "q": "semiconductor temperature sensor IC"
+     }
+    ]
+   },
+   {
+    "letter": "F",
+    "name": "Level and Analytical Measurement",
+    "topics": [
+     {
+      "id": "in-sensors-and-industrial-instrum--liquid-level",
+      "name": "Liquid level measurement",
+      "diff": "E",
+      "q": "liquid level measurement"
+     },
+     {
+      "id": "in-sensors-and-industrial-instrum--ph-measurement",
+      "name": "pH measurement",
+      "diff": "E",
+      "q": "pH measurement glass electrode"
+     },
+     {
+      "id": "in-sensors-and-industrial-instrum--conductivity-measurement",
+      "name": "Conductivity measurement",
+      "diff": "E",
+      "q": "conductivity measurement cell"
+     },
+     {
+      "id": "in-sensors-and-industrial-instrum--viscosity-measurement",
+      "name": "Viscosity measurement",
+      "diff": "E",
+      "q": "viscosity measurement viscometer"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "in-communication-and-optical-inst",
+  "name": "Communication and Optical Instrumentation",
+  "marks": "4–7",
+  "focus": "AM/FM and PCM numericals, digital modulation basics, 4–20 mA loops and optical detector characteristics recur most.",
+  "modules": [
+   {
+    "letter": "A",
+    "name": "Analog Modulation",
+    "topics": [
+     {
+      "id": "in-communication-and-optical-inst--amplitude-modulation-and-demodulation",
+      "name": "Amplitude modulation and demodulation",
+      "diff": "M",
+      "q": "amplitude modulation and demodulation",
+      "sample": true
+     },
+     {
+      "id": "in-communication-and-optical-inst--frequency-modulation-and-demodulation",
+      "name": "Frequency modulation and demodulation",
+      "diff": "M",
+      "q": "frequency modulation and demodulation"
+     }
+    ]
+   },
+   {
+    "letter": "B",
+    "name": "Pulse Modulation and Multiplexing",
+    "topics": [
+     {
+      "id": "in-communication-and-optical-inst--pulse-code-modulation",
+      "name": "Pulse code modulation",
+      "diff": "M",
+      "q": "pulse code modulation PCM"
+     },
+     {
+      "id": "in-communication-and-optical-inst--frequency-and-time-division-multiplexing",
+      "name": "Frequency and time division multiplexing",
+      "diff": "E",
+      "q": "frequency division multiplexing FDM time division multiplexing TDM"
+     }
+    ]
+   },
+   {
+    "letter": "C",
+    "name": "Digital Modulation and Demodulation",
+    "topics": [
+     {
+      "id": "in-communication-and-optical-inst--amplitude-shift-keying-ask",
+      "name": "Amplitude shift keying (ASK)",
+      "diff": "E",
+      "q": "amplitude shift keying ASK"
+     },
+     {
+      "id": "in-communication-and-optical-inst--phase-shift-keying-psk",
+      "name": "Phase shift keying (PSK)",
+      "diff": "M",
+      "q": "phase shift keying BPSK"
+     },
+     {
+      "id": "in-communication-and-optical-inst--frequency-shift-keying-fsk",
+      "name": "Frequency shift keying (FSK)",
+      "diff": "M",
+      "q": "frequency shift keying FSK"
+     },
+     {
+      "id": "in-communication-and-optical-inst--quadrature-amplitude-modulation-qam",
+      "name": "Quadrature amplitude modulation (QAM)",
+      "diff": "M",
+      "q": "quadrature amplitude modulation QAM"
+     },
+     {
+      "id": "in-communication-and-optical-inst--pulse-shift-keying",
+      "name": "Pulse shift keying",
+      "diff": "E",
+      "q": "pulse shift keying digital modulation"
+     }
+    ]
+   },
+   {
+    "letter": "D",
+    "name": "Transmitters, Receivers and Sensor Networks",
+    "topics": [
+     {
+      "id": "in-communication-and-optical-inst--functional-architectures-of-transmitters-and-receivers",
+      "name": "Functional architectures of transmitters and receivers",
+      "diff": "M",
+      "q": "transmitter and receiver architecture superheterodyne"
+     },
+     {
+      "id": "in-communication-and-optical-inst--instrument-and-sensor-networks",
+      "name": "Instrument and sensor networks",
+      "diff": "E",
+      "q": "instrument and sensor networks fieldbus"
+     },
+     {
+      "id": "in-communication-and-optical-inst--4-20-ma-two-wire-transmitter",
+      "name": "4–20 mA two-wire transmitter",
+      "diff": "M",
+      "q": "4-20 mA two wire transmitter current loop"
+     }
+    ]
+   },
+   {
+    "letter": "E",
+    "name": "Optical Sources and Detectors",
+    "topics": [
+     {
+      "id": "in-communication-and-optical-inst--led",
       "name": "LED",
-      "diff": "E"
+      "diff": "E",
+      "q": "LED light emitting diode optical source characteristics"
      },
      {
-      "id": "in-sensors-and-industrial-instrum--laser",
+      "id": "in-communication-and-optical-inst--laser",
       "name": "Laser",
-      "diff": "E"
+      "diff": "M",
+      "q": "laser principle optical source characteristics"
      },
      {
-      "id": "in-sensors-and-industrial-instrum--photo-diode",
+      "id": "in-communication-and-optical-inst--photo-diode",
       "name": "Photo-diode",
-      "diff": "E"
+      "diff": "M",
+      "q": "photodiode characteristics optical detector"
      },
      {
-      "id": "in-sensors-and-industrial-instrum--light-dependent-resistor",
+      "id": "in-communication-and-optical-inst--light-dependent-resistor",
       "name": "Light dependent resistor",
-      "diff": "M"
+      "diff": "E",
+      "q": "light dependent resistor LDR"
      },
      {
-      "id": "in-sensors-and-industrial-instrum--square-law-detectors-and-their-characteristics",
+      "id": "in-communication-and-optical-inst--square-law-detectors-and-their-characteristics",
       "name": "Square law detectors and their characteristics",
-      "diff": "M"
-     },
+      "diff": "M",
+      "q": "square law detector optical"
+     }
+    ]
+   },
+   {
+    "letter": "F",
+    "name": "Optical Instrumentation",
+    "topics": [
      {
-      "id": "in-sensors-and-industrial-instrum--interferometer-applications-in-metrology",
+      "id": "in-communication-and-optical-inst--interferometer-applications-in-metrology",
       "name": "Interferometer: applications in metrology",
-      "diff": "M"
+      "diff": "M",
+      "q": "interferometer metrology Michelson"
      },
      {
-      "id": "in-sensors-and-industrial-instrum--basics-of-fiber-optic-sensing",
+      "id": "in-communication-and-optical-inst--basics-of-fiber-optic-sensing",
       "name": "Basics of fiber optic sensing",
-      "diff": "M"
+      "diff": "M",
+      "q": "fiber optic sensors basics"
      },
      {
-      "id": "in-sensors-and-industrial-instrum--nearinfrared-nir-sensing",
-      "name": "Nearinfrared (NIR) sensing",
-      "diff": "M"
+      "id": "in-communication-and-optical-inst--near-infrared-nir-sensing",
+      "name": "Near-infrared (NIR) sensing",
+      "diff": "E",
+      "q": "near infrared NIR spectroscopy sensing"
      },
      {
-      "id": "in-sensors-and-industrial-instrum--ultraviolet-visible-uv-vis-spectrophotometers",
-      "name": "Ultraviolet-Visible (UV-VIS) spectrophotometers",
-      "diff": "M"
+      "id": "in-communication-and-optical-inst--ultraviolet-visible-uv-vis-spectrophotometers",
+      "name": "Ultraviolet-visible (UV-VIS) spectrophotometers",
+      "diff": "E",
+      "q": "UV visible spectrophotometer"
      },
      {
-      "id": "in-sensors-and-industrial-instrum--mass-spectrometer",
+      "id": "in-communication-and-optical-inst--mass-spectrometer",
       "name": "Mass spectrometer",
-      "diff": "E"
+      "diff": "E",
+      "q": "mass spectrometer working principle"
      }
     ]
    }

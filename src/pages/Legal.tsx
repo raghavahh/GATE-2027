@@ -20,7 +20,7 @@ export const TermsPage = () => (
   <Page title="Terms of use">
     <p>By creating an account or buying a paper on GATE A–Z ("we", "the platform") you agree to these terms.</p>
     <h2>What you buy</h2>
-    <p>Each GATE paper (for example CS or EC) is sold separately for ₹{PRICE_INR}. A purchase gives one person access to that paper's sheet, video playlists and topic notes (added through the season) for the current exam season: from the date of purchase until 30 days after that year's GATE exam. A new edition is published for each GATE year.</p>
+    <p>Each GATE paper (for example CS or EC) is sold separately for ₹{PRICE_INR}. A purchase gives one person access to that paper's sheet, video playlists and topic notes for 1 year from the date of purchase.</p>
     <h2>One person, one login</h2>
     <ul>
       <li>An account is for a single person. Sharing your account or reselling access is not allowed.</li>
@@ -78,7 +78,7 @@ export const DeliveryPage = () => (
       <li>If it hasn't unlocked within 30 minutes of a successful payment, email <Mail /> with your Razorpay payment ID and we will unlock it within 24 hours.</li>
     </ul>
     <h2>How long access lasts</h2>
-    <p>Access to a purchased paper lasts until 30 days after that year's GATE exam, as shown on the paper page before you buy.</p>
+    <p>Access to a purchased paper lasts 1 year from the date of purchase, as shown on the paper page before you buy.</p>
   </Page>
 );
 

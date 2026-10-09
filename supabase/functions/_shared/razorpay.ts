@@ -4,8 +4,8 @@ import { createClient } from 'npm:@supabase/supabase-js@2';
 
 export const PRICE_PAISE = 31000;
 export const EDITION = 'GATE 2027';
-/** Access ends 30 days after the GATE 2027 exam window (update when official dates are announced). */
-export const SEASON_END = Deno.env.get('SEASON_END') ?? '2027-03-31T23:59:59+05:30';
+/** Access lasts 1 year from the moment of purchase. */
+export const accessUntil = () => new Date(Date.now() + 365 * 86_400_000).toISOString();
 /** Papers on sale: only those whose videos are curated. Add one with the SELLABLE_PAPERS secret, no redeploy needed. */
 export const PAPERS = new Set((Deno.env.get('SELLABLE_PAPERS') ?? 'cs,da,ec,ee,me').split(',').map(s => s.trim()));
 

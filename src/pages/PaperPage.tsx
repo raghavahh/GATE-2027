@@ -71,7 +71,7 @@ export function PaperPage() {
             <div className="card flex items-center justify-between gap-4 p-4">
               <div>
                 <p className="text-xl font-semibold tnum">₹{PRICE_INR}</p>
-                <p className="text-xs text-sub">Full {paper.code} access till 30 days after the exam</p>
+                <p className="text-xs text-sub">Full {paper.code} access for 1 year</p>
               </div>
               <button type="button" className="btn-primary" onClick={() => setBuyFor('')}>Unlock {paper.code}</button>
             </div>

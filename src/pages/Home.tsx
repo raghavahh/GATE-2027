@@ -80,7 +80,7 @@ export function Home() {
 
       <section className="mx-auto max-w-shell px-4 py-16 sm:px-6">
         <div className="flex flex-wrap items-end justify-between gap-4">
-          <div><h2 className="text-2xl font-semibold">Pick your paper</h2><p className="mt-1 text-sub">₹{PRICE_INR} per paper, one payment, access till 30 days after the exam. {PAPERS.filter(p => isSellable(p.slug)).map(p => p.code).join(', ')} have lectures now.</p></div>
+          <div><h2 className="text-2xl font-semibold">Pick your paper</h2><p className="mt-1 text-sub">₹{PRICE_INR} per paper, one payment, 1 year of access. {PAPERS.filter(p => isSellable(p.slug)).map(p => p.code).join(', ')} have lectures now.</p></div>
           <Link to="/papers" className="text-sm text-brand hover:underline">All {PAPERS.length} papers</Link>
         </div>
         <PaperGrid limit={8} />

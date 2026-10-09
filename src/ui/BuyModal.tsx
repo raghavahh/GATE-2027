@@ -161,7 +161,7 @@ export function BuyModal({ paper, topicName, counts, onClose }: Props) {
 
         <div className="mt-6 flex items-baseline gap-2">
           <span className="text-3xl font-semibold tnum">₹{PRICE_INR}</span>
-          <span className="text-sm text-sub">one payment · access till 30 days after the exam</span>
+          <span className="text-sm text-sub">one payment · 1 year of access</span>
         </div>
         <p className="mt-1 text-xs text-sub">One account, one active login. Each branch is bought separately. No refunds or cancellations after purchase.</p>
 

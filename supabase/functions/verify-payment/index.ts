@@ -1,7 +1,7 @@
 // POST { razorpay_order_id, razorpay_payment_id, razorpay_signature } after checkout succeeds.
 // 1) checks the signature with the secret key, 2) re-reads the payment from Razorpay,
 // 3) grants the paper once (idempotent).
-import { admin, cors, hmacHex, json, PRICE_PAISE, rzp, safeEqual, SEASON_END, userFrom } from '../_shared/razorpay.ts';
+import { admin, cors, hmacHex, json, PRICE_PAISE, rzp, safeEqual, accessUntil, userFrom } from '../_shared/razorpay.ts';
 
 Deno.serve(async req => {
   if (req.method === 'OPTIONS') return new Response('ok', { headers: cors(req) });
@@ -33,7 +33,7 @@ Deno.serve(async req => {
         .catch(async e => { if ((await rzp(`/payments/${paymentId}`)).status !== 'captured') throw e; });
     }
 
-    const { data: ok, error } = await db.rpc('grant_paper', { p_order: orderId, p_payment: paymentId, p_amount: PRICE_PAISE, p_expires: SEASON_END });
+    const { data: ok, error } = await db.rpc('grant_paper', { p_order: orderId, p_payment: paymentId, p_amount: PRICE_PAISE, p_expires: accessUntil() });
     if (error || !ok) throw error ?? new Error('grant failed');
     return json(req, { ok: true });
   } catch (e) {
