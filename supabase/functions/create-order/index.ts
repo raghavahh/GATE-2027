@@ -1,4 +1,4 @@
-// POST { paper } with the user's Supabase token → creates a Razorpay order for ₹149.
+// POST { paper } with the user's Supabase token → creates a Razorpay order for ₹49.
 // The amount is set here on the server; the browser never chooses the price.
 import { admin, cors, EDITION, json, PAPERS, PRICE_PAISE, rzp, userFrom } from '../_shared/razorpay.ts';
 

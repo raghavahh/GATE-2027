@@ -36,7 +36,7 @@ export function PapersPage() {
   return (
     <div className="mx-auto max-w-shell px-4 py-10 sm:px-6">
       <h1 className="text-3xl font-semibold">All GATE papers</h1>
-      <p className="mt-2 text-sub">Each paper is a separate ₹149 sheet. Papers marked “Videos live” can be bought now; the rest are free to browse while their videos are curated.</p>
+      <p className="mt-2 text-sub">Each paper is a separate ₹49 sheet. Papers marked “Videos live” can be bought now; the rest are free to browse while their videos are curated.</p>
       <PaperGrid />
     </div>
   );

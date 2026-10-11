@@ -17,7 +17,7 @@
 ## 1. Summary
 
 ### 1.1 One line
-For each of the 30 GATE papers, the complete official syllabus as an A–Z sheet; every topic has 3–4 hand-picked YouTube lectures **playing inside the site**, key-point notes, previous-year questions (PYQs) and an Easy/Medium/Hard tag — **₹310 per paper, one payment, access for that exam season.**
+For each of the 30 GATE papers, the complete official syllabus as an A–Z sheet; every topic has 3–4 hand-picked YouTube lectures **playing inside the site**, key-point notes, previous-year questions (PYQs) and an Easy/Medium/Hard tag — **₹49 per paper, one payment, access for that exam season.**
 
 ### 1.2 Problem
 - GATE material is scattered across thousands of videos and PDFs; students waste weeks choosing what to study and whom to trust.
@@ -28,13 +28,13 @@ For each of the 30 GATE papers, the complete official syllabus as an A–Z sheet
 
 | Item | Rule |
 |---|---|
-| Price | **₹310 per paper**, one-time |
+| Price | **₹49 per paper**, one-time |
 | Access period | From purchase until **30 days after that year's GATE exam** (one "season") |
 | Editions | New edition every year (GATE 2027 → 2028 → 2029…). Students buy again each season → repeat revenue |
-| Multiple papers | Each paper bought separately (2 papers = ₹620) |
+| Multiple papers | Each paper bought separately (2 papers = ₹98) |
 | Refunds / cancellations | **None after purchase** (stated in popup, Terms and Refund page) |
 | Payment | Razorpay (UPI first, cards, netbanking) — Indian buyers only |
-| Fees | ~2% + GST ≈ ₹7.3 → **~₹303 net per sale** |
+| Fees | ~2% + GST ≈ ₹1.16 → **~₹47.84 net per sale** |
 | Running cost | ₹0 at launch (Supabase free, Cloudflare Pages free) |
 
 ### 1.4 Goals
@@ -85,7 +85,7 @@ No gradients/glow/glassmorphism · no emoji icons · no AI illustrations or stoc
 | **All papers** | [DONE] | 30 cards with live/coming status and real topic counts; filter Engineering/Science/Other [NEXT] |
 | **Paper sheet** | [DONE] → polish [NEXT] | Header (price/unlock or progress), sticky search + difficulty filter, subject accordions with marks + x/y done, A–Z modules, topic rows (status box · title · free chip · video count · difficulty). Curiosity rule: locked papers show ~1 in 3 topic names + "N more topics, unlock to see". **Polish:** progress ring per subject, "Continue where you left off", status filter (todo/doing/done), revision star |
 | **Topic page** | [DONE] → polish [NEXT] | Breadcrumb, title, difficulty + marks chips, status control, **in-site video player + playlist**, key points (notes), PYQ list, prev/next. Locked → single unlock card (never blurred real content) |
-| **Buy popup** | [DONE] → real checkout [NEXT] | What's included (real counts), ₹310, season access, one login, **no refunds**, Pay with UPI → Razorpay |
+| **Buy popup** | [DONE] → real checkout [NEXT] | What's included (real counts), ₹49, season access, one login, **no refunds**, Pay with UPI → Razorpay |
 | **Sign in** | [DONE] | Google (primary), email 6-digit code; one-login notice |
 | **"Signed out elsewhere" banner** | [DONE] | Shown when a newer login replaces this one |
 | **Dashboard** | [NEXT] | Owned papers, overall progress, continue, revision due, days to exam |
@@ -150,15 +150,15 @@ Free hub with official links (2007–2026). **[NEXT]** topic-wise mapping (Year 
 ## 5. Payments (Razorpay) — security design [NEXT]
 
 ### 5.1 Flow
-1. User taps **Pay ₹310** (must be signed in; popup signs in inline).
+1. User taps **Pay ₹49** (must be signed in; popup signs in inline).
 2. Browser calls Edge Function **`create-order`** with `{ paper }` + user JWT.
    - Server checks paper exists and user doesn't already own it this edition.
-   - **Amount comes from the server (31000 paise), never from the browser.**
+   - **Amount comes from the server (4900 paise), never from the browser.**
    - Creates Razorpay Order (`notes: { user_id, paper, edition }`), stores it in `orders` (status `created`).
 3. Browser opens Razorpay Checkout with `order_id` + **Key ID** (public).
 4. On success, browser sends `razorpay_order_id`, `razorpay_payment_id`, `razorpay_signature` to **`verify-payment`**.
    - Server recomputes **HMAC-SHA256(order_id + "|" + payment_id, KEY_SECRET)** and compares in constant time.
-   - Server fetches the payment from Razorpay API: status `captured`, amount `31000`, order matches.
+   - Server fetches the payment from Razorpay API: status `captured`, amount `4900`, order matches.
    - Inserts `entitlements` row (unique per user + paper + edition; idempotent on `payment_id`), `expires_at` = exam date + 30 days.
 5. **Webhook `razorpay-webhook`** (`payment.captured`, `order.paid`) does the same grant as a fallback if the browser closed. Verifies `X-Razorpay-Signature` with the **webhook secret**; stores event id to process each event once.
 6. Paper unlocks instantly; receipt email [LATER].

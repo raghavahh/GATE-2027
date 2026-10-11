@@ -65,7 +65,7 @@ Running it again makes a new webhook secret, so re-paste it into Razorpay every 
    - Events: `payment.captured`, `order.paid`, `refund.processed`.
 4. After approval, switch to **Live**, generate keys, run `setup_payments.py` again with the `rzp_live_…` key, and add the
    webhook again in Live mode with the new secret.
-5. Do one real ₹310 UPI payment. Check that the paper unlocks, that `/admin` shows the sale, and that the webhook shows 2xx in Razorpay.
+5. Do one real ₹49 UPI payment. Check that the paper unlocks, that `/admin` shows the sale, and that the webhook shows 2xx in Razorpay.
    Refund it from the dashboard. Access is removed automatically, which also tests the refund path.
 
 **Test-mode QR "technical issues" is expected.** A test QR can't be paid by a real UPI app. In test mode, pay with UPI ID
