@@ -28,7 +28,7 @@ create table if not exists public.entitlements (
   edition text not null default 'GATE 2027',
   expires_at timestamptz not null,
   payment_id text unique,
-  amount_paise int not null default 31000,
+  amount_paise int not null default 14900,
   created_at timestamptz not null default now(),
   unique (user_id, paper, edition)
 );

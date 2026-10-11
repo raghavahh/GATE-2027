@@ -38,5 +38,5 @@ export const PAPERS: Paper[] = [
   p('XH', 'Humanities & Social Sciences', 'Other', 'live', 'Reasoning + one section'),
 ];
 
-export const PRICE_INR = 310;
+export const PRICE_INR = 149;
 export const EDITION = 'GATE 2027';

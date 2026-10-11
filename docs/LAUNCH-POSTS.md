@@ -9,7 +9,7 @@ GATE 2027 aspirants 👋 I built **GATE A–Z**: your paper's official 2027 syll
 ✅ CS · DA · EC · EE · ME · CE (coming today)
 ✅ Free sample topic in every subject, no sign-up needed
 ✅ Free official PYQ papers + answer keys, 2019–2026, every branch
-💳 ₹310 per paper, 1 year access, UPI
+💳 ₹149 per paper, 1 year access, UPI
 
 Try a free topic: https://gate-az.pages.dev
 
@@ -21,12 +21,12 @@ GATE A–Z = every topic of the GATE 2027 syllabus, in order, with the best lect
 📚 CS · DA · EC · EE · ME · CE
 🆓 Free sample topics + free official PYQ papers (2019–2026)
 ✅ Tick topics off, always know what's next
-💳 ₹310 per paper · 1 year access
+💳 ₹149 per paper · 1 year access
 
 Link in bio → gate-az.pages.dev
 #GATE2027 #GATECSE #GATEECE #GATEEE #GATEME #GATECE #GATEDA #GATEPreparation
 
-**Reel idea (15 s, screen recording):** open /cs → tap a topic → video plays in-site → scroll to notes → tap "Mark done · Next topic". Text overlay: "Whole GATE syllabus. One sheet. ₹310."
+**Reel idea (15 s, screen recording):** open /cs → tap a topic → video plays in-site → scroll to notes → tap "Mark done · Next topic". Text overlay: "Whole GATE syllabus. One sheet. ₹149."
 
 ## Reddit (r/GATE; check the sub's self-promotion rules first, post as a builder, reply to comments)
 
@@ -38,7 +38,7 @@ I kept losing time choosing which lecture to watch for each topic, so I built GA
 - short notes per topic: key points, formulas, common mistakes, how it's asked
 - free: one sample topic per subject + official PYQ papers and keys for every branch, 2019–2026
 
-Papers: CS, DA, EC, EE, ME, CE. ₹310 per paper for 1 year. I'd love feedback on what's missing: https://gate-az.pages.dev
+Papers: CS, DA, EC, EE, ME, CE. ₹149 per paper for 1 year. I'd love feedback on what's missing: https://gate-az.pages.dev
 
 ## LinkedIn
 

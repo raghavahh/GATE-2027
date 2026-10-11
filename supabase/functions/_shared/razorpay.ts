@@ -2,7 +2,7 @@
 // Secrets come ONLY from Supabase function secrets: RAZORPAY_KEY_ID, RAZORPAY_KEY_SECRET, RAZORPAY_WEBHOOK_SECRET.
 import { createClient } from 'npm:@supabase/supabase-js@2';
 
-export const PRICE_PAISE = 31000;
+export const PRICE_PAISE = 14900;
 export const EDITION = 'GATE 2027';
 /** Access lasts 1 year from the moment of purchase. */
 export const accessUntil = () => new Date(Date.now() + 365 * 86_400_000).toISOString();
