@@ -7,7 +7,6 @@
 // Only public information goes in: the official syllabus, marks, difficulty, video counts, free PYQ links.
 // Paid lecture lists and notes stay behind the paywall.
 // usage: node scripts/prerender.mjs   (run by `npm run build`)
-import { execSync } from 'child_process';
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'fs';
 import { dirname, join } from 'path';
 import { fileURLToPath } from 'url';
@@ -20,8 +19,10 @@ const EDITION = 'GATE 2027';
 const PRICE = 49;
 const TODAY = new Date().toISOString().slice(0, 10);
 const json = p => JSON.parse(readFileSync(p, 'utf8'));
-// "Last updated" = the last real change to the syllabus/catalog data (not the build time).
-const UPDATED = (() => { try { return execSync('git log -1 --format=%cs -- src/catalog', { cwd: ROOT }).toString().trim() || TODAY; } catch { return TODAY; } })();
+// "Last updated" = the last real change to the syllabus/catalog content (never the build time).
+// Pinned in src/catalog/updated.txt (Cloudflare builds from a shallow clone, so git history can't tell us).
+// Bump that date only when the syllabus, lectures or notes really change.
+const UPDATED = existsSync(join(CAT, 'updated.txt')) ? readFileSync(join(CAT, 'updated.txt'), 'utf8').trim() : TODAY;
 const UPDATED_TEXT = new Date(`${UPDATED}T00:00:00Z`).toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC' });
 const OG_IMAGE = `${SITE}/og.png`;
 // Official profiles of GATE A–Z (Instagram, YouTube, X…): add them here once they exist; they become schema sameAs.
