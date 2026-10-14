@@ -79,7 +79,7 @@ export function Shell() {
         <div className="mx-auto flex max-w-shell flex-col gap-4 px-4 py-8 text-sm text-sub sm:flex-row sm:items-center sm:justify-between sm:px-6">
           <Logo small />
           <nav className="flex flex-wrap gap-x-5 gap-y-2" aria-label="Legal">
-            {[['/terms', 'Terms'], ['/privacy', 'Privacy'], ['/refund', 'Refunds'], ['/delivery', 'Delivery'], ['/contact', 'Contact']].map(([to, l]) => <Link key={to} to={to} className="hover:text-ink">{l}</Link>)}
+            {[['/about', 'About'], ['/terms', 'Terms'], ['/privacy', 'Privacy'], ['/refund', 'Refunds'], ['/delivery', 'Delivery'], ['/contact', 'Contact']].map(([to, l]) => <Link key={to} to={to} className="hover:text-ink">{l}</Link>)}
           </nav>
           <div className="max-w-md space-y-1 text-xs text-sub">
             <p>Run by Pithani Raghavendra, India · <a href={`mailto:${CONTACT_EMAIL}`} className="underline hover:text-ink">{CONTACT_EMAIL}</a> · Payments by Razorpay</p>

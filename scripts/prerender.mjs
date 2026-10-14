@@ -7,6 +7,7 @@
 // Only public information goes in: the official syllabus, marks, difficulty, video counts, free PYQ links.
 // Paid lecture lists and notes stay behind the paywall.
 // usage: node scripts/prerender.mjs   (run by `npm run build`)
+import { execSync } from 'child_process';
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'fs';
 import { dirname, join } from 'path';
 import { fileURLToPath } from 'url';
@@ -19,6 +20,12 @@ const EDITION = 'GATE 2027';
 const PRICE = 49;
 const TODAY = new Date().toISOString().slice(0, 10);
 const json = p => JSON.parse(readFileSync(p, 'utf8'));
+// "Last updated" = the last real change to the syllabus/catalog data (not the build time).
+const UPDATED = (() => { try { return execSync('git log -1 --format=%cs -- src/catalog', { cwd: ROOT }).toString().trim() || TODAY; } catch { return TODAY; } })();
+const UPDATED_TEXT = new Date(`${UPDATED}T00:00:00Z`).toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC' });
+const OG_IMAGE = `${SITE}/og.png`;
+// Official profiles of GATE A–Z (Instagram, YouTube, X…): add them here once they exist; they become schema sameAs.
+const SAME_AS = [];
 
 // ---------- data ----------
 const PAPERS = [...readFileSync(join(CAT, 'papers.ts'), 'utf8').matchAll(/p\('([A-Z]{2})', '([^']+)', '(\w+)'(?:, '(\w+)')?/g)]
@@ -45,19 +52,25 @@ const upper = m => Number(String(m ?? '').split(/[–-]/).pop()) || 0;
 const esc = s => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 const a = (href, text, cls = 'text-brand') => `<a href="${esc(href)}"${cls ? ` class="${cls}"` : ''}>${esc(text)}</a>`;
 const ld = obj => `<script type="application/ld+json">${JSON.stringify(obj).replace(/</g, '\\u003c')}</script>`;
-const ORG = { '@type': 'Organization', '@id': `${SITE}/#org`, name: 'GATE A–Z', url: `${SITE}/`, logo: `${SITE}/favicon.svg`,
+const ORG = { '@type': 'Organization', '@id': `${SITE}/#org`, name: 'GATE A–Z', url: `${SITE}/`, logo: `${SITE}/favicon.svg`, image: OG_IMAGE,
+  founder: { '@type': 'Person', name: 'Pithani Raghavendra' }, areaServed: 'IN', ...(SAME_AS.length ? { sameAs: SAME_AS } : {}),
   description: `Topic-wise ${EDITION} syllabus sheets with hand-picked video lectures, key-point notes and free official previous-year papers for every GATE paper.` };
 const crumbs = items => ({ '@type': 'BreadcrumbList', itemListElement: items.map(([name, url], i) => ({ '@type': 'ListItem', position: i + 1, name, item: SITE + url })) });
 const faqLd = qa => ({ '@type': 'FAQPage', mainEntity: qa.map(([q, ans]) => ({ '@type': 'Question', name: q, acceptedAnswer: { '@type': 'Answer', text: ans } })) });
 const faqHtml = qa => `<section class="mt-10"><h2 class="text-lg font-semibold">Frequently asked questions</h2>${qa.map(([q, ans]) => `<h3 class="mt-4 font-semibold">${esc(q)}</h3><p class="mt-1 text-sub">${esc(ans)}</p>`).join('')}</section>`;
-const NAV = `<header class="mx-auto max-w-shell px-4 py-4 sm:px-6"><a href="/" class="font-semibold">GATE A–Z</a> · ${a('/papers', 'Papers')} · ${a('/pyq', 'PYQs')} · ${a('/guide', 'How to prepare')}</header>`;
-const FOOT = `<footer class="mx-auto max-w-shell px-4 py-10 text-sm text-sub sm:px-6">GATE A–Z · ${EDITION} · ₹${PRICE} per paper, 1 year of access · ${a('/terms', 'Terms')} · ${a('/privacy', 'Privacy')} · ${a('/refund', 'Refunds')} · ${a('/delivery', 'Delivery')} · ${a('/contact', 'Contact')}. Not affiliated with IISc, the IITs or the GATE organisers. Videos belong to their creators and play through YouTube's official player.</footer>`;
+const NAV = `<header class="mx-auto max-w-shell px-4 py-4 sm:px-6"><a href="/" class="font-semibold">GATE A–Z</a> · ${a('/papers', 'Papers')} · ${a('/pyq', 'PYQs')} · ${a('/guide', 'How to prepare')} · ${a('/about', 'About')}</header>`;
+const FOOT = `<footer class="mx-auto max-w-shell px-4 py-10 text-sm text-sub sm:px-6">GATE A–Z · ${EDITION} · ₹${PRICE} per paper, 1 year of access · ${a('/about', 'About')} · ${a('/terms', 'Terms')} · ${a('/privacy', 'Privacy')} · ${a('/refund', 'Refunds')} · ${a('/delivery', 'Delivery')} · ${a('/contact', 'Contact')}. Not affiliated with IISc, the IITs or the GATE organisers. Videos belong to their creators and play through YouTube's official player.</footer>`;
 
 const TEMPLATE = readFileSync(join(DIST, 'index.html'), 'utf8');
 // The template must be Vite's fresh index.html; re-running on an already pre-rendered dist would nest pages.
 if (TEMPLATE.includes('application/ld+json')) throw new Error('dist/index.html is already pre-rendered: run `npm run build` instead');
+const clamp = d => (d.length <= 160 ? d : `${d.slice(0, 157).replace(/[\s,;:·–-]+\S*$/, '')}…`);
+const table = (head, rows) => `<table class="mt-3"><thead><tr>${head.map(h => `<th>${esc(h)}</th>`).join('')}</tr></thead><tbody>${rows.map(r => `<tr>${r.map(c => `<td>${c}</td>`).join('')}</tr>`).join('')}</tbody></table>`;
 function page({ title, description, body = '', graph = [], noindex = false, canonical = '/' }) {
   const url = SITE + canonical;
+  description = clamp(description);
+  if (!noindex) graph = [...graph, { '@type': 'WebPage', '@id': url, url, name: title, description, inLanguage: 'en', dateModified: UPDATED,
+    isPartOf: { '@id': `${SITE}/#site` }, publisher: { '@id': `${SITE}/#org` }, primaryImageOfPage: OG_IMAGE }];
   const head = [
     `<title>${esc(title)}</title>`,
     `<meta name="description" content="${esc(description)}" />`,
@@ -65,6 +78,10 @@ function page({ title, description, body = '', graph = [], noindex = false, cano
     `<meta property="og:title" content="${esc(title)}" />`,
     `<meta property="og:description" content="${esc(description)}" />`,
     `<meta property="og:url" content="${url}" />`,
+    `<meta property="og:image" content="${OG_IMAGE}" />`,
+    '<meta property="og:image:width" content="1200" />',
+    '<meta property="og:image:height" content="630" />',
+    `<meta name="twitter:image" content="${OG_IMAGE}" />`,
     `<meta name="twitter:title" content="${esc(title)}" />`,
     `<meta name="twitter:description" content="${esc(description)}" />`,
     graph.length ? ld({ '@context': 'https://schema.org', '@graph': graph }) : '',
@@ -73,8 +90,9 @@ function page({ title, description, body = '', graph = [], noindex = false, cano
     .replace(/<title>[\s\S]*?<\/title>/, '')
     .replace(/\s*<meta name="description"[^>]*>/, '')
     .replace(/\s*<meta property="og:(title|description|url)"[^>]*>/g, '')
+    .replace('<meta name="twitter:card" content="summary" />', '<meta name="twitter:card" content="summary_large_image" />')
     .replace('</head>', `    ${head}\n  </head>`);
-  if (body) html = html.replace('<div id="root"></div>', () => `<div id="root">${NAV}<main class="mx-auto max-w-shell px-4 py-10 sm:px-6">${body}</main>${FOOT}</div>`);
+  if (body) html = html.replace('<div id="root"></div>', () => `<div id="root">${NAV}<main class="mx-auto max-w-shell px-4 py-10 sm:px-6">${body}<p class="mt-10 text-sm text-sub">Last updated <time datetime="${UPDATED}">${UPDATED_TEXT}</time></p></main>${FOOT}</div>`);
   return html;
 }
 let pages = 0;
@@ -84,7 +102,7 @@ const out = (route, html) => {
   writeFileSync(f, html, 'utf8');
   pages++;
 };
-const sitemaps = { pages: ['/', '/papers', '/pyq', '/guide', '/terms', '/privacy', '/refund', '/delivery', '/contact'] };
+const sitemaps = { pages: ['/', '/papers', '/pyq', '/guide', '/about', '/terms', '/privacy', '/refund', '/delivery', '/contact'] };
 
 // ---------- per paper ----------
 const live = PAPERS.map(p => ({ ...p, subjects: sheet(p.slug) })).filter(p => p.subjects.length);
@@ -118,6 +136,7 @@ for (const p of live) {
     body: `<p class="font-mono text-sm text-brand">${p.code} · ${EDITION}</p>
 <h1 class="mt-2 text-3xl font-semibold">${EDITION} ${esc(p.name)} (${p.code}) syllabus — topic-wise A–Z sheet</h1>
 <p class="mt-3 text-sub">The official ${EDITION} ${p.code} syllabus as one ordered checklist: ${p.subjects.length} subjects, ${nTopics} topics${stats.videos ? `, ${stats.videos} hand-picked lectures` : ''}. ${sell ? `Tick topics off as you go. ₹${PRICE} for 1 year of full access; one topic per subject is free.` : 'The full sheet is free to browse.'}${yr ? ` Free official previous-year papers: ${a(`/pyq?paper=${p.slug}`, `GATE ${p.code} PYQs ${yr}`)}.` : ''}</p>
+<h2 class="mt-8 text-lg font-semibold">${p.code} subjects and typical marks</h2>${table(['Subject', 'Typical marks', 'Topics'], p.subjects.map(s => [esc(s.name), esc(s.marks || '–'), String(s.modules.reduce((n, m) => n + m.topics.length, 0))]))}
 ${subjHtml}${faqHtml(qa)}`,
     graph: [ORG, course, crumbs([['GATE A–Z', '/'], ['Papers', '/papers'], [`${p.code} ${p.name}`, `/${p.slug}`]]), faqLd(qa)] }));
   sitemaps[p.slug] = [`/${p.slug}`];
@@ -155,9 +174,15 @@ const homeQa = [
 ];
 out('/', page({ canonical: '/',
   title: 'GATE A–Z · GATE 2027 syllabus topic-wise, best lectures, free PYQs',
-  description: `Every ${EDITION} topic in order for all ${live.length} papers, with hand-picked lectures playing on the page, key-point notes and free official previous-year papers. ₹${PRICE} per paper for 1 year.`,
+  description: `Every ${EDITION} topic in order for all ${live.length} papers: hand-picked lectures on the page, key-point notes, free official PYQs. ₹${PRICE} per paper, 1 year.`,
   body: `<p class="font-mono text-sm text-brand">${EDITION} · all ${live.length} papers</p><h1 class="mt-3 text-3xl font-semibold">Every GATE topic, in the right order.</h1>
 <p class="mt-4 text-sub">Your paper's official ${EDITION} syllabus as an A–Z sheet. Hand-picked lectures for each topic play right here; tick it off and move to the next. Official previous-year papers are free. ₹${PRICE} per paper, 1 year.</p>
+<h2 class="mt-10 text-lg font-semibold">How does GATE A–Z work?</h2>
+<p class="mt-2">You open your paper's sheet, which lists every topic of the official ${EDITION} syllabus in order, and study one topic at a time.</p>
+<ol class="mt-2"><li>Pick your paper: the sheet shows every subject with its typical marks, so you start where the marks are.</li><li>Open a topic: the best lecture for it, picked from established GATE teachers, plays right on the page, with short key-point notes below.</li><li>Tick it done: the sheet keeps your progress and takes you to the next topic.</li><li>Practise: solve the official previous-year papers for your paper, free on the PYQ page.</li></ol>
+<h2 class="mt-10 text-lg font-semibold">Which papers have lectures, and what does it cost?</h2>
+<p class="mt-2">${sellCodes.length} papers have hand-picked lectures today, each ₹${PRICE} for 1 year; the syllabus sheet for every other paper is free.</p>
+${table(['Paper', 'Topics', 'Lectures', 'Price'], live.filter(p => SELLABLE.has(p.slug)).map(p => [a(`/${p.slug}`, `${p.code} — ${p.name}`, ''), String(SUMMARY[p.slug]?.topics ?? ''), String(SUMMARY[p.slug]?.videos ?? ''), `₹${PRICE} / 1 year`]))}
 <h2 class="mt-10 text-lg font-semibold">Pick your paper</h2><ul class="mt-2">${live.map(p => `<li>${a(`/${p.slug}`, `${p.code} — ${p.name}`, '')}${SELLABLE.has(p.slug) ? ' <span class="text-sub">· lectures live</span>' : ''}</li>`).join('')}</ul>${faqHtml(homeQa)}`,
   graph: [ORG, { '@type': 'WebSite', '@id': `${SITE}/#site`, url: `${SITE}/`, name: 'GATE A–Z', publisher: { '@id': `${SITE}/#org` }, inLanguage: 'en' }, faqLd(homeQa)] }));
 
@@ -180,6 +205,17 @@ out('/guide', page({ canonical: '/guide', title: 'How to prepare for GATE 2027: 
   description: 'GATE 2027 exam pattern (65 questions, 100 marks, 3 hours, MCQ/MSQ/NAT, negative marking) and a step-by-step way to prepare topic by topic.',
   body: `<h1 class="text-3xl font-semibold">How to prepare for GATE 2027</h1><p class="mt-2 text-sub">Check the official GATE 2027 brochure for final details.</p>${faqHtml(guideQa)}`,
   graph: [ORG, crumbs([['GATE A–Z', '/'], ['How to prepare', '/guide']]), faqLd(guideQa)] }));
+
+out('/about', page({ canonical: '/about', title: 'About GATE A–Z: who runs it and how lectures are picked',
+  description: `GATE A–Z is an independent project by Pithani Raghavendra, India: official ${EDITION} syllabus sheets with hand-picked lectures, notes and free PYQs.`,
+  body: `<h1 class="text-3xl font-semibold">About GATE A–Z</h1>
+<p class="mt-3">GATE A–Z turns your paper's official ${EDITION} syllabus into one ordered checklist, so you always know what to study next. Every topic has hand-picked video lectures that play on the page and short key-point notes; you tick it off and move to the next.</p>
+<h2 class="mt-8 text-lg font-semibold">Who runs it?</h2><p class="mt-2">GATE A–Z is an independent project built and run by Pithani Raghavendra, India. It is not a coaching institute and is not affiliated with IISc, the IITs or the GATE organisers.</p>
+<h2 class="mt-8 text-lg font-semibold">How are the sheets made?</h2><p class="mt-2">Each sheet follows the official ${EDITION} syllabus PDF for that paper, split into subjects, modules and topics in syllabus order. Subject marks are typical ranges from recent papers, and every topic carries an Easy, Medium or Hard tag.</p>
+<h2 class="mt-8 text-lg font-semibold">How are lectures picked?</h2><p class="mt-2">For every topic, GATE lectures from established teachers and channels on YouTube are checked against that exact topic, and the best two to five are kept. The videos belong to their creators and play through YouTube's official player.</p>
+<h2 class="mt-8 text-lg font-semibold">What does it cost?</h2><p class="mt-2">₹${PRICE} per paper, paid once, for 1 year of access. One topic in every subject is free to try, and official previous-year papers are free for everyone.</p>
+<h2 class="mt-8 text-lg font-semibold">How do I report a mistake?</h2><p class="mt-2">Email the address on the ${a('/contact', 'contact page')}; corrections are made quickly.</p>`,
+  graph: [ORG, crumbs([['GATE A–Z', '/'], ['About', '/about']]), { '@type': 'AboutPage', '@id': `${SITE}/about#about`, url: `${SITE}/about`, about: { '@id': `${SITE}/#org` } }] }));
 
 for (const [route, title] of [['/terms', 'Terms'], ['/privacy', 'Privacy'], ['/refund', 'Refunds and cancellations'], ['/delivery', 'Delivery and access'], ['/contact', 'Contact']])
   out(route, page({ canonical: route, title: `${title} | GATE A–Z`, description: `GATE A–Z ${title.toLowerCase()}: ₹${PRICE} per paper, 1 year of online access.` }));

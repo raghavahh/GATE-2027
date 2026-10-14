@@ -89,3 +89,19 @@ export const ContactPage = () => (
     <p>Include your registered email and, for payments, your Razorpay payment ID.</p>
   </Page>
 );
+
+export const AboutPage = () => (
+  <Page title="About GATE A–Z">
+    <p>GATE A–Z turns your paper's official GATE 2027 syllabus into one ordered checklist, so you always know what to study next. Every topic has hand-picked video lectures that play on the page and short key-point notes; you tick it off and move to the next.</p>
+    <h2>Who runs it</h2>
+    <p>GATE A–Z is an independent project built and run by Pithani Raghavendra, India. It is not a coaching institute and is not affiliated with IISc, the IITs or the GATE organisers.</p>
+    <h2>How the sheets are made</h2>
+    <p>Each sheet follows the official GATE 2027 syllabus PDF for that paper, split into subjects, modules and topics in syllabus order. Subject marks are typical ranges from recent papers, and every topic carries an Easy, Medium or Hard tag.</p>
+    <h2>How lectures are picked</h2>
+    <p>For every topic we look at GATE lectures from established teachers and channels on YouTube, check each one against that exact topic and keep the best two to five. The videos belong to their creators and play through YouTube's official player.</p>
+    <h2>Price</h2>
+    <p>₹{PRICE_INR} per paper, paid once, for 1 year of access. One topic in every subject is free to try, and official previous-year papers are free for everyone.</p>
+    <h2>Corrections</h2>
+    <p>Spotted a mistake in a sheet, a note or a video choice? Email <Mail /> and it will be fixed.</p>
+  </Page>
+);

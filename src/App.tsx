@@ -20,6 +20,7 @@ const PrivacyPage = named(() => import('./pages/Legal'), 'PrivacyPage');
 const RefundPage = named(() => import('./pages/Legal'), 'RefundPage');
 const DeliveryPage = named(() => import('./pages/Legal'), 'DeliveryPage');
 const ContactPage = named(() => import('./pages/Legal'), 'ContactPage');
+const AboutPage = named(() => import('./pages/Legal'), 'AboutPage');
 
 devUnlockFromUrl();
 
@@ -42,6 +43,7 @@ export default function App() {
           <Route path="refund" element={<RefundPage />} />
           <Route path="delivery" element={<DeliveryPage />} />
           <Route path="contact" element={<ContactPage />} />
+          <Route path="about" element={<AboutPage />} />
           <Route path=":paper" element={<PaperPage />} />
           <Route path=":paper/:topic" element={<TopicPage />} />
           <Route path="*" element={<NotFound />} />
