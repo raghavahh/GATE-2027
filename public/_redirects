@@ -1,1 +1,5 @@
-/*  /index.html  200
+# App-only pages get the bare app shell; every public page is a pre-rendered file (scripts/prerender.mjs).
+# Unknown URLs fall through to 404.html (real 404 status).
+/me     /shell.html  200
+/admin  /shell.html  200
+/auth   /shell.html  200

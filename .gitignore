@@ -11,3 +11,6 @@ supabase/.temp/
 # Paid content: topic notes (uploaded to Supabase, never public)
 content/
 scripts/needs_manual.txt
+
+# Promo video projects (renders are large)
+videos/
