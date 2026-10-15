@@ -179,7 +179,7 @@ const homeQa = [
 ];
 out('/', page({ canonical: '/',
   title: 'GATE A–Z · GATE 2027 syllabus topic-wise, best lectures, free PYQs',
-  description: `Every ${EDITION} topic in order for ${live.length} of the ${TOTAL} papers: hand-picked lectures on the page, key-point notes, free official PYQs. ₹${PRICE} per paper, 1 year.`,
+  description: `${EDITION} syllabus as topic-wise sheets for ${live.length} of ${TOTAL} papers, hand-picked lectures for ${sellCodes.join(', ')}, free official PYQs. ₹${PRICE}/paper, 1 year.`,
   body: `<p class="font-mono text-sm text-brand">${EDITION} · all ${TOTAL} papers</p><h1 class="mt-3 text-3xl font-semibold">Every GATE topic, in the right order.</h1>
 <p class="mt-4 text-sub">Your paper's official ${EDITION} syllabus as an A–Z sheet. Hand-picked lectures for each topic play right here; tick it off and move to the next. Official previous-year papers are free. ₹${PRICE} per paper, 1 year.</p>
 <h2 class="mt-10 text-lg font-semibold">How does GATE A–Z work?</h2>
