@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import { Mail, X } from 'lucide-react';
 import { useAuth } from '../lib/auth';
+import { authSettings } from '../lib/supabase';
 
 /** Supabase's own messages are technical; say what to do instead. */
 const friendly = (m: string, step: 'start' | 'code' | 'password') =>
@@ -12,8 +13,6 @@ const friendly = (m: string, step: 'start' | 'code' | 'password') =>
   : /expired|invalid/i.test(m) ? 'That code is wrong or has expired. Ask for a new one.'
   : m;
 
-// Google sign-in shows only once the Google provider is switched on in Supabase.
-const GOOGLE = import.meta.env.VITE_GOOGLE_AUTH === 'on';
 
 export function SignInModal({ onClose, reason }: { onClose: () => void; reason?: string }) {
   const { signInGoogle, signInEmail, verifyEmail, signInPassword } = useAuth();
@@ -23,6 +22,9 @@ export function SignInModal({ onClose, reason }: { onClose: () => void; reason?:
   const [step, setStep] = useState<'start' | 'code' | 'password'>('start');
   const [err, setErr] = useState('');
   const [busy, setBusy] = useState(false);
+  // Google sign-in appears by itself once the Google provider is switched on in the Supabase dashboard.
+  const [GOOGLE, setGoogle] = useState(false);
+  useEffect(() => { authSettings().then(st => setGoogle(!!st?.external?.google)); }, []);
   /** Seconds until another code may be sent (protects the email quota from repeated taps). */
   const [wait, setWait] = useState(0);
   useEffect(() => {
