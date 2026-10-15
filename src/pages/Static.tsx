@@ -93,7 +93,7 @@ export function NotFound() {
 
 export function Loading() {
   return (
-    <div className="mx-auto max-w-shell px-4 py-10 sm:px-6" aria-busy="true" aria-label="Loading">
+    <div className="mx-auto min-h-[100dvh] max-w-shell px-4 py-10 sm:px-6" aria-busy="true" aria-label="Loading">
       <div className="h-4 w-24 animate-pulse rounded bg-raised" />
       <div className="mt-3 h-9 w-2/3 animate-pulse rounded bg-raised" />
       <div className="mt-8 space-y-3">{[0, 1, 2, 3].map(i => <div key={i} className="h-20 animate-pulse rounded-card bg-surface" />)}</div>

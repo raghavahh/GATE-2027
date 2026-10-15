@@ -11,7 +11,7 @@ interface AuthState {
   isAdmin: boolean;
   /** True when this login was replaced by a newer login elsewhere. */
   kicked: boolean;
-  signInGoogle: () => Promise<void>;
+  signInGoogle: () => Promise<string | null>;
   signInEmail: (email: string) => Promise<string | null>;
   verifyEmail: (email: string, code: string) => Promise<string | null>;
   signInPassword: (email: string, password: string) => Promise<string | null>;
@@ -81,7 +81,15 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   useEffect(() => {
     if (!session) return;
     const check = async () => {
-      const { data } = await supabase.rpc('is_active_session', { p_session: sessionIdOf(session) });
+      const sid = sessionIdOf(session);
+      // This browser hasn't claimed this login yet (claim failed or still running): claim it now instead of
+      // treating "someone else holds the row" as being kicked. Only a browser that claimed can be kicked.
+      if (sid && localStorage.getItem(CLAIMED) !== sid) {
+        const { error } = await supabase.rpc('claim_session', { p_session: sid });
+        if (!error) { localStorage.setItem(CLAIMED, sid); setKicked(false); }
+        return;
+      }
+      const { data } = await supabase.rpc('is_active_session', { p_session: sid });
       // 'local': end only this browser's session. The default ('global') would also sign out the new device.
       if (data === false) { setKicked(true); await supabase.auth.signOut({ scope: 'local' }); }
     };
@@ -92,7 +100,10 @@ export function AuthProvider({ children }: { children: ReactNode }) {
 
   const value: AuthState = {
     session, ready, papers, isAdmin, kicked,
-    signInGoogle: async () => { await supabase.auth.signInWithOAuth({ provider: 'google', options: { redirectTo: redirect() } }); },
+    signInGoogle: async () => {
+      const { error } = await supabase.auth.signInWithOAuth({ provider: 'google', options: { redirectTo: redirect() } });
+      return error?.message ?? null;
+    },
     signInEmail: async email => {
       const { error } = await supabase.auth.signInWithOtp({ email, options: { emailRedirectTo: redirect() } });
       return error?.message ?? null;

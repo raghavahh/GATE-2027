@@ -21,9 +21,13 @@ Deno.serve(async req => {
   const evt = JSON.parse(raw);
   const pay = evt?.payload?.payment?.entity;
   try {
-    if ((evt.event === 'payment.captured' || evt.event === 'order.paid') && pay?.order_id && pay.amount === PRICE_PAISE) {
-      const { error } = await db.rpc('grant_paper', { p_order: pay.order_id, p_payment: pay.id, p_amount: pay.amount, p_expires: accessUntil() });
+    if ((evt.event === 'payment.captured' || evt.event === 'order.paid') && pay?.order_id && pay.amount !== PRICE_PAISE) {
+      // Money taken for an unexpected amount (e.g. an old price): never silent, so it can be granted or refunded by hand.
+      console.error('PAID BUT NOT GRANTED: amount mismatch', { event: evt.event, order_id: pay.order_id, payment_id: pay.id, amount: pay.amount });
+    } else if ((evt.event === 'payment.captured' || evt.event === 'order.paid') && pay?.order_id) {
+      const { data, error } = await db.rpc('grant_paper', { p_order: pay.order_id, p_payment: pay.id, p_amount: pay.amount, p_expires: accessUntil() });
       if (error) throw error;
+      if (data === false) console.error('PAID BUT NOT GRANTED: order not found or refunded', { event: evt.event, order_id: pay.order_id, payment_id: pay.id });
     } else if (evt.event === 'refund.processed' && pay?.id && pay.amount_refunded >= pay.amount) {
       // Fully refunded: take the paper back.
       const { error } = await db.from('entitlements').delete().eq('payment_id', pay.id);

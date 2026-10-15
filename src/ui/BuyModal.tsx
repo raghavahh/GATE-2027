@@ -7,16 +7,25 @@ import { SignInModal } from './SignInModal';
 
 declare global { interface Window { Razorpay?: new (o: Record<string, unknown>) => { open: () => void; on: (e: string, f: (r: unknown) => void) => void } } }
 
+/** Rejects if `p` takes longer than `ms` (slow or blocked networks must not leave the button spinning forever). */
+const within = <T,>(p: Promise<T>, ms: number, msg: string) =>
+  Promise.race([p, new Promise<never>((_, fail) => setTimeout(() => fail(new Error(msg)), ms))]);
+
 function loadCheckout(): Promise<void> {
   if (window.Razorpay) return Promise.resolve();
-  return new Promise((ok, fail) => {
+  document.getElementById('rzp-checkout')?.remove(); // a failed earlier attempt
+  return within(new Promise<void>((ok, fail) => {
     const s = document.createElement('script');
+    s.id = 'rzp-checkout';
     s.src = 'https://checkout.razorpay.com/v1/checkout.js';
     s.onload = () => ok();
-    s.onerror = () => fail(new Error('Could not load Razorpay. Check your connection.'));
+    s.onerror = () => fail(new Error('Could not load Razorpay. Check your connection, or turn off any ad blocker.'));
     document.body.appendChild(s);
-  });
+  }), 15000, 'Razorpay is taking too long to load. Check your connection and try again.');
 }
+
+/** Instagram, Facebook, WhatsApp and similar in-app browsers often break UPI app switching. */
+const IN_APP = typeof navigator !== 'undefined' && /Instagram|FBAN|FBAV|FB_IAB|WhatsApp|Line\/|Snapchat|; wv\)/i.test(navigator.userAgent);
 
 /** Calls an Edge Function. On a non-2xx reply supabase-js drops the body, so read our { error } message from it. */
 async function call(name: string, body: Record<string, unknown>): Promise<{ data?: Record<string, string> & { ok?: boolean }; error?: string }> {
@@ -43,6 +52,8 @@ export function BuyModal({ paper, topicName, counts, onClose }: Props) {
   const [done, setDone] = useState(false);
   /** Payment ID that Razorpay took but we couldn't confirm yet: keep checking instead of offering Pay again. */
   const [pending, setPending] = useState('');
+  /** Last successful checkout reply, so the background re-check can retry verify-payment too. */
+  const lastPaid = useRef<Record<string, string> | null>(null);
   const wantPay = useRef(false);
   const lock = useRef(false); // no closing while signing in or confirming a payment
   const closeRef = useRef(onClose);
@@ -54,7 +65,8 @@ export function BuyModal({ paper, topicName, counts, onClose }: Props) {
     setBusy(true); setMsg('');
     try {
       await loadCheckout();
-      const { data, error } = await call('create-order', { paper: paper.slug });
+      const { data, error } = await within(call('create-order', { paper: paper.slug }), 20000, 'Network problem. Check your connection and try again.');
+      if (error && /already own/i.test(error)) { await refresh(); setDone(true); setBusy(false); return; } // paid earlier (e.g. webhook granted it)
       if (error || !data?.orderId) throw new Error(error ?? 'Could not start payment. Try again.');
       // Until Razorpay approves live keys, checkout runs in test mode: real UPI apps can't pay a test QR.
       const test = String(data.keyId).startsWith('rzp_test_');
@@ -63,9 +75,18 @@ export function BuyModal({ paper, topicName, counts, onClose }: Props) {
         key: data.keyId, order_id: data.orderId, amount: data.amount, currency: 'INR',
         name: 'GATE A–Z', description: test ? 'TEST MODE · no real money · UPI ID: success@razorpay' : `${paper.code} · ${EDITION}`,
         prefill: { email: data.email }, theme: { color: '#F5A524' },
-        modal: { ondismiss: () => { if (paid) return; setBusy(false); if (test) setMsg('Payments are in test mode until launch: real UPI apps and QR codes won’t work yet. To try it, pick UPI and enter success@razorpay.'); } },
+        modal: { ondismiss: () => {
+          if (paid) return;
+          setBusy(false);
+          if (test) { setMsg('Payments are in test mode until launch: real UPI apps and QR codes won’t work yet. To try it, pick UPI and enter success@razorpay.'); return; }
+          // A UPI payment can succeed while the browser was in the background and the window was closed:
+          // the webhook still grants it, so keep checking for a minute before offering Pay again.
+          setMsg('If you already paid, we’re confirming it now. This takes up to a minute.');
+          setPending(`order:${data.orderId}`);
+        } },
         handler: async (r: Record<string, string>) => {
           paid = true;
+          lastPaid.current = r;
           setMsg('Confirming your payment…');
           try {
             let v = await call('verify-payment', r);
@@ -82,7 +103,7 @@ export function BuyModal({ paper, topicName, counts, onClose }: Props) {
       });
       rzp.on('payment.failed', (r: unknown) => {
         const reason = (r as { error?: { description?: string } })?.error?.description;
-        setMsg(`Payment didn't go through${reason ? `: ${reason}` : ''}. You can try again.`); setBusy(false);
+        setMsg(`That attempt didn't go through${reason ? `: ${reason}` : ''}. You can try another method in the payment window.`);
       });
       rzp.open();
     } catch (e) {
@@ -95,17 +116,25 @@ export function BuyModal({ paper, topicName, counts, onClose }: Props) {
     if (session && wantPay.current) { wantPay.current = false; setNeedSignIn(false); pay(); }
   }, [session]); // eslint-disable-line react-hooks/exhaustive-deps
 
-  // Payment taken but not confirmed: the webhook will grant it; re-check every 5 s for 2 minutes.
+  // Payment possibly taken but not confirmed: the webhook grants it. Re-check every 5 s for 2 minutes
+  // (and retry verify-payment when we have the checkout reply).
+  const owned = papers.includes(paper.slug);
   useEffect(() => {
     if (!pending) return;
-    if (papers.includes(paper.slug)) { setDone(true); setPending(''); setMsg(''); return; }
+    if (owned) { setDone(true); setPending(''); setMsg(''); return; }
+    const isOrder = pending.startsWith('order:');
     let n = 0;
     const t = setInterval(() => {
-      if (++n > 24) { clearInterval(t); setMsg(`Still confirming. Refresh this page in a few minutes, or email us with Payment ID ${pending}.`); return; }
+      if (++n > 24) {
+        clearInterval(t); setPending('');
+        setMsg(isOrder ? '' : `Still confirming. Refresh this page in a few minutes, or email us with Payment ID ${pending}.`);
+        return;
+      }
+      if (lastPaid.current && n % 3 === 0) call('verify-payment', lastPaid.current).catch(() => undefined);
       refreshRef.current();
     }, 5000);
     return () => clearInterval(t);
-  }, [pending, papers, paper.slug]);
+  }, [pending, owned]);
 
   useEffect(() => {
     const prev = document.activeElement as HTMLElement | null;
@@ -169,6 +198,7 @@ export function BuyModal({ paper, topicName, counts, onClose }: Props) {
           {done ? `${paper.code} unlocked · Start studying` : pending ? 'Confirming payment…' : busy ? 'Opening payment…' : `Pay ₹${PRICE_INR} with UPI`}
         </button>
         {msg && <p role="status" className="mt-3 text-center text-sm text-sub">{msg}</p>}
+        {IN_APP && !done && <p className="mt-2 text-center text-xs text-mute">Paying from Instagram or WhatsApp? Open this page in Chrome first (⋮ → Open in browser) so the UPI app can return here.</p>}
         <p className="mt-3 flex items-center justify-center gap-1.5 text-xs text-sub">
           <ShieldCheck size={14} /> Secure payment by Razorpay · UPI, cards, netbanking
         </p>

@@ -29,7 +29,7 @@ export function YouTubePlayer({ videos }: { videos: Video[] }) {
             />
           ) : (
             <button type="button" onClick={() => setPlaying(true)} className="group absolute inset-0 cursor-pointer" aria-label={`Play ${v.title}`}>
-              <img src={`https://i.ytimg.com/vi/${v.id}/hqdefault.jpg`} alt="" className="h-full w-full object-cover opacity-80 transition-opacity duration-200 group-hover:opacity-100" loading="lazy" />
+              <img src={`https://i.ytimg.com/vi/${v.id}/hqdefault.jpg`} alt="" width={480} height={360} className="h-full w-full object-cover opacity-80 transition-opacity duration-200 group-hover:opacity-100" loading="eager" fetchPriority="high" decoding="async" />
               <span className="absolute inset-0 grid place-items-center">
                 <span className="grid h-14 w-14 place-items-center rounded-full bg-brand text-on-brand transition-transform duration-150 group-hover:scale-105">
                   <Play size={22} fill="currentColor" className="ml-0.5" />
@@ -54,7 +54,7 @@ export function YouTubePlayer({ videos }: { videos: Video[] }) {
               }`}
             >
               <span className="relative h-[54px] w-24 shrink-0 overflow-hidden rounded-md bg-raised">
-                <img src={`https://i.ytimg.com/vi/${x.id}/mqdefault.jpg`} alt="" className="h-full w-full object-cover" loading="lazy" />
+                <img src={`https://i.ytimg.com/vi/${x.id}/mqdefault.jpg`} alt="" width={320} height={180} className="h-full w-full object-cover" loading="lazy" decoding="async" />
                 <span className="absolute bottom-1 left-1 rounded bg-black/75 px-1 font-mono text-[10px] text-white">{i + 1}</span>
               </span>
               <span className="min-w-0">

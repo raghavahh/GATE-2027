@@ -7,7 +7,7 @@
 // Only public information goes in: the official syllabus, marks, difficulty, video counts, free PYQ links.
 // Paid lecture lists and notes stay behind the paywall.
 // usage: node scripts/prerender.mjs   (run by `npm run build`)
-import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'fs';
+import { existsSync, mkdirSync, readFileSync, rmSync, writeFileSync } from 'fs';
 import { dirname, join } from 'path';
 import { fileURLToPath } from 'url';
 
@@ -62,12 +62,17 @@ const faqHtml = qa => `<section class="mt-10"><h2 class="text-lg font-semibold">
 const NAV = `<header class="mx-auto max-w-shell px-4 py-4 sm:px-6"><a href="/" class="font-semibold">GATE A–Z</a> · ${a('/papers', 'Papers')} · ${a('/pyq', 'PYQs')} · ${a('/guide', 'How to prepare')} · ${a('/about', 'About')}</header>`;
 const FOOT = `<footer class="mx-auto max-w-shell px-4 py-10 text-sm text-sub sm:px-6">GATE A–Z · ${EDITION} · ₹${PRICE} per paper, 1 year of access · ${a('/about', 'About')} · ${a('/terms', 'Terms')} · ${a('/privacy', 'Privacy')} · ${a('/refund', 'Refunds')} · ${a('/delivery', 'Delivery')} · ${a('/contact', 'Contact')}. Not affiliated with IISc, the IITs or the GATE organisers. Videos belong to their creators and play through YouTube's official player.</footer>`;
 
+// Vite manifest: hashed file of each paper's syllabus/video chunk, preloaded on that paper's pages.
+const MANIFEST_PATH = join(DIST, '.vite', 'manifest.json');
+const MANIFEST = existsSync(MANIFEST_PATH) ? json(MANIFEST_PATH) : {};
+const chunk = src => MANIFEST[src]?.file;
+const paperChunks = slug => [chunk(`src/catalog/generated/${slug}.json`), chunk('src/catalog/generated/ga.json'), chunk(`src/catalog/videos/${slug}.json`)].filter(Boolean);
 const TEMPLATE = readFileSync(join(DIST, 'index.html'), 'utf8');
 // The template must be Vite's fresh index.html; re-running on an already pre-rendered dist would nest pages.
 if (TEMPLATE.includes('application/ld+json')) throw new Error('dist/index.html is already pre-rendered: run `npm run build` instead');
 const clamp = d => (d.length <= 160 ? d : `${d.slice(0, 157).replace(/[\s,;:·–-]+\S*$/, '')}…`);
 const table = (head, rows) => `<table class="mt-3"><thead><tr>${head.map(h => `<th>${esc(h)}</th>`).join('')}</tr></thead><tbody>${rows.map(r => `<tr>${r.map(c => `<td>${c}</td>`).join('')}</tr>`).join('')}</tbody></table>`;
-function page({ title, description, body = '', graph = [], noindex = false, canonical = '/' }) {
+function page({ title, description, body = '', graph = [], noindex = false, canonical = '/', preload = [] }) {
   const url = SITE + canonical;
   description = clamp(description);
   if (!noindex) graph = [...graph, { '@type': 'WebPage', '@id': url, url, name: title, description, inLanguage: 'en', dateModified: UPDATED,
@@ -86,6 +91,7 @@ function page({ title, description, body = '', graph = [], noindex = false, cano
     `<meta name="twitter:image" content="${OG_IMAGE}" />`,
     `<meta name="twitter:title" content="${esc(title)}" />`,
     `<meta name="twitter:description" content="${esc(description)}" />`,
+    ...preload.map(f => `<link rel="modulepreload" href="/${f}" />`),
     graph.length ? ld({ '@context': 'https://schema.org', '@graph': graph }) : '',
   ].filter(Boolean).join('\n    ');
   let html = TEMPLATE
@@ -135,7 +141,7 @@ for (const p of live) {
       : [`Is the GATE A–Z ${p.code} sheet free?`, `Yes. The full ${p.code} syllabus sheet is free to browse; lectures for ${p.code} are being curated.`],
   ];
   const subjHtml = p.subjects.map(s => `<section class="mt-8"><h2 class="text-lg font-semibold">${esc(s.name)}${s.marks ? ` <span class="text-sub">· about ${esc(s.marks)} marks</span>` : ''}</h2>${s.focus ? `<p class="mt-1 text-sub">${esc(s.focus)}</p>` : ''}${s.modules.map(m => `<h3 class="mt-4 font-semibold">${esc(m.letter)}. ${esc(m.name)}</h3><ul class="mt-2">${m.topics.map(t => `<li>${a(`/${p.slug}/${t.id}`, t.name, '')} <span class="text-sub">· ${DIFF[t.diff] ?? ''}${vc(t.id) ? ` · ${vc(t.id)} lectures` : ''}${t.sample ? ' · free sample' : ''}</span></li>`).join('')}</ul>`).join('')}</section>`).join('');
-  out(`/${p.slug}`, page({ canonical: `/${p.slug}`,
+  out(`/${p.slug}`, page({ preload: paperChunks(p.slug), canonical: `/${p.slug}`,
     title: `${EDITION} ${p.code} Syllabus, Topic-wise Lectures & PYQs | GATE A–Z`,
     description: `${EDITION} ${p.code} syllabus as a topic-wise sheet: ${p.subjects.length} subjects, ${nTopics} topics${stats.videos ? `, ${stats.videos} hand-picked lectures` : ''}, subject marks and free official PYQs.${sell ? ` ₹${PRICE} per year.` : ''}`,
     body: `<p class="font-mono text-sm text-brand">${p.code} · ${EDITION}</p>
@@ -152,7 +158,7 @@ ${subjHtml}${faqHtml(qa)}`,
     const n = vc(t.id);
     const prev = flat[i - 1]?.t, next = flat[i + 1]?.t;
     const sibs = m.topics.filter(x => x.id !== t.id);
-    out(`/${p.slug}/${t.id}`, page({ canonical,
+    out(`/${p.slug}/${t.id}`, page({ preload: paperChunks(p.slug), canonical,
       title: `${t.name} – GATE 2027 ${p.code} ${s.name} | GATE A–Z`,
       description: `${t.name} for GATE 2027 ${p.code} (${s.name}): ${(DIFF[t.diff] ?? '').toLowerCase()} topic${s.marks ? `, subject worth about ${s.marks} marks` : ''}${n ? `, ${n} hand-picked lectures` : ''}. In syllabus order, with free official PYQs.`,
       body: `<p class="text-sm text-sub">${a(`/${p.slug}`, p.code)} / ${esc(s.name)} / ${esc(m.letter)} ${esc(m.name)}</p>
@@ -281,4 +287,5 @@ ${live.map(p => `- [${EDITION} ${p.code}: ${p.name}](${SITE}/${p.slug}): ${SUMMA
 - ${EDITION}: 65 questions, 100 marks, 3 hours; MCQ, MSQ and NAT questions; General Aptitude is 15 marks in every paper; negative marking on MCQs only (−1/3 for 1-mark, −2/3 for 2-mark).
 `, 'utf8');
 
+rmSync(join(DIST, '.vite'), { recursive: true, force: true }); // build metadata, not for the public site
 console.log(`prerender: ${pages} pages · ${Object.values(sitemaps).flat().length} sitemap URLs · ${live.length} papers`);

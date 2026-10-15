@@ -7,7 +7,7 @@ export const EDITION = 'GATE 2027';
 /** Access lasts 1 year from the moment of purchase. */
 export const accessUntil = () => new Date(Date.now() + 365 * 86_400_000).toISOString();
 /** Papers on sale: only those whose videos are curated. Add one with the SELLABLE_PAPERS secret, no redeploy needed. */
-export const PAPERS = new Set((Deno.env.get('SELLABLE_PAPERS') ?? 'cs,da,ec,ee,me').split(',').map(s => s.trim()));
+export const PAPERS = new Set((Deno.env.get('SELLABLE_PAPERS') ?? 'cs,da,ec,ee,me,ce').split(',').map(s => s.trim()));
 
 const ALLOWED = (Deno.env.get('ALLOWED_ORIGINS') ?? 'https://gate-az.pages.dev,https://raghavahh.github.io,http://localhost:5173,http://localhost:4173').split(',');
 
