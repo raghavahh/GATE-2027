@@ -41,9 +41,12 @@ const sheet = slug => {
   const own = existsSync(f) ? json(f) : [];
   return own.length ? [...own, ...GA] : [];
 };
-const videoCount = slug => {
+const videoMap = slug => {
   const f = join(CAT, 'videos', `${slug}.json`);
-  const v = existsSync(f) ? json(f) : {};
+  return existsSync(f) ? json(f) : {};
+};
+const videoCount = slug => {
+  const v = videoMap(slug);
   return id => (Array.isArray(v[id]) ? v[id].length : typeof v[id] === 'number' ? v[id] : 0);
 };
 const DIFF = { E: 'Easy', M: 'Medium', H: 'Hard' };
@@ -72,7 +75,7 @@ const TEMPLATE = readFileSync(join(DIST, 'index.html'), 'utf8');
 if (TEMPLATE.includes('application/ld+json')) throw new Error('dist/index.html is already pre-rendered: run `npm run build` instead');
 const clamp = d => (d.length <= 160 ? d : `${d.slice(0, 157).replace(/[\s,;:·–-]+\S*$/, '')}…`);
 const table = (head, rows) => `<table class="mt-3"><thead><tr>${head.map(h => `<th>${esc(h)}</th>`).join('')}</tr></thead><tbody>${rows.map(r => `<tr>${r.map(c => `<td>${c}</td>`).join('')}</tr>`).join('')}</tbody></table>`;
-function page({ title, description, body = '', graph = [], noindex = false, canonical = '/', preload = [] }) {
+function page({ title, description, body = '', graph = [], noindex = false, canonical = '/', preload = [], image = '' }) {
   const url = SITE + canonical;
   description = clamp(description);
   if (!noindex) graph = [...graph, { '@type': 'WebPage', '@id': url, url, name: title, description, inLanguage: 'en', dateModified: UPDATED,
@@ -92,6 +95,7 @@ function page({ title, description, body = '', graph = [], noindex = false, cano
     `<meta name="twitter:title" content="${esc(title)}" />`,
     `<meta name="twitter:description" content="${esc(description)}" />`,
     ...preload.map(f => `<link rel="modulepreload" href="/${f}" />`),
+    image ? `<link rel="preload" as="image" href="${image}" fetchpriority="high" />` : '',
     graph.length ? ld({ '@context': 'https://schema.org', '@graph': graph }) : '',
   ].filter(Boolean).join('\n    ');
   let html = TEMPLATE
@@ -121,6 +125,8 @@ const sellCodes = live.filter(p => SELLABLE.has(p.slug)).map(p => p.code);
 for (const p of live) {
   const sell = SELLABLE.has(p.slug);
   const vc = videoCount(p.slug);
+  const vids = videoMap(p.slug); // full lists exist only for free sample topics
+  const heroThumb = id => (Array.isArray(vids[id]) && vids[id][0]?.id ? `https://i.ytimg.com/vi/${vids[id][0].id}/hqdefault.jpg` : '');
   const flat = p.subjects.flatMap(s => s.modules.flatMap(m => m.topics.map(t => ({ t, s, m }))));
   const stats = SUMMARY[p.slug] ?? {};
   const nTopics = stats.topics || flat.length;
@@ -158,7 +164,7 @@ ${subjHtml}${faqHtml(qa)}`,
     const n = vc(t.id);
     const prev = flat[i - 1]?.t, next = flat[i + 1]?.t;
     const sibs = m.topics.filter(x => x.id !== t.id);
-    out(`/${p.slug}/${t.id}`, page({ preload: paperChunks(p.slug), canonical,
+    out(`/${p.slug}/${t.id}`, page({ preload: paperChunks(p.slug), image: heroThumb(t.id), canonical,
       title: `${t.name} – GATE 2027 ${p.code} ${s.name} | GATE A–Z`,
       description: `${t.name} for GATE 2027 ${p.code} (${s.name}): ${(DIFF[t.diff] ?? '').toLowerCase()} topic${s.marks ? `, subject worth about ${s.marks} marks` : ''}${n ? `, ${n} hand-picked lectures` : ''}. In syllabus order, with free official PYQs.`,
       body: `<p class="text-sm text-sub">${a(`/${p.slug}`, p.code)} / ${esc(s.name)} / ${esc(m.letter)} ${esc(m.name)}</p>
