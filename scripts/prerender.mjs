@@ -108,6 +108,9 @@ const sitemaps = { pages: ['/', '/papers', '/pyq', '/guide', '/about', '/terms',
 
 // ---------- per paper ----------
 const live = PAPERS.map(p => ({ ...p, subjects: sheet(p.slug) })).filter(p => p.subjects.length);
+// GATE 2027 has 30 papers; a paper without a published sheet yet (Robotics & Automation) is named, not hidden.
+const TOTAL = PAPERS.length;
+const SOON = PAPERS.filter(p => !live.some(l => l.slug === p.slug)).map(p => `${p.name} (${p.code})`);
 const sellCodes = live.filter(p => SELLABLE.has(p.slug)).map(p => p.code);
 for (const p of live) {
   const sell = SELLABLE.has(p.slug);
@@ -171,13 +174,13 @@ ${sibs.length ? `<h2 class="mt-8 text-lg font-semibold">More in ${esc(m.name)}</
 const homeQa = [
   ['What is GATE A–Z?', `GATE A–Z turns your paper's official ${EDITION} syllabus into an ordered A–Z checklist. Each topic has hand-picked video lectures from trusted GATE teachers that play on the page, plus key-point notes; tick it off and move to the next. Official previous-year papers are free.`],
   ['How much does it cost?', `₹${PRICE} per paper, paid once, for 1 year of access. One topic in every subject is free to try. Papers with lectures now: ${sellCodes.join(', ')}.`],
-  ['Which GATE papers are covered?', `All ${live.length} ${EDITION} papers have a free syllabus sheet; lectures are live for ${sellCodes.join(', ')}.`],
+  ['Which GATE papers are covered?', `${live.length} of the ${TOTAL} ${EDITION} papers have a free syllabus sheet${SOON.length ? ` (${SOON.join(', ')}, new in ${EDITION}, is coming)` : ''}; lectures are live for ${sellCodes.join(', ')}.`],
   ['Are the previous-year papers free?', 'Yes. Official GATE question papers and answer keys are linked free on the PYQ page, paper by paper.'],
 ];
 out('/', page({ canonical: '/',
   title: 'GATE A–Z · GATE 2027 syllabus topic-wise, best lectures, free PYQs',
-  description: `Every ${EDITION} topic in order for all ${live.length} papers: hand-picked lectures on the page, key-point notes, free official PYQs. ₹${PRICE} per paper, 1 year.`,
-  body: `<p class="font-mono text-sm text-brand">${EDITION} · all ${live.length} papers</p><h1 class="mt-3 text-3xl font-semibold">Every GATE topic, in the right order.</h1>
+  description: `Every ${EDITION} topic in order for ${live.length} of the ${TOTAL} papers: hand-picked lectures on the page, key-point notes, free official PYQs. ₹${PRICE} per paper, 1 year.`,
+  body: `<p class="font-mono text-sm text-brand">${EDITION} · all ${TOTAL} papers</p><h1 class="mt-3 text-3xl font-semibold">Every GATE topic, in the right order.</h1>
 <p class="mt-4 text-sub">Your paper's official ${EDITION} syllabus as an A–Z sheet. Hand-picked lectures for each topic play right here; tick it off and move to the next. Official previous-year papers are free. ₹${PRICE} per paper, 1 year.</p>
 <h2 class="mt-10 text-lg font-semibold">How does GATE A–Z work?</h2>
 <p class="mt-2">You open your paper's sheet, which lists every topic of the official ${EDITION} syllabus in order, and study one topic at a time.</p>
@@ -189,7 +192,7 @@ ${table(['Paper', 'Topics', 'Lectures', 'Price'], live.filter(p => SELLABLE.has(
   graph: [ORG, { '@type': 'WebSite', '@id': `${SITE}/#site`, url: `${SITE}/`, name: 'GATE A–Z', publisher: { '@id': `${SITE}/#org` }, inLanguage: 'en' }, faqLd(homeQa)] }));
 
 out('/papers', page({ canonical: '/papers', title: 'All GATE 2027 papers — syllabus sheets | GATE A–Z',
-  description: `All ${live.length} ${EDITION} papers with free topic-wise syllabus sheets. Lectures live for ${sellCodes.join(', ')}.`,
+  description: `All ${TOTAL} ${EDITION} papers: free topic-wise syllabus sheets. Lectures live for ${sellCodes.join(', ')}.`,
   body: `<h1 class="text-3xl font-semibold">All ${EDITION} papers</h1><ul class="mt-4">${live.map(p => `<li>${a(`/${p.slug}`, `${p.code} — ${p.name}`, '')} <span class="text-sub">· ${SUMMARY[p.slug]?.topics ?? ''} topics</span></li>`).join('')}</ul>`,
   graph: [ORG, crumbs([['GATE A–Z', '/'], ['Papers', '/papers']]), { '@type': 'ItemList', itemListElement: live.map((p, i) => ({ '@type': 'ListItem', position: i + 1, url: `${SITE}/${p.slug}`, name: `${EDITION} ${p.name} (${p.code})` })) }] }));
 
@@ -260,7 +263,7 @@ writeFileSync(join(DIST, 'llms.txt'), `# GATE A–Z
 > GATE A–Z (${SITE}) turns each ${EDITION} paper's official syllabus into an ordered, topic-wise checklist (free for all papers). For the papers with lectures live (${sellCodes.join(', ')}), topics have hand-picked video lectures from trusted GATE teachers that play on the page, plus key-point notes (formulas, common mistakes, how GATE asks it). Official previous-year question papers and answer keys are free. Price: ₹${PRICE} per paper, paid once, for 1 year of access; one topic per subject is free to try. Not affiliated with IISc, the IITs or the GATE organisers.
 
 ## Key pages
-- [All ${EDITION} papers](${SITE}/papers): free syllabus sheets for all ${live.length} papers
+- [All ${EDITION} papers](${SITE}/papers): free syllabus sheets for ${live.length} of the ${TOTAL} papers
 - [GATE previous-year papers](${SITE}/pyq): official question papers and answer keys, free
 - [How to prepare for ${EDITION}](${SITE}/guide): exam pattern and study plan
 
