@@ -3,9 +3,12 @@ import { Mail, X } from 'lucide-react';
 import { useAuth } from '../lib/auth';
 
 /** Supabase's own messages are technical; say what to do instead. */
-const friendly = (m: string) =>
+const friendly = (m: string, step: 'start' | 'code' | 'password') =>
   /rate|too many|security purposes/i.test(m) ? 'Too many codes asked for. Wait a minute, then try again.'
   : /fetch|network/i.test(m) ? 'Network problem. Check your connection and try again.'
+  // Accounts are created by email code, so most people have no password: point them back to the code.
+  : step === 'password' && /invalid|credentials/i.test(m) ? 'Wrong email or password. Never set a password? Tap "Email me a code instead".'
+  : /sending|smtp|mail/i.test(m) ? "We couldn't send the email just now. Try again in a minute, or email us if it keeps failing."
   : /expired|invalid/i.test(m) ? 'That code is wrong or has expired. Ask for a new one.'
   : m;
 
@@ -32,9 +35,9 @@ export function SignInModal({ onClose, reason }: { onClose: () => void; reason?:
     setBusy(true); setErr('');
     try {
       const e = await f();
-      if (e) setErr(friendly(e)); else ok();
+      if (e) setErr(friendly(e, step)); else ok();
     } catch (e) {
-      setErr(friendly((e as Error).message));
+      setErr(friendly((e as Error).message, step));
     } finally {
       setBusy(false);
     }
