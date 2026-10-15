@@ -16,6 +16,11 @@ if (location.pathname !== '/auth' && q.get('error') && !q.get('code')) {
   history.replaceState(null, '', location.hash.slice(1));
 }
 
+// Installable app (PWA). Production only, so local development never runs a stale cached build.
+if (import.meta.env.PROD && 'serviceWorker' in navigator) {
+  window.addEventListener('load', () => { navigator.serviceWorker.register('/sw.js').catch(() => {}); });
+}
+
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <App />
