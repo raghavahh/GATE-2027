@@ -33,7 +33,7 @@ export function AuthPage() {
       {err ? (
         <>
           <h1 className="text-xl font-semibold">{err}</h1>
-          <p className="mt-2 text-sub">Click Sign in at the top and ask for a new code.</p>
+          <p className="mt-2 text-sub">Click Sign in at the top and continue with Google (use the same Gmail to keep your papers).</p>
           <Link to="/" className="btn-ghost mt-6">Go home</Link>
         </>
       ) : (

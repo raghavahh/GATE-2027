@@ -12,9 +12,6 @@ interface AuthState {
   /** True when this login was replaced by a newer login elsewhere. */
   kicked: boolean;
   signInGoogle: () => Promise<string | null>;
-  signInEmail: (email: string) => Promise<string | null>;
-  verifyEmail: (email: string, code: string) => Promise<string | null>;
-  signInPassword: (email: string, password: string) => Promise<string | null>;
   signOut: () => Promise<void>;
   refresh: () => Promise<void>;
 }
@@ -102,18 +99,6 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     session, ready, papers, isAdmin, kicked,
     signInGoogle: async () => {
       const { error } = await supabase.auth.signInWithOAuth({ provider: 'google', options: { redirectTo: redirect() } });
-      return error?.message ?? null;
-    },
-    signInEmail: async email => {
-      const { error } = await supabase.auth.signInWithOtp({ email, options: { emailRedirectTo: redirect() } });
-      return error?.message ?? null;
-    },
-    verifyEmail: async (email, code) => {
-      const { error } = await supabase.auth.verifyOtp({ email, token: code, type: 'email' });
-      return error?.message ?? null;
-    },
-    signInPassword: async (email, password) => {
-      const { error } = await supabase.auth.signInWithPassword({ email, password });
       return error?.message ?? null;
     },
     signOut: async () => { await supabase.auth.signOut({ scope: 'local' }); }, // this device only; MePage has 'all devices'
