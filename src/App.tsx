@@ -36,7 +36,7 @@ export default function App() {
           <Route path="pyq" element={<PyqPage />} />
           <Route path="guide" element={<GuidePage />} />
           <Route path="admin" element={<AdminPage />} />
-          <Route path="me" element={<MePage />} />
+          <Route path="account" element={<MePage />} />
           <Route path="auth" element={<AuthPage />} />
           <Route path="terms" element={<TermsPage />} />
           <Route path="privacy" element={<PrivacyPage />} />

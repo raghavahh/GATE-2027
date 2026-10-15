@@ -225,6 +225,13 @@ out('/about', page({ canonical: '/about', title: 'About GATE A–Z: who runs it 
 for (const [route, title] of [['/terms', 'Terms'], ['/privacy', 'Privacy'], ['/refund', 'Refunds and cancellations'], ['/delivery', 'Delivery and access'], ['/contact', 'Contact']])
   out(route, page({ canonical: route, title: `${title} | GATE A–Z`, description: `GATE A–Z ${title.toLowerCase()}: ₹${PRICE} per paper, 1 year of online access.` }));
 
+// Papers on the official list whose syllabus sheet isn't published yet (e.g. RA, new in GATE 2027):
+// a real page (not a 404) saying so, kept out of the index until the sheet exists.
+for (const p of PAPERS.filter(x => !live.some(l => l.slug === x.slug)))
+  out(`/${p.slug}`, page({ noindex: true, title: `${EDITION} ${p.code} (${p.name}) — sheet coming soon | GATE A–Z`,
+    description: `${p.name} (${p.code}) is a new ${EDITION} paper. Its topic-wise syllabus sheet on GATE A–Z is being built.`,
+    body: `<p class="font-mono text-sm text-brand">${p.code} · ${EDITION}</p><h1 class="mt-2 text-3xl font-semibold">${esc(p.name)} (${p.code})</h1><p class="mt-3 text-sub">${esc(p.name)} is a new paper in ${EDITION}. Its topic-wise A–Z sheet is being built from the official syllabus. Meanwhile, see ${a('/papers', 'all papers')} or the ${a('/pyq', 'free PYQ hub')}.</p>` }));
+
 // App-only routes and unknown URLs: bare shell, never indexed. 404.html makes unknown paths real 404s.
 const shell = page({ title: 'GATE A–Z', description: 'GATE A–Z', noindex: true });
 writeFileSync(join(DIST, 'shell.html'), shell, 'utf8');
@@ -239,7 +246,7 @@ writeFileSync(join(DIST, 'robots.txt'), `# Search engines and AI assistants are 
 User-agent: *
 Allow: /
 Disallow: /admin
-Disallow: /me
+Disallow: /account
 Disallow: /auth
 
 User-agent: GPTBot
@@ -252,7 +259,7 @@ User-agent: Google-Extended
 User-agent: Applebot-Extended
 Allow: /
 Disallow: /admin
-Disallow: /me
+Disallow: /account
 Disallow: /auth
 
 Sitemap: ${SITE}/sitemap.xml

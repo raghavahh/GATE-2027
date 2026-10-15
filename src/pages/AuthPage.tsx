@@ -22,7 +22,7 @@ export function AuthPage() {
     const type: EmailOtpType = t === 'magiclink' || t === 'signup' ? t : 'email';
     if (!token_hash) { setErr('This sign-in link is incomplete.'); return; }
     supabase.auth.verifyOtp({ token_hash, type }).then(({ error }) => {
-      if (!error) navigate('/me', { replace: true });
+      if (!error) navigate('/account', { replace: true });
       else if (error.name === 'AuthRetryableFetchError' || error.status === 0) setErr('Network problem. Check your connection and open the link again.');
       else setErr('This sign-in link has expired or was already used.');
     }, () => setErr('Network problem. Check your connection and open the link again.'));
