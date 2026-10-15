@@ -71,10 +71,11 @@ function page({ title, description, body = '', graph = [], noindex = false, cano
   const url = SITE + canonical;
   description = clamp(description);
   if (!noindex) graph = [...graph, { '@type': 'WebPage', '@id': url, url, name: title, description, inLanguage: 'en', dateModified: UPDATED,
-    isPartOf: { '@id': `${SITE}/#site` }, publisher: { '@id': `${SITE}/#org` }, primaryImageOfPage: OG_IMAGE }];
+    isPartOf: { '@id': `${SITE}/#site` }, publisher: { '@id': `${SITE}/#org` }, author: { '@type': 'Person', name: 'Pithani Raghavendra', url: `${SITE}/about` }, primaryImageOfPage: OG_IMAGE }];
   const head = [
     `<title>${esc(title)}</title>`,
     `<meta name="description" content="${esc(description)}" />`,
+    '<meta name="author" content="Pithani Raghavendra" />',
     noindex ? '<meta name="robots" content="noindex" />' : `<link rel="canonical" href="${url}" />`,
     `<meta property="og:title" content="${esc(title)}" />`,
     `<meta property="og:description" content="${esc(description)}" />`,
@@ -93,7 +94,7 @@ function page({ title, description, body = '', graph = [], noindex = false, cano
     .replace(/\s*<meta property="og:(title|description|url)"[^>]*>/g, '')
     .replace('<meta name="twitter:card" content="summary" />', '<meta name="twitter:card" content="summary_large_image" />')
     .replace('</head>', `    ${head}\n  </head>`);
-  if (body) html = html.replace('<div id="root"></div>', () => `<div id="root">${NAV}<main class="mx-auto max-w-shell px-4 py-10 sm:px-6">${body}<p class="mt-10 text-sm text-sub">Last updated <time datetime="${UPDATED}">${UPDATED_TEXT}</time></p></main>${FOOT}</div>`);
+  if (body) html = html.replace('<div id="root"></div>', () => `<div id="root">${NAV}<main class="mx-auto max-w-shell px-4 py-10 sm:px-6">${body}<p class="mt-10 text-sm text-sub">By <a href="/about" rel="author" class="text-brand">Pithani Raghavendra</a> · Last updated <time datetime="${UPDATED}">${UPDATED_TEXT}</time></p></main>${FOOT}</div>`);
   return html;
 }
 let pages = 0;
