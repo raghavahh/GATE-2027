@@ -30,7 +30,7 @@ export function Home() {
             Every GATE topic,<br />in the right order.
           </h1>
           <p className="mt-5 max-w-lg text-[17px] leading-relaxed text-sub">
-            Your paper's official {EDITION} syllabus as an A–Z sheet. Hand-picked lectures for each topic play right here; tick it off and move to the next. Official previous-year papers are free.
+            Your paper's official {EDITION} syllabus as an A–Z sheet. Hand-picked lectures for each topic play right here; tick it off and move to the next. Official previous-year papers with answer keys come with every paper.
           </p>
           <div className="mt-8 flex flex-wrap gap-3">
             <Link to="/cs" className="btn-primary h-11 px-5 text-[15px]">Open the CS sheet <ArrowRight size={16} /></Link>

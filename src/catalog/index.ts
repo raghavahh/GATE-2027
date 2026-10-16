@@ -6,7 +6,7 @@ import summaryJson from './summary.json';
 import SELLABLE from './sellable.json';
 
 export * from './types';
-export { PAPERS, PRICE_INR, EDITION } from './papers';
+export { PAPERS, PRICE_INR, PYQ_PRICE_INR, EDITION } from './papers';
 
 /**
  * Sheets come from the official GATE 2027 syllabus PDFs (scripts/build_syllabus.py) and are

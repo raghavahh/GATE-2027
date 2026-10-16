@@ -1,6 +1,6 @@
 import type { ReactNode } from 'react';
 import { CONTACT_EMAIL } from '../lib/supabase';
-import { PRICE_INR } from '../catalog';
+import { PRICE_INR, PYQ_PRICE_INR } from '../catalog';
 
 const UPDATED = '7 October 2026';
 
@@ -100,7 +100,7 @@ export const AboutPage = () => (
     <h2>How lectures are picked</h2>
     <p>For every topic we look at GATE lectures from established teachers and channels on YouTube, check each one against that exact topic and keep the best two to five. The videos belong to their creators and play through YouTube's official player.</p>
     <h2>Price</h2>
-    <p>₹{PRICE_INR} per paper, paid once, for 1 year of access. One topic in every subject is free to try, and official previous-year papers are free for everyone.</p>
+    <p>₹{PRICE_INR} per paper, paid once, for 1 year of access. One topic in every subject is free to try. Previous-year papers are included with the paper, or ₹{PYQ_PRICE_INR} on their own.</p>
     <h2>Corrections</h2>
     <p>Spotted a mistake in a sheet, a note or a video choice? Email <Mail /> and it will be fixed.</p>
   </Page>

@@ -40,7 +40,7 @@ export function PaperPage() {
       <div className="mx-auto max-w-shell px-4 py-16 sm:px-6">
         <p className="font-mono text-sm text-brand">{paper.code}</p>
         <h1 className="mt-1 text-3xl font-semibold">{paper.name}</h1>
-        <p className="mt-3 max-w-xl text-sub">This paper's A–Z sheet is being built. Its free PYQ papers are already in the PYQ hub.</p>
+        <p className="mt-3 max-w-xl text-sub">This paper's A–Z sheet is being built. Its previous-year papers are already in the PYQ hub.</p>
         <div className="mt-6 flex gap-3"><Link to="/pyq" className="btn-primary">Open PYQs</Link><Link to="/papers" className="btn-ghost">All papers</Link></div>
       </div>
     );

@@ -1,7 +1,7 @@
 // POST { razorpay_order_id, razorpay_payment_id, razorpay_signature } after checkout succeeds.
 // 1) checks the signature with the secret key, 2) re-reads the payment from Razorpay,
 // 3) grants the paper once (idempotent).
-import { admin, cors, hmacHex, json, PRICE_PAISE, rzp, safeEqual, accessUntil, userFrom } from '../_shared/razorpay.ts';
+import { admin, cors, hmacHex, json, rzp, safeEqual, accessUntil, userFrom } from '../_shared/razorpay.ts';
 
 Deno.serve(async req => {
   if (req.method === 'OPTIONS') return new Response('ok', { headers: cors(req) });
@@ -18,9 +18,10 @@ Deno.serve(async req => {
     if (!safeEqual(expected, sig)) return json(req, { error: 'Payment could not be verified.' }, 400);
 
     const db = admin();
-    const { data: order, error: oErr } = await db.from('orders').select('user_id').eq('id', orderId).maybeSingle();
+    const { data: order, error: oErr } = await db.from('orders').select('user_id, amount_paise').eq('id', orderId).maybeSingle();
     if (oErr) throw oErr;
     if (!order || order.user_id !== user.id) return json(req, { error: 'Order not found.' }, 404);
+    const PRICE_PAISE = order.amount_paise; // ₹49 paper or ₹20 PYQs, fixed by the server when the order was made
 
     const pay = await rzp(`/payments/${paymentId}`);
     if (pay.order_id !== orderId || pay.amount !== PRICE_PAISE || !['captured', 'authorized'].includes(pay.status)) {

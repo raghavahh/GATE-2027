@@ -1,6 +1,7 @@
-// POST { paper } with the user's Supabase token → creates a Razorpay order for ₹49.
+// POST { paper } with the user's Supabase token → creates a Razorpay order: ₹49 for a paper ("ee"),
+// ₹20 for that paper's previous-year papers alone ("pyq-ee").
 // The amount is set here on the server; the browser never chooses the price.
-import { admin, cors, EDITION, json, PAPERS, PRICE_PAISE, rzp, userFrom } from '../_shared/razorpay.ts';
+import { admin, cors, EDITION, json, PAPERS, priceFor, PYQ_SKU, rzp, userFrom } from '../_shared/razorpay.ts';
 
 Deno.serve(async req => {
   if (req.method === 'OPTIONS') return new Response('ok', { headers: cors(req) });
@@ -10,14 +11,21 @@ Deno.serve(async req => {
     if (!user) return json(req, { error: 'Please sign in first.' }, 401);
 
     const { paper } = await req.json().catch(() => ({}));
-    if (typeof paper !== 'string' || !PAPERS.has(paper)) return json(req, { error: 'This paper is not on sale yet.' }, 400);
-
-
+    if (typeof paper !== 'string') return json(req, { error: 'This paper is not on sale yet.' }, 400);
     const db = admin();
+    const pyqOf = paper.match(PYQ_SKU)?.[1];
+    if (pyqOf) {
+      const { data: has } = await db.from('pyq').select('paper').eq('paper', pyqOf).maybeSingle();
+      if (!has) return json(req, { error: 'No previous-year papers for this paper yet.' }, 400);
+    } else if (!PAPERS.has(paper)) return json(req, { error: 'This paper is not on sale yet.' }, 400);
+    const PRICE_PAISE = priceFor(paper);
+
+    // The full paper includes its PYQs, so owning either blocks buying the PYQs again.
     const { data: owned, error: ownErr } = await db.from('entitlements').select('id')
-      .eq('user_id', user.id).eq('paper', paper).eq('edition', EDITION).gt('expires_at', new Date().toISOString()).maybeSingle();
+      .eq('user_id', user.id).in('paper', pyqOf ? [paper, pyqOf] : [paper]).eq('edition', EDITION)
+      .gt('expires_at', new Date().toISOString()).limit(1).maybeSingle();
     if (ownErr) throw ownErr;
-    if (owned) return json(req, { error: 'You already own this paper.' }, 409);
+    if (owned) return json(req, { error: pyqOf ? 'You already own these papers.' : 'You already own this paper.' }, 409);
 
     const reply = (orderId: string) =>
       json(req, { orderId, amount: PRICE_PAISE, currency: 'INR', keyId: Deno.env.get('RAZORPAY_KEY_ID'), email: user.email });

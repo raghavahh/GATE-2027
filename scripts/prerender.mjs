@@ -4,7 +4,7 @@
 //
 // Writes into dist/: <route>.html for every public page (Cloudflare Pages serves /ee from ee.html),
 // shell.html + 404.html (bare app shell, noindex), robots.txt, sitemap index + per-paper sitemaps, llms.txt.
-// Only public information goes in: the official syllabus, marks, difficulty, video counts, free PYQ links.
+// Only public information goes in: the official syllabus, marks, difficulty, video counts, PYQ years (never the paid PDF links).
 // Paid lecture lists and notes stay behind the paywall.
 // usage: node scripts/prerender.mjs   (run by `npm run build`)
 import { existsSync, mkdirSync, readFileSync, rmSync, writeFileSync } from 'fs';
@@ -33,7 +33,8 @@ const PAPERS = [...readFileSync(join(CAT, 'papers.ts'), 'utf8').matchAll(/p\('([
   .map(([, code, name, group, status]) => ({ code, slug: code.toLowerCase(), name, group, status: status ?? 'soon' }));
 const SELLABLE = new Set(json(join(CAT, 'sellable.json')));
 const SUMMARY = json(join(CAT, 'summary.json'));
-const PYQ = json(join(CAT, 'pyq.json'));
+// PYQ links are paid (served by get_pyqs); only the years are published here.
+const PYQ = json(join(ROOT, 'supabase', 'pyq.json'));
 const GA = json(join(CAT, 'generated', 'ga.json'));
 const CANON_GA = 'cs'; // General Aptitude topics are identical in every paper: one canonical URL each
 const sheet = slug => {
@@ -58,7 +59,7 @@ const a = (href, text, cls = 'text-brand') => `<a href="${esc(href)}"${cls ? ` c
 const ld = obj => `<script type="application/ld+json">${JSON.stringify(obj).replace(/</g, '\\u003c')}</script>`;
 const ORG = { '@type': 'Organization', '@id': `${SITE}/#org`, name: 'GATE A–Z', url: `${SITE}/`, logo: `${SITE}/favicon.svg`, image: OG_IMAGE,
   founder: { '@type': 'Person', name: 'Pithani Raghavendra' }, areaServed: 'IN', ...(SAME_AS.length ? { sameAs: SAME_AS } : {}),
-  description: `Topic-wise ${EDITION} syllabus sheets with hand-picked video lectures, key-point notes and free official previous-year papers for every GATE paper.` };
+  description: `Topic-wise ${EDITION} syllabus sheets with hand-picked video lectures, key-point notes and official previous-year papers for every GATE paper.` };
 const crumbs = items => ({ '@type': 'BreadcrumbList', itemListElement: items.map(([name, url], i) => ({ '@type': 'ListItem', position: i + 1, name, item: SITE + url })) });
 const faqLd = qa => ({ '@type': 'FAQPage', mainEntity: qa.map(([q, ans]) => ({ '@type': 'Question', name: q, acceptedAnswer: { '@type': 'Answer', text: ans } })) });
 const faqHtml = qa => `<section class="mt-10"><h2 class="text-lg font-semibold">Frequently asked questions</h2>${qa.map(([q, ans]) => `<h3 class="mt-4 font-semibold">${esc(q)}</h3><p class="mt-1 text-sub">${esc(ans)}</p>`).join('')}</section>`;
@@ -142,17 +143,17 @@ for (const p of live) {
     [`What is in the ${EDITION} ${p.code} syllabus?`, `The ${EDITION} ${p.name} (${p.code}) paper covers ${p.subjects.map(s => s.name).join(', ')}: ${nTopics} topics in ${p.subjects.length} subjects, including General Aptitude (15 marks).`],
     ...(top.length ? [[`Which ${p.code} subjects carry the most marks?`, `Typically ${top.map(s => `${s.name} (about ${s.marks} marks)`).join(', ')}. These are typical ranges from recent papers, not official figures.`]] : []),
     [`What is the ${EDITION} exam pattern?`, '65 questions for 100 marks in 3 hours: MCQ, MSQ and NAT questions. General Aptitude is 15 marks. Only MCQs have negative marking (−1/3 for 1-mark and −2/3 for 2-mark questions).'],
-    ...(yr ? [[`Where can I download GATE ${p.code} previous-year papers?`, `Official GATE ${p.code} question papers and answer keys from ${yr} are linked free at ${SITE}/pyq?paper=${p.slug}.`]] : []),
+    ...(yr ? [[`Where can I download GATE ${p.code} previous-year papers?`, `Official GATE ${p.code} question papers and answer keys from ${yr} are on ${SITE}/pyq?paper=${p.slug}: ₹20 on their own, or included with the full paper.`]] : []),
     sell ? [`How much does GATE A–Z ${p.code} cost?`, `₹${PRICE} once for 1 year of full ${p.code} access: every topic's hand-picked lectures and notes. One topic in each subject is free to try first.`]
       : [`Is the GATE A–Z ${p.code} sheet free?`, `Yes. The full ${p.code} syllabus sheet is free to browse; lectures for ${p.code} are being curated.`],
   ];
   const subjHtml = p.subjects.map(s => `<section class="mt-8"><h2 class="text-lg font-semibold">${esc(s.name)}${s.marks ? ` <span class="text-sub">· about ${esc(s.marks)} marks</span>` : ''}</h2>${s.focus ? `<p class="mt-1 text-sub">${esc(s.focus)}</p>` : ''}${s.modules.map(m => `<h3 class="mt-4 font-semibold">${esc(m.letter)}. ${esc(m.name)}</h3><ul class="mt-2">${m.topics.map(t => `<li>${a(`/${p.slug}/${t.id}`, t.name, '')} <span class="text-sub">· ${DIFF[t.diff] ?? ''}${vc(t.id) ? ` · ${vc(t.id)} lectures` : ''}${t.sample ? ' · free sample' : ''}</span></li>`).join('')}</ul>`).join('')}</section>`).join('');
   out(`/${p.slug}`, page({ preload: paperChunks(p.slug), canonical: `/${p.slug}`,
     title: `${EDITION} ${p.code} Syllabus, Topic-wise Lectures & PYQs | GATE A–Z`,
-    description: `${EDITION} ${p.code} syllabus as a topic-wise sheet: ${p.subjects.length} subjects, ${nTopics} topics${stats.videos ? `, ${stats.videos} hand-picked lectures` : ''}, subject marks and free official PYQs.${sell ? ` ₹${PRICE} per year.` : ''}`,
+    description: `${EDITION} ${p.code} syllabus as a topic-wise sheet: ${p.subjects.length} subjects, ${nTopics} topics${stats.videos ? `, ${stats.videos} hand-picked lectures` : ''}, subject marks and official PYQs.${sell ? ` ₹${PRICE} per year.` : ''}`,
     body: `<p class="font-mono text-sm text-brand">${p.code} · ${EDITION}</p>
 <h1 class="mt-2 text-3xl font-semibold">${EDITION} ${esc(p.name)} (${p.code}) syllabus — topic-wise A–Z sheet</h1>
-<p class="mt-3 text-sub">The official ${EDITION} ${p.code} syllabus as one ordered checklist: ${p.subjects.length} subjects, ${nTopics} topics${stats.videos ? `, ${stats.videos} hand-picked lectures` : ''}. ${sell ? `Tick topics off as you go. ₹${PRICE} for 1 year of full access; one topic per subject is free.` : 'The full sheet is free to browse.'}${yr ? ` Free official previous-year papers: ${a(`/pyq?paper=${p.slug}`, `GATE ${p.code} PYQs ${yr}`)}.` : ''}</p>
+<p class="mt-3 text-sub">The official ${EDITION} ${p.code} syllabus as one ordered checklist: ${p.subjects.length} subjects, ${nTopics} topics${stats.videos ? `, ${stats.videos} hand-picked lectures` : ''}. ${sell ? `Tick topics off as you go. ₹${PRICE} for 1 year of full access; one topic per subject is free.` : 'The full sheet is free to browse.'}${yr ? ` Official previous-year papers: ${a(`/pyq?paper=${p.slug}`, `GATE ${p.code} PYQs ${yr}`)}.` : ''}</p>
 <h2 class="mt-8 text-lg font-semibold">${p.code} subjects and typical marks</h2>${table(['Subject', 'Typical marks', 'Topics'], p.subjects.map(s => [esc(s.name), esc(s.marks || '–'), String(s.modules.reduce((n, m) => n + m.topics.length, 0))]))}
 ${subjHtml}${faqHtml(qa)}`,
     graph: [ORG, course, crumbs([['GATE A–Z', '/'], ['Papers', '/papers'], [`${p.code} ${p.name}`, `/${p.slug}`]]), faqLd(qa)] }));
@@ -166,7 +167,7 @@ ${subjHtml}${faqHtml(qa)}`,
     const sibs = m.topics.filter(x => x.id !== t.id);
     out(`/${p.slug}/${t.id}`, page({ preload: paperChunks(p.slug), image: heroThumb(t.id), canonical,
       title: `${t.name} – GATE 2027 ${p.code} ${s.name} | GATE A–Z`,
-      description: `${t.name} for GATE 2027 ${p.code} (${s.name}): ${(DIFF[t.diff] ?? '').toLowerCase()} topic${s.marks ? `, subject worth about ${s.marks} marks` : ''}${n ? `, ${n} hand-picked lectures` : ''}. In syllabus order, with free official PYQs.`,
+      description: `${t.name} for GATE 2027 ${p.code} (${s.name}): ${(DIFF[t.diff] ?? '').toLowerCase()} topic${s.marks ? `, subject worth about ${s.marks} marks` : ''}${n ? `, ${n} hand-picked lectures` : ''}. In syllabus order, with official PYQs.`,
       body: `<p class="text-sm text-sub">${a(`/${p.slug}`, p.code)} / ${esc(s.name)} / ${esc(m.letter)} ${esc(m.name)}</p>
 <h1 class="mt-2 text-3xl font-semibold">${esc(t.name)} — GATE 2027 ${p.code}</h1>
 <p class="mt-3 text-sub">${DIFF[t.diff] ?? ''} topic · ${esc(s.name)}${s.marks ? ` (about ${esc(s.marks)} marks in GATE ${p.code})` : ''} · Module ${esc(m.letter)}: ${esc(m.name)}</p>
@@ -184,19 +185,19 @@ ${sibs.length ? `<h2 class="mt-8 text-lg font-semibold">More in ${esc(m.name)}</
 
 // ---------- site pages ----------
 const homeQa = [
-  ['What is GATE A–Z?', `GATE A–Z turns your paper's official ${EDITION} syllabus into an ordered A–Z checklist. Each topic has hand-picked video lectures from trusted GATE teachers that play on the page, plus key-point notes; tick it off and move to the next. Official previous-year papers are free.`],
+  ['What is GATE A–Z?', `GATE A–Z turns your paper's official ${EDITION} syllabus into an ordered A–Z checklist. Each topic has hand-picked video lectures from trusted GATE teachers that play on the page, plus key-point notes; tick it off and move to the next. Official previous-year papers with answer keys come with every paper.`],
   ['How much does it cost?', `₹${PRICE} per paper, paid once, for 1 year of access. One topic in every subject is free to try. Papers with lectures now: ${sellCodes.join(', ')}.`],
   ['Which GATE papers are covered?', `${live.length} of the ${TOTAL} ${EDITION} papers have a free syllabus sheet${SOON.length ? ` (${SOON.join(', ')}, new in ${EDITION}, is coming)` : ''}; lectures are live for ${sellCodes.join(', ')}.`],
-  ['Are the previous-year papers free?', 'Yes. Official GATE question papers and answer keys are linked free on the PYQ page, paper by paper.'],
+  ['Are previous-year papers included?', `Yes. Each paper includes its official GATE question papers and answer keys, year by year. They can also be bought alone for ₹20 per paper.`],
 ];
 out('/', page({ canonical: '/',
-  title: 'GATE A–Z · GATE 2027 syllabus topic-wise, best lectures, free PYQs',
-  description: `${EDITION} syllabus as topic-wise sheets for ${live.length} of ${TOTAL} papers, hand-picked lectures for ${sellCodes.join(', ')}, free official PYQs. ₹${PRICE}/paper, 1 year.`,
+  title: 'GATE A–Z · GATE 2027 syllabus topic-wise, best lectures, PYQs',
+  description: `${EDITION} syllabus as topic-wise sheets for ${live.length} of ${TOTAL} papers, hand-picked lectures for ${sellCodes.join(', ')}, official PYQs. ₹${PRICE}/paper, 1 year.`,
   body: `<p class="font-mono text-sm text-brand">${EDITION} · all ${TOTAL} papers</p><h1 class="mt-3 text-3xl font-semibold">Every GATE topic, in the right order.</h1>
-<p class="mt-4 text-sub">Your paper's official ${EDITION} syllabus as an A–Z sheet. Hand-picked lectures for each topic play right here; tick it off and move to the next. Official previous-year papers are free. ₹${PRICE} per paper, 1 year.</p>
+<p class="mt-4 text-sub">Your paper's official ${EDITION} syllabus as an A–Z sheet. Hand-picked lectures for each topic play right here; tick it off and move to the next. Official previous-year papers with answer keys come with every paper. ₹${PRICE} per paper, 1 year.</p>
 <h2 class="mt-10 text-lg font-semibold">How does GATE A–Z work?</h2>
 <p class="mt-2">You open your paper's sheet, which lists every topic of the official ${EDITION} syllabus in order, and study one topic at a time.</p>
-<ol class="mt-2"><li>Pick your paper: the sheet shows every subject with its typical marks, so you start where the marks are.</li><li>Open a topic: the best lecture for it, picked from established GATE teachers, plays right on the page, with short key-point notes below.</li><li>Tick it done: the sheet keeps your progress and takes you to the next topic.</li><li>Practise: solve the official previous-year papers for your paper, free on the PYQ page.</li></ol>
+<ol class="mt-2"><li>Pick your paper: the sheet shows every subject with its typical marks, so you start where the marks are.</li><li>Open a topic: the best lecture for it, picked from established GATE teachers, plays right on the page, with short key-point notes below.</li><li>Tick it done: the sheet keeps your progress and takes you to the next topic.</li><li>Practise: solve the official previous-year papers for your paper on the PYQ page.</li></ol>
 <h2 class="mt-10 text-lg font-semibold">Which papers have lectures, and what does it cost?</h2>
 <p class="mt-2">${sellCodes.length} papers have hand-picked lectures today, each ₹${PRICE} for 1 year; the syllabus sheet for every other paper is free.</p>
 ${table(['Paper', 'Topics', 'Lectures', 'Price'], live.filter(p => SELLABLE.has(p.slug)).map(p => [a(`/${p.slug}`, `${p.code} — ${p.name}`, ''), String(SUMMARY[p.slug]?.topics ?? ''), String(SUMMARY[p.slug]?.videos ?? ''), `₹${PRICE} / 1 year`]))}
@@ -209,9 +210,9 @@ out('/papers', page({ canonical: '/papers', title: 'All GATE 2027 papers — syl
   graph: [ORG, crumbs([['GATE A–Z', '/'], ['Papers', '/papers']]), { '@type': 'ItemList', itemListElement: live.map((p, i) => ({ '@type': 'ListItem', position: i + 1, url: `${SITE}/${p.slug}`, name: `${EDITION} ${p.name} (${p.code})` })) }] }));
 
 const pyqPapers = live.filter(p => PYQ[p.slug]?.length);
-out('/pyq', page({ canonical: '/pyq', title: 'GATE previous year papers with answer keys (official PDFs, free) | GATE A–Z',
-  description: 'Free official GATE question papers and answer keys for every paper, year by year, linked straight to the official GATE websites.',
-  body: `<h1 class="text-3xl font-semibold">GATE previous-year papers — official PDFs, free</h1><p class="mt-3 text-sub">Every link goes to the official GATE organising institute's PDF.</p>${pyqPapers.map(p => `<section class="mt-8"><h2 class="text-lg font-semibold">GATE ${p.code} — ${esc(p.name)}</h2><ul class="mt-2">${PYQ[p.slug].map(y => `<li>${y.year}: ${y.sets.map(s => `${a(s.qp, `${s.label} question paper`)}${s.key ? ` · ${a(s.key, 'answer key')}` : ''}`).join(' · ')}</li>`).join('')}</ul></section>`).join('')}`,
+out('/pyq', page({ canonical: '/pyq', title: 'GATE previous year question papers with answer keys, year-wise | GATE A–Z',
+  description: 'Official GATE question papers and answer keys for every paper, year by year. ₹20 per paper, or included with the full paper on GATE A–Z.',
+  body: `<h1 class="text-3xl font-semibold">GATE previous-year papers, with answer keys</h1><p class="mt-3 text-sub">Official question papers and answer keys from the GATE organising IITs, for every paper. ₹20 per paper for 1 year, or included with the full paper (₹${PRICE}).</p>${pyqPapers.map(p => `<section class="mt-8"><h2 class="text-lg font-semibold">GATE ${p.code}: ${esc(p.name)}</h2><p class="mt-2">${PYQ[p.slug].map(y => `${y.year} (${y.sets.length > 1 ? `${y.sets.length} sets` : '1 set'}${y.sets.some(s => s.key) ? ', answer key' : ''})`).join(' · ')}</p></section>`).join('')}`,
   graph: [ORG, crumbs([['GATE A–Z', '/'], ['PYQs', '/pyq']])] }));
 
 const guideQa = [
@@ -224,13 +225,13 @@ out('/guide', page({ canonical: '/guide', title: 'How to prepare for GATE 2027: 
   graph: [ORG, crumbs([['GATE A–Z', '/'], ['How to prepare', '/guide']]), faqLd(guideQa)] }));
 
 out('/about', page({ canonical: '/about', title: 'About GATE A–Z: who runs it and how lectures are picked',
-  description: `GATE A–Z is an independent project by Pithani Raghavendra, India: official ${EDITION} syllabus sheets with hand-picked lectures, notes and free PYQs.`,
+  description: `GATE A–Z is an independent project by Pithani Raghavendra, India: official ${EDITION} syllabus sheets with hand-picked lectures, notes and PYQs.`,
   body: `<h1 class="text-3xl font-semibold">About GATE A–Z</h1>
 <p class="mt-3">GATE A–Z turns your paper's official ${EDITION} syllabus into one ordered checklist, so you always know what to study next. Every topic has hand-picked video lectures that play on the page and short key-point notes; you tick it off and move to the next.</p>
 <h2 class="mt-8 text-lg font-semibold">Who runs it?</h2><p class="mt-2">GATE A–Z is an independent project built and run by Pithani Raghavendra, India. It is not a coaching institute and is not affiliated with IISc, the IITs or the GATE organisers.</p>
 <h2 class="mt-8 text-lg font-semibold">How are the sheets made?</h2><p class="mt-2">Each sheet follows the official ${EDITION} syllabus PDF for that paper, split into subjects, modules and topics in syllabus order. Subject marks are typical ranges from recent papers, and every topic carries an Easy, Medium or Hard tag.</p>
 <h2 class="mt-8 text-lg font-semibold">How are lectures picked?</h2><p class="mt-2">For every topic, GATE lectures from established teachers and channels on YouTube are checked against that exact topic, and the best two to five are kept. The videos belong to their creators and play through YouTube's official player.</p>
-<h2 class="mt-8 text-lg font-semibold">What does it cost?</h2><p class="mt-2">₹${PRICE} per paper, paid once, for 1 year of access. One topic in every subject is free to try, and official previous-year papers are free for everyone.</p>
+<h2 class="mt-8 text-lg font-semibold">What does it cost?</h2><p class="mt-2">₹${PRICE} per paper, paid once, for 1 year of access. One topic in every subject is free to try, and previous-year papers are included with the paper (or ₹20 on their own).</p>
 <h2 class="mt-8 text-lg font-semibold">How do I report a mistake?</h2><p class="mt-2">Email the address on the ${a('/contact', 'contact page')}; corrections are made quickly.</p>`,
   graph: [ORG, crumbs([['GATE A–Z', '/'], ['About', '/about']]), { '@type': 'AboutPage', '@id': `${SITE}/about#about`, url: `${SITE}/about`, about: { '@id': `${SITE}/#org` } }] }));
 
@@ -242,7 +243,7 @@ for (const [route, title] of [['/terms', 'Terms'], ['/privacy', 'Privacy'], ['/r
 for (const p of PAPERS.filter(x => !live.some(l => l.slug === x.slug)))
   out(`/${p.slug}`, page({ noindex: true, title: `${EDITION} ${p.code} (${p.name}) — sheet coming soon | GATE A–Z`,
     description: `${p.name} (${p.code}) is a new ${EDITION} paper. Its topic-wise syllabus sheet on GATE A–Z is being built.`,
-    body: `<p class="font-mono text-sm text-brand">${p.code} · ${EDITION}</p><h1 class="mt-2 text-3xl font-semibold">${esc(p.name)} (${p.code})</h1><p class="mt-3 text-sub">${esc(p.name)} is a new paper in ${EDITION}. Its topic-wise A–Z sheet is being built from the official syllabus. Meanwhile, see ${a('/papers', 'all papers')} or the ${a('/pyq', 'free PYQ hub')}.</p>` }));
+    body: `<p class="font-mono text-sm text-brand">${p.code} · ${EDITION}</p><h1 class="mt-2 text-3xl font-semibold">${esc(p.name)} (${p.code})</h1><p class="mt-3 text-sub">${esc(p.name)} is a new paper in ${EDITION}. Its topic-wise A–Z sheet is being built from the official syllabus. Meanwhile, see ${a('/papers', 'all papers')} or the ${a("/pyq", "PYQ hub")}.</p>` }));
 
 // App-only routes and unknown URLs: bare shell, never indexed. 404.html makes unknown paths real 404s.
 const shell = page({ title: 'GATE A–Z', description: 'GATE A–Z', noindex: true });
@@ -279,11 +280,11 @@ Sitemap: ${SITE}/sitemap.xml
 
 writeFileSync(join(DIST, 'llms.txt'), `# GATE A–Z
 
-> GATE A–Z (${SITE}) turns each ${EDITION} paper's official syllabus into an ordered, topic-wise checklist (free for all papers). For the papers with lectures live (${sellCodes.join(', ')}), topics have hand-picked video lectures from trusted GATE teachers that play on the page, plus key-point notes (formulas, common mistakes, how GATE asks it). Official previous-year question papers and answer keys are free. Price: ₹${PRICE} per paper, paid once, for 1 year of access; one topic per subject is free to try. Not affiliated with IISc, the IITs or the GATE organisers.
+> GATE A–Z (${SITE}) turns each ${EDITION} paper's official syllabus into an ordered, topic-wise checklist (free for all papers). For the papers with lectures live (${sellCodes.join(', ')}), topics have hand-picked video lectures from trusted GATE teachers that play on the page, plus key-point notes (formulas, common mistakes, how GATE asks it). Official previous-year question papers and answer keys are included with each paper, or ₹20 per paper on their own. Price: ₹${PRICE} per paper, paid once, for 1 year of access; one topic per subject is free to try. Not affiliated with IISc, the IITs or the GATE organisers.
 
 ## Key pages
 - [All ${EDITION} papers](${SITE}/papers): free syllabus sheets for ${live.length} of the ${TOTAL} papers
-- [GATE previous-year papers](${SITE}/pyq): official question papers and answer keys, free
+- [GATE previous-year papers](${SITE}/pyq): official question papers and answer keys, ₹20 per paper or included with the paper
 - [How to prepare for ${EDITION}](${SITE}/guide): exam pattern and study plan
 
 ## ${EDITION} syllabus sheets (topic-wise, with subject marks)

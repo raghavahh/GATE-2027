@@ -1,7 +1,7 @@
 // Razorpay → this webhook. Backup in case the browser closed after paying, plus refunds.
 // Events to enable in Razorpay: payment.captured, order.paid, refund.processed.
 // Deploy with JWT verification OFF (Razorpay can't send a Supabase token); the signature check protects it.
-import { admin, hmacHex, PRICE_PAISE, safeEqual, accessUntil } from '../_shared/razorpay.ts';
+import { admin, hmacHex, PRICE_PAISE, PYQ_PRICE_PAISE, safeEqual, accessUntil } from '../_shared/razorpay.ts';
 
 Deno.serve(async req => {
   if (req.method !== 'POST') return new Response('method', { status: 405 });
@@ -21,7 +21,7 @@ Deno.serve(async req => {
   const evt = JSON.parse(raw);
   const pay = evt?.payload?.payment?.entity;
   try {
-    if ((evt.event === 'payment.captured' || evt.event === 'order.paid') && pay?.order_id && pay.amount !== PRICE_PAISE) {
+    if ((evt.event === 'payment.captured' || evt.event === 'order.paid') && pay?.order_id && ![PRICE_PAISE, PYQ_PRICE_PAISE].includes(pay.amount)) {
       // Money taken for an unexpected amount (e.g. an old price): never silent, so it can be granted or refunded by hand.
       console.error('PAID BUT NOT GRANTED: amount mismatch', { event: evt.event, order_id: pay.order_id, payment_id: pay.id, amount: pay.amount });
     } else if ((evt.event === 'payment.captured' || evt.event === 'order.paid') && pay?.order_id) {

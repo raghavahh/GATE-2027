@@ -3,6 +3,10 @@
 import { createClient } from 'npm:@supabase/supabase-js@2';
 
 export const PRICE_PAISE = 4900;
+/** Previous-year papers of one paper, sold alone ("pyq-<slug>"). Buying the full paper includes them. */
+export const PYQ_PRICE_PAISE = 2000;
+export const PYQ_SKU = /^pyq-([a-z]{2})$/;
+export const priceFor = (sku: string) => (PYQ_SKU.test(sku) ? PYQ_PRICE_PAISE : PRICE_PAISE);
 export const EDITION = 'GATE 2027';
 /** Access lasts 1 year from the moment of purchase. */
 export const accessUntil = () => new Date(Date.now() + 365 * 86_400_000).toISOString();

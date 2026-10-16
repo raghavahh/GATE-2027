@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
 import { Check, Lock, ShieldCheck, X } from 'lucide-react';
-import { EDITION, PRICE_INR, type Paper } from '../catalog';
+import { EDITION, PRICE_INR, PYQ_PRICE_INR, type Paper } from '../catalog';
 import { useAuth } from '../lib/auth';
 import { supabase } from '../lib/supabase';
 import { SignInModal } from './SignInModal';
@@ -41,9 +41,15 @@ interface Props {
   topicName?: string;
   counts: { subjects: number; topics: number; videos: number };
   onClose: () => void;
+  /** 'paper' (default, ₹49: everything) or 'pyq' (₹20: that paper's previous-year papers only). */
+  kind?: 'paper' | 'pyq';
 }
 
-export function BuyModal({ paper, topicName, counts, onClose }: Props) {
+export function BuyModal({ paper, topicName, counts, onClose, kind = 'paper' }: Props) {
+  const pyq = kind === 'pyq';
+  const sku = pyq ? `pyq-${paper.slug}` : paper.slug;
+  const price = pyq ? PYQ_PRICE_INR : PRICE_INR;
+  const label = pyq ? `${paper.code} PYQs` : paper.code;
   const panel = useRef<HTMLDivElement>(null);
   const { session, papers, refresh } = useAuth();
   const [needSignIn, setNeedSignIn] = useState(false);
@@ -65,7 +71,7 @@ export function BuyModal({ paper, topicName, counts, onClose }: Props) {
     setBusy(true); setMsg('');
     try {
       await loadCheckout();
-      const { data, error } = await within(call('create-order', { paper: paper.slug }), 20000, 'Network problem. Check your connection and try again.');
+      const { data, error } = await within(call('create-order', { paper: sku }), 20000, 'Network problem. Check your connection and try again.');
       if (error && /already own/i.test(error)) { await refresh(); setDone(true); setBusy(false); return; } // paid earlier (e.g. webhook granted it)
       if (error || !data?.orderId) throw new Error(error ?? 'Could not start payment. Try again.');
       // Until Razorpay approves live keys, checkout runs in test mode: real UPI apps can't pay a test QR.
@@ -73,7 +79,7 @@ export function BuyModal({ paper, topicName, counts, onClose }: Props) {
       let paid = false;
       const rzp = new window.Razorpay!({
         key: data.keyId, order_id: data.orderId, amount: data.amount, currency: 'INR',
-        name: 'GATE A–Z', description: test ? 'TEST MODE · no real money · UPI ID: success@razorpay' : `${paper.code} · ${EDITION}`,
+        name: 'GATE A–Z', description: test ? 'TEST MODE · no real money · UPI ID: success@razorpay' : `${label} · ${EDITION}`,
         prefill: { email: data.email }, theme: { color: '#F5A524' },
         modal: { ondismiss: () => {
           if (paid) return;
@@ -118,7 +124,7 @@ export function BuyModal({ paper, topicName, counts, onClose }: Props) {
 
   // Payment possibly taken but not confirmed: the webhook grants it. Re-check every 5 s for 2 minutes
   // (and retry verify-payment when we have the checkout reply).
-  const owned = papers.includes(paper.slug);
+  const owned = papers.includes(sku) || (pyq && papers.includes(paper.slug));
   useEffect(() => {
     if (!pending) return;
     if (owned) { setDone(true); setPending(''); setMsg(''); return; }
@@ -147,12 +153,17 @@ export function BuyModal({ paper, topicName, counts, onClose }: Props) {
   const close = () => { if (!lock.current) onClose(); };
 
   // Only promise what exists today: people are paying for exactly this list.
-  const items = [
+  const items = pyq ? [
+    `Official GATE ${paper.code} question papers and answer keys, every year`,
+    'Opens straight from the organising IIT, on any device',
+    '1 year of access',
+    `Want lectures and notes too? The full ${paper.code} course (₹${PRICE_INR}) includes these PYQs`,
+  ] : [
     `All ${counts.topics} topics across ${counts.subjects} subjects, in syllabus order`,
     `${counts.videos} hand-picked videos, playing right here`,
     'Key-point notes, formulas and common mistakes, added topic by topic through the season',
     'Easy / Medium / Hard tag on every topic and progress tracking',
-    'Free previous-year papers in the PYQ hub',
+    `${paper.code} previous-year papers with answer keys (worth ₹${PYQ_PRICE_INR}) included`,
   ];
 
   return (
@@ -173,7 +184,7 @@ export function BuyModal({ paper, topicName, counts, onClose }: Props) {
           <div className="flex items-center gap-3">
             <span className="grid h-10 w-10 place-items-center rounded-full bg-brand/15 text-brand"><Lock size={18} /></span>
             <div>
-              <h2 id="buy-title" className="text-lg font-semibold">Unlock {paper.code} · {EDITION}</h2>
+              <h2 id="buy-title" className="text-lg font-semibold">Unlock {label} · {EDITION}</h2>
               <p className="text-sm text-sub">{topicName ? `${topicName} is in ${paper.code}` : paper.name}</p>
             </div>
           </div>
@@ -189,13 +200,13 @@ export function BuyModal({ paper, topicName, counts, onClose }: Props) {
         </ul>
 
         <div className="mt-6 flex items-baseline gap-2">
-          <span className="text-3xl font-semibold tnum">₹{PRICE_INR}</span>
+          <span className="text-3xl font-semibold tnum">₹{price}</span>
           <span className="text-sm text-sub">one payment · 1 year of access</span>
         </div>
         <p className="mt-1 text-xs text-sub">One account, one active login. Each branch is bought separately. No refunds or cancellations after purchase.</p>
 
         <button type="button" className="btn-primary mt-5 h-11 w-full text-[15px]" disabled={busy || !!pending} onClick={done ? onClose : pay}>
-          {done ? `${paper.code} unlocked · Start studying` : pending ? 'Confirming payment…' : busy ? 'Opening payment…' : `Pay ₹${PRICE_INR} with UPI`}
+          {done ? `${label} unlocked${pyq ? '' : ' · Start studying'}` : pending ? 'Confirming payment…' : busy ? 'Opening payment…' : `Pay ₹${price} with UPI`}
         </button>
         {msg && <p role="status" className="mt-3 text-center text-sm text-sub">{msg}</p>}
         {IN_APP && !done && <p className="mt-2 text-center text-xs text-mute">Paying from Instagram or WhatsApp? Open this page in Chrome first (⋮ → Open in browser) so the UPI app can return here.</p>}
@@ -204,7 +215,7 @@ export function BuyModal({ paper, topicName, counts, onClose }: Props) {
         </p>
       </div>
     </div>
-    {needSignIn && <SignInModal reason={`Sign in to buy ${paper.code}.`} onClose={() => {
+    {needSignIn && <SignInModal reason={`Sign in to buy ${label}.`} onClose={() => {
       setNeedSignIn(false);
       // Closed without signing in: forget the pending purchase. (After a sign-in the effect above carries on.)
       supabase.auth.getSession().then(({ data }) => { if (!data.session) wantPay.current = false; });

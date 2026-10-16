@@ -39,4 +39,6 @@ export const PAPERS: Paper[] = [
 ];
 
 export const PRICE_INR = 49;
+/** One paper's previous-year papers alone (the full paper includes them). Server: PYQ_PRICE_PAISE. */
+export const PYQ_PRICE_INR = 20;
 export const EDITION = 'GATE 2027';
