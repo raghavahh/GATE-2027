@@ -179,7 +179,8 @@ ${sibs.length ? `<h2 class="mt-8 text-lg font-semibold">More in ${esc(m.name)}</
         { '@type': 'LearningResource', name: `${t.name} (GATE 2027 ${p.code})`, url: SITE + canonical, learningResourceType: 'Video lectures and notes',
           educationalLevel: 'GATE', teaches: t.name, about: s.name, isAccessibleForFree: !!t.sample,
           isPartOf: { '@id': `${SITE}/${isGa ? CANON_GA : p.slug}#course` }, provider: { '@id': `${SITE}/#org` } }] }));
-    if (!isGa || p.slug === CANON_GA) sitemaps[p.slug].push(`/${p.slug}/${t.id}`);
+    // Unsold papers' topic pages are one syllabus line each: kept live, left out of the sitemap.
+    if (sell && (!isGa || p.slug === CANON_GA)) sitemaps[p.slug].push(`/${p.slug}/${t.id}`);
   });
 }
 
