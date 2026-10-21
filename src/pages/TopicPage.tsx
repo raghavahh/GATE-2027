@@ -19,7 +19,7 @@ const contentError = (m: string) =>
   m.includes('elsewhere') ? 'Your account is signed in on another device. Sign in again here to continue.'
   : m.includes('sign in') ? 'Sign in to see this topic.'
   : m.includes('not purchased') ? 'This topic unlocks with the full paper.'
-  : 'Could not load this. Check your connection and refresh.';
+  : 'Could not load this. Check your connection, or turn off your ad blocker for this site, then refresh.';
 
 const STATUS: { s: Status; label: string }[] = [
   { s: 'todo', label: 'Not started' },

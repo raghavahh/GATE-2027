@@ -118,7 +118,11 @@ begin
     'users_today', (select count(*) from public.profiles where created_at > now() - interval '1 day'),
     'sales', (select count(*) from public.orders where status = 'paid'),
     'revenue_paise', (select coalesce(sum(amount_paise), 0) from public.orders where status = 'paid'),
-    'sales_by_paper', (select coalesce(json_object_agg(paper, n), '{}'::json) from (select paper, count(*) n from public.entitlements group by paper) x),
+    'buyers', (select count(distinct user_id) from public.orders where status = 'paid'),
+    'checkouts', (select count(*) from (select distinct user_id, paper from public.orders) c), -- unique person+paper checkout starts; retries/expired rows not double-counted
+    'sales_by_source', (select coalesce(json_object_agg(src, n), '{}'::json) from (select coalesce(source, 'unknown') src, count(*) n from public.orders where status = 'paid' group by 1) x),
+    -- paid orders only: entitlements also hold free admin grants
+    'sales_by_paper', (select coalesce(json_object_agg(paper, n), '{}'::json) from (select paper, count(*) n from public.orders where status = 'paid' group by paper) x),
     'logins_today', (select count(*) from public.active_sessions where updated_at > now() - interval '1 day'),
     'recent', (select coalesce(json_agg(r), '[]'::json) from (
       select u.email, o.paper, o.amount_paise, o.payment_id, o.created_at

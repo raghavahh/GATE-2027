@@ -5,6 +5,13 @@ import App from './App'
 
 // Supabase reports failed/expired email links in the hash (#error=…): show them on the sign-in page.
 const q = new URLSearchParams(location.search);
+// First-touch source (?utm_source=… or the referring site), sent with orders so sales show where buyers came from.
+try {
+  if (!localStorage.getItem('src')) {
+    const ref = document.referrer && new URL(document.referrer).hostname;
+    localStorage.setItem('src', q.get('utm_source') ?? q.get('ref') ?? (ref && ref !== location.hostname ? ref : 'direct'));
+  }
+} catch { /* storage blocked: source stays unknown */ }
 if (location.pathname !== '/auth' && q.get('error') && !q.get('code')) {
   // Google sign-in failed or was cancelled (PKCE returns the error in the query): explain it on the sign-in page.
   history.replaceState(null, '', `/auth?error=${encodeURIComponent(q.get('error_description') ?? q.get('error') ?? 'sign-in failed')}`);

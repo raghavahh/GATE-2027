@@ -3,8 +3,8 @@ import { supabase } from '../lib/supabase';
 import { useAuth } from '../lib/auth';
 
 interface Stats {
-  users: number; users_today: number; sales: number; revenue_paise: number; logins_today: number;
-  sales_by_paper: Record<string, number>;
+  users: number; users_today: number; sales: number; buyers: number; checkouts: number; revenue_paise: number; logins_today: number;
+  sales_by_paper: Record<string, number>; sales_by_source: Record<string, number>;
   recent: { email: string; paper: string; amount_paise: number; payment_id: string | null; created_at: string }[];
 }
 
@@ -26,14 +26,14 @@ export function AdminPage() {
   }
 
   const tiles: [string, string | number][] = s ? [
-    ['Revenue', inr(s.revenue_paise)], ['Sales', s.sales], ['Users', s.users], ['New today', s.users_today], ['Logins today', s.logins_today],
+    ['Revenue', inr(s.revenue_paise)], ['Sales', s.sales], ['Buyers', s.buyers], ['Checkout starts', s.checkouts], ['Users', s.users], ['New today', s.users_today], ['Logins today', s.logins_today],
   ] : [];
 
   return (
     <div className="mx-auto max-w-shell px-4 py-10 sm:px-6">
       <h1 className="text-2xl font-semibold">Admin</h1>
       {err && <p className="mt-4 text-hard">{err}</p>}
-      <dl className="mt-6 grid grid-cols-2 gap-3 sm:grid-cols-5">
+      <dl className="mt-6 grid grid-cols-2 gap-3 sm:grid-cols-7">
         {tiles.map(([k, v]) => <div key={k} className="card p-4"><dt className="text-xs text-mute">{k}</dt><dd className="mt-1 font-mono text-2xl tnum">{v}</dd></div>)}
       </dl>
       {s && (
@@ -42,6 +42,10 @@ export function AdminPage() {
           <div className="mt-3 flex flex-wrap gap-2">
             {Object.entries(s.sales_by_paper).sort((a, b) => b[1] - a[1]).map(([p, n]) => <span key={p} className="chip bg-raised font-mono">{p.toUpperCase()} · {n}</span>)}
             {!Object.keys(s.sales_by_paper).length && <span className="text-sub">No sales yet.</span>}
+          </div>
+          <h2 className="mt-10 text-lg font-semibold">Sales by source</h2>
+          <div className="mt-3 flex flex-wrap gap-2">
+            {Object.entries(s.sales_by_source).sort((a, b) => b[1] - a[1]).map(([k, n]) => <span key={k} className="chip bg-raised font-mono">{k} · {n}</span>)}
           </div>
           <h2 className="mt-10 text-lg font-semibold">Recent purchases</h2>
           <div className="card mt-3 overflow-x-auto">

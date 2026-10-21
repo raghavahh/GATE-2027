@@ -71,7 +71,7 @@ export function BuyModal({ paper, topicName, counts, onClose, kind = 'paper' }: 
     setBusy(true); setMsg('');
     try {
       await loadCheckout();
-      const { data, error } = await within(call('create-order', { paper: sku }), 20000, 'Network problem. Check your connection and try again.');
+      const { data, error } = await within(call('create-order', { paper: sku, source: (() => { try { return localStorage.getItem('src'); } catch { return null; } })() }), 20000, 'Network problem. Check your connection and try again.');
       if (error && /already own/i.test(error)) { await refresh(); setDone(true); setBusy(false); return; } // paid earlier (e.g. webhook granted it)
       if (error || !data?.orderId) throw new Error(error ?? 'Could not start payment. Try again.');
       // Until Razorpay approves live keys, checkout runs in test mode: real UPI apps can't pay a test QR.
@@ -203,7 +203,7 @@ export function BuyModal({ paper, topicName, counts, onClose, kind = 'paper' }: 
           <span className="text-3xl font-semibold tnum">₹{price}</span>
           <span className="text-sm text-sub">one payment · 1 year of access</span>
         </div>
-        <p className="mt-1 text-xs text-sub">One account, one active login. Each branch is bought separately. No refunds or cancellations after purchase.</p>
+        <p className="mt-1 text-xs text-sub">Every subject has a free topic you can open first. One account, one active login. Each branch is bought separately. No refunds or cancellations after purchase.</p>
 
         <button type="button" className="btn-primary mt-5 h-11 w-full text-[15px]" disabled={busy || !!pending} onClick={done ? onClose : pay}>
           {done ? `${label} unlocked${pyq ? '' : ' · Start studying'}` : pending ? 'Confirming payment…' : busy ? 'Opening payment…' : `Pay ₹${price} with UPI`}

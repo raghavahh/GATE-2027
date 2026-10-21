@@ -10,7 +10,9 @@ Deno.serve(async req => {
     const user = await userFrom(req);
     if (!user) return json(req, { error: 'Please sign in first.' }, 401);
 
-    const { paper } = await req.json().catch(() => ({}));
+    const { paper, source: rawSource } = await req.json().catch(() => ({}));
+    // Untrusted, for reporting only: keep a short safe label.
+    const source = typeof rawSource === 'string' ? rawSource.toLowerCase().replace(/[^a-z0-9._-]/g, '').slice(0, 40) || null : null;
     if (typeof paper !== 'string') return json(req, { error: 'This paper is not on sale yet.' }, 400);
     const db = admin();
     const pyqOf = paper.match(PYQ_SKU)?.[1];
@@ -44,7 +46,7 @@ Deno.serve(async req => {
       method: 'POST',
       body: JSON.stringify({ amount: PRICE_PAISE, currency: 'INR', receipt: `${paper}-${user.id.slice(0, 8)}-${Date.now()}`, notes: { user_id: user.id, paper, edition: EDITION } }),
     });
-    const { error } = await db.from('orders').insert({ id: order.id, user_id: user.id, paper, edition: EDITION, amount_paise: PRICE_PAISE });
+    const { error } = await db.from('orders').insert({ id: order.id, user_id: user.id, paper, edition: EDITION, amount_paise: PRICE_PAISE, source });
     if (error?.code === '23505') {
       // A parallel request created the open order first; use that one (this Razorpay order is never shown, so never paid).
       const { data: won } = await openOrder();

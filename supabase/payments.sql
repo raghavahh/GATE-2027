@@ -23,6 +23,7 @@ where o.status = 'created' and exists (
   select 1 from public.orders n where n.user_id = o.user_id and n.paper = o.paper and n.edition = o.edition
     and n.status = 'created' and n.created_at > o.created_at);
 create unique index if not exists orders_one_open on public.orders(user_id, paper, edition) where status = 'created';
+alter table public.orders add column if not exists source text;  -- first-touch utm_source or referrer host
 create index if not exists orders_user_id_idx on public.orders(user_id);
 
 create table if not exists public.webhook_events (
